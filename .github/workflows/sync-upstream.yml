@@ -1,0 +1,65 @@
+name: sync-upstream
+
+# Keeps this fork current with the upstream kara.moe karaokebase, while
+# re-applying the local overrides in .github/overrides.sh after every merge.
+#
+# Strategy: merge upstream/master into our master (never force-push), preferring
+# upstream on any content conflict, then re-run the override script and commit
+# the result. KM Server only ever does a shallow `git pull` of this repo, so the
+# history just needs to keep moving forward.
+
+on:
+  schedule:
+    - cron: '17 4 * * *'   # 04:17 UTC nightly
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: master
+
+      - name: Merge upstream and re-apply overrides
+        run: |
+          set -euo pipefail
+
+          git config user.name  "karaokebase-sync[bot]"
+          git config user.email "karaokebase-sync@users.noreply.github.com"
+          git config merge.renameLimit 999999
+          git config diff.renameLimit 999999
+
+          git remote add upstream https://gitlab.com/kara.moe/karaokebase.git
+          git fetch --no-tags upstream master
+
+          before="$(git rev-parse HEAD)"
+
+          # Merge upstream; prefer upstream on content conflicts (overrides are
+          # re-applied right after). Handle modify/delete conflicts by taking
+          # the upstream side (a deleted file just means the override no-ops).
+          if ! git merge --no-edit -X theirs upstream/master; then
+            git checkout --theirs -- . 2>/dev/null || true
+            git add -A
+            git commit --no-edit
+          fi
+
+          bash .github/overrides.sh
+
+          if ! git diff --quiet; then
+            git commit -am "chore(overrides): re-apply local overrides after upstream merge"
+          fi
+
+          if [ "$(git rev-parse HEAD)" != "$before" ]; then
+            git push origin HEAD:master
+          else
+            echo "Already up to date with upstream."
+          fi
