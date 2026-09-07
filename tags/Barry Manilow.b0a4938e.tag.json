@@ -5,13 +5,11 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Barry Manilow"
     },
-    "name": "Nana Azuki",
+    "name": "Barry Manilow",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "b0a4938e-8f81-4b02-8da5-b092e20bfe40",
     "types": [
       8
     ]

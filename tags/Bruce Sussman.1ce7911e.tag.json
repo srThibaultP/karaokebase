@@ -5,13 +5,11 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Bruce Sussman"
     },
-    "name": "Nana Azuki",
+    "name": "Bruce Sussman",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "1ce7911e-c912-4efd-ade2-6912e7aea602",
     "types": [
       8
     ]

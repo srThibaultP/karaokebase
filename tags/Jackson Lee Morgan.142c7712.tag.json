@@ -5,13 +5,11 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Jackson Lee Morgan"
     },
-    "name": "Nana Azuki",
+    "name": "Jackson Lee Morgan",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "142c7712-9e0f-48f3-9942-155eefe741ed",
     "types": [
       8
     ]

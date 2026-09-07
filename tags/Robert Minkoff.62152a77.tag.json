@@ -5,13 +5,11 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Robert Minkoff"
     },
-    "name": "Nana Azuki",
+    "name": "Robert Minkoff",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "62152a77-a847-4714-bbc0-640beb53cd6d",
     "types": [
       8
     ]

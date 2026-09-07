@@ -5,15 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Yumiko Ito"
     },
-    "name": "Nana Azuki",
+    "name": "Yumiko Ito",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "879c0d55-ec64-4fdd-9543-40b4fdceb91b",
     "types": [
-      8
+      2
     ]
   }
 }

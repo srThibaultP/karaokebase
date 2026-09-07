@@ -5,15 +5,14 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Oliver and Company",
+      "fre": "Oliver & Compagnie"
     },
-    "name": "Nana Azuki",
+    "name": "Oliver & Compagnie",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "742bec6e-4c25-40c3-bb00-a4a2e2423f60",
     "types": [
-      8
+      1
     ]
   }
 }

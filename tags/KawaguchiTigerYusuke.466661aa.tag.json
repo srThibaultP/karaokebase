@@ -5,13 +5,11 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "KawaguchiTigerYusuke"
     },
-    "name": "Nana Azuki",
+    "name": "KawaguchiTigerYusuke",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "466661aa-bdfe-44d1-9514-9a553681a191",
     "types": [
       8
     ]

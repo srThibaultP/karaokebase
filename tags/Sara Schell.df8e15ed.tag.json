@@ -5,13 +5,11 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Sara Schell"
     },
-    "name": "Nana Azuki",
+    "name": "Sara Schell",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "df8e15ed-b7ed-4a2e-b7b8-162fbdaac601",
     "types": [
       8
     ]

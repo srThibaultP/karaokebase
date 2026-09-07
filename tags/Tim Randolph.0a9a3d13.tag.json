@@ -5,13 +5,11 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Tim Randolph"
     },
-    "name": "Nana Azuki",
+    "name": "Tim Randolph",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "0a9a3d13-29ae-49da-81ee-5059844d1d0b",
     "types": [
       8
     ]

@@ -5,15 +5,14 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "qro": "Bikkuriman",
+      "jpn": "ビックリマン"
     },
-    "name": "Nana Azuki",
+    "name": "Bikkuriman",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "a2efda10-7772-4e9b-97d8-0659cd273ddf",
     "types": [
-      8
+      18
     ]
   }
 }

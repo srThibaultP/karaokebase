@@ -5,13 +5,11 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Kyle Buckley"
     },
-    "name": "Nana Azuki",
+    "name": "Kyle Buckley",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "a41edf39-13cb-4f83-b370-ccae16aaeca0",
     "types": [
       8
     ]

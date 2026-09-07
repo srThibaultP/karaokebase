@@ -5,14 +5,15 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Ryozy Mazda",
+      "qro": "Mazda Ryozy",
+      "jpn": "松田 亮治"
     },
-    "name": "Nana Azuki",
+    "name": "Ryozy Mazda",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "e15ea827-04f7-4e75-8428-94bc43f58a98",
     "types": [
+      2,
       8
     ]
   }

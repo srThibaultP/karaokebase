@@ -4,16 +4,12 @@
     "version": 1
   },
   "tag": {
-    "aliases": [
-      "Satou"
-    ],
     "i18n": {
-      "jpn": "Kanna Satô",
-      "qro": "佐藤栞奈"
+      "eng": "Linh Rateau"
     },
-    "name": "Kanna Sato",
+    "name": "Linh Rateau",
     "repository": "kara.moe",
-    "tid": "da7d96a7-3472-429d-913d-f59c1523c682",
+    "tid": "194c5ef2-6468-45c0-a950-8f0967b239aa",
     "types": [
       2
     ]

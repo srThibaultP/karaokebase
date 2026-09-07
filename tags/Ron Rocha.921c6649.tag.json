@@ -5,13 +5,11 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Ron Rocha"
     },
-    "name": "Nana Azuki",
+    "name": "Ron Rocha",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "921c6649-0779-4899-bb7b-12bd7fdc37f9",
     "types": [
       8
     ]

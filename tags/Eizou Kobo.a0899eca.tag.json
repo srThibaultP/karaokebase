@@ -5,15 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Eizô Kobo"
     },
-    "name": "Nana Azuki",
+    "name": "Eizô Kobo",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "a0899eca-6926-4799-80e6-150da46522ef",
     "types": [
-      8
+      4
     ]
   }
 }

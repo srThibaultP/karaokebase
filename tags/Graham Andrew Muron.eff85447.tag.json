@@ -5,13 +5,11 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Graham Andrew Muron"
     },
-    "name": "Nana Azuki",
+    "name": "Graham Andrew Muron",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "eff85447-b798-4d10-8e69-162faa6723d3",
     "types": [
       8
     ]

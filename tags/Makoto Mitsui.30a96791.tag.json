@@ -5,13 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Makoto Mitsui",
+      "qro": "Mitsui Makoto",
+      "jpn": "三井 誠"
     },
-    "name": "Nana Azuki",
+    "name": "Makoto Mitsui",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "30a96791-7342-4b8a-b3e3-b13f22b7e4fe",
     "types": [
       8
     ]

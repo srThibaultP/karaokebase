@@ -5,15 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Maria Ruggieri"
     },
-    "name": "Nana Azuki",
+    "name": "Maria Ruggieri",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "49f2c9b2-71ed-4c88-8ffd-8b1a5ab69e15",
     "types": [
-      8
+      2
     ]
   }
 }

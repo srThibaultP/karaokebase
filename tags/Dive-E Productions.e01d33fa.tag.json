@@ -5,13 +5,11 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Nana Azuki",
-      "jpn": "AZUKI七",
-      "qro": "Azuki Nana"
+      "eng": "Dive-E Productions"
     },
-    "name": "Nana Azuki",
+    "name": "Dive-E Productions",
     "repository": "kara.moe",
-    "tid": "9b87bc55-8b31-466e-b29f-512a03645641",
+    "tid": "e01d33fa-6ec7-4ce1-a8cb-dfc363687f51",
     "types": [
       8
     ]
