@@ -5,7 +5,8 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Mienohito"
+      "eng": "Mienohito",
+      "jpn": "三重の人"
     },
     "name": "Mienohito",
     "repository": "kara.moe",
