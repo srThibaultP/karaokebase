@@ -5,7 +5,9 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Tasuku Kaito"
+      "eng": "Tasuku Kaito",
+      "jpn": "海渡翼",
+      "qro": "Kaito Tasuku"
     },
     "name": "Tasuku Kaito",
     "repository": "kara.moe",
