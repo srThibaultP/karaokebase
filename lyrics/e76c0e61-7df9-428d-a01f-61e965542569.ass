@@ -1,0 +1,203 @@
+﻿[Script Info]
+Title: Divorced By Car (Muffler)
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Seruuuu
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:28.45,0:00:32.62,Sample KM [Up],,0,0,0,karaoke,{\k30}Have {\k87}you {\k30}e{\k86}ver {\k29}felt {\k40}like {\k28}this {\k17}be{\k42}fo{\k28}re?
+Comment: 0,0:00:32.98,0:00:35.05,Sample KM [Up],,0,0,0,karaoke,{\k33}Steel {\k64}pipe, {\k24}cheap {\k21}en{\k65}gine,
+Comment: 0,0:00:35.05,0:00:37.45,Sample KM [Up],,0,0,0,karaoke,{\k18}She's {\k37}got {\k15}what {\k22}I {\k22}can{\k13}not {\k24}ig{\k89}nore
+Comment: 0,0:00:37.52,0:00:41.72,Sample KM [Up],,0,0,0,karaoke,{\k32}Talk{\k76}ing {\k14}a{\k25}bout {\k82}that {\k24}muff{\k48}ler, {\k32}yeah {\k29}you {\k16}get {\k42}it
+Comment: 0,0:00:42.00,0:00:43.94,Sample KM [Up],,0,0,0,karaoke,{\k15}Me{\k26}cha{\k72}nic, {\k15}trau{\k29}ma{\k37}tic
+Comment: 0,0:00:44.27,0:00:50.81,Sample KM [Up],,0,0,0,karaoke,{\k10}When {\k15}he {\k28}finds {\k32}out {\k51}what {\k56}I've {\kf348}done {\k30}to {\k22}this {\k62}car
+Comment: 0,0:00:55.34,0:00:57.61,Sample KM [Up],,0,0,0,karaoke,{\k14}They {\k6}al{\k24}ways {\k29}judge {\k45}me, {\k15}they {\k12}can{\k15}not {\k67}see
+Comment: 0,0:00:57.61,0:00:59.77,Sample KM [Up],,0,0,0,karaoke,{\k19}Sex {\k24}with {\k75}cars, {\k27}sets {\k25}me {\k75}free
+Comment: 0,0:00:59.78,0:01:06.75,Sample KM [Up],,0,0,0,karaoke,{\k14}Be{\k85}hold {\k29}the {\k114}mas{\k85}ter {\k28}of {\k12}ma{\k26}ri{\k46}tal {\k29}dis{\kf229}guise
+Comment: 0,0:01:12.42,0:01:14.02,Sample KM [Up],,0,0,0,karaoke,{\k18}Shit, {\k25}I {\k23}love {\k18}that {\k76}car
+Comment: 0,0:01:15.21,0:01:17.11,Sample KM [Up],,0,0,0,karaoke,{\k15}This {\k16}is {\k73}it, {\k11}the {\k27}last {\k48}straw
+Comment: 0,0:01:17.49,0:01:19.21,Sample KM [Up],,0,0,0,karaoke,{\k33}I {\k24}am {\k13}out{\k14}ta {\kf88}here
+Comment: 0,0:01:19.71,0:01:21.47,Sample KM [Up],,0,0,0,karaoke,{\k28}Take {\k32}your {\k90}ca{\k26}rs
+Comment: 0,0:01:21.68,0:01:23.80,Sample KM [Up],,0,0,0,karaoke,{\k32}And {\k24}shove {\k17}'em {\k22}up {\k42}your {\k75}rear
+Comment: 0,0:01:24.33,0:01:25.47,Sample KM [Up],,0,0,0,karaoke,{\k18}Glad{\k13}ly, {\k26}I {\k57}said
+Comment: 0,0:01:25.71,0:01:28.64,Sample KM [Up],,0,0,0,karaoke,{\k15}The {\k17}spa{\k17}ghet{\k42}ti {\k29}sucked {\k30}dick {\k13}a{\k27}ny{\k103}way
+Comment: 0,0:01:28.87,0:01:37.43,Sample KM [Up],,0,0,0,karaoke,{\k34}Fi{\k22}le {\k31}for {\k13}di{\k75}vorce, {\k28}rea{\k75}son? {\k125}car {\k52}in{\k53}ter{\kf348}course
+Comment: 0,0:01:37.43,0:01:39.72,Sample KM [Up],,0,0,0,karaoke,{\k26}Are {\k21}you {\k22}rea{\k32}dy {\k14}for {\k23}gar{\k21}lic {\k29}brea{\k41}dy?
+Comment: 0,0:01:39.73,0:01:44.21,Sample KM [Up],,0,0,0,karaoke,{\kf229}Ooh, {\k26}here {\k28}I {\k29}come {\k23}in{\k34}to {\k15}the {\k64}night
+Comment: 0,0:01:44.21,0:01:46.56,Sample KM [Up],,0,0,0,karaoke,{\k19}Pack{\k30}ing {\k45}meat, {\k27}I'm {\k11}rea{\k11}dy {\k20}for {\k13}a {\k59}fight
+Comment: 0,0:01:46.56,0:01:48.83,Sample KM [Up],,0,0,0,karaoke,{\k16}Stuck {\k11}in {\k16}the {\k21}muf{\k49}fler, {\k13}get {\k24}a {\k77}saw
+Comment: 0,0:01:48.83,0:01:51.10,Sample KM [Up],,0,0,0,karaoke,{\k35}Wife {\k36}says {\k14}this {\k11}is {\k19}the {\k33}last {\k79}straw
+Comment: 0,0:01:51.10,0:01:54.22,Sample KM [Up],,0,0,0,karaoke,{\k29}Here {\k26}I {\k31}come {\k30}in{\k27}to {\k15}the {\k154}night
+Comment: 0,0:01:54.22,0:01:56.10,Sample KM [Up],,0,0,0,karaoke,{\k15}Cause {\k16}the {\k27}muf{\k25}fler {\k27}feels {\k20}so {\k58}right
+Comment: 0,0:01:56.51,0:01:58.60,Sample KM [Up],,0,0,0,karaoke,{\k27}To{\k80}night, {\k33}al{\k69}right
+Comment: 0,0:01:58.75,0:02:00.53,Sample KM [Up],,0,0,0,karaoke,{\k32}I'm {\k15}get{\k41}ting {\k29}di{\k61}vorced
+Comment: 0,0:02:07.84,0:02:10.43,Sample KM [Up],,0,0,0,karaoke,{\k33}Just {\k11}re{\k23}lax {\k18}and {\k56}calm {\k118}down
+Comment: 0,0:02:17.20,0:02:18.32,Sample KM [Up],,0,0,0,karaoke,{\k54}Gas {\k58}light!
+Comment: 0,0:02:18.32,0:02:20.64,Sample KM [Up],,0,0,0,karaoke,{\k50}Please {\k66}don't {\k15}e{\k18}ver {\k23}leave {\k60}me
+Comment: 0,0:02:20.64,0:02:22.95,Sample KM [Up],,0,0,0,karaoke,{\k48}Cars {\k27}need {\k41}that {\k15}vi{\k14}ta{\k28}min {\k58}P
+Comment: 0,0:02:22.95,0:02:24.94,Sample KM [Up],,0,0,0,karaoke,{\k16}Eve{\k11}ry{\k15}bo{\k12}dy {\k16}needs {\k15}a {\k9}hob{\k12}by, {\k7}I {\k29}once {\k26}read {\k31}that
+Comment: 0,0:02:25.08,0:02:28.34,Sample KM [Up],,0,0,0,karaoke,{\k12}But {\k32}damn {\k14}the {\k26}muf{\k35}fler, {\k38}ooh, {\k21}it {\k18}makes {\k13}me {\k28}go {\k89}splat
+Comment: 0,0:02:31.72,0:02:34.10,Sample KM [Up],,0,0,0,karaoke,{\k29}Yeah {\k22}sor{\k23}ry {\kf164}wife
+Comment: 0,0:02:34.31,0:02:38.12,Sample KM [Up],,0,0,0,karaoke,{\k25}Sor{\k8}ry {\k12}you {\k27}caught {\k12}me {\k16}cheat{\k13}ing {\k29}on {\k24}your {\k32}car {\k27}to{\kf156}day
+Comment: 0,0:02:38.86,0:02:40.53,Sample KM [Up],,0,0,0,karaoke,{\k20}But {\k19}I'll {\k24}tell {\k54}you {\k50}what
+Comment: 0,0:02:40.89,0:02:42.20,Sample KM [Up],,0,0,0,karaoke,{\k26}There's {\k15}some{\k13}thing {\k24}you {\k19}give {\k34}me
+Comment: 0,0:02:42.20,0:02:43.19,Sample KM [Up],,0,0,0,karaoke,{\k10}that {\k27}makes {\k13}me {\k49}stay
+Comment: 0,0:02:43.19,0:02:45.73,Sample KM [Up],,0,0,0,karaoke,{\k20}To {\k26}fix {\k33}our {\k15}mar{\k39}riage {\k25}just {\k16}for {\k17}to{\k63}day
+Comment: 0,0:02:45.73,0:02:48.00,Sample KM [Up],,0,0,0,karaoke,{\k26}Are {\k21}you {\k22}rea{\k32}dy {\k14}for {\k23}gar{\k21}lic {\k29}brea{\k41}dy?
+Comment: 0,0:02:48.00,0:02:52.41,Sample KM [Up],,0,0,0,karaoke,{\kf229}Ooh, {\k26}here {\k28}I {\k29}come {\k23}in{\k34}to {\k15}the {\k57}night
+Comment: 0,0:02:52.48,0:02:54.83,Sample KM [Up],,0,0,0,karaoke,{\k19}Pack{\k30}ing {\k45}meat, {\k27}I'm {\k11}rea{\k11}dy {\k20}for {\k13}a {\k59}fight
+Comment: 0,0:02:54.83,0:02:56.83,Sample KM [Up],,0,0,0,karaoke,{\k16}Stuck {\k11}in {\k16}the {\k21}muf{\k49}fler, {\k13}get {\k30}a {\k44}saw
+Comment: 0,0:02:57.12,0:02:59.39,Sample KM [Up],,0,0,0,karaoke,{\k35}Wife {\k36}says {\k14}this {\k11}is {\k19}the {\k33}last {\k79}straw
+Comment: 0,0:02:59.39,0:03:02.47,Sample KM [Up],,0,0,0,karaoke,{\k29}Here {\k26}I {\k31}come {\k30}in{\k25}to {\k15}the {\kf152}night
+Comment: 0,0:03:02.51,0:03:04.26,Sample KM [Up],,0,0,0,karaoke,{\k28}The {\k28}muf{\k26}fler {\k32}feels {\k17}so {\k44}right
+Comment: 0,0:03:04.72,0:03:06.96,Sample KM [Up],,0,0,0,karaoke,{\k35}To{\k82}night, {\k47}al{\k64}right
+Comment: 0,0:03:07.05,0:03:11.84,Sample KM [Up],,0,0,0,karaoke,{\k32}I'm {\k18}get{\k38}ting {\k57}di{\kf334}vorced
+Comment: 0,0:03:10.75,0:03:13.03,Sample KM [Up],,0,0,0,karaoke,{\k15}Pack{\k34}ing {\k38}meat, {\k22}I'm {\k16}rea{\k18}dy {\k14}for {\k14}a {\k57}fight
+Comment: 0,0:03:13.03,0:03:14.96,Sample KM [Up],,0,0,0,karaoke,{\k16}Stuck {\k11}in {\k16}the {\k21}muf{\k49}fler, {\k13}get {\k28}a {\k39}saw
+Comment: 0,0:03:15.31,0:03:17.58,Sample KM [Up],,0,0,0,karaoke,{\k35}Wife {\k36}says {\k14}this {\k11}is {\k19}the {\k33}last {\k79}straw
+Comment: 0,0:03:17.58,0:03:20.70,Sample KM [Up],,0,0,0,karaoke,{\k29}Here {\k26}I {\k31}come {\k30}in{\k27}to {\k15}the {\kf154}night
+Comment: 0,0:03:20.70,0:03:22.77,Sample KM [Up],,0,0,0,karaoke,{\k26}The {\k25}muf{\k31}fler {\k32}feels {\k15}so {\k78}right
+Comment: 0,0:03:22.98,0:03:25.02,Sample KM [Up],,0,0,0,karaoke,{\k27}To{\k80}night, {\k33}al{\k64}right
+Comment: 0,0:03:25.52,0:03:27.82,Sample KM [Up],,0,0,0,karaoke,{\k20}For {\k36}a {\k46}di{\k128}vorce
+Comment: 0,0:03:32.46,0:03:33.23,Sample KM [Up],,0,0,0,karaoke,{\k17}O{\k22}kay, {\k38}fine
+Comment: 0,0:03:33.94,0:03:36.88,Sample KM [Up],,0,0,0,karaoke,{\k41}I'll {\k29}con{\k24}fess {\k13}eve{\k18}ry{\k30}thing {\k24}to {\k115}you
+Comment: 0,0:03:37.42,0:03:41.57,Sample KM [Up],,0,0,0,karaoke,{\k32}There {\k23}is {\k34}some{\k128}thing {\k34}real{\k31}ly {\k24}wrong {\k18}with {\k91}you
+Comment: 0,0:03:41.91,0:03:44.19,Sample KM [Up],,0,0,0,karaoke,{\k16}You {\k31}were{\k15}n't {\k27}like {\k23}this {\k20}be{\k96}fore
+Comment: 0,0:03:44.30,0:03:46.14,Sample KM [Up],,0,0,0,karaoke,{\k28}Now {\k28}you're {\k18}fu{\k24}cking {\k86}cars?
+Comment: 0,0:03:46.59,0:03:47.96,Sample KM [Up],,0,0,0,karaoke,{\k56}Well, {\k133}wife
+Comment: 0,0:03:48.49,0:03:51.87,Sample KM [Up],,0,0,0,karaoke,{\k30}There's {\k23}some{\k38}thing {\k45}I {\k32}got{\k37}ta {\k32}tell {\k101}you
+Comment: 0,0:03:51.99,0:03:55.00,Sample KM [Up],,0,0,0,karaoke,{\k20}No, {\k31}my {\k62}son, {\k25}don't {\k33}tell {\k29}her {\k13}a{\k27}ny{\k68}thing
+Comment: 0,0:03:55.00,0:03:57.08,Sample KM [Up],,0,0,0,karaoke,{\k10}A {\k30}de{\k27}mon {\k29}came {\k24}in{\k30}to {\k19}my {\k39}head
+Comment: 0,0:03:57.32,0:04:01.81,Sample KM [Up],,0,0,0,karaoke,{\k25}Told {\k11}me {\k14}to {\k24}fuck {\k34}cars {\k13}in{\k29}stead {\k9}of {\k15}the {\k34}one {\k41}I {\kf200}wed
+Comment: 0,0:04:01.96,0:04:04.14,Sample KM [Up],,0,0,0,karaoke,{\k17}No, {\k34}my {\k29}son, {\k13}she {\k19}must {\k13}ne{\k27}ver {\k66}know
+Comment: 0,0:04:04.14,0:04:06.51,Sample KM [Up],,0,0,0,karaoke,{\k37}De{\k26}mon, {\k26}de{\k14}mon, {\k13}in{\k16}side {\k33}of {\k72}me
+Comment: 0,0:04:06.77,0:04:10.64,Sample KM [Up],,0,0,0,karaoke,{\k30}Why {\k28}don't {\k23}you {\k56}just {\k29}let {\k33}me {\kf188}be?
+Comment: 0,0:04:10.64,0:04:13.02,Sample KM [Up],,0,0,0,karaoke,{\k19}You're {\k16}the {\k18}cho{\k25}sen {\k27}one, {\k13}you {\k19}have {\k9}a {\k26}des{\k12}ti{\k54}ny
+Comment: 0,0:04:13.31,0:04:15.32,Sample KM [Up],,0,0,0,karaoke,{\k27}What {\k27}the {\k28}fuck {\k32}is {\k19}go{\k21}ing {\k47}on?
+Comment: 0,0:04:15.87,0:04:19.86,Sample KM [Up],,0,0,0,karaoke,{\k29}Who {\k29}are {\k30}you {\k54}talk{\k61}ing {\k196}to?
+Comment: 0,0:04:20.13,0:04:22.18,Sample KM [Up],,0,0,0,karaoke,{\k24}Or {\k18}it's {\k32}just {\k43}my {\k35}de{\k53}mon
+Comment: 0,0:04:22.41,0:04:24.69,Sample KM [Up],,0,0,0,karaoke,{\k26}Are {\k18}you {\k25}rea{\k23}dy {\k17}for {\k29}gar{\k15}lic {\k25}brea{\k50}dy?
+Comment: 0,0:04:25.81,0:04:26.93,Sample KM [Up],,0,0,0,karaoke,{\k32}Turn {\k14}the {\k66}key!
+Comment: 0,0:04:26.98,0:04:29.13,Sample KM [Up],,0,0,0,karaoke,{\k27}Here {\k25}I {\k32}come {\k25}in{\k31}to {\k11}the {\k44}night
+Comment: 0,0:04:29.14,0:04:31.52,Sample KM [Up],,0,0,0,karaoke,{\k20}Pack{\k32}ing {\k42}meat, {\k25}I'm {\k11}rea{\k18}dy {\k14}for {\k14}a {\k62}fight
+Comment: 0,0:04:31.52,0:04:33.81,Sample KM [Up],,0,0,0,karaoke,{\k16}Stuck {\k11}in {\k16}the {\k21}muf{\k49}fler, {\k13}get {\k24}a {\k77}saw
+Comment: 0,0:04:33.81,0:04:36.06,Sample KM [Up],,0,0,0,karaoke,{\k35}Wife {\k36}says {\k14}this {\k11}is {\k19}the {\k33}last {\k79}straw
+Comment: 0,0:04:36.04,0:04:39.09,Sample KM [Up],,0,0,0,karaoke,{\k29}Here {\k26}I {\k31}come {\k30}in{\k25}to {\k15}the {\kf152}night
+Comment: 0,0:04:39.09,0:04:41.06,Sample KM [Up],,0,0,0,karaoke,{\k24}Cause {\k14}the {\k22}muf{\k34}fler {\k28}feels {\k14}so {\k61}right
+Comment: 0,0:04:41.43,0:04:43.54,Sample KM [Up],,0,0,0,karaoke,{\k42}To{\k82}night, {\k47}al{\k64}right
+Comment: 0,0:04:43.73,0:04:48.43,Sample KM [Up],,0,0,0,karaoke,{\k27}I'm {\k16}get{\k43}ting {\k56}di{\kf328}vorced
+Comment: 0,0:05:03.32,0:05:05.59,Sample KM [Up],,0,0,0,karaoke,{\k23}Do {\k24}my {\k14}bid{\k28}ding, {\k24}and {\k30}do {\k29}my {\k55}will
+Comment: 0,0:05:05.59,0:05:07.93,Sample KM [Up],,0,0,0,karaoke,{\k16}May{\k10}be {\k13}you {\k15}can {\k26}eat {\k31}some {\k14}gar{\k15}lic {\k24}bread {\k70}swill
+Comment: 0,0:05:07.94,0:05:10.16,Sample KM [Up],,0,0,0,karaoke,{\k14}You {\k11}will {\k10}have {\k11}a {\k31}mas{\k33}ter {\k30}beard {\k27}like {\k55}me
+Comment: 0,0:05:10.16,0:05:12.43,Sample KM [Up],,0,0,0,karaoke,{\k17}You {\k15}will {\k24}fuck {\k62}cars, {\k13}that {\k12}is {\k12}my {\k14}de{\k58}cree
+Comment: 0,0:05:12.43,0:05:14.61,Sample KM [Up],,0,0,0,karaoke,{\k47}Gas{\k34}light {\k37}your {\k26}wife {\k16}to{\k58}night
+Comment: 0,0:05:14.61,0:05:16.93,Sample KM [Up],,0,0,0,karaoke,{\k14}You {\k13}got{\k14}ta {\k15}be{\k27}lieve {\k16}me, {\k13}I'm {\k23}feel{\k15}ing {\k34}al{\k48}right
+Comment: 0,0:05:16.93,0:05:22.02,Sample KM [Up],,0,0,0,karaoke,{\kf113}Are {\kf123}you {\k15}rea{\k64}dy {\k34}for {\k57}gar{\k54}lic {\k15}brea{\k34}dy?
+Comment: 0,0:05:22.01,0:05:24.72,Sample KM [Up],,0,0,0,karaoke,{\k44}No {\k21}I'm {\k93}out {\k26}of {\k87}here
+Comment: 0,0:05:24.72,0:05:26.72,Sample KM [Up],,0,0,0,karaoke,{\k12}Take {\k19}the {\k24}couch, {\k14}the {\k30}dogs {\k10}and {\k14}the {\k77}beer
+Comment: 0,0:05:27.00,0:05:32.70,Sample KM [Up],,0,0,0,karaoke,{\k32}Cause {\k106}I {\k108}am {\k54}out {\k69}of {\k201}here
+Comment: 0,0:05:35.25,0:05:38.56,Sample KM [Up],,0,0,0,karaoke,{\k44}Di{\k72}vorce, {\k42}di{\k69}vorce, {\k30}di{\k74}vorce
+Comment: 0,0:05:38.64,0:05:40.20,Sample KM [Up],,0,0,0,karaoke,{\k13}Talk{\k9}ing {\k10}a{\k14}bout {\k13}a {\k28}di{\k69}vorce
+Dialogue: 0,0:00:27.55,0:00:32.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Have {\k87}you {\k30}e{\k86}ver {\k29}felt {\k40}like {\k28}this {\k17}be{\k42}fo{\k28}re?
+Dialogue: 0,0:00:32.08,0:00:35.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Steel {\k64}pipe, {\k24}cheap {\k21}en{\k65}gine,
+Dialogue: 0,0:00:34.15,0:00:37.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}She's {\k37}got {\k15}what {\k22}I {\k22}can{\k13}not {\k24}ig{\k89}nore
+Dialogue: 0,0:00:36.62,0:00:41.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Talk{\k76}ing {\k14}a{\k25}bout {\k82}that {\k24}muff{\k48}ler, {\k32}yeah {\k29}you {\k16}get {\k42}it
+Dialogue: 0,0:00:41.10,0:00:44.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Me{\k26}cha{\k72}nic, {\k15}trau{\k29}ma{\k37}tic
+Dialogue: 0,0:00:43.37,0:00:51.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}When {\k15}he {\k28}finds {\k32}out {\k51}what {\k56}I've {\kf348}done {\k30}to {\k22}this {\k62}car
+Dialogue: 0,0:00:54.44,0:00:57.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}They {\k6}al{\k24}ways {\k29}judge {\k45}me, {\k15}they {\k12}can{\k15}not {\k67}see
+Dialogue: 0,0:00:56.71,0:00:59.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Sex {\k24}with {\k75}cars, {\k27}sets {\k25}me {\k75}free
+Dialogue: 0,0:00:58.88,0:01:06.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Be{\k85}hold {\k29}the {\k114}mas{\k85}ter {\k28}of {\k12}ma{\k26}ri{\k46}tal {\k29}dis{\kf229}guise
+Dialogue: 0,0:01:11.52,0:01:14.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Shit, {\k25}I {\k23}love {\k18}that {\k76}car
+Dialogue: 0,0:01:14.31,0:01:17.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}This {\k16}is {\k73}it, {\k11}the {\k27}last {\k48}straw
+Dialogue: 0,0:01:16.59,0:01:19.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}I {\k24}am {\k13}out{\k14}ta {\kf88}here
+Dialogue: 0,0:01:18.81,0:01:21.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Take {\k32}your {\k90}ca{\k26}rs
+Dialogue: 0,0:01:20.78,0:01:24.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}And {\k24}shove {\k17}'em {\k22}up {\k42}your {\k75}rear
+Dialogue: 0,0:01:23.43,0:01:25.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Glad{\k13}ly, {\k26}I {\k57}said
+Dialogue: 0,0:01:24.81,0:01:28.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k17}spa{\k17}ghet{\k42}ti {\k29}sucked {\k30}dick {\k13}a{\k27}ny{\k103}way
+Dialogue: 0,0:01:27.97,0:01:37.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Fi{\k22}le {\k31}for {\k13}di{\k75}vorce, {\k28}rea{\k75}son? {\k125}car {\k52}in{\k53}ter{\kf348}course
+Dialogue: 0,0:01:36.53,0:01:39.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Are {\k21}you {\k22}rea{\k32}dy {\k14}for {\k23}gar{\k21}lic {\k29}brea{\k41}dy?
+Dialogue: 0,0:01:38.83,0:01:44.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf229}Ooh, {\k26}here {\k28}I {\k29}come {\k23}in{\k34}to {\k15}the {\k64}night
+Dialogue: 0,0:01:43.31,0:01:46.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Pack{\k30}ing {\k45}meat, {\k27}I'm {\k11}rea{\k11}dy {\k20}for {\k13}a {\k59}fight
+Dialogue: 0,0:01:45.66,0:01:49.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Stuck {\k11}in {\k16}the {\k21}muf{\k49}fler, {\k13}get {\k24}a {\k77}saw
+Dialogue: 0,0:01:47.93,0:01:51.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Wife {\k36}says {\k14}this {\k11}is {\k19}the {\k33}last {\k79}straw
+Dialogue: 0,0:01:50.20,0:01:54.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Here {\k26}I {\k31}come {\k30}in{\k27}to {\k15}the {\k154}night
+Dialogue: 0,0:01:53.32,0:01:56.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Cause {\k16}the {\k27}muf{\k25}fler {\k27}feels {\k20}so {\k58}right
+Dialogue: 0,0:01:55.61,0:01:58.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}To{\k80}night, {\k33}al{\k69}right
+Dialogue: 0,0:01:57.85,0:02:00.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}I'm {\k15}get{\k41}ting {\k29}di{\k61}vorced
+Dialogue: 0,0:02:06.94,0:02:10.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Just {\k11}re{\k23}lax {\k18}and {\k56}calm {\k118}down
+Dialogue: 0,0:02:16.30,0:02:18.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Gas {\k58}light!
+Dialogue: 0,0:02:17.42,0:02:20.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Please {\k66}don't {\k15}e{\k18}ver {\k23}leave {\k60}me
+Dialogue: 0,0:02:19.74,0:02:23.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Cars {\k27}need {\k41}that {\k15}vi{\k14}ta{\k28}min {\k58}P
+Dialogue: 0,0:02:22.05,0:02:25.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Eve{\k11}ry{\k15}bo{\k12}dy {\k16}needs {\k15}a {\k9}hob{\k12}by, {\k7}I {\k29}once {\k26}read {\k31}that
+Dialogue: 0,0:02:24.18,0:02:28.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}But {\k32}damn {\k14}the {\k26}muf{\k35}fler, {\k38}ooh, {\k21}it {\k18}makes {\k13}me {\k28}go {\k89}splat
+Dialogue: 0,0:02:30.82,0:02:34.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Yeah {\k22}sor{\k23}ry {\kf164}wife
+Dialogue: 0,0:02:33.41,0:02:38.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Sor{\k8}ry {\k12}you {\k27}caught {\k12}me {\k16}cheat{\k13}ing {\k29}on {\k24}your {\k32}car {\k27}to{\kf156}day
+Dialogue: 0,0:02:37.96,0:02:40.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}But {\k19}I'll {\k24}tell {\k54}you {\k50}what
+Dialogue: 0,0:02:39.99,0:02:42.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}There's {\k15}some{\k13}thing {\k24}you {\k19}give {\k34}me
+Dialogue: 0,0:02:41.30,0:02:43.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}that {\k27}makes {\k13}me {\k49}stay
+Dialogue: 0,0:02:42.29,0:02:45.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}To {\k26}fix {\k33}our {\k15}mar{\k39}riage {\k25}just {\k16}for {\k17}to{\k63}day
+Dialogue: 0,0:02:44.83,0:02:48.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Are {\k21}you {\k22}rea{\k32}dy {\k14}for {\k23}gar{\k21}lic {\k29}brea{\k41}dy?
+Dialogue: 0,0:02:47.10,0:02:52.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf229}Ooh, {\k26}here {\k28}I {\k29}come {\k23}in{\k34}to {\k15}the {\k57}night
+Dialogue: 0,0:02:51.58,0:02:55.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Pack{\k30}ing {\k45}meat, {\k27}I'm {\k11}rea{\k11}dy {\k20}for {\k13}a {\k59}fight
+Dialogue: 0,0:02:53.93,0:02:57.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Stuck {\k11}in {\k16}the {\k21}muf{\k49}fler, {\k13}get {\k30}a {\k44}saw
+Dialogue: 0,0:02:56.22,0:02:59.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Wife {\k36}says {\k14}this {\k11}is {\k19}the {\k33}last {\k79}straw
+Dialogue: 0,0:02:58.49,0:03:02.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Here {\k26}I {\k31}come {\k30}in{\k25}to {\k15}the {\kf152}night
+Dialogue: 0,0:03:01.61,0:03:04.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}The {\k28}muf{\k26}fler {\k32}feels {\k17}so {\k44}right
+Dialogue: 0,0:03:03.82,0:03:07.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}To{\k82}night, {\k47}al{\k64}right
+Dialogue: 0,0:03:06.15,0:03:12.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}I'm {\k18}get{\k38}ting {\k57}di{\kf334}vorced
+Dialogue: 0,0:03:09.85,0:03:13.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Pack{\k34}ing {\k38}meat, {\k22}I'm {\k16}rea{\k18}dy {\k14}for {\k14}a {\k57}fight
+Dialogue: 0,0:03:12.13,0:03:15.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Stuck {\k11}in {\k16}the {\k21}muf{\k49}fler, {\k13}get {\k28}a {\k39}saw
+Dialogue: 0,0:03:14.41,0:03:17.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Wife {\k36}says {\k14}this {\k11}is {\k19}the {\k33}last {\k79}straw
+Dialogue: 0,0:03:16.68,0:03:20.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Here {\k26}I {\k31}come {\k30}in{\k27}to {\k15}the {\kf154}night
+Dialogue: 0,0:03:19.80,0:03:22.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}The {\k25}muf{\k31}fler {\k32}feels {\k15}so {\k78}right
+Dialogue: 0,0:03:22.08,0:03:25.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}To{\k80}night, {\k33}al{\k64}right
+Dialogue: 0,0:03:24.62,0:03:28.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}For {\k36}a {\k46}di{\k128}vorce
+Dialogue: 0,0:03:31.56,0:03:33.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}O{\k22}kay, {\k38}fine
+Dialogue: 0,0:03:33.04,0:03:37.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}I'll {\k29}con{\k24}fess {\k13}eve{\k18}ry{\k30}thing {\k24}to {\k115}you
+Dialogue: 0,0:03:36.52,0:03:41.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}There {\k23}is {\k34}some{\k128}thing {\k34}real{\k31}ly {\k24}wrong {\k18}with {\k91}you
+Dialogue: 0,0:03:41.01,0:03:44.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}You {\k31}were{\k15}n't {\k27}like {\k23}this {\k20}be{\k96}fore
+Dialogue: 0,0:03:43.40,0:03:46.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Now {\k28}you're {\k18}fu{\k24}cking {\k86}cars?
+Dialogue: 0,0:03:45.69,0:03:48.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k56}Well, {\k133}wife
+Dialogue: 0,0:03:47.59,0:03:52.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}There's {\k23}some{\k38}thing {\k45}I {\k32}got{\k37}ta {\k32}tell {\k101}you
+Dialogue: 0,0:03:51.09,0:03:55.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}No, {\k31}my {\k62}son, {\k25}don't {\k33}tell {\k29}her {\k13}a{\k27}ny{\k68}thing
+Dialogue: 0,0:03:54.10,0:03:57.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}A {\k30}de{\k27}mon {\k29}came {\k24}in{\k30}to {\k19}my {\k39}head
+Dialogue: 0,0:03:56.42,0:04:02.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Told {\k11}me {\k14}to {\k24}fuck {\k34}cars {\k13}in{\k29}stead {\k9}of {\k15}the {\k34}one {\k41}I {\kf200}wed
+Dialogue: 0,0:04:01.06,0:04:04.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}No, {\k34}my {\k29}son, {\k13}she {\k19}must {\k13}ne{\k27}ver {\k66}know
+Dialogue: 0,0:04:03.24,0:04:06.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}De{\k26}mon, {\k26}de{\k14}mon, {\k13}in{\k16}side {\k33}of {\k72}me
+Dialogue: 0,0:04:05.87,0:04:10.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Why {\k28}don't {\k23}you {\k56}just {\k29}let {\k33}me {\kf188}be?
+Dialogue: 0,0:04:09.74,0:04:13.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}You're {\k16}the {\k18}cho{\k25}sen {\k27}one, {\k13}you {\k19}have {\k9}a {\k26}des{\k12}ti{\k54}ny
+Dialogue: 0,0:04:12.41,0:04:15.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}What {\k27}the {\k28}fuck {\k32}is {\k19}go{\k21}ing {\k47}on?
+Dialogue: 0,0:04:14.97,0:04:20.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Who {\k29}are {\k30}you {\k54}talk{\k61}ing {\k196}to?
+Dialogue: 0,0:04:19.23,0:04:22.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Or {\k18}it's {\k32}just {\k43}my {\k35}de{\k53}mon
+Dialogue: 0,0:04:21.51,0:04:24.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Are {\k18}you {\k25}rea{\k23}dy {\k17}for {\k29}gar{\k15}lic {\k25}brea{\k50}dy?
+Dialogue: 0,0:04:24.91,0:04:27.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Turn {\k14}the {\k66}key!
+Dialogue: 0,0:04:26.08,0:04:29.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Here {\k25}I {\k32}come {\k25}in{\k31}to {\k11}the {\k44}night
+Dialogue: 0,0:04:28.24,0:04:31.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Pack{\k32}ing {\k42}meat, {\k25}I'm {\k11}rea{\k18}dy {\k14}for {\k14}a {\k62}fight
+Dialogue: 0,0:04:30.62,0:04:34.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Stuck {\k11}in {\k16}the {\k21}muf{\k49}fler, {\k13}get {\k24}a {\k77}saw
+Dialogue: 0,0:04:32.91,0:04:36.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Wife {\k36}says {\k14}this {\k11}is {\k19}the {\k33}last {\k79}straw
+Dialogue: 0,0:04:35.14,0:04:39.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Here {\k26}I {\k31}come {\k30}in{\k25}to {\k15}the {\kf152}night
+Dialogue: 0,0:04:38.19,0:04:41.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Cause {\k14}the {\k22}muf{\k34}fler {\k28}feels {\k14}so {\k61}right
+Dialogue: 0,0:04:40.53,0:04:43.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}To{\k82}night, {\k47}al{\k64}right
+Dialogue: 0,0:04:42.83,0:04:48.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I'm {\k16}get{\k43}ting {\k56}di{\kf328}vorced
+Dialogue: 0,0:05:02.42,0:05:05.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Do {\k24}my {\k14}bid{\k28}ding, {\k24}and {\k30}do {\k29}my {\k55}will
+Dialogue: 0,0:05:04.69,0:05:08.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}May{\k10}be {\k13}you {\k15}can {\k26}eat {\k31}some {\k14}gar{\k15}lic {\k24}bread {\k70}swill
+Dialogue: 0,0:05:07.04,0:05:10.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}You {\k11}will {\k10}have {\k11}a {\k31}mas{\k33}ter {\k30}beard {\k27}like {\k55}me
+Dialogue: 0,0:05:09.26,0:05:12.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}You {\k15}will {\k24}fuck {\k62}cars, {\k13}that {\k12}is {\k12}my {\k14}de{\k58}cree
+Dialogue: 0,0:05:11.53,0:05:14.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Gas{\k34}light {\k37}your {\k26}wife {\k16}to{\k58}night
+Dialogue: 0,0:05:13.71,0:05:17.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}You {\k13}got{\k14}ta {\k15}be{\k27}lieve {\k16}me, {\k13}I'm {\k23}feel{\k15}ing {\k34}al{\k48}right
+Dialogue: 0,0:05:16.03,0:05:22.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf113}Are {\kf123}you {\k15}rea{\k64}dy {\k34}for {\k57}gar{\k54}lic {\k15}brea{\k34}dy?
+Dialogue: 0,0:05:21.11,0:05:24.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}No {\k21}I'm {\k93}out {\k26}of {\k87}here
+Dialogue: 0,0:05:23.82,0:05:26.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Take {\k19}the {\k24}couch, {\k14}the {\k30}dogs {\k10}and {\k14}the {\k77}beer
+Dialogue: 0,0:05:26.10,0:05:32.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Cause {\k106}I {\k108}am {\k54}out {\k69}of {\k201}here
+Dialogue: 0,0:05:34.35,0:05:38.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Di{\k72}vorce, {\k42}di{\k69}vorce, {\k30}di{\k74}vorce
+Dialogue: 0,0:05:37.74,0:05:40.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Talk{\k9}ing {\k10}a{\k14}bout {\k13}a {\k28}di{\k69}vorce

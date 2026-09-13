@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:17.000Z",
+    "ignoreHooks": false,
     "kid": "036571e0-a03d-4fec-917e-390514907ddf",
-    "modified_at": "2021-02-25T12:52:23.558Z",
+    "modified_at": "2026-09-12T22:13:10.339Z",
     "repository": "kara.moe",
-    "songname": "JPN - Ro-Kyu-Bu! - OP - Shoot!",
+    "songname": "JPN - Ro-Kyu-Bu! - OP - SHOOT!",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"

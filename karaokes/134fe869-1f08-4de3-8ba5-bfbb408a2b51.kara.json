@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:32.000Z",
+    "ignoreHooks": false,
     "kid": "134fe869-1f08-4de3-8ba5-bfbb408a2b51",
-    "modified_at": "2021-02-25T12:51:31.792Z",
+    "modified_at": "2026-09-12T22:09:58.426Z",
     "repository": "kara.moe",
     "songname": "JPN - Rewrite - GAME IN - YO-SHI-NO",
     "tags": {
@@ -35,6 +36,9 @@
       ],
       "creators": [
         "4dd6987d-3036-4454-859b-ff18954541bf"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
       ],
       "groups": [
         "ae613721-1fbe-480d-ba6b-d6d0702b184d"

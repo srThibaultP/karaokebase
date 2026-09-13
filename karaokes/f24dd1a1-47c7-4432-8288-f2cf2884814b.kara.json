@@ -17,13 +17,14 @@
           "version": "Default"
         }
       ],
-      "version": "Alternative."
+      "version": "Default"
     }
   ],
   "data": {
     "created_at": "2019-03-17T19:52:21.000Z",
+    "ignoreHooks": false,
     "kid": "f24dd1a1-47c7-4432-8288-f2cf2884814b",
-    "modified_at": "2021-05-23T22:38:25.426Z",
+    "modified_at": "2026-09-12T22:15:33.770Z",
     "parents": [
       "bc82d073-58de-44d1-a954-958e855b3c4a"
     ],
@@ -73,8 +74,8 @@
       ]
     },
     "titles": {
-      "qro": "Uchuu no Ouja! Godmars",
-      "jpn": "宇宙の王者!ゴッドマーズ"
+      "jpn": "宇宙の王者!ゴッドマーズ",
+      "qro": "Uchuu no Ouja! Godmars"
     },
     "titles_default_language": "qro",
     "year": 1981

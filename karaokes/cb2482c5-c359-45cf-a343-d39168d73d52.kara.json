@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:07.000Z",
+    "ignoreHooks": false,
     "kid": "cb2482c5-c359-45cf-a343-d39168d73d52",
-    "modified_at": "2021-02-25T12:52:54.726Z",
+    "modified_at": "2026-09-12T22:13:55.732Z",
     "repository": "kara.moe",
-    "songname": "JPN - Rokka no Yuusha - ED1 - Secret Sky",
+    "songname": "JPN - Rokka no Yûsha - ED1 - Secret Sky",
     "songorder": 1,
     "tags": {
       "authors": [

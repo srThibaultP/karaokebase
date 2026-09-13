@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:49.000Z",
+    "ignoreHooks": false,
     "kid": "547dc8d6-8c0c-4e0f-8578-f7d7a2688cea",
-    "modified_at": "2021-02-25T12:52:58.119Z",
+    "modified_at": "2026-09-12T22:14:38.254Z",
     "repository": "kara.moe",
-    "songname": "JPN - Rokka no Yuusha - OP1 - Cry for the Truth",
+    "songname": "JPN - Rokka no Yûsha - OP1 - Cry for the Truth",
     "songorder": 1,
     "tags": {
       "authors": [

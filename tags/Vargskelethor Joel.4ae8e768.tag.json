@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Vargskelethor Joel"
+    },
+    "name": "Vargskelethor Joel",
+    "repository": "kara.moe",
+    "tid": "4ae8e768-ae2a-4284-9940-a353f6389f92",
+    "types": [
+      2,
+      8
+    ]
+  }
+}

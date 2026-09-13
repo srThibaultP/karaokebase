@@ -1,0 +1,68 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 219,
+      "filename": "17f45b9d-7c5b-40d8-8be5-b64b024ec127.mkv",
+      "filesize": 79258634,
+      "loudnorm": "-7.67,1.54,6.10,-17.94,0.20",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "17f45b9d-7c5b-40d8-8be5-b64b024ec127.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-12T22:20:03.841Z",
+    "ignoreHooks": false,
+    "kid": "17f45b9d-7c5b-40d8-8be5-b64b024ec127",
+    "modified_at": "2026-09-12T22:20:03.841Z",
+    "repository": "kara.moe",
+    "songname": "JPN - haku. - MV - The Spaceship Heart",
+    "tags": {
+      "authors": [
+        "78d42fee-8d3e-4bd5-9c44-98ce55f7d21f",
+        "90698f28-1d62-4673-82c4-33ae96b1ba97"
+      ],
+      "collections": [
+        "dbcf2c22-524d-4708-99bb-601703633927"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "singers": [
+        "8f1c3444-1ddf-4aad-8ca2-3c99df4c269f"
+      ],
+      "singergroups": [
+        "4c2f0182-a7e9-452a-9ca1-7fb49c4edec1"
+      ],
+      "songtypes": [
+        "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
+      ],
+      "songwriters": [
+        "8f1c3444-1ddf-4aad-8ca2-3c99df4c269f"
+      ]
+    },
+    "titles": {
+      "eng": "The Spaceship Heart",
+      "jpn": "宇宙船ハート号",
+      "qro": "Uchuusen HEART Gou"
+    },
+    "titles_default_language": "eng",
+    "year": 2026
+  }
+}

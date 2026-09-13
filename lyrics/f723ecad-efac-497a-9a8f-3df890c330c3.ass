@@ -1,0 +1,50 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Come and build a snowman
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.85,0:00:05.29,Sample KM [Up],,0,0,0,karaoke,{\k24}Dear {\k23}O{\kf97}dette
+Comment: 0,0:00:05.92,0:00:10.00,Sample KM [Up],,0,0,0,karaoke,{\k24}Come {\k20}and {\k24}build {\k18}a {\k49}snow{\kf110}man {\k27}with {\kf136}me
+Comment: 0,0:00:11.37,0:00:13.39,Sample KM [Up],,0,0,0,karaoke,{\k62}Or {\k27}hop {\k26}on {\k16}a {\k71}train
+Comment: 0,0:00:13.67,0:00:16.82,Sample KM [Up],,0,0,0,karaoke,{\k21}Roa{\k16}ming {\k52}Snezh{\k41}na{\k46}ya {\k25}with {\kf114}glee
+Comment: 0,0:00:17.28,0:00:20.76,Sample KM [Up],,0,0,0,karaoke,{\k24}It's {\k18}been {\k42}a{\k48}ges {\k43}since {\k42}you've {\k33}come {\k39}to {\k59}play
+Comment: 0,0:00:20.92,0:00:26.21,Sample KM [Up],,0,0,0,karaoke,{\k20}I've {\k22}been {\k42}sin{\k44}ging {\k51}to {\k45}the {\k28}fish {\k41}all {\kf236}day
+Comment: 0,0:00:28.20,0:00:31.28,Sample KM [Up],,0,0,0,karaoke,{\k20}Though {\k23}the {\k45}stage {\k44}is {\k45}far {\k23}from {\k47}emp{\k61}ty
+Comment: 0,0:00:31.84,0:00:35.22,Sample KM [Up],,0,0,0,karaoke,{\k41}You {\k43}know {\k46}I'm {\k46}fee{\k25}ling {\k46}so {\k24}a{\k67}lone
+Comment: 0,0:00:35.42,0:00:41.93,Sample KM [Up],,0,0,0,karaoke,{\k50}Just {\k39}wa{\k47}tching {\k46}as {\k37}the {\k101}time {\k93}ticks {\kf238}by
+Comment: 0,0:00:42.64,0:00:43.66,Sample KM [Up],,0,0,0,karaoke,{\k46}Tick {\k56}tock
+Comment: 0,0:00:44.56,0:00:45.55,Sample KM [Up],,0,0,0,karaoke,{\k44}Tick {\k55}tock
+Comment: 0,0:00:46.34,0:00:49.03,Sample KM [Up],,0,0,0,karaoke,{\k48}Tick {\kf221}tock
+Comment: 0,0:00:49.94,0:00:50.92,Sample KM [Up],,0,0,0,karaoke,{\k51}Tick {\k47}tock
+Comment: 0,0:00:51.81,0:00:52.84,Sample KM [Up],,0,0,0,karaoke,{\k45}Tick {\k58}tock
+Comment: 0,0:00:53.64,0:00:56.26,Sample KM [Up],,0,0,0,karaoke,{\k44}Tick {\kf218}tock
+Comment: 0,0:01:19.90,0:01:21.38,Sample KM [Up],,0,0,0,karaoke,{\k26}Dear {\k25}O{\kf97}dette
+Comment: 0,0:01:21.97,0:01:29.39,Sample KM [Up],,0,0,0,karaoke,{\k23}Come {\k23}and {\k20}build {\k20}a {\k93}snow{\kf176}man{\k55} {\k47}with {\kf285}me
+Dialogue: 0,0:00:02.95,0:00:05.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Dear {\k23}O{\kf97}dette
+Dialogue: 0,0:00:05.02,0:00:10.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Come {\k20}and {\k24}build {\k18}a {\k49}snow{\kf110}man {\k27}with {\kf136}me
+Dialogue: 0,0:00:10.47,0:00:13.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k62}Or {\k27}hop {\k26}on {\k16}a {\k71}train
+Dialogue: 0,0:00:12.77,0:00:17.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Roa{\k16}ming {\k52}Snezh{\k41}na{\k46}ya {\k25}with {\kf114}glee
+Dialogue: 0,0:00:16.38,0:00:20.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}It's {\k18}been {\k42}a{\k48}ges {\k43}since {\k42}you've {\k33}come {\k39}to {\k59}play
+Dialogue: 0,0:00:20.02,0:00:26.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I've {\k22}been {\k42}sin{\k44}ging {\k51}to {\k45}the {\k28}fish {\k41}all {\kf236}day
+Dialogue: 0,0:00:27.30,0:00:31.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Though {\k23}the {\k45}stage {\k44}is {\k45}far {\k23}from {\k47}emp{\k61}ty
+Dialogue: 0,0:00:30.94,0:00:35.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}You {\k43}know {\k46}I'm {\k46}fee{\k25}ling {\k46}so {\k24}a{\k67}lone
+Dialogue: 0,0:00:34.52,0:00:42.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Just {\k39}wa{\k47}tching {\k46}as {\k37}the {\k101}time {\k93}ticks {\kf238}by
+Dialogue: 0,0:00:41.74,0:00:43.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Tick {\k56}tock
+Dialogue: 0,0:00:43.66,0:00:45.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Tick {\k55}tock
+Dialogue: 0,0:00:45.44,0:00:49.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Tick {\kf221}tock
+Dialogue: 0,0:00:49.04,0:00:51.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Tick {\k47}tock
+Dialogue: 0,0:00:50.91,0:00:53.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Tick {\k58}tock
+Dialogue: 0,0:00:52.74,0:00:56.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Tick {\kf218}tock
+Dialogue: 0,0:01:19.00,0:01:21.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Dear {\k25}O{\kf97}dette
+Dialogue: 0,0:01:21.07,0:01:29.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Come {\k23}and {\k20}build {\k20}a {\k93}snow{\kf176}man{\k55} {\k47}with {\kf285}me

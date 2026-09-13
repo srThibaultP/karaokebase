@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:52.000Z",
+    "ignoreHooks": false,
     "kid": "1954c541-2b1f-4e98-b9c7-f65379eeb56b",
-    "modified_at": "2021-02-25T12:49:53.400Z",
+    "modified_at": "2026-09-12T22:07:12.610Z",
     "repository": "kara.moe",
     "songname": "JPN - RDG Red Data Girl - OP - Small worldrop",
     "tags": {

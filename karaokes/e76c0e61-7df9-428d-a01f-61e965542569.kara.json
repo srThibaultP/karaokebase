@@ -1,0 +1,62 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 343,
+      "filename": "e76c0e61-7df9-428d-a01f-61e965542569.m4a",
+      "filesize": 5790895,
+      "loudnorm": "-6.40,1.13,3.50,-16.47,-0.66",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "e76c0e61-7df9-428d-a01f-61e965542569.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-12T22:26:18.376Z",
+    "ignoreHooks": false,
+    "kid": "e76c0e61-7df9-428d-a01f-61e965542569",
+    "modified_at": "2026-09-12T22:32:34.522Z",
+    "repository": "kara.moe",
+    "songname": "ENG - Vargskelethor Joel - AUDIO - Divorced By Car (Muffler)",
+    "tags": {
+      "authors": [
+        "b86d3507-98f0-4429-a093-ad605f01bdb0"
+      ],
+      "collections": [
+        "efe171c0-e8a1-4d03-98c0-60ecf741ad52"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
+      "langs": [
+        "de5eda1c-5fb3-46a6-9606-d4554fc5a1d6"
+      ],
+      "misc": [
+        "86705d4b-24e4-4756-9687-2b9c98bcf366"
+      ],
+      "singers": [
+        "4ae8e768-ae2a-4284-9940-a353f6389f92"
+      ],
+      "songtypes": [
+        "42a262ae-acba-4ab5-a446-c5789c96c821"
+      ],
+      "songwriters": [
+        "4ae8e768-ae2a-4284-9940-a353f6389f92"
+      ]
+    },
+    "titles": {
+      "eng": "Divorced By Car (Muffler)"
+    },
+    "titles_default_language": "eng",
+    "year": 2026
+  }
+}
