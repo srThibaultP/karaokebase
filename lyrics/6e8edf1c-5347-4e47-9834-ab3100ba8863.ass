@@ -1,0 +1,85 @@
+﻿[Script Info]
+Title: 818
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Uwhipa
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.36,0:00:07.49,Sample KM [Choir],,0,0,0,karaoke,{\k172}E{\k151}very {\k290}start
+Comment: 0,0:00:07.70,0:00:13.62,Sample KM [Choir],,0,0,0,karaoke,{\k170}There's {\k156}an {\k266}end
+Comment: 0,0:00:31.34,0:00:36.35,Sample KM [Up],,0,0,0,karaoke,{\k41}So {\k23}ma{\k20}ny {\k55}moons {\k19}have {\k59}gone {\k27}and {\k60}past {\k26}me {\kf171}by
+Comment: 0,0:00:37.52,0:00:43.11,Sample KM [Up],,0,0,0,karaoke,{\k23}With{\k36}out {\k22}a{\k17}ny {\k61}hope {\k20}of {\k60}e{\k22}ver {\k55}lear{\k22}ning {\kf221}why
+Comment: 0,0:00:44.02,0:00:48.86,Sample KM [Up],,0,0,0,karaoke,{\k40}Sins {\k22}of {\k18}the {\k63}past {\k20}have {\k60}come {\k21}to {\k57}take {\k23}me {\kf160}back
+Comment: 0,0:00:49.95,0:00:54.80,Sample KM [Up],,0,0,0,karaoke,{\k22}But {\k25}the {\k53}rain {\k21}has {\k41}al{\k19}rea{\k21}dy {\k39}washed {\k22}a{\k61}way {\k21}the {\kf140}mask
+Comment: 0,0:00:55.49,0:01:01.72,Sample KM [Up],,0,0,0,karaoke,{\k25}And {\k60}now {\k23}at {\kf252}last,{\k17} {\k21}I'm {\k21}at {\kf204}rest
+Comment: 0,0:01:01.97,0:01:07.72,Sample KM [Up],,0,0,0,karaoke,{\k23}Be{\k42}fore {\k22}the {\kf217}next{\k35} {\k40}moon {\k27}as{\kf169}cent
+Comment: 0,0:01:08.11,0:01:14.35,Sample KM [Up],,0,0,0,karaoke,{\k23}And {\k58}now {\k18}I {\kf237}cast{\k64} {\k16}the {\kf208}rest
+Comment: 0,0:01:14.64,0:01:20.57,Sample KM [Up],,0,0,0,karaoke,{\k18}Of {\k22}what {\k28}is {\kf248}left{\k35} {\k24}of {\k27}my {\kf191}soul
+Comment: 0,0:01:21.07,0:01:24.36,Sample KM [Up],,0,0,0,karaoke,{\k29}In{\k22}to {\k21}the {\k41}un{\k73}known {\k18}where {\k23}I'm {\k37}un{\k65}born
+Comment: 0,0:01:24.69,0:01:27.00,Sample KM [Up],,0,0,0,karaoke,{\k20}Where {\k19}the {\k40}o{\k26}cean {\k52}meets {\k22}the {\k52}sky
+Comment: 0,0:01:27.23,0:01:30.57,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k26}star{\k15}ted {\k28}off {\k39}a{\k75}lone, {\k15}now {\k23}I've {\k41}come {\k51}home
+Comment: 0,0:01:30.78,0:01:33.49,Sample KM [Up],,0,0,0,karaoke,{\k22}And {\k17}now {\k22}I'm {\k40}un{\k21}der{\k57}stan{\k15}ding {\k77}why
+Comment: 0,0:01:33.53,0:01:36.47,Sample KM [Up],,0,0,0,karaoke,{\k22}At {\k35}e{\k27}very {\k95}start, {\k42}there's {\k23}an {\k50}end
+Comment: 0,0:01:36.72,0:01:39.70,Sample KM [Up],,0,0,0,karaoke,{\k24}That's {\k36}when {\k18}the {\k99}heart {\k37}of{\k23}ten {\k61}bends
+Comment: 0,0:01:39.91,0:01:42.96,Sample KM [Up],,0,0,0,karaoke,{\k17}And {\k38}af{\k24}ter {\k48}love {\k22}and {\k61}hate, {\k44}love {\k20}and {\k31}hate
+Comment: 0,0:01:43.22,0:01:45.34,Sample KM [Up],,0,0,0,karaoke,{\k41}Love {\k19}and {\k57}hate, {\k43}eight-{\k24}one-{\k28}eight
+Comment: 0,0:01:45.57,0:01:46.80,Sample KM [Up],,0,0,0,karaoke,{\k43}Eight-{\k22}one-{\k58}eight
+Comment: 0,0:01:59.77,0:02:04.25,Sample KM [Up],,0,0,0,karaoke,{\k40}So {\k23}ma{\k21}ny {\k63}days {\k20}were {\k58}lost {\k26}ins{\k49}tead {\k27}of {\kf121}found
+Comment: 0,0:02:06.14,0:02:10.65,Sample KM [Up],,0,0,0,karaoke,{\k29}Spent {\k29}u{\k21}na{\k61}ware {\k21}that {\k53}I {\k24}was {\k57}hea{\k20}ven-{\kf136}bound
+Comment: 0,0:02:12.27,0:02:17.29,Sample KM [Up],,0,0,0,karaoke,{\k17}The {\k36}path {\k24}lay {\k17}a{\k63}head {\k19}but {\k54}I {\k26}was {\k52}loo{\k31}king {\kf163}back
+Comment: 0,0:02:18.76,0:02:23.50,Sample KM [Up],,0,0,0,karaoke,{\k29}Sear{\k23}ching {\k27}for {\k60}ways {\k22}to {\k39}stay {\k25}in{\k52}side {\k19}the {\kf178}past
+Comment: 0,0:02:24.22,0:02:27.55,Sample KM [Up],,0,0,0,karaoke,{\k29}In{\k22}to {\k21}the {\k41}un{\k73}known {\k18}where {\k23}I'm {\k37}un{\k69}born
+Comment: 0,0:02:27.84,0:02:30.17,Sample KM [Up],,0,0,0,karaoke,{\k20}Where {\k19}the {\k40}o{\k26}cean {\k52}meets {\k22}the {\k52}sky
+Comment: 0,0:02:30.39,0:02:33.88,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k26}star{\k15}ted {\k28}off {\k39}a{\k75}lone, {\k15}now {\k23}I've {\k41}come {\k66}home
+Comment: 0,0:02:33.94,0:02:36.64,Sample KM [Up],,0,0,0,karaoke,{\k22}And {\k17}now {\k22}I'm {\k40}un{\k21}der{\k57}stan{\k15}ding {\k76}why
+Comment: 0,0:02:36.69,0:02:39.72,Sample KM [Up],,0,0,0,karaoke,{\k22}At {\k35}e{\k27}very {\k95}start, {\k42}there's {\k23}an {\k59}end
+Comment: 0,0:02:39.89,0:02:42.93,Sample KM [Up],,0,0,0,karaoke,{\k24}That's {\k36}when {\k18}the {\k99}heart {\k37}of{\k23}ten {\k67}bends
+Comment: 0,0:02:43.07,0:02:46.15,Sample KM [Up],,0,0,0,karaoke,{\k17}And {\k38}af{\k24}ter {\k48}love {\k22}and {\k61}hate, {\k44}love {\k20}and {\k34}hate
+Comment: 0,0:02:46.39,0:02:48.52,Sample KM [Up],,0,0,0,karaoke,{\k41}Love {\k19}and {\k57}hate, {\k43}eight-{\k24}one-{\k29}eight
+Comment: 0,0:02:48.73,0:02:49.95,Sample KM [Up],,0,0,0,karaoke,{\k43}Eight-{\k22}one-{\k57}eight
+Comment: 0,0:03:02.95,0:03:08.44,Sample KM [Choir],,0,0,0,karaoke,{\k160}E{\k159}very {\k230}end
+Comment: 0,0:03:09.30,0:03:15.09,Sample KM [Choir],,0,0,0,karaoke,{\k163}There's {\k147}a {\k269}start
+Dialogue: 0,0:00:00.46,0:00:07.69,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k172}E{\k151}very {\k290}start
+Dialogue: 0,0:00:06.80,0:00:13.82,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k170}There's {\k156}an {\k266}end
+Dialogue: 0,0:00:30.44,0:00:36.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}So {\k23}ma{\k20}ny {\k55}moons {\k19}have {\k59}gone {\k27}and {\k60}past {\k26}me {\kf171}by
+Dialogue: 0,0:00:36.62,0:00:43.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}With{\k36}out {\k22}a{\k17}ny {\k61}hope {\k20}of {\k60}e{\k22}ver {\k55}lear{\k22}ning {\kf221}why
+Dialogue: 0,0:00:43.12,0:00:49.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Sins {\k22}of {\k18}the {\k63}past {\k20}have {\k60}come {\k21}to {\k57}take {\k23}me {\kf160}back
+Dialogue: 0,0:00:49.05,0:00:55.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}But {\k25}the {\k53}rain {\k21}has {\k41}al{\k19}rea{\k21}dy {\k39}washed {\k22}a{\k61}way {\k21}the {\kf140}mask
+Dialogue: 0,0:00:54.59,0:01:01.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}And {\k60}now {\k23}at {\kf252}last,{\k17} {\k21}I'm {\k21}at {\kf204}rest
+Dialogue: 0,0:01:01.07,0:01:07.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Be{\k42}fore {\k22}the {\kf217}next{\k35} {\k40}moon {\k27}as{\kf169}cent
+Dialogue: 0,0:01:07.21,0:01:14.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}And {\k58}now {\k18}I {\kf237}cast{\k64} {\k16}the {\kf208}rest
+Dialogue: 0,0:01:13.74,0:01:20.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Of {\k22}what {\k28}is {\kf248}left{\k35} {\k24}of {\k27}my {\kf191}soul
+Dialogue: 0,0:01:20.17,0:01:24.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}In{\k22}to {\k21}the {\k41}un{\k73}known {\k18}where {\k23}I'm {\k37}un{\k65}born
+Dialogue: 0,0:01:23.79,0:01:27.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Where {\k19}the {\k40}o{\k26}cean {\k52}meets {\k22}the {\k52}sky
+Dialogue: 0,0:01:26.33,0:01:30.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k26}star{\k15}ted {\k28}off {\k39}a{\k75}lone, {\k15}now {\k23}I've {\k41}come {\k51}home
+Dialogue: 0,0:01:29.88,0:01:33.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k17}now {\k22}I'm {\k40}un{\k21}der{\k57}stan{\k15}ding {\k77}why
+Dialogue: 0,0:01:32.63,0:01:36.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}At {\k35}e{\k27}very {\k95}start, {\k42}there's {\k23}an {\k50}end
+Dialogue: 0,0:01:35.82,0:01:39.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}That's {\k36}when {\k18}the {\k99}heart {\k37}of{\k23}ten {\k61}bends
+Dialogue: 0,0:01:39.01,0:01:43.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}And {\k38}af{\k24}ter {\k48}love {\k22}and {\k61}hate, {\k44}love {\k20}and {\k31}hate
+Dialogue: 0,0:01:42.32,0:01:45.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Love {\k19}and {\k57}hate, {\k43}eight-{\k24}one-{\k28}eight
+Dialogue: 0,0:01:44.67,0:01:47.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Eight-{\k22}one-{\k58}eight
+Dialogue: 0,0:01:58.87,0:02:04.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}So {\k23}ma{\k21}ny {\k63}days {\k20}were {\k58}lost {\k26}ins{\k49}tead {\k27}of {\kf121}found
+Dialogue: 0,0:02:05.24,0:02:10.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Spent {\k29}u{\k21}na{\k61}ware {\k21}that {\k53}I {\k24}was {\k57}hea{\k20}ven-{\kf136}bound
+Dialogue: 0,0:02:11.37,0:02:17.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}The {\k36}path {\k24}lay {\k17}a{\k63}head {\k19}but {\k54}I {\k26}was {\k52}loo{\k31}king {\kf163}back
+Dialogue: 0,0:02:17.86,0:02:23.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Sear{\k23}ching {\k27}for {\k60}ways {\k22}to {\k39}stay {\k25}in{\k52}side {\k19}the {\kf178}past
+Dialogue: 0,0:02:23.32,0:02:27.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}In{\k22}to {\k21}the {\k41}un{\k73}known {\k18}where {\k23}I'm {\k37}un{\k69}born
+Dialogue: 0,0:02:26.94,0:02:30.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Where {\k19}the {\k40}o{\k26}cean {\k52}meets {\k22}the {\k52}sky
+Dialogue: 0,0:02:29.49,0:02:34.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k26}star{\k15}ted {\k28}off {\k39}a{\k75}lone, {\k15}now {\k23}I've {\k41}come {\k66}home
+Dialogue: 0,0:02:33.04,0:02:36.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k17}now {\k22}I'm {\k40}un{\k21}der{\k57}stan{\k15}ding {\k76}why
+Dialogue: 0,0:02:35.79,0:02:39.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}At {\k35}e{\k27}very {\k95}start, {\k42}there's {\k23}an {\k59}end
+Dialogue: 0,0:02:38.99,0:02:43.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}That's {\k36}when {\k18}the {\k99}heart {\k37}of{\k23}ten {\k67}bends
+Dialogue: 0,0:02:42.17,0:02:46.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}And {\k38}af{\k24}ter {\k48}love {\k22}and {\k61}hate, {\k44}love {\k20}and {\k34}hate
+Dialogue: 0,0:02:45.49,0:02:48.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Love {\k19}and {\k57}hate, {\k43}eight-{\k24}one-{\k29}eight
+Dialogue: 0,0:02:47.83,0:02:50.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Eight-{\k22}one-{\k57}eight
+Dialogue: 0,0:03:02.05,0:03:08.64,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k160}E{\k159}very {\k230}end
+Dialogue: 0,0:03:08.40,0:03:15.29,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k163}There's {\k147}a {\k269}start

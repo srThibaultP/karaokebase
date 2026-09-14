@@ -1,0 +1,82 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Elevated
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: OSPREAY,Arial,45,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,100,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:09.40,0:00:13.73,Sample KM [Up],,0,0,0,karaoke,{\k27}E{\k29}le{\k29}va{\k52}ted {\k55}el-{\k55}e{\k27}le{\k25}vate {\k22}me {\k34}to {\k29}the {\k49}sky
+Comment: 0,0:00:13.74,0:00:17.55,Sample KM [Up],,0,0,0,karaoke,{\k57}Woah {\k53}oh {\k27}we're {\k58}so {\k49}e{\k23}le{\k32}va{\k82}ted
+Comment: 0,0:00:18.14,0:00:22.45,Sample KM [Up],,0,0,0,karaoke,{\k27}E{\k27}le{\k30}va{\k51}ted {\k58}el-{\k51}e{\k29}le{\k24}vate {\k23}me {\k35}to {\k27}the {\k49}sky
+Comment: 0,0:00:22.45,0:00:26.35,Sample KM [Up],,0,0,0,karaoke,{\k58}Woah {\k54}oh {\k26}we're {\k57}so {\k50}e{\k27}le{\k30}va{\k88}ted
+Comment: 0,0:00:31.16,0:00:33.26,Sample KM [Up],,0,0,0,karaoke,{\k27}Ri{\k32}sing {\k26}up {\k30}to {\k24}the {\k71}sound
+Comment: 0,0:00:33.39,0:00:35.89,Sample KM [Up],,0,0,0,karaoke,{\k25}Of {\k27}your {\k29}name {\k26}in {\k27}the {\kf116}crowd
+Comment: 0,0:00:35.55,0:00:39.89,Sample KM [Choir],,0,0,0,karaoke,{\k28}Cal{\k31}ling {\k53}out {\k30}for {\k25}the {\k53}re{\k55}vo{\k53}lu{\kf106}tion
+Comment: 0,0:00:39.89,0:00:41.88,Sample KM [Up],,0,0,0,karaoke,{\k28}Make {\k27}your {\k23}way {\k35}to {\k22}the {\k64}crown
+Comment: 0,0:00:42.07,0:00:44.82,Sample KM [Up],,0,0,0,karaoke,{\k31}And {\k25}re{\k27}mem{\k28}ber {\k23}that {\kf141}sound
+Comment: 0,0:00:44.31,0:00:48.58,Sample KM [Choir],,0,0,0,karaoke,{\k29}Cal{\k26}ling {\k52}out {\k29}for {\k28}an {\k52}e{\k56}vo{\k54}lu{\kf101}tion
+Comment: 0,0:00:48.62,0:00:50.73,Sample KM [Up],,0,0,0,karaoke,{\k30}Loo{\k29}king {\k22}out {\k30}you {\k31}have {\k69}found
+Comment: 0,0:00:50.85,0:00:54.00,Sample KM [Up],,0,0,0,karaoke,{\k23}That {\k29}you're {\k26}ma{\k30}kin' {\k26}them {\kf181}proud
+Comment: 0,0:00:57.40,0:01:01.72,Sample KM [Up],,0,0,0,karaoke,{\k29}E{\k26}le{\k30}va{\k53}ted {\k56}el-{\k49}e{\k29}le{\k26}vate {\k24}me {\k34}to {\k28}the {\k48}sky
+Comment: 0,0:01:01.72,0:01:05.63,Sample KM [Up],,0,0,0,karaoke,{\k60}Woah {\k53}oh {\k25}we're {\k52}so {\k55}e{\k25}le{\k32}va{\k89}ted
+Comment: 0,0:01:06.12,0:01:10.45,Sample KM [Up],,0,0,0,karaoke,{\k28}E{\k28}le{\k31}va{\k51}ted {\k56}el-{\k54}e{\k25}le{\k24}vate {\k26}me {\k35}to {\k24}the {\k51}sky
+Comment: 0,0:01:10.45,0:01:14.34,Sample KM [Up],,0,0,0,karaoke,{\k61}Woah {\k50}oh {\k29}we're {\k56}so {\k50}e{\k27}le{\k28}va{\k88}ted
+Comment: 0,0:01:36.60,0:01:38.86,Sample KM [Up],,0,0,0,karaoke,{\k30}Ri{\k29}sing {\k26}up {\k32}to {\k23}the {\k86}sound
+Comment: 0,0:01:38.86,0:01:42.30,Sample KM [Up],,0,0,0,karaoke,{\k27}Of {\k32}your {\k27}name {\k22}in {\k27}the {\kf209}crowd
+Comment: 0,0:01:45.38,0:01:47.39,Sample KM [Up],,0,0,0,karaoke,{\k26}Make {\k30}your {\k26}way {\k29}to {\k21}the {\k69}crown
+Comment: 0,0:01:47.63,0:01:53.16,Sample KM [Up],,0,0,0,karaoke,{\k23}And {\k26}re{\k30}mem{\k26}ber {\k24}the {\kf424}sound
+Comment: 0,0:01:53.55,0:01:55.78,OSPREAY,,0,0,0,karaoke,{\k58}OS{\k52}PREAY! {\k55}OS{\k58}PREAY!
+Comment: 0,0:01:57.93,0:02:00.13,OSPREAY,,0,0,0,karaoke,{\k56}OS{\k54}PREAY! {\k52}OS{\k58}PREAY!
+Comment: 0,0:02:02.31,0:02:04.39,OSPREAY,,0,0,0,karaoke,{\k53}OS{\k55}PREAY! {\k55}OS{\k45}PREAY!
+Comment: 0,0:02:06.67,0:02:08.87,OSPREAY,,0,0,0,karaoke,{\k57}OS{\k53}PREAY! {\k54}OS{\k56}PREAY!
+Comment: 0,0:02:11.58,0:02:15.90,Sample KM [Up],,0,0,0,karaoke,{\k28}E{\k28}le{\k28}va{\k55}ted {\k54}el-{\k54}e{\k28}le{\k23}vate {\k22}me {\k35}to {\k26}the {\k51}sky
+Comment: 0,0:02:15.90,0:02:19.74,Sample KM [Up],,0,0,0,karaoke,{\k59}Woah {\k54}oh {\k24}we're {\k51}so {\k58}e{\k27}le{\k30}va{\k81}ted
+Comment: 0,0:02:20.32,0:02:24.63,Sample KM [Up],,0,0,0,karaoke,{\k27}E{\k27}le{\k29}va{\k54}ted {\k56}el-{\k52}e{\k25}le{\k26}vate {\k25}me {\k34}to {\k27}the {\k49}sky
+Comment: 0,0:02:24.63,0:02:28.52,Sample KM [Up],,0,0,0,karaoke,{\k60}Woah {\k51}oh {\k25}we're {\k54}so {\k55}e{\k27}le{\k27}va{\k90}ted
+Comment: 0,0:02:28.76,0:02:32.51,Sample KM [Up],,0,0,0,karaoke,{\k29}We're {\k22}e{\k20}le{\k41}va{\kf263}ted
+Comment: 0,0:02:33.36,0:02:37.21,Sample KM [Up],,0,0,0,karaoke,{\k60}Woah {\k53}oh {\k27}we're {\k56}so {\k50}e{\k27}le{\k27}va{\k85}ted
+Comment: 0,0:02:37.47,0:02:41.25,Sample KM [Up],,0,0,0,karaoke,{\k30}So {\k25}e{\k19}le{\k40}va{\kf264}ted
+Comment: 0,0:02:42.09,0:02:45.99,Sample KM [Up],,0,0,0,karaoke,{\k59}Woah {\k55}oh {\k24}we're {\k57}so {\k49}e{\k28}le{\k29}va{\k89}ted
+Dialogue: 0,0:00:08.50,0:00:13.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}E{\k29}le{\k29}va{\k52}ted {\k55}el-{\k55}e{\k27}le{\k25}vate {\k22}me {\k34}to {\k29}the {\k49}sky
+Dialogue: 0,0:00:12.84,0:00:17.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k57}Woah {\k53}oh {\k27}we're {\k58}so {\k49}e{\k23}le{\k32}va{\k82}ted
+Dialogue: 0,0:00:17.24,0:00:22.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}E{\k27}le{\k30}va{\k51}ted {\k58}el-{\k51}e{\k29}le{\k24}vate {\k23}me {\k35}to {\k27}the {\k49}sky
+Dialogue: 0,0:00:21.55,0:00:26.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Woah {\k54}oh {\k26}we're {\k57}so {\k50}e{\k27}le{\k30}va{\k88}ted
+Dialogue: 0,0:00:30.26,0:00:33.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Ri{\k32}sing {\k26}up {\k30}to {\k24}the {\k71}sound
+Dialogue: 0,0:00:32.49,0:00:36.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Of {\k27}your {\k29}name {\k26}in {\k27}the {\kf116}crowd
+Dialogue: 0,0:00:34.65,0:00:40.09,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Cal{\k31}ling {\k53}out {\k30}for {\k25}the {\k53}re{\k55}vo{\k53}lu{\kf106}tion
+Dialogue: 0,0:00:38.99,0:00:42.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Make {\k27}your {\k23}way {\k35}to {\k22}the {\k64}crown
+Dialogue: 0,0:00:41.17,0:00:45.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}And {\k25}re{\k27}mem{\k28}ber {\k23}that {\kf141}sound
+Dialogue: 0,0:00:43.41,0:00:48.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Cal{\k26}ling {\k52}out {\k29}for {\k28}an {\k52}e{\k56}vo{\k54}lu{\kf101}tion
+Dialogue: 0,0:00:47.72,0:00:50.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Loo{\k29}king {\k22}out {\k30}you {\k31}have {\k69}found
+Dialogue: 0,0:00:49.95,0:00:54.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}That {\k29}you're {\k26}ma{\k30}kin' {\k26}them {\kf181}proud
+Dialogue: 0,0:00:56.50,0:01:01.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}E{\k26}le{\k30}va{\k53}ted {\k56}el-{\k49}e{\k29}le{\k26}vate {\k24}me {\k34}to {\k28}the {\k48}sky
+Dialogue: 0,0:01:00.82,0:01:05.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Woah {\k53}oh {\k25}we're {\k52}so {\k55}e{\k25}le{\k32}va{\k89}ted
+Dialogue: 0,0:01:05.22,0:01:10.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}E{\k28}le{\k31}va{\k51}ted {\k56}el-{\k54}e{\k25}le{\k24}vate {\k26}me {\k35}to {\k24}the {\k51}sky
+Dialogue: 0,0:01:09.55,0:01:14.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}Woah {\k50}oh {\k29}we're {\k56}so {\k50}e{\k27}le{\k28}va{\k88}ted
+Dialogue: 0,0:01:35.70,0:01:39.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ri{\k29}sing {\k26}up {\k32}to {\k23}the {\k86}sound
+Dialogue: 0,0:01:37.96,0:01:42.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Of {\k32}your {\k27}name {\k22}in {\k27}the {\kf209}crowd
+Dialogue: 0,0:01:44.48,0:01:47.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Make {\k30}your {\k26}way {\k29}to {\k21}the {\k69}crown
+Dialogue: 0,0:01:46.73,0:01:53.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}And {\k26}re{\k30}mem{\k26}ber {\k24}the {\kf424}sound
+Dialogue: 0,0:01:52.65,0:01:55.98,OSPREAY,,0,0,0,fx,{\k90\fad(300,200)}{\k58}OS{\k52}PREAY! {\k55}OS{\k58}PREAY!
+Dialogue: 0,0:01:57.03,0:02:00.33,OSPREAY,,0,0,0,fx,{\k90\fad(300,200)}{\k56}OS{\k54}PREAY! {\k52}OS{\k58}PREAY!
+Dialogue: 0,0:02:01.41,0:02:04.59,OSPREAY,,0,0,0,fx,{\k90\fad(300,200)}{\k53}OS{\k55}PREAY! {\k55}OS{\k45}PREAY!
+Dialogue: 0,0:02:05.77,0:02:09.07,OSPREAY,,0,0,0,fx,{\k90\fad(300,200)}{\k57}OS{\k53}PREAY! {\k54}OS{\k56}PREAY!
+Dialogue: 0,0:02:10.68,0:02:16.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}E{\k28}le{\k28}va{\k55}ted {\k54}el-{\k54}e{\k28}le{\k23}vate {\k22}me {\k35}to {\k26}the {\k51}sky
+Dialogue: 0,0:02:15.00,0:02:19.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Woah {\k54}oh {\k24}we're {\k51}so {\k58}e{\k27}le{\k30}va{\k81}ted
+Dialogue: 0,0:02:19.42,0:02:24.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}E{\k27}le{\k29}va{\k54}ted {\k56}el-{\k52}e{\k25}le{\k26}vate {\k25}me {\k34}to {\k27}the {\k49}sky
+Dialogue: 0,0:02:23.73,0:02:28.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Woah {\k51}oh {\k25}we're {\k54}so {\k55}e{\k27}le{\k27}va{\k90}ted
+Dialogue: 0,0:02:27.86,0:02:32.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}We're {\k22}e{\k20}le{\k41}va{\kf263}ted
+Dialogue: 0,0:02:32.46,0:02:37.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Woah {\k53}oh {\k27}we're {\k56}so {\k50}e{\k27}le{\k27}va{\k85}ted
+Dialogue: 0,0:02:36.57,0:02:41.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}So {\k25}e{\k19}le{\k40}va{\kf264}ted
+Dialogue: 0,0:02:41.19,0:02:46.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Woah {\k55}oh {\k24}we're {\k57}so {\k49}e{\k28}le{\k29}va{\k89}ted

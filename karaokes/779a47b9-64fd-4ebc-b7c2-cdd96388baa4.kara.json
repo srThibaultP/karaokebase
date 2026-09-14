@@ -1,0 +1,67 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 180,
+      "filename": "779a47b9-64fd-4ebc-b7c2-cdd96388baa4.mp4",
+      "filesize": 29095879,
+      "loudnorm": "-6.42,1.59,2.50,-16.52,-0.22",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "779a47b9-64fd-4ebc-b7c2-cdd96388baa4.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-13T16:34:16.110Z",
+    "from_display_type": "singergroups",
+    "ignoreHooks": false,
+    "kid": "779a47b9-64fd-4ebc-b7c2-cdd96388baa4",
+    "modified_at": "2026-09-13T16:35:47.921Z",
+    "repository": "kara.moe",
+    "songname": "FIN - Korpiklaani - MV - Viinamäen Mies",
+    "tags": {
+      "authors": [
+        "2993b822-70e8-4f3d-b50a-f425db0f1b57"
+      ],
+      "collections": [
+        "efe171c0-e8a1-4d03-98c0-60ecf741ad52"
+      ],
+      "creators": [
+        "46394729-fee4-4568-90a4-b6f68386c2fd",
+        "9f2b9ec1-2cf6-406f-92eb-4c2c15dcc49f"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "groups": [
+        "ae613721-1fbe-480d-ba6b-d6d0702b184d"
+      ],
+      "langs": [
+        "34c9117e-b8d8-4714-a663-10b073f0a8fd"
+      ],
+      "singergroups": [
+        "3c4bd3d4-8b8a-4420-8cf0-a99b54791994"
+      ],
+      "songtypes": [
+        "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
+      ],
+      "songwriters": [
+        "feb06b32-be70-4035-b942-8a31662da737"
+      ]
+    },
+    "titles": {
+      "fin": "Viinamäen Mies"
+    },
+    "titles_default_language": "fin",
+    "year": 2016
+  }
+}

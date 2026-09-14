@@ -1,0 +1,22 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Piyopiyo"
+    ],
+    "i18n": {
+      "jpn": "ぴよぴよ",
+      "qro": "Piyo Piyo"
+    },
+    "name": "Piyo Piyo",
+    "repository": "kara.moe",
+    "tid": "248ae5bb-ff2d-4947-a891-091cff4ae7e7",
+    "types": [
+      17,
+      8
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "bfer",
+      "Балдр Сила: Виртуални решения",
+      "baldrforce",
+      "bfexe"
+    ],
+    "external_database_ids": {
+      "anilist": 1682,
+      "kitsu": 1511,
+      "myanimelist": 1682
+    },
+    "i18n": {
+      "eng": "Baldr Force EXE",
+      "jpn": "バルドフォース エグゼ レソリューション",
+      "rus": "Виртуальный Спецназ",
+      "qro": "Baldr Force Exe Resolution"
+    },
+    "name": "Baldr Force Exe Resolution",
+    "repository": "kara.moe",
+    "tid": "f22732b1-0d02-461d-8cb6-9d4fb0987d90",
+    "types": [
+      1
+    ]
+  }
+}

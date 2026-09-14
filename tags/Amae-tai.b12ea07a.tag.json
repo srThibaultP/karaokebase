@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Amae-tai"
+    },
+    "name": "Amae-tai",
+    "repository": "kara.moe",
+    "tid": "b12ea07a-5b6e-4187-8abf-93f697f66394",
+    "types": [
+      17
+    ]
+  }
+}

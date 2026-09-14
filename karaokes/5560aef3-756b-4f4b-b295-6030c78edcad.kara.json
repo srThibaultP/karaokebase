@@ -24,9 +24,9 @@
     "created_at": "2026-04-09T19:51:42.449Z",
     "ignoreHooks": false,
     "kid": "5560aef3-756b-4f4b-b295-6030c78edcad",
-    "modified_at": "2026-04-09T19:51:42.524Z",
+    "modified_at": "2026-09-13T21:39:45.689Z",
     "repository": "kara.moe",
-    "songname": "JPN - Tongari Boushi no Atelier - OP - Kaze no Anthem",
+    "songname": "JPN - Tongari Bôshi no Atelier - OP - Kaze no Anthem",
     "tags": {
       "authors": [
         "6ead5776-8797-407f-84a6-809f413c97b5"
@@ -60,13 +60,14 @@
         "f02ad9b3-0bd9-4aad-85b3-9976739ba0e4"
       ],
       "songwriters": [
-        "a84f6a9f-4785-48bb-9f07-fdede3de7cae",
         "7d97bcee-9037-4264-8c64-95809c5d385f",
-        "f3df1c74-1672-4dc8-98ca-de51de1eda0f",
-        "85942c8b-2257-4e04-b598-d4990033c65a"
+        "85942c8b-2257-4e04-b598-d4990033c65a",
+        "a84f6a9f-4785-48bb-9f07-fdede3de7cae",
+        "f3df1c74-1672-4dc8-98ca-de51de1eda0f"
       ]
     },
     "titles": {
+      "eng": "Wind’s Anthem",
       "jpn": "風のアンセム",
       "qro": "Kaze no Anthem"
     },

@@ -1,0 +1,26 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Ah! My Buddha",
+      "Amaenaideyo!!",
+      "Не приставай ко мне!!",
+      "极乐天师"
+    ],
+    "i18n": {
+      "eng": "Ah My Buddha!!",
+      "fre": "Amaenaide yo!!",
+      "jpn": "あまえないでよっ!!",
+      "qro": "Amaenaide yo!!"
+    },
+    "name": "Amaenaide yo!!",
+    "repository": "kara.moe",
+    "tid": "050521cf-de5f-418e-b7ee-55cbf53621f2",
+    "types": [
+      18
+    ]
+  }
+}

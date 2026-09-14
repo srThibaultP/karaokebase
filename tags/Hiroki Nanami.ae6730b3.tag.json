@@ -6,13 +6,15 @@
   "tag": {
     "i18n": {
       "eng": "Hiroki Nanami",
-      "jpn": "七海ひろき"
+      "jpn": "七海ひろき",
+      "qro": "Nanami Hiroki"
     },
     "name": "Hiroki Nanami",
     "repository": "kara.moe",
     "tid": "ae6730b3-6852-4df1-a2ba-0474ff65ebfc",
     "types": [
-      2
+      2,
+      8
     ]
   }
 }

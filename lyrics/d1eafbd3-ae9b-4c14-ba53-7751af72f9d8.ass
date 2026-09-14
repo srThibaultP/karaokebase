@@ -1,0 +1,94 @@
+﻿[Script Info]
+Title: Flower Man
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: Pafnaffan
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up] - green,Arial,24,&H0000D200,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up] - yellow,Arial,24,&H0000E9EC,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up] - cyan,Arial,24,&H00EFEE47,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up] - purple,Arial,24,&H00D97BC4,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up] - blue,Arial,24,&H00EC4A67,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:24.03,0:00:27.38,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k46}Ten {\k36}feet {\k33}twen{\k26}ty, {\k20}the {\k35}Flo{\k37}wer {\k102}Man
+Comment: 0,0:00:27.43,0:00:30.80,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k39}Is {\k41}wai{\k33}ting {\k29}for {\k23}the {\k48}touch {\k18}of {\k28}his {\k78}hand
+Comment: 0,0:00:30.80,0:00:33.80,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k34}Straight{\k19}en{\k21}ing {\k29}pe{\k34}tals {\k40}out {\k18}with{\k23}out {\k14}a {\k68}plan
+Comment: 0,0:00:33.80,0:00:36.09,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k43}Like {\k38}the {\k33}e{\k40}very {\k41}dai{\k34}ly
+Comment: 0,0:00:36.09,0:00:39.21,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k36}Wish {\k39}that {\k31}bo{\k28}thers {\k19}the {\k37}Flo{\k38}wer {\k84}Man
+Comment: 0,0:00:39.43,0:00:42.83,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k39}Could {\k40}I {\k37}do {\k31}some{\k23}thing {\k25}to {\k36}make {\k34}him {\k75}laugh?
+Comment: 0,0:00:42.83,0:00:45.77,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k24}In{\k28}side {\k28}my {\k29}litt{\k21}le {\k40}cham{\k20}ber {\k17}made {\k13}of {\k74}glass
+Comment: 0,0:00:45.77,0:00:47.49,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k43}So {\k34}he {\k37}lived {\k58}the
+Comment: 0,0:00:47.22,0:00:50.19,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k44}Flo{\k45}wer {\k76}Man, {\k38}Flo{\k37}wer {\k57}Man
+Comment: 0,0:00:50.24,0:00:53.19,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k40}With {\k30}his {\k93}heart {\k29}in {\k30}the {\k73}sand
+Comment: 0,0:00:53.26,0:00:55.05,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k39}So {\k39}he {\k101}stands
+Comment: 0,0:00:55.15,0:00:57.85,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k39}To {\k47}watch {\k36}the {\k28}whole {\k29}wide {\k91}world
+Comment: 0,0:00:58.01,0:00:59.28,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k24}From {\k12}a {\k91}can
+Comment: 0,0:00:59.30,0:01:02.28,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k39}Way {\k44}up {\k75}high {\k37}in {\k37}the {\k66}sky
+Comment: 0,0:01:02.30,0:01:05.28,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k36}With {\k28}the {\k92}sun {\k28}in {\k29}his {\k85}eyes
+Comment: 0,0:01:05.36,0:01:07.02,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k43}Ain't {\k33}it {\k90}nice?
+Comment: 0,0:01:07.16,0:01:10.49,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k38}The {\k43}life {\k38}for{\k31}e{\k38}ver {\k145}for
+Comment: 0,0:01:10.49,0:01:12.39,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k88}Flo{\k102}wers
+Comment: 0,0:02:24.03,0:02:27.23,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k44}Ten {\k38}feet {\k30}twen{\k28}ty, {\k21}the {\k36}Flo{\k36}wer {\k87}Man
+Comment: 0,0:02:27.42,0:02:30.78,Sample KM [Up] - cyan,,0,0,0,karaoke,{\k41}Is {\k39}wai{\k27}ting {\k37}for {\k22}the {\k49}touch {\k14}of {\k37}his {\k70}hand
+Comment: 0,0:02:30.78,0:02:33.77,Sample KM [Up] - purple,,0,0,0,karaoke,{\k36}Fa{\k21}llen {\k26}to {\k26}pie{\k31}ces {\k38}still {\k19}with{\k16}out {\k19}a {\k67}plan
+Comment: 0,0:02:33.77,0:02:36.07,Sample KM [Up] - green,,0,0,0,karaoke,{\k38}Yet {\k42}the {\k37}e{\k39}very {\k38}dai{\k36}ly
+Comment: 0,0:02:36.10,0:02:39.23,Sample KM [Up],,0,0,0,karaoke,{\k32}Hope {\k42}that {\k31}po{\k25}wered {\k20}the {\k38}Flo{\k37}wer {\k88}Man
+Comment: 0,0:02:39.48,0:02:42.79,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k38}Would {\k33}ne{\k34}ver {\k37}co{\k35}wer {\k34}off {\k17}of {\k32}its {\k71}path
+Comment: 0,0:02:42.79,0:02:45.82,Sample KM [Up] - blue,,0,0,0,karaoke,{\k34}E{\k22}ven {\k24}if {\k28}bro{\k30}ken {\k34}I {\k14}am {\k16}more {\k26}than {\k75}glass
+Comment: 0,0:02:45.79,0:02:47.32,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k36}So {\k38}he {\k38}lived {\k41}the
+Comment: 0,0:02:47.32,0:02:50.24,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k39}Flo{\k38}wer {\k71}Man, {\k45}Flo{\k37}wer {\k62}Man
+Comment: 0,0:02:50.24,0:02:53.14,Sample KM [Up] - cyan,,0,0,0,karaoke,{\k39}With {\k31}his {\k93}heart {\k29}in {\k29}the {\k69}sand
+Comment: 0,0:02:53.27,0:02:55.01,Sample KM [Up] - purple,,0,0,0,karaoke,{\k40}So {\k40}he {\k94}stands
+Comment: 0,0:02:55.17,0:02:57.85,Sample KM [Up] - green,,0,0,0,karaoke,{\k44}To {\k40}watch {\k31}the {\k31}whole {\k30}wide {\k92}world
+Comment: 0,0:02:58.01,0:02:59.27,Sample KM [Up],,0,0,0,karaoke,{\k23}From {\k14}a {\k89}can
+Comment: 0,0:02:59.27,0:03:02.27,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k50}Way {\k34}up {\k76}high {\k40}in {\k36}the {\k64}sky
+Comment: 0,0:03:02.27,0:03:05.37,Sample KM [Up] - blue,,0,0,0,karaoke,{\k38}With {\k29}the {\k88}sun {\k27}in {\k34}your {\k94}eyes
+Comment: 0,0:03:05.37,0:03:06.95,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k44}Ain't {\k33}it {\k81}nice?
+Comment: 0,0:03:07.16,0:03:10.56,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k43}The {\k39}life {\k35}for{\k37}e{\k43}ver {\k143}for
+Comment: 0,0:03:10.57,0:03:13.56,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k81}Flo{\k218}wers
+Dialogue: 0,0:00:23.13,0:00:27.58,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Ten {\k36}feet {\k33}twen{\k26}ty, {\k20}the {\k35}Flo{\k37}wer {\k102}Man
+Dialogue: 0,0:00:26.53,0:00:31.00,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Is {\k41}wai{\k33}ting {\k29}for {\k23}the {\k48}touch {\k18}of {\k28}his {\k78}hand
+Dialogue: 0,0:00:29.90,0:00:34.00,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Straight{\k19}en{\k21}ing {\k29}pe{\k34}tals {\k40}out {\k18}with{\k23}out {\k14}a {\k68}plan
+Dialogue: 0,0:00:32.90,0:00:36.29,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Like {\k38}the {\k33}e{\k40}very {\k41}dai{\k34}ly
+Dialogue: 0,0:00:35.19,0:00:39.41,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Wish {\k39}that {\k31}bo{\k28}thers {\k19}the {\k37}Flo{\k38}wer {\k84}Man
+Dialogue: 0,0:00:38.53,0:00:43.03,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Could {\k40}I {\k37}do {\k31}some{\k23}thing {\k25}to {\k36}make {\k34}him {\k75}laugh?
+Dialogue: 0,0:00:41.93,0:00:45.97,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k24}In{\k28}side {\k28}my {\k29}litt{\k21}le {\k40}cham{\k20}ber {\k17}made {\k13}of {\k74}glass
+Dialogue: 0,0:00:44.87,0:00:47.69,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k43}So {\k34}he {\k37}lived {\k58}the
+Dialogue: 0,0:00:46.32,0:00:50.39,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Flo{\k45}wer {\k76}Man, {\k38}Flo{\k37}wer {\k57}Man
+Dialogue: 0,0:00:49.34,0:00:53.39,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k40}With {\k30}his {\k93}heart {\k29}in {\k30}the {\k73}sand
+Dialogue: 0,0:00:52.36,0:00:55.25,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k39}So {\k39}he {\k101}stands
+Dialogue: 0,0:00:54.25,0:00:58.05,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k39}To {\k47}watch {\k36}the {\k28}whole {\k29}wide {\k91}world
+Dialogue: 0,0:00:57.11,0:00:59.48,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k24}From {\k12}a {\k91}can
+Dialogue: 0,0:00:58.40,0:01:02.48,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Way {\k44}up {\k75}high {\k37}in {\k37}the {\k66}sky
+Dialogue: 0,0:01:01.40,0:01:05.48,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k36}With {\k28}the {\k92}sun {\k28}in {\k29}his {\k85}eyes
+Dialogue: 0,0:01:04.46,0:01:07.22,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Ain't {\k33}it {\k90}nice?
+Dialogue: 0,0:01:06.26,0:01:10.69,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k38}The {\k43}life {\k38}for{\k31}e{\k38}ver {\k145}for
+Dialogue: 0,0:01:09.59,0:01:12.59,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k88}Flo{\k102}wers
+Dialogue: 0,0:02:23.13,0:02:27.43,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Ten {\k38}feet {\k30}twen{\k28}ty, {\k21}the {\k36}Flo{\k36}wer {\k87}Man
+Dialogue: 0,0:02:26.52,0:02:30.98,Sample KM [Up] - cyan,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Is {\k39}wai{\k27}ting {\k37}for {\k22}the {\k49}touch {\k14}of {\k37}his {\k70}hand
+Dialogue: 0,0:02:29.88,0:02:33.97,Sample KM [Up] - purple,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Fa{\k21}llen {\k26}to {\k26}pie{\k31}ces {\k38}still {\k19}with{\k16}out {\k19}a {\k67}plan
+Dialogue: 0,0:02:32.87,0:02:36.27,Sample KM [Up] - green,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Yet {\k42}the {\k37}e{\k39}very {\k38}dai{\k36}ly
+Dialogue: 0,0:02:35.20,0:02:39.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Hope {\k42}that {\k31}po{\k25}wered {\k20}the {\k38}Flo{\k37}wer {\k88}Man
+Dialogue: 0,0:02:38.58,0:02:42.99,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Would {\k33}ne{\k34}ver {\k37}co{\k35}wer {\k34}off {\k17}of {\k32}its {\k71}path
+Dialogue: 0,0:02:41.89,0:02:46.02,Sample KM [Up] - blue,,0,0,0,fx,{\k90\fad(300,200)}{\k34}E{\k22}ven {\k24}if {\k28}bro{\k30}ken {\k34}I {\k14}am {\k16}more {\k26}than {\k75}glass
+Dialogue: 0,0:02:44.89,0:02:47.52,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k36}So {\k38}he {\k38}lived {\k41}the
+Dialogue: 0,0:02:46.42,0:02:50.44,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Flo{\k38}wer {\k71}Man, {\k45}Flo{\k37}wer {\k62}Man
+Dialogue: 0,0:02:49.34,0:02:53.34,Sample KM [Up] - cyan,,0,0,0,fx,{\k90\fad(300,200)}{\k39}With {\k31}his {\k93}heart {\k29}in {\k29}the {\k69}sand
+Dialogue: 0,0:02:52.37,0:02:55.21,Sample KM [Up] - purple,,0,0,0,fx,{\k90\fad(300,200)}{\k40}So {\k40}he {\k94}stands
+Dialogue: 0,0:02:54.27,0:02:58.05,Sample KM [Up] - green,,0,0,0,fx,{\k90\fad(300,200)}{\k44}To {\k40}watch {\k31}the {\k31}whole {\k30}wide {\k92}world
+Dialogue: 0,0:02:57.11,0:02:59.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}From {\k14}a {\k89}can
+Dialogue: 0,0:02:58.37,0:03:02.47,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Way {\k34}up {\k76}high {\k40}in {\k36}the {\k64}sky
+Dialogue: 0,0:03:01.37,0:03:05.57,Sample KM [Up] - blue,,0,0,0,fx,{\k90\fad(300,200)}{\k38}With {\k29}the {\k88}sun {\k27}in {\k34}your {\k94}eyes
+Dialogue: 0,0:03:04.47,0:03:07.15,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Ain't {\k33}it {\k81}nice?
+Dialogue: 0,0:03:06.26,0:03:10.76,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k43}The {\k39}life {\k35}for{\k37}e{\k43}ver {\k143}for
+Dialogue: 0,0:03:09.67,0:03:13.76,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k81}Flo{\k218}wers

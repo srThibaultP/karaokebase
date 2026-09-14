@@ -1,0 +1,31 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "oushitsu",
+      "Kyoushi"
+    ],
+    "external_database_ids": {
+      "anilist": 97932,
+      "kitsu": 12667,
+      "myanimelist": 34262
+    },
+    "i18n": {
+      "eng": "The Royal Tutor",
+      "qro": "Ôshitsu Kyôshi Heine",
+      "jpn": "王室教師ハイネ",
+      "rus": "Королевский наставник",
+      "chi": "王室教师海涅",
+      "kor": "왕실교사 하이네"
+    },
+    "name": "Ôshitsu Kyôshi Heine",
+    "repository": "kara.moe",
+    "tid": "554f1460-cca2-47f3-ab79-f6671c33a5fc",
+    "types": [
+      1
+    ]
+  }
+}

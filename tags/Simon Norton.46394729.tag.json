@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Simon Norton"
+    },
+    "name": "Simon Norton",
+    "repository": "kara.moe",
+    "tid": "46394729-fee4-4568-90a4-b6f68386c2fd",
+    "types": [
+      4
+    ]
+  }
+}

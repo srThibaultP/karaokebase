@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "DR6"
+    },
+    "name": "DR6",
+    "repository": "kara.moe",
+    "tid": "3598668d-f1be-4fbb-892b-2ea3345fee69",
+    "types": [
+      4
+    ]
+  }
+}

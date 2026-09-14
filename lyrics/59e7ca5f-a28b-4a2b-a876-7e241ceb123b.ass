@@ -1,0 +1,177 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Fire
+Original Timing: DaftPakkun
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:23.39,0:00:27.86,Sample KM [Up],,0,0,0,karaoke,{\k48}Ba{\k113}by, {\k37}tu {\k34}as {\k24}tou{\k44}jours {\k19}le {\k45}sou{\k83}rire
+Comment: 0,0:00:28.05,0:00:32.03,Sample KM [Up],,0,0,0,karaoke,{\k52}Ba{\k51}by, {\k20}un {\k50}sou{\k26}rire {\k40}qui {\k25}me {\k38}fait {\k30}rê{\k66}ver
+Comment: 0,0:00:34.21,0:00:38.86,Sample KM [Up],,0,0,0,karaoke,{\k53}Ba{\k115}by, {\k22}dis, {\k50}c'est {\k33}pour {\k31}qui {\k26}ce {\k42}sou{\k81}rire {\k12}
+Comment: 0,0:00:38.98,0:00:43.38,Sample KM [Up],,0,0,0,karaoke,{\k48}Ba{\k48}by, {\k27}si {\k46}c'est {\k35}pour {\k27}moi, {\k31}je {\k30}le {\k34}sa{\k114}vais
+Comment: 0,0:00:45.14,0:00:49.79,Sample KM [Up],,0,0,0,karaoke,{\k49}Ba{\k113}by, {\k34}toi {\k39}tu {\k29}as {\k42}le {\k27}re{\k41}gard {\k15}qui {\k76}brille
+Comment: 0,0:00:49.90,0:00:53.81,Sample KM [Up],,0,0,0,karaoke,{\k52}Ba{\k51}by, {\k21}u{\k39}ne {\k28}lu{\k54}mière {\k24}au {\k33}fond {\k16}des {\k73}yeux
+Comment: 0,0:00:55.96,0:01:00.76,Sample KM [Up],,0,0,0,karaoke,{\k55}Ba{\k106}by, {\k45}c'est {\k34}pour {\k22}qui {\k43}ce {\k33}re{\k37}gard {\k17}qui {\k88}brille
+Comment: 0,0:01:00.76,0:01:05.20,Sample KM [Up],,0,0,0,karaoke,{\k50}Ba{\k48}by, {\k23}si {\k45}c'est {\k35}pour {\k32}moi, {\k21}je {\k48}suis {\k18}heu{\k124}reux
+Comment: 0,0:01:06.18,0:01:11.26,Sample KM [Up],,0,0,0,karaoke,{\k18}Tu {\k11}es {\k23}ma {\k53}seule {\k17}a{\k76}mie, {\k35}je {\k26}n’ai{\k29}me {\k22}que {\K198}toi
+Comment: 0,0:01:11.63,0:01:16.72,Sample KM [Up],,0,0,0,karaoke,{\k13}Et {\k14}je {\k37}n’ai {\k38}qu'une {\k19}en{\k74}vie, {\k41}c'est {\k38}d’être {\k14}a{\k31}vec {\K190}toi
+Comment: 0,0:01:16.72,0:01:20.38,Sample KM [Up],,0,0,0,karaoke,{\k27}Et {\k27}j’ai {\k45}le {\k54}cœur {\k32}qui {\k42}bat, {\k62}Ba{\k77}by
+Comment: 0,0:01:20.38,0:01:26.24,Sample KM [Up],,0,0,0,karaoke,{\k44}Cha{\k20}que {\k38}fois {\k25}que {\k39}je {\k29}te {\k123}vois, {\k54}Ba{\K214}by
+Comment: 0,0:01:26.61,0:01:28.43,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:01:28.43,0:01:29.94,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:01:29.24,0:01:31.25,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:01:31.14,0:01:32.60,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:01:31.98,0:01:33.99,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:01:33.86,0:01:35.27,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:01:34.72,0:01:37.79,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:01:51.71,0:01:56.37,Sample KM [Up],,0,0,0,karaoke,{\k48}Ba{\k113}by, {\k37}tu {\k34}as {\k24}tou{\k44}jours {\k19}le {\k45}sou{\k83}rire
+Comment: 0,0:01:56.46,0:02:00.55,Sample KM [Up],,0,0,0,karaoke,{\k52}Ba{\k51}by, {\k20}un {\k50}sou{\k26}rire {\k40}qui {\k25}me {\k38}fait {\k30}rê{\k66}ver
+Comment: 0,0:02:02.58,0:02:07.24,Sample KM [Up],,0,0,0,karaoke,{\k53}Ba{\k115}by, {\k22}dis, {\k50}c'est {\k33}pour {\k31}qui {\k26}ce {\k42}sou{\k81}rire {\k12}
+Comment: 0,0:02:07.34,0:02:12.13,Sample KM [Up],,0,0,0,karaoke,{\k48}Ba{\k48}by, {\k22}si {\k51}c'est {\k35}pour {\k27}moi, {\k36}je {\k25}le {\k34}sa{\k114}vais
+Comment: 0,0:02:12.76,0:02:17.88,Sample KM [Up],,0,0,0,karaoke,{\k18}Tu {\k11}es {\k18}ma {\k45}seule {\k22}a{\k84}mie, {\k35}je {\k26}n’ai{\k29}me {\k28}que {\kf196}toi
+Comment: 0,0:02:18.18,0:02:23.18,Sample KM [Up],,0,0,0,karaoke,{\k13}Et {\k14}je {\k37}n’ai {\k38}qu'une {\k19}en{\k74}vie, {\k41}c'est {\k38}d’être {\k14}a{\k31}vec {\K190}toi
+Comment: 0,0:02:23.29,0:02:26.96,Sample KM [Up],,0,0,0,karaoke,{\k27}Et {\k27}j’ai {\k45}le {\k39}cœur {\k21}qui {\k35}bat, {\k68}Ba{\k105}by
+Comment: 0,0:02:26.96,0:02:32.75,Sample KM [Up],,0,0,0,karaoke,{\k44}Cha{\k20}que {\k38}fois {\k22}que {\k38}je {\k33}te {\k107}vois, {\k63}Ba{\kf214}by
+Comment: 0,0:02:33.00,0:02:34.89,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:02:35.08,0:02:36.35,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:02:35.73,0:02:37.65,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:02:37.71,0:02:39.04,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:02:38.44,0:02:40.42,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:02:40.42,0:02:41.81,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:02:41.21,0:02:43.45,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:02:43.13,0:02:44.68,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:02:43.90,0:02:45.94,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:02:45.85,0:02:47.24,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:02:46.65,0:02:48.74,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:02:48.58,0:02:49.72,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:02:49.34,0:02:51.32,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:02:51.28,0:02:52.62,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:02:52.04,0:02:54.08,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:02:54.00,0:02:55.45,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:03:16.71,0:03:18.83,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:18.59,0:03:20.00,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:03:19.39,0:03:21.56,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:21.24,0:03:22.88,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:03:22.12,0:03:24.41,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:24.02,0:03:25.49,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:03:24.94,0:03:27.11,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:26.75,0:03:28.12,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:03:27.58,0:03:29.91,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:29.49,0:03:30.91,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:03:30.32,0:03:32.68,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:32.19,0:03:33.57,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:03:33.06,0:03:35.50,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:35.02,0:03:36.30,Sample KM [Choir],,0,0,0,karaoke,{\k34}Fi{\k94}re
+Comment: 0,0:03:35.81,0:03:38.11,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:37.60,0:03:38.96,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:03:41.28,0:03:43.55,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:43.06,0:03:44.39,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:03:38.49,0:03:40.80,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:40.31,0:03:41.77,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:03:43.94,0:03:46.30,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:45.78,0:03:47.00,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:03:46.67,0:03:48.94,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:48.50,0:03:49.94,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:03:49.36,0:03:51.79,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:51.21,0:03:52.56,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:03:52.12,0:03:54.11,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:53.98,0:03:55.30,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:03:54.87,0:03:56.81,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:56.68,0:03:58.04,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:03:57.57,0:03:59.64,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:03:59.43,0:04:00.75,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:04:00.24,0:04:02.38,Sample KM [Up],,0,0,0,karaoke,{\k34}Moi {\k12}je {\k12}t’ai{\k20}me {\k32}Ba{\k104}by
+Comment: 0,0:04:02.17,0:04:03.12,Sample KM [Choir],,0,0,0,karaoke,{\k49}Fi{\k46}re
+Comment: 0,0:04:02.98,0:04:05.28,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Comment: 0,0:04:04.92,0:04:06.45,Sample KM [Choir],,0,0,0,karaoke,{\k47}Fi{\k104}re
+Comment: 0,0:04:05.80,0:04:07.71,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:00:22.49,0:00:28.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Ba{\k113}by, {\k37}tu {\k34}as {\k24}tou{\k44}jours {\k19}le {\k45}sou{\k83}rire
+Dialogue: 0,0:00:27.15,0:00:32.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Ba{\k51}by, {\k20}un {\k50}sou{\k26}rire {\k40}qui {\k25}me {\k38}fait {\k30}rê{\k66}ver
+Dialogue: 0,0:00:33.31,0:00:39.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Ba{\k115}by, {\k22}dis, {\k50}c'est {\k33}pour {\k31}qui {\k26}ce {\k42}sou{\k81}rire {\k12}
+Dialogue: 0,0:00:38.08,0:00:43.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Ba{\k48}by, {\k27}si {\k46}c'est {\k35}pour {\k27}moi, {\k31}je {\k30}le {\k34}sa{\k114}vais
+Dialogue: 0,0:00:44.24,0:00:49.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Ba{\k113}by, {\k34}toi {\k39}tu {\k29}as {\k42}le {\k27}re{\k41}gard {\k15}qui {\k76}brille
+Dialogue: 0,0:00:49.00,0:00:54.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Ba{\k51}by, {\k21}u{\k39}ne {\k28}lu{\k54}mière {\k24}au {\k33}fond {\k16}des {\k73}yeux
+Dialogue: 0,0:00:55.06,0:01:00.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Ba{\k106}by, {\k45}c'est {\k34}pour {\k22}qui {\k43}ce {\k33}re{\k37}gard {\k17}qui {\k88}brille
+Dialogue: 0,0:00:59.86,0:01:05.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Ba{\k48}by, {\k23}si {\k45}c'est {\k35}pour {\k32}moi, {\k21}je {\k48}suis {\k18}heu{\k124}reux
+Dialogue: 0,0:01:05.28,0:01:11.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Tu {\k11}es {\k23}ma {\k53}seule {\k17}a{\k76}mie, {\k35}je {\k26}n’ai{\k29}me {\k22}que {\K198}toi
+Dialogue: 0,0:01:10.73,0:01:16.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Et {\k14}je {\k37}n’ai {\k38}qu'une {\k19}en{\k74}vie, {\k41}c'est {\k38}d’être {\k14}a{\k31}vec {\K190}toi
+Dialogue: 0,0:01:15.82,0:01:20.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Et {\k27}j’ai {\k45}le {\k54}cœur {\k32}qui {\k42}bat, {\k62}Ba{\k77}by
+Dialogue: 0,0:01:19.48,0:01:26.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Cha{\k20}que {\k38}fois {\k25}que {\k39}je {\k29}te {\k123}vois, {\k54}Ba{\K214}by
+Dialogue: 0,0:01:25.71,0:01:28.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:01:27.53,0:01:30.14,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:01:28.34,0:01:31.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:01:30.24,0:01:32.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:01:31.08,0:01:34.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:01:32.96,0:01:35.47,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:01:33.82,0:01:37.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:01:50.81,0:01:56.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Ba{\k113}by, {\k37}tu {\k34}as {\k24}tou{\k44}jours {\k19}le {\k45}sou{\k83}rire
+Dialogue: 0,0:01:55.56,0:02:00.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Ba{\k51}by, {\k20}un {\k50}sou{\k26}rire {\k40}qui {\k25}me {\k38}fait {\k30}rê{\k66}ver
+Dialogue: 0,0:02:01.68,0:02:07.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Ba{\k115}by, {\k22}dis, {\k50}c'est {\k33}pour {\k31}qui {\k26}ce {\k42}sou{\k81}rire {\k12}
+Dialogue: 0,0:02:06.44,0:02:12.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Ba{\k48}by, {\k22}si {\k51}c'est {\k35}pour {\k27}moi, {\k36}je {\k25}le {\k34}sa{\k114}vais
+Dialogue: 0,0:02:11.86,0:02:18.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Tu {\k11}es {\k18}ma {\k45}seule {\k22}a{\k84}mie, {\k35}je {\k26}n’ai{\k29}me {\k28}que {\kf196}toi
+Dialogue: 0,0:02:17.28,0:02:23.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Et {\k14}je {\k37}n’ai {\k38}qu'une {\k19}en{\k74}vie, {\k41}c'est {\k38}d’être {\k14}a{\k31}vec {\K190}toi
+Dialogue: 0,0:02:22.39,0:02:27.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Et {\k27}j’ai {\k45}le {\k39}cœur {\k21}qui {\k35}bat, {\k68}Ba{\k105}by
+Dialogue: 0,0:02:26.06,0:02:32.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Cha{\k20}que {\k38}fois {\k22}que {\k38}je {\k33}te {\k107}vois, {\k63}Ba{\kf214}by
+Dialogue: 0,0:02:32.10,0:02:35.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:02:34.18,0:02:36.55,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:02:34.83,0:02:37.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:02:36.81,0:02:39.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:02:37.54,0:02:40.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:02:39.52,0:02:42.01,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:02:40.31,0:02:43.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:02:42.23,0:02:44.88,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:02:43.00,0:02:46.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:02:44.95,0:02:47.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:02:45.75,0:02:48.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:02:47.68,0:02:49.92,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:02:48.44,0:02:51.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:02:50.38,0:02:52.82,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:02:51.14,0:02:54.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:02:53.10,0:02:55.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:15.81,0:03:19.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:17.69,0:03:20.20,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:18.49,0:03:21.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:20.34,0:03:23.08,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:21.22,0:03:24.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:23.12,0:03:25.69,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:24.04,0:03:27.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:25.85,0:03:28.32,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:26.68,0:03:30.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:28.59,0:03:31.11,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:29.42,0:03:32.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:31.29,0:03:33.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:32.16,0:03:35.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:34.12,0:03:36.50,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Fi{\k94}re
+Dialogue: 0,0:03:34.91,0:03:38.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:36.70,0:03:39.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:40.38,0:03:43.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:42.16,0:03:44.59,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:37.59,0:03:41.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:39.41,0:03:41.97,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:43.04,0:03:46.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:44.88,0:03:47.20,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:45.77,0:03:49.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:47.60,0:03:50.14,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:48.46,0:03:51.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:50.31,0:03:52.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:51.22,0:03:54.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:53.08,0:03:55.50,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:53.97,0:03:57.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:55.78,0:03:58.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:56.67,0:03:59.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:03:58.53,0:04:00.95,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:03:59.34,0:04:02.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Moi {\k12}je {\k12}t’ai{\k20}me {\k32}Ba{\k104}by
+Dialogue: 0,0:04:01.27,0:04:03.32,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Fi{\k46}re
+Dialogue: 0,0:04:02.08,0:04:05.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by
+Dialogue: 0,0:04:04.02,0:04:06.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Fi{\k104}re
+Dialogue: 0,0:04:04.90,0:04:07.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k16}je {\k13}t’ai{\k17}me {\k34}Ba{\k84}by

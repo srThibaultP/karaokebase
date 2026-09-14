@@ -1,0 +1,22 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Kamimura"
+    ],
+    "i18n": {
+      "eng": "Shigezo Uemura",
+      "jpn": "上村茂三",
+      "qro": "Uemura Shigezo"
+    },
+    "name": "Shigezo Uemura",
+    "repository": "kara.moe",
+    "tid": "e259359b-11eb-448f-a183-6139f696b6e8",
+    "types": [
+      8
+    ]
+  }
+}

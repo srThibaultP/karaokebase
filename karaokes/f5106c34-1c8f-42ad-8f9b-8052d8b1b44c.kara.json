@@ -22,10 +22,12 @@
   ],
   "data": {
     "created_at": "2020-08-07T21:35:55.445Z",
+    "ignoreHooks": false,
     "kid": "f5106c34-1c8f-42ad-8f9b-8052d8b1b44c",
-    "modified_at": "2021-02-25T12:47:23.951Z",
+    "modified_at": "2026-09-13T12:23:26.380Z",
     "repository": "kara.moe",
-    "songname": "JPN - Princess Connect! Re Dive - ED - Soredemo Tomo ni Aruite Iku",
+    "songname": "JPN - Princess Connect! Re:Dive - ED1 - Soredemo Tomo ni Aruite Iku",
+    "songorder": 1,
     "tags": {
       "authors": [
         "87096920-112f-485f-a310-04156cb4624d"
@@ -71,8 +73,8 @@
       ]
     },
     "titles": {
-      "qro": "Soredemo Tomo ni Aruite Iku",
-      "jpn": "それでもともに歩いていく"
+      "jpn": "それでもともに歩いていく",
+      "qro": "Soredemo Tomo ni Aruite Iku"
     },
     "titles_default_language": "qro",
     "year": 2020

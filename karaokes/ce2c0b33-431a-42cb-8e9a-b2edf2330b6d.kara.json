@@ -1,0 +1,83 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 115,
+      "filename": "ce2c0b33-431a-42cb-8e9a-b2edf2330b6d.mp4",
+      "filesize": 30072423,
+      "loudnorm": "-14.25,-0.27,2.30,-24.29,-0.33",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "ce2c0b33-431a-42cb-8e9a-b2edf2330b6d.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-13T18:39:18.966Z",
+    "ignoreHooks": false,
+    "kid": "ce2c0b33-431a-42cb-8e9a-b2edf2330b6d",
+    "modified_at": "2026-09-13T18:39:21.399Z",
+    "repository": "kara.moe",
+    "songname": "JPN - Meitantei Conan - OP62 - Ai no FIRE",
+    "songorder": 62,
+    "tags": {
+      "authors": [
+        "97997fce-1dfe-47f6-84eb-f9fcb5c54b57"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "creators": [
+        "53e900ec-a1ff-4c95-8b2d-a63995c2936f"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "genres": [
+        "a0aeef4a-6428-45ff-a6e1-468b595930c2"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "misc": [
+        "fe819ff1-9db8-4a0f-85dc-0e322c9126c4"
+      ],
+      "origins": [
+        "938de218-5343-4865-94d3-fb33f2eaa152"
+      ],
+      "series": [
+        "cfea16f2-e07f-4a2c-93e2-5de6cf659d69"
+      ],
+      "singers": [
+        "c6862473-9de1-4a0f-a49f-89b928122921"
+      ],
+      "songtypes": [
+        "f02ad9b3-0bd9-4aad-85b3-9976739ba0e4"
+      ],
+      "songwriters": [
+        "96c5114a-7034-4174-9635-b8a1f8403594",
+        "ced4aacb-7f9d-4483-a6a1-98bf4aadd061"
+      ],
+      "franchises": [
+        "fecc8f9e-1d70-4b0b-867f-18ccff1216e7"
+      ]
+    },
+    "titles": {
+      "jpn": "愛のFIRE",
+      "qro": "Ai no FIRE"
+    },
+    "titles_default_language": "qro",
+    "year": 2026
+  }
+}

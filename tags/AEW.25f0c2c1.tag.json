@@ -1,0 +1,20 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "All Elite Wrestling"
+    ],
+    "i18n": {
+      "eng": "AEW"
+    },
+    "name": "AEW",
+    "repository": "kara.moe",
+    "tid": "25f0c2c1-5bc0-4970-9862-77f58df43305",
+    "types": [
+      1
+    ]
+  }
+}

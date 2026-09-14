@@ -1,0 +1,172 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: PC.601
+Title: Color Your Night
+Original Timing: lilo3005
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Azumi Takahashi,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Choir,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Lotus Juice,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:21.27,0:00:23.36,Lotus Juice,,0,0,0,karaoke,{\k24}Time {\k14}to {\k48}shine {\k15}and {\k20}I'm {\k43}down {\k16}to {\k29}ride
+Comment: 1,0:00:23.37,0:00:25.12,Lotus Juice,,0,0,0,karaoke,{\k14}I'm {\k17}gon{\k14}na {\k19}drive {\k14}un{\k15}til {\k18}the {\k17}break {\k13}of {\k34}dawn,
+Comment: 1,0:00:25.12,0:00:25.82,Lotus Juice,,0,0,0,karaoke,{\k24}wil{\k21}ding {\k25}out
+Comment: 2,0:00:25.94,0:00:27.24,Lotus Juice,,0,0,0,karaoke,{\k13}I'm {\k32}on {\k7}a {\k13}mis{\k11}sion {\k16}grin{\k16}ding {\k22}out
+Comment: 3,0:00:27.24,0:00:28.58,Lotus Juice,,0,0,0,karaoke,{\k10}Wha{\k18}te{\k6}ver {\k7}it {\k13}is {\k15}I {\k24}got{\k9}ta {\k32}do
+Comment: 4,0:00:28.58,0:00:30.37,Lotus Juice,,0,0,0,karaoke,{\k21}Ri{\k13}ding {\k15}out {\k12}un{\k17}til {\k16}the {\k20}day {\k14}I {\k26}meet {\k28}you
+Comment: 5,0:00:30.37,0:00:31.00,Lotus Juice,,0,0,0,karaoke,{\k12}I'm {\k21}ri{\k11}ding {\k19}out
+Comment: 6,0:00:31.12,0:00:32.26,Lotus Juice,,0,0,0,karaoke,{\k20}I {\k28}look {\k16}up {\k8}in {\k7}the {\k35}sky
+Comment: 6,0:00:32.26,0:00:32.64,Choir,,0,0,0,karaoke,{\k38}Sky
+Comment: 7,0:00:32.70,0:00:33.65,Lotus Juice,,0,0,0,karaoke,{\k18}As{\k14}king {\k21}lot{\k10}ta, {\k32}Why?
+Comment: 7,0:00:33.65,0:00:33.82,Choir,,0,0,0,karaoke,{\k17}Why?
+Comment: 8,0:00:33.84,0:00:36.18,Lotus Juice,,0,0,0,karaoke,{\k13}But {\k14}ne{\k17}ver {\k14}let {\k18}it {\k18}faze {\k14}me, {\k27}I'm {\k22}kee{\k13}ping {\k20}good {\k44}vibes
+Comment: 9,0:00:36.18,0:00:37.01,Lotus Juice,,0,0,0,karaoke,{\k14}When {\k17}I'm {\k18}on {\k14}the {\k20}road,
+Comment: 9,0:00:37.01,0:00:38.68,Lotus Juice,,0,0,0,karaoke,{\k11}I {\k15}watch {\k33}out {\k15}for {\k22}all {\k24}sur{\k27}pri{\k20}ses
+Comment: 10,0:00:38.70,0:00:39.65,Lotus Juice,,0,0,0,karaoke,{\k19}What {\k13}it {\k15}pro{\k17}vides {\k38}us
+Comment: 11,0:00:39.65,0:00:41.16,Lotus Juice,,0,0,0,karaoke,{\k15}Good {\k17}and {\k31}bad {\k9}but {\k21}no{\k14}thing {\k11}un{\k28}ties {\k6}us
+Comment: 12,0:00:41.16,0:00:43.90,Azumi Takahashi,,0,0,0,karaoke,{\k7}A{\k19}no{\k12}ther {\k25}wan{\k30}der {\k33}in {\k26}the {\kf122}night
+Comment: 13,0:00:44.07,0:00:46.16,Azumi Takahashi,,0,0,0,karaoke,{\k21}Let {\k27}me {\k36}paint {\k30}the {\k95}view
+Comment: 14,0:00:46.16,0:00:49.18,Azumi Takahashi,,0,0,0,karaoke,{\k13}Co{\k22}lour {\k9}a {\k33}town {\k83}with {\k31}my {\k111}light
+Comment: 15,0:00:49.93,0:00:51.52,Azumi Takahashi,,0,0,0,karaoke,{\k15}For {\k17}e{\k7}ve{\k6}ry {\k10}mo{\k34}ment {\k39}shared {\k13}with {\k18}you
+Comment: 16,0:00:51.65,0:00:53.89,Azumi Takahashi,,0,0,0,karaoke,{\k20}Not {\k36}out {\k30}in {\k28}the {\k110}day
+Comment: 17,0:00:54.05,0:00:56.26,Azumi Takahashi,,0,0,0,karaoke,{\k13}But {\k17}ne{\k25}ver {\k21}ful{\k48}ly {\k81}gone
+Comment: 18,0:00:56.26,0:00:59.26,Azumi Takahashi,,0,0,0,karaoke,{\k33}Going {\k11}to {\k32}be {\k81}back {\k43}a{\k100}gain
+Comment: 19,0:01:00.06,0:01:02.50,Azumi Takahashi,,0,0,0,karaoke,{\k12}Un{\k19}til {\k13}the {\k21}co{\k42}ming {\k15}of {\k35}a {\k71}dawn
+Comment: 20,0:01:02.07,0:01:02.51,Choir,,0,0,0,karaoke,{\k24}Hey
+Comment: 21,0:01:02.70,0:01:04.75,Lotus Juice,,0,0,0,karaoke,{\k13}For {\k14}all {\k5}the {\k20}days {\k7}a{\k22}head {\k10}of {\k32}us {\k17}put {\k18}your {\k24}hands {\k23}up
+Comment: 22,0:01:04.88,0:01:06.81,Lotus Juice,,0,0,0,karaoke,{\k14}Wave {\k7}'em {\k22}side {\k10}to {\k25}side {\k18}for {\k20}good {\k45}luck, {\k32}ah
+Comment: 23,0:01:07.12,0:01:07.76,Choir,,0,0,0,karaoke,{\k74}Hey
+Comment: 24,0:01:07.57,0:01:09.85,Lotus Juice,,0,0,0,karaoke,{\k19}For {\k19}all {\k12}the {\k28}nights {\k34}like {\k30}this, {\k18}put {\k11}your {\k30}hands {\k27}up
+Comment: 25,0:01:09.91,0:01:11.84,Lotus Juice,,0,0,0,karaoke,{\k24}Love {\k7}the {\k19}mo{\k13}ment {\k12}e{\k15}ven {\k37}from {\k34}dusk, {\k32}yup
+Comment: 26,0:01:12.15,0:01:12.65,Choir,,0,0,0,karaoke,{\k46}Hey
+Comment: 27,0:01:12.64,0:01:13.95,Lotus Juice,,0,0,0,karaoke,{\k16}You {\k13}al{\k18}ways {\k30}got {\k13}my {\k41}back,
+Comment: 27,0:01:13.95,0:01:15.30,Lotus Juice,,0,0,0,karaoke,{\k12}and {\k16}of {\k36}course {\k9}I {\k14}got {\k20}your {\k28}back
+Comment: 28,0:01:15.33,0:01:16.90,Lotus Juice,,0,0,0,karaoke,{\k18}Don't {\k14}you {\k15}wor{\k16}ry {\k5}a{\k27}bout {\k32}that {\k30}now
+Comment: 29,0:01:17.21,0:01:17.65,Choir,,0,0,0,karaoke,{\k30}Hey
+Comment: 30,0:01:17.67,0:01:19.43,Lotus Juice,,0,0,0,karaoke,{\k14}It's {\k19}been {\k14}a {\k30}good {\k34}day, {\k33}good {\k32}night
+Comment: 31,0:01:19.62,0:01:21.66,Lotus Juice,,0,0,0,karaoke,{\k12}It's {\k33}gon{\k0}na {\k14}be {\k14}a {\k32}good {\k33}day, {\k33}good {\k33}night
+Comment: 32,0:01:42.04,0:01:44.05,Lotus Juice,,0,0,0,karaoke,{\k13}When {\k22}two {\k27}hands {\k40}meet {\k21}at {\k38}ze{\k40}nith
+Comment: 33,0:01:44.68,0:01:46.78,Lotus Juice,,0,0,0,karaoke,{\k20}No{\k27}thing {\k40}comes {\k21}bet{\k38}ween {\k64}us
+Comment: 34,0:01:47.23,0:01:49.10,Lotus Juice,,0,0,0,karaoke,{\k12}Dan{\k19}cing {\k31}like {\k32}bal{\k17}le{\k29}ri{\k47}nas
+Comment: 35,0:01:49.11,0:01:52.03,Lotus Juice,,0,0,0,karaoke,{\k31}Un{\k64}der {\k15}the {\k32}moon {\k34}light {\k46}all {\k31}night {\k39}long
+Comment: 36,0:01:52.28,0:01:54.43,Lotus Juice,,0,0,0,karaoke,{\k21}How {\k31}these {\k35}plain {\k15}and {\k25}sim{\k39}ple {\k49}scenes
+Comment: 37,0:01:54.44,0:01:58.83,Lotus Juice,,0,0,0,karaoke,{\k69}Get {\k37}pain{\k23}ted {\k90}so {\k18}vi{\k21}vid{\k31}ly {\k52}by {\k98}you
+Comment: 38,0:01:59.22,0:02:03.53,Lotus Juice,,0,0,0,karaoke,{\k26}I {\k67}just {\k55}want {\k21}to {\k84}stay {\k33}with {\kf125}you
+Comment: 39,0:02:01.99,0:02:04.68,Azumi Takahashi,,0,0,0,karaoke,{\k9}A{\k18}round {\k13}the {\k42}world {\k0}I {\k44}slow{\k30}ly {\kf113}dance
+Comment: 40,0:02:04.80,0:02:07.00,Azumi Takahashi,,0,0,0,karaoke,{\k11}Whe{\k21}ne{\k29}ver {\k32}our {\k32}eyes {\k95}meet
+Comment: 41,0:02:07.00,0:02:10.16,Azumi Takahashi,,0,0,0,karaoke,{\k13}You {\k19}know {\k11}you {\k33}leave {\k63}me {\k18}in {\k35}a {\k124}trance
+Comment: 42,0:02:10.60,0:02:12.42,Azumi Takahashi,,0,0,0,karaoke,{\k16}It {\k43}means {\k21}e{\k15}ve{\k17}ry{\k31}thing {\k15}to {\k29}me
+Comment: 43,0:02:12.44,0:02:14.60,Azumi Takahashi,,0,0,0,karaoke,{\k27}Loo{\k29}king {\k35}down {\k16}be{\k109}low
+Comment: 44,0:02:14.85,0:02:16.91,Azumi Takahashi,,0,0,0,karaoke,{\k16}The {\k21}one {\k17}I {\k41}seek {\k17}to {\k94}find
+Comment: 45,0:02:17.23,0:02:20.07,Azumi Takahashi,,0,0,0,karaoke,{\k6}No {\k14}mat{\k12}ter {\k30}where {\k78}you {\k49}might {\k95}go
+Comment: 46,0:02:20.87,0:02:24.49,Azumi Takahashi,,0,0,0,karaoke,{\k15}Re{\k19}mem{\k11}ber {\k28}you'll {\k24}be {\k32}on {\k44}my {\kf189}mind
+Comment: 47,0:02:22.92,0:02:23.48,Choir,,0,0,0,karaoke,{\k34}Hey
+Comment: 48,0:02:23.48,0:02:24.57,Lotus Juice,,0,0,0,karaoke,{\k15}Al{\k23}ways {\k17}wat{\k14}ching {\k16}o{\k16}ver {\k8}me
+Comment: 48,0:02:24.57,0:02:26.25,Lotus Juice,,0,0,0,karaoke,{\k19}some{\k12}how {\k21}you {\k18}make {\k8}me {\k22}feel {\k14}in{\k15}vin{\k14}ci{\k25}ble
+Comment: 49,0:02:26.35,0:02:27.65,Lotus Juice,,0,0,0,karaoke,{\k20}Po{\k10}wer {\k20}to {\k4}my {\k32}soul, {\k44}yup
+Comment: 50,0:02:27.92,0:02:28.54,Choir,,0,0,0,karaoke,{\k62}Hey
+Comment: 51,0:02:28.54,0:02:30.62,Lotus Juice,,0,0,0,karaoke,{\k31}I'm {\k6}at {\k12}ease {\k20}with {\k20}things {\k28}that {\k31}used {\k16}to {\k17}bo{\k14}ther {\k13}me
+Comment: 52,0:02:30.65,0:02:32.58,Lotus Juice,,0,0,0,karaoke,{\k16}'Cause {\k11}your {\k10}e{\k20}xis{\k11}tence {\k37}just {\k24}lights {\k13}me {\k32}up, {\k19}yup
+Comment: 53,0:02:32.99,0:02:33.49,Choir,,0,0,0,karaoke,{\k46}Hey
+Comment: 54,0:02:33.50,0:02:34.83,Lotus Juice,,0,0,0,karaoke,{\k15}You {\k18}al{\k13}ways {\k32}got {\k11}my {\k44}back,
+Comment: 54,0:02:34.83,0:02:36.15,Lotus Juice,,0,0,0,karaoke,{\k15}and {\k8}of {\k36}course {\k9}I {\k16}got {\k19}your {\k30}back
+Comment: 55,0:02:36.16,0:02:37.86,Lotus Juice,,0,0,0,karaoke,{\k17}Don't {\k16}you {\k11}wor{\k10}ry {\k11}a{\k31}bout {\k29}that {\k45}now
+Comment: 56,0:02:38.04,0:02:38.62,Choir,,0,0,0,karaoke,{\k45}Hey
+Comment: 57,0:02:38.50,0:02:40.40,Lotus Juice,,0,0,0,karaoke,{\k17}It's {\k16}been {\k16}a {\k30}good {\k34}day, {\k33}good {\k44}night
+Comment: 58,0:02:40.45,0:02:42.38,Lotus Juice,,0,0,0,karaoke,{\k13}It's {\k33}gon{\k0}na {\k16}be {\k12}a {\k33}good {\k30}day, {\k33}good {\k23}night
+Comment: 59,0:02:42.39,0:02:45.08,Azumi Takahashi,,0,0,0,karaoke,{\k10}Wi{\k17}thin {\k16}the {\k22}in{\k20}ner {\k42}heart {\k28}I {\kf114}plead
+Comment: 60,0:02:45.21,0:02:47.00,Azumi Takahashi,,0,0,0,karaoke,{\k11}For {\k15}you {\k38}to {\k36}talk {\k26}to {\k53}me
+Comment: 61,0:02:47.41,0:02:50.25,Azumi Takahashi,,0,0,0,karaoke,{\k13}I {\k19}want {\k13}to {\k32}hear {\k81}all {\k14}the {\k22}good {\k30}and {\k60}bad
+Comment: 62,0:02:50.26,0:02:52.22,Azumi Takahashi,,0,0,0,karaoke,{\k13}The {\k19}new {\k25}sto{\k42}ries {\k31}you {\k66}have
+Comment: 63,0:02:52.47,0:02:55.22,Azumi Takahashi,,0,0,0,karaoke,{\k22}As {\k21}I {\k37}drift {\k18}ac{\k26}ross {\k20}the {\kf131}sky
+Comment: 64,0:02:55.29,0:02:57.24,Azumi Takahashi,,0,0,0,karaoke,{\k16}The {\k40}hour {\k32}hand {\k35}turns {\k72}high
+Comment: 65,0:02:57.25,0:02:59.44,Azumi Takahashi,,0,0,0,karaoke,{\k40}So {\k63}good{\kf116}night
+Comment: 66,0:02:59.86,0:03:06.17,Azumi Takahashi,,0,0,0,karaoke,{\k32}Let {\k17}me {\k77}sing {\k64}a {\k63}lul{\k63}la{\kf221}by, {\k94}love
+Comment: 67,0:03:06.81,0:03:09.43,Azumi Takahashi,,0,0,0,karaoke,{\k22}I'll {\k14}be {\k46}seeing {\k32}you, {\k44}ba{\k104}by
+Comment: 0,0:00:00.00,0:00:00.00,Azumi Takahashi,,0,0,0,karaoke,
+Dialogue: 0,0:00:20.37,0:00:23.56,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Time {\k14}to {\k48}shine {\k15}and {\k20}I'm {\k43}down {\k16}to {\k29}ride
+Dialogue: 0,0:00:22.47,0:00:25.32,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k14}I'm {\k17}gon{\k14}na {\k19}drive {\k14}un{\k15}til {\k18}the {\k17}break {\k13}of {\k34}dawn,
+Dialogue: 0,0:00:24.22,0:00:26.02,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k24}wil{\k21}ding {\k25}out
+Dialogue: 0,0:00:25.04,0:00:27.44,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k13}I'm {\k32}on {\k7}a {\k13}mis{\k11}sion {\k16}grin{\k16}ding {\k22}out
+Dialogue: 0,0:00:26.34,0:00:28.78,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k10}Wha{\k18}te{\k6}ver {\k7}it {\k13}is {\k15}I {\k24}got{\k9}ta {\k32}do
+Dialogue: 0,0:00:27.68,0:00:30.57,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ri{\k13}ding {\k15}out {\k12}un{\k17}til {\k16}the {\k20}day {\k14}I {\k26}meet {\k28}you
+Dialogue: 0,0:00:29.47,0:00:31.20,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k12}I'm {\k21}ri{\k11}ding {\k19}out
+Dialogue: 0,0:00:30.22,0:00:32.46,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k28}look {\k16}up {\k8}in {\k7}the {\k35}sky
+Dialogue: 0,0:00:31.36,0:00:32.84,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Sky
+Dialogue: 0,0:00:31.80,0:00:33.85,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k18}As{\k14}king {\k21}lot{\k10}ta, {\k32}Why?
+Dialogue: 0,0:00:32.75,0:00:34.02,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Why?
+Dialogue: 0,0:00:32.94,0:00:36.38,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k13}But {\k14}ne{\k17}ver {\k14}let {\k18}it {\k18}faze {\k14}me, {\k27}I'm {\k22}kee{\k13}ping {\k20}good {\k44}vibes
+Dialogue: 0,0:00:35.28,0:00:37.21,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k14}When {\k17}I'm {\k18}on {\k14}the {\k20}road,
+Dialogue: 0,0:00:36.11,0:00:38.88,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k15}watch {\k33}out {\k15}for {\k22}all {\k24}sur{\k27}pri{\k20}ses
+Dialogue: 0,0:00:37.80,0:00:39.85,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k19}What {\k13}it {\k15}pro{\k17}vides {\k38}us
+Dialogue: 0,0:00:38.75,0:00:41.36,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Good {\k17}and {\k31}bad {\k9}but {\k21}no{\k14}thing {\k11}un{\k28}ties {\k6}us
+Dialogue: 0,0:00:40.26,0:00:44.10,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k7}A{\k19}no{\k12}ther {\k25}wan{\k30}der {\k33}in {\k26}the {\kf122}night
+Dialogue: 0,0:00:43.17,0:00:46.36,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Let {\k27}me {\k36}paint {\k30}the {\k95}view
+Dialogue: 0,0:00:45.26,0:00:49.38,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Co{\k22}lour {\k9}a {\k33}town {\k83}with {\k31}my {\k111}light
+Dialogue: 0,0:00:49.03,0:00:51.72,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}For {\k17}e{\k7}ve{\k6}ry {\k10}mo{\k34}ment {\k39}shared {\k13}with {\k18}you
+Dialogue: 0,0:00:50.75,0:00:54.09,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Not {\k36}out {\k30}in {\k28}the {\k110}day
+Dialogue: 0,0:00:53.15,0:00:56.46,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}But {\k17}ne{\k25}ver {\k21}ful{\k48}ly {\k81}gone
+Dialogue: 0,0:00:55.36,0:00:59.46,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Going {\k11}to {\k32}be {\k81}back {\k43}a{\k100}gain
+Dialogue: 0,0:00:59.16,0:01:02.70,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Un{\k19}til {\k13}the {\k21}co{\k42}ming {\k15}of {\k35}a {\k71}dawn
+Dialogue: 0,0:01:01.17,0:01:02.71,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hey
+Dialogue: 0,0:01:01.80,0:01:04.95,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k13}For {\k14}all {\k5}the {\k20}days {\k7}a{\k22}head {\k10}of {\k32}us {\k17}put {\k18}your {\k24}hands {\k23}up
+Dialogue: 0,0:01:03.98,0:01:07.01,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Wave {\k7}'em {\k22}side {\k10}to {\k25}side {\k18}for {\k20}good {\k45}luck, {\k32}ah
+Dialogue: 0,0:01:06.22,0:01:07.96,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k74}Hey
+Dialogue: 0,0:01:06.67,0:01:10.05,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k19}For {\k19}all {\k12}the {\k28}nights {\k34}like {\k30}this, {\k18}put {\k11}your {\k30}hands {\k27}up
+Dialogue: 0,0:01:09.01,0:01:12.04,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Love {\k7}the {\k19}mo{\k13}ment {\k12}e{\k15}ven {\k37}from {\k34}dusk, {\k32}yup
+Dialogue: 0,0:01:11.25,0:01:12.85,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Hey
+Dialogue: 0,0:01:11.74,0:01:14.15,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k16}You {\k13}al{\k18}ways {\k30}got {\k13}my {\k41}back,
+Dialogue: 0,0:01:13.05,0:01:15.50,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k12}and {\k16}of {\k36}course {\k9}I {\k14}got {\k20}your {\k28}back
+Dialogue: 0,0:01:14.43,0:01:17.10,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Don't {\k14}you {\k15}wor{\k16}ry {\k5}a{\k27}bout {\k32}that {\k30}now
+Dialogue: 0,0:01:16.31,0:01:17.85,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Hey
+Dialogue: 0,0:01:16.77,0:01:19.63,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k14}It's {\k19}been {\k14}a {\k30}good {\k34}day, {\k33}good {\k32}night
+Dialogue: 0,0:01:18.72,0:01:21.86,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k12}It's {\k33}gon{\k0}na {\k14}be {\k14}a {\k32}good {\k33}day, {\k33}good {\k33}night
+Dialogue: 0,0:01:41.14,0:01:44.25,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k13}When {\k22}two {\k27}hands {\k40}meet {\k21}at {\k38}ze{\k40}nith
+Dialogue: 0,0:01:43.78,0:01:46.98,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k20}No{\k27}thing {\k40}comes {\k21}bet{\k38}ween {\k64}us
+Dialogue: 0,0:01:46.33,0:01:49.30,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Dan{\k19}cing {\k31}like {\k32}bal{\k17}le{\k29}ri{\k47}nas
+Dialogue: 0,0:01:48.21,0:01:52.23,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Un{\k64}der {\k15}the {\k32}moon {\k34}light {\k46}all {\k31}night {\k39}long
+Dialogue: 0,0:01:51.38,0:01:54.63,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k21}How {\k31}these {\k35}plain {\k15}and {\k25}sim{\k39}ple {\k49}scenes
+Dialogue: 0,0:01:53.54,0:01:59.03,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k69}Get {\k37}pain{\k23}ted {\k90}so {\k18}vi{\k21}vid{\k31}ly {\k52}by {\k98}you
+Dialogue: 0,0:01:58.32,0:02:03.73,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k67}just {\k55}want {\k21}to {\k84}stay {\k33}with {\kf125}you
+Dialogue: 0,0:02:01.09,0:02:04.88,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k9}A{\k18}round {\k13}the {\k42}world {\k0}I {\k44}slow{\k30}ly {\kf113}dance
+Dialogue: 0,0:02:03.90,0:02:07.20,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Whe{\k21}ne{\k29}ver {\k32}our {\k32}eyes {\k95}meet
+Dialogue: 0,0:02:06.10,0:02:10.36,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}You {\k19}know {\k11}you {\k33}leave {\k63}me {\k18}in {\k35}a {\k124}trance
+Dialogue: 0,0:02:09.70,0:02:12.62,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k16}It {\k43}means {\k21}e{\k15}ve{\k17}ry{\k31}thing {\k15}to {\k29}me
+Dialogue: 0,0:02:11.54,0:02:14.80,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Loo{\k29}king {\k35}down {\k16}be{\k109}low
+Dialogue: 0,0:02:13.95,0:02:17.11,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k16}The {\k21}one {\k17}I {\k41}seek {\k17}to {\k94}find
+Dialogue: 0,0:02:16.33,0:02:20.27,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k6}No {\k14}mat{\k12}ter {\k30}where {\k78}you {\k49}might {\k95}go
+Dialogue: 0,0:02:19.97,0:02:24.69,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Re{\k19}mem{\k11}ber {\k28}you'll {\k24}be {\k32}on {\k44}my {\kf189}mind
+Dialogue: 0,0:02:22.02,0:02:23.68,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Hey
+Dialogue: 0,0:02:22.58,0:02:24.77,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Al{\k23}ways {\k17}wat{\k14}ching {\k16}o{\k16}ver {\k8}me
+Dialogue: 0,0:02:23.67,0:02:26.45,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k19}some{\k12}how {\k21}you {\k18}make {\k8}me {\k22}feel {\k14}in{\k15}vin{\k14}ci{\k25}ble
+Dialogue: 0,0:02:25.45,0:02:27.85,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Po{\k10}wer {\k20}to {\k4}my {\k32}soul, {\k44}yup
+Dialogue: 0,0:02:27.02,0:02:28.74,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k62}Hey
+Dialogue: 0,0:02:27.64,0:02:30.82,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k31}I'm {\k6}at {\k12}ease {\k20}with {\k20}things {\k28}that {\k31}used {\k16}to {\k17}bo{\k14}ther {\k13}me
+Dialogue: 0,0:02:29.75,0:02:32.78,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k16}'Cause {\k11}your {\k10}e{\k20}xis{\k11}tence {\k37}just {\k24}lights {\k13}me {\k32}up, {\k19}yup
+Dialogue: 0,0:02:32.09,0:02:33.69,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Hey
+Dialogue: 0,0:02:32.60,0:02:35.03,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k15}You {\k18}al{\k13}ways {\k32}got {\k11}my {\k44}back,
+Dialogue: 0,0:02:33.93,0:02:36.35,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k15}and {\k8}of {\k36}course {\k9}I {\k16}got {\k19}your {\k30}back
+Dialogue: 0,0:02:35.26,0:02:38.06,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Don't {\k16}you {\k11}wor{\k10}ry {\k11}a{\k31}bout {\k29}that {\k45}now
+Dialogue: 0,0:02:37.14,0:02:38.82,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Hey
+Dialogue: 0,0:02:37.60,0:02:40.60,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k17}It's {\k16}been {\k16}a {\k30}good {\k34}day, {\k33}good {\k44}night
+Dialogue: 0,0:02:39.55,0:02:42.58,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k13}It's {\k33}gon{\k0}na {\k16}be {\k12}a {\k33}good {\k30}day, {\k33}good {\k23}night
+Dialogue: 0,0:02:41.49,0:02:45.28,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k10}Wi{\k17}thin {\k16}the {\k22}in{\k20}ner {\k42}heart {\k28}I {\kf114}plead
+Dialogue: 0,0:02:44.31,0:02:47.20,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k11}For {\k15}you {\k38}to {\k36}talk {\k26}to {\k53}me
+Dialogue: 0,0:02:46.51,0:02:50.45,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}I {\k19}want {\k13}to {\k32}hear {\k81}all {\k14}the {\k22}good {\k30}and {\k60}bad
+Dialogue: 0,0:02:49.36,0:02:52.42,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}The {\k19}new {\k25}sto{\k42}ries {\k31}you {\k66}have
+Dialogue: 0,0:02:51.57,0:02:55.42,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}As {\k21}I {\k37}drift {\k18}ac{\k26}ross {\k20}the {\kf131}sky
+Dialogue: 0,0:02:54.39,0:02:57.44,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k16}The {\k40}hour {\k32}hand {\k35}turns {\k72}high
+Dialogue: 0,0:02:56.35,0:02:59.64,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k40}So {\k63}good{\kf116}night
+Dialogue: 0,0:02:58.96,0:03:06.37,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Let {\k17}me {\k77}sing {\k64}a {\k63}lul{\k63}la{\kf221}by, {\k94}love
+Dialogue: 0,0:03:05.91,0:03:09.63,Azumi Takahashi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I'll {\k14}be {\k46}seeing {\k32}you, {\k44}ba{\k104}by
+Dialogue: 0,0:00:00.00,0:00:00.20,Azumi Takahashi,,0,0,0,fx,{\k0\fad(0,200)}

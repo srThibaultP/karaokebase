@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Kasa"
+    },
+    "name": "Kasa",
+    "repository": "kara.moe",
+    "tid": "59d2377c-9cea-45a4-8b4d-d14169915f0d",
+    "types": [
+      2
+    ]
+  }
+}

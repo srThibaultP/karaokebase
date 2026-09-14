@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Cristina Manzanita"
+    },
+    "name": "Cristina Manzanita",
+    "repository": "kara.moe",
+    "tid": "3384d04e-cfff-42d8-bc4b-21b29aa0aadb",
+    "types": [
+      4
+    ]
+  }
+}

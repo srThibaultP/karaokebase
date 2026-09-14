@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "ANOMAISM."
+    },
+    "name": "ANOMAISM.",
+    "repository": "kara.moe",
+    "tid": "d92a139a-f9ba-48d8-b343-de75c09836ca",
+    "types": [
+      8
+    ]
+  }
+}

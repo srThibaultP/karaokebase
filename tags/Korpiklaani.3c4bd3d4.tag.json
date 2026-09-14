@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Korpiklaani"
+    },
+    "name": "Korpiklaani",
+    "repository": "kara.moe",
+    "tid": "3c4bd3d4-8b8a-4420-8cf0-a99b54791994",
+    "types": [
+      17
+    ]
+  }
+}

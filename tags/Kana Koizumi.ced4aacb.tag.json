@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "jpn": "小泉果奈",
+      "qro": "Kana Koizumi"
+    },
+    "name": "Kana Koizumi",
+    "repository": "kara.moe",
+    "tid": "ced4aacb-7f9d-4483-a6a1-98bf4aadd061",
+    "types": [
+      8
+    ]
+  }
+}

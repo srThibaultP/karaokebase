@@ -1,0 +1,91 @@
+﻿[Script Info]
+Title: Apéro
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Spotty Len
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.12,0:00:03.84,Sample KM [Up],,0,0,0,karaoke,{\kf45}C'est {\kf36}l'é{\kf91}té
+Comment: 0,0:00:04.06,0:00:08.13,Sample KM [Up],,0,0,0,karaoke,{\kf28}Comme {\kf28}des {\kf31}poi{\kf33}vrots {\kf27}dé{\kf23}shy{\kf32}dra{\kf55}tés, {\kf30}as{\kf32}soif{\kf88}fés
+Comment: 0,0:00:08.68,0:00:12.82,Sample KM [Up],,0,0,0,karaoke,{\kf43}L'a{\kf29}pé{\kf58}ro, {\kf34}au {\kf27}plus {\kf31}tôt {\kf26}a{\kf33}vant {\kf29}d'man{\kf104}ger
+Comment: 0,0:00:13.22,0:00:15.17,Sample KM [Up],,0,0,0,karaoke,{\kf30}Quand {\kf38}il {\kf28}fait {\kf99}chaud
+Comment: 0,0:00:15.50,0:00:17.74,Sample KM [Up],,0,0,0,karaoke,{\kf38}Bien {\kf27}mé{\kf34}ri{\kf125}té
+Comment: 0,0:00:19.32,0:00:21.26,Sample KM [Up],,0,0,0,karaoke,{\kf34}A{\kf30}pé{\kf130}ro
+Comment: 0,0:00:21.26,0:00:25.71,Sample KM [Up],,0,0,0,karaoke,{\kf27}Dans {\kf29}un {\kf32}ca{\kf27}fé, {\kf25}un {\kf33}Mar{\kf32}ti{\kf57}ni... {\kf30}A{\kf31}pé{\kf122}ro
+Comment: 0,0:00:26.58,0:00:30.72,Sample KM [Up],,0,0,0,karaoke,{\kf38}Con{\kf33}seil{\kf22}lé, {\kf36}al{\kf26}coo{\kf28}li{\kf41}sé, {\kf37}mais {\kf31}pas {\kf122}trop...
+Comment: 0,0:00:30.96,0:00:32.73,Sample KM [Up],,0,0,0,karaoke,{\kf27}Pia{\kf29}nis{\kf29}si{\kf92}mo
+Comment: 0,0:00:33.26,0:00:35.48,Sample KM [Up],,0,0,0,karaoke,{\kf43}A{\kf37}pé{\kf142}ro
+Comment: 0,0:00:36.65,0:00:40.16,Sample KM [Up],,0,0,0,karaoke,{\kf29}Dé{\kf31}mar{\kf29}rer {\kf28}par {\kf31}un {\kf28}Cam{\kf30}pa{\kf29}ri {\kf29}et {\kf29}bien{\kf58}tôt
+Comment: 0,0:00:40.50,0:00:44.83,Sample KM [Up],,0,0,0,karaoke,{\kf25}S'é{\kf29}ga{\kf29}rer... {\kf29}Un {\kf30}Chian{\kf29}ti, {\kf29}un {\kf30}Ba{\kf28}car{\kf30}di {\kf27}et {\kf32}un {\kf28}Coin{\kf58}treau
+Comment: 0,0:00:45.06,0:00:46.18,Sample KM [Up],,0,0,0,karaoke,{\kf35}A{\kf30}pé{\kf47}ro
+Comment: 0,0:00:47.44,0:00:49.96,Sample KM [Up],,0,0,0,karaoke,{\kf30}A{\kf30}pé{\kf28}ro {\kf59}gla{\kf105}cé
+Comment: 0,0:00:50.95,0:00:54.14,Sample KM [Up],,0,0,0,karaoke,{\kf29}A{\kf29}pé{\kf30}ro {\kf58}em{\kf58}bru{\kf115}mé
+Comment: 0,0:00:55.59,0:00:58.83,Sample KM [Up],,0,0,0,karaoke,{\kf32}A{\kf29}pé{\kf30}ro {\kf59}con{\kf57}som{\kf117}mé
+Comment: 0,0:00:59.08,0:01:01.13,Sample KM [Up],,0,0,0,karaoke,{\kf30}Li{\kf31}mon{\kf30}cel{\kf114}lo
+Comment: 0,0:01:01.40,0:01:04.13,Sample KM [Up],,0,0,0,karaoke,{\kf34}Entre {\kf28}a{\kf27}mis, {\kf62}c'est {\kf122}beau
+Comment: 0,0:01:04.93,0:01:08.43,Sample KM [Up],,0,0,0,karaoke,{\kf31}C'est {\kf31}bon {\kf28}de {\kf58}pi{\kf58}co{\kf144}ler
+Comment: 0,0:01:09.58,0:01:12.54,Sample KM [Up],,0,0,0,karaoke,{\kf33}On {\kf28}va {\kf30}se {\kf53}dé{\kf63}chi{\kf89}rer
+Comment: 0,0:01:12.78,0:01:15.81,Sample KM [Up],,0,0,0,karaoke,{\kf33}Et {\kf28}puis {\kf28}se {\kf27}cou{\kf187}cher {\kf0}
+Comment: 0,0:01:23.32,0:01:24.79,Sample KM [Up],,0,0,0,karaoke,{\kf31}A{\kf28}pé{\kf88}ro
+Comment: 0,0:01:25.64,0:01:29.66,Sample KM [Up],,0,0,0,karaoke,{\kf26}Des {\kf30}gla{\kf31}çons {\kf31}sur {\kf24}un {\kf34}pas{\kf29}tis {\kf29}a{\kf28}vec {\kf31}peu {\kf109}d'eau
+Comment: 0,0:01:30.25,0:01:34.25,Sample KM [Up],,0,0,0,karaoke,{\kf37}Se {\kf29}mur{\kf57}ger, {\kf30}di{\kf30}gé{\kf57}rer {\kf31}l'a{\kf28}pé{\kf101}ro
+Comment: 0,0:01:34.95,0:01:36.69,Sample KM [Up],,0,0,0,karaoke,{\kf33}Veuve {\kf30}Clic{\kf111}quot
+Comment: 0,0:01:37.24,0:01:39.14,Sample KM [Up],,0,0,0,karaoke,{\kf37}Mo{\kf29}ji{\kf124}to
+Comment: 0,0:01:40.83,0:01:44.34,Sample KM [Up],,0,0,0,karaoke,{\kf29}Dé{\kf29}mar{\kf31}rer {\kf27}par {\kf32}un {\kf27}Cam{\kf31}pa{\kf26}ri {\kf30}et {\kf28}bien{\kf61}tôt
+Comment: 0,0:01:44.68,0:01:49.01,Sample KM [Up],,0,0,0,karaoke,{\kf22}S'é{\kf32}ga{\kf27}rer... {\kf28}Un {\kf30}Chian{\kf26}ti, {\kf32}un {\kf28}Ba{\kf30}car{\kf41}di {\kf11}et {\kf35}un {\kf30}Coin{\kf61}treau
+Comment: 0,0:01:49.24,0:01:50.36,Sample KM [Up],,0,0,0,karaoke,{\kf32}A{\kf33}pé{\kf47}ro
+Comment: 0,0:01:51.62,0:01:54.14,Sample KM [Up],,0,0,0,karaoke,{\kf28}A{\kf32}pé{\kf26}ro {\kf59}gla{\kf107}cé
+Comment: 0,0:01:55.13,0:01:58.32,Sample KM [Up],,0,0,0,karaoke,{\kf28}A{\kf28}pé{\kf30}ro {\kf57}em{\kf59}bru{\kf117}mé
+Comment: 0,0:01:59.75,0:02:02.99,Sample KM [Up],,0,0,0,karaoke,{\kf32}A{\kf29}pé{\kf30}ro {\kf56}con{\kf60}som{\kf117}mé
+Comment: 0,0:02:03.25,0:02:05.30,Sample KM [Up],,0,0,0,karaoke,{\kf30}Un{\kf31} bon {\kf30}Pi{\kf114}neau
+Comment: 0,0:02:05.57,0:02:08.30,Sample KM [Up],,0,0,0,karaoke,{\kf34}Entre {\kf28}a{\kf27}mis, {\kf62}c'est {\kf122}beau
+Comment: 0,0:02:09.10,0:02:12.60,Sample KM [Up],,0,0,0,karaoke,{\kf30}C'est {\kf29}bon {\kf31}de {\kf56}pi{\kf58}co{\kf146}ler
+Comment: 0,0:02:13.75,0:02:16.71,Sample KM [Up],,0,0,0,karaoke,{\kf31}On {\kf30}va {\kf30}se {\kf53}dé{\kf63}chi{\kf89}rer
+Comment: 0,0:02:16.95,0:02:20.42,Sample KM [Up],,0,0,0,karaoke,{\kf33}Et {\kf28}puis {\kf28}se {\kf27}cou{\kf231}cher
+Dialogue: 0,0:00:01.22,0:00:04.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf45}C'est {\kf36}l'é{\kf91}té
+Dialogue: 0,0:00:03.16,0:00:08.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf28}Comme {\kf28}des {\kf31}poi{\kf33}vrots {\kf27}dé{\kf23}shy{\kf32}dra{\kf55}tés, {\kf30}as{\kf32}soif{\kf88}fés
+Dialogue: 0,0:00:07.78,0:00:13.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf43}L'a{\kf29}pé{\kf58}ro, {\kf34}au {\kf27}plus {\kf31}tôt {\kf26}a{\kf33}vant {\kf29}d'man{\kf104}ger
+Dialogue: 0,0:00:12.32,0:00:15.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf30}Quand {\kf38}il {\kf28}fait {\kf99}chaud
+Dialogue: 0,0:00:14.60,0:00:17.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf38}Bien {\kf27}mé{\kf34}ri{\kf125}té
+Dialogue: 0,0:00:18.42,0:00:21.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf34}A{\kf30}pé{\kf130}ro
+Dialogue: 0,0:00:20.36,0:00:25.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf27}Dans {\kf29}un {\kf32}ca{\kf27}fé, {\kf25}un {\kf33}Mar{\kf32}ti{\kf57}ni... {\kf30}A{\kf31}pé{\kf122}ro
+Dialogue: 0,0:00:25.68,0:00:30.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf38}Con{\kf33}seil{\kf22}lé, {\kf36}al{\kf26}coo{\kf28}li{\kf41}sé, {\kf37}mais {\kf31}pas {\kf122}trop...
+Dialogue: 0,0:00:30.06,0:00:32.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf27}Pia{\kf29}nis{\kf29}si{\kf92}mo
+Dialogue: 0,0:00:32.36,0:00:35.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf43}A{\kf37}pé{\kf142}ro
+Dialogue: 0,0:00:35.75,0:00:40.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf29}Dé{\kf31}mar{\kf29}rer {\kf28}par {\kf31}un {\kf28}Cam{\kf30}pa{\kf29}ri {\kf29}et {\kf29}bien{\kf58}tôt
+Dialogue: 0,0:00:39.60,0:00:45.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf25}S'é{\kf29}ga{\kf29}rer... {\kf29}Un {\kf30}Chian{\kf29}ti, {\kf29}un {\kf30}Ba{\kf28}car{\kf30}di {\kf27}et {\kf32}un {\kf28}Coin{\kf58}treau
+Dialogue: 0,0:00:44.16,0:00:46.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf35}A{\kf30}pé{\kf47}ro
+Dialogue: 0,0:00:46.54,0:00:50.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf30}A{\kf30}pé{\kf28}ro {\kf59}gla{\kf105}cé
+Dialogue: 0,0:00:50.05,0:00:54.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf29}A{\kf29}pé{\kf30}ro {\kf58}em{\kf58}bru{\kf115}mé
+Dialogue: 0,0:00:54.69,0:00:59.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf32}A{\kf29}pé{\kf30}ro {\kf59}con{\kf57}som{\kf117}mé
+Dialogue: 0,0:00:58.18,0:01:01.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf30}Li{\kf31}mon{\kf30}cel{\kf114}lo
+Dialogue: 0,0:01:00.50,0:01:04.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf34}Entre {\kf28}a{\kf27}mis, {\kf62}c'est {\kf122}beau
+Dialogue: 0,0:01:04.03,0:01:08.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf31}C'est {\kf31}bon {\kf28}de {\kf58}pi{\kf58}co{\kf144}ler
+Dialogue: 0,0:01:08.68,0:01:12.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf33}On {\kf28}va {\kf30}se {\kf53}dé{\kf63}chi{\kf89}rer
+Dialogue: 0,0:01:11.88,0:01:16.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf33}Et {\kf28}puis {\kf28}se {\kf27}cou{\kf187}cher {\kf0}
+Dialogue: 0,0:01:22.42,0:01:24.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf31}A{\kf28}pé{\kf88}ro
+Dialogue: 0,0:01:24.74,0:01:29.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf26}Des {\kf30}gla{\kf31}çons {\kf31}sur {\kf24}un {\kf34}pas{\kf29}tis {\kf29}a{\kf28}vec {\kf31}peu {\kf109}d'eau
+Dialogue: 0,0:01:29.35,0:01:34.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf37}Se {\kf29}mur{\kf57}ger, {\kf30}di{\kf30}gé{\kf57}rer {\kf31}l'a{\kf28}pé{\kf101}ro
+Dialogue: 0,0:01:34.05,0:01:36.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf33}Veuve {\kf30}Clic{\kf111}quot
+Dialogue: 0,0:01:36.34,0:01:39.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf37}Mo{\kf29}ji{\kf124}to
+Dialogue: 0,0:01:39.93,0:01:44.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf29}Dé{\kf29}mar{\kf31}rer {\kf27}par {\kf32}un {\kf27}Cam{\kf31}pa{\kf26}ri {\kf30}et {\kf28}bien{\kf61}tôt
+Dialogue: 0,0:01:43.78,0:01:49.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf22}S'é{\kf32}ga{\kf27}rer... {\kf28}Un {\kf30}Chian{\kf26}ti, {\kf32}un {\kf28}Ba{\kf30}car{\kf41}di {\kf11}et {\kf35}un {\kf30}Coin{\kf61}treau
+Dialogue: 0,0:01:48.34,0:01:50.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf32}A{\kf33}pé{\kf47}ro
+Dialogue: 0,0:01:50.72,0:01:54.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf28}A{\kf32}pé{\kf26}ro {\kf59}gla{\kf107}cé
+Dialogue: 0,0:01:54.23,0:01:58.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf28}A{\kf28}pé{\kf30}ro {\kf57}em{\kf59}bru{\kf117}mé
+Dialogue: 0,0:01:58.85,0:02:03.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf32}A{\kf29}pé{\kf30}ro {\kf56}con{\kf60}som{\kf117}mé
+Dialogue: 0,0:02:02.35,0:02:05.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf30}Un{\kf31} bon {\kf30}Pi{\kf114}neau
+Dialogue: 0,0:02:04.67,0:02:08.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf34}Entre {\kf28}a{\kf27}mis, {\kf62}c'est {\kf122}beau
+Dialogue: 0,0:02:08.20,0:02:12.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf30}C'est {\kf29}bon {\kf31}de {\kf56}pi{\kf58}co{\kf146}ler
+Dialogue: 0,0:02:12.85,0:02:16.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf31}On {\kf30}va {\kf30}se {\kf53}dé{\kf63}chi{\kf89}rer
+Dialogue: 0,0:02:16.05,0:02:20.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf33}Et {\kf28}puis {\kf28}se {\kf27}cou{\kf231}cher

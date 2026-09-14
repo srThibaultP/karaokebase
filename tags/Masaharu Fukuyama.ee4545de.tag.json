@@ -5,7 +5,9 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Masaharu Fukuyama"
+      "eng": "Masaharu Fukuyama",
+      "jpn": "福山雅治",
+      "qro": "Fukuyama Masaharu"
     },
     "name": "Masaharu Fukuyama",
     "repository": "kara.moe",

@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Show-Case Recording"
+    },
+    "name": "Show-Case Recording",
+    "repository": "kara.moe",
+    "tid": "9bd6a1f0-80cc-4b8a-9f2a-74838034a8fb",
+    "types": [
+      17,
+      4
+    ]
+  }
+}

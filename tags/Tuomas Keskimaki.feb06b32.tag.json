@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Tuomas Keskimäki"
+    },
+    "name": "Tuomas Keskimäki",
+    "repository": "kara.moe",
+    "tid": "feb06b32-be70-4035-b942-8a31662da737",
+    "types": [
+      8
+    ]
+  }
+}

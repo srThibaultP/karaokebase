@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Kevin Lacerda"
+    },
+    "name": "Kevin Lacerda",
+    "repository": "kara.moe",
+    "tid": "530935d9-7fd4-4c90-8d11-2a8be38d7afa",
+    "types": [
+      8
+    ]
+  }
+}

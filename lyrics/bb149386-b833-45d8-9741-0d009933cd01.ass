@@ -1,0 +1,179 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: /REND
+Original Timing: Himbeeerchen
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H004B20EE,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:15.01,0:00:17.47,Sample KM [Up],,0,0,0,karaoke,{\k23}Though {\k42}it's {\k43}time {\k55}to {\k46}end {\k37}this
+Comment: 0,0:00:17.47,0:00:19.35,Sample KM [Up],,0,0,0,karaoke,{\k32}Lets {\k21}con{\k22}tin{\k29}ue {\k18}e{\k30}ven {\k36}if
+Comment: 0,0:00:19.35,0:00:22.39,Sample KM [Up],,0,0,0,karaoke,{\k49}We've {\k55}reached {\k44}o{\k50}ur {\k46}li{\k60}mits
+Comment: 0,0:00:22.39,0:00:25.04,Sample KM [Up],,0,0,0,karaoke,{\k35}When {\k36}I {\k51}try {\k26}to {\k25}for{\k48}get {\k44}them
+Comment: 0,0:00:25.04,0:00:26.91,Sample KM [Up],,0,0,0,karaoke,{\k29}The {\k20}lin{\k27}ge{\k23}ring {\k25}me{\k21}mo{\k42}ries
+Comment: 0,0:00:26.91,0:00:29.99,Sample KM [Up],,0,0,0,karaoke,{\k23}Just {\k28}keep {\k17}on {\k30}flood{\k49}ing {\k38}my {\k50}con{\k73}science
+Comment: 0,0:00:29.99,0:00:31.87,Sample KM [Up],,0,0,0,karaoke,{\k25}Saw {\k45}this {\k39}cor{\k33}rupt {\k23}da{\k23}ta
+Comment: 0,0:00:32.12,0:00:33.93,Sample KM [Up],,0,0,0,karaoke,{\k45}When {\k20}my {\k25}par{\k25}ti{\k19}tion {\k29}start{\k18}ed
+Comment: 0,0:00:33.93,0:00:36.55,Sample KM [Up],,0,0,0,karaoke,{\k52}Fail{\k47}ing {\k46}me {\k24}in {\k24}the {\k69}end
+Comment: 0,0:00:36.55,0:00:40.07,Sample KM [Up],,0,0,0,karaoke,{\k22}E{\k26}ven {\k23}I {\k23}knew {\k24}I {\k24}need{\k23}ed {\k47}to {\k17}re{\k30}for{\k46}mat {\k47}it
+Comment: 0,0:00:40.07,0:00:41.94,Sample KM [Up],,0,0,0,karaoke,{\k24}When {\k20}I {\k26}found {\k24}noth{\k23}ing {\k24}chang{\k46}ing
+Comment: 0,0:00:41.94,0:00:45.02,Sample KM [Up],,0,0,0,karaoke,{\k48}As {\k35}I {\k54}tried {\k51}to {\k36}re{\k84}fresh
+Comment: 0,0:00:45.02,0:00:47.58,Sample KM [Up],,0,0,0,karaoke,{\k21}Though {\k47}this {\k47}is {\k36}our {\k57}cli{\k48}max
+Comment: 0,0:00:47.58,0:00:51.56,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k24}think {\k23}that {\k23}I {\k24}might {\k16}have {\k53}one {\k47}fi{\k48}nal {\k32}re{\k85}quest
+Comment: 0,0:00:51.56,0:00:53.66,Sample KM [Up],,0,0,0,karaoke,{\k23}This {\k66}might {\k24}sound {\k50}sel{\k47}fish
+Comment: 0,0:00:53.66,0:00:56.23,Sample KM [Up],,0,0,0,karaoke,{\k19}But {\k29}can {\k78}you {\k39}please {\k24}lend {\k22}me {\k24}some {\k22}love
+Comment: 0,0:00:56.23,0:01:00.14,Sample KM [Up],,0,0,0,karaoke,{\k25}Be{\k73}fore {\k23}I {\k29}try {\k32}to {\k19}e{\k82}rase {\k35}us {\k33}a{\k40}gain
+Comment: 0,0:01:01.46,0:01:04.00,Sample KM [Up],,0,0,0,karaoke,{\k26}Clear{\k26}ing {\k12}my {\k47}mind {\k25}now {\k32}that {\k35}it's {\k51}gone
+Comment: 0,0:01:05.37,0:01:07.76,Sample KM [Up],,0,0,0,karaoke,{\k18}No {\k19}sense {\k8}in {\k51}keep{\k24}ing {\k28}these {\k35}re{\k56}grets
+Comment: 0,0:01:09.00,0:01:11.38,Sample KM [Up],,0,0,0,karaoke,{\k39}Threw {\k13}them {\k8}a{\k49}way {\k23}now {\k36}I'm {\k33}a{\k37}lone
+Comment: 0,0:01:12.87,0:01:15.12,Sample KM [Up],,0,0,0,karaoke,{\k27}Here {\k11}on {\k12}my {\k48}own {\k23}left {\k34}for{\k33}got{\k37}ten
+Comment: 0,0:01:16.57,0:01:18.86,Sample KM [Up],,0,0,0,karaoke,{\k31}Keep {\k12}e{\k9}xe{\k48}cut{\k25}ing {\k44}til {\k25}it's {\k35}done
+Comment: 0,0:01:20.36,0:01:22.61,Sample KM [Up],,0,0,0,karaoke,{\k28}This {\k10}cy{\k11}cle {\k48}last{\k25}ing {\k35}for{\k33}e{\k35}ver
+Comment: 0,0:01:24.11,0:01:26.41,Sample KM [Up],,0,0,0,karaoke,{\k27}I'll {\k13}cut {\k10}them {\k49}all {\k23}off {\k33}one {\k34}by {\k41}one
+Comment: 0,0:01:27.87,0:01:30.16,Sample KM [Up],,0,0,0,karaoke,{\k26}Some {\k11}tak{\k12}ing {\k46}lon{\k16}ger {\k40}to {\k38}se{\k40}ver
+Comment: 0,0:01:31.62,0:01:33.77,Sample KM [Up],,0,0,0,karaoke,{\k27}I'm {\k10}o{\k12}ver{\k48}due {\k23}for {\k36}a {\k28}re{\k31}set
+Comment: 0,0:01:35.30,0:01:37.58,Sample KM [Up],,0,0,0,karaoke,{\k33}Choos{\k8}ing {\k15}what {\k47}should {\k24}be {\k31}dis{\k38}card{\k32}ed
+Comment: 0,0:01:39.07,0:01:41.29,Sample KM [Up],,0,0,0,karaoke,{\k33}Tak{\k10}ing {\k10}my {\k41}time {\k31}to {\k29}de{\k39}frag{\k29}ment
+Comment: 0,0:01:42.85,0:01:45.02,Sample KM [Up],,0,0,0,karaoke,{\k28}Pul{\k13}ling {\k11}the {\k50}weeds {\k20}in {\k33}my {\k35}gar{\k27}den
+Comment: 0,0:01:59.91,0:02:01.86,Sample KM [Up],,0,0,0,karaoke,{\k61}Tend {\k18}to {\k13}let {\k10}it {\k32}all {\k36}pile {\k25}up
+Comment: 0,0:02:01.86,0:02:04.27,Sample KM [Up],,0,0,0,karaoke,{\k36}Un{\k35}til {\k28}I {\k32}run {\k33}out {\k24}of {\k53}room
+Comment: 0,0:02:04.27,0:02:05.90,Sample KM [Up],,0,0,0,karaoke,{\k18}Com{\k14}pil{\k12}ing {\k38}all {\k30}of {\k23}these {\k28}threads
+Comment: 0,0:02:05.90,0:02:08.06,Sample KM [Up],,0,0,0,karaoke,{\k43}Ren{\k25}de{\k32}ring {\k36}some{\k23}thing {\k57}new
+Comment: 0,0:02:08.06,0:02:09.08,Sample KM [Up],,0,0,0,karaoke,{\k14}A {\k11}diffe{\k14}rent {\k36}for{\k27}mat
+Comment: 0,0:02:09.08,0:02:11.89,Sample KM [Up],,0,0,0,karaoke,{\k29}To {\k36}give {\k34}the {\k23}sys{\k36}tem {\k35}some{\k24}thing {\k69}fresh
+Comment: 0,0:02:11.89,0:02:14.06,Sample KM [Up],,0,0,0,karaoke,{\k9}And {\k11}when {\k11}I'm {\k36}fin{\k30}al{\k26}ly {\k35}sa{\k35}tis{\k24}fied
+Comment: 0,0:02:14.06,0:02:15.47,Sample KM [Up],,0,0,0,karaoke,{\k37}I'm {\k34}all {\k15}but {\k55}spent
+Comment: 0,0:02:15.47,0:02:16.65,Sample KM [Up],,0,0,0,karaoke,{\k23}So {\k14}ma{\k10}ny {\k35}tasks {\k34}left
+Comment: 0,0:02:16.65,0:02:19.33,Sample KM [Up],,0,0,0,karaoke,{\k22}Un{\k35}fi{\k20}ni{\k15}shed {\k24}things {\k35}I {\k35}yearn {\k23}to {\k59}do
+Comment: 0,0:02:19.33,0:02:20.63,Sample KM [Up],,0,0,0,karaoke,{\k12}My {\k15}me{\k12}mo{\k31}ry {\k35}de{\k25}grades
+Comment: 0,0:02:20.63,0:02:23.03,Sample KM [Up],,0,0,0,karaoke,{\k34}I'm {\k35}low {\k24}on {\k35}space {\k35}left {\k41}to {\k36}lose
+Comment: 0,0:02:23.03,0:02:24.75,Sample KM [Up],,0,0,0,karaoke,{\k17}Keep {\k16}on {\k7}ad{\k37}ding {\k34}more {\k23}da{\k38}ta
+Comment: 0,0:02:24.75,0:02:26.77,Sample KM [Up],,0,0,0,karaoke,{\k33}Un{\k23}til {\k35}my {\k35}mind {\k24}runs {\k52}thin
+Comment: 0,0:02:26.77,0:02:28.48,Sample KM [Up],,0,0,0,karaoke,{\k18}So {\k14}ma{\k13}ny {\k33}links {\k33}left {\k24}se{\k36}vered
+Comment: 0,0:02:28.48,0:02:30.25,Sample KM [Up],,0,0,0,karaoke,{\k34}I {\k24}wish {\k30}I {\k40}could {\k49}mend
+Comment: 0,0:02:46.87,0:02:48.51,Sample KM [Up],,0,0,0,karaoke,{\k59}Fooled {\k7}pick{\k5}ed {\k12}up {\k11}the {\k46}piec{\k24}es
+Comment: 0,0:02:48.51,0:02:51.20,Sample KM [Up],,0,0,0,karaoke,{\k23}Thought {\k32}I {\k38}could {\k24}fix {\k35}it {\k35}all {\k24}a{\k58}gain
+Comment: 0,0:02:51.20,0:02:52.50,Sample KM [Up],,0,0,0,karaoke,{\k12}I {\k13}get {\k11}dis{\k27}trac{\k43}ted {\k24}by
+Comment: 0,0:02:52.50,0:02:54.96,Sample KM [Up],,0,0,0,karaoke,{\k35}Nois{\k35}es {\k24}beg{\k30}ging {\k40}to {\k46}get {\k41}in
+Comment: 0,0:02:54.96,0:02:56.00,Sample KM [Up],,0,0,0,karaoke,{\k12}But {\k13}when {\k9}the {\k36}sounds {\k34}gone
+Comment: 0,0:02:56.00,0:02:57.18,Sample KM [Up],,0,0,0,karaoke,{\k24}Si{\k34}lence {\k37}so {\k23}loud
+Comment: 0,0:02:57.18,0:02:58.77,Sample KM [Up],,0,0,0,karaoke,{\k35}When {\k31}it's {\k52}qui{\k41}et
+Comment: 0,0:02:58.77,0:02:59.75,Sample KM [Up],,0,0,0,karaoke,{\k6}I {\k13}get {\k10}this {\k35}feel{\k34}ing
+Comment: 0,0:02:59.75,0:03:00.92,Sample KM [Up],,0,0,0,karaoke,{\k25}Some{\k35}thing's {\k35}mis{\k22}sing
+Comment: 0,0:03:00.92,0:03:02.46,Sample KM [Up],,0,0,0,karaoke,{\k36}Some{\k36}one {\k23}back {\k59}then
+Comment: 0,0:03:02.46,0:03:04.10,Sample KM [Up],,0,0,0,karaoke,{\k12}Dead {\k12}me{\k11}mo{\k37}ries {\k33}are {\k25}fad{\k34}ing
+Comment: 0,0:03:04.10,0:03:06.17,Sample KM [Up],,0,0,0,karaoke,{\k35}My {\k21}re{\k37}col{\k25}lec{\k34}tion {\k55}bends
+Comment: 0,0:03:06.17,0:03:07.84,Sample KM [Up],,0,0,0,karaoke,{\k15}When {\k15}I {\k11}look {\k33}in {\k35}the {\k24}mir{\k34}ror
+Comment: 0,0:03:07.84,0:03:09.90,Sample KM [Up],,0,0,0,karaoke,{\k36}I {\k23}see {\k35}some{\k36}one {\k23}but {\k53}who
+Comment: 0,0:03:09.90,0:03:11.94,Sample KM [Up],,0,0,0,karaoke,{\k18}Tear {\k12}out {\k11}the {\k35}pag{\k37}es {\k22}of {\k35}this {\k34}book
+Comment: 0,0:03:11.94,0:03:13.68,Sample KM [Up],,0,0,0,karaoke,{\k25}When {\k27}my {\k43}sto{\k23}ry {\k56}ends
+Comment: 0,0:03:13.68,0:03:15.37,Sample KM [Up],,0,0,0,karaoke,{\k14}What {\k16}should {\k10}I {\k32}do {\k36}with {\k24}these {\k37}threads
+Comment: 0,0:03:15.37,0:03:16.90,Sample KM [Up],,0,0,0,karaoke,{\k27}I {\k29}keep {\k35}cling{\k31}ing {\k31}to
+Comment: 0,0:03:18.40,0:03:18.67,Sample KM [Up],,0,0,0,karaoke,{\k27}Rend
+Comment: 0,0:03:33.75,0:03:36.17,Sample KM [Up],,0,0,0,karaoke,{\k23}Though {\k46}it's {\k42}time {\k77}to {\k23}rend {\k31}this
+Comment: 0,0:03:36.33,0:03:38.19,Sample KM [Up],,0,0,0,karaoke,{\k23}Lets {\k21}con{\k17}tin{\k32}ue {\k24}e{\k24}ven {\k45}if
+Comment: 0,0:03:38.19,0:03:41.25,Sample KM [Up],,0,0,0,karaoke,{\k48}We've {\k46}reach{\k25}ed {\k24}o{\k46}ur {\k47}li{\k45}mi{\k25}ts
+Comment: 0,0:03:41.25,0:03:43.83,Sample KM [Up],,0,0,0,karaoke,{\k27}When {\k37}I {\k49}try {\k28}to {\k23}for{\k47}get {\k47}them
+Comment: 0,0:03:43.83,0:03:45.68,Sample KM [Up],,0,0,0,karaoke,{\k23}The {\k23}lin{\k24}ge{\k46}ring {\k13}me{\k14}mo{\k42}ries
+Comment: 0,0:03:45.68,0:03:48.77,Sample KM [Up],,0,0,0,karaoke,{\k26}Just {\k23}keep {\k16}on {\k54}flood{\k21}ing {\k50}my {\k46}con{\k73}science
+Comment: 0,0:03:48.77,0:03:50.85,Sample KM [Up],,0,0,0,karaoke,{\k22}Saw {\k46}this {\k38}cor{\k32}rupt {\k24}da{\k46}ta
+Comment: 0,0:03:50.85,0:03:52.73,Sample KM [Up],,0,0,0,karaoke,{\k51}When {\k20}my {\k23}par{\k24}ti{\k17}tion {\k30}start{\k23}ed
+Comment: 0,0:03:52.73,0:03:55.31,Sample KM [Up],,0,0,0,karaoke,{\k53}Fail{\k44}ing {\k20}me {\k49}in {\k24}the {\k68}end
+Comment: 0,0:03:55.31,0:03:58.87,Sample KM [Up],,0,0,0,karaoke,{\k24}E{\k23}ven {\k24}I {\k23}knew {\k23}I {\k17}need{\k30}ed {\k51}to {\k13}re{\k21}for{\k58}mat {\k49}it
+Comment: 0,0:03:58.87,0:04:00.75,Sample KM [Up],,0,0,0,karaoke,{\k19}When {\k23}I {\k24}found {\k23}noth{\k23}ing {\k30}chang{\k46}ing
+Comment: 0,0:04:00.75,0:04:03.80,Sample KM [Up],,0,0,0,karaoke,{\k44}As {\k36}I {\k50}tried {\k58}to {\k32}re{\k85}fresh
+Comment: 0,0:04:03.80,0:04:06.32,Sample KM [Up],,0,0,0,karaoke,{\k19}Though {\k46}this {\k53}is {\k33}our {\k52}cli{\k49}max
+Comment: 0,0:04:06.32,0:04:10.31,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k22}think {\k25}that {\k18}I {\k30}might {\k22}have {\k48}one {\k44}fi{\k41}nal {\k53}re{\k73}quest
+Comment: 0,0:04:10.31,0:04:12.42,Sample KM [Up],,0,0,0,karaoke,{\k26}This {\k71}might {\k20}sound {\k47}sel{\k47}fish
+Comment: 0,0:04:12.42,0:04:15.94,Sample KM [Up],,0,0,0,karaoke,{\k23}But {\k22}can {\k84}you {\k35}please {\k25}hear {\k27}me {\k19}out {\k22}one {\k22}last {\k73}time
+Comment: 0,0:04:15.94,0:04:16.88,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k48}love {\k27}you
+Dialogue: 0,0:00:14.11,0:00:17.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Though {\k42}it's {\k43}time {\k55}to {\k46}end {\k37}this
+Dialogue: 0,0:00:16.57,0:00:19.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Lets {\k21}con{\k22}tin{\k29}ue {\k18}e{\k30}ven {\k36}if
+Dialogue: 0,0:00:18.45,0:00:22.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}We've {\k55}reached {\k44}o{\k50}ur {\k46}li{\k60}mits
+Dialogue: 0,0:00:21.49,0:00:25.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}When {\k36}I {\k51}try {\k26}to {\k25}for{\k48}get {\k44}them
+Dialogue: 0,0:00:24.14,0:00:27.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}The {\k20}lin{\k27}ge{\k23}ring {\k25}me{\k21}mo{\k42}ries
+Dialogue: 0,0:00:26.01,0:00:30.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Just {\k28}keep {\k17}on {\k30}flood{\k49}ing {\k38}my {\k50}con{\k73}science
+Dialogue: 0,0:00:29.09,0:00:32.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Saw {\k45}this {\k39}cor{\k33}rupt {\k23}da{\k23}ta
+Dialogue: 0,0:00:31.22,0:00:34.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}When {\k20}my {\k25}par{\k25}ti{\k19}tion {\k29}start{\k18}ed
+Dialogue: 0,0:00:33.03,0:00:36.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Fail{\k47}ing {\k46}me {\k24}in {\k24}the {\k69}end
+Dialogue: 0,0:00:35.65,0:00:40.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}E{\k26}ven {\k23}I {\k23}knew {\k24}I {\k24}need{\k23}ed {\k47}to {\k17}re{\k30}for{\k46}mat {\k47}it
+Dialogue: 0,0:00:39.17,0:00:42.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}When {\k20}I {\k26}found {\k24}noth{\k23}ing {\k24}chang{\k46}ing
+Dialogue: 0,0:00:41.04,0:00:45.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}As {\k35}I {\k54}tried {\k51}to {\k36}re{\k84}fresh
+Dialogue: 0,0:00:44.12,0:00:47.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Though {\k47}this {\k47}is {\k36}our {\k57}cli{\k48}max
+Dialogue: 0,0:00:46.68,0:00:51.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k24}think {\k23}that {\k23}I {\k24}might {\k16}have {\k53}one {\k47}fi{\k48}nal {\k32}re{\k85}quest
+Dialogue: 0,0:00:50.66,0:00:53.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}This {\k66}might {\k24}sound {\k50}sel{\k47}fish
+Dialogue: 0,0:00:52.76,0:00:56.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}But {\k29}can {\k78}you {\k39}please {\k24}lend {\k22}me {\k24}some {\k22}love
+Dialogue: 0,0:00:55.33,0:01:00.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Be{\k73}fore {\k23}I {\k29}try {\k32}to {\k19}e{\k82}rase {\k35}us {\k33}a{\k40}gain
+Dialogue: 0,0:01:00.56,0:01:04.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Clear{\k26}ing {\k12}my {\k47}mind {\k25}now {\k32}that {\k35}it's {\k51}gone
+Dialogue: 0,0:01:04.47,0:01:07.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}No {\k19}sense {\k8}in {\k51}keep{\k24}ing {\k28}these {\k35}re{\k56}grets
+Dialogue: 0,0:01:08.10,0:01:11.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Threw {\k13}them {\k8}a{\k49}way {\k23}now {\k36}I'm {\k33}a{\k37}lone
+Dialogue: 0,0:01:11.97,0:01:15.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Here {\k11}on {\k12}my {\k48}own {\k23}left {\k34}for{\k33}got{\k37}ten
+Dialogue: 0,0:01:15.67,0:01:19.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Keep {\k12}e{\k9}xe{\k48}cut{\k25}ing {\k44}til {\k25}it's {\k35}done
+Dialogue: 0,0:01:19.46,0:01:22.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}This {\k10}cy{\k11}cle {\k48}last{\k25}ing {\k35}for{\k33}e{\k35}ver
+Dialogue: 0,0:01:23.21,0:01:26.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I'll {\k13}cut {\k10}them {\k49}all {\k23}off {\k33}one {\k34}by {\k41}one
+Dialogue: 0,0:01:26.97,0:01:30.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Some {\k11}tak{\k12}ing {\k46}lon{\k16}ger {\k40}to {\k38}se{\k40}ver
+Dialogue: 0,0:01:30.72,0:01:33.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I'm {\k10}o{\k12}ver{\k48}due {\k23}for {\k36}a {\k28}re{\k31}set
+Dialogue: 0,0:01:34.40,0:01:37.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Choos{\k8}ing {\k15}what {\k47}should {\k24}be {\k31}dis{\k38}card{\k32}ed
+Dialogue: 0,0:01:38.17,0:01:41.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Tak{\k10}ing {\k10}my {\k41}time {\k31}to {\k29}de{\k39}frag{\k29}ment
+Dialogue: 0,0:01:41.95,0:01:45.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Pul{\k13}ling {\k11}the {\k50}weeds {\k20}in {\k33}my {\k35}gar{\k27}den
+Dialogue: 0,0:01:59.01,0:02:02.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}Tend {\k18}to {\k13}let {\k10}it {\k32}all {\k36}pile {\k25}up
+Dialogue: 0,0:02:00.96,0:02:04.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Un{\k35}til {\k28}I {\k32}run {\k33}out {\k24}of {\k53}room
+Dialogue: 0,0:02:03.37,0:02:06.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Com{\k14}pil{\k12}ing {\k38}all {\k30}of {\k23}these {\k28}threads
+Dialogue: 0,0:02:05.00,0:02:08.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Ren{\k25}de{\k32}ring {\k36}some{\k23}thing {\k57}new
+Dialogue: 0,0:02:07.16,0:02:09.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}A {\k11}diffe{\k14}rent {\k36}for{\k27}mat
+Dialogue: 0,0:02:08.18,0:02:12.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}To {\k36}give {\k34}the {\k23}sys{\k36}tem {\k35}some{\k24}thing {\k69}fresh
+Dialogue: 0,0:02:10.99,0:02:14.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}And {\k11}when {\k11}I'm {\k36}fin{\k30}al{\k26}ly {\k35}sa{\k35}tis{\k24}fied
+Dialogue: 0,0:02:13.16,0:02:15.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}I'm {\k34}all {\k15}but {\k55}spent
+Dialogue: 0,0:02:14.57,0:02:16.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}So {\k14}ma{\k10}ny {\k35}tasks {\k34}left
+Dialogue: 0,0:02:15.75,0:02:19.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Un{\k35}fi{\k20}ni{\k15}shed {\k24}things {\k35}I {\k35}yearn {\k23}to {\k59}do
+Dialogue: 0,0:02:18.43,0:02:20.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}My {\k15}me{\k12}mo{\k31}ry {\k35}de{\k25}grades
+Dialogue: 0,0:02:19.73,0:02:23.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}I'm {\k35}low {\k24}on {\k35}space {\k35}left {\k41}to {\k36}lose
+Dialogue: 0,0:02:22.13,0:02:24.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Keep {\k16}on {\k7}ad{\k37}ding {\k34}more {\k23}da{\k38}ta
+Dialogue: 0,0:02:23.85,0:02:26.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Un{\k23}til {\k35}my {\k35}mind {\k24}runs {\k52}thin
+Dialogue: 0,0:02:25.87,0:02:28.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}So {\k14}ma{\k13}ny {\k33}links {\k33}left {\k24}se{\k36}vered
+Dialogue: 0,0:02:27.58,0:02:30.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}I {\k24}wish {\k30}I {\k40}could {\k49}mend
+Dialogue: 0,0:02:45.97,0:02:48.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Fooled {\k7}pick{\k5}ed {\k12}up {\k11}the {\k46}piec{\k24}es
+Dialogue: 0,0:02:47.61,0:02:51.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Thought {\k32}I {\k38}could {\k24}fix {\k35}it {\k35}all {\k24}a{\k58}gain
+Dialogue: 0,0:02:50.30,0:02:52.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}I {\k13}get {\k11}dis{\k27}trac{\k43}ted {\k24}by
+Dialogue: 0,0:02:51.60,0:02:55.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Nois{\k35}es {\k24}beg{\k30}ging {\k40}to {\k46}get {\k41}in
+Dialogue: 0,0:02:54.06,0:02:56.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}But {\k13}when {\k9}the {\k36}sounds {\k34}gone
+Dialogue: 0,0:02:55.10,0:02:57.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Si{\k34}lence {\k37}so {\k23}loud
+Dialogue: 0,0:02:56.28,0:02:58.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}When {\k31}it's {\k52}qui{\k41}et
+Dialogue: 0,0:02:57.87,0:02:59.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k6}I {\k13}get {\k10}this {\k35}feel{\k34}ing
+Dialogue: 0,0:02:58.85,0:03:01.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Some{\k35}thing's {\k35}mis{\k22}sing
+Dialogue: 0,0:03:00.02,0:03:02.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Some{\k36}one {\k23}back {\k59}then
+Dialogue: 0,0:03:01.56,0:03:04.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Dead {\k12}me{\k11}mo{\k37}ries {\k33}are {\k25}fad{\k34}ing
+Dialogue: 0,0:03:03.20,0:03:06.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}My {\k21}re{\k37}col{\k25}lec{\k34}tion {\k55}bends
+Dialogue: 0,0:03:05.27,0:03:08.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}When {\k15}I {\k11}look {\k33}in {\k35}the {\k24}mir{\k34}ror
+Dialogue: 0,0:03:06.94,0:03:10.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}I {\k23}see {\k35}some{\k36}one {\k23}but {\k53}who
+Dialogue: 0,0:03:09.00,0:03:12.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Tear {\k12}out {\k11}the {\k35}pag{\k37}es {\k22}of {\k35}this {\k34}book
+Dialogue: 0,0:03:11.04,0:03:13.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}When {\k27}my {\k43}sto{\k23}ry {\k56}ends
+Dialogue: 0,0:03:12.78,0:03:15.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}What {\k16}should {\k10}I {\k32}do {\k36}with {\k24}these {\k37}threads
+Dialogue: 0,0:03:14.47,0:03:17.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k29}keep {\k35}cling{\k31}ing {\k31}to
+Dialogue: 0,0:03:17.50,0:03:18.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Rend
+Dialogue: 0,0:03:32.85,0:03:36.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Though {\k46}it's {\k42}time {\k77}to {\k23}rend {\k31}this
+Dialogue: 0,0:03:35.43,0:03:38.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Lets {\k21}con{\k17}tin{\k32}ue {\k24}e{\k24}ven {\k45}if
+Dialogue: 0,0:03:37.29,0:03:41.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}We've {\k46}reach{\k25}ed {\k24}o{\k46}ur {\k47}li{\k45}mi{\k25}ts
+Dialogue: 0,0:03:40.35,0:03:44.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}When {\k37}I {\k49}try {\k28}to {\k23}for{\k47}get {\k47}them
+Dialogue: 0,0:03:42.93,0:03:45.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}The {\k23}lin{\k24}ge{\k46}ring {\k13}me{\k14}mo{\k42}ries
+Dialogue: 0,0:03:44.78,0:03:48.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Just {\k23}keep {\k16}on {\k54}flood{\k21}ing {\k50}my {\k46}con{\k73}science
+Dialogue: 0,0:03:47.87,0:03:51.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Saw {\k46}this {\k38}cor{\k32}rupt {\k24}da{\k46}ta
+Dialogue: 0,0:03:49.95,0:03:52.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}When {\k20}my {\k23}par{\k24}ti{\k17}tion {\k30}start{\k23}ed
+Dialogue: 0,0:03:51.83,0:03:55.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Fail{\k44}ing {\k20}me {\k49}in {\k24}the {\k68}end
+Dialogue: 0,0:03:54.41,0:03:59.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}E{\k23}ven {\k24}I {\k23}knew {\k23}I {\k17}need{\k30}ed {\k51}to {\k13}re{\k21}for{\k58}mat {\k49}it
+Dialogue: 0,0:03:57.97,0:04:00.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}When {\k23}I {\k24}found {\k23}noth{\k23}ing {\k30}chang{\k46}ing
+Dialogue: 0,0:03:59.85,0:04:04.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}As {\k36}I {\k50}tried {\k58}to {\k32}re{\k85}fresh
+Dialogue: 0,0:04:02.90,0:04:06.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Though {\k46}this {\k53}is {\k33}our {\k52}cli{\k49}max
+Dialogue: 0,0:04:05.42,0:04:10.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k22}think {\k25}that {\k18}I {\k30}might {\k22}have {\k48}one {\k44}fi{\k41}nal {\k53}re{\k73}quest
+Dialogue: 0,0:04:09.41,0:04:12.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}This {\k71}might {\k20}sound {\k47}sel{\k47}fish
+Dialogue: 0,0:04:11.52,0:04:16.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}But {\k22}can {\k84}you {\k35}please {\k25}hear {\k27}me {\k19}out {\k22}one {\k22}last {\k73}time
+Dialogue: 0,0:04:15.04,0:04:17.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k48}love {\k27}you

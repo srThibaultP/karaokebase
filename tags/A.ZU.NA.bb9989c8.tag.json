@@ -4,6 +4,9 @@
     "version": 1
   },
   "tag": {
+    "aliases": [
+      "AZUNA"
+    ],
     "i18n": {
       "jpn": "アズナ",
       "qro": "A・ZU・NA"

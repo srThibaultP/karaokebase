@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Kris Sobanski"
+    },
+    "name": "Kris Sobanski",
+    "repository": "kara.moe",
+    "tid": "0e7fdcd6-b768-404b-8176-622778bfffa6",
+    "types": [
+      8
+    ]
+  }
+}

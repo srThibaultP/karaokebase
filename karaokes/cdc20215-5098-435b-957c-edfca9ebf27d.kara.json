@@ -25,12 +25,12 @@
     "from_display_type": "singers",
     "ignoreHooks": false,
     "kid": "cdc20215-5098-435b-957c-edfca9ebf27d",
-    "modified_at": "2026-08-23T21:19:05.969Z",
+    "modified_at": "2026-09-13T11:00:10.381Z",
     "parents": [
       "5c92a2b2-d8aa-4bc7-a079-5a08176b7b56"
     ],
     "repository": "kara.moe",
-    "songname": "JPN - Hanon - OP - Zettai Shôsan ~ Hanon Vers. ~ Alternative Full Vers",
+    "songname": "JPN - Hanon - MV - Zettai Shôsan ~ Hanon Vers. ~ Alternative Full Vers",
     "tags": {
       "authors": [
         "6ead5776-8797-407f-84a6-809f413c97b5",
@@ -68,7 +68,7 @@
         "fee90ed7-7d82-4ad6-bbff-a0c816268f4b"
       ],
       "songtypes": [
-        "f02ad9b3-0bd9-4aad-85b3-9976739ba0e4"
+        "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
       ],
       "songwriters": [
         "af0dc126-897e-4390-a7a1-cbfed65c2925",

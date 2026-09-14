@@ -1,0 +1,77 @@
+﻿[Script Info]
+Title: Fireworks
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: GahyeonEnjoyer
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: EN,Arial,24,&H00FFFFFF,&H00D45EC8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00D45EC8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,JP,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.63,0:00:05.32,EN,,0,0,0,karaoke,{\kf4}{\kf107}Oh, {\k55}life {\k53}is {\k29}fi{\k21}re{\k100}works
+Comment: 0,0:00:05.56,0:00:07.54,EN,,0,0,0,karaoke,{\k15}From {\k9}the {\k11}in{\k32}side {\k22}to {\k17}the {\k36}out{\k56}side
+Comment: 0,0:00:11.16,0:00:12.96,EN,,0,0,0,karaoke,{\kf60}Wow {\kf120}Wow
+Comment: 0,0:00:16.78,0:00:18.78,EN,,0,0,0,karaoke,{\kf62}Wow {\kf138}Wow
+Comment: 0,0:00:19.12,0:00:21.79,JP,,0,0,0,karaoke,{\k24}ko{\k26}ta{\k10}e {\k19}wa {\k19}mi{\k16}tsu{\k37}ka{\k10}ra{\k44}nai {\k15}ma{\k47}ma
+Comment: 0,0:00:22.34,0:00:24.45,JP,,0,0,0,karaoke,{\k20}chi{\k18}he{\k8}i{\k46}sen {\k32}no {\k38}ha{\k49}te
+Comment: 0,0:00:24.81,0:00:27.58,EN,,0,0,0,karaoke,{\k2}{\k14}I {\k38}was {\k19}born {\k36}in {\k34}this {\k20}world {\rJP}{\k24}i{\k8}tsu{\k25}ka {\k57}no
+Comment: 0,0:00:27.99,0:00:30.08,JP,,0,0,0,karaoke,{\k19}ma{\k18}da {\k19}yo{\k33}a{\k27}ke {\k45}ma{\k48}e
+Comment: 0,0:00:30.24,0:00:33.03,JP,,0,0,0,karaoke,{\k22}ku{\k14}ra{\k23}ya{\k14}mi {\k20}wo {\k12}ka{\k22}ki{\k16}wa{\k12}ke{\k19}te {\k24}ha{\k38}shi{\k43}ru
+Comment: 0,0:00:33.03,0:00:35.55,JP,,0,0,0,karaoke,{\k13}a{\k28}shi{\k37}do{\k15}ri {\k39}wa {\k16}do{\k17}ko {\k17}he {\k20}yu{\k17}ku {\k33}no
+Comment: 0,0:00:35.88,0:00:38.20,JP,,0,0,0,karaoke,{\k24}da{\k16}re{\k17}mo {\k19}i{\k17}na{\k18}i {\k16}mi{\k19}chi {\k18}no {\k17}sa{\k20}ki {\k31}ni
+Comment: 0,0:00:38.11,0:00:41.49,EN,,0,0,0,karaoke,{\k30}The {\k53}sun {\k35}al{\k65}so {\k54}rises {\k38}a{\k63}gain
+Comment: 0,0:00:41.49,0:00:44.93,EN,,0,0,0,karaoke,{\k42}Hey! {\k38}Wake {\k69}up! {\k28}ka{\k41}ga{\k16}ya{\kf110}ke
+Comment: 0,0:00:44.93,0:00:46.88,JP,,0,0,0,karaoke,{\k28}ko{\k22}ko{\k36}ro {\k18}wo {\k13}mo{\k33}ya{\k45}se
+Comment: 0,0:00:47.16,0:00:48.47,EN,,0,0,0,karaoke,{\k35}Don't {\k39}look {\k57}back!
+Comment: 0,0:00:48.47,0:00:50.57,JP,,0,0,0,karaoke,{\k21}yo{\k13}ru {\k16}wo {\k37}ko{\k18}e{\kf105}ro
+Comment: 0,0:00:50.57,0:00:52.41,JP,,0,0,0,karaoke,{\k16}{\k18}bo{\k17}ku{\k35}ra {\k18}ko{\k20}so {\rEN}{\k31}free{\k29}dom
+Comment: 0,0:00:52.41,0:00:56.22,JP,,0,0,0,karaoke,{\k58}sa{\k45}ka{\kf61}sou {\k58}yo{\k34}zo{\k18}ra {\kf107}ni
+Comment: 0,0:00:56.22,0:00:58.16,EN,,0,0,0,karaoke,{\kf66}Wow {\kf128}Wow
+Comment: 0,0:00:58.16,0:01:01.94,EN,,0,0,0,karaoke,{\kf101}Oh, {\k57}life {\k54}is {\k23}fi{\k27}re{\kf116}works
+Comment: 0,0:01:01.94,0:01:03.74,JP,,0,0,0,karaoke,{\k26}ko{\k19}ko{\k30}ro {\k18}wo {\k16}mo{\k29}ya{\kf42}se
+Comment: 0,0:01:03.94,0:01:06.58,EN,,0,0,0,karaoke,{\k15}To{\k23}day {\k12}is {\k9}a {\k27}New {\k26}day {\rJP}{\k13}me{\k21}za{\k17}shi {\k16}ha{\k20}ru{\k12}ka {\k53}ue
+Comment: 0,0:01:06.58,0:01:08.94,JP,,0,0,0,karaoke,{\k19}do{\k21}n{\k16}na {\k21}to{\k19}ki{\k14}mo {\k13}ma{\k6}e {\k9}ni {\k5}su{\k24}su{\k15}mu {\k17}da{\k37}ke
+Comment: 0,0:01:08.94,0:01:11.43,EN,,0,0,0,karaoke,{\k63}Uh, {\rJP}{\k12}a{\k26}shi {\k16}wa {\k20}to{\k18}me{\k21}zu {\k18}ni {\rEN} {\k21}run {\k13}it {\k21}up
+Comment: 0,0:01:11.43,0:01:13.99,JP,,0,0,0,karaoke,{\k16}ko{\k12}ta{\k6}e {\k14}wa {\k19}ji{\k19}bun {\k17}no {\k16}na{\k35}ka {\rEN}{\k21}keep {\k14}it {\k67}up
+Comment: 0,0:01:15.10,0:01:20.60,EN,,0,0,0,karaoke,{\kf68}Life {\k72}is {\k71}fi{\k72}re{\kf267}works
+Comment: 0,0:01:18.86,0:01:20.85,Sample KM [Down],,0,0,0,karaoke,{\kf72}Wow {\kf127}Wow
+Comment: 0,0:01:20.73,0:01:26.54,EN,,0,0,0,karaoke,{\kf69}Life {\k71}is {\k64}fi{\k76}re{\kf301}works
+Comment: 0,0:01:24.65,0:01:26.54,Sample KM [Down],,0,0,0,karaoke,{\kf53}Wow {\kf136}Wow
+Dialogue: 0,0:00:00.73,0:00:05.52,EN,,0,0,0,fx,{\k90\fad(300,200)}{\kf4}{\kf107}Oh, {\k55}life {\k53}is {\k29}fi{\k21}re{\k100}works
+Dialogue: 0,0:00:04.66,0:00:07.74,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k15}From {\k9}the {\k11}in{\k32}side {\k22}to {\k17}the {\k36}out{\k56}side
+Dialogue: 0,0:00:10.26,0:00:13.16,EN,,0,0,0,fx,{\k90\fad(300,200)}{\kf60}Wow {\kf120}Wow
+Dialogue: 0,0:00:15.88,0:00:18.98,EN,,0,0,0,fx,{\k90\fad(300,200)}{\kf62}Wow {\kf138}Wow
+Dialogue: 0,0:00:18.22,0:00:21.99,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ko{\k26}ta{\k10}e {\k19}wa {\k19}mi{\k16}tsu{\k37}ka{\k10}ra{\k44}nai {\k15}ma{\k47}ma
+Dialogue: 0,0:00:21.44,0:00:24.65,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k20}chi{\k18}he{\k8}i{\k46}sen {\k32}no {\k38}ha{\k49}te
+Dialogue: 0,0:00:23.91,0:00:27.78,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k2}{\k14}I {\k38}was {\k19}born {\k36}in {\k34}this {\k20}world {\rJP}{\k24}i{\k8}tsu{\k25}ka {\k57}no
+Dialogue: 0,0:00:27.09,0:00:30.28,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ma{\k18}da {\k19}yo{\k33}a{\k27}ke {\k45}ma{\k48}e
+Dialogue: 0,0:00:29.34,0:00:33.23,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ku{\k14}ra{\k23}ya{\k14}mi {\k20}wo {\k12}ka{\k22}ki{\k16}wa{\k12}ke{\k19}te {\k24}ha{\k38}shi{\k43}ru
+Dialogue: 0,0:00:32.13,0:00:35.75,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k13}a{\k28}shi{\k37}do{\k15}ri {\k39}wa {\k16}do{\k17}ko {\k17}he {\k20}yu{\k17}ku {\k33}no
+Dialogue: 0,0:00:34.98,0:00:38.40,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k24}da{\k16}re{\k17}mo {\k19}i{\k17}na{\k18}i {\k16}mi{\k19}chi {\k18}no {\k17}sa{\k20}ki {\k31}ni
+Dialogue: 0,0:00:37.21,0:00:41.69,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k30}The {\k53}sun {\k35}al{\k65}so {\k54}rises {\k38}a{\k63}gain
+Dialogue: 0,0:00:40.59,0:00:45.13,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Hey! {\k38}Wake {\k69}up! {\k28}ka{\k41}ga{\k16}ya{\kf110}ke
+Dialogue: 0,0:00:44.03,0:00:47.08,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ko{\k22}ko{\k36}ro {\k18}wo {\k13}mo{\k33}ya{\k45}se
+Dialogue: 0,0:00:46.26,0:00:48.67,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Don't {\k39}look {\k57}back!
+Dialogue: 0,0:00:47.57,0:00:50.77,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k21}yo{\k13}ru {\k16}wo {\k37}ko{\k18}e{\kf105}ro
+Dialogue: 0,0:00:49.67,0:00:52.61,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k16}{\k18}bo{\k17}ku{\k35}ra {\k18}ko{\k20}so {\rEN}{\k31}free{\k29}dom
+Dialogue: 0,0:00:51.51,0:00:56.42,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k58}sa{\k45}ka{\kf61}sou {\k58}yo{\k34}zo{\k18}ra {\kf107}ni
+Dialogue: 0,0:00:55.32,0:00:58.36,EN,,0,0,0,fx,{\k90\fad(300,200)}{\kf66}Wow {\kf128}Wow
+Dialogue: 0,0:00:57.26,0:01:02.14,EN,,0,0,0,fx,{\k90\fad(300,200)}{\kf101}Oh, {\k57}life {\k54}is {\k23}fi{\k27}re{\kf116}works
+Dialogue: 0,0:01:01.04,0:01:03.94,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ko{\k19}ko{\k30}ro {\k18}wo {\k16}mo{\k29}ya{\kf42}se
+Dialogue: 0,0:01:03.04,0:01:06.78,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k15}To{\k23}day {\k12}is {\k9}a {\k27}New {\k26}day {\rJP}{\k13}me{\k21}za{\k17}shi {\k16}ha{\k20}ru{\k12}ka {\k53}ue
+Dialogue: 0,0:01:05.68,0:01:09.14,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k19}do{\k21}n{\k16}na {\k21}to{\k19}ki{\k14}mo {\k13}ma{\k6}e {\k9}ni {\k5}su{\k24}su{\k15}mu {\k17}da{\k37}ke
+Dialogue: 0,0:01:08.04,0:01:11.63,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k63}Uh, {\rJP}{\k12}a{\k26}shi {\k16}wa {\k20}to{\k18}me{\k21}zu {\k18}ni {\rEN} {\k21}run {\k13}it {\k21}up
+Dialogue: 0,0:01:10.53,0:01:14.19,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k12}ta{\k6}e {\k14}wa {\k19}ji{\k19}bun {\k17}no {\k16}na{\k35}ka {\rEN}{\k21}keep {\k14}it {\k67}up
+Dialogue: 0,0:01:14.20,0:01:20.80,EN,,0,0,0,fx,{\k90\fad(300,200)}{\kf68}Life {\k72}is {\k71}fi{\k72}re{\kf267}works
+Dialogue: 0,0:01:17.96,0:01:21.05,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf72}Wow {\kf127}Wow
+Dialogue: 0,0:01:19.83,0:01:26.74,EN,,0,0,0,fx,{\k90\fad(300,200)}{\kf69}Life {\k71}is {\k64}fi{\k76}re{\kf301}works
+Dialogue: 0,0:01:23.75,0:01:26.74,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf53}Wow {\kf136}Wow
