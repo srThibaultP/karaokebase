@@ -1,0 +1,78 @@
+﻿[Script Info]
+Title: Shocking Party
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 0
+PlayResY: 0
+Original Timing: Miryuni, Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Edel Note,Arial,24,&H00FFFFFF,&H00427C99,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Izumi,Arial,24,&H00FFFFFF,&H00CDBF1F,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Ceras,Arial,24,&H00FFFFFF,&H005564F5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:01.11,0:00:01.11,Edel Note,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H427C99&}Edel Note{\c} | {\c&HCDBF1F&}Izumi{\c} | {\c&H5564F5&}Ceras
+Comment: 0,0:00:08.80,0:00:12.33,Edel Note,,0,0,0,karaoke,{\k45}DAN{\k44}CING {\k32}DAN{\k37}CING {\k43}NON-{\k43}STOP {\k21}MY {\k42}DAN{\k46}CING
+Comment: 0,0:00:12.33,0:00:15.86,Edel Note,,0,0,0,karaoke,{\k44}DAN{\k45}CING {\k32}DAN{\k37}CING {\k43}NON-{\k43}STOP {\k21}MY {\k44}DAN{\k44}CING
+Comment: 0,0:00:15.86,0:00:19.39,Edel Note,,0,0,0,karaoke,{\k44}DAN{\k45}CING {\k32}DAN{\k37}CING {\k43}NON-{\k43}STOP {\k21}MY {\k43}DAN{\k45}CING
+Comment: 0,0:00:19.39,0:00:22.26,Edel Note,,0,0,0,karaoke,{\k43}DAN{\k45}CING {\k33}DAN{\k34}CING {\k44}LET {\k44}ME {\k44}DO
+Comment: 0,0:00:22.90,0:00:24.44,Izumi,,0,0,0,karaoke,{\k24}PAR{\k10}TY {\k26}SHO{\k29}CKING {\k25}PAR{\k40}TY
+Comment: 0,0:00:24.44,0:00:26.88,Izumi,,0,0,0,karaoke,{\k41}ha{\k20}ji{\k33}me{\k15}ru {\k26}ju{\k21}n{\k22}bi {\k24}wa {\k42}dou
+Comment: 0,0:00:26.88,0:00:29.54,Ceras,,0,0,0,karaoke,{\k43}saa {\k38}ki{\k32}te {\k43}ko{\k22}ko {\k21}ni {\k23}ki{\k44}te
+Comment: 0,0:00:29.97,0:00:31.48,Izumi,,0,0,0,karaoke,{\k24}PAR{\k17}TY {\k27}SHO{\k22}CKING {\k21}PAR{\k40}TY
+Comment: 0,0:00:31.48,0:00:33.92,Izumi,,0,0,0,karaoke,{\k49}se{\k23}ka{\k23}i {\k20}ga {\k22}ma{\k25}wa{\k19}ri{\k14}da{\k49}su
+Comment: 0,0:00:33.92,0:00:36.59,Ceras,,0,0,0,karaoke,{\k45}saa {\k34}ki{\k34}te {\k45}ko{\k23}ko {\k20}ni {\k22}ki{\k44}te
+Comment: 0,0:00:36.59,0:00:38.79,Izumi,,0,0,0,karaoke,{\k23}da{\k23}re{\k16}ka {\k26}no {\k23}ta{\k18}me {\k25}ja{\k12}na{\k54}i
+Comment: 0,0:00:38.79,0:00:40.56,Ceras,,0,0,0,karaoke,{\k25}wa{\k19}ta{\k24}shi {\k22}to {\k36}FREE{\k51}DOM
+Comment: 0,0:00:40.06,0:00:42.33,Izumi,,0,0,0,karaoke,{\k31}ji{\k21}bu{\k16}n {\k27}shi{\k22}da{\k22}i {\k23}da{\k10}ka{\k55}ra
+Comment: 0,0:00:42.33,0:00:44.32,Ceras,,0,0,0,karaoke,{\k45}GO {\k43}GO {\k23}WE {\k23}ARE {\k21}FREE{\k44}DOM
+Comment: 0,0:00:43.65,0:00:45.86,Izumi,,0,0,0,karaoke,{\k22}da{\k22}re{\k18}ka {\k21}no {\k25}se{\k25}i {\k22}ja{\k11}na{\k55}i
+Comment: 0,0:00:45.86,0:00:47.62,Ceras,,0,0,0,karaoke,{\k22}ko{\k22}ko{\k22}ro {\k22}wa {\k35}FREE{\k53}DOM
+Comment: 0,0:00:47.11,0:00:49.39,Izumi,,0,0,0,karaoke,{\k34}shu{\k21}ya{\k24}ku {\k19}wa {\k22}ji{\k23}bu{\k23}n {\k9}de{\k53}sho
+Comment: 0,0:00:49.39,0:00:50.68,Edel Note,,0,0,0,karaoke,{\k26}wa{\k17}ka{\k27}ru {\k14}de{\k45}sho
+Comment: 0,0:00:50.68,0:00:54.26,Ceras,,0,0,0,karaoke,{\k20}mot{\k15}to {\k31}shi{\k26}ri{\k34}tai {\k31}shi{\k22}ri{\k46}tai {\k20}ka{\k23}jo{\k22}u {\k18}na {\k50}LIFE
+Comment: 0,0:00:54.26,0:00:57.60,Edel Note,,0,0,0,karaoke,{\k18}i{\k22}ma {\k21}yu{\k26}me {\k38}no {\k26}yu{\k20}me {\k43}no {\k47}na{\k43}ka {\k30}he
+Comment: 0,0:00:57.77,0:01:01.30,Edel Note,,0,0,0,karaoke,{\k22}mot{\k15}to {\k24}shi{\k26}ri{\k40}tai {\k23}shi{\k26}ri{\k44}tai {\k21}ka{\k24}jo{\k22}u {\k16}na {\k50}LIFE
+Comment: 0,0:01:01.30,0:01:06.06,Edel Note,,0,0,0,karaoke,{\k23}da{\k21}ka{\k83}ra {\k94}SHOC{\k134}KING {\k42}PAR{\k79}TY
+Comment: 0,0:01:08.36,0:01:11.70,Edel Note,,0,0,0,karaoke,{\k23}mot{\k22}to {\k22}a{\k22}ge{\k45}tai {\k21}a{\k22}ge{\k43}tai {\k24}yui{\k21}i{\k22}tsu {\k22}no {\k25}LOVE
+Comment: 0,0:01:11.90,0:01:15.22,Edel Note,,0,0,0,karaoke,{\k23}de{\k22}mo {\k20}tsu{\k22}ki {\k43}ga {\k23}ki{\k24}e{\k43}ru {\k43}ma{\k44}e {\k25}ni
+Comment: 0,0:01:15.42,0:01:18.74,Edel Note,,0,0,0,karaoke,{\k23}mot{\k22}to {\k22}a{\k22}ge{\k45}tai {\k21}a{\k22}ge{\k43}tai {\k24}yui{\k21}i{\k22}tsu {\k22}no {\k25}LOVE
+Comment: 0,0:01:18.98,0:01:23.43,Edel Note,,0,0,0,karaoke,{\k21}Feel {\k21}and {\k88}touch {\k88}Char{\k130}ming {\k48}Ve{\k49}nus
+Comment: 0,0:01:22.93,0:01:26.25,Edel Note,,0,0,0,karaoke,{\k42}DAN{\k47}CING {\k32}DAN{\k34}CING {\k44}NON-{\k45}STOP {\k21}MY {\k41}DAN{\k26}CING
+Comment: 0,0:01:26.45,0:01:29.34,Edel Note,,0,0,0,karaoke,{\k43}DAN{\k45}CING {\k33}DAN{\k34}CING {\k44}LET {\k44}ME {\k44}DO
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H427C99&}Edel Note{\c} | {\c&HCDBF1F&}Izumi{\c} | {\c&H5564F5&}Ceras
+Dialogue: 0,0:00:07.90,0:00:12.53,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k45}DAN{\k44}CING {\k32}DAN{\k37}CING {\k43}NON-{\k43}STOP {\k21}MY {\k42}DAN{\k46}CING
+Dialogue: 0,0:00:11.43,0:00:16.06,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k44}DAN{\k45}CING {\k32}DAN{\k37}CING {\k43}NON-{\k43}STOP {\k21}MY {\k44}DAN{\k44}CING
+Dialogue: 0,0:00:14.96,0:00:19.59,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k44}DAN{\k45}CING {\k32}DAN{\k37}CING {\k43}NON-{\k43}STOP {\k21}MY {\k43}DAN{\k45}CING
+Dialogue: 0,0:00:18.49,0:00:22.46,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k43}DAN{\k45}CING {\k33}DAN{\k34}CING {\k44}LET {\k44}ME {\k44}DO
+Dialogue: 0,0:00:22.00,0:00:24.64,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k24}PAR{\k10}TY {\k26}SHO{\k29}CKING {\k25}PAR{\k40}TY
+Dialogue: 0,0:00:23.54,0:00:27.08,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k41}ha{\k20}ji{\k33}me{\k15}ru {\k26}ju{\k21}n{\k22}bi {\k24}wa {\k42}dou
+Dialogue: 0,0:00:25.98,0:00:29.74,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k43}saa {\k38}ki{\k32}te {\k43}ko{\k22}ko {\k21}ni {\k23}ki{\k44}te
+Dialogue: 0,0:00:29.07,0:00:31.68,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k24}PAR{\k17}TY {\k27}SHO{\k22}CKING {\k21}PAR{\k40}TY
+Dialogue: 0,0:00:30.58,0:00:34.12,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k49}se{\k23}ka{\k23}i {\k20}ga {\k22}ma{\k25}wa{\k19}ri{\k14}da{\k49}su
+Dialogue: 0,0:00:33.02,0:00:36.79,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k45}saa {\k34}ki{\k34}te {\k45}ko{\k23}ko {\k20}ni {\k22}ki{\k44}te
+Dialogue: 0,0:00:35.69,0:00:38.99,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}da{\k23}re{\k16}ka {\k26}no {\k23}ta{\k18}me {\k25}ja{\k12}na{\k54}i
+Dialogue: 0,0:00:37.89,0:00:40.76,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k25}wa{\k19}ta{\k24}shi {\k22}to {\k36}FREE{\k51}DOM
+Dialogue: 0,0:00:39.16,0:00:42.53,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ji{\k21}bu{\k16}n {\k27}shi{\k22}da{\k22}i {\k23}da{\k10}ka{\k55}ra
+Dialogue: 0,0:00:41.43,0:00:44.52,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k45}GO {\k43}GO {\k23}WE {\k23}ARE {\k21}FREE{\k44}DOM
+Dialogue: 0,0:00:42.75,0:00:46.06,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}da{\k22}re{\k18}ka {\k21}no {\k25}se{\k25}i {\k22}ja{\k11}na{\k55}i
+Dialogue: 0,0:00:44.96,0:00:47.82,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ko{\k22}ko{\k22}ro {\k22}wa {\k35}FREE{\k53}DOM
+Dialogue: 0,0:00:46.21,0:00:49.59,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k34}shu{\k21}ya{\k24}ku {\k19}wa {\k22}ji{\k23}bu{\k23}n {\k9}de{\k53}sho
+Dialogue: 0,0:00:48.49,0:00:50.88,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k26}wa{\k17}ka{\k27}ru {\k14}de{\k45}sho
+Dialogue: 0,0:00:49.78,0:00:54.46,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k20}mot{\k15}to {\k31}shi{\k26}ri{\k34}tai {\k31}shi{\k22}ri{\k46}tai {\k20}ka{\k23}jo{\k22}u {\k18}na {\k50}LIFE
+Dialogue: 0,0:00:53.36,0:00:57.80,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k18}i{\k22}ma {\k21}yu{\k26}me {\k38}no {\k26}yu{\k20}me {\k43}no {\k47}na{\k43}ka {\k30}he
+Dialogue: 0,0:00:56.87,0:01:01.50,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k22}mot{\k15}to {\k24}shi{\k26}ri{\k40}tai {\k23}shi{\k26}ri{\k44}tai {\k21}ka{\k24}jo{\k22}u {\k16}na {\k50}LIFE
+Dialogue: 0,0:01:00.40,0:01:06.26,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k23}da{\k21}ka{\k83}ra {\k94}SHOC{\k134}KING {\k42}PAR{\k79}TY
+Dialogue: 0,0:01:07.46,0:01:11.90,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mot{\k22}to {\k22}a{\k22}ge{\k45}tai {\k21}a{\k22}ge{\k43}tai {\k24}yui{\k21}i{\k22}tsu {\k22}no {\k25}LOVE
+Dialogue: 0,0:01:11.00,0:01:15.42,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k23}de{\k22}mo {\k20}tsu{\k22}ki {\k43}ga {\k23}ki{\k24}e{\k43}ru {\k43}ma{\k44}e {\k25}ni
+Dialogue: 0,0:01:14.52,0:01:18.94,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mot{\k22}to {\k22}a{\k22}ge{\k45}tai {\k21}a{\k22}ge{\k43}tai {\k24}yui{\k21}i{\k22}tsu {\k22}no {\k25}LOVE
+Dialogue: 0,0:01:18.08,0:01:23.63,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Feel {\k21}and {\k88}touch {\k88}Char{\k130}ming {\k48}Ve{\k49}nus
+Dialogue: 0,0:01:22.03,0:01:26.45,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k42}DAN{\k47}CING {\k32}DAN{\k34}CING {\k44}NON-{\k45}STOP {\k21}MY {\k41}DAN{\k26}CING
+Dialogue: 0,0:01:25.55,0:01:29.54,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k43}DAN{\k45}CING {\k33}DAN{\k34}CING {\k44}LET {\k44}ME {\k44}DO

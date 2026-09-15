@@ -1,0 +1,87 @@
+﻿[Script Info]
+Title: Zattou, Bokura no Machi
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Hanaku, Azurys
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: DOLLCHESTRA,Arial,24,&H00FFFFFF,&H0061C5D7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sayaka,Arial,24,&H00FFFFFF,&H00C38353,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,14,1
+Style: Kosuzu,Arial,24,&H00FFFFFF,&H0064D7FA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,14,1
+Style: Tsuzuri,Arial,24,&H00FFFFFF,&H003626BA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,14,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sayaka,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{ \\rSayaka\\c&H00C38353&\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Kosuzu,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{ \\rKosuzu\\c&H0064D7FA&\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Tsuzuri,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{ \\rTsuzuri\\c&H003626BA&\\fs30}♣{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,DOLLCHESTRA,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H61C5D7&}DOLLCHESTRA{\c} | {\c&HC38353&}♠ Sayaka{\c} | {\c&H3626BA&}♣ Tsuzuri{\c} | {\c&H64D7FA&}♦ Kosuzu
+Comment: 0,0:00:00.78,0:00:03.49,Tsuzuri,,0,0,0,karaoke,{\k22}ya{\k17}ri{\k17}no{\k21}ko{\k8}shi{\k16}ta {\k10}ko{\k17}dou {\k8}ga {\k18}ko{\k9}no {\k16}yo {\k18}wo {\k29}o{\k25}ot{\k20}te
+Comment: 0,0:00:03.63,0:00:06.31,Sayaka,,0,0,0,karaoke,{\k17}bo{\k19}ku{\k17}ra {\k18}wo {\k9}tsu{\k18}tsun{\k7}de {\k18}ko{\k11}na{\k16}go{\k10}na {\k17}ni {\k18}na{\k24}ru {\k18}ma{\k10}e {\k21}ni
+Comment: 0,0:00:06.44,0:00:08.26,Kosuzu,,0,0,0,karaoke,{\k16}ta{\k20}yo{\k16}ri{\k19}na{\k8}ku{\k18}te{\k8}mo {\k18}ii {\k9}so{\k18}no {\k9}te {\k23}wo
+Comment: 0,0:00:08.36,0:00:10.80,Tsuzuri,,0,0,0,karaoke,{\k20}ko{\k8}no {\k15}te {\k10}wa {\k19}ji{\k24}bun {\k9}ji{\k19}shin {\k19}no {\k34}mo{\k14}no {\k53}sa
+Comment: 0,0:00:11.18,0:00:13.95,DOLLCHESTRA,,0,0,0,karaoke,{\k18}ka{\k9}wa{\k17}ra{\k9}na{\k25}i {\k9}ha{\k10}zu {\k9}wa {\k17}nai {\k35}yo {\k19}te {\k18}wo {\k16}no{\k31}bash'{\k35}te
+Comment: 0,0:00:19.57,0:00:23.72,Tsuzuri,,0,0,0,karaoke,{\k31}zat{\k28}tou {\k15}no {\k17}na{\k18}ka {\k66}de {\k17}ko{\k20}e {\k19}na{\k9}ki {\k22}ko{\k20}e {\k19}de {\k19}na{\k26}i{\k27}te{\k17}i{\k25}ru
+Comment: 0,0:00:23.82,0:00:27.82,Sayaka,,0,0,0,karaoke,{\k19}a{\k11}shi{\k22}a{\k17}to {\k18}ga {\k18}i{\k70}ma {\k18}da{\k17}re{\k27}ka {\k24}no {\k17}ko{\k20}e {\k15}wo {\k21}ke{\k7}shi{\k25}ta {\k17}a{\k17}sa
+Comment: 0,0:00:28.01,0:00:31.69,Kosuzu,,0,0,0,karaoke,{\k27}i{\k10}tsu {\k17}ni {\k17}na{\k18}t{\k18}te{\k69}mo {\k20}ka{\k16}re{\k34}ru {\k18}ko{\k35}to {\k19}no {\k50}nai
+Comment: 0,0:00:32.06,0:00:36.66,Tsuzuri,,0,0,0,karaoke,{\k16}fu{\k33}hai {\k21}shi{\k19}ta {\k15}ma{\k19}chi {\k71}no {\k16}do{\k19}ro{\k32}mi{\k18}zu {\k34}ga {\k21}tsu{\k70}me{\k56}tai
+Comment: 0,0:00:36.79,0:00:38.21,Sayaka,,0,0,0,karaoke,{\k19}nan{\k9}ni{\k17}mo {\k9}ka{\k17}wa{\k10}ra{\k15}nai {\k10}se{\k17}kai {\k19}de
+Comment: 0,0:00:39.58,0:00:41.05,Kosuzu,,0,0,0,karaoke,{\k16}kyo{\k12}u {\k19}dat{\k14}te {\k10}i{\k10}ki{\k10}te {\k15}yu{\k20}kun {\k21}da
+Comment: 0,0:00:42.03,0:00:44.18,Tsuzuri,,0,0,0,karaoke,{\k21}ku{\k17}da{\k18}ra{\k12}na{\k14}i {\k9}ke{\k31}do {\k20}shi{\k18}ka{\k11}ta{\k17}nai {\k7}de{\k20}sho
+Comment: 0,0:00:44.34,0:00:47.25,DOLLCHESTRA,,0,0,0,karaoke,{\k16}bo{\k16}ku{\k12}ra {\k17}wa {\k9}mo{\k34}u {\k19}a{\k17}ru{\k11}ki {\k16}ha{\k9}ji{\k34}me{\k18}ta{\k18}n {\k45}da
+Comment: 0,0:00:47.50,0:00:50.10,DOLLCHESTRA,,0,0,0,karaoke,{\k14}u{\k24}so {\k6}mi{\k23}ta{\k20}i {\k54}na {\k16}ba{\k19}ka {\k9}mi{\k24}ta{\k19}i {\k32}na
+Comment: 0,0:00:50.31,0:00:52.92,DOLLCHESTRA,,0,0,0,karaoke,{\k31}dou {\k21}shi{\k35}you {\k36}mo {\k35}nai {\k28}bo{\k7}ku{\k17}ra {\k17}no {\k17}ma{\k17}chi
+Comment: 0,0:00:53.09,0:00:53.86,Kosuzu,,0,0,0,karaoke,{\k19}so{\k18}re {\k18}de{\k22}mo
+Comment: 0,0:00:53.99,0:00:55.26,Tsuzuri,,0,0,0,karaoke,{\k9}ko{\k9}no {\k8}me {\k9}de {\k10}ta{\k7}shi{\k8}ka {\k11}ni {\k9}mi{\k7}e{\k19}tan {\k21}da
+Comment: 0,0:00:55.39,0:00:56.64,Sayaka,,0,0,0,karaoke,{\k9}ko{\k9}no {\k9}te {\k9}de {\k10}ta{\k7}shi{\k9}ka {\k8}ni {\k7}fu{\k11}re{\k18}tan {\k19}da
+Comment: 0,0:00:56.80,0:00:58.30,Kosuzu,,0,0,0,karaoke,{\k34}nee {\k20}ho{\k50}ra {\k19}ho{\k27}ra
+Comment: 0,0:00:58.53,0:01:01.32,DOLLCHESTRA,,0,0,0,karaoke,{\k17}ho{\k20}ra {\k9}ma{\k16}ta {\k27}fu{\k18}i{\k53}ta {\k18}ba{\k9}ka {\k16}mi{\k23}ta{\k22}i {\k31}da
+Comment: 0,0:01:01.53,0:01:04.18,DOLLCHESTRA,,0,0,0,karaoke,{\k31}dou {\k22}shi{\k34}you {\k36}mo {\k21}na{\k12}i {\k29}ya{\k9}mi {\k17}wo {\k17}te{\k15}ra{\k22}se
+Comment: 0,0:01:04.33,0:01:05.13,Tsuzuri,,0,0,0,karaoke,{\k19}yu{\k16}me {\k20}ja{\k25}nai
+Comment: 0,0:01:05.21,0:01:06.43,Sayaka,,0,0,0,karaoke,{\k15}dou{\k11}se {\k11}o{\k16}wat{\k9}te{\k9}ru {\k10}ma{\k7}chi {\k19}dat{\k15}te
+Comment: 0,0:01:06.63,0:01:07.93,Kosuzu,,0,0,0,karaoke,{\k9}a{\k9}ki{\k8}ra{\k8}me{\k17}tat{\k9}te {\k10}ka{\k17}wan{\k17}nai {\k26}ze
+Comment: 0,0:01:08.00,0:01:10.25,Tsuzuri,,0,0,0,karaoke,{\k38}aa {\k17}ma{\k53}da {\k17}ma{\k53}da {\k18}ma{\k29}da
+Comment: 0,0:01:10.28,0:01:12.95,DOLLCHESTRA,,0,0,0,karaoke,{\k21}ya{\k17}ri{\k16}no{\k20}ko{\k8}shi{\k18}ta {\k8}ko{\k18}dou {\k8}ga {\k18}ko{\k10}no {\k17}yo {\k16}wo {\k28}o{\k26}ot{\k18}te
+Comment: 0,0:01:13.11,0:01:15.76,DOLLCHESTRA,,0,0,0,karaoke,{\k17}bo{\k18}ku{\k17}ra {\k19}wo {\k6}tsu{\k20}tsun{\k9}de {\k17}ko{\k10}na{\k15}go{\k11}na {\k17}ni {\k18}na{\k26}ru {\k13}ma{\k14}e {\k18}ni
+Comment: 0,0:01:15.92,0:01:17.71,Kosuzu,,0,0,0,karaoke,{\k17}ta{\k19}yo{\k17}ri{\k17}na{\k9}ku{\k18}te{\k7}mo {\k17}ii {\k10}so{\k17}no {\k10}te {\k21}wo
+Comment: 0,0:01:17.85,0:01:20.28,Sayaka,,0,0,0,karaoke,{\k18}ko{\k9}no {\k13}te {\k11}wa {\k19}ji{\k23}bun {\k10}ji{\k20}shin {\k16}no {\k37}mo{\k14}no {\k53}sa
+Comment: 0,0:01:20.64,0:01:23.40,Tsuzuri,,0,0,0,karaoke,{\k21}ka{\k7}wa{\k17}ra{\k10}na{\k24}i {\k9}ha{\k10}zu {\k9}wa {\k17}nai {\k35}yo {\k19}te {\k17}wo {\k17}no{\k35}bash'{\k29}te
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H61C5D7&}DOLLCHESTRA{\c} | {\c&HC38353&}♠ Sayaka{\c} | {\c&H3626BA&}♣ Tsuzuri{\c} | {\c&H64D7FA&}♦ Kosuzu
+Dialogue: 0,0:00:00.00,0:00:03.69,Tsuzuri,,0,0,0,fx,{\k78\fad(780,200)}{ \rTsuzuri\c&H003626BA&\fs30}♣{\r\fs\4a&HFF&} {\k22}ya{\k17}ri{\k17}no{\k21}ko{\k8}shi{\k16}ta {\k10}ko{\k17}dou {\k8}ga {\k18}ko{\k9}no {\k16}yo {\k18}wo {\k29}o{\k25}ot{\k20}te
+Dialogue: 0,0:00:02.73,0:00:06.51,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{ \rSayaka\c&H00C38353&\fs30}♠{\r\fs\4a&HFF&} {\k17}bo{\k19}ku{\k17}ra {\k18}wo {\k9}tsu{\k18}tsun{\k7}de {\k18}ko{\k11}na{\k16}go{\k10}na {\k17}ni {\k18}na{\k24}ru {\k18}ma{\k10}e {\k21}ni
+Dialogue: 0,0:00:05.54,0:00:08.46,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{ \rKosuzu\c&H0064D7FA&\fs30}♦{\r\fs\4a&HFF&} {\k16}ta{\k20}yo{\k16}ri{\k19}na{\k8}ku{\k18}te{\k8}mo {\k18}ii {\k9}so{\k18}no {\k9}te {\k23}wo
+Dialogue: 0,0:00:07.46,0:00:11.00,Tsuzuri,,0,0,0,fx,{\k90\fad(300,200)}{ \rTsuzuri\c&H003626BA&\fs30}♣{\r\fs\4a&HFF&} {\k20}ko{\k8}no {\k15}te {\k10}wa {\k19}ji{\k24}bun {\k9}ji{\k19}shin {\k19}no {\k34}mo{\k14}no {\k53}sa
+Dialogue: 0,0:00:10.28,0:00:14.15,DOLLCHESTRA,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ka{\k9}wa{\k17}ra{\k9}na{\k25}i {\k9}ha{\k10}zu {\k9}wa {\k17}nai {\k35}yo {\k19}te {\k18}wo {\k16}no{\k31}bash'{\k35}te
+Dialogue: 0,0:00:18.67,0:00:23.92,Tsuzuri,,0,0,0,fx,{\k90\fad(300,200)}{ \rTsuzuri\c&H003626BA&\fs30}♣{\r\fs\4a&HFF&} {\k31}zat{\k28}tou {\k15}no {\k17}na{\k18}ka {\k66}de {\k17}ko{\k20}e {\k19}na{\k9}ki {\k22}ko{\k20}e {\k19}de {\k19}na{\k26}i{\k27}te{\k17}i{\k25}ru
+Dialogue: 0,0:00:22.92,0:00:28.02,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{ \rSayaka\c&H00C38353&\fs30}♠{\r\fs\4a&HFF&} {\k19}a{\k11}shi{\k22}a{\k17}to {\k18}ga {\k18}i{\k70}ma {\k18}da{\k17}re{\k27}ka {\k24}no {\k17}ko{\k20}e {\k15}wo {\k21}ke{\k7}shi{\k25}ta {\k17}a{\k17}sa
+Dialogue: 0,0:00:27.11,0:00:31.89,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{ \rKosuzu\c&H0064D7FA&\fs30}♦{\r\fs\4a&HFF&} {\k27}i{\k10}tsu {\k17}ni {\k17}na{\k18}t{\k18}te{\k69}mo {\k20}ka{\k16}re{\k34}ru {\k18}ko{\k35}to {\k19}no {\k50}nai
+Dialogue: 0,0:00:31.16,0:00:36.86,Tsuzuri,,0,0,0,fx,{\k90\fad(300,200)}{ \rTsuzuri\c&H003626BA&\fs30}♣{\r\fs\4a&HFF&} {\k16}fu{\k33}hai {\k21}shi{\k19}ta {\k15}ma{\k19}chi {\k71}no {\k16}do{\k19}ro{\k32}mi{\k18}zu {\k34}ga {\k21}tsu{\k70}me{\k56}tai
+Dialogue: 0,0:00:35.89,0:00:38.41,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{ \rSayaka\c&H00C38353&\fs30}♠{\r\fs\4a&HFF&} {\k19}nan{\k9}ni{\k17}mo {\k9}ka{\k17}wa{\k10}ra{\k15}nai {\k10}se{\k17}kai {\k19}de
+Dialogue: 0,0:00:38.68,0:00:41.25,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{ \rKosuzu\c&H0064D7FA&\fs30}♦{\r\fs\4a&HFF&} {\k16}kyo{\k12}u {\k19}dat{\k14}te {\k10}i{\k10}ki{\k10}te {\k15}yu{\k20}kun {\k21}da
+Dialogue: 0,0:00:41.13,0:00:44.38,Tsuzuri,,0,0,0,fx,{\k90\fad(300,200)}{ \rTsuzuri\c&H003626BA&\fs30}♣{\r\fs\4a&HFF&} {\k21}ku{\k17}da{\k18}ra{\k12}na{\k14}i {\k9}ke{\k31}do {\k20}shi{\k18}ka{\k11}ta{\k17}nai {\k7}de{\k20}sho
+Dialogue: 0,0:00:43.44,0:00:47.45,DOLLCHESTRA,,0,0,0,fx,{\k90\fad(300,200)}{\k16}bo{\k16}ku{\k12}ra {\k17}wa {\k9}mo{\k34}u {\k19}a{\k17}ru{\k11}ki {\k16}ha{\k9}ji{\k34}me{\k18}ta{\k18}n {\k45}da
+Dialogue: 0,0:00:46.60,0:00:50.30,DOLLCHESTRA,,0,0,0,fx,{\k90\fad(300,200)}{\k14}u{\k24}so {\k6}mi{\k23}ta{\k20}i {\k54}na {\k16}ba{\k19}ka {\k9}mi{\k24}ta{\k19}i {\k32}na
+Dialogue: 0,0:00:49.41,0:00:53.12,DOLLCHESTRA,,0,0,0,fx,{\k90\fad(300,200)}{\k31}dou {\k21}shi{\k35}you {\k36}mo {\k35}nai {\k28}bo{\k7}ku{\k17}ra {\k17}no {\k17}ma{\k17}chi
+Dialogue: 0,0:00:52.19,0:00:54.06,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{ \rKosuzu\c&H0064D7FA&\fs30}♦{\r\fs\4a&HFF&} {\k19}so{\k18}re {\k18}de{\k22}mo
+Dialogue: 0,0:00:53.09,0:00:55.46,Tsuzuri,,0,0,0,fx,{\k90\fad(300,200)}{ \rTsuzuri\c&H003626BA&\fs30}♣{\r\fs\4a&HFF&} {\k9}ko{\k9}no {\k8}me {\k9}de {\k10}ta{\k7}shi{\k8}ka {\k11}ni {\k9}mi{\k7}e{\k19}tan {\k21}da
+Dialogue: 0,0:00:54.49,0:00:56.84,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{ \rSayaka\c&H00C38353&\fs30}♠{\r\fs\4a&HFF&} {\k9}ko{\k9}no {\k9}te {\k9}de {\k10}ta{\k7}shi{\k9}ka {\k8}ni {\k7}fu{\k11}re{\k18}tan {\k19}da
+Dialogue: 0,0:00:55.90,0:00:58.50,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{ \rKosuzu\c&H0064D7FA&\fs30}♦{\r\fs\4a&HFF&} {\k34}nee {\k20}ho{\k50}ra {\k19}ho{\k27}ra
+Dialogue: 0,0:00:57.63,0:01:01.52,DOLLCHESTRA,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ho{\k20}ra {\k9}ma{\k16}ta {\k27}fu{\k18}i{\k53}ta {\k18}ba{\k9}ka {\k16}mi{\k23}ta{\k22}i {\k31}da
+Dialogue: 0,0:01:00.63,0:01:04.38,DOLLCHESTRA,,0,0,0,fx,{\k90\fad(300,200)}{\k31}dou {\k22}shi{\k34}you {\k36}mo {\k21}na{\k12}i {\k29}ya{\k9}mi {\k17}wo {\k17}te{\k15}ra{\k22}se
+Dialogue: 0,0:01:03.43,0:01:05.33,Tsuzuri,,0,0,0,fx,{\k90\fad(300,200)}{ \rTsuzuri\c&H003626BA&\fs30}♣{\r\fs\4a&HFF&} {\k19}yu{\k16}me {\k20}ja{\k25}nai
+Dialogue: 0,0:01:04.31,0:01:06.63,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{ \rSayaka\c&H00C38353&\fs30}♠{\r\fs\4a&HFF&} {\k15}dou{\k11}se {\k11}o{\k16}wat{\k9}te{\k9}ru {\k10}ma{\k7}chi {\k19}dat{\k15}te
+Dialogue: 0,0:01:05.73,0:01:08.13,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{ \rKosuzu\c&H0064D7FA&\fs30}♦{\r\fs\4a&HFF&} {\k9}a{\k9}ki{\k8}ra{\k8}me{\k17}tat{\k9}te {\k10}ka{\k17}wan{\k17}nai {\k26}ze
+Dialogue: 0,0:01:07.10,0:01:10.45,Tsuzuri,,0,0,0,fx,{\k90\fad(300,200)}{ \rTsuzuri\c&H003626BA&\fs30}♣{\r\fs\4a&HFF&} {\k38}aa {\k17}ma{\k53}da {\k17}ma{\k53}da {\k18}ma{\k29}da
+Dialogue: 0,0:01:09.38,0:01:13.15,DOLLCHESTRA,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ya{\k17}ri{\k16}no{\k20}ko{\k8}shi{\k18}ta {\k8}ko{\k18}dou {\k8}ga {\k18}ko{\k10}no {\k17}yo {\k16}wo {\k28}o{\k26}ot{\k18}te
+Dialogue: 0,0:01:12.21,0:01:15.96,DOLLCHESTRA,,0,0,0,fx,{\k90\fad(300,200)}{\k17}bo{\k18}ku{\k17}ra {\k19}wo {\k6}tsu{\k20}tsun{\k9}de {\k17}ko{\k10}na{\k15}go{\k11}na {\k17}ni {\k18}na{\k26}ru {\k13}ma{\k14}e {\k18}ni
+Dialogue: 0,0:01:15.02,0:01:17.91,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{ \rKosuzu\c&H0064D7FA&\fs30}♦{\r\fs\4a&HFF&} {\k17}ta{\k19}yo{\k17}ri{\k17}na{\k9}ku{\k18}te{\k7}mo {\k17}ii {\k10}so{\k17}no {\k10}te {\k21}wo
+Dialogue: 0,0:01:16.95,0:01:20.48,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{ \rSayaka\c&H00C38353&\fs30}♠{\r\fs\4a&HFF&} {\k18}ko{\k9}no {\k13}te {\k11}wa {\k19}ji{\k23}bun {\k10}ji{\k20}shin {\k16}no {\k37}mo{\k14}no {\k53}sa
+Dialogue: 0,0:01:19.74,0:01:23.60,Tsuzuri,,0,0,0,fx,{\k90\fad(300,200)}{ \rTsuzuri\c&H003626BA&\fs30}♣{\r\fs\4a&HFF&} {\k21}ka{\k7}wa{\k17}ra{\k10}na{\k24}i {\k9}ha{\k10}zu {\k9}wa {\k17}nai {\k35}yo {\k19}te {\k17}wo {\k17}no{\k35}bash'{\k29}te

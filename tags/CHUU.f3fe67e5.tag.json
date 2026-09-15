@@ -1,0 +1,24 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "김지우",
+      "Kim",
+      "Jiwoo",
+      "Ji-woo"
+    ],
+    "i18n": {
+      "eng": "Chuu",
+      "kor": "츄"
+    },
+    "name": "Chuu",
+    "repository": "kara.moe",
+    "tid": "f3fe67e5-de91-458a-82b6-a429ef48b093",
+    "types": [
+      2
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "LOOΠΔ",
+      "Girl of the Month",
+      "こんげつのしょうじょ",
+      "Kongetsu no Shoujo",
+      "Shôjo"
+    ],
+    "i18n": {
+      "eng": "LOONA",
+      "jpn": "今月の少女",
+      "kor": "이달의 소녀",
+      "qro": "Idarui Sonyeo"
+    },
+    "name": "Idarui Sonyeo",
+    "repository": "kara.moe",
+    "tid": "31f06387-d3fc-47ee-88a5-d614348b11f9",
+    "types": [
+      17
+    ]
+  }
+}

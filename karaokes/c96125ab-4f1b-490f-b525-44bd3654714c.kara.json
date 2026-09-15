@@ -1,0 +1,79 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 199,
+      "filename": "c96125ab-4f1b-490f-b525-44bd3654714c.mkv",
+      "filesize": 31843574,
+      "loudnorm": "-6.12,2.32,3.40,-16.21,-0.81",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "c96125ab-4f1b-490f-b525-44bd3654714c.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-14T22:33:26.528Z",
+    "ignoreHooks": false,
+    "kid": "c96125ab-4f1b-490f-b525-44bd3654714c",
+    "modified_at": "2026-09-14T22:42:28.795Z",
+    "parents": [
+      "24c3943f-b915-41ed-8700-cc7d5d07494e"
+    ],
+    "repository": "kara.moe",
+    "songname": "JPN - Kanojo mo Kanojo Season 2 - MV - Dramatic ni Koi Shitai ~ Full Vers",
+    "tags": {
+      "authors": [
+        "bcfe9bad-565a-4317-9cb1-7a5f53d665d2"
+      ],
+      "collections": [
+        "dbcf2c22-524d-4708-99bb-601703633927"
+      ],
+      "families": [
+        "5391f9fe-638c-415f-8dc9-958e3a2c5787"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "series": [
+        "b0bf7d57-f38d-4a1d-9ba0-be19faed7bb4"
+      ],
+      "singers": [
+        "3a4ece90-b16e-4236-86be-37c8cc940242"
+      ],
+      "songtypes": [
+        "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
+      ],
+      "songwriters": [
+        "3a4ece90-b16e-4236-86be-37c8cc940242",
+        "b3ada1f2-ca72-49c8-8a31-06df2a512285"
+      ],
+      "versions": [
+        "c2143a7f-6970-450e-8a79-0302db9220a9"
+      ],
+      "franchises": [
+        "0db2a8d3-a471-4107-9826-b6c4f27b95fc"
+      ]
+    },
+    "titles": {
+      "jpn": "ドラマチックに恋したい",
+      "qro": "Dramatic ni Koi Shitai"
+    },
+    "titles_aliases": [
+      "romantic"
+    ],
+    "titles_default_language": "qro",
+    "year": 2023
+  }
+}

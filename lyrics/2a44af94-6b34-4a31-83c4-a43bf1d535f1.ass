@@ -1,0 +1,72 @@
+﻿[Script Info]
+Title: Aozora Jumping Heart
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 0
+PlayResY: 0
+Original Timing: Thaksin
+Script Updated By: Azurys
+LayoutResX: 0
+LayoutResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H00FFB652,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Rurino,Arial,24,&H00FFFFFF,&H009E60E7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Mira-cra Park,Arial,24,&H00FFFFFF,&H0019D0FC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hime,Arial,24,&H00FFFFFF,&H00E28D9D,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:01.20,0:00:01.20,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H19D0FC&}Mira-cra Park{\c} | {\c&H9E60E7&}Rurino{\c} | {\c&HE28D9D&}Hime
+Comment: 0,0:00:02.37,0:00:10.42,Mira-cra Park,,0,0,0,karaoke,{\k44}mi{\k45}ta {\k31}ko{\k61}to {\k30}na{\k19}i {\k40}yu{\k30}me {\k30}no {\k30}ki{\kf116}dou{\kf32} {\k17}o{\k14}i{\k31}ka{\k15}ke{\kf220}te
+Comment: 0,0:00:17.87,0:00:18.80,Rurino,,0,0,0,karaoke,{\k39}SHI{\k27}NING {\k27}ROAD
+Comment: 0,0:00:18.81,0:00:22.10,Rurino,,0,0,0,karaoke,{\k16}ha{\k52}shi{\k27}ri{\k23}da{\k36}su {\k33}ko{\k26}no {\k30}ki{\k14}mo{\k72}chi
+Comment: 0,0:00:22.43,0:00:27.14,Rurino,,0,0,0,karaoke,{\k33}mas{\k29}su{\k17}gu {\k42}ni {\k17}i{\k16}ki{\k27}oi {\k18}yo{\k42}ku {\k17}ki{\k15}mi {\k25}wo {\k22}sa{\k38}ga{\k37}shi{\k38}te{\k16}ta {\k22}yo
+Comment: 0,0:00:27.53,0:00:31.48,Hime,,0,0,0,karaoke,{\k33}chot{\k29}to {\k33}mat{\k14}te {\k42}nan{\k31}te {\k30}mu{\k24}ri {\k37}to{\k15}bi{\k24}da{\k32}so{\k51}u
+Comment: 0,0:00:31.60,0:00:35.71,Hime,,0,0,0,karaoke,{\k17}bo{\k15}ku{\k12}ta{\k16}chi {\k15}no {\k27}na{\k18}ka {\k72}no {\k36}yuu{\k16}ki {\k33}ga {\k36}sa{\k33}wai{\k15}de{\k50}ru
+Comment: 0,0:00:36.26,0:00:41.49,Rurino,,0,0,0,karaoke,{\k25}i{\k29}tsu{\k36}mo {\k27}no {\k19}se{\k44}ka{\k16}i {\k68}ga {\k33}a{\k28}ta{\k32}ra{\k21}shi{\k39}i {\k31}to{\k42}bi{\k18}ra {\k15}wo
+Comment: 0,0:00:41.68,0:00:42.57,Sample KM [Choir],,0,0,0,karaoke,{\k29}mot{\k60}to
+Comment: 0,0:00:42.27,0:00:43.70,Hime,,0,0,0,karaoke,{\k21}ka{\k32}ku{\k21}shi{\k28}te{\k26}ru {\k15}no
+Comment: 0,0:00:44.07,0:00:44.96,Sample KM [Choir],,0,0,0,karaoke,{\k30}LET'S {\k59}GO
+Comment: 0,0:00:44.62,0:00:50.71,Rurino,,0,0,0,karaoke,{\k35}ze{\k29}n{\k14}bu {\k33}a{\k28}ke{\k46}ta{\k31}i {\kf119}yo{\k49} {\rMira-cra Park}{\k29}ho{\k38}ra {\k43}is{\k44}sho {\k29}ni {\k42}ne
+Comment: 0,0:00:50.92,0:00:55.32,Mira-cra Park,,0,0,0,karaoke,{\k31}ha{\k36}ji{\k58}me{\k59}tai {\k60}MY {\k61}STO{\kf135}RY
+Comment: 0,0:00:54.56,0:00:58.38,Sample KM [Choir],,0,0,0,karaoke,{\k68}saa {\k47}i{\k71}ma {\k196}da
+Comment: 0,0:00:55.75,0:01:00.30,Mira-cra Park,,0,0,0,karaoke,{\k27}a{\k30}o{\k57}i {\k57}so{\k66}ra {\k55}ga {\k101}mat{\k13}te{\k49}ru
+Comment: 0,0:01:00.40,0:01:03.14,Rurino,,0,0,0,karaoke,{\k16}yu{\k18}me {\k14}wo {\k10}da{\k14}ki{\k46}shi{\k17}me{\k42}te {\k35}JUM{\k29}PING {\k33}HEART
+Comment: 0,0:01:03.51,0:01:05.07,Hime,,0,0,0,karaoke,{\k31}so{\k21}re {\k28}da{\k29}ke {\k47}de
+Comment: 0,0:01:05.34,0:01:09.74,Hime,,0,0,0,karaoke,{\k28}a{\k35}shi{\k28}ta {\k16}he {\k40}to {\k28}su{\k36}su{\k18}me{\k38}ru {\k29}sei{\k53}shun {\k26}mas{\k18}shi{\k14}gu{\k33}ra
+Comment: 0,0:01:10.11,0:01:14.46,Mira-cra Park,,0,0,0,karaoke,{\k33}ha{\k32}ji{\k61}mat{\k57}ta {\k58}to{\k64}ki {\kf130}no
+Comment: 0,0:01:13.69,0:01:17.40,Sample KM [Choir],,0,0,0,karaoke,{\k65}SUN{\k52}SHINE {\k71}STO{\kf183}RY
+Comment: 0,0:01:14.90,0:01:19.40,Mira-cra Park,,0,0,0,karaoke,{\k34}to{\k30}ki{\k59}me{\k64}ki {\k56}zut{\k55}to {\k66}dai{\k28}ji {\k16}ni {\k42}ne
+Comment: 0,0:01:19.61,0:01:22.57,Rurino,,0,0,0,karaoke,{\k12}yu{\k17}me {\k13}wo {\k17}tsu{\k17}ka{\k41}ma{\k17}e {\k47}ni {\k24}yu{\k30}ku {\k61}yo
+Comment: 0,0:01:22.74,0:01:24.27,Hime,,0,0,0,karaoke,{\k20}do{\k14}n{\k14}na {\k29}ko{\k29}to {\k47}ga
+Comment: 0,0:01:24.56,0:01:31.42,Hime,,0,0,0,karaoke,{\k30}o{\k34}ko{\k27}ru {\k16}no {\k30}ka {\k28}wa{\k45}ka{\k32}ra{\k27}nai {\k26}no {\kf117}mo{\k41} {\rMira-cra Park}{\k12}ta{\k11}no{\k28}shi{\k19}mi {\kf163}sa
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H19D0FC&}Mira-cra Park{\c} | {\c&H9E60E7&}Rurino{\c} | {\c&HE28D9D&}Hime
+Dialogue: 0,0:00:01.47,0:00:10.62,Mira-cra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k44}mi{\k45}ta {\k31}ko{\k61}to {\k30}na{\k19}i {\k40}yu{\k30}me {\k30}no {\k30}ki{\kf116}dou{\kf32} {\k17}o{\k14}i{\k31}ka{\k15}ke{\kf220}te
+Dialogue: 0,0:00:16.97,0:00:19.00,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k39}SHI{\k27}NING {\k27}ROAD
+Dialogue: 0,0:00:17.91,0:00:22.30,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ha{\k52}shi{\k27}ri{\k23}da{\k36}su {\k33}ko{\k26}no {\k30}ki{\k14}mo{\k72}chi
+Dialogue: 0,0:00:21.53,0:00:27.34,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k33}mas{\k29}su{\k17}gu {\k42}ni {\k17}i{\k16}ki{\k27}oi {\k18}yo{\k42}ku {\k17}ki{\k15}mi {\k25}wo {\k22}sa{\k38}ga{\k37}shi{\k38}te{\k16}ta {\k22}yo
+Dialogue: 0,0:00:26.63,0:00:31.68,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k33}chot{\k29}to {\k33}mat{\k14}te {\k42}nan{\k31}te {\k30}mu{\k24}ri {\k37}to{\k15}bi{\k24}da{\k32}so{\k51}u
+Dialogue: 0,0:00:30.70,0:00:35.91,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k17}bo{\k15}ku{\k12}ta{\k16}chi {\k15}no {\k27}na{\k18}ka {\k72}no {\k36}yuu{\k16}ki {\k33}ga {\k36}sa{\k33}wai{\k15}de{\k50}ru
+Dialogue: 0,0:00:35.36,0:00:41.69,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k25}i{\k29}tsu{\k36}mo {\k27}no {\k19}se{\k44}ka{\k16}i {\k68}ga {\k33}a{\k28}ta{\k32}ra{\k21}shi{\k39}i {\k31}to{\k42}bi{\k18}ra {\k15}wo
+Dialogue: 0,0:00:40.78,0:00:42.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}mot{\k60}to
+Dialogue: 0,0:00:41.37,0:00:43.90,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ka{\k32}ku{\k21}shi{\k28}te{\k26}ru {\k15}no
+Dialogue: 0,0:00:43.17,0:00:45.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}LET'S {\k59}GO
+Dialogue: 0,0:00:43.72,0:00:50.91,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ze{\k29}n{\k14}bu {\k33}a{\k28}ke{\k46}ta{\k31}i {\kf119}yo{\k49} {\rMira-cra Park}{\k29}ho{\k38}ra {\k43}is{\k44}sho {\k29}ni {\k42}ne
+Dialogue: 0,0:00:50.02,0:00:55.52,Mira-cra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ha{\k36}ji{\k58}me{\k59}tai {\k60}MY {\k61}STO{\kf135}RY
+Dialogue: 0,0:00:53.66,0:00:58.58,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k68}saa {\k47}i{\k71}ma {\k196}da
+Dialogue: 0,0:00:54.85,0:01:00.50,Mira-cra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k27}a{\k30}o{\k57}i {\k57}so{\k66}ra {\k55}ga {\k101}mat{\k13}te{\k49}ru
+Dialogue: 0,0:00:59.50,0:01:03.34,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k16}yu{\k18}me {\k14}wo {\k10}da{\k14}ki{\k46}shi{\k17}me{\k42}te {\k35}JUM{\k29}PING {\k33}HEART
+Dialogue: 0,0:01:02.61,0:01:05.27,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k31}so{\k21}re {\k28}da{\k29}ke {\k47}de
+Dialogue: 0,0:01:04.44,0:01:09.94,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k28}a{\k35}shi{\k28}ta {\k16}he {\k40}to {\k28}su{\k36}su{\k18}me{\k38}ru {\k29}sei{\k53}shun {\k26}mas{\k18}shi{\k14}gu{\k33}ra
+Dialogue: 0,0:01:09.21,0:01:14.66,Mira-cra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ha{\k32}ji{\k61}mat{\k57}ta {\k58}to{\k64}ki {\kf130}no
+Dialogue: 0,0:01:12.79,0:01:17.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k65}SUN{\k52}SHINE {\k71}STO{\kf183}RY
+Dialogue: 0,0:01:14.00,0:01:19.60,Mira-cra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k34}to{\k30}ki{\k59}me{\k64}ki {\k56}zut{\k55}to {\k66}dai{\k28}ji {\k16}ni {\k42}ne
+Dialogue: 0,0:01:18.71,0:01:22.77,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k12}yu{\k17}me {\k13}wo {\k17}tsu{\k17}ka{\k41}ma{\k17}e {\k47}ni {\k24}yu{\k30}ku {\k61}yo
+Dialogue: 0,0:01:21.84,0:01:24.47,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k20}do{\k14}n{\k14}na {\k29}ko{\k29}to {\k47}ga
+Dialogue: 0,0:01:23.66,0:01:31.62,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k30}o{\k34}ko{\k27}ru {\k16}no {\k30}ka {\k28}wa{\k45}ka{\k32}ra{\k27}nai {\k26}no {\kf117}mo{\k41} {\rMira-cra Park}{\k12}ta{\k11}no{\k28}shi{\k19}mi {\kf163}sa

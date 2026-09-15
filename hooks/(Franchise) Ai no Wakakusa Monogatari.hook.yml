@@ -1,0 +1,15 @@
+---
+header:
+  description: Karaoke Mugen Hook File
+  version: 1
+hook:
+  name: (Franchise) Ai no Wakakusa Monogatari
+  repository: kara.moe
+  conditions:
+    tagPresence:
+    - 091bae55-3f8e-443f-b6c9-fcabbb1cd5f4 # Ai no Wakakusa Monogatari
+    - 7e217909-3566-41d0-8639-1d8b901ab2bd # Wakakusa Monogatari: Nan to Jô Sensei
+  actions:
+    addTag:
+    - tid: 3dfdc9d1-16d0-4da8-8995-c287d9ededdf # Ai no Wakakusa Monogatari
+      type: 18

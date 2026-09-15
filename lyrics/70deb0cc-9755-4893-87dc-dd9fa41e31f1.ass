@@ -1,0 +1,45 @@
+﻿[Script Info]
+Title: Gekkô
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: DaBi, Mathxxl
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Izumi,Arial,24,&H00CDBF1F,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Izumi,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:15.00,0:00:18.16,Izumi,,0,0,0,karaoke,{\k38}I {\k39}AM {\k121}GOD'S {\kf118}CHILD
+Comment: 0,0:00:18.16,0:00:26.95,Izumi,,0,0,0,karaoke,{\k40}ko{\k38}no {\k43}fu{\k21}ha{\k56}i {\k19}shi{\k98}ta {\k40}se{\k39}ka{\k80}i {\k45}ni {\k74}o{\k18}to{\k43}sa{\k53}re{\kf172}ta~
+Comment: 0,0:00:27.41,0:00:30.78,Izumi,,0,0,0,karaoke,{\k19}HOW {\k21}DO {\k58}I {\k41}LIVE {\k40}ON {\k39}SUCH {\k23}A {\k96}FIELD
+Comment: 0,0:00:30.79,0:00:40.66,Izumi,,0,0,0,karaoke,{\k36}ko{\k39}n{\k63}na {\k38}mo{\k22}no {\k95}no {\k23}ta{\k40}me {\k41}ni {\k57}u{\k59}ma{\k19}re{\k63}ta{\k35}n {\k41}ja {\kf316}nai
+Comment: 0,0:00:53.68,0:00:59.12,Izumi,,0,0,0,karaoke,{\k37}TO{\k39}~{\k64}P {\k58}ni {\k21}u{\k41}mo{\k16}re{\k79}ru {\k38}a{\k39}shi{\k26}do{\k86}ri
+Comment: 0,0:00:59.60,0:01:05.16,Izumi,,0,0,0,karaoke,{\k25}ta{\k16}o{\k38}re{\k22}so{\k58}u {\k39}ni {\k62}na{\k56}ru {\k37}no {\kf203}wo~
+Comment: 0,0:01:05.89,0:01:12.05,Izumi,,0,0,0,karaoke,{\k25}ko{\k16}no {\k61}ku{\k41}sa{\k17}ri {\kf114}ga{\k45} {\k20}yu{\k19}ru{\k60}sa{\k58}na{\kf140}i
+Comment: 0,0:01:12.57,0:01:18.00,Izumi,,0,0,0,karaoke,{\k44}ko{\k39}ko{\k42}ro {\k27}wo {\k53}a{\k19}ke {\k36}wa{\k23}ta{\k81}shi{\k37}ta {\k39}ma{\k21}ma {\k82}de
+Comment: 0,0:01:18.34,0:01:24.15,Izumi,,0,0,0,karaoke,{\k22}a{\k18}na{\k20}ta {\k37}no {\k30}ka{\k48}n{\k23}ka{\k60}ku {\k20}da{\k38}ke {\k42}ga {\k19}chi{\k39}ra{\k41}ba{\k36}t{\k88}te
+Comment: 0,0:01:24.66,0:01:31.55,Izumi,,0,0,0,karaoke,{\k21}wa{\k21}ta{\k18}shi {\k38}wa {\k21}ma{\k36}da {\k23}jo{\k61}u{\k20}zu {\k59}ni {\k17}ka{\k23}ta{\k17}zu{\k41}ke{\k18}ra{\k41}re{\k18}zu {\kf196}ni
+Comment: 0,0:01:32.38,0:01:35.44,Izumi,,0,0,0,karaoke,{\k37}I {\k39}AM {\k113}GOD'S {\kf117}CHILD
+Comment: 0,0:01:35.52,0:01:44.33,Izumi,,0,0,0,karaoke,{\k42}ko{\k37}no {\k38}fu{\k30}ha{\k50}i {\k19}shi{\k99}ta {\k41}se{\k40}ka{\k75}i {\k43}ni {\k77}o{\k22}to{\k41}sa{\k56}re{\kf171}ta~
+Comment: 0,0:01:44.77,0:01:47.98,Izumi,,0,0,0,karaoke,{\k22}HOW {\k22}DO {\k56}I {\k45}LIVE {\k31}ON {\k43}SUCH {\k22}A {\k80}FIELD
+Comment: 0,0:01:48.11,0:01:58.12,Izumi,,0,0,0,karaoke,{\k44}ko{\k39}n{\k62}na {\k41}mo{\k21}no {\k92}no {\k20}ta{\k41}me {\k42}ni {\k57}u{\k59}ma{\k19}re{\k60}ta{\k40}n {\k41}ja {\k323}nai
+Dialogue: 0,0:00:14.10,0:00:18.36,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k38}I {\k39}AM {\k121}GOD'S {\kf118}CHILD
+Dialogue: 0,0:00:17.26,0:00:27.15,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k40}ko{\k38}no {\k43}fu{\k21}ha{\k56}i {\k19}shi{\k98}ta {\k40}se{\k39}ka{\k80}i {\k45}ni {\k74}o{\k18}to{\k43}sa{\k53}re{\kf172}ta~
+Dialogue: 0,0:00:26.51,0:00:30.98,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k19}HOW {\k21}DO {\k58}I {\k41}LIVE {\k40}ON {\k39}SUCH {\k23}A {\k96}FIELD
+Dialogue: 0,0:00:29.89,0:00:40.86,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ko{\k39}n{\k63}na {\k38}mo{\k22}no {\k95}no {\k23}ta{\k40}me {\k41}ni {\k57}u{\k59}ma{\k19}re{\k63}ta{\k35}n {\k41}ja {\kf316}nai
+Dialogue: 0,0:00:52.78,0:00:59.32,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k37}TO{\k39}~{\k64}P {\k58}ni {\k21}u{\k41}mo{\k16}re{\k79}ru {\k38}a{\k39}shi{\k26}do{\k86}ri
+Dialogue: 0,0:00:58.70,0:01:05.36,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ta{\k16}o{\k38}re{\k22}so{\k58}u {\k39}ni {\k62}na{\k56}ru {\k37}no {\kf203}wo~
+Dialogue: 0,0:01:04.99,0:01:12.25,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ko{\k16}no {\k61}ku{\k41}sa{\k17}ri {\kf114}ga{\k45} {\k20}yu{\k19}ru{\k60}sa{\k58}na{\kf140}i
+Dialogue: 0,0:01:11.67,0:01:18.20,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k44}ko{\k39}ko{\k42}ro {\k27}wo {\k53}a{\k19}ke {\k36}wa{\k23}ta{\k81}shi{\k37}ta {\k39}ma{\k21}ma {\k82}de
+Dialogue: 0,0:01:17.44,0:01:24.35,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k18}na{\k20}ta {\k37}no {\k30}ka{\k48}n{\k23}ka{\k60}ku {\k20}da{\k38}ke {\k42}ga {\k19}chi{\k39}ra{\k41}ba{\k36}t{\k88}te
+Dialogue: 0,0:01:23.76,0:01:31.75,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k21}wa{\k21}ta{\k18}shi {\k38}wa {\k21}ma{\k36}da {\k23}jo{\k61}u{\k20}zu {\k59}ni {\k17}ka{\k23}ta{\k17}zu{\k41}ke{\k18}ra{\k41}re{\k18}zu {\kf196}ni
+Dialogue: 0,0:01:31.48,0:01:35.64,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k37}I {\k39}AM {\k113}GOD'S {\kf117}CHILD
+Dialogue: 0,0:01:34.62,0:01:44.53,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k42}ko{\k37}no {\k38}fu{\k30}ha{\k50}i {\k19}shi{\k99}ta {\k41}se{\k40}ka{\k75}i {\k43}ni {\k77}o{\k22}to{\k41}sa{\k56}re{\kf171}ta~
+Dialogue: 0,0:01:43.87,0:01:48.18,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}HOW {\k22}DO {\k56}I {\k45}LIVE {\k31}ON {\k43}SUCH {\k22}A {\k80}FIELD
+Dialogue: 0,0:01:47.21,0:01:58.32,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k44}ko{\k39}n{\k62}na {\k41}mo{\k21}no {\k92}no {\k20}ta{\k41}me {\k42}ni {\k57}u{\k59}ma{\k19}re{\k60}ta{\k40}n {\k41}ja {\k323}nai

@@ -4,10 +4,13 @@
     "version": 1
   },
   "tag": {
+    "aliases": [
+      "Olof Mårten Lindskog"
+    ],
     "i18n": {
-      "eng": "OLLIPOP"
+      "eng": "Ollipop"
     },
-    "name": "OLLIPOP",
+    "name": "Ollipop",
     "repository": "kara.moe",
     "tid": "4454d1ba-2d8b-4636-9ea8-dccaeeaad040",
     "types": [

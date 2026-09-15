@@ -25,9 +25,12 @@
     "from_display_type": "singers",
     "ignoreHooks": false,
     "kid": "aab5e994-14db-4f6d-bb3f-7868702d26ca",
-    "modified_at": "2025-12-10T16:05:37.880Z",
+    "modified_at": "2026-09-14T16:34:48.395Z",
+    "parents": [
+      "efc80cc2-1009-4dae-8935-2cac2194cbdd"
+    ],
     "repository": "kara.moe",
-    "songname": "JPN - Gekijôban Kimetsu no Yaiba: Mugen-jô Hen - MV - Zankoku na Yoru ni Kagayake",
+    "songname": "JPN - LiSA - MV - Zankoku na Yoru ni Kagayake",
     "tags": {
       "authors": [
         "df9cb48f-334e-4ceb-b26e-e254ad323492"

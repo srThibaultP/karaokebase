@@ -1,0 +1,73 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 90,
+      "filename": "a6bc414a-16d0-4c96-b08f-623eda9f45d1.mp4",
+      "filesize": 46468818,
+      "loudnorm": "-23.24,-10.03,1.40,-33.28,-0.19",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "a6bc414a-16d0-4c96-b08f-623eda9f45d1.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-14T22:44:05.720Z",
+    "ignoreHooks": false,
+    "kid": "a6bc414a-16d0-4c96-b08f-623eda9f45d1",
+    "modified_at": "2026-09-14T22:50:31.106Z",
+    "repository": "kara.moe",
+    "songname": "JPN - Dance Dance Danseur - ED - Kaze, Hana",
+    "tags": {
+      "authors": [
+        "97997fce-1dfe-47f6-84eb-f9fcb5c54b57"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "creators": [
+        "0a86e9ea-5e17-4371-8f2a-60c818324d58"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "938de218-5343-4865-94d3-fb33f2eaa152"
+      ],
+      "series": [
+        "0a66d31f-f699-45e1-ad2e-686158ea5e6f"
+      ],
+      "singers": [
+        "1192713c-7721-4090-8105-534bf1a69776"
+      ],
+      "songtypes": [
+        "38c77c56-2b95-4040-b676-0994a8cb0597"
+      ],
+      "songwriters": [
+        "3d9cfa91-782e-450f-99d1-911f51560af7",
+        "aa4108b3-914c-4ad6-8c72-2d13457e3ed3"
+      ]
+    },
+    "titles": {
+      "jpn": "風、花",
+      "qro": "Kaze, Hana"
+    },
+    "titles_default_language": "qro",
+    "year": 2022
+  }
+}

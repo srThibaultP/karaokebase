@@ -4,6 +4,9 @@
     "version": 1
   },
   "tag": {
+    "aliases": [
+      "Raico"
+    ],
     "i18n": {
       "eng": "Raiko"
     },

@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Avilon"
+    },
+    "name": "Avilon",
+    "repository": "kara.moe",
+    "tid": "b5bacd0e-2c4a-4899-a7aa-91c72bc0f726",
+    "types": [
+      8
+    ]
+  }
+}

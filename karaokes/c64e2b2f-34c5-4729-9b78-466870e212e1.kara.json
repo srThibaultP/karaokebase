@@ -24,12 +24,12 @@
     "created_at": "2025-02-04T15:46:06.770Z",
     "ignoreHooks": false,
     "kid": "c64e2b2f-34c5-4729-9b78-466870e212e1",
-    "modified_at": "2025-02-07T19:02:08.812Z",
+    "modified_at": "2026-09-14T17:30:33.764Z",
     "parents": [
       "28aeef3f-0f35-4c61-aa93-9feb7528d314"
     ],
     "repository": "kara.moe",
-    "songname": "GER - Wakakusa Monogatari: Nan to Jou Sensei - OP - Missis Jo und ihre fröhliche Familie",
+    "songname": "GER - Wakakusa Monogatari: Nan to Jô Sensei - OP - Missis Jo und ihre fröhliche Familie",
     "tags": {
       "authors": [
         "6ff07670-8a91-4988-bcf3-e844b802928c"
@@ -57,6 +57,9 @@
       ],
       "songtypes": [
         "f02ad9b3-0bd9-4aad-85b3-9976739ba0e4"
+      ],
+      "franchises": [
+        "3dfdc9d1-16d0-4da8-8995-c287d9ededdf"
       ]
     },
     "titles": {

@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Guchico"
+    },
+    "name": "Guchico",
+    "repository": "kara.moe",
+    "tid": "f9300ecb-e3b0-4931-857d-322f4f046f40",
+    "types": [
+      4
+    ]
+  }
+}

@@ -21,10 +21,11 @@
     }
   ],
   "data": {
+    "comment": "Okayu is a member of hololive production",
     "created_at": "2024-04-06T23:22:23.323Z",
     "ignoreHooks": false,
     "kid": "4df9aa75-e52c-41a1-9857-74c4bb351297",
-    "modified_at": "2024-07-14T10:08:51.868Z",
+    "modified_at": "2026-09-15T00:51:23.781Z",
     "parents": [
       "abb11cf4-80be-4d82-9df5-b9f057921158"
     ],
@@ -62,6 +63,9 @@
       ],
       "versions": [
         "03e1e1d2-8641-47b7-bbcb-39a3df9ff21c"
+      ],
+      "franchises": [
+        "0263d413-17bb-4cee-a311-6dd896eda1c9"
       ]
     },
     "titles": {

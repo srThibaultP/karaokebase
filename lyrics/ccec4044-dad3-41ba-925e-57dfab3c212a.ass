@@ -1,0 +1,155 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: Welcome to the Show
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H002BE02D,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Adagio Dazzle,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: The Dazzlings,Arial,24,&H00FFFFFF,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rainbooms,Arial,24,&H00FFFFFF,&H00FDC50E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Twilight,Arial,24,&H00FFFFFF,&H00FF87B8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Adagio Symbol,Arial,24,&H00008AFF,&H00008AFF,&H00000000,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Dazzlings Symbol,Arial,24,&H0041B5E6,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sunset Symbol,Arial,30,&H006060D1,&H006060D1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sunset Shimmer,Arial,24,&H00FFFFFF,&H006060D1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Twilight Symbol,Arial,30,&H00FF87B8,&H00FF87B8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H00D175FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rainbooms Symbol,Arial,30,&H00FDC50E,&H00FDC50E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Up],,0,0,0,legend,{\k1000\k0}{\alignment(2)}{\k1000\k0}{\alignment(2)}{\rDazzlings Symbol}♫ {\rThe Dazzlings}The Dazzlings {\rAdagio Symbol}♪ {\rAdagio Dazzle}Adagio Dazzle\N{\rSample KM [Up]}Protagonists {\rDuo} Duo {\rSunset Symbol}♥{\rSunset Shimmer} Sunset Shimmer \N{\rRainbooms Symbol}♣ {\rRainbooms}The Rainbooms {\rTwilight Symbol}♦{\rTwilight} Twilight Sparkle
+Comment: 0,0:00:38.47,0:00:41.79,Adagio Dazzle,,0,0,0,karaoke,{\k0\rAdagio Symbol}♪{\r} {\k35}Wel{\k31}come {\k35}to {\k20}the {\kf211}show
+Comment: 0,0:00:42.98,0:00:46.60,Adagio Dazzle,,0,0,0,karaoke,{\k0\rAdagio Symbol}♪{\r} {\k30}We're {\k33}here {\k19}to {\k33}let {\k37}you {\kf210}know
+Comment: 0,0:00:48.05,0:00:51.76,Adagio Dazzle,,0,0,0,karaoke,{\k0\rAdagio Symbol}♪{\r} {\k60}Our {\k37}time {\k33}is {\kf241}now
+Comment: 0,0:00:52.56,0:00:55.73,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k26}Your {\k37}time {\k32}is {\k32}run{\k30}ning {\kf160}out
+Comment: 0,0:01:16.75,0:01:18.87,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k39}Feel {\k29}the {\k32}wave {\k25}of {\k87}sound
+Comment: 0,0:01:19.34,0:01:21.26,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k33}As {\k17}it {\k38}cra{\k37}shes {\k67}down
+Comment: 0,0:01:21.88,0:01:23.70,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k29}You {\k32}can't {\k38}turn {\k30}a{\k53}way
+Comment: 0,0:01:24.13,0:01:26.89,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k33}We'll {\k23}make {\k40}you {\k30}wan{\k24}na {\k73}sta-{\k53}ay
+Comment: 0,0:01:27.00,0:01:29.70,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k67}We {\k62}will {\k28}be {\k35}a{\k78}dored
+Comment: 0,0:01:30.12,0:01:32.05,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k40}Tell {\k29}us {\k29}that {\k36}you {\k29}want {\k30}us
+Comment: 0,0:01:32.13,0:01:34.60,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k62}We {\k65}won't {\k29}be {\k34}ig{\k57}nored
+Comment: 0,0:01:35.00,0:01:37.02,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k31}It's {\k32}time {\k29}for {\k35}our {\k30}re{\k45}ward
+Comment: 0,0:01:37.23,0:01:39.42,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k65}Now {\k62}you {\k30}need {\k62}us
+Comment: 0,0:01:39.77,0:01:41.98,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k65}Come {\k61}and {\k35}heed {\k60}us
+Comment: 0,0:01:42.31,0:01:47.15,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k31}No{\k34}thing {\k55}can {\k70}stop {\k65}us {\kf229}now
+Comment: 0,0:01:47.70,0:01:49.84,Rainbooms,,0,0,0,karaoke,{\k0\rRainbooms Symbol}♣{\r} {\k62}Oh-{\k60}oh, {\k32}oh-{\k30}whoa-{\k30}oh
+Comment: 0,0:01:50.14,0:01:52.36,Rainbooms,,0,0,0,karaoke,{\k0\rRainbooms Symbol}♣{\r} {\k29}I've {\k34}got {\k27}the {\k24}mu{\k19}sic {\k45}in {\k44}me
+Comment: 0,0:01:52.53,0:01:54.81,Rainbooms,,0,0,0,karaoke,{\k0\rRainbooms Symbol}♣{\r} {\k62}Oh-{\k65}oh, {\k23}oh-{\k37}whoa-{\k41}oh
+Comment: 0,0:01:57.33,0:01:59.23,Twilight,,0,0,0,karaoke,{\k0\rTwilight Symbol}♦{\r} {\k29}Don't {\k32}need {\k18}to {\k28}hear {\k30}a {\k53}crowd
+Comment: 0,0:01:59.40,0:02:01.07,Twilight,,0,0,0,karaoke,{\k0\rTwilight Symbol}♦{\r} {\k30}Chee{\k25}ring {\k29}out {\k31}my {\k52}name
+Comment: 0,0:02:02.15,0:02:04.18,Twilight,,0,0,0,karaoke,{\k0\rTwilight Symbol}♦{\r} {\k27}I {\k22}di{\k26}dn't {\k31}come {\k29}here {\k33}see{\k35}king
+Comment: 0,0:02:04.24,0:02:06.03,Twilight,,0,0,0,karaoke,{\k0\rTwilight Symbol}♦{\r} {\k29}In{\k20}fa{\k25}my {\k30}or {\k75}fame
+Comment: 0,0:02:06.94,0:02:08.84,Rainbooms,,0,0,0,karaoke,{\k0\rRainbooms Symbol}♣{\r} {\k27}The {\k23}one {\k28}and {\k27}on{\k29}ly {\k56}thing
+Comment: 0,0:02:09.34,0:02:11.12,Rainbooms,,0,0,0,karaoke,{\k0\rRainbooms Symbol}♣{\r} {\k30}That {\k29}I {\k22}am {\k21}here {\k32}to {\k44}bring
+Comment: 0,0:02:11.13,0:02:13.18,Rainbooms,,0,0,0,karaoke,{\k0\rRainbooms Symbol}♣{\r} {\k22}Is {\k25}mu{\k42}sic, {\k31}is {\k14}the {\k34}mu{\k37}sic
+Comment: 0,0:02:13.37,0:02:15.50,Rainbooms,,0,0,0,karaoke,{\k0\rRainbooms Symbol}♣{\r} {\k19}Is {\k14}the {\k30}mu{\k28}sic {\k28}in {\k32}my {\k62}soul
+Comment: 0,0:02:15.61,0:02:16.69,Rainbooms,,0,0,0,karaoke,{\k0\rRainbooms Symbol}♣{\r} {\k21}Gon{\k14}na {\k27}break {\k46}out
+Comment: 0,0:02:17.38,0:02:20.19,Rainbooms,,0,0,0,karaoke,{\k0\rRainbooms Symbol}♣{\r} {\k32}Set {\k30}my{\k37}self {\kf115}free, {\k67}yeah
+Comment: 0,0:02:20.43,0:02:21.57,Rainbooms,,0,0,0,karaoke,{\k0\rRainbooms Symbol}♣{\r} {\k23}Let {\k9}it {\k30}all {\k52}go
+Comment: 0,0:02:22.22,0:02:25.05,Rainbooms,,0,0,0,karaoke,{\k0\rRainbooms Symbol}♣{\r} {\k32}Just {\k27}let {\k32}it {\kf118}be, {\k74}yeah
+Comment: 0,0:02:25.20,0:02:27.47,Rainbooms,,0,0,0,karaoke,{\k0\rRainbooms Symbol}♣{\r} {\k49}Find {\k14}the {\k27}mu{\k32}sic {\k31}in {\k30}your {\k44}heart
+Comment: 0,0:02:27.62,0:02:29.89,Rainbooms,,0,0,0,karaoke,{\k0\rRainbooms Symbol}♣{\r} {\k50}Let {\k12}the {\k29}mu{\k27}sic {\k33}make {\k31}you {\k45}start
+Comment: 0,0:02:30.03,0:02:35.07,Rainbooms,,0,0,0,karaoke,{\k0\rRainbooms Symbol}♣{\r} {\k31}To {\k87}set {\k32}your{\k91}self {\k30}a{\kf233}part
+Comment: 0,0:02:40.48,0:02:42.35,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k31}What {\k30}we {\k32}have {\k26}in {\k68}store
+Comment: 0,0:02:43.00,0:02:44.89,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k36}All {\k30}we {\k30}want {\k31}and {\k62}more
+Comment: 0,0:02:45.53,0:02:47.41,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k32}We {\k32}will {\k30}break {\k34}on {\k60}through
+Comment: 0,0:02:48.06,0:02:50.51,The Dazzlings,,0,0,0,karaoke,{\k0\rDazzlings Symbol}♫{\r} {\k35}Now {\k26}it's {\k33}time {\k32}to {\k32}fi{\k30}nish {\k57}you!
+Comment: 0,0:02:54.75,0:02:57.71,Sunset Shimmer,,0,0,0,karaoke,{\k0\rSunset Symbol}♥{\r} {\k53}You're {\k23}ne{\k21}ver {\k24}gon{\k22}na {\k42}bring {\k42}me {\k69}down
+Comment: 0,0:02:58.34,0:03:01.46,Sunset Shimmer,,0,0,0,karaoke,{\k0\rSunset Symbol}♥{\r} {\k47}You're {\k23}ne{\k21}ver {\k24}gon{\k21}na {\k41}break {\k44}this {\k26}part {\k22}of {\k43}me
+Comment: 0,0:03:01.90,0:03:04.84,Sunset Shimmer,,0,0,0,karaoke,{\k0\rSunset Symbol}♥{\r} {\k41}My {\k29}friends {\k18}are {\k23}here {\k22}to {\k42}bring {\k45}me {\k74}'round
+Comment: 0,0:03:05.31,0:03:08.52,Sunset Shimmer,,0,0,0,karaoke,{\k0\rSunset Symbol}♥{\r} {\k47}Not {\k30}sin{\k21}ging {\k24}just {\k23}for {\k40}po{\k45}pu{\k25}la{\k22}ri{\k44}ty
+Comment: 0,0:03:08.72,0:03:10.22,Duo,twisun,0,0,0,karaoke,{\k0\rTwilight Symbol}♦{\r} {\k0\rSunset Symbol}♥{\r} {\k25}We're {\k21}here {\k18}to {\k21}let {\k27}you {\k38}know
+Comment: 0,0:03:10.48,0:03:12.02,Duo,twisun,0,0,0,karaoke,{\k0\rTwilight Symbol}♦{\r} {\k0\rSunset Symbol}♥{\r} {\k24}That {\k22}we {\k24}won't {\k22}let {\k20}it {\k42}go
+Comment: 0,0:03:12.47,0:03:15.53,Duo,twisun,0,0,0,karaoke,{\k0\rTwilight Symbol}♦{\r} {\k0\rSunset Symbol}♥{\r} {\k47}Our {\k21}mu{\k19}sic {\k25}is {\k21}a {\k25}bomb {\k21}and {\k21}it's {\k19}a{\k26}bout {\k22}to {\k39}blow
+Comment: 0,0:03:15.80,0:03:17.27,Duo,twisun,0,0,0,karaoke,{\k0\rTwilight Symbol}♦{\r} {\k0\rSunset Symbol}♥{\r} {\k17}And {\k23}you {\k18}can {\k32}try {\k19}to {\k38}fight
+Comment: 0,0:03:17.54,0:03:18.99,Duo,twisun,0,0,0,karaoke,{\k0\rTwilight Symbol}♦{\r} {\k0\rSunset Symbol}♥{\r} {\k23}But {\k21}we {\k21}have {\k27}got {\k20}the {\k23}light {\k10}of
+Comment: 0,0:03:19.11,0:03:21.98,Sample KM [Up],,0,0,0,karaoke,{\k45}Friend{\k43}ship {\k43}on {\k46}our {\kf110}side!
+Comment: 0,0:03:22.17,0:03:25.17,Sample KM [Up],,0,0,0,karaoke,{\k26}Got {\k20}the {\k42}mu{\k44}sic {\k45}in {\k43}our {\k80}hearts
+Comment: 0,0:03:25.51,0:03:28.76,Sample KM [Up],,0,0,0,karaoke,{\k21}We're {\k24}here {\k18}to {\k45}blow {\k45}this {\k44}thing {\k42}a{\k86}part
+Comment: 0,0:03:29.23,0:03:32.48,Sample KM [Up],,0,0,0,karaoke,{\k22}And {\k23}to{\k45}ge{\k88}ther, {\k21}we {\k25}will {\k42}ne{\k59}ver
+Comment: 0,0:03:32.78,0:03:35.48,Sample KM [Up],,0,0,0,karaoke,{\k20}Be {\k21}a{\k48}fraid {\k44}of {\k42}the {\k95}dark
+Comment: 0,0:03:36.28,0:03:39.32,Sample KM [Up],,0,0,0,karaoke,{\k23}Here {\k24}to {\k43}sing {\k43}our {\k46}song {\k43}out {\k82}loud
+Comment: 0,0:03:39.81,0:03:42.86,Sample KM [Up],,0,0,0,karaoke,{\k23}Get {\k23}you {\k40}dan{\k49}cing {\k41}with {\k45}the {\k84}crowd
+Comment: 0,0:03:43.35,0:03:46.66,Sample KM [Up],,0,0,0,karaoke,{\k23}As {\k21}the {\k45}mu{\k90}sic {\k19}of {\k16}our {\k47}friend{\k70}ship
+Comment: 0,0:03:46.88,0:03:50.33,Sample KM [Up],,0,0,0,karaoke,{\k25}Sur{\kf143}vives, {\k32}sur{\kf145}vives!
+Comment: 0,0:03:50.41,0:03:53.41,Sample KM [Up],,0,0,0,karaoke,{\k24}Got {\k22}the {\k42}mu{\k44}sic {\k45}in {\k46}our {\k77}hearts
+Comment: 0,0:03:53.75,0:03:57.00,Sample KM [Up],,0,0,0,karaoke,{\k21}We're {\k24}here {\k18}to {\k45}blow {\k45}this {\k44}thing {\k44}a{\k84}part
+Comment: 0,0:03:57.47,0:04:00.95,Sample KM [Up],,0,0,0,karaoke,{\k22}And {\k23}to{\k45}ge{\k88}ther, {\k21}we {\k25}will {\k42}ne{\k82}ver
+Comment: 0,0:04:01.02,0:04:03.82,Sample KM [Up],,0,0,0,karaoke,{\k16}Be {\k29}a{\k44}fraid {\k44}of {\k42}the {\kf105}dark
+Comment: 0,0:04:04.52,0:04:07.56,Sample KM [Up],,0,0,0,karaoke,{\k23}Here {\k24}to {\k43}sing {\k43}our {\k46}song {\k43}out {\k82}loud
+Comment: 0,0:04:08.05,0:04:11.10,Sample KM [Up],,0,0,0,karaoke,{\k23}Get {\k23}you {\k40}dan{\k49}cing {\k41}with {\k45}the {\k84}crowd
+Comment: 0,0:04:11.59,0:04:14.90,Sample KM [Up],,0,0,0,karaoke,{\k23}As {\k21}the {\k45}mu{\k90}sic {\k19}of {\k16}our {\k47}friend{\k70}ship
+Comment: 0,0:04:15.08,0:04:22.72,Sample KM [Up],,0,0,0,karaoke,{\k27}Sur{\kf145}vives, {\k32}sur{\kf146}vives, {\k29}sur{\kf385}vives!
+Dialogue: 0,0:00:37.57,0:00:41.99,Adagio Dazzle,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rAdagio Symbol}♪{\r} {\k35}Wel{\k31}come {\k35}to {\k20}the {\kf211}show
+Dialogue: 0,0:00:42.08,0:00:46.80,Adagio Dazzle,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rAdagio Symbol}♪{\r} {\k30}We're {\k33}here {\k19}to {\k33}let {\k37}you {\kf210}know
+Dialogue: 0,0:00:47.15,0:00:51.96,Adagio Dazzle,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rAdagio Symbol}♪{\r} {\k60}Our {\k37}time {\k33}is {\kf241}now
+Dialogue: 0,0:00:51.66,0:00:55.93,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k26}Your {\k37}time {\k32}is {\k32}run{\k30}ning {\kf160}out
+Dialogue: 0,0:01:15.85,0:01:19.07,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k39}Feel {\k29}the {\k32}wave {\k25}of {\k87}sound
+Dialogue: 0,0:01:18.44,0:01:21.46,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k33}As {\k17}it {\k38}cra{\k37}shes {\k67}down
+Dialogue: 0,0:01:20.98,0:01:23.90,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k29}You {\k32}can't {\k38}turn {\k30}a{\k53}way
+Dialogue: 0,0:01:23.23,0:01:27.09,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k33}We'll {\k23}make {\k40}you {\k30}wan{\k24}na {\k73}sta-{\k53}ay
+Dialogue: 0,0:01:26.10,0:01:29.90,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k67}We {\k62}will {\k28}be {\k35}a{\k78}dored
+Dialogue: 0,0:01:29.22,0:01:32.25,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k40}Tell {\k29}us {\k29}that {\k36}you {\k29}want {\k30}us
+Dialogue: 0,0:01:31.23,0:01:34.80,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k62}We {\k65}won't {\k29}be {\k34}ig{\k57}nored
+Dialogue: 0,0:01:34.10,0:01:37.22,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k31}It's {\k32}time {\k29}for {\k35}our {\k30}re{\k45}ward
+Dialogue: 0,0:01:36.33,0:01:39.62,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k65}Now {\k62}you {\k30}need {\k62}us
+Dialogue: 0,0:01:38.87,0:01:42.18,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k65}Come {\k61}and {\k35}heed {\k60}us
+Dialogue: 0,0:01:41.41,0:01:47.35,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k31}No{\k34}thing {\k55}can {\k70}stop {\k65}us {\kf229}now
+Dialogue: 0,0:01:46.80,0:01:50.04,Rainbooms,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rRainbooms Symbol}♣{\r} {\k62}Oh-{\k60}oh, {\k32}oh-{\k30}whoa-{\k30}oh
+Dialogue: 0,0:01:49.24,0:01:52.56,Rainbooms,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rRainbooms Symbol}♣{\r} {\k29}I've {\k34}got {\k27}the {\k24}mu{\k19}sic {\k45}in {\k44}me
+Dialogue: 0,0:01:51.63,0:01:55.01,Rainbooms,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rRainbooms Symbol}♣{\r} {\k62}Oh-{\k65}oh, {\k23}oh-{\k37}whoa-{\k41}oh
+Dialogue: 0,0:01:56.43,0:01:59.43,Twilight,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTwilight Symbol}♦{\r} {\k29}Don't {\k32}need {\k18}to {\k28}hear {\k30}a {\k53}crowd
+Dialogue: 0,0:01:58.50,0:02:01.27,Twilight,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTwilight Symbol}♦{\r} {\k30}Chee{\k25}ring {\k29}out {\k31}my {\k52}name
+Dialogue: 0,0:02:01.25,0:02:04.38,Twilight,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTwilight Symbol}♦{\r} {\k27}I {\k22}di{\k26}dn't {\k31}come {\k29}here {\k33}see{\k35}king
+Dialogue: 0,0:02:03.34,0:02:06.23,Twilight,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTwilight Symbol}♦{\r} {\k29}In{\k20}fa{\k25}my {\k30}or {\k75}fame
+Dialogue: 0,0:02:06.04,0:02:09.04,Rainbooms,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rRainbooms Symbol}♣{\r} {\k27}The {\k23}one {\k28}and {\k27}on{\k29}ly {\k56}thing
+Dialogue: 0,0:02:08.44,0:02:11.32,Rainbooms,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rRainbooms Symbol}♣{\r} {\k30}That {\k29}I {\k22}am {\k21}here {\k32}to {\k44}bring
+Dialogue: 0,0:02:10.23,0:02:13.38,Rainbooms,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rRainbooms Symbol}♣{\r} {\k22}Is {\k25}mu{\k42}sic, {\k31}is {\k14}the {\k34}mu{\k37}sic
+Dialogue: 0,0:02:12.47,0:02:15.70,Rainbooms,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rRainbooms Symbol}♣{\r} {\k19}Is {\k14}the {\k30}mu{\k28}sic {\k28}in {\k32}my {\k62}soul
+Dialogue: 0,0:02:14.71,0:02:16.89,Rainbooms,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rRainbooms Symbol}♣{\r} {\k21}Gon{\k14}na {\k27}break {\k46}out
+Dialogue: 0,0:02:16.48,0:02:20.39,Rainbooms,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rRainbooms Symbol}♣{\r} {\k32}Set {\k30}my{\k37}self {\kf115}free, {\k67}yeah
+Dialogue: 0,0:02:19.53,0:02:21.77,Rainbooms,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rRainbooms Symbol}♣{\r} {\k23}Let {\k9}it {\k30}all {\k52}go
+Dialogue: 0,0:02:21.32,0:02:25.25,Rainbooms,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rRainbooms Symbol}♣{\r} {\k32}Just {\k27}let {\k32}it {\kf118}be, {\k74}yeah
+Dialogue: 0,0:02:24.30,0:02:27.67,Rainbooms,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rRainbooms Symbol}♣{\r} {\k49}Find {\k14}the {\k27}mu{\k32}sic {\k31}in {\k30}your {\k44}heart
+Dialogue: 0,0:02:26.72,0:02:30.09,Rainbooms,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rRainbooms Symbol}♣{\r} {\k50}Let {\k12}the {\k29}mu{\k27}sic {\k33}make {\k31}you {\k45}start
+Dialogue: 0,0:02:29.13,0:02:35.27,Rainbooms,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rRainbooms Symbol}♣{\r} {\k31}To {\k87}set {\k32}your{\k91}self {\k30}a{\kf233}part
+Dialogue: 0,0:02:39.58,0:02:42.55,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k31}What {\k30}we {\k32}have {\k26}in {\k68}store
+Dialogue: 0,0:02:42.10,0:02:45.09,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k36}All {\k30}we {\k30}want {\k31}and {\k62}more
+Dialogue: 0,0:02:44.63,0:02:47.61,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k32}We {\k32}will {\k30}break {\k34}on {\k60}through
+Dialogue: 0,0:02:47.16,0:02:50.71,The Dazzlings,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rDazzlings Symbol}♫{\r} {\k35}Now {\k26}it's {\k33}time {\k32}to {\k32}fi{\k30}nish {\k57}you!
+Dialogue: 0,0:02:53.85,0:02:57.91,Sunset Shimmer,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSunset Symbol}♥{\r} {\k53}You're {\k23}ne{\k21}ver {\k24}gon{\k22}na {\k42}bring {\k42}me {\k69}down
+Dialogue: 0,0:02:57.44,0:03:01.66,Sunset Shimmer,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSunset Symbol}♥{\r} {\k47}You're {\k23}ne{\k21}ver {\k24}gon{\k21}na {\k41}break {\k44}this {\k26}part {\k22}of {\k43}me
+Dialogue: 0,0:03:01.00,0:03:05.04,Sunset Shimmer,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSunset Symbol}♥{\r} {\k41}My {\k29}friends {\k18}are {\k23}here {\k22}to {\k42}bring {\k45}me {\k74}'round
+Dialogue: 0,0:03:04.41,0:03:08.72,Sunset Shimmer,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSunset Symbol}♥{\r} {\k47}Not {\k30}sin{\k21}ging {\k24}just {\k23}for {\k40}po{\k45}pu{\k25}la{\k22}ri{\k44}ty
+Dialogue: 0,0:03:07.82,0:03:10.42,Duo,twisun,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTwilight Symbol}♦{\r} {\k0\rSunset Symbol}♥{\r} {\k25}We're {\k21}here {\k18}to {\k21}let {\k27}you {\k38}know
+Dialogue: 0,0:03:09.58,0:03:12.22,Duo,twisun,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTwilight Symbol}♦{\r} {\k0\rSunset Symbol}♥{\r} {\k24}That {\k22}we {\k24}won't {\k22}let {\k20}it {\k42}go
+Dialogue: 0,0:03:11.57,0:03:15.73,Duo,twisun,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTwilight Symbol}♦{\r} {\k0\rSunset Symbol}♥{\r} {\k47}Our {\k21}mu{\k19}sic {\k25}is {\k21}a {\k25}bomb {\k21}and {\k21}it's {\k19}a{\k26}bout {\k22}to {\k39}blow
+Dialogue: 0,0:03:14.90,0:03:17.47,Duo,twisun,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTwilight Symbol}♦{\r} {\k0\rSunset Symbol}♥{\r} {\k17}And {\k23}you {\k18}can {\k32}try {\k19}to {\k38}fight
+Dialogue: 0,0:03:16.64,0:03:19.19,Duo,twisun,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTwilight Symbol}♦{\r} {\k0\rSunset Symbol}♥{\r} {\k23}But {\k21}we {\k21}have {\k27}got {\k20}the {\k23}light {\k10}of
+Dialogue: 0,0:03:18.21,0:03:22.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Friend{\k43}ship {\k43}on {\k46}our {\kf110}side!
+Dialogue: 0,0:03:21.27,0:03:25.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Got {\k20}the {\k42}mu{\k44}sic {\k45}in {\k43}our {\k80}hearts
+Dialogue: 0,0:03:24.61,0:03:28.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}We're {\k24}here {\k18}to {\k45}blow {\k45}this {\k44}thing {\k42}a{\k86}part
+Dialogue: 0,0:03:28.33,0:03:32.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k23}to{\k45}ge{\k88}ther, {\k21}we {\k25}will {\k42}ne{\k59}ver
+Dialogue: 0,0:03:31.88,0:03:35.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Be {\k21}a{\k48}fraid {\k44}of {\k42}the {\k95}dark
+Dialogue: 0,0:03:35.38,0:03:39.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Here {\k24}to {\k43}sing {\k43}our {\k46}song {\k43}out {\k82}loud
+Dialogue: 0,0:03:38.91,0:03:43.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Get {\k23}you {\k40}dan{\k49}cing {\k41}with {\k45}the {\k84}crowd
+Dialogue: 0,0:03:42.45,0:03:46.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}As {\k21}the {\k45}mu{\k90}sic {\k19}of {\k16}our {\k47}friend{\k70}ship
+Dialogue: 0,0:03:45.98,0:03:50.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Sur{\kf143}vives, {\k32}sur{\kf145}vives!
+Dialogue: 0,0:03:49.51,0:03:53.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Got {\k22}the {\k42}mu{\k44}sic {\k45}in {\k46}our {\k77}hearts
+Dialogue: 0,0:03:52.85,0:03:57.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}We're {\k24}here {\k18}to {\k45}blow {\k45}this {\k44}thing {\k44}a{\k84}part
+Dialogue: 0,0:03:56.57,0:04:01.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k23}to{\k45}ge{\k88}ther, {\k21}we {\k25}will {\k42}ne{\k82}ver
+Dialogue: 0,0:04:00.12,0:04:04.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Be {\k29}a{\k44}fraid {\k44}of {\k42}the {\kf105}dark
+Dialogue: 0,0:04:03.62,0:04:07.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Here {\k24}to {\k43}sing {\k43}our {\k46}song {\k43}out {\k82}loud
+Dialogue: 0,0:04:07.15,0:04:11.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Get {\k23}you {\k40}dan{\k49}cing {\k41}with {\k45}the {\k84}crowd
+Dialogue: 0,0:04:10.69,0:04:15.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}As {\k21}the {\k45}mu{\k90}sic {\k19}of {\k16}our {\k47}friend{\k70}ship
+Dialogue: 0,0:04:14.18,0:04:22.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Sur{\kf145}vives, {\k32}sur{\kf146}vives, {\k29}sur{\kf385}vives!

@@ -1,0 +1,22 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "上海滩"
+    ],
+    "i18n": {
+      "chi": "上海灘",
+      "eng": "The Bund",
+      "qro": "Shànghǎi Tān"
+    },
+    "name": "Shànghǎi Tān",
+    "repository": "kara.moe",
+    "tid": "3ca4dfe0-7507-4fc9-8dde-eb046dd0c07c",
+    "types": [
+      1
+    ]
+  }
+}

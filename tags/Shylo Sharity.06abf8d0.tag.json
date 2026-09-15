@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Shylo Sharity"
+    },
+    "name": "Shylo Sharity",
+    "repository": "kara.moe",
+    "tid": "06abf8d0-1da2-4528-82b4-34c3ada6e266",
+    "types": [
+      2
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+﻿[Script Info]
+Title: Why? RED induction
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: clockingoutontime, Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00057EE5,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H001010D9,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:07.96,0:00:08.49,Sample KM [Choir],,0,0,0,karaoke,{\k53}BANG!
+Comment: 0,0:00:16.05,0:00:20.40,Sample KM [Up],,0,0,0,karaoke,{\k23}Go {\k22}on {\k22}the {\k27}long {\k20}foo{\k21}lish {\k137}war {\k26}ev{\k20}er{\k117}more
+Comment: 0,0:00:20.64,0:00:22.98,Sample KM [Up],,0,0,0,karaoke,{\k21}What {\k24}will {\k47}be {\k20}the {\k47}fi{\k22}nal {\k70}score?
+Comment: 0,0:00:23.35,0:00:27.53,Sample KM [Up],,0,0,0,karaoke,{\k25}se{\k23}n{\k22}ka {\k24}ni {\k22}ha{\k24}ze{\k137}ta {\k23}YOUR {\k22}MO{\k96}RAL
+Comment: 0,0:00:27.95,0:00:31.85,Sample KM [Up],,0,0,0,karaoke,{\k24}ha{\k23}i {\k46}wo {\k22}fu{\k24}mi {\k21}na{\k47}o {\k46}i{\k137}ku
+Comment: 0,0:00:32.47,0:00:36.65,Sample KM [Up],,0,0,0,karaoke,{\k28}shin{\k19}so{\k28}u {\k23}to {\k12}P{\k22}RI{\k12}DE {\k22}no {\k44}kyou{\k26}so{\k42}u{\k25}kyo{\k115}ku
+Comment: 0,0:00:37.06,0:00:40.55,Sample KM [Up],,0,0,0,karaoke,{\k28}ku{\k23}ru{\k22}i{\k45}da{\k25}shi{\k41}te {\k27}i{\k138}ru
+Comment: 0,0:00:40.72,0:00:44.70,Sample KM [Up],,0,0,0,karaoke,{\k27}se{\k26}i{\k23}gi {\k117}wo {\k21}u{\k22}ta{\k20}u {\k25}ko{\k23}ko{\k94}ro
+Comment: 0,0:00:44.89,0:00:48.25,Sample KM [Up],,0,0,0,karaoke,{\k16}ki{\k10}bo{\k63}u {\k13}ri{\k16}so{\k68}u {\k20}yuu{\k130}jou
+Comment: 0,0:00:48.31,0:00:48.79,Sample KM [Choir],,0,0,0,karaoke,{\k48}BANG!
+Comment: 0,0:00:48.79,0:00:51.98,Sample KM [Up],,0,0,0,karaoke,{\k46}All {\k22}the {\k47}fi{\k45}re {\k39}all {\k31}for {\k44}burn{\k45}ing
+Comment: 0,0:00:51.99,0:00:55.45,Sample KM [Up],,0,0,0,karaoke,{\k23}Lose {\k23}it {\k44}all {\k24}but {\k46}you'll {\k47}call {\k45}it {\k24}ma{\k46}king {\k24}it
+Comment: 0,0:00:55.66,0:00:59.37,Sample KM [Up],,0,0,0,karaoke,{\k20}a{\k25}ki {\k46}mo {\k21}se{\k116}zu {\k47}sa{\k24}ra{\k72}su
+Comment: 0,0:00:59.53,0:01:03.43,Sample KM [Up],,0,0,0,karaoke,{\k26}hon{\k68}nou {\k12}yo{\k12}ku{\k59}bou {\k16}hi{\k17}do{\kf102}u{\kf78}~
+Comment: 0,0:01:03.43,0:01:06.43,Sample KM [Up],,0,0,0,karaoke,{\k46}All {\k22}the {\k47}fi{\k45}re {\k49}all {\k21}for {\k44}burn{\k26}ing
+Comment: 0,0:01:06.63,0:01:10.33,Sample KM [Up],,0,0,0,karaoke,{\k26}Take {\k22}their {\k48}all {\k22}but {\k44}tell {\k46}me {\k44}who'll {\k25}be {\k47}hap{\k46}py
+Comment: 0,0:01:10.32,0:01:19.95,Sample KM [Up],,0,0,0,karaoke,{\k45}i{\kf158}ma {\k14}mo{\k12}e{\kf162}tsu{\k10}ki{\k12}tei{\kf183}ku {\k91}HU{\k68}MA{\k25}NI{\kf183}TY
+Comment: 0,0:01:25.67,0:01:30.03,Sample KM [Up],,0,0,0,karaoke,{\k21}Go {\k25}on {\k19}the {\k26}long {\k23}foo{\k22}lish {\k137}war {\k25}e{\k21}ver{\k117}more
+Comment: 0,0:01:30.25,0:01:32.75,Sample KM [Up],,0,0,0,karaoke,{\k22}They {\k23}can't {\k45}look {\k24}back {\k46}a{\k22}ny{\k68}more
+Comment: 0,0:01:32.94,0:01:37.38,Sample KM [Up],,0,0,0,karaoke,{\k30}ha{\k20}ka{\k22}na{\k24}ku {\k22}ki{\k22}e{\k139}ta {\k23}TI{\k22}NY {\k131}LIGHTS
+Comment: 0,0:01:37.57,0:01:41.26,Sample KM [Up],,0,0,0,karaoke,{\k22}fu{\k24}ka{\k48}i {\k21}yo{\k25}ru {\k22}wo {\k44}su{\k38}su{\k125}mu
+Comment: 0,0:01:42.16,0:01:46.27,Sample KM [Up],,0,0,0,karaoke,{\k22}i{\k25}ka{\k22}ri {\k22}to {\k14}na{\k12}ge{\k22}ki {\k20}ga {\k47}kyou{\k26}shi{\k43}n{\k22}su{\k114}ru
+Comment: 0,0:01:46.73,0:01:49.97,Sample KM [Up],,0,0,0,karaoke,{\k24}u{\k21}shi{\k24}na{\k47}wa{\k22}re{\k48}te{\k24}i{\k114}ku
+Comment: 0,0:01:50.39,0:01:54.30,Sample KM [Up],,0,0,0,karaoke,{\k24}ka{\k22}tsu{\k24}te {\k114}at{\k24}ta {\k24}so{\k22}no {\k22}hi{\k23}bi {\k92}mo
+Comment: 0,0:01:54.53,0:01:57.84,Sample KM [Up],,0,0,0,karaoke,{\k13}i{\k9}ma {\k66}wo {\k16}u{\k17}ta{\k56}u {\k16}ko{\k12}e {\k126}mo
+Comment: 0,0:01:57.92,0:01:58.40,Sample KM [Choir],,0,0,0,karaoke,{\k48}BANG!
+Comment: 0,0:01:58.41,0:02:01.55,Sample KM [Up],,0,0,0,karaoke,{\k46}All {\k22}the {\k47}fi{\k45}re {\k39}all {\k31}for {\k44}burn{\k45}ing
+Comment: 0,0:02:01.61,0:02:05.18,Sample KM [Up],,0,0,0,karaoke,{\k24}What {\k23}kind {\k45}of {\k26}fruit {\k38}will {\k51}grow {\k44}from {\k25}the {\k44}ash{\k37}es?
+Comment: 0,0:02:05.27,0:02:08.95,Sample KM [Up],,0,0,0,karaoke,{\k22}o{\k24}wa{\k48}ri {\k24}na{\k112}ku {\k46}tsu{\k24}zu{\k68}ku
+Comment: 0,0:02:09.11,0:02:13.05,Sample KM [Up],,0,0,0,karaoke,{\k15}da{\k15}i{\k59}shou {\k11}o{\k21}u{\k67}nou {\k26}zan{\kf108}kyo{\kf72}u
+Comment: 0,0:02:13.05,0:02:16.10,Sample KM [Up],,0,0,0,karaoke,{\k46}All {\k22}the {\k47}fi{\k45}re {\k45}all {\k25}for {\k44}burn{\k31}ing
+Comment: 0,0:02:16.19,0:02:19.84,Sample KM [Up],,0,0,0,karaoke,{\k32}How {\k23}will {\k43}the {\k24}his{\k27}to{\k19}ry {\k46}book {\k48}tell {\k22}all {\k45}of {\k36}it?
+Comment: 0,0:02:19.93,0:02:29.64,Sample KM [Up],,0,0,0,karaoke,{\k48}ma{\kf158}da {\k12}mo{\k10}e{\kf163}tsu{\k12}ki{\k11}na{\kf183}i {\k93}IN{\k58}SA{\k32}NI{\kf191}TY
+Comment: 0,0:02:38.71,0:02:40.59,Sample KM [Up],,0,0,0,karaoke,{\k48}We {\k44}must {\k37}get {\k35}up {\k24}now
+Comment: 0,0:02:40.77,0:02:42.26,Sample KM [Up],,0,0,0,karaoke,{\k24}We {\k48}must {\k34}get {\k35}up {\k8}now
+Comment: 0,0:02:42.38,0:02:45.47,Sample KM [Up],,0,0,0,karaoke,{\k34}So {\k35}we'll {\k39}walk {\k29}a{\k47}long {\k33}this {\k35}nar{\k20}row {\k37}path
+Comment: 0,0:02:45.58,0:02:46.05,Sample KM [Choir],,0,0,0,karaoke,{\k47}BANG!
+Comment: 0,0:02:46.05,0:02:47.91,Sample KM [Up],,0,0,0,karaoke,{\k46}Keep {\k44}your {\k37}head {\k34}down {\k25}now
+Comment: 0,0:02:48.09,0:02:49.71,Sample KM [Up],,0,0,0,karaoke,{\k25}Keep {\k44}your {\k35}head {\k32}down {\k26}now
+Comment: 0,0:02:49.71,0:02:52.83,Sample KM [Up],,0,0,0,karaoke,{\k33}And {\k36}we'll {\k34}find {\k34}a {\k45}way {\k35}to {\k35}the {\k25}sun{\k35}rise
+Comment: 0,0:02:52.91,0:02:53.37,Sample KM [Choir],,0,0,0,karaoke,{\k46}BANG!
+Comment: 0,0:02:53.36,0:02:55.27,Sample KM [Up],,0,0,0,karaoke,{\k48}We {\k44}must {\k37}get {\k33}up {\k29}now
+Comment: 0,0:02:55.44,0:02:57.04,Sample KM [Up],,0,0,0,karaoke,{\k24}We {\k44}must {\k32}get {\k36}up {\k24}now
+Comment: 0,0:02:57.03,0:03:00.11,Sample KM [Up],,0,0,0,karaoke,{\k34}So {\k36}we'll {\k38}walk {\k30}a{\k46}long {\k37}this {\k31}nar{\k21}row {\k35}path
+Comment: 0,0:03:00.19,0:03:00.69,Sample KM [Choir],,0,0,0,karaoke,{\k50}BANG!
+Comment: 0,0:03:00.69,0:03:02.58,Sample KM [Up],,0,0,0,karaoke,{\k46}Keep {\k44}your {\k37}head {\k34}down {\k25}now
+Comment: 0,0:03:02.74,0:03:04.37,Sample KM [Up],,0,0,0,karaoke,{\k25}Keep {\k44}your {\k35}head {\k32}down {\k26}now
+Comment: 0,0:03:04.37,0:03:08.55,Sample KM [Up],,0,0,0,karaoke,{\k33}And {\k36}we'll {\k34}find {\k34}a {\k45}way{\kf236}~
+Comment: 0,0:03:09.40,0:03:12.86,Sample KM [Up],,0,0,0,karaoke,{\k45}Ah {\k48}all {\k19}the {\k48}pray{\k42}ers {\k41}all {\k33}for {\k43}sav{\k27}ing
+Comment: 0,0:03:13.03,0:03:16.68,Sample KM [Up],,0,0,0,karaoke,{\k24}If {\k24}the {\k49}day {\k27}comes {\k42}when {\k41}we {\k49}start {\k24}a{\k41}gai{\k44}n
+Comment: 0,0:03:16.69,0:03:23.66,Sample KM [Up],,0,0,0,karaoke,{\k50}ko{\kf162}no {\k12}ya{\k14}mi {\kf157}wo {\k13}i{\k13}ki{\kf276}ru
+Comment: 0,0:03:24.01,0:03:24.53,Sample KM [Choir],,0,0,0,karaoke,{\k52}BANG!
+Comment: 0,0:03:24.53,0:03:27.51,Sample KM [Up],,0,0,0,karaoke,{\k44}All {\k27}the {\k44}fi{\k45}re {\k44}all {\k23}for {\k46}burn{\k25}ing
+Comment: 0,0:03:27.68,0:03:31.30,Sample KM [Up],,0,0,0,karaoke,{\k23}Lose {\k25}it {\k48}all {\k18}but {\k46}you'll {\k47}call {\k45}it {\k24}ma{\k46}king {\k40}it
+Comment: 0,0:03:31.31,0:03:35.05,Sample KM [Up],,0,0,0,karaoke,{\k29}a{\k25}ki {\k44}mo {\k24}se{\k115}zu {\k45}sa{\k26}ra{\k66}su
+Comment: 0,0:03:35.23,0:03:39.20,Sample KM [Up],,0,0,0,karaoke,{\k18}ho{\k12}n{\k64}nou {\k13}yo{\k16}ku{\k63}bou {\k13}hi{\k12}do{\kf118}u{\kf68}~
+Comment: 0,0:03:39.21,0:03:42.17,Sample KM [Up],,0,0,0,karaoke,{\k46}All {\k22}the {\k47}fi{\k45}re {\k39}all {\k31}for {\k44}burn{\k45}ing
+Comment: 0,0:03:42.39,0:03:46.05,Sample KM [Up],,0,0,0,karaoke,{\k26}Take {\k22}their {\k48}all {\k22}but {\k44}tell {\k46}me {\k44}who'll {\k25}be {\k47}hap{\k46}py
+Comment: 0,0:03:46.05,0:03:55.68,Sample KM [Up],,0,0,0,karaoke,{\k45}i{\kf158}ma {\k14}mo{\k12}e{\kf162}tsu{\k10}ki{\k12}tei{\kf183}ku {\k91}HU{\k68}MA{\k25}NI{\kf183}TY
+Comment: 0,0:04:00.68,0:04:01.16,Sample KM [Choir],,0,0,0,karaoke,{\k48}BANG!
+Comment: 0,0:04:01.17,0:04:07.93,Sample KM [Up],,0,0,0,karaoke,{\k44}All {\k27}the {\k44}fi{\k45}re {\k44}all {\k23}for {\k46}burn{\kf94}ing{\kf309}~
+Comment: 0,0:04:08.72,0:04:10.37,Sample KM [Up],,0,0,0,karaoke,{\k21}We {\k25}still {\k22}must {\k32}get {\k36}up {\k29}now
+Comment: 0,0:04:10.54,0:04:12.15,Sample KM [Up],,0,0,0,karaoke,{\k21}We {\k25}still {\k22}must {\k32}get {\k36}up {\k29}now
+Comment: 0,0:04:12.39,0:04:14.01,Sample KM [Up],,0,0,0,karaoke,{\k25}Just {\k20}keep {\k20}your {\k40}head {\k35}down {\k22}now
+Comment: 0,0:04:14.21,0:04:15.81,Sample KM [Up],,0,0,0,karaoke,{\k25}Just {\k20}keep {\k20}your {\k40}head {\k35}down {\k22}now
+Comment: 0,0:04:16.04,0:04:17.69,Sample KM [Up],,0,0,0,karaoke,{\k21}We {\k25}still {\k22}must {\k32}get {\k36}up {\k29}now
+Comment: 0,0:04:17.85,0:04:19.70,Sample KM [Up],,0,0,0,karaoke,{\k21}We {\k25}still {\k22}must {\k32}get {\k36}up {\k29}now
+Comment: 0,0:04:19.70,0:04:21.32,Sample KM [Up],,0,0,0,karaoke,{\k25}Just {\k20}keep {\k20}your {\k40}head {\k35}down {\k22}now
+Comment: 0,0:04:21.52,0:04:23.11,Sample KM [Up],,0,0,0,karaoke,{\k25}Just {\k20}keep {\k20}your {\k40}head {\k35}down {\k22}now
+Comment: 0,0:04:23.11,0:04:23.86,Sample KM [Choir],,0,0,0,karaoke,{\k75}BANG!
+Dialogue: 0,0:00:07.06,0:00:08.69,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k53}BANG!
+Dialogue: 0,0:00:15.15,0:00:20.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Go {\k22}on {\k22}the {\k27}long {\k20}foo{\k21}lish {\k137}war {\k26}ev{\k20}er{\k117}more
+Dialogue: 0,0:00:19.74,0:00:23.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}What {\k24}will {\k47}be {\k20}the {\k47}fi{\k22}nal {\k70}score?
+Dialogue: 0,0:00:22.45,0:00:27.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}se{\k23}n{\k22}ka {\k24}ni {\k22}ha{\k24}ze{\k137}ta {\k23}YOUR {\k22}MO{\k96}RAL
+Dialogue: 0,0:00:27.05,0:00:32.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}ha{\k23}i {\k46}wo {\k22}fu{\k24}mi {\k21}na{\k47}o {\k46}i{\k137}ku
+Dialogue: 0,0:00:31.57,0:00:36.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}shin{\k19}so{\k28}u {\k23}to {\k12}P{\k22}RI{\k12}DE {\k22}no {\k44}kyou{\k26}so{\k42}u{\k25}kyo{\k115}ku
+Dialogue: 0,0:00:36.16,0:00:40.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}ku{\k23}ru{\k22}i{\k45}da{\k25}shi{\k41}te {\k27}i{\k138}ru
+Dialogue: 0,0:00:39.82,0:00:44.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}se{\k26}i{\k23}gi {\k117}wo {\k21}u{\k22}ta{\k20}u {\k25}ko{\k23}ko{\k94}ro
+Dialogue: 0,0:00:43.99,0:00:48.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}ki{\k10}bo{\k63}u {\k13}ri{\k16}so{\k68}u {\k20}yuu{\k130}jou
+Dialogue: 0,0:00:47.41,0:00:48.99,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k48}BANG!
+Dialogue: 0,0:00:47.89,0:00:52.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}All {\k22}the {\k47}fi{\k45}re {\k39}all {\k31}for {\k44}burn{\k45}ing
+Dialogue: 0,0:00:51.09,0:00:55.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Lose {\k23}it {\k44}all {\k24}but {\k46}you'll {\k47}call {\k45}it {\k24}ma{\k46}king {\k24}it
+Dialogue: 0,0:00:54.76,0:00:59.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}a{\k25}ki {\k46}mo {\k21}se{\k116}zu {\k47}sa{\k24}ra{\k72}su
+Dialogue: 0,0:00:58.63,0:01:03.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}hon{\k68}nou {\k12}yo{\k12}ku{\k59}bou {\k16}hi{\k17}do{\kf102}u{\kf78}~
+Dialogue: 0,0:01:02.53,0:01:06.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}All {\k22}the {\k47}fi{\k45}re {\k49}all {\k21}for {\k44}burn{\k26}ing
+Dialogue: 0,0:01:05.73,0:01:10.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Take {\k22}their {\k48}all {\k22}but {\k44}tell {\k46}me {\k44}who'll {\k25}be {\k47}hap{\k46}py
+Dialogue: 0,0:01:09.42,0:01:20.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}i{\kf158}ma {\k14}mo{\k12}e{\kf162}tsu{\k10}ki{\k12}tei{\kf183}ku {\k91}HU{\k68}MA{\k25}NI{\kf183}TY
+Dialogue: 0,0:01:24.77,0:01:30.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Go {\k25}on {\k19}the {\k26}long {\k23}foo{\k22}lish {\k137}war {\k25}e{\k21}ver{\k117}more
+Dialogue: 0,0:01:29.35,0:01:32.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}They {\k23}can't {\k45}look {\k24}back {\k46}a{\k22}ny{\k68}more
+Dialogue: 0,0:01:32.04,0:01:37.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}ha{\k20}ka{\k22}na{\k24}ku {\k22}ki{\k22}e{\k139}ta {\k23}TI{\k22}NY {\k131}LIGHTS
+Dialogue: 0,0:01:36.67,0:01:41.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}fu{\k24}ka{\k48}i {\k21}yo{\k25}ru {\k22}wo {\k44}su{\k38}su{\k125}mu
+Dialogue: 0,0:01:41.26,0:01:46.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}i{\k25}ka{\k22}ri {\k22}to {\k14}na{\k12}ge{\k22}ki {\k20}ga {\k47}kyou{\k26}shi{\k43}n{\k22}su{\k114}ru
+Dialogue: 0,0:01:45.83,0:01:50.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}u{\k21}shi{\k24}na{\k47}wa{\k22}re{\k48}te{\k24}i{\k114}ku
+Dialogue: 0,0:01:49.49,0:01:54.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}ka{\k22}tsu{\k24}te {\k114}at{\k24}ta {\k24}so{\k22}no {\k22}hi{\k23}bi {\k92}mo
+Dialogue: 0,0:01:53.63,0:01:58.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}i{\k9}ma {\k66}wo {\k16}u{\k17}ta{\k56}u {\k16}ko{\k12}e {\k126}mo
+Dialogue: 0,0:01:57.02,0:01:58.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k48}BANG!
+Dialogue: 0,0:01:57.51,0:02:01.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}All {\k22}the {\k47}fi{\k45}re {\k39}all {\k31}for {\k44}burn{\k45}ing
+Dialogue: 0,0:02:00.71,0:02:05.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}What {\k23}kind {\k45}of {\k26}fruit {\k38}will {\k51}grow {\k44}from {\k25}the {\k44}ash{\k37}es?
+Dialogue: 0,0:02:04.37,0:02:09.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}o{\k24}wa{\k48}ri {\k24}na{\k112}ku {\k46}tsu{\k24}zu{\k68}ku
+Dialogue: 0,0:02:08.21,0:02:13.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}da{\k15}i{\k59}shou {\k11}o{\k21}u{\k67}nou {\k26}zan{\kf108}kyo{\kf72}u
+Dialogue: 0,0:02:12.15,0:02:16.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}All {\k22}the {\k47}fi{\k45}re {\k45}all {\k25}for {\k44}burn{\k31}ing
+Dialogue: 0,0:02:15.29,0:02:20.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}How {\k23}will {\k43}the {\k24}his{\k27}to{\k19}ry {\k46}book {\k48}tell {\k22}all {\k45}of {\k36}it?
+Dialogue: 0,0:02:19.03,0:02:29.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}ma{\kf158}da {\k12}mo{\k10}e{\kf163}tsu{\k12}ki{\k11}na{\kf183}i {\k93}IN{\k58}SA{\k32}NI{\kf191}TY
+Dialogue: 0,0:02:37.81,0:02:40.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}We {\k44}must {\k37}get {\k35}up {\k24}now
+Dialogue: 0,0:02:39.87,0:02:42.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}We {\k48}must {\k34}get {\k35}up {\k8}now
+Dialogue: 0,0:02:41.48,0:02:45.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}So {\k35}we'll {\k39}walk {\k29}a{\k47}long {\k33}this {\k35}nar{\k20}row {\k37}path
+Dialogue: 0,0:02:44.68,0:02:46.25,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}BANG!
+Dialogue: 0,0:02:45.15,0:02:48.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Keep {\k44}your {\k37}head {\k34}down {\k25}now
+Dialogue: 0,0:02:47.19,0:02:49.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Keep {\k44}your {\k35}head {\k32}down {\k26}now
+Dialogue: 0,0:02:48.81,0:02:53.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}And {\k36}we'll {\k34}find {\k34}a {\k45}way {\k35}to {\k35}the {\k25}sun{\k35}rise
+Dialogue: 0,0:02:52.01,0:02:53.57,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}BANG!
+Dialogue: 0,0:02:52.46,0:02:55.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}We {\k44}must {\k37}get {\k33}up {\k29}now
+Dialogue: 0,0:02:54.54,0:02:57.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}We {\k44}must {\k32}get {\k36}up {\k24}now
+Dialogue: 0,0:02:56.13,0:03:00.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}So {\k36}we'll {\k38}walk {\k30}a{\k46}long {\k37}this {\k31}nar{\k21}row {\k35}path
+Dialogue: 0,0:02:59.29,0:03:00.89,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}BANG!
+Dialogue: 0,0:02:59.79,0:03:02.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Keep {\k44}your {\k37}head {\k34}down {\k25}now
+Dialogue: 0,0:03:01.84,0:03:04.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Keep {\k44}your {\k35}head {\k32}down {\k26}now
+Dialogue: 0,0:03:03.47,0:03:08.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}And {\k36}we'll {\k34}find {\k34}a {\k45}way{\kf236}~
+Dialogue: 0,0:03:08.50,0:03:13.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Ah {\k48}all {\k19}the {\k48}pray{\k42}ers {\k41}all {\k33}for {\k43}sav{\k27}ing
+Dialogue: 0,0:03:12.13,0:03:16.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}If {\k24}the {\k49}day {\k27}comes {\k42}when {\k41}we {\k49}start {\k24}a{\k41}gai{\k44}n
+Dialogue: 0,0:03:15.79,0:03:23.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}ko{\kf162}no {\k12}ya{\k14}mi {\kf157}wo {\k13}i{\k13}ki{\kf276}ru
+Dialogue: 0,0:03:23.11,0:03:24.73,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k52}BANG!
+Dialogue: 0,0:03:23.63,0:03:27.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}All {\k27}the {\k44}fi{\k45}re {\k44}all {\k23}for {\k46}burn{\k25}ing
+Dialogue: 0,0:03:26.78,0:03:31.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Lose {\k25}it {\k48}all {\k18}but {\k46}you'll {\k47}call {\k45}it {\k24}ma{\k46}king {\k40}it
+Dialogue: 0,0:03:30.41,0:03:35.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}a{\k25}ki {\k44}mo {\k24}se{\k115}zu {\k45}sa{\k26}ra{\k66}su
+Dialogue: 0,0:03:34.33,0:03:39.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}ho{\k12}n{\k64}nou {\k13}yo{\k16}ku{\k63}bou {\k13}hi{\k12}do{\kf118}u{\kf68}~
+Dialogue: 0,0:03:38.31,0:03:42.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}All {\k22}the {\k47}fi{\k45}re {\k39}all {\k31}for {\k44}burn{\k45}ing
+Dialogue: 0,0:03:41.49,0:03:46.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Take {\k22}their {\k48}all {\k22}but {\k44}tell {\k46}me {\k44}who'll {\k25}be {\k47}hap{\k46}py
+Dialogue: 0,0:03:45.15,0:03:55.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}i{\kf158}ma {\k14}mo{\k12}e{\kf162}tsu{\k10}ki{\k12}tei{\kf183}ku {\k91}HU{\k68}MA{\k25}NI{\kf183}TY
+Dialogue: 0,0:03:59.78,0:04:01.36,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k48}BANG!
+Dialogue: 0,0:04:00.27,0:04:08.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}All {\k27}the {\k44}fi{\k45}re {\k44}all {\k23}for {\k46}burn{\kf94}ing{\kf309}~
+Dialogue: 0,0:04:07.82,0:04:10.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}We {\k25}still {\k22}must {\k32}get {\k36}up {\k29}now
+Dialogue: 0,0:04:09.64,0:04:12.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}We {\k25}still {\k22}must {\k32}get {\k36}up {\k29}now
+Dialogue: 0,0:04:11.49,0:04:14.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Just {\k20}keep {\k20}your {\k40}head {\k35}down {\k22}now
+Dialogue: 0,0:04:13.31,0:04:16.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Just {\k20}keep {\k20}your {\k40}head {\k35}down {\k22}now
+Dialogue: 0,0:04:15.14,0:04:17.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}We {\k25}still {\k22}must {\k32}get {\k36}up {\k29}now
+Dialogue: 0,0:04:16.95,0:04:19.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}We {\k25}still {\k22}must {\k32}get {\k36}up {\k29}now
+Dialogue: 0,0:04:18.80,0:04:21.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Just {\k20}keep {\k20}your {\k40}head {\k35}down {\k22}now
+Dialogue: 0,0:04:20.62,0:04:23.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Just {\k20}keep {\k20}your {\k40}head {\k35}down {\k22}now
+Dialogue: 0,0:04:22.21,0:04:24.06,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k75}BANG!

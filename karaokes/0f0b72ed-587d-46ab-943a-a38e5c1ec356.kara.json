@@ -1,0 +1,65 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 116,
+      "filename": "0f0b72ed-587d-46ab-943a-a38e5c1ec356.webm",
+      "filesize": 7340211,
+      "loudnorm": "-10.15,1.13,15.40,-21.14,-1.14",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "0f0b72ed-587d-46ab-943a-a38e5c1ec356.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-14T17:14:54.416Z",
+    "ignoreHooks": false,
+    "kid": "0f0b72ed-587d-46ab-943a-a38e5c1ec356",
+    "modified_at": "2026-09-14T17:21:34.331Z",
+    "repository": "kara.moe",
+    "songname": "ENG - Ollie Kureiji - AUDIO - Speed",
+    "tags": {
+      "authors": [
+        "68acf85a-1414-4a5b-9a1b-df4af3d1c2a0"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
+      "langs": [
+        "de5eda1c-5fb3-46a6-9606-d4554fc5a1d6"
+      ],
+      "misc": [
+        "ec4fee75-71fb-45b4-9772-2ca374b4b600"
+      ],
+      "origins": [
+        "5106d71b-a78e-4d19-a16d-f8fb6719538a"
+      ],
+      "singers": [
+        "6cc434e0-1838-4fe1-9b2b-02252afe3c19"
+      ],
+      "songtypes": [
+        "42a262ae-acba-4ab5-a446-c5789c96c821"
+      ],
+      "songwriters": [
+        "b5bacd0e-2c4a-4899-a7aa-91c72bc0f726"
+      ]
+    },
+    "titles": {
+      "eng": "Speed"
+    },
+    "titles_default_language": "eng",
+    "year": 2021
+  }
+}

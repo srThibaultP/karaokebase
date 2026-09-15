@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Haru"
+    },
+    "name": "Haru",
+    "repository": "kara.moe",
+    "tid": "6d0ab5f6-b783-4384-93a5-d22758bc7b00",
+    "types": [
+      8
+    ]
+  }
+}

@@ -24,7 +24,7 @@
     "created_at": "2022-04-17T21:26:42.410Z",
     "ignoreHooks": false,
     "kid": "8b460262-65c0-4f26-82b2-080685cd7d78",
-    "modified_at": "2024-07-14T10:08:59.986Z",
+    "modified_at": "2026-09-14T22:23:51.813Z",
     "repository": "kara.moe",
     "songname": "JPN - Watame Tsunomaki - MV - Holidays!",
     "tags": {
@@ -55,6 +55,9 @@
       "songwriters": [
         "9b7e0848-37b3-4772-bb76-67f2518cb41e",
         "b68441b5-bc17-4975-a825-d5c35b50bcf8"
+      ],
+      "franchises": [
+        "0263d413-17bb-4cee-a311-6dd896eda1c9"
       ]
     },
     "titles": {

@@ -1,0 +1,80 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 269,
+      "filename": "46aa681f-79fc-4180-bf97-140f076c4e35.webm",
+      "filesize": 54513315,
+      "loudnorm": "-5.43,2.29,5.60,-15.49,-0.62",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "46aa681f-79fc-4180-bf97-140f076c4e35.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-14T16:45:07.978Z",
+    "ignoreHooks": false,
+    "kid": "46aa681f-79fc-4180-bf97-140f076c4e35",
+    "modified_at": "2026-09-14T16:49:50.859Z",
+    "parents": [
+      "cc0018e4-6e55-409a-8c2d-cbd738d254fa"
+    ],
+    "repository": "kara.moe",
+    "songname": "ENG, JPN - Yôjo Senki II - MV - Why? RED induction ~ Full Vers",
+    "tags": {
+      "authors": [
+        "9cbfb625-59b6-40a2-b292-457ea087ecee",
+        "c09cec89-ee7d-4471-91bf-27a4c742ad05"
+      ],
+      "collections": [
+        "dbcf2c22-524d-4708-99bb-601703633927"
+      ],
+      "families": [
+        "5391f9fe-638c-415f-8dc9-958e3a2c5787"
+      ],
+      "genres": [
+        "4b80eca6-f44f-4262-a8d0-b6879d6b70cb"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2",
+        "966d1e74-d1f2-41e2-ab04-24279c22f562"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133",
+        "de5eda1c-5fb3-46a6-9606-d4554fc5a1d6"
+      ],
+      "origins": [
+        "938de218-5343-4865-94d3-fb33f2eaa152"
+      ],
+      "series": [
+        "4c0854af-b13a-4d52-b848-b5a6cfa0b8e2"
+      ],
+      "singergroups": [
+        "80421b19-c148-48d8-af54-ac45aae600c6"
+      ],
+      "songtypes": [
+        "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
+      ],
+      "versions": [
+        "c2143a7f-6970-450e-8a79-0302db9220a9"
+      ],
+      "franchises": [
+        "037bbde5-1e30-4e45-835e-3811185989a2"
+      ]
+    },
+    "titles": {
+      "eng": "Why? RED induction"
+    },
+    "titles_default_language": "eng",
+    "year": 2026
+  }
+}

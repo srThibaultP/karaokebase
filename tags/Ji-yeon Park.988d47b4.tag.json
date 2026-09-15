@@ -1,0 +1,22 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "description": {
+      "eng": "Is a K-pop producer of MonoTree known as LOONA songwriter."
+    },
+    "i18n": {
+      "eng": "Ji-yeon Park",
+      "kor": "박지연",
+      "qro": "Park Jiyeon"
+    },
+    "name": "Ji-yeon Park",
+    "repository": "kara.moe",
+    "tid": "988d47b4-2805-440e-8d64-6f63788c2775",
+    "types": [
+      8
+    ]
+  }
+}

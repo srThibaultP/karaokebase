@@ -1,0 +1,90 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 276,
+      "filename": "ccec4044-dad3-41ba-925e-57dfab3c212a.mp4",
+      "filesize": 68112616,
+      "loudnorm": "-18.07,0.44,5.70,-28.20,-0.73",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "ccec4044-dad3-41ba-925e-57dfab3c212a.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-14T17:26:17.556Z",
+    "ignoreHooks": false,
+    "kid": "ccec4044-dad3-41ba-925e-57dfab3c212a",
+    "modified_at": "2026-09-14T17:29:10.455Z",
+    "repository": "kara.moe",
+    "songname": "ENG - Equestria Girls: Rainbow Rocks - MOVIE IN - Welcome to the Show",
+    "tags": {
+      "authors": [
+        "c8dc36ff-39b3-48b5-9552-f75ffc9a9e1b"
+      ],
+      "collections": [
+        "efe171c0-e8a1-4d03-98c0-60ecf741ad52"
+      ],
+      "creators": [
+        "cb9d46f4-4e6c-451b-b1cd-bd1ded0eb0ad"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "groups": [
+        "ae613721-1fbe-480d-ba6b-d6d0702b184d"
+      ],
+      "langs": [
+        "de5eda1c-5fb3-46a6-9606-d4554fc5a1d6"
+      ],
+      "misc": [
+        "1d6ceadf-a885-47e5-b23b-c07bf668a424"
+      ],
+      "origins": [
+        "c8ca9dea-d8b4-48fe-8427-d911653232e9"
+      ],
+      "series": [
+        "0ff035fe-99c4-45ef-90ea-b1a3e9a148f2"
+      ],
+      "singers": [
+        "06abf8d0-1da2-4528-82b4-34c3ada6e266",
+        "1ac05ecb-5072-4845-8857-abb35d4910d6",
+        "6c9fd31a-d0d4-41cd-bc6d-43a8c5e81905",
+        "8510884d-7af0-483f-8f31-26f39780fbe9",
+        "ab87b5e8-f7d3-4581-95be-fee84288b688",
+        "b9db117e-a5a0-4754-a8b3-19f5c926bc7f",
+        "d6c8ad52-6803-4f7c-98e4-8576581a10d7"
+      ],
+      "singergroups": [
+        "3525a66a-0895-4596-b603-c2918376fc4a",
+        "38d9fe3b-b5df-4e25-91b6-ae4d4728667a"
+      ],
+      "songtypes": [
+        "5e5250d9-351a-4a82-98eb-55db50ad8962"
+      ],
+      "songwriters": [
+        "2bc271c8-dafb-44c2-b8a7-25efa7b16c00",
+        "6d231afc-3b14-4464-961a-fe637a23cecf",
+        "e5675781-742d-49f1-a4cd-6e090667efb1"
+      ],
+      "franchises": [
+        "24947127-bc35-4cde-8335-61013242c2da",
+        "c9700382-03af-4ac4-8cd8-3d94754e6ad1"
+      ]
+    },
+    "titles": {
+      "eng": "Welcome to the Show"
+    },
+    "titles_default_language": "eng",
+    "year": 2014
+  }
+}

@@ -1,0 +1,97 @@
+﻿[Script Info]
+Title: Bittersweet Echo
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Fran,Arial,24,&H00FFFFFF,&H00B2FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kana,Arial,24,&H00FFFFFF,&H00888888,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Miho,Arial,24,&H00FFFFFF,&H00FE2BC2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: IIIX,Arial,24,&H00FFFFFF,&H000079FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:05.68,Sample KM [Choir],,0,0,0,karaoke,{\k1000\pos(179.73,224)}{\k0}{\2cHFFFFFF}♦ {\rFran}Fran {\2cHFFFFFF}| ♥ {\rKana}Kana {\2cHFFFFFF}| ♠ {\rMiho}Miho {\2cHFFFFFF}| ● {\rIIIX}IIIX
+Comment: 0,0:00:14.06,0:00:16.86,IIIX,,0,0,0,karaoke,{\k21}tsu{\k19}ra{\k14}nu{\k17}ku {\k48}HEAR{\k27}T {\k22}no {\k32}man{\k46}na{\k34}ka
+Comment: 0,0:00:16.86,0:00:19.19,Fran,,0,0,0,karaoke,{\k16}BIG{\k15}GER {\k17}THAN {\k44}WOO{\k33}FER {\k19}ji{\k12}wa{\k20}ji{\k15}wa {\k18}ku{\k24}ru
+Comment: 0,0:00:19.21,0:00:20.63,IIIX,,0,0,0,karaoke,{\k35}ju{\k34}tei{\k73}on
+Comment: 0,0:00:20.71,0:00:21.88,Kana,,0,0,0,karaoke,{\k13}ne{\k18}tsu {\k17}wo {\k30}mot{\k39}ta
+Comment: 0,0:00:21.66,0:00:22.23,Sample KM [Choir],,0,0,0,karaoke,{\k57}Yeah
+Comment: 0,0:00:21.96,0:00:23.24,Kana,,0,0,0,karaoke,{\k17}kan{\k19}jou {\k14}no {\k33}na{\k17}mi {\k28}ga
+Comment: 0,0:00:23.24,0:00:24.54,Kana,,0,0,0,karaoke,{\k10}zen{\k26}shin {\k16}wo {\k16}me{\k16}gu{\k46}ru
+Comment: 0,0:00:24.18,0:00:24.64,Sample KM [Choir],,0,0,0,karaoke,{\k46}No
+Comment: 0,0:00:24.66,0:00:25.83,IIIX,,0,0,0,karaoke,{\k25}How {\k10}you {\k51}fee{\k31}ling?
+Comment: 0,0:00:25.84,0:00:29.53,Miho,,0,0,0,karaoke,{\k15}ha{\k16}ji{\k17}me{\k48}te {\k48}no {\k33}shou{\k21}ge{\k27}ki {\k16}ni {\k15}to{\k17}ma{\k29}dou {\k34}yo{\k33}ri
+Comment: 0,0:00:29.53,0:00:30.96,IIIX,,0,0,0,karaoke,{\k16}Get {\k8}it {\k40}three {\k48}six{\k31}ty
+Comment: 0,0:00:30.96,0:00:34.99,Miho,,0,0,0,karaoke,{\k31}zen{\k19}shi{\k48}n {\k47}de {\k29}a{\k27}ji{\k40}wai {\k16}tsu{\k20}ku{\k12}su {\k17}to {\k46}i{\k51}i
+Comment: 0,0:00:35.96,0:00:37.51,Fran,,0,0,0,karaoke,{\k20}i{\k27}ma {\kf108}ga
+Comment: 0,0:00:37.84,0:00:40.33,Fran,,0,0,0,karaoke,{\k37}PEAK {\k30}nan{\k28}ka {\k21}ja {\k33}nai {\kf100}wa
+Comment: 0,0:00:40.91,0:00:44.76,Fran,,0,0,0,karaoke,{\k16}ko{\k31}ko {\k21}ka{\k123}ra {\k12}ha{\k42}ji{\k31}ma{\k14}ru {\k33}hon{\k62}ban
+Comment: 0,0:00:44.56,0:00:47.42,Kana,,0,0,0,karaoke,{\k36}zut{\k19}to {\k32}RE{\k47}PEA{\k13}T {\k50}su{\k18}ru {\k71}wa
+Comment: 0,0:00:47.79,0:00:49.98,Kana,,0,0,0,karaoke,{\k35}ki{\k15}mi {\k18}no {\k14}mi{\k18}mi{\k16}mo{\k32}to {\k71}de
+Comment: 0,0:00:50.08,0:00:51.26,Miho,,0,0,0,karaoke,{\k21}na{\k26}n{\k71}do
+Comment: 0,0:00:51.34,0:00:52.56,Miho,,0,0,0,karaoke,{\k16}dat{\k32}te {\k74}CALL
+Comment: 0,0:00:52.56,0:00:55.18,Miho,,0,0,0,karaoke,{\k26}su{\k30}ru {\kf206}no
+Comment: 0,0:00:54.88,0:00:56.83,Fran,,0,0,0,karaoke,{\k17}i{\k14}ma {\k17}ki{\k14}ka{\k18}se{\k16}te {\k32}E{\k67}CHO
+Comment: 0,0:00:57.36,0:00:58.91,Sample KM [Choir],,0,0,0,karaoke,{\k25}Lou{\k33}der {\k32}lou{\k65}der
+Comment: 0,0:01:00.01,0:01:03.83,Kana,,0,0,0,karaoke,{\k31}mu{\k33}ka{\k31}i{\k51}at{\k112}ta {\k15}BRO{\k12}KEN {\k80}HEART{\k17}S
+Comment: 0,0:01:05.43,0:01:08.50,IIIX,,0,0,0,karaoke,{\k19}Go{\k32}ing {\kf113}on {\k17}and {\kf126}on
+Comment: 0,0:01:09.14,0:01:11.56,IIIX,,0,0,0,karaoke,{\k33}kyo{\k26}u {\k54}ga {\k16}o{\k48}wat{\k15}te {\k50}mo
+Comment: 0,0:01:11.56,0:01:13.06,IIIX,,0,0,0,karaoke,{\k32}yo{\k16}bi{\k19}a{\k83}u
+Comment: 0,0:01:13.81,0:01:18.78,IIIX,,0,0,0,karaoke,{\k45}mu{\k50}gen {\k18}no {\k48}LOO{\k16}P {\k14}de {\k15}ki{\k19}za{\k14}mu {\k111}HEAR{\k18}T{\kf129}BEAT
+Comment: 0,0:01:19.39,0:01:23.08,Fran,,0,0,0,karaoke,{\k35}ki{\k30}mi {\k51}to {\k15}wa{\k46}ta{\k21}shi {\k38}no {\k39}RHA{\k18}P{\k15}SO{\k61}DY
+Comment: 0,0:01:22.93,0:01:23.99,Miho,,0,0,0,karaoke,{\k19}Get {\k15}it {\k46}lou{\k26}d
+Comment: 0,0:01:24.08,0:01:26.51,Kana,,0,0,0,karaoke,{\k47}mot{\k48}to {\k17}dai{\k49}on{\k14}ryou {\k68}de
+Comment: 0,0:01:26.64,0:01:27.96,Miho,,0,0,0,karaoke,{\k48}E{\kf84}cho
+Comment: 0,0:01:27.98,0:01:31.44,Fran,,0,0,0,karaoke,{\k25}se{\k35}kai {\k32}wo {\k31}yu{\k48}ru{\k43}ga{\k49}su {\kf83}no
+Comment: 0,0:01:30.61,0:01:31.79,Kana,,0,0,0,karaoke,{\k17}Shake {\k19}it {\k16}out {\k25}right {\k41}now
+Comment: 0,0:01:31.83,0:01:33.16,Miho,,0,0,0,karaoke,{\k41}E{\kf92}cho
+Comment: 0,0:01:33.18,0:01:34.59,IIIX,,0,0,0,karaoke,{\k16}is{\k21}sho {\k12}ni {\k34}SHOUT {\k39}OU{\k19}T
+Comment: 0,0:00:13.16,0:00:17.06,IIIX,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"● "!
+Comment: 0,0:00:13.16,0:00:17.06,Miho,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♠ "!
+Comment: 0,0:00:13.16,0:00:17.06,Kana,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♥ "!
+Comment: 0,0:00:13.16,0:00:17.06,Fran,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Choir],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:05.88,Sample KM [Choir],,0,0,0,fx,{\k0\fad(0,200)}{\k1000\pos(179.73,224)}{\k0}{\2cHFFFFFF}♦ {\rFran}Fran {\2cHFFFFFF}| ♥ {\rKana}Kana {\2cHFFFFFF}| ♠ {\rMiho}Miho {\2cHFFFFFF}| ● {\rIIIX}IIIX
+Dialogue: 0,0:00:13.16,0:00:17.06,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k21}tsu{\k19}ra{\k14}nu{\k17}ku {\k48}HEAR{\k27}T {\k22}no {\k32}man{\k46}na{\k34}ka
+Dialogue: 0,0:00:15.96,0:00:19.39,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k16}BIG{\k15}GER {\k17}THAN {\k44}WOO{\k33}FER {\k19}ji{\k12}wa{\k20}ji{\k15}wa {\k18}ku{\k24}ru
+Dialogue: 0,0:00:18.31,0:00:20.83,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k35}ju{\k34}tei{\k73}on
+Dialogue: 0,0:00:19.81,0:00:22.08,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k13}ne{\k18}tsu {\k17}wo {\k30}mot{\k39}ta
+Dialogue: 0,0:00:20.76,0:00:22.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k57}Yeah
+Dialogue: 0,0:00:21.06,0:00:23.44,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k17}kan{\k19}jou {\k14}no {\k33}na{\k17}mi {\k28}ga
+Dialogue: 0,0:00:22.34,0:00:24.74,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k10}zen{\k26}shin {\k16}wo {\k16}me{\k16}gu{\k46}ru
+Dialogue: 0,0:00:23.28,0:00:24.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}No
+Dialogue: 0,0:00:23.76,0:00:26.03,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k25}How {\k10}you {\k51}fee{\k31}ling?
+Dialogue: 0,0:00:24.94,0:00:29.73,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k15}ha{\k16}ji{\k17}me{\k48}te {\k48}no {\k33}shou{\k21}ge{\k27}ki {\k16}ni {\k15}to{\k17}ma{\k29}dou {\k34}yo{\k33}ri
+Dialogue: 0,0:00:28.63,0:00:31.16,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k16}Get {\k8}it {\k40}three {\k48}six{\k31}ty
+Dialogue: 0,0:00:30.06,0:00:35.19,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k31}zen{\k19}shi{\k48}n {\k47}de {\k29}a{\k27}ji{\k40}wai {\k16}tsu{\k20}ku{\k12}su {\k17}to {\k46}i{\k51}i
+Dialogue: 0,0:00:35.06,0:00:37.71,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k20}i{\k27}ma {\kf108}ga
+Dialogue: 0,0:00:36.94,0:00:40.53,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k37}PEAK {\k30}nan{\k28}ka {\k21}ja {\k33}nai {\kf100}wa
+Dialogue: 0,0:00:40.01,0:00:44.96,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k16}ko{\k31}ko {\k21}ka{\k123}ra {\k12}ha{\k42}ji{\k31}ma{\k14}ru {\k33}hon{\k62}ban
+Dialogue: 0,0:00:43.66,0:00:47.62,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k36}zut{\k19}to {\k32}RE{\k47}PEA{\k13}T {\k50}su{\k18}ru {\k71}wa
+Dialogue: 0,0:00:46.89,0:00:50.18,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k35}ki{\k15}mi {\k18}no {\k14}mi{\k18}mi{\k16}mo{\k32}to {\k71}de
+Dialogue: 0,0:00:49.18,0:00:51.46,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k21}na{\k26}n{\k71}do
+Dialogue: 0,0:00:50.44,0:00:52.76,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k16}dat{\k32}te {\k74}CALL
+Dialogue: 0,0:00:51.66,0:00:55.38,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k26}su{\k30}ru {\kf206}no
+Dialogue: 0,0:00:53.98,0:00:57.03,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k17}i{\k14}ma {\k17}ki{\k14}ka{\k18}se{\k16}te {\k32}E{\k67}CHO
+Dialogue: 0,0:00:56.46,0:00:59.11,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Lou{\k33}der {\k32}lou{\k65}der
+Dialogue: 0,0:00:59.11,0:01:04.03,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k31}mu{\k33}ka{\k31}i{\k51}at{\k112}ta {\k15}BRO{\k12}KEN {\k80}HEART{\k17}S
+Dialogue: 0,0:01:04.53,0:01:08.70,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k19}Go{\k32}ing {\kf113}on {\k17}and {\kf126}on
+Dialogue: 0,0:01:08.24,0:01:11.76,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k33}kyo{\k26}u {\k54}ga {\k16}o{\k48}wat{\k15}te {\k50}mo
+Dialogue: 0,0:01:10.66,0:01:13.26,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k32}yo{\k16}bi{\k19}a{\k83}u
+Dialogue: 0,0:01:12.91,0:01:18.98,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k45}mu{\k50}gen {\k18}no {\k48}LOO{\k16}P {\k14}de {\k15}ki{\k19}za{\k14}mu {\k111}HEAR{\k18}T{\kf129}BEAT
+Dialogue: 0,0:01:18.49,0:01:23.28,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k35}ki{\k30}mi {\k51}to {\k15}wa{\k46}ta{\k21}shi {\k38}no {\k39}RHA{\k18}P{\k15}SO{\k61}DY
+Dialogue: 0,0:01:22.03,0:01:24.19,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k19}Get {\k15}it {\k46}lou{\k26}d
+Dialogue: 0,0:01:23.18,0:01:26.71,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k47}mot{\k48}to {\k17}dai{\k49}on{\k14}ryou {\k68}de
+Dialogue: 0,0:01:25.74,0:01:28.16,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k48}E{\kf84}cho
+Dialogue: 0,0:01:27.08,0:01:31.64,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k25}se{\k35}kai {\k32}wo {\k31}yu{\k48}ru{\k43}ga{\k49}su {\kf83}no
+Dialogue: 0,0:01:29.71,0:01:31.99,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k17}Shake {\k19}it {\k16}out {\k25}right {\k41}now
+Dialogue: 0,0:01:30.93,0:01:33.36,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k41}E{\kf92}cho
+Dialogue: 0,0:01:32.28,0:01:34.79,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k16}is{\k21}sho {\k12}ni {\k34}SHOUT {\k39}OU{\k19}T

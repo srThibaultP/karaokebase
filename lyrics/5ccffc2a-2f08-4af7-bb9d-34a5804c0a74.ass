@@ -1,0 +1,81 @@
+﻿[Script Info]
+Title: Hitoshizuku
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: IkuY
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Choir],Arial,24,&H00B75F27,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,120,1
+Style: Dollchestra,Arial,24,&H00FFFFFF,&H00B75F27,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sayaka,Arial,24,&H00FFFFFF,&H00C38353,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kosuzu,Arial,24,&H00FFFFFF,&H0064D7FA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.82,0:00:00.82,Dollchestra,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HB75F27&}Dollchestra{\c} | {\c&HC38353&}Sayaka{\c} | {\c&H64D7FA&}Kosuzu
+Comment: 0,0:00:01.76,0:00:04.15,Sayaka,,0,0,0,karaoke,{\k30}mosh' {\k15}ko{\k13}no {\k30}a{\k17}me {\k41}ga {\k31}a{\k26}gat{\k14}te{\k22}mo
+Comment: 0,0:00:04.40,0:00:06.48,Kosuzu,,0,0,0,karaoke,{\k18}wa{\k15}su{\k27}re{\k16}zu {\k24}ni {\k19}a{\k26}rui{\k31}te{\k14}ku {\k18}yo
+Comment: 0,0:00:06.72,0:00:09.38,Sayaka,,0,0,0,karaoke,{\k32}sa{\k31}i{\k15}sho {\k41}no {\k17}hi{\k14}to{\k28}shi{\k16}zu{\k44}ku {\k28}ni
+Comment: 0,0:00:09.38,0:00:13.01,Kosuzu,,0,0,0,karaoke,{\k25}ka{\k20}o {\k47}a{\k26}ge{\k30}ta {\rDOLLCHESTRA}{\k18}kyo{\k15}u {\k26}no {\k15}bo{\k16}ku {\kf125}wo
+Comment: 0,0:00:19.06,0:00:21.43,Sayaka,,0,0,0,karaoke,{\k33}tou{\k31}mei {\k14}na {\k12}ka{\k32}sa {\k16}de {\k31}tsu{\k28}ku{\k40}ru
+Comment: 0,0:00:21.43,0:00:24.54,Sayaka,,0,0,0,karaoke,{\k19}hi{\k13}to{\k16}ri {\k29}bun {\k12}da{\k32}ke {\k15}no {\k28}se{\k29}ka{\kf118}i
+Comment: 0,0:00:23.81,0:00:25.64,Sample KM [Choir],,0,0,0,karaoke,{\k29}sa{\k13}e{\k18}git{\k15}te {\k16}ka{\k15}ku{\k28}re{\k49}ta
+Comment: 0,0:00:25.28,0:00:28.18,Sayaka,,0,0,0,karaoke,{\k14}so{\k31}t{\k43}to {\k32}ni{\k28}ge {\k31}kon{\k42}de{\k17}i{\k52}ta
+Comment: 0,0:00:28.49,0:00:30.62,Sayaka,,0,0,0,karaoke,{\k18}VI{\k14}N{\k15}Y{\k14}L {\k17}go{\k13}shi {\k29}no {\k15}so{\k28}ra {\k33}ka{\k17}ra
+Comment: 0,0:00:28.19,0:00:31.39,Sample KM [Choir],,0,0,0,karaoke,{\kf121} ah~ {\kf104}ah~ {\kf95}ah~
+Comment: 0,0:00:30.85,0:00:34.09,Sayaka,,0,0,0,karaoke,{\k17}ko{\k15}bo{\k15}re {\k12}o{\k18}chi{\k13}ru {\k28}o{\k13}to {\k33}hi{\k27}bi{\kf133}te
+Comment: 0,0:00:33.46,0:00:35.23,Sample KM [Choir],,0,0,0,karaoke,{\k25}ha{\k9}ji{\k32}ke{\kf56}ta {\k55}aiz'
+Comment: 0,0:00:35.10,0:00:37.73,Sayaka,,0,0,0,karaoke,{\k13}ni{\k23}ji{\k14}mu {\k14}ko{\k15}ko{\k14}ro {\k15}he {\k20}to {\k52}to{\k14}ke{\k69}ta
+Comment: 0,0:00:37.91,0:00:43.34,Kosuzu,,0,0,0,karaoke,{\k30}na{\k12}ki{\k29}ja{\k33}kut{\k29}te{\k30}i{\k70}ru {\k34}ko{\k15}no {\k29}so{\k29}ra {\k28}to {\k31}i{\k28}ko{\kf116}u
+Comment: 0,0:00:42.59,0:00:47.09,Sample KM [Choir],,0,0,0,karaoke,{\k35}AS{\k17}PHA{\k10}L{\k33}T {\k26}so{\k18}me{\k20}te {\k33}i{\k44}ku {\k26}a{\k10}fu{\k26}re {\k29}da{\k29}shi{\k28}ta {\k66}SQUALL
+Comment: 0,0:00:47.31,0:00:51.53,Kosuzu,,0,0,0,karaoke,{\k34}too{\k14}ri {\k26}su{\k31}gir' {\k27}to{\k32}ki {\k74}wo {\k28}ma{\k18}tsu {\k27}da{\k30}ke {\k30}ja {\k31}nak'{\k20}te
+Comment: 0,0:00:51.75,0:00:55.89,Sayaka,,0,0,0,karaoke,{\k29}bo{\k33}ku {\k30}wa {\k25}mi{\k32}tsu{\k27}me{\k32}te{\k26}i{\kf89}tain {\k20}da {\k71}yo
+Comment: 0,0:00:56.30,0:00:58.89,Dollchestra,,0,0,0,karaoke,{\k15}mu{\k16}sho{\k14}ku {\k15}de{\k16}mo {\k15}so{\k15}ko {\k15}ni {\k12}a{\k43}ru {\k17}mo{\kf66}no
+Comment: 0,0:00:59.37,0:01:03.02,Dollchestra,,0,0,0,karaoke,{\k63}ko{\k58}no {\k29}a{\k27}me {\k31}ga {\k15}a{\k43}gat{\k29}te{\k30}ku {\k17}to{\k23}ki
+Comment: 0,0:01:03.24,0:01:05.36,Dollchestra,,0,0,0,karaoke,{\k14}na{\k18}ni{\k27}mo {\k13}na{\k44}kat{\k30}ta {\k29}yo{\k15}u {\k22}ni
+Comment: 0,0:01:05.55,0:01:09.76,Dollchestra,,0,0,0,karaoke,{\k32}ki{\k29}e{\k14}te{\k44}ku {\k30}ka{\k29}sa{\k16}ba{\k43}na {\k29}mi{\k27}tai {\k17}ni {\k27}ko{\k18}ko{\k30}ro {\k36}wa
+Comment: 0,0:01:09.93,0:01:12.44,Dollchestra,,0,0,0,karaoke,{\k32}jou{\k18}zu {\k13}ni {\k30}o{\k13}ri{\k29}ta{\k16}ta{\k31}me{\k28}nai {\k16}ka{\k25}ra
+Comment: 0,0:01:12.58,0:01:15.62,Dollchestra,,0,0,0,karaoke,{\k20}su{\k13}gi {\k31}sat{\k11}te {\k47}shi{\k33}ma{\k24}u {\k24}shu{\k23}n{\k17}ka{\k27}n {\k34}wo
+Comment: 0,0:01:15.86,0:01:21.16,Dollchestra,,0,0,0,karaoke,{\k30}bo{\k29}ku {\k58}wa {\k32}a{\k29}tsu{\k30}me{\k16}ta{\k42}i {\k33}yo {\k27}ah {\k16}hi{\k14}to{\k28}shi{\k16}zu{\k14}ku {\kf116}wo
+Comment: 0,0:01:20.58,0:01:22.77,Sample KM [Choir],,0,0,0,karaoke,{\k30}la {\k31}la {\k29}la {\k14}la {\k12}la {\k30}la {\k19}la {\k10}la {\k19}la
+Comment: 0,0:01:22.86,0:01:23.97,Sample KM [Choir],,0,0,0,karaoke,{\k36}la {\k29}la {\k46}la
+Comment: 0,0:01:24.07,0:01:25.29,Sample KM [Choir],,0,0,0,karaoke,{\k33}la {\k31}la {\k58}la
+Comment: 0,0:01:25.30,0:01:28.65,Sample KM [Choir],,0,0,0,karaoke,{\k29}la {\k30}la {\k26}la {\k31}la {\k30}la {\k28}la {\k28}la {\k19}la {\k10}la {\k34}la {\k28}la {\k42}la
+Comment: 0,0:01:28.82,0:01:30.27,Sample KM [Choir],,0,0,0,karaoke,{\k33}la {\k28}la {\k84}la
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HB75F27&}Dollchestra{\c} | {\c&HC38353&}Sayaka{\c} | {\c&H64D7FA&}Kosuzu
+Dialogue: 0,0:00:00.86,0:00:04.35,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k30}mosh' {\k15}ko{\k13}no {\k30}a{\k17}me {\k41}ga {\k31}a{\k26}gat{\k14}te{\k22}mo
+Dialogue: 0,0:00:03.50,0:00:06.68,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k18}wa{\k15}su{\k27}re{\k16}zu {\k24}ni {\k19}a{\k26}rui{\k31}te{\k14}ku {\k18}yo
+Dialogue: 0,0:00:05.82,0:00:09.58,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k32}sa{\k31}i{\k15}sho {\k41}no {\k17}hi{\k14}to{\k28}shi{\k16}zu{\k44}ku {\k28}ni
+Dialogue: 0,0:00:08.48,0:00:13.21,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ka{\k20}o {\k47}a{\k26}ge{\k30}ta {\rDOLLCHESTRA}{\k18}kyo{\k15}u {\k26}no {\k15}bo{\k16}ku {\kf125}wo
+Dialogue: 0,0:00:18.16,0:00:21.63,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k33}tou{\k31}mei {\k14}na {\k12}ka{\k32}sa {\k16}de {\k31}tsu{\k28}ku{\k40}ru
+Dialogue: 0,0:00:20.53,0:00:24.74,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k19}hi{\k13}to{\k16}ri {\k29}bun {\k12}da{\k32}ke {\k15}no {\k28}se{\k29}ka{\kf118}i
+Dialogue: 0,0:00:22.91,0:00:25.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}sa{\k13}e{\k18}git{\k15}te {\k16}ka{\k15}ku{\k28}re{\k49}ta
+Dialogue: 0,0:00:24.38,0:00:28.38,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k14}so{\k31}t{\k43}to {\k32}ni{\k28}ge {\k31}kon{\k42}de{\k17}i{\k52}ta
+Dialogue: 0,0:00:27.59,0:00:30.82,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k18}VI{\k14}N{\k15}Y{\k14}L {\k17}go{\k13}shi {\k29}no {\k15}so{\k28}ra {\k33}ka{\k17}ra
+Dialogue: 0,0:00:27.29,0:00:31.59,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf121} ah~ {\kf104}ah~ {\kf95}ah~
+Dialogue: 0,0:00:29.95,0:00:34.29,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ko{\k15}bo{\k15}re {\k12}o{\k18}chi{\k13}ru {\k28}o{\k13}to {\k33}hi{\k27}bi{\kf133}te
+Dialogue: 0,0:00:32.56,0:00:35.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ha{\k9}ji{\k32}ke{\kf56}ta {\k55}aiz'
+Dialogue: 0,0:00:34.20,0:00:37.93,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ni{\k23}ji{\k14}mu {\k14}ko{\k15}ko{\k14}ro {\k15}he {\k20}to {\k52}to{\k14}ke{\k69}ta
+Dialogue: 0,0:00:37.01,0:00:43.54,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k30}na{\k12}ki{\k29}ja{\k33}kut{\k29}te{\k30}i{\k70}ru {\k34}ko{\k15}no {\k29}so{\k29}ra {\k28}to {\k31}i{\k28}ko{\kf116}u
+Dialogue: 0,0:00:41.69,0:00:47.29,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}AS{\k17}PHA{\k10}L{\k33}T {\k26}so{\k18}me{\k20}te {\k33}i{\k44}ku {\k26}a{\k10}fu{\k26}re {\k29}da{\k29}shi{\k28}ta {\k66}SQUALL
+Dialogue: 0,0:00:46.41,0:00:51.73,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k34}too{\k14}ri {\k26}su{\k31}gir' {\k27}to{\k32}ki {\k74}wo {\k28}ma{\k18}tsu {\k27}da{\k30}ke {\k30}ja {\k31}nak'{\k20}te
+Dialogue: 0,0:00:50.85,0:00:56.09,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k29}bo{\k33}ku {\k30}wa {\k25}mi{\k32}tsu{\k27}me{\k32}te{\k26}i{\kf89}tain {\k20}da {\k71}yo
+Dialogue: 0,0:00:55.40,0:00:59.09,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k15}mu{\k16}sho{\k14}ku {\k15}de{\k16}mo {\k15}so{\k15}ko {\k15}ni {\k12}a{\k43}ru {\k17}mo{\kf66}no
+Dialogue: 0,0:00:58.47,0:01:03.22,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k63}ko{\k58}no {\k29}a{\k27}me {\k31}ga {\k15}a{\k43}gat{\k29}te{\k30}ku {\k17}to{\k23}ki
+Dialogue: 0,0:01:02.34,0:01:05.56,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k14}na{\k18}ni{\k27}mo {\k13}na{\k44}kat{\k30}ta {\k29}yo{\k15}u {\k22}ni
+Dialogue: 0,0:01:04.65,0:01:09.96,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ki{\k29}e{\k14}te{\k44}ku {\k30}ka{\k29}sa{\k16}ba{\k43}na {\k29}mi{\k27}tai {\k17}ni {\k27}ko{\k18}ko{\k30}ro {\k36}wa
+Dialogue: 0,0:01:09.03,0:01:12.64,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k32}jou{\k18}zu {\k13}ni {\k30}o{\k13}ri{\k29}ta{\k16}ta{\k31}me{\k28}nai {\k16}ka{\k25}ra
+Dialogue: 0,0:01:11.68,0:01:15.82,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k20}su{\k13}gi {\k31}sat{\k11}te {\k47}shi{\k33}ma{\k24}u {\k24}shu{\k23}n{\k17}ka{\k27}n {\k34}wo
+Dialogue: 0,0:01:14.96,0:01:21.36,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k30}bo{\k29}ku {\k58}wa {\k32}a{\k29}tsu{\k30}me{\k16}ta{\k42}i {\k33}yo {\k27}ah {\k16}hi{\k14}to{\k28}shi{\k16}zu{\k14}ku {\kf116}wo
+Dialogue: 0,0:01:19.68,0:01:22.97,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}la {\k31}la {\k29}la {\k14}la {\k12}la {\k30}la {\k19}la {\k10}la {\k19}la
+Dialogue: 0,0:01:21.96,0:01:24.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}la {\k29}la {\k46}la
+Dialogue: 0,0:01:23.17,0:01:25.49,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}la {\k31}la {\k58}la
+Dialogue: 0,0:01:24.40,0:01:28.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}la {\k30}la {\k26}la {\k31}la {\k30}la {\k28}la {\k28}la {\k19}la {\k10}la {\k34}la {\k28}la {\k42}la
+Dialogue: 0,0:01:27.92,0:01:30.47,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}la {\k28}la {\k84}la

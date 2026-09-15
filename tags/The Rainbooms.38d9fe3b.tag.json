@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "The Rainbooms"
+    },
+    "name": "The Rainbooms",
+    "repository": "kara.moe",
+    "tid": "38d9fe3b-b5df-4e25-91b6-ae4d4728667a",
+    "types": [
+      17
+    ]
+  }
+}

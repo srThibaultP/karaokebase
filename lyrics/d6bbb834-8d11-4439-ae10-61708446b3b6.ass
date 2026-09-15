@@ -1,0 +1,81 @@
+﻿[Script Info]
+Title: Kimagure Romantic
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Editing: Louis Royer
+Synch Point: Louis Royer
+Original Timing: Louis Royer
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Kaho,Arial,24,&H00FFFFFF,&H0000B5F8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Ginko,Arial,24,&H00FFFFFF,&H00C3CF23,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Cerise Bouquet,Arial,24,&H00FFFFFF,&H00C29EF0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:02.90,0:00:02.90,Cerise Bouquet,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HC29EF0&}Cerise Bouquet{\c} | {\c&H00B5F8&}Kaho{\c} | {\c&HC3CF23&}Ginko
+Comment: 0,0:00:15.06,0:00:16.08,Ginko,,0,0,0,karaoke,{\k18}RO{\k34}MAN{\k50}TIC
+Comment: 0,0:00:16.39,0:00:19.88,Ginko,,0,0,0,karaoke,{\k19}ko{\k17}i {\k17}no {\k36}A{\k20}N{\k34}TEN{\k35}NA {\kf171}wa
+Comment: 0,0:00:20.64,0:00:21.60,Ginko,,0,0,0,karaoke,{\k18}a{\k17}ra{\k17}shi {\k41}de
+Comment: 0,0:00:22.04,0:00:25.47,Ginko,,0,0,0,karaoke,{\k17}do{\k19}ko{\k15}ka {\k36}he {\k37}ton{\k18}de {\k38}it{\kf163}ta
+Comment: 0,0:00:25.94,0:00:27.39,Ginko,,0,0,0,karaoke,{\k18}u{\k18}so {\k33}de{\k76}shou
+Comment: 0,0:00:27.72,0:00:30.12,Ginko,,0,0,0,karaoke,{\k16}tsu{\k17}me{\k52}ta{\k20}ku {\k18}a{\k17}shi{\k17}ra{\k17}t{\k66}ta
+Comment: 0,0:00:30.52,0:00:33.02,Ginko,,0,0,0,karaoke,{\k20}ko{\k16}sha{\k51}ku {\k14}na {\k21}e{\k22}ku{\k34}bo {\k72}ni
+Comment: 0,0:00:33.49,0:00:34.20,Ginko,,0,0,0,karaoke,{\k38}chot{\k33}to
+Comment: 0,0:00:35.07,0:00:37.21,Ginko,,0,0,0,karaoke,{\k20}ko{\k36}ko{\k20}ro {\k34}ga {\k36}yu{\k18}re{\k18}te{\k32}ru
+Comment: 0,0:00:37.57,0:00:38.52,Kaho,,0,0,0,karaoke,{\k37}hon{\k18}to {\k40}wa
+Comment: 0,0:00:38.98,0:00:42.42,Kaho,,0,0,0,karaoke,{\k32}hon{\k21}ki {\k35}de {\k19}a{\k35}ta{\k35}shi {\kf167}wo
+Comment: 0,0:00:43.22,0:00:44.26,Kaho,,0,0,0,karaoke,{\k17}shi{\k37}kat{\k50}te
+Comment: 0,0:00:44.63,0:00:48.05,Kaho,,0,0,0,karaoke,{\k19}ku{\k19}re{\k15}ru {\k33}dai{\k20}ji {\k36}na {\k37}hi{\kf163}to
+Comment: 0,0:00:48.70,0:00:49.93,Kaho,,0,0,0,karaoke,{\k24}na{\k29}n{\k70}te
+Comment: 0,0:00:50.29,0:00:52.80,Kaho,,0,0,0,karaoke,{\k16}i{\k20}t{\k51}ta{\k19}ra {\k34}a{\k18}i{\k20}tsu {\k73}wa
+Comment: 0,0:00:53.10,0:00:55.64,Kaho,,0,0,0,karaoke,{\k18}to{\k18}ku{\k49}i{\k28}ge {\k30}ni {\k37}na{\k74}ru
+Comment: 0,0:00:56.10,0:00:56.90,Kaho,,0,0,0,karaoke,{\k35}ka{\k29}ra
+Comment: 0,0:00:57.71,0:00:59.76,Kaho,,0,0,0,karaoke,{\k16}mo{\k35}u {\k17}ho{\k37}me{\k17}ta{\k20}ri {\k16}shi{\k16}na{\k31}i
+Comment: 0,0:01:00.52,0:01:03.02,Cerise Bouquet,,0,0,0,karaoke,{\k17}ta{\k51}i{\k20}ku{\k55}tsu {\k15}na {\k35}un{\k35}mei {\k22}ni
+Comment: 0,0:01:03.16,0:01:05.25,Cerise Bouquet,,0,0,0,karaoke,{\k17}a{\k17}ki{\k36}a{\k36}ki{\k34}shi{\k37}ta {\k32}no
+Comment: 0,0:01:06.16,0:01:08.68,Cerise Bouquet,,0,0,0,karaoke,{\k19}shi{\k51}ra{\k17}na{\k53}i {\k20}ko{\k34}to{\k37}ba {\k21}de
+Comment: 0,0:01:08.80,0:01:12.31,Kaho,,0,0,0,karaoke,{\k34}to{\k36}ki{\k37}ha{\k34}na{\k36}shi{\kf110}te {\k33}{\k31}ne
+Comment: 0,0:01:12.68,0:01:15.12,Cerise Bouquet,,0,0,0,karaoke,{\k34}DAR{\k39}LING {\k34}DAR{\k17}LING {\k20}ko{\k18}ko{\k33}ro {\k49}no
+Comment: 0,0:01:15.33,0:01:17.90,Cerise Bouquet,,0,0,0,karaoke,{\k17}to{\k18}bi{\k36}ra {\k51}wo {\k39}ko{\k17}wa{\k17}shi{\k17}te {\k45}yo
+Comment: 0,0:01:18.16,0:01:23.60,Ginko,,0,0,0,karaoke,{\k20}ta{\k17}i{\k33}se{\k53}tsu {\k18}na {\k37}ko{\k34}to {\k53}wa {\k35}me {\k34}wo {\k36}mi{\k71}te {\k70}it{\k33}te
+Comment: 0,0:01:23.98,0:01:26.39,Cerise Bouquet,,0,0,0,karaoke,{\k34}a{\k34}na{\k36}ta {\k38}to {\k17}na{\k35}ra{\k47}ba
+Comment: 0,0:01:26.62,0:01:29.19,Cerise Bouquet,,0,0,0,karaoke,{\k20}ko{\k15}no {\k33}ma{\k57}chi {\k16}wo {\k20}nu{\k16}ke{\k18}da{\k17}se{\k45}ru
+Comment: 0,0:01:29.45,0:01:32.01,Kaho,,0,0,0,karaoke,{\k18}i{\k17}ma {\k35}su{\k53}gu {\k17}tsu{\k37}re{\k35}dash'{\k44}te
+Comment: 0,0:01:32.11,0:01:35.07,Kaho,,0,0,0,karaoke,{\k36}MY {\k34}SWEET {\k33}SWEET {\k58}DA{\k16}R{\kf119}LING
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HC29EF0&}Cerise Bouquet{\c} | {\c&H00B5F8&}Kaho{\c} | {\c&HC3CF23&}Ginko
+Dialogue: 0,0:00:14.16,0:00:16.28,Ginko,,0,0,0,fx,{\k90\fad(300,200)}{\k18}RO{\k34}MAN{\k50}TIC
+Dialogue: 0,0:00:15.49,0:00:20.08,Ginko,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k17}i {\k17}no {\k36}A{\k20}N{\k34}TEN{\k35}NA {\kf171}wa
+Dialogue: 0,0:00:19.74,0:00:21.80,Ginko,,0,0,0,fx,{\k90\fad(300,200)}{\k18}a{\k17}ra{\k17}shi {\k41}de
+Dialogue: 0,0:00:21.14,0:00:25.67,Ginko,,0,0,0,fx,{\k90\fad(300,200)}{\k17}do{\k19}ko{\k15}ka {\k36}he {\k37}ton{\k18}de {\k38}it{\kf163}ta
+Dialogue: 0,0:00:25.04,0:00:27.59,Ginko,,0,0,0,fx,{\k90\fad(300,200)}{\k18}u{\k18}so {\k33}de{\k76}shou
+Dialogue: 0,0:00:26.82,0:00:30.32,Ginko,,0,0,0,fx,{\k90\fad(300,200)}{\k16}tsu{\k17}me{\k52}ta{\k20}ku {\k18}a{\k17}shi{\k17}ra{\k17}t{\k66}ta
+Dialogue: 0,0:00:29.62,0:00:33.22,Ginko,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ko{\k16}sha{\k51}ku {\k14}na {\k21}e{\k22}ku{\k34}bo {\k72}ni
+Dialogue: 0,0:00:32.59,0:00:34.40,Ginko,,0,0,0,fx,{\k90\fad(300,200)}{\k38}chot{\k33}to
+Dialogue: 0,0:00:34.17,0:00:37.41,Ginko,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ko{\k36}ko{\k20}ro {\k34}ga {\k36}yu{\k18}re{\k18}te{\k32}ru
+Dialogue: 0,0:00:36.67,0:00:38.72,Kaho,,0,0,0,fx,{\k90\fad(300,200)}{\k37}hon{\k18}to {\k40}wa
+Dialogue: 0,0:00:38.08,0:00:42.62,Kaho,,0,0,0,fx,{\k90\fad(300,200)}{\k32}hon{\k21}ki {\k35}de {\k19}a{\k35}ta{\k35}shi {\kf167}wo
+Dialogue: 0,0:00:42.32,0:00:44.46,Kaho,,0,0,0,fx,{\k90\fad(300,200)}{\k17}shi{\k37}kat{\k50}te
+Dialogue: 0,0:00:43.73,0:00:48.25,Kaho,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ku{\k19}re{\k15}ru {\k33}dai{\k20}ji {\k36}na {\k37}hi{\kf163}to
+Dialogue: 0,0:00:47.80,0:00:50.13,Kaho,,0,0,0,fx,{\k90\fad(300,200)}{\k24}na{\k29}n{\k70}te
+Dialogue: 0,0:00:49.39,0:00:53.00,Kaho,,0,0,0,fx,{\k90\fad(300,200)}{\k16}i{\k20}t{\k51}ta{\k19}ra {\k34}a{\k18}i{\k20}tsu {\k73}wa
+Dialogue: 0,0:00:52.20,0:00:55.84,Kaho,,0,0,0,fx,{\k90\fad(300,200)}{\k18}to{\k18}ku{\k49}i{\k28}ge {\k30}ni {\k37}na{\k74}ru
+Dialogue: 0,0:00:55.20,0:00:57.10,Kaho,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ka{\k29}ra
+Dialogue: 0,0:00:56.81,0:00:59.96,Kaho,,0,0,0,fx,{\k90\fad(300,200)}{\k16}mo{\k35}u {\k17}ho{\k37}me{\k17}ta{\k20}ri {\k16}shi{\k16}na{\k31}i
+Dialogue: 0,0:00:59.62,0:01:03.22,Cerise Bouquet,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ta{\k51}i{\k20}ku{\k55}tsu {\k15}na {\k35}un{\k35}mei {\k22}ni
+Dialogue: 0,0:01:02.26,0:01:05.45,Cerise Bouquet,,0,0,0,fx,{\k90\fad(300,200)}{\k17}a{\k17}ki{\k36}a{\k36}ki{\k34}shi{\k37}ta {\k32}no
+Dialogue: 0,0:01:05.26,0:01:08.88,Cerise Bouquet,,0,0,0,fx,{\k90\fad(300,200)}{\k19}shi{\k51}ra{\k17}na{\k53}i {\k20}ko{\k34}to{\k37}ba {\k21}de
+Dialogue: 0,0:01:07.90,0:01:12.51,Kaho,,0,0,0,fx,{\k90\fad(300,200)}{\k34}to{\k36}ki{\k37}ha{\k34}na{\k36}shi{\kf110}te {\k33}{\k31}ne
+Dialogue: 0,0:01:11.78,0:01:15.32,Cerise Bouquet,,0,0,0,fx,{\k90\fad(300,200)}{\k34}DAR{\k39}LING {\k34}DAR{\k17}LING {\k20}ko{\k18}ko{\k33}ro {\k49}no
+Dialogue: 0,0:01:14.43,0:01:18.10,Cerise Bouquet,,0,0,0,fx,{\k90\fad(300,200)}{\k17}to{\k18}bi{\k36}ra {\k51}wo {\k39}ko{\k17}wa{\k17}shi{\k17}te {\k45}yo
+Dialogue: 0,0:01:17.26,0:01:23.80,Ginko,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ta{\k17}i{\k33}se{\k53}tsu {\k18}na {\k37}ko{\k34}to {\k53}wa {\k35}me {\k34}wo {\k36}mi{\k71}te {\k70}it{\k33}te
+Dialogue: 0,0:01:23.08,0:01:26.59,Cerise Bouquet,,0,0,0,fx,{\k90\fad(300,200)}{\k34}a{\k34}na{\k36}ta {\k38}to {\k17}na{\k35}ra{\k47}ba
+Dialogue: 0,0:01:25.72,0:01:29.39,Cerise Bouquet,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ko{\k15}no {\k33}ma{\k57}chi {\k16}wo {\k20}nu{\k16}ke{\k18}da{\k17}se{\k45}ru
+Dialogue: 0,0:01:28.55,0:01:32.21,Kaho,,0,0,0,fx,{\k90\fad(300,200)}{\k18}i{\k17}ma {\k35}su{\k53}gu {\k17}tsu{\k37}re{\k35}dash'{\k44}te
+Dialogue: 0,0:01:31.21,0:01:35.27,Kaho,,0,0,0,fx,{\k90\fad(300,200)}{\k36}MY {\k34}SWEET {\k33}SWEET {\k58}DA{\k16}R{\kf119}LING

@@ -1,0 +1,95 @@
+﻿[Script Info]
+Title: Night Pool
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Fran,Arial,24,&H00FFFFFF,&H00B2FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kana,Arial,24,&H00FFFFFF,&H00888888,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Miho,Arial,24,&H00FFFFFF,&H00FE2BC2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: IIIX,Arial,24,&H00FFFFFF,&H000079FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:05.88,Fran,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦ "!
+Comment: 0,0:00:00.00,0:00:05.88,Kana,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♥ "!
+Comment: 0,0:00:00.00,0:00:05.88,IIIX,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"● "!
+Comment: 0,0:00:00.00,0:00:05.88,Miho,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♠ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Choir],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:05.68,Sample KM [Choir],,0,0,0,karaoke,{\k1000\pos(179.73,224)}{\k0}{\2cHFFFFFF}♦ {\rFran}Fran {\2cHFFFFFF}| ♥ {\rKana}Kana {\2cHFFFFFF}| ♠ {\rMiho}Miho {\2cHFFFFFF}| ● {\rIIIX}IIIX
+Comment: 0,0:00:14.06,0:00:18.29,Fran,,0,0,0,karaoke,{\k22}ku{\k19}ra{\k23}ya{\k20}mi {\k55}no {\k20}na{\k20}ka {\k30}no {\k25}mi{\k21}na{\k58}mo {\k16}u{\k43}tsu{\k51}ru
+Comment: 0,0:00:18.51,0:00:21.41,Kana,,0,0,0,karaoke,{\k25}shin {\k14}no {\k32}su{\k30}ga{\k19}ta {\k59}to {\k18}DIS{\k29}TOR{\k64}TION
+Comment: 0,0:00:21.64,0:00:24.26,Miho,,0,0,0,karaoke,{\k18}mi{\k22}tsu{\k30}me{\k21}ru {\k26}ho{\k55}do {\k22}yu{\k37}ga{\k31}mu
+Comment: 0,0:00:24.36,0:00:25.11,Fran,,0,0,0,karaoke,{\k37}mot{\k38}to
+Comment: 0,0:00:24.73,0:00:26.41,Kana,,0,0,0,karaoke,{\k22}ko{\k16}no {\k30}kan{\k29}ka{\k21}ku {\k50}wo
+Comment: 0,0:00:26.46,0:00:27.71,Miho,,0,0,0,karaoke,{\k39}Can {\k19}you {\k21}feel {\k46}it?
+Comment: 0,0:00:28.03,0:00:31.73,Fran,,0,0,0,karaoke,{\k18}na{\k40}ge{\k16}i{\k43}re{\k36}ta {\k40}ko{\k36}i{\kf141}shi
+Comment: 0,0:00:30.88,0:00:32.84,Kana,,0,0,0,karaoke,{\k22}sa{\k17}za{\k28}na{\k35}mi {\k13}THEY'RE {\k29}WA{\k18}VING {\k16}AT {\k18}ME
+Comment: 0,0:00:32.68,0:00:35.43,Miho,,0,0,0,karaoke,{\k17}do{\k32}ko {\k28}ma{\k20}de {\kf178}mo
+Comment: 0,0:00:34.16,0:00:37.71,Fran,,0,0,0,karaoke,{\k18}tsu{\k26}zu{\k36}ki {\k47}sou {\k33}na {\k40}FRE{\k36}QUEN{\kf119}CY
+Comment: 0,0:00:37.11,0:00:38.06,Kana,,0,0,0,karaoke,{\k17}ko{\k22}e{\k20}te {\k36}ku
+Comment: 0,0:00:38.46,0:00:40.19,Miho,,0,0,0,karaoke,{\k41}don{\k16}na {\k23}ka{\k18}be {\k39}dat{\k36}te
+Comment: 0,0:00:40.14,0:00:41.09,Sample KM [Choir],,0,0,0,karaoke,{\k28}Swim{\k14}ming {\k24}swim{\k29}ming
+Comment: 0,0:00:41.14,0:00:42.99,Sample KM [Choir],,0,0,0,karaoke,{\k20}sa{\k18}ka{\k24}rau {\k14}G{\k24}RA{\k19}VI{\k66}TY
+Comment: 0,0:00:43.23,0:00:46.23,Sample KM [Choir],,0,0,0,karaoke,{\k25}i{\k60}ki {\k12}to{\k7}me{\k20}te {\k12}to{\k9}bi{\k19}ko{\k12}mu {\k13}sa{\k13}ki {\k20}wa {\k18}nu{\k60}ma?
+Comment: 0,0:00:46.23,0:00:49.28,Miho,,0,0,0,karaoke,{\k16}mot' {\k22}so{\k19}ko {\k38}he {\k20}ta{\k19}do{\k15}ri{\k15}tsu{\k9}i{\k21}ta {\k5}so{\k6}no {\k24}sa{\k12}ki {\k64}wa
+Comment: 0,0:00:49.51,0:00:50.66,Fran,,0,0,0,karaoke,{\k16}mi{\k43}chi {\k15}no {\k22}se{\k19}kai
+Comment: 0,0:00:50.66,0:00:52.48,Fran,,0,0,0,karaoke,{\k21}No{\k19}bo{\k30}dy's {\k51}seen {\k61}it
+Comment: 0,0:00:52.79,0:00:54.84,IIIX,,0,0,0,karaoke,{\k18}ko{\k42}ko {\k19}wa {\k58}NIGHT {\k68}POOL
+Comment: 0,0:00:55.11,0:00:57.94,IIIX,,0,0,0,karaoke,{\k40}ko{\k16}wa{\k75}su {\k24}shi{\k18}ke{\k42}ta {\k36}RU{\k32}LES
+Comment: 0,0:00:58.79,0:01:01.03,Miho,,0,0,0,karaoke,{\k21}to{\k18}bi{\k31}ko{\k27}n{\k20}de {\k40}NIGHT {\k67}POOL
+Comment: 0,0:01:01.33,0:01:02.56,Miho,,0,0,0,karaoke,{\k37}I'm {\k20}with {\k66}you
+Comment: 0,0:01:02.61,0:01:03.99,Miho,,0,0,0,karaoke,{\k26}Fee{\k16}ling {\k42}so {\k54}good
+Comment: 0,0:01:05.19,0:01:11.18,Kana,,0,0,0,karaoke,{\k20}ko{\k30}bo{\k32}re{\k32}ru {\k15}shi{\k25}zu{\k74}ku {\k43}tsu{\k19}ta{\k78}u {\k21}ku{\k17}chi{\k58}bi{\k40}ru {\k38}uh {\k57}uh
+Comment: 0,0:01:11.38,0:01:13.39,Fran,,0,0,0,karaoke,{\k17}mi{\k32}tsu{\k28}me{\k20}te {\k39}NIGHT {\k65}POOL
+Comment: 0,0:01:13.69,0:01:18.84,Fran,,0,0,0,karaoke,{\k41}yon{\k18}de{\k76}ru {\k41}ko{\k57}e {\k53}no {\k64}su{\k54}ru {\k42}hou {\k69}he
+Comment: 0,0:01:19.13,0:01:20.66,IIIX,,0,0,0,karaoke,{\k18}I'm {\k26}cal{\k31}ling {\k20}I'm {\k28}cal{\k30}ling
+Comment: 0,0:01:20.68,0:01:23.96,Miho,,0,0,0,karaoke,{\k37}yuu{\k20}ki {\k30}da{\k8}shi{\kf233}te
+Comment: 0,0:01:22.21,0:01:23.76,IIIX,,0,0,0,karaoke,{\k18}I'm {\k26}cal{\k31}ling {\k20}I'm {\k28}cal{\k32}ling
+Comment: 0,0:01:23.76,0:01:26.86,Kana,,0,0,0,karaoke,{\k35}I'm {\k43}cal{\k20}ling {\kf212}you
+Comment: 0,0:01:25.13,0:01:26.86,IIIX,,0,0,0,karaoke,{\k35}I'm {\k28}cal{\k33}ling {\k17}I'm {\k27}cal{\k33}ling
+Comment: 0,0:01:26.86,0:01:30.31,Fran,,0,0,0,karaoke,{\k39}to{\k19}bi{\k24}ko{\k15}mu {\kf248}no
+Comment: 0,0:01:28.41,0:01:29.16,IIIX,,0,0,0,karaoke,{\k18}I'm {\k28}cal{\k29}ling
+Comment: 0,0:01:29.16,0:01:34.09,IIIX,,0,0,0,karaoke,{\k17}Dive {\k40}in{\k22}to {\k40}the {\k37}night {\kf337}pool
+Dialogue: 0,0:00:00.00,0:00:05.88,Sample KM [Choir],,0,0,0,fx,{\k0\fad(0,200)}{\k1000\pos(179.73,224)}{\k0}{\2cHFFFFFF}♦ {\rFran}Fran {\2cHFFFFFF}| ♥ {\rKana}Kana {\2cHFFFFFF}| ♠ {\rMiho}Miho {\2cHFFFFFF}| ● {\rIIIX}IIIX
+Dialogue: 0,0:00:13.16,0:00:18.49,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k22}ku{\k19}ra{\k23}ya{\k20}mi {\k55}no {\k20}na{\k20}ka {\k30}no {\k25}mi{\k21}na{\k58}mo {\k16}u{\k43}tsu{\k51}ru
+Dialogue: 0,0:00:17.61,0:00:21.61,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k25}shin {\k14}no {\k32}su{\k30}ga{\k19}ta {\k59}to {\k18}DIS{\k29}TOR{\k64}TION
+Dialogue: 0,0:00:20.74,0:00:24.46,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k18}mi{\k22}tsu{\k30}me{\k21}ru {\k26}ho{\k55}do {\k22}yu{\k37}ga{\k31}mu
+Dialogue: 0,0:00:23.46,0:00:25.31,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k37}mot{\k38}to
+Dialogue: 0,0:00:23.83,0:00:26.61,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k22}ko{\k16}no {\k30}kan{\k29}ka{\k21}ku {\k50}wo
+Dialogue: 0,0:00:25.56,0:00:27.91,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k39}Can {\k19}you {\k21}feel {\k46}it?
+Dialogue: 0,0:00:27.13,0:00:31.93,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k18}na{\k40}ge{\k16}i{\k43}re{\k36}ta {\k40}ko{\k36}i{\kf141}shi
+Dialogue: 0,0:00:29.98,0:00:33.04,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k22}sa{\k17}za{\k28}na{\k35}mi {\k13}THEY'RE {\k29}WA{\k18}VING {\k16}AT {\k18}ME
+Dialogue: 0,0:00:31.78,0:00:35.63,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k17}do{\k32}ko {\k28}ma{\k20}de {\kf178}mo
+Dialogue: 0,0:00:33.26,0:00:37.91,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k18}tsu{\k26}zu{\k36}ki {\k47}sou {\k33}na {\k40}FRE{\k36}QUEN{\kf119}CY
+Dialogue: 0,0:00:36.21,0:00:38.26,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k17}ko{\k22}e{\k20}te {\k36}ku
+Dialogue: 0,0:00:37.56,0:00:40.39,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k41}don{\k16}na {\k23}ka{\k18}be {\k39}dat{\k36}te
+Dialogue: 0,0:00:39.24,0:00:41.29,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Swim{\k14}ming {\k24}swim{\k29}ming
+Dialogue: 0,0:00:40.24,0:00:43.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}sa{\k18}ka{\k24}rau {\k14}G{\k24}RA{\k19}VI{\k66}TY
+Dialogue: 0,0:00:42.33,0:00:46.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}i{\k60}ki {\k12}to{\k7}me{\k20}te {\k12}to{\k9}bi{\k19}ko{\k12}mu {\k13}sa{\k13}ki {\k20}wa {\k18}nu{\k60}ma?
+Dialogue: 0,0:00:45.33,0:00:49.48,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k16}mot' {\k22}so{\k19}ko {\k38}he {\k20}ta{\k19}do{\k15}ri{\k15}tsu{\k9}i{\k21}ta {\k5}so{\k6}no {\k24}sa{\k12}ki {\k64}wa
+Dialogue: 0,0:00:48.61,0:00:50.86,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k16}mi{\k43}chi {\k15}no {\k22}se{\k19}kai
+Dialogue: 0,0:00:49.76,0:00:52.68,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k21}No{\k19}bo{\k30}dy's {\k51}seen {\k61}it
+Dialogue: 0,0:00:51.89,0:00:55.04,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k18}ko{\k42}ko {\k19}wa {\k58}NIGHT {\k68}POOL
+Dialogue: 0,0:00:54.21,0:00:58.14,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k40}ko{\k16}wa{\k75}su {\k24}shi{\k18}ke{\k42}ta {\k36}RU{\k32}LES
+Dialogue: 0,0:00:57.89,0:01:01.23,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k21}to{\k18}bi{\k31}ko{\k27}n{\k20}de {\k40}NIGHT {\k67}POOL
+Dialogue: 0,0:01:00.43,0:01:02.76,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k37}I'm {\k20}with {\k66}you
+Dialogue: 0,0:01:01.71,0:01:04.19,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k26}Fee{\k16}ling {\k42}so {\k54}good
+Dialogue: 0,0:01:04.29,0:01:11.38,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k20}ko{\k30}bo{\k32}re{\k32}ru {\k15}shi{\k25}zu{\k74}ku {\k43}tsu{\k19}ta{\k78}u {\k21}ku{\k17}chi{\k58}bi{\k40}ru {\k38}uh {\k57}uh
+Dialogue: 0,0:01:10.48,0:01:13.59,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k17}mi{\k32}tsu{\k28}me{\k20}te {\k39}NIGHT {\k65}POOL
+Dialogue: 0,0:01:12.79,0:01:19.04,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k41}yon{\k18}de{\k76}ru {\k41}ko{\k57}e {\k53}no {\k64}su{\k54}ru {\k42}hou {\k69}he
+Dialogue: 0,0:01:18.23,0:01:20.86,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k18}I'm {\k26}cal{\k31}ling {\k20}I'm {\k28}cal{\k30}ling
+Dialogue: 0,0:01:19.78,0:01:24.16,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k37}yuu{\k20}ki {\k30}da{\k8}shi{\kf233}te
+Dialogue: 0,0:01:21.31,0:01:23.96,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k18}I'm {\k26}cal{\k31}ling {\k20}I'm {\k28}cal{\k32}ling
+Dialogue: 0,0:01:22.86,0:01:27.06,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k35}I'm {\k43}cal{\k20}ling {\kf212}you
+Dialogue: 0,0:01:24.23,0:01:27.06,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k35}I'm {\k28}cal{\k33}ling {\k17}I'm {\k27}cal{\k33}ling
+Dialogue: 0,0:01:25.96,0:01:30.51,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k39}to{\k19}bi{\k24}ko{\k15}mu {\kf248}no
+Dialogue: 0,0:01:27.51,0:01:29.36,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k18}I'm {\k28}cal{\k29}ling
+Dialogue: 0,0:01:28.26,0:01:34.29,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k17}Dive {\k40}in{\k22}to {\k40}the {\k37}night {\kf337}pool
