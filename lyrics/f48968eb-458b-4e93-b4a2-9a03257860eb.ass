@@ -1,0 +1,37 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Nikoichi Mirai
+Original Timing: HayatoKurokami
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.56,0:00:03.66,Sample KM [Up],,0,0,0,karaoke,{\k34}u{\k18}tsu{\k18}mu{\k19}i{\k69}te {\k36}ta{\k19}me{\k17}i{\k30}ki {\k22}tsu{\k17}i{\k11}te
+Comment: 0,0:00:03.73,0:00:06.30,Sample KM [Up],,0,0,0,karaoke,{\k37}ka{\k11}ku{\k40}shi{\k37}ta {\kf88}hon{\k44}ne
+Comment: 0,0:00:06.55,0:00:08.64,Sample KM [Up],,0,0,0,karaoke,{\k16}fu{\k20}mi{\k17}da{\k17}su {\k20}ta{\k16}bi {\k17}ni {\k19}fu{\k15}ru{\k19}e{\k19}te {\k14}mo
+Comment: 0,0:00:08.84,0:00:11.55,Sample KM [Up],,0,0,0,karaoke,{\k19}“ka{\k17}wa{\k18}ri{\k36}tai!” {\k16}ki{\k26}mo{\k27}chi {\k35}u{\k20}so {\k18}tsu{\k16}ke{\k23}nai!
+Comment: 0,0:00:11.66,0:00:14.45,Sample KM [Up],,0,0,0,karaoke,{\k36}kit{\k19}to {\k17}i{\k16}ma {\k37}wa {\k18}ma{\k17}da {\k16}to{\k40}o{\k15}i {\k17}yu{\k31}me
+Comment: 0,0:00:14.51,0:00:17.09,Sample KM [Up],,0,0,0,karaoke,{\k15}ki{\k20}mi {\k16}to {\k18}o{\k18}i{\k16}ka{\k20}ke{\k17}ta{\k17}i'{\k18}n {\kf83}da
+Comment: 0,0:00:16.58,0:00:17.80,Sample KM [Choir],,0,0,0,karaoke,{\k36}TO {\k20}BE {\k36}WITH {\k30}YOU
+Comment: 0,0:00:17.30,0:00:20.27,Sample KM [Up],,0,0,0,karaoke,{\k20}chi{\k17}ga{\k17}u {\k18}i{\k20}ro {\k14}no {\k20}mi{\k51}rai {\k36}na{\k17}ra{\k20}be{\k17}te {\k30}mo
+Comment: 0,0:00:20.31,0:00:23.22,Sample KM [Up],,0,0,0,karaoke,{\k36}o{\k18}na{\k17}ji {\k19}yu{\k34}me {\k18}e{\k18}ga{\k88}kou {\k43}yo
+Comment: 0,0:00:23.49,0:00:27.77,Sample KM [Up],,0,0,0,karaoke,{\k37}ki{\k17}mi {\k70}ga {\k32}yuu{\k21}ki {\k17}wo {\k17}ku{\k19}re{\k17}ru {\k36}ka{\kf145}ra
+Dialogue: 0,0:00:00.00,0:00:03.86,Sample KM [Up],,0,0,0,fx,{\k56\fad(560,200)}{\k34}u{\k18}tsu{\k18}mu{\k19}i{\k69}te {\k36}ta{\k19}me{\k17}i{\k30}ki {\k22}tsu{\k17}i{\k11}te
+Dialogue: 0,0:00:02.83,0:00:06.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}ka{\k11}ku{\k40}shi{\k37}ta {\kf88}hon{\k44}ne
+Dialogue: 0,0:00:05.65,0:00:08.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}fu{\k20}mi{\k17}da{\k17}su {\k20}ta{\k16}bi {\k17}ni {\k19}fu{\k15}ru{\k19}e{\k19}te {\k14}mo
+Dialogue: 0,0:00:07.94,0:00:11.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}“ka{\k17}wa{\k18}ri{\k36}tai!” {\k16}ki{\k26}mo{\k27}chi {\k35}u{\k20}so {\k18}tsu{\k16}ke{\k23}nai!
+Dialogue: 0,0:00:10.76,0:00:14.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}kit{\k19}to {\k17}i{\k16}ma {\k37}wa {\k18}ma{\k17}da {\k16}to{\k40}o{\k15}i {\k17}yu{\k31}me
+Dialogue: 0,0:00:13.61,0:00:17.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}ki{\k20}mi {\k16}to {\k18}o{\k18}i{\k16}ka{\k20}ke{\k17}ta{\k17}i'{\k18}n {\kf83}da
+Dialogue: 0,0:00:15.68,0:00:18.00,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}TO {\k20}BE {\k36}WITH {\k30}YOU
+Dialogue: 0,0:00:16.40,0:00:20.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}chi{\k17}ga{\k17}u {\k18}i{\k20}ro {\k14}no {\k20}mi{\k51}rai {\k36}na{\k17}ra{\k20}be{\k17}te {\k30}mo
+Dialogue: 0,0:00:19.41,0:00:23.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}o{\k18}na{\k17}ji {\k19}yu{\k34}me {\k18}e{\k18}ga{\k88}kou {\k43}yo
+Dialogue: 0,0:00:22.59,0:00:27.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}ki{\k17}mi {\k70}ga {\k32}yuu{\k21}ki {\k17}wo {\k17}ku{\k19}re{\k17}ru {\k36}ka{\kf145}ra

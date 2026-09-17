@@ -5,13 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Case Closed: Sunflowers of Inferno"
+      "eng": "AtoriE"
     },
-    "name": "Case Closed: Sunflowers of Inferno",
+    "name": "AtoriE",
     "repository": "kara.moe",
-    "tid": "15b2ff22-9f2a-4295-835f-1f6fcbe2eeca",
+    "tid": "3b1eefad-1a1f-46d4-96d1-ae0bbf587dbc",
     "types": [
-      1
+      4
     ]
   }
 }

@@ -1,0 +1,27 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Miboujin"
+    ],
+    "external_database_ids": {
+      "anilist": 212667,
+      "kitsu": 50740,
+      "myanimelist": 64298
+    },
+    "i18n": {
+      "eng": "The Lonely Snow Widow and the Cursed Ring",
+      "qro": "Hitozukiai ga Nigate na Mibôjin no Yukionna-san to Noroi no Yubiwa",
+      "jpn": "人付き合いが苦手な未亡人の雪女さんと呪いの指輪"
+    },
+    "name": "Hitozukiai ga Nigate na Mibôjin no Yukionna-san to Noroi no Yubiwa",
+    "repository": "kara.moe",
+    "tid": "d152aae8-63ad-4a26-91ef-9568cc19ccb6",
+    "types": [
+      1
+    ]
+  }
+}

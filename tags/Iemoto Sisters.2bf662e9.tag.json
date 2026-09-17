@@ -5,13 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Detective Conan: Black Iron Submarine"
+      "eng": "Iemoto Sisters"
     },
-    "name": "Detective Conan: Black Iron Submarine",
+    "name": "Iemoto Sisters",
     "repository": "kara.moe",
-    "tid": "97cdae5b-a713-4234-8f43-9b78629ce03f",
+    "tid": "2bf662e9-b7a3-470f-baeb-4473b76d76d4",
     "types": [
-      1
+      17
     ]
   }
 }

@@ -6,14 +6,14 @@
   "medias": [
     {
       "default": true,
-      "duration": 92,
-      "filename": "f8920449-d2b1-49fc-b2f4-9d6203b04c28.mp4",
-      "filesize": 70549478,
-      "loudnorm": "-23.07,-9.47,5.90,-33.28,-1.27",
+      "duration": 90,
+      "filename": "1bd5cf6b-d725-4ebd-a68e-49bafedbeba5.mp4",
+      "filesize": 39122571,
+      "loudnorm": "-16.04,-4.55,5.30,-26.10,-0.31",
       "lyrics": [
         {
           "default": true,
-          "filename": "f8920449-d2b1-49fc-b2f4-9d6203b04c28.ass",
+          "filename": "1bd5cf6b-d725-4ebd-a68e-49bafedbeba5.ass",
           "version": "Default"
         }
       ],
@@ -21,27 +21,31 @@
     }
   ],
   "data": {
-    "created_at": "2017-10-11T17:01:44.000Z",
+    "created_at": "2026-09-16T21:35:18.921Z",
     "ignoreHooks": false,
-    "kid": "f8920449-d2b1-49fc-b2f4-9d6203b04c28",
-    "modified_at": "2026-09-16T22:14:05.943Z",
+    "kid": "1bd5cf6b-d725-4ebd-a68e-49bafedbeba5",
+    "modified_at": "2026-09-16T22:12:55.315Z",
     "repository": "kara.moe",
-    "songname": "JPN - World Trigger - OP1 - GIRIGIRI",
+    "songname": "JPN - Niji-iro Days - OP1 - Best Friend",
     "songorder": 1,
     "tags": {
       "authors": [
-        "5bdaba57-27f8-4568-8806-76a807728766"
+        "f70c7314-b8d3-4bf4-96a0-dc8b2c5a6c94"
       ],
       "collections": [
         "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
       ],
       "creators": [
-        "f694bf43-b427-4244-9744-9d3f84fd8a31"
+        "fa1cbae7-2b13-45ec-8233-15807fd5f1a3"
       ],
       "families": [
         "0377db02-3af6-43b8-9b08-c759df3d25c3"
       ],
+      "genres": [
+        "8b6ace6f-a59e-4740-b3ff-e1618720383c"
+      ],
       "groups": [
+        "966d1e74-d1f2-41e2-ab04-24279c22f562",
         "ae613721-1fbe-480d-ba6b-d6d0702b184d"
       ],
       "langs": [
@@ -54,7 +58,7 @@
         "938de218-5343-4865-94d3-fb33f2eaa152"
       ],
       "series": [
-        "c2a3b06d-f152-46a1-82c5-7528390df59b"
+        "c55d40f0-c77c-47cc-98f0-e465a8cc64fb"
       ],
       "singergroups": [
         "c7b683e1-4989-4333-a499-07e0b2343492"
@@ -63,17 +67,15 @@
         "f02ad9b3-0bd9-4aad-85b3-9976739ba0e4"
       ],
       "songwriters": [
-        "b8d577cf-1c71-41b0-b1b5-e94c4daa9059",
-        "c7b683e1-4989-4333-a499-07e0b2343492"
-      ],
-      "franchises": [
-        "a0109c2a-8792-4a7b-86f7-b887ed2d8a62"
+        "0c00c452-0551-4609-b4bc-e5f8b64ddc91",
+        "b302c060-31fe-4078-9d26-df27b12b260f"
       ]
     },
     "titles": {
-      "qro": "GIRIGIRI"
+      "jpn": "ベストフレンド",
+      "qro": "Best Friend"
     },
     "titles_default_language": "qro",
-    "year": 2014
+    "year": 2016
   }
 }

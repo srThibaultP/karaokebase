@@ -25,9 +25,9 @@
     "created_at": "2026-09-15T00:47:39.952Z",
     "ignoreHooks": false,
     "kid": "2230bb8f-7aa5-4c5d-a75c-46cba2f2a793",
-    "modified_at": "2026-09-15T01:16:35.684Z",
+    "modified_at": "2026-09-16T11:10:07.752Z",
     "repository": "kara.moe",
-    "songname": "CHI - Shànghǎi Tān - MV OP - Shànghǎi Tān",
+    "songname": "CHI - Shànghǎi Tān - MV - Shànghǎi Tān",
     "tags": {
       "authors": [
         "ae64db3a-620d-4c0e-9ec8-91146cd2aebf"
@@ -55,8 +55,7 @@
         "4333bbe4-e0f6-44d2-b2d2-bbcb1a31561e"
       ],
       "songtypes": [
-        "7be1b15c-cff8-4b37-a649-5c90f3d569a9",
-        "f02ad9b3-0bd9-4aad-85b3-9976739ba0e4"
+        "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
       ]
     },
     "titles": {

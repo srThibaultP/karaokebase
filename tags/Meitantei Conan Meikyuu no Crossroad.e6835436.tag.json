@@ -5,12 +5,11 @@
   },
   "tag": {
     "aliases": [
-      "Meikyuu",
-      "Detective Conan: Crossroad in the Ancient Capital",
       "Детектив Конан (Фильм 7):На перекрестках древней столицы",
       "Детектив Конан: Кръстопътят в древната столица",
       "المحقق كونان: تقاطع شوارع العاصمة القديمة",
-      "迷宫的十字路口"
+      "迷宫的十字路口",
+      "Meikyuu"
     ],
     "external_database_ids": {
       "anilist": 1366,
@@ -18,13 +17,14 @@
       "myanimelist": 1366
     },
     "i18n": {
+      "eng": "Detective Conan: Crossroad in the Ancient Capital",
+      "fre": "Détective Conan Film 7 : Croisement dans l'ancienne capitale",
       "ger": "Detektiv Conan - 7. Film: Die Kreuzung des Labyrinths",
       "ita": "Detective Conan - La mappa del mistero",
       "jpn": "名探偵コナン 迷宮の十字路(クロスロード)",
       "qro": "Meitantei Conan: Meikyû no Crossroad",
       "spa": "Detective Conan 7 - Cruce en la antigua capital",
-      "tha": "ยอดนักสืบจิ๋วโคนัน เดอะมูฟวี่ 7 ตอน คดีฆาตกรรมแห่งเมืองปริศนา",
-      "fre": "Détective Conan Film 7 : Croisement dans l'ancienne capitale"
+      "tha": "ยอดนักสืบจิ๋วโคนัน เดอะมูฟวี่ 7 ตอน คดีฆาตกรรมแห่งเมืองปริศนา"
     },
     "name": "Meitantei Conan: Meikyû no Crossroad",
     "repository": "kara.moe",

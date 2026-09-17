@@ -5,14 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Sonar Pocket"
+      "eng": "Unknown X"
     },
-    "name": "Sonar Pocket",
+    "name": "Unknown X",
     "repository": "kara.moe",
-    "tid": "c7b683e1-4989-4333-a499-07e0b2343492",
+    "tid": "539cfc30-cf84-4ce6-84bb-450517351481",
     "types": [
-      17,
-      8
+      4
     ]
   }
 }

@@ -5,14 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Sonar Pocket"
+      "eng": "Leina"
     },
-    "name": "Sonar Pocket",
+    "name": "Leina",
     "repository": "kara.moe",
-    "tid": "c7b683e1-4989-4333-a499-07e0b2343492",
+    "tid": "ebc1c86f-6c51-4f5c-a433-361f4084d742",
     "types": [
-      17,
-      8
+      2
     ]
   }
 }

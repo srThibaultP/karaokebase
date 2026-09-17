@@ -5,13 +5,14 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Sonar Pocket"
+      "eng": "Yusuke Ishii",
+      "qro": "Ishii Yusuke",
+      "jpn": "石井裕介"
     },
-    "name": "Sonar Pocket",
+    "name": "Yusuke Ishii",
     "repository": "kara.moe",
-    "tid": "c7b683e1-4989-4333-a499-07e0b2343492",
+    "tid": "cbf5714e-bbb0-4bd8-b8d6-13d8a1fcf3a8",
     "types": [
-      17,
       8
     ]
   }

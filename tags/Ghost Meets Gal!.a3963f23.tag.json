@@ -1,0 +1,24 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "external_database_ids": {
+      "anilist": 214703,
+      "kitsu": 50866,
+      "myanimelist": 64718
+    },
+    "i18n": {
+      "eng": "Ghost Meets Gal!",
+      "jpn": "ごーすと・みーつ・ぎゃる！",
+      "qro": "Ghost Meets Gal!"
+    },
+    "name": "Ghost Meets Gal!",
+    "repository": "kara.moe",
+    "tid": "a3963f23-77fa-4084-b4f1-2e14258c5b14",
+    "types": [
+      1
+    ]
+  }
+}

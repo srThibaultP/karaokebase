@@ -6,14 +6,14 @@
   "medias": [
     {
       "default": true,
-      "duration": 180,
-      "filename": "87424bdc-fb70-43c8-a41e-4b233475eb1a.mp4",
-      "filesize": 35052838,
-      "loudnorm": "-6.70,1.45,3.50,-16.80,-0.59",
+      "duration": 177,
+      "filename": "b7dc5a4a-7f83-4e79-a148-1cb0dc90c8c4.mp4",
+      "filesize": 17581344,
+      "loudnorm": "-6.40,1.49,0.90,-16.51,-0.16",
       "lyrics": [
         {
           "default": true,
-          "filename": "87424bdc-fb70-43c8-a41e-4b233475eb1a.ass",
+          "filename": "b7dc5a4a-7f83-4e79-a148-1cb0dc90c8c4.ass",
           "version": "Default"
         }
       ],
@@ -21,16 +21,12 @@
     }
   ],
   "data": {
-    "comment": "I did my best to distinguish Kaito's solo moments and the duets, but Miku's voice is very faint in the background so it might be wrong still. Mostly based on the division written down on vocaloidlyrics.miraheze.org, with a few modifications",
-    "created_at": "2017-10-11T17:03:00.000Z",
+    "created_at": "2026-09-16T21:04:58.312Z",
     "ignoreHooks": false,
-    "kid": "87424bdc-fb70-43c8-a41e-4b233475eb1a",
-    "modified_at": "2026-09-16T21:12:42.423Z",
-    "parents": [
-      "b7dc5a4a-7f83-4e79-a148-1cb0dc90c8c4"
-    ],
+    "kid": "b7dc5a4a-7f83-4e79-a148-1cb0dc90c8c4",
+    "modified_at": "2026-09-16T21:12:52.022Z",
     "repository": "kara.moe",
-    "songname": "JPN - KAITO, Miku Hatsune - MV - Cantarella ~grace edition~ ~ Alternative Vers",
+    "songname": "JPN - KAITO, Miku Hatsune - MV - Cantarella",
     "tags": {
       "authors": [
         "8c22c899-b3ed-42da-a548-ce00f950798b",
@@ -42,12 +38,15 @@
       "creators": [
         "e63e5ba7-0184-4d3c-b6b4-f96a3eb72ad1"
       ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
       "genres": [
         "45623cae-6d68-4304-a49b-896d1d6f4580"
       ],
       "groups": [
-        "8c22c899-b3ed-42da-a548-ce00f950798b",
-        "ae613721-1fbe-480d-ba6b-d6d0702b184d"
+        "3c14c864-533c-49e6-a3cc-6969f1233775",
+        "8c22c899-b3ed-42da-a548-ce00f950798b"
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
@@ -64,16 +63,13 @@
       ],
       "songwriters": [
         "3983820b-bf9d-4263-bdf7-310753587ef8"
-      ],
-      "versions": [
-        "9f63c359-d1bf-425a-bcf5-b245c2c9211d"
       ]
     },
     "titles": {
-      "eng": "Cantarella ~grace edition~",
-      "jpn": "カンタレラ ~grace edition~"
+      "eng": "Cantarella",
+      "jpn": "カンタレラ"
     },
     "titles_default_language": "eng",
-    "year": 2015
+    "year": 2008
   }
 }

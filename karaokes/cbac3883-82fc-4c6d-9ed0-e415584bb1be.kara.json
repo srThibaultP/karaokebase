@@ -24,7 +24,7 @@
     "created_at": "2024-09-09T12:14:24.720Z",
     "ignoreHooks": false,
     "kid": "cbac3883-82fc-4c6d-9ed0-e415584bb1be",
-    "modified_at": "2025-01-11T14:59:02.632Z",
+    "modified_at": "2026-09-16T11:36:27.152Z",
     "parents": [
       "14cd9ee0-4f79-4f8e-89f9-f2e9ff5a9005"
     ],
@@ -64,6 +64,9 @@
       ],
       "versions": [
         "03e1e1d2-8641-47b7-bbcb-39a3df9ff21c"
+      ],
+      "franchises": [
+        "0263d413-17bb-4cee-a311-6dd896eda1c9"
       ]
     },
     "titles": {

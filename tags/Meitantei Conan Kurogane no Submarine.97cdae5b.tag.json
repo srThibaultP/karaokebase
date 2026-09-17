@@ -1,0 +1,25 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "external_database_ids": {
+      "anilist": 156841,
+      "kitsu": 47435,
+      "myanimelist": 53540
+    },
+    "i18n": {
+      "eng": "Detective Conan: Black Iron Submarine",
+      "qro": "Meitantei Conan: Kurogane no Submarine",
+      "jpn": "名探偵コナン 黒鉄の魚影",
+      "fre": "Détective Conan: Le Sous-Marin Noir"
+    },
+    "name": "Meitantei Conan: Kurogane no Submarine",
+    "repository": "kara.moe",
+    "tid": "97cdae5b-a713-4234-8f43-9b78629ce03f",
+    "types": [
+      1
+    ]
+  }
+}

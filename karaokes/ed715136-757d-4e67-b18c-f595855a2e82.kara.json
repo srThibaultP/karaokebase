@@ -26,7 +26,7 @@
     "from_display_type": "singers",
     "ignoreHooks": false,
     "kid": "ed715136-757d-4e67-b18c-f595855a2e82",
-    "modified_at": "2026-09-15T01:27:08.077Z",
+    "modified_at": "2026-09-16T11:15:04.519Z",
     "parents": [
       "5f2b9386-df2f-4c79-9f4b-2d1fe2aa2a4e"
     ],
@@ -62,9 +62,6 @@
       ],
       "singers": [
         "e6ac54d7-7e22-4a32-9bf7-84848921f029"
-      ],
-      "singergroups": [
-        "c7e6183b-9653-4cac-8652-1c585e7d71f0"
       ],
       "songtypes": [
         "7be1b15c-cff8-4b37-a649-5c90f3d569a9"

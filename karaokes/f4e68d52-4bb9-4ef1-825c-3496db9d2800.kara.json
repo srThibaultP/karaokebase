@@ -1,0 +1,76 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 87,
+      "filename": "f4e68d52-4bb9-4ef1-825c-3496db9d2800.mp4",
+      "filesize": 25159299,
+      "loudnorm": "-22.33,-9.46,7.20,-32.55,-0.94",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "f4e68d52-4bb9-4ef1-825c-3496db9d2800.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-16T21:14:08.231Z",
+    "ignoreHooks": false,
+    "kid": "f4e68d52-4bb9-4ef1-825c-3496db9d2800",
+    "modified_at": "2026-09-16T21:14:08.360Z",
+    "repository": "kara.moe",
+    "songname": "JPN - Hitozukiai ga Nigate na Mibôjin no Yukionna-san to Noroi no Yubiwa - ED - Chou Cream",
+    "tags": {
+      "authors": [
+        "2941868f-535f-4ea6-99f9-a0192e0e4dc7"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "creators": [
+        "3efc6248-4698-4d3c-8610-929c5ce58fd1"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "938de218-5343-4865-94d3-fb33f2eaa152"
+      ],
+      "series": [
+        "d152aae8-63ad-4a26-91ef-9568cc19ccb6"
+      ],
+      "singers": [
+        "ec5add37-c450-4a5d-a2ab-dfa642af431e"
+      ],
+      "songtypes": [
+        "38c77c56-2b95-4040-b676-0994a8cb0597"
+      ],
+      "songwriters": [
+        "ec5add37-c450-4a5d-a2ab-dfa642af431e",
+        "cbf5714e-bbb0-4bd8-b8d6-13d8a1fcf3a8"
+      ],
+      "warnings": [
+        "e82ce681-6d7b-4fb6-abe4-daa8aaa9bbf9"
+      ]
+    },
+    "titles": {
+      "jpn": "シュークリーム",
+      "qro": "Chou Cream"
+    },
+    "titles_default_language": "qro",
+    "year": 2026
+  }
+}

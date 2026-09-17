@@ -1,0 +1,70 @@
+﻿[Script Info]
+Title: Daidaidaidai Daisuki na Kimi he
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Zeflipsplash
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Shiho,Arial,24,&H00FFFFFF,&H00766E9A,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Chiyo,Arial,24,&H00FFFFFF,&H006E3DBF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: All,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sub,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.61,0:00:00.61,Shiho,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:14.32,Shiho,,0,0,220,karaoke,{\k1500}{\k0}{\rShiho}Shiho {\2c&HFFFFFF&}- {\rChiyo}Chiyo
+Comment: 0,0:00:00.00,0:00:14.32,Shiho,,0,0,190,karaoke,{\k1500}{\k0}{\rAll}All
+Comment: 0,0:00:29.99,0:00:31.14,Shiho,,0,0,0,karaoke,{\k32}shi{\k30}se{\k53}n
+Comment: 0,0:00:31.01,0:00:32.25,Sub,,0,0,0,karaoke,{\k30}YOUR {\kf94}EYES
+Comment: 0,0:00:31.99,0:00:33.93,Shiho,,0,0,0,karaoke,{\k27}ka{\k23}n{\k24}ji{\k25}te{\k22}i{\k24}ru{\k49}wa
+Comment: 0,0:00:34.40,0:00:37.05,Shiho,,0,0,0,karaoke,{\k22}ten{\k47}shi{\k26}ko{\k49}u {\k18}go{\k27}shi {\k76}ni
+Comment: 0,0:00:37.68,0:00:39.08,Chiyo,,0,0,0,karaoke,{\k28}chi{\k27}ga{\k85}u
+Comment: 0,0:00:38.61,0:00:39.81,Sub,,0,0,0,karaoke,{\k31}YOU {\k25}DON'T {\k64}KNOW
+Comment: 0,0:00:39.63,0:00:41.69,Chiyo,,0,0,0,karaoke,{\k24}ka{\k23}ku{\k26}se{\k47}nai {\k26}you {\k60}na
+Comment: 0,0:00:42.03,0:00:45.47,Chiyo,,0,0,0,karaoke,{\k10}yo{\k13}wa{\k24}mi {\k23}wa {\k22}mi{\k26}se{\k47}na{\k47}i{\kf132}de
+Comment: 0,0:00:46.49,0:00:48.32,Shiho,,0,0,0,karaoke,{\k50}mas{\k51}su{\k23}gu {\k59}ni
+Comment: 0,0:00:48.69,0:00:53.21,Shiho,,0,0,0,karaoke,{\k23}o{\k41}mo{\k50}i{\k28\rAll}tsu{\k24}ta{\k24}e{\k24}ru {\k45}da{\k28}ke{\k46}da{\kf119}wa
+Comment: 0,0:00:52.21,0:00:54.89,Sub,,0,0,0,karaoke,{\k51}S{\k41}AME {\k55}SHA{\kf121}DOW
+Comment: 0,0:00:54.15,0:00:57.46,Shiho,,0,0,0,karaoke,{\k49}ma{\k47}do{\k25}wa{\k91}shi {\k27}ki{\k45}mo{\k47}shi
+Comment: 0,0:00:57.49,0:01:03.05,Shiho,,0,0,0,karaoke,{\k23}YU{\k44}RA {\k28\rChiyo}YU{\k44}RA {\k28\rAll}sa{\k45}seru {\k25}ko{\k23}wa{\k26}ra{\k47}ga{\k20}na{\k30}i{\kf173}de
+Comment: 0,0:01:04.87,0:01:07.28,All,,0,0,0,karaoke,{\k22}mou {\k24}to{\k26}me{\k24}ra{\k24}re{\k32}nai{\kf89}wa
+Comment: 0,0:01:06.77,0:01:09.17,Sub,,0,0,0,karaoke,{\k23}WE {\k26}CAN{\k22}'T {\k25}STO{\k25}P {\k21}TAN{\k16}K {\k82}LOVE
+Comment: 0,0:01:08.67,0:01:12.02,All,,0,0,0,karaoke,{\k22}ko{\k26}ko{\k24}ro {\k24}wo {\k21}u{\k25}chi{\k24}tsu{\k27}ku{\k23}su {\k33}MIS{\k35}SION {\k51}ne
+Comment: 0,0:01:12.49,0:01:14.83,All,,0,0,0,karaoke,{\k24}mo{\k25}to{\k22}me{\k24}na{\k25}kya {\k35}da{\k79}me
+Comment: 0,0:01:14.37,0:01:16.54,Sub,,0,0,0,karaoke,{\k23}WE {\k26}CAN{\k23}'T {\k24}STO{\k25}P {\k23}TAN{\k11}K {\k62}LOVE
+Comment: 0,0:01:16.29,0:01:20.09,All,,0,0,0,karaoke,{\k25}hon{\k24}to {\k22}ni {\k25}so{\k25}re {\k23}de {\k19}i{\k28}i {\k22}no {\k21}ii{\k20}e {\k33}mot{\kf93}to
+Comment: 0,0:01:20.54,0:01:24.19,Chiyo,,0,0,0,karaoke,{\k28}LO{\k46}VE {\k27\rShiho}LO{\k43}VE {\k48\rAll}shi{\k25}na{\k21}ku{\k26}cha {\k27}de{\k24}sho{\k50}u
+Comment: 0,0:01:24.37,0:01:27.94,Sub,,0,0,0,karaoke,{\k26}LO{\k43}VE {\k29}LO{\k44}VE {\k50}CAN{\k24}'T {\k24}STO{\k24}P {\k24}THE {\k69}HEART
+Comment: 0,0:01:28.19,0:01:35.65,Shiho,,0,0,0,karaoke,{\k26}mi{\k46}te {\k26\rChiyo}mi{\k45}te {\k49\rAll}a{\k25}na{\k23}ta {\k24}no {\k37}TUR{\k32}RE{\k96}T {\k14}fu{\k12}ri{\k22}mu{\k23}ka{\k25}se{\kf221}te
+Comment: 0,0:01:36.27,0:01:39.54,All,,0,0,0,karaoke,{\k14}o{\k10}shi{\k28}e{\k22}te{\k25}a{\k13}ge{\kf215}ru
+Dialogue: 0,0:00:00.00,0:00:14.52,Shiho,,0,0,220,fx,{\k0\fad(0,200)}{\k1500}{\k0}{\rShiho}Shiho {\2c&HFFFFFF&}- {\rChiyo}Chiyo
+Dialogue: 0,0:00:00.00,0:00:14.52,Shiho,,0,0,190,fx,{\k0\fad(0,200)}{\k1500}{\k0}{\rAll}All
+Dialogue: 0,0:00:29.09,0:00:31.34,Shiho,,0,0,0,fx,{\k90\fad(300,200)}{\k32}shi{\k30}se{\k53}n
+Dialogue: 0,0:00:30.11,0:00:32.45,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k30}YOUR {\kf94}EYES
+Dialogue: 0,0:00:31.09,0:00:34.13,Shiho,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ka{\k23}n{\k24}ji{\k25}te{\k22}i{\k24}ru{\k49}wa
+Dialogue: 0,0:00:33.50,0:00:37.25,Shiho,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ten{\k47}shi{\k26}ko{\k49}u {\k18}go{\k27}shi {\k76}ni
+Dialogue: 0,0:00:36.78,0:00:39.28,Chiyo,,0,0,0,fx,{\k90\fad(300,200)}{\k28}chi{\k27}ga{\k85}u
+Dialogue: 0,0:00:37.71,0:00:40.01,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k31}YOU {\k25}DON'T {\k64}KNOW
+Dialogue: 0,0:00:38.73,0:00:41.89,Chiyo,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ka{\k23}ku{\k26}se{\k47}nai {\k26}you {\k60}na
+Dialogue: 0,0:00:41.13,0:00:45.67,Chiyo,,0,0,0,fx,{\k90\fad(300,200)}{\k10}yo{\k13}wa{\k24}mi {\k23}wa {\k22}mi{\k26}se{\k47}na{\k47}i{\kf132}de
+Dialogue: 0,0:00:45.59,0:00:48.52,Shiho,,0,0,0,fx,{\k90\fad(300,200)}{\k50}mas{\k51}su{\k23}gu {\k59}ni
+Dialogue: 0,0:00:47.79,0:00:53.41,Shiho,,0,0,0,fx,{\k90\fad(300,200)}{\k23}o{\k41}mo{\k50}i{\k28\rAll}tsu{\k24}ta{\k24}e{\k24}ru {\k45}da{\k28}ke{\k46}da{\kf119}wa
+Dialogue: 0,0:00:51.31,0:00:55.09,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k51}S{\k41}AME {\k55}SHA{\kf121}DOW
+Dialogue: 0,0:00:53.25,0:00:57.66,Shiho,,0,0,0,fx,{\k90\fad(300,200)}{\k49}ma{\k47}do{\k25}wa{\k91}shi {\k27}ki{\k45}mo{\k47}shi
+Dialogue: 0,0:00:56.59,0:01:03.25,Shiho,,0,0,0,fx,{\k90\fad(300,200)}{\k23}YU{\k44}RA {\k28\rChiyo}YU{\k44}RA {\k28\rAll}sa{\k45}seru {\k25}ko{\k23}wa{\k26}ra{\k47}ga{\k20}na{\k30}i{\kf173}de
+Dialogue: 0,0:01:03.97,0:01:07.48,All,,0,0,0,fx,{\k90\fad(300,200)}{\k22}mou {\k24}to{\k26}me{\k24}ra{\k24}re{\k32}nai{\kf89}wa
+Dialogue: 0,0:01:05.87,0:01:09.37,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k23}WE {\k26}CAN{\k22}'T {\k25}STO{\k25}P {\k21}TAN{\k16}K {\k82}LOVE
+Dialogue: 0,0:01:07.77,0:01:12.22,All,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ko{\k26}ko{\k24}ro {\k24}wo {\k21}u{\k25}chi{\k24}tsu{\k27}ku{\k23}su {\k33}MIS{\k35}SION {\k51}ne
+Dialogue: 0,0:01:11.59,0:01:15.03,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}mo{\k25}to{\k22}me{\k24}na{\k25}kya {\k35}da{\k79}me
+Dialogue: 0,0:01:13.47,0:01:16.74,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k23}WE {\k26}CAN{\k23}'T {\k24}STO{\k25}P {\k23}TAN{\k11}K {\k62}LOVE
+Dialogue: 0,0:01:15.39,0:01:20.29,All,,0,0,0,fx,{\k90\fad(300,200)}{\k25}hon{\k24}to {\k22}ni {\k25}so{\k25}re {\k23}de {\k19}i{\k28}i {\k22}no {\k21}ii{\k20}e {\k33}mot{\kf93}to
+Dialogue: 0,0:01:19.64,0:01:24.39,Chiyo,,0,0,0,fx,{\k90\fad(300,200)}{\k28}LO{\k46}VE {\k27\rShiho}LO{\k43}VE {\k48\rAll}shi{\k25}na{\k21}ku{\k26}cha {\k27}de{\k24}sho{\k50}u
+Dialogue: 0,0:01:23.47,0:01:28.14,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k26}LO{\k43}VE {\k29}LO{\k44}VE {\k50}CAN{\k24}'T {\k24}STO{\k24}P {\k24}THE {\k69}HEART
+Dialogue: 0,0:01:27.29,0:01:35.85,Shiho,,0,0,0,fx,{\k90\fad(300,200)}{\k26}mi{\k46}te {\k26\rChiyo}mi{\k45}te {\k49\rAll}a{\k25}na{\k23}ta {\k24}no {\k37}TUR{\k32}RE{\k96}T {\k14}fu{\k12}ri{\k22}mu{\k23}ka{\k25}se{\kf221}te
+Dialogue: 0,0:01:35.37,0:01:39.74,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}o{\k10}shi{\k28}e{\k22}te{\k25}a{\k13}ge{\kf215}ru

@@ -7,9 +7,9 @@
     {
       "default": true,
       "duration": 122,
-      "filename": "69e134a5-4b9d-425e-b222-54417e7e9506.mp4",
-      "filesize": 14661213,
-      "loudnorm": "-17.07,-4.63,4.00,-27.16,-0.38",
+      "filename": "69e134a5-4b9d-425e-b222-54417e7e9506.webm",
+      "filesize": 21297399,
+      "loudnorm": "-8.50,1.62,7.80,-18.59,-1.83",
       "lyrics": [
         {
           "default": true,
@@ -24,16 +24,18 @@
     "created_at": "2024-12-31T20:39:54.234Z",
     "ignoreHooks": false,
     "kid": "69e134a5-4b9d-425e-b222-54417e7e9506",
-    "modified_at": "2026-09-13T10:16:05.649Z",
+    "modified_at": "2026-09-16T20:48:51.465Z",
     "repository": "kara.moe",
-    "songname": "JPN - Touhou Danmaku Kagura - GAME PV - hodokenai yô ni",
+    "songname": "JPN - Touhou Danmaku Kagura - GAME PV - Hodokenai yô ni",
     "tags": {
       "authors": [
-        "61865310-cb97-496c-a722-364b0a9ba90d",
-        "fb28c6d3-a81e-40c0-9a4c-e3268c60a64b"
+        "61865310-cb97-496c-a722-364b0a9ba90d"
       ],
       "collections": [
         "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "creators": [
+        "539cfc30-cf84-4ce6-84bb-450517351481"
       ],
       "families": [
         "0377db02-3af6-43b8-9b08-c759df3d25c3"
@@ -67,12 +69,12 @@
       ]
     },
     "titles": {
+      "eng": "Never Come Undone",
       "jpn": "解けないように",
-      "qro": "hodokenai yô ni"
+      "qro": "Hodokenai yô ni"
     },
     "titles_aliases": [
       "Tokenai",
-      "Never Come Undone",
       "you"
     ],
     "titles_default_language": "qro",

@@ -1,0 +1,92 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 100,
+      "filename": "19020e10-3967-4aa1-a7ce-ed588a2d75f5.mp4",
+      "filesize": 53680122,
+      "loudnorm": "-20.95,-8.11,7.80,-30.95,-1.68",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "19020e10-3967-4aa1-a7ce-ed588a2d75f5.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-16T21:23:19.827Z",
+    "ignoreHooks": false,
+    "kid": "19020e10-3967-4aa1-a7ce-ed588a2d75f5",
+    "modified_at": "2026-09-16T21:51:03.202Z",
+    "repository": "kara.moe",
+    "songname": "JPN - Girls und Panzer: Motto Love Love Sakusen desu! - MOVIE ED2 - Iie! Motto LOVE Deshô? ~Can't Stop Tank Love~",
+    "songorder": 2,
+    "tags": {
+      "authors": [
+        "8232402b-72f5-48f5-a813-b2a91e5c09b0"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "creators": [
+        "11dd3933-9117-42f4-9fc8-4b6e18109832",
+        "54259fe3-ce0c-4eca-855e-383f2c5be3a9"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "genres": [
+        "caa86df2-0d59-474b-885c-f240a9e891b0"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "misc": [
+        "1d6ceadf-a885-47e5-b23b-c07bf668a424"
+      ],
+      "origins": [
+        "c8ca9dea-d8b4-48fe-8427-d911653232e9"
+      ],
+      "series": [
+        "06f8b4cf-89e5-47b6-b5f2-a6edbe559f69"
+      ],
+      "singers": [
+        "9ce1163d-9e41-4881-b272-4f42dd9aef7b",
+        "b1e3fce0-848c-42cf-8d7e-866da12a343c"
+      ],
+      "singergroups": [
+        "2bf662e9-b7a3-470f-baeb-4473b76d76d4"
+      ],
+      "songtypes": [
+        "38c77c56-2b95-4040-b676-0994a8cb0597"
+      ],
+      "songwriters": [
+        "0035326e-4eba-463d-899d-a154b6a2a744",
+        "2171ee13-d4af-4a9c-8d59-dc098b4d3669"
+      ],
+      "franchises": [
+        "b3a03268-2980-49f0-9e34-1a67c0e6ac57"
+      ]
+    },
+    "titles": {
+      "jpn": "いいえ！もっとLOVEでしょう？ ～Can't Stop Tank Love～",
+      "qro": "Iie! Motto LOVE Deshô? ~Can't Stop Tank Love~"
+    },
+    "titles_aliases": [
+      "deshou",
+      "Deshou?"
+    ],
+    "titles_default_language": "qro",
+    "year": 2026
+  }
+}
