@@ -1,0 +1,135 @@
+﻿[Script Info]
+Title: Eve - Wind's Anthem - Full
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Kylian
+LayoutResX: 0
+LayoutResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default - Group,Arial,24,&H00FFFFFF,&H0018A8EB,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Eve,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: suis,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+Style: Eve Symbol,Arial,24,&H00FFB858,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: suis Symbol,Arial,24,&H00EB4DC1,&H00EB4DC1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default - Group,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Eve,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rEve Symbol\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,suis,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rsuis Symbol\\fs30}●{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HFFB858&}♦ Eve{\c} | {\c&HEB4DC1&}● suis\N\N{\c&H18A8EB&\i1}All{\i0}
+Comment: 0,0:00:33.51,0:00:35.99,Eve,,0,0,0,karaoke,{\k16}ka{\k10}ze {\k12}no {\k37}tsu{\k25}te {\k26}ga {\k22}ha{\k24}kon{\k13}de {\k24}ku{\k13}re{\k26}ru
+Comment: 0,0:00:36.20,0:00:38.01,Eve,,0,0,0,karaoke,{\k22}tsu{\k27}ki {\k49}ni {\k23}o{\k12}do{\k12}re{\k36}ba
+Comment: 0,0:00:38.37,0:00:40.84,Eve,,0,0,0,karaoke,{\k24}yo{\k50}ru {\k19}ni {\k28}so{\k49}ma{\k24}ru {\k14}ma{\k11}do{\k28}u
+Comment: 0,0:00:41.13,0:00:43.74,Eve,,0,0,0,karaoke,{\k19}ka{\k18}wa{\k12}ku {\k38}ho{\k25}do {\k23}ni {\k25}mi{\k22}ta{\k14}sa{\k23}re{\k15}na{\k27}i
+Comment: 0,0:00:43.93,0:00:47.29,Eve,,0,0,0,karaoke,{\k25}ko{\k23}no {\k50}shun{\k48}kan {\k24}ga {\k23}ho{\k37}shi{\k34}ku{\k72}te
+Comment: 0,0:00:47.80,0:00:49.28,suis,,0,0,0,karaoke,{\k25}ma{\k24}da {\k24}wa{\k24}ka{\k15}ra{\k36}nai
+Comment: 0,0:00:49.28,0:00:51.92,suis,,0,0,0,karaoke,{\k22}ma{\k24}yo{\k15}e{\k33}ru {\k25}ko{\k24}hi{\k12}tsu{\k24}ji {\k12}no {\k49}yo{\k24}u
+Comment: 0,0:00:52.17,0:00:53.55,suis,,0,0,0,karaoke,{\k8}na{\k15}ni{\k25}mo{\k12}no {\k25}de {\k11}mo {\k42}nai
+Comment: 0,0:00:53.60,0:00:56.64,suis,,0,0,0,karaoke,{\k25}to{\k25}ku{\k24}be{\k36}tsu {\k37}de {\k24}wa {\k46}nai {\k50}you {\k37}de
+Comment: 0,0:00:56.98,0:00:58.93,suis,,0,0,0,karaoke,{\k24}a{\k24}su {\k24}ga {\k22}ho{\k26}shi{\k51}kat{\k24}ta
+Comment: 0,0:00:59.18,0:01:04.18,suis,,0,0,0,karaoke,{\k16}ta{\k17}do{\k16}ru {\k28}bek’ {\k20}se{\k72}ka{\k25}i {\k50}no {\k25}{\k21}yo{\k73}a{\k24}ke {\k24}he {\k89}to
+Comment: 0,0:01:06.19,0:01:09.89,Default - Group,,0,0,0,karaoke,{\k25}ko{\k24}e {\k23}ga {\k28}hi{\k20}bi{\k73}ku {\k14}ki{\k11}mi {\k49}to {\k48}wa {\k13}ki{\k12}mi {\k30}no
+Comment: 0,0:01:10.09,0:01:13.39,Default - Group,,0,0,0,karaoke,{\k15}i{\k7}tsu{\k24}ka {\k24}wo {\k10}tsu{\k13}na{\k48}gu {\k26}un{\k36}mei {\k36}no {\k51}you {\k40}na
+Comment: 0,0:01:13.43,0:01:17.08,Default - Group,,0,0,0,karaoke,{\k24}ka{\k38}sa{\k28}na{\k14}ri{\k46}a{\k43}u {\k27}kyou{\k37}mei {\k36}no {\k43}AN{\k29}THEM
+Comment: 0,0:01:17.32,0:01:21.36,Default - Group,,0,0,0,karaoke,{\k24}wa{\k34}zu{\k37}ka {\k40}na {\k33}i{\k77}no{\k10}ri {\k11}i{\k69}dak’ {\k16}hi{\k13}bi {\k40}yo
+Comment: 0,0:01:21.67,0:01:25.36,Default - Group,,0,0,0,karaoke,{\k25}da{\k24}re {\k24}yo{\k22}ri {\k26}e{\k74}gai{\k11}ta {\k13}ki{\k24}bou {\k24}o{\k49}mou {\k12}yu{\k12}me {\k29}mo
+Comment: 0,0:01:25.55,0:01:29.63,Default - Group,,0,0,0,karaoke,{\k8}i{\k17}no{\k48}chi {\k15}no {\k10}i{\k47}ro {\k11}ga {\k13}ka{\k37}ga{\k31}ya{\k53}ku {\k50}ma{\k23}ho{\k45}u
+Comment: 0,0:01:29.88,0:01:34.43,suis,,0,0,0,karaoke,{\k27}so{\k40}no {\k32}{\k24}chi{\k26}ka{\k10}ra {\k37}ga {\k48}na{\k24}ku{\k49}tat{\k73}te {\k24}mo{\k41}u
+Comment: 0,0:01:34.76,0:01:38.34,Default - Group,,0,0,0,karaoke,{\k22}ma{\k46}you {\k51}kot’ {\k49}wa {\k44}nai {\kf146}sa
+Comment: 0,0:01:38.58,0:01:40.71,suis,,0,0,0,karaoke,{\k21}fu{\k38}shi{\k37}gi {\k46}na {\k14}hi{\k14}bi {\k43}yo
+Comment: 0,0:01:49.96,0:01:51.27,Default - Group,,0,0,0,karaoke,{\k15}a{\k11}ko{\k14}ga{\k36}re {\k20}da{\k18}ke {\k17}ga
+Comment: 0,0:01:51.31,0:01:53.40,Default - Group,,0,0,0,karaoke,{\k13}ki{\k17}mi {\k13}no {\k5}shi{\k24}sen {\k5}wo {\k12}hi{\k44}ki{\k23}tsu{\k16}ke{\k37}ru
+Comment: 0,0:01:53.74,0:01:55.11,Default - Group,,0,0,0,karaoke,{\k14}A{\k32}BYSS {\k12}no {\k15}o{\k26}ri {\k10}to{\k13}ki {\k15}ni
+Comment: 0,0:01:55.15,0:01:57.18,Default - Group,,0,0,0,karaoke,{\k28}kyou{\k36}chou {\k11}i{\k26}za{\k37}na{\k21}u {\k18}ho{\k26}noo
+Comment: 0,0:01:57.72,0:02:00.16,Default - Group,,0,0,0,karaoke,{\k14}da{\k11}re {\k14}ka {\k32}wo {\k29}shi{\k23}a{\k20}wa{\k16}se {\k19}ni {\k25}sh’ta{\k13}i {\k28}to
+Comment: 0,0:02:00.39,0:02:02.36,Default - Group,,0,0,0,karaoke,{\k26}ne{\k24}ga{\k48}u {\k48}ko{\k25}ko{\k26}ro
+Comment: 0,0:02:02.57,0:02:04.95,Eve,,0,0,0,karaoke,{\k26}ya{\k48}do{\k43}ru {\k51}sen{\k22}ko{\k48}u
+Comment: 0,0:02:05.66,0:02:07.33,Eve,,0,0,0,karaoke,{\k29}so{\k24}re {\k12}wa {\k27}ma{\k34}ru{\k41}de
+Comment: 0,0:02:07.61,0:02:10.05,Eve,,0,0,0,karaoke,{\k27}te{\k23}n {\k14}to {\k26}te{\k34}n {\k28}ga {\k8}tsu{\k24}na{\k14}ga{\k46}ri
+Comment: 0,0:02:10.05,0:02:13.06,Eve,,0,0,0,karaoke,{\k10}u{\k31}tsu{\k21}ku{\k47}shii {\k25}ko {\k13}wo {\k23}e{\k49}gak’ {\k49}you {\k33}de
+Comment: 0,0:02:13.19,0:02:15.38,suis,,0,0,0,karaoke,{\k26}i{\k25}to{\k16}shi{\k32}i {\k22}to {\k27}o{\k24}mo{\k24}e{\k23}ta
+Comment: 0,0:02:15.63,0:02:21.04,suis,,0,0,0,karaoke,{\k16}so{\k15}re {\k15}da{\k17}ke {\k15}de {\k18}se{\k67}ka{\k31}i {\k51}wa {\k20}{\k27}mi{\k71}chi{\k24}te {\k27}i{\kf127}ku
+Comment: 0,0:02:40.52,0:02:42.42,suis,,0,0,0,karaoke,{\k10}a{\k17}ya{\k26}ma{\k9}chi {\k36}mo {\k13}ta{\k13}me{\k20}ra{\k15}i {\k31}mo
+Comment: 0,0:02:42.47,0:02:44.07,suis,,0,0,0,karaoke,{\k26}kou{\k25}kai {\k12}no {\k34}a{\k26}to {\k37}mo
+Comment: 0,0:02:44.40,0:02:47.92,suis,,0,0,0,karaoke,{\k12}so{\k13}no {\k35}su{\k40}be{\k23}te {\k25}wo {\k12}i{\k35}ma {\k25}da{\k32}ki{\k41}shi{\k24}me{\k35}te
+Comment: 0,0:02:48.24,0:02:50.26,Default - Group,,0,0,0,karaoke,{\k22}ka{\k31}ko {\k25}ka{\k25}ra {\k23}mi{\k36}ra{\k13}i {\k27}he
+Comment: 0,0:02:50.45,0:02:55.26,Eve,,0,0,0,karaoke,{\k19}ta{\k15}do{\k15}ru {\k28}bek’ {\k20}se{\k73}ka{\k25}i {\k49}no {\k24}{\k24}yo{\k71}a{\k16}ke {\k11}he {\k91}to
+Comment: 0,0:02:55.72,0:02:59.30,Default - Group,,0,0,0,karaoke,{\k29}ma{\k51}hou {\k45}no {\k54}you {\k37}ni {\k10}tsu{\k33}mu{\k13}i{\k29}de {\k19}i{\k38}ku
+Comment: 0,0:03:00.39,0:03:03.25,Eve,,0,0,0,karaoke,{\k26}ko{\k22}e {\k26}ga {\k23}hi{\k21}bi{\k74}ku {\k14}ki{\k12}mi {\k68}no
+Comment: 0,0:03:03.80,0:03:05.63,Eve,,0,0,0,karaoke,{\k22}ma{\k36}you {\k35}a{\k26}shi{\k25}do{\k12}ri {\k27}wa
+Comment: 0,0:03:05.71,0:03:08.24,Eve,,0,0,0,karaoke,{\k25}tash’{\k37}ka {\k32}na {\k27}mo{\k36}no {\k37}he {\k59}to
+Comment: 0,0:03:08.37,0:03:10.90,suis,,0,0,0,karaoke,{\k25}da{\k24}re {\k26}yo{\k26}ri {\k21}e{\k46}gai{\k13}ta {\k13}ki{\k59}bou
+Comment: 0,0:03:11.02,0:03:13.39,Default - Group,,0,0,0,karaoke,{\k26}chi{\k22}i{\k26}sa{\k36}na {\k36}bou{\k47}ken {\k44}ga
+Comment: 0,0:03:13.45,0:03:15.79,Default - Group,,0,0,0,karaoke,{\k46}oo{\k27}ki{\k32}na {\k12}ki{\k43}se{\k11}ki {\k23}he {\k40}to
+Comment: 0,0:03:15.86,0:03:19.57,Default - Group,,0,0,0,karaoke,{\k26}ko{\k24}e {\k24}ga {\k25}hi{\k22}bi{\k72}ku {\k14}ki{\k12}mi {\k48}to {\k47}wa {\k13}ki{\k14}mi {\k30}no
+Comment: 0,0:03:19.76,0:03:23.00,Default - Group,,0,0,0,karaoke,{\k15}i{\k7}tsu{\k24}ka {\k24}wo {\k11}tsu{\k15}na{\k46}gu {\k26}un{\k36}mei {\k36}no {\k50}you {\k34}na
+Comment: 0,0:03:23.10,0:03:26.73,Default - Group,,0,0,0,karaoke,{\k24}ka{\k40}sa{\k25}na{\k10}ri{\k49}a{\k43}u {\k30}kyou{\k36}mei {\k36}no {\k44}AN{\k26}THEM
+Comment: 0,0:03:27.00,0:03:31.04,Default - Group,,0,0,0,karaoke,{\k24}wa{\k35}zu{\k36}ka {\k38}na {\k35}i{\k76}no{\k12}ri {\k10}i{\k71}dak’ {\k14}hi{\k14}bi {\k39}yo
+Comment: 0,0:03:31.35,0:03:35.03,Default - Group,,0,0,0,karaoke,{\k25}da{\k23}re {\k25}yo{\k22}ri {\k26}e{\k74}gai{\k11}ta {\k13}ki{\k23}bou {\k24}o{\k49}mou {\k12}yu{\k13}me {\k28}mo
+Comment: 0,0:03:35.24,0:03:39.28,Default - Group,,0,0,0,karaoke,{\k10}i{\k15}no{\k47}chi {\k14}no {\k12}i{\k46}ro {\k12}ga {\k13}ka{\k36}ga{\k32}ya{\k53}ku {\k47}ma{\k24}ho{\k43}u
+Comment: 0,0:03:39.56,0:03:44.11,suis,,0,0,0,karaoke,{\k27}so{\k38}no {\k32}{\k24}chi{\k29}ka{\k8}ra {\k35}ga {\k48}na{\k26}ku{\k49}tat{\k73}te {\k25}mo{\k41}u
+Comment: 0,0:03:44.41,0:03:48.01,Default - Group,,0,0,0,karaoke,{\k25}ma{\k47}you {\k50}kot’ {\k48}wa {\k45}nai {\kf145}sa
+Comment: 0,0:03:48.28,0:03:50.60,Eve,,0,0,0,karaoke,{\k22}fu{\k38}shi{\k37}gi {\k46}na {\k16}hi{\k11}bi {\k62}yo
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HFFB858&}♦ Eve{\c} | {\c&HEB4DC1&}● suis\N\N{\c&H18A8EB&\i1}All{\i0}
+Dialogue: 0,0:00:32.61,0:00:36.19,Eve,,0,0,0,fx,{\k90\fad(300,200)}{\rEve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k16}ka{\k10}ze {\k12}no {\k37}tsu{\k25}te {\k26}ga {\k22}ha{\k24}kon{\k13}de {\k24}ku{\k13}re{\k26}ru
+Dialogue: 0,0:00:35.30,0:00:38.21,Eve,,0,0,0,fx,{\k90\fad(300,200)}{\rEve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k22}tsu{\k27}ki {\k49}ni {\k23}o{\k12}do{\k12}re{\k36}ba
+Dialogue: 0,0:00:37.47,0:00:41.04,Eve,,0,0,0,fx,{\k90\fad(300,200)}{\rEve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k24}yo{\k50}ru {\k19}ni {\k28}so{\k49}ma{\k24}ru {\k14}ma{\k11}do{\k28}u
+Dialogue: 0,0:00:40.23,0:00:43.94,Eve,,0,0,0,fx,{\k90\fad(300,200)}{\rEve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k19}ka{\k18}wa{\k12}ku {\k38}ho{\k25}do {\k23}ni {\k25}mi{\k22}ta{\k14}sa{\k23}re{\k15}na{\k27}i
+Dialogue: 0,0:00:43.03,0:00:47.49,Eve,,0,0,0,fx,{\k90\fad(300,200)}{\rEve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k25}ko{\k23}no {\k50}shun{\k48}kan {\k24}ga {\k23}ho{\k37}shi{\k34}ku{\k72}te
+Dialogue: 0,0:00:46.90,0:00:49.48,suis,,0,0,0,fx,{\k90\fad(300,200)}{\rsuis Symbol\fs30}●{\r\fs\4a&HFF&} {\k25}ma{\k24}da {\k24}wa{\k24}ka{\k15}ra{\k36}nai
+Dialogue: 0,0:00:48.38,0:00:52.12,suis,,0,0,0,fx,{\k90\fad(300,200)}{\rsuis Symbol\fs30}●{\r\fs\4a&HFF&} {\k22}ma{\k24}yo{\k15}e{\k33}ru {\k25}ko{\k24}hi{\k12}tsu{\k24}ji {\k12}no {\k49}yo{\k24}u
+Dialogue: 0,0:00:51.27,0:00:53.75,suis,,0,0,0,fx,{\k90\fad(300,200)}{\rsuis Symbol\fs30}●{\r\fs\4a&HFF&} {\k8}na{\k15}ni{\k25}mo{\k12}no {\k25}de {\k11}mo {\k42}nai
+Dialogue: 0,0:00:52.70,0:00:56.84,suis,,0,0,0,fx,{\k90\fad(300,200)}{\rsuis Symbol\fs30}●{\r\fs\4a&HFF&} {\k25}to{\k25}ku{\k24}be{\k36}tsu {\k37}de {\k24}wa {\k46}nai {\k50}you {\k37}de
+Dialogue: 0,0:00:56.08,0:00:59.13,suis,,0,0,0,fx,{\k90\fad(300,200)}{\rsuis Symbol\fs30}●{\r\fs\4a&HFF&} {\k24}a{\k24}su {\k24}ga {\k22}ho{\k26}shi{\k51}kat{\k24}ta
+Dialogue: 0,0:00:58.28,0:01:04.38,suis,,0,0,0,fx,{\k90\fad(300,200)}{\rsuis Symbol\fs30}●{\r\fs\4a&HFF&} {\k16}ta{\k17}do{\k16}ru {\k28}bek’ {\k20}se{\k72}ka{\k25}i {\k50}no {\k25}{\k21}yo{\k73}a{\k24}ke {\k24}he {\k89}to
+Dialogue: 0,0:01:05.29,0:01:10.09,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ko{\k24}e {\k23}ga {\k28}hi{\k20}bi{\k73}ku {\k14}ki{\k11}mi {\k49}to {\k48}wa {\k13}ki{\k12}mi {\k30}no
+Dialogue: 0,0:01:09.19,0:01:13.59,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k15}i{\k7}tsu{\k24}ka {\k24}wo {\k10}tsu{\k13}na{\k48}gu {\k26}un{\k36}mei {\k36}no {\k51}you {\k40}na
+Dialogue: 0,0:01:12.53,0:01:17.28,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ka{\k38}sa{\k28}na{\k14}ri{\k46}a{\k43}u {\k27}kyou{\k37}mei {\k36}no {\k43}AN{\k29}THEM
+Dialogue: 0,0:01:16.42,0:01:21.56,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k24}wa{\k34}zu{\k37}ka {\k40}na {\k33}i{\k77}no{\k10}ri {\k11}i{\k69}dak’ {\k16}hi{\k13}bi {\k40}yo
+Dialogue: 0,0:01:20.77,0:01:25.56,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k25}da{\k24}re {\k24}yo{\k22}ri {\k26}e{\k74}gai{\k11}ta {\k13}ki{\k24}bou {\k24}o{\k49}mou {\k12}yu{\k12}me {\k29}mo
+Dialogue: 0,0:01:24.65,0:01:29.83,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k8}i{\k17}no{\k48}chi {\k15}no {\k10}i{\k47}ro {\k11}ga {\k13}ka{\k37}ga{\k31}ya{\k53}ku {\k50}ma{\k23}ho{\k45}u
+Dialogue: 0,0:01:28.98,0:01:34.63,suis,,0,0,0,fx,{\k90\fad(300,200)}{\rsuis Symbol\fs30}●{\r\fs\4a&HFF&} {\k27}so{\k40}no {\k32}{\k24}chi{\k26}ka{\k10}ra {\k37}ga {\k48}na{\k24}ku{\k49}tat{\k73}te {\k24}mo{\k41}u
+Dialogue: 0,0:01:33.86,0:01:38.54,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ma{\k46}you {\k51}kot’ {\k49}wa {\k44}nai {\kf146}sa
+Dialogue: 0,0:01:37.68,0:01:40.91,suis,,0,0,0,fx,{\k90\fad(300,200)}{\rsuis Symbol\fs30}●{\r\fs\4a&HFF&} {\k21}fu{\k38}shi{\k37}gi {\k46}na {\k14}hi{\k14}bi {\k43}yo
+Dialogue: 0,0:01:49.06,0:01:51.47,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k15}a{\k11}ko{\k14}ga{\k36}re {\k20}da{\k18}ke {\k17}ga
+Dialogue: 0,0:01:50.41,0:01:53.60,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k17}mi {\k13}no {\k5}shi{\k24}sen {\k5}wo {\k12}hi{\k44}ki{\k23}tsu{\k16}ke{\k37}ru
+Dialogue: 0,0:01:52.84,0:01:55.31,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k14}A{\k32}BYSS {\k12}no {\k15}o{\k26}ri {\k10}to{\k13}ki {\k15}ni
+Dialogue: 0,0:01:54.25,0:01:57.38,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k28}kyou{\k36}chou {\k11}i{\k26}za{\k37}na{\k21}u {\k18}ho{\k26}noo
+Dialogue: 0,0:01:56.82,0:02:00.36,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k14}da{\k11}re {\k14}ka {\k32}wo {\k29}shi{\k23}a{\k20}wa{\k16}se {\k19}ni {\k25}sh’ta{\k13}i {\k28}to
+Dialogue: 0,0:01:59.49,0:02:02.56,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ne{\k24}ga{\k48}u {\k48}ko{\k25}ko{\k26}ro
+Dialogue: 0,0:02:01.67,0:02:05.15,Eve,,0,0,0,fx,{\k90\fad(300,200)}{\rEve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k26}ya{\k48}do{\k43}ru {\k51}sen{\k22}ko{\k48}u
+Dialogue: 0,0:02:04.76,0:02:07.53,Eve,,0,0,0,fx,{\k90\fad(300,200)}{\rEve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k29}so{\k24}re {\k12}wa {\k27}ma{\k34}ru{\k41}de
+Dialogue: 0,0:02:06.71,0:02:10.25,Eve,,0,0,0,fx,{\k90\fad(300,200)}{\rEve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k27}te{\k23}n {\k14}to {\k26}te{\k34}n {\k28}ga {\k8}tsu{\k24}na{\k14}ga{\k46}ri
+Dialogue: 0,0:02:09.15,0:02:13.26,Eve,,0,0,0,fx,{\k90\fad(300,200)}{\rEve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k10}u{\k31}tsu{\k21}ku{\k47}shii {\k25}ko {\k13}wo {\k23}e{\k49}gak’ {\k49}you {\k33}de
+Dialogue: 0,0:02:12.29,0:02:15.58,suis,,0,0,0,fx,{\k90\fad(300,200)}{\rsuis Symbol\fs30}●{\r\fs\4a&HFF&} {\k26}i{\k25}to{\k16}shi{\k32}i {\k22}to {\k27}o{\k24}mo{\k24}e{\k23}ta
+Dialogue: 0,0:02:14.73,0:02:21.24,suis,,0,0,0,fx,{\k90\fad(300,200)}{\rsuis Symbol\fs30}●{\r\fs\4a&HFF&} {\k16}so{\k15}re {\k15}da{\k17}ke {\k15}de {\k18}se{\k67}ka{\k31}i {\k51}wa {\k20}{\k27}mi{\k71}chi{\k24}te {\k27}i{\kf127}ku
+Dialogue: 0,0:02:39.62,0:02:42.62,suis,,0,0,0,fx,{\k90\fad(300,200)}{\rsuis Symbol\fs30}●{\r\fs\4a&HFF&} {\k10}a{\k17}ya{\k26}ma{\k9}chi {\k36}mo {\k13}ta{\k13}me{\k20}ra{\k15}i {\k31}mo
+Dialogue: 0,0:02:41.57,0:02:44.27,suis,,0,0,0,fx,{\k90\fad(300,200)}{\rsuis Symbol\fs30}●{\r\fs\4a&HFF&} {\k26}kou{\k25}kai {\k12}no {\k34}a{\k26}to {\k37}mo
+Dialogue: 0,0:02:43.50,0:02:48.12,suis,,0,0,0,fx,{\k90\fad(300,200)}{\rsuis Symbol\fs30}●{\r\fs\4a&HFF&} {\k12}so{\k13}no {\k35}su{\k40}be{\k23}te {\k25}wo {\k12}i{\k35}ma {\k25}da{\k32}ki{\k41}shi{\k24}me{\k35}te
+Dialogue: 0,0:02:47.34,0:02:50.46,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ka{\k31}ko {\k25}ka{\k25}ra {\k23}mi{\k36}ra{\k13}i {\k27}he
+Dialogue: 0,0:02:49.55,0:02:55.46,Eve,,0,0,0,fx,{\k90\fad(300,200)}{\rEve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k19}ta{\k15}do{\k15}ru {\k28}bek’ {\k20}se{\k73}ka{\k25}i {\k49}no {\k24}{\k24}yo{\k71}a{\k16}ke {\k11}he {\k91}to
+Dialogue: 0,0:02:54.82,0:02:59.50,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ma{\k51}hou {\k45}no {\k54}you {\k37}ni {\k10}tsu{\k33}mu{\k13}i{\k29}de {\k19}i{\k38}ku
+Dialogue: 0,0:02:59.49,0:03:03.45,Eve,,0,0,0,fx,{\k90\fad(300,200)}{\rEve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k26}ko{\k22}e {\k26}ga {\k23}hi{\k21}bi{\k74}ku {\k14}ki{\k12}mi {\k68}no
+Dialogue: 0,0:03:02.90,0:03:05.83,Eve,,0,0,0,fx,{\k90\fad(300,200)}{\rEve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k22}ma{\k36}you {\k35}a{\k26}shi{\k25}do{\k12}ri {\k27}wa
+Dialogue: 0,0:03:04.81,0:03:08.44,Eve,,0,0,0,fx,{\k90\fad(300,200)}{\rEve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k25}tash’{\k37}ka {\k32}na {\k27}mo{\k36}no {\k37}he {\k59}to
+Dialogue: 0,0:03:07.47,0:03:11.10,suis,,0,0,0,fx,{\k90\fad(300,200)}{\rsuis Symbol\fs30}●{\r\fs\4a&HFF&} {\k25}da{\k24}re {\k26}yo{\k26}ri {\k21}e{\k46}gai{\k13}ta {\k13}ki{\k59}bou
+Dialogue: 0,0:03:10.12,0:03:13.59,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k26}chi{\k22}i{\k26}sa{\k36}na {\k36}bou{\k47}ken {\k44}ga
+Dialogue: 0,0:03:12.55,0:03:15.99,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k46}oo{\k27}ki{\k32}na {\k12}ki{\k43}se{\k11}ki {\k23}he {\k40}to
+Dialogue: 0,0:03:14.96,0:03:19.77,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ko{\k24}e {\k24}ga {\k25}hi{\k22}bi{\k72}ku {\k14}ki{\k12}mi {\k48}to {\k47}wa {\k13}ki{\k14}mi {\k30}no
+Dialogue: 0,0:03:18.86,0:03:23.20,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k15}i{\k7}tsu{\k24}ka {\k24}wo {\k11}tsu{\k15}na{\k46}gu {\k26}un{\k36}mei {\k36}no {\k50}you {\k34}na
+Dialogue: 0,0:03:22.20,0:03:26.93,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ka{\k40}sa{\k25}na{\k10}ri{\k49}a{\k43}u {\k30}kyou{\k36}mei {\k36}no {\k44}AN{\k26}THEM
+Dialogue: 0,0:03:26.10,0:03:31.24,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k24}wa{\k35}zu{\k36}ka {\k38}na {\k35}i{\k76}no{\k12}ri {\k10}i{\k71}dak’ {\k14}hi{\k14}bi {\k39}yo
+Dialogue: 0,0:03:30.45,0:03:35.23,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k25}da{\k23}re {\k25}yo{\k22}ri {\k26}e{\k74}gai{\k11}ta {\k13}ki{\k23}bou {\k24}o{\k49}mou {\k12}yu{\k13}me {\k28}mo
+Dialogue: 0,0:03:34.34,0:03:39.48,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k10}i{\k15}no{\k47}chi {\k14}no {\k12}i{\k46}ro {\k12}ga {\k13}ka{\k36}ga{\k32}ya{\k53}ku {\k47}ma{\k24}ho{\k43}u
+Dialogue: 0,0:03:38.66,0:03:44.31,suis,,0,0,0,fx,{\k90\fad(300,200)}{\rsuis Symbol\fs30}●{\r\fs\4a&HFF&} {\k27}so{\k38}no {\k32}{\k24}chi{\k29}ka{\k8}ra {\k35}ga {\k48}na{\k26}ku{\k49}tat{\k73}te {\k25}mo{\k41}u
+Dialogue: 0,0:03:43.51,0:03:48.21,Default - Group,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ma{\k47}you {\k50}kot’ {\k48}wa {\k45}nai {\kf145}sa
+Dialogue: 0,0:03:47.38,0:03:50.80,Eve,,0,0,0,fx,{\k90\fad(300,200)}{\rEve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k22}fu{\k38}shi{\k37}gi {\k46}na {\k16}hi{\k11}bi {\k62}yo

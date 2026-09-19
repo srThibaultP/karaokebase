@@ -1,0 +1,79 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 90,
+      "filename": "69859b1e-f806-4e43-8839-9f36591d2869.mp4",
+      "filesize": 31858767,
+      "loudnorm": "-16.08,-6.76,3.10,-26.15,-0.82",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "69859b1e-f806-4e43-8839-9f36591d2869.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-18T17:44:13.340Z",
+    "ignoreHooks": false,
+    "kid": "69859b1e-f806-4e43-8839-9f36591d2869",
+    "modified_at": "2026-09-18T17:46:31.420Z",
+    "repository": "kara.moe",
+    "songname": "JPN - Strike the Blood - ED1 - Strike my soul",
+    "songorder": 1,
+    "tags": {
+      "authors": [
+        "f70c7314-b8d3-4bf4-96a0-dc8b2c5a6c94"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "creators": [
+        "bee26a9b-bc7b-4cdc-9317-6c9ee6707706",
+        "e56bc34a-dcf7-41c8-acc7-66d91957c683"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "groups": [
+        "966d1e74-d1f2-41e2-ab04-24279c22f562",
+        "ae613721-1fbe-480d-ba6b-d6d0702b184d"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "misc": [
+        "fe819ff1-9db8-4a0f-85dc-0e322c9126c4"
+      ],
+      "origins": [
+        "938de218-5343-4865-94d3-fb33f2eaa152"
+      ],
+      "series": [
+        "d8c8bf94-d903-4541-be0a-7589beccc3f0"
+      ],
+      "singers": [
+        "d638c586-47e1-44e4-9976-ad1e47c75c5a"
+      ],
+      "songtypes": [
+        "38c77c56-2b95-4040-b676-0994a8cb0597"
+      ],
+      "songwriters": [
+        "432cd4fc-5504-4e7a-9114-6a607b2af4ad",
+        "5a90ba74-5e7c-4ccb-a054-a95cc78e8522",
+        "9d5e8cc9-76ca-415b-b000-0524cdb3302e"
+      ]
+    },
+    "titles": {
+      "eng": "Strike my soul"
+    },
+    "titles_default_language": "eng",
+    "year": 2013
+  }
+}

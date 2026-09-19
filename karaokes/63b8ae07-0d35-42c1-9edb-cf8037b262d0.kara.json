@@ -1,0 +1,80 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 246,
+      "filename": "63b8ae07-0d35-42c1-9edb-cf8037b262d0.mp3",
+      "filesize": 8128314,
+      "loudnorm": "-5.10,3.42,7.90,-15.51,-0.32",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "63b8ae07-0d35-42c1-9edb-cf8037b262d0.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-19T01:57:13.644Z",
+    "ignoreHooks": false,
+    "kid": "63b8ae07-0d35-42c1-9edb-cf8037b262d0",
+    "modified_at": "2026-09-19T02:04:56.635Z",
+    "repository": "kara.moe",
+    "songname": "ENG, JPN - BanG Dream! Our Notes - GAME AUDIO - A Song Of Romance",
+    "tags": {
+      "authors": [
+        "6d171c11-48ea-4f30-8d43-0b71d6002593"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133",
+        "de5eda1c-5fb3-46a6-9606-d4554fc5a1d6"
+      ],
+      "origins": [
+        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
+      ],
+      "platforms": [
+        "213a1a15-e73a-4a08-b3f6-b6e2745a82e5"
+      ],
+      "series": [
+        "b4ff4cf9-7850-4aca-a849-19418ea85880"
+      ],
+      "singers": [
+        "006feaa5-2550-4ae2-8448-9a11d1061ce1",
+        "1f0e2ce4-7d83-4edf-a05b-9bdd3a32f4f4",
+        "9f1ffb4f-7dfe-4509-b4fe-30b9312b6f57",
+        "a5c02dc9-4484-476d-bf85-b82ea08a8459",
+        "b6be7358-b2ce-419c-b6a9-656b8d20edc4"
+      ],
+      "singergroups": [
+        "735de14b-9be5-49b2-bd0a-351950a75935"
+      ],
+      "songtypes": [
+        "42a262ae-acba-4ab5-a446-c5789c96c821"
+      ],
+      "songwriters": [
+        "0179fe70-a021-4188-b08a-62de55ce39c6",
+        "95929d80-5af4-4fd4-b798-609580af782d"
+      ],
+      "franchises": [
+        "a4465aa7-0b49-44f7-898a-a1373d8e4720"
+      ]
+    },
+    "titles": {
+      "eng": "A Song Of Romance"
+    },
+    "titles_default_language": "eng",
+    "year": 2026
+  }
+}

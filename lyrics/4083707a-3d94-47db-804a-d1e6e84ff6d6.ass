@@ -1,0 +1,153 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Animal
+Original Timing: ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: KM_Up,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: KM_Choir,Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,KM_Up,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:04.90,0:00:06.26,KM_Choir,,0,0,0,karaoke,{\k20}Mm-{\k18}mm-{\k24}mm {\k20}mm-{\k19}mm-{\k35}mm
+Comment: 0,0:00:07.06,0:00:09.48,KM_Up,,0,0,0,karaoke,{\k23}You're {\k18}the {\k64}boss, {\k16}you {\k20}run {\k18}the {\k22}cir{\k21}cus, {\k21}ba{\k19}by
+Comment: 0,0:00:09.87,0:00:12.67,KM_Up,,0,0,0,karaoke,{\k20}Take {\k22}it {\k20}up {\k16}a {\k62}notch, {\k15}you're {\k24}so {\k20}so{\k21}phis{\k19}ti{\k23}ca{\k18}ted
+Comment: 0,0:00:12.90,0:00:14.47,KM_Up,,0,0,0,karaoke,{\k18}Don't {\k19}wan{\k21}na {\k20}be {\k19}on {\k19}a {\k22}sche{\k19}dule
+Comment: 0,0:00:14.47,0:00:16.25,KM_Up,,0,0,0,karaoke,{\k21}You're {\k19}on {\k21}your {\k35}own {\k82}time
+Comment: 0,0:00:17.68,0:00:19.00,KM_Choir,,0,0,0,karaoke,{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Comment: 0,0:00:19.88,0:00:22.53,KM_Up,,0,0,0,karaoke,{\k20}Off {\k19}the {\k62}scale {\k19}that {\k18}goes {\k22}from {\k16}hot {\k22}to {\k20}cra{\k47}zy
+Comment: 0,0:00:23.09,0:00:25.46,KM_Up,,0,0,0,karaoke,{\k17}Fin{\k20}ger{\k60}nails, {\k19}one, {\k22}two, {\k17}three {\k25}co{\k18}lors {\k21}pain{\k18}ted
+Comment: 0,0:00:25.46,0:00:27.31,KM_Up,,0,0,0,karaoke,{\k41}Crop {\k20}top {\k21}and {\k24}bag{\k35}gy {\k44}jeans
+Comment: 0,0:00:27.31,0:00:29.03,KM_Up,,0,0,0,karaoke,{\k17}Hol{\k19}ding {\k18}your {\k43}waist{\k75}line
+Comment: 0,0:00:30.47,0:00:31.79,KM_Choir,,0,0,0,karaoke,{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Comment: 0,0:00:31.83,0:00:34.64,KM_Up,,0,0,0,karaoke,{\k36}You {\k28}make {\k17}the {\k34}light {\k29}and {\k18}the {\k35}sha{\k27}dows {\k21}col{\k36}lide
+Comment: 0,0:00:34.86,0:00:38.07,KM_Up,,0,0,0,karaoke,{\k21}Your {\k32}bo{\k25}dy {\k22}gets {\k33}twis{\k27}ted {\k20}and {\k30}tan{\k31}gled {\k18}in {\k62}mine
+Comment: 0,0:00:38.27,0:00:41.26,KM_Up,,0,0,0,karaoke,{\k37}Love {\k44}so {\k39}good, {\k20}how {\k21}could {\k25}this {\k31}be {\k82}free?
+Comment: 0,0:00:41.26,0:00:43.26,KM_Up,,0,0,0,karaoke,{\k17}I {\k23}keep {\k19}your {\k21}sec{\k17}ret {\k42}safe {\k21}with {\k40}me
+Comment: 0,0:00:43.27,0:00:44.59,KM_Choir,,0,0,0,karaoke,{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Comment: 0,0:00:44.67,0:00:47.69,KM_Up,,0,0,0,karaoke,{\k39}No{\k20}bo{\k22}dy {\k39}knows {\k38}you're {\k22}out{\k18}ta {\k37}con{\k67}trol
+Comment: 0,0:00:47.69,0:00:50.88,KM_Up,,0,0,0,karaoke,{\k14}But {\k44}I {\k20}see {\k21}a {\k39}side {\k41}be{\k21}hind {\k16}the {\k41}closed {\k62}doors
+Comment: 0,0:00:51.07,0:00:53.88,KM_Up,,0,0,0,karaoke,{\k40}They {\k20}get {\k21}a {\k40}glimpse {\k39}here {\k22}on {\k17}the {\k39}dance {\k43}floor
+Comment: 0,0:00:54.07,0:00:56.15,KM_Up,,0,0,0,karaoke,{\k21}You {\k39}move {\k19}like {\k17}an {\k43}a{\k20}ni{\k49}mal
+Comment: 0,0:00:55.88,0:00:57.49,KM_Choir,,0,0,0,karaoke,{\k36}One {\k43}two {\k41}three {\k41}four
+Comment: 0,0:00:56.08,0:00:57.40,KM_Choir,,0,0,0,karaoke,{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Comment: 0,0:00:57.49,0:01:00.50,KM_Up,,0,0,0,karaoke,{\k38}No{\k20}bo{\k22}dy {\k39}knows {\k38}you're {\k22}out{\k18}ta {\k37}con{\k67}trol
+Comment: 0,0:01:00.50,0:01:03.69,KM_Up,,0,0,0,karaoke,{\k15}But {\k43}I {\k19}see {\k19}a {\k42}side {\k37}be{\k25}hind {\k16}the {\k41}closed {\k62}doors
+Comment: 0,0:01:03.88,0:01:06.69,KM_Up,,0,0,0,karaoke,{\k40}They {\k19}get {\k18}a {\k43}glimpse {\k40}here {\k19}on {\k19}the {\k40}dance {\k43}floor
+Comment: 0,0:01:06.88,0:01:08.96,KM_Up,,0,0,0,karaoke,{\k18}You {\k42}move {\k19}like {\k17}an {\k43}a{\k20}ni{\k49}mal
+Comment: 0,0:01:08.88,0:01:10.20,KM_Choir,,0,0,0,karaoke,{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Comment: 0,0:01:10.31,0:01:14.07,KM_Up,,0,0,0,karaoke,{\k55}I'll {\k60}be {\k65}gone {\k53}by {\k41}mor{\kf102}ning
+Comment: 0,0:01:14.10,0:01:17.46,KM_Up,,0,0,0,karaoke,{\k16}So {\k20}get{\k21}cha, {\k19}get{\k17}cha {\k44}heels {\k18}on {\k21}the {\k40}floor {\kf120}then
+Comment: 0,0:01:17.72,0:01:19.05,KM_Up,,0,0,0,karaoke,{\k15}So {\k22}are {\k18}you {\k20}with {\k58}me?
+Comment: 0,0:01:18.67,0:01:19.63,KM_Up,,0,0,0,karaoke,{\k19}Are {\k20}you {\k18}with {\k39}me?
+Comment: 0,0:01:19.66,0:01:21.23,KM_Up,,0,0,0,karaoke,{\k17}Be {\k18}care{\k25}ful {\k18}what {\k23}you're {\k17}wi{\k21}shing {\k18}for
+Comment: 0,0:01:21.23,0:01:23.01,KM_Up,,0,0,0,karaoke,{\k24}'Cause {\k39}I {\k42}get {\k19}frea{\k54}ky
+Comment: 0,0:01:23.02,0:01:25.83,KM_Up,,0,0,0,karaoke,{\k33}You {\k31}make {\k17}the {\k34}light {\k29}and {\k16}the {\k37}sha{\k27}dows {\k21}col{\k36}lide
+Comment: 0,0:01:26.05,0:01:28.26,KM_Choir,,0,0,0,karaoke,{\kf221}Ooh
+Comment: 0,0:01:26.05,0:01:29.26,KM_Up,,0,0,0,karaoke,{\k20}Your {\k33}bo{\k25}dy {\k22}gets {\k33}twis{\k27}ted {\k16}and {\k34}tan{\k31}gled {\k18}in {\k62}mine
+Comment: 0,0:01:29.06,0:01:31.30,KM_Choir,,0,0,0,karaoke,{\k40}Ooh-{\kf184}ooh
+Comment: 0,0:01:29.45,0:01:32.44,KM_Up,,0,0,0,karaoke,{\k40}Love {\k41}so {\k39}good, {\k20}how {\k21}could {\k20}this {\k36}be {\k82}free?
+Comment: 0,0:01:32.44,0:01:36.34,KM_Up,,0,0,0,karaoke,{\k17}I {\k23}keep {\k19}your {\k21}sec{\k17}ret {\k38}safe {\k25}with {\kf230}me
+Comment: 0,0:01:34.49,0:01:35.81,KM_Choir,,0,0,0,karaoke,{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Comment: 0,0:01:35.88,0:01:38.89,KM_Up,,0,0,0,karaoke,{\k38}No{\k20}bo{\k21}dy {\k40}knows {\k38}you're {\k22}out{\k18}ta {\k37}con{\k67}trol
+Comment: 0,0:01:38.89,0:01:42.08,KM_Up,,0,0,0,karaoke,{\k15}But {\k41}I {\k21}see {\k19}a {\k42}side {\k37}be{\k25}hind {\k16}the {\k41}closed {\k62}doors
+Comment: 0,0:01:42.28,0:01:45.09,KM_Up,,0,0,0,karaoke,{\k40}They {\k19}get {\k18}a {\k43}glimpse {\k40}here {\k19}on {\k19}the {\k38}dance {\k45}floor
+Comment: 0,0:01:45.28,0:01:47.36,KM_Up,,0,0,0,karaoke,{\k18}You {\k42}move {\k19}like {\k17}an {\k43}a{\k19}ni{\k50}mal
+Comment: 0,0:01:47.07,0:01:48.68,KM_Choir,,0,0,0,karaoke,{\k36}One {\k43}two {\k41}three {\k41}four
+Comment: 0,0:01:47.28,0:01:48.60,KM_Choir,,0,0,0,karaoke,{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Comment: 0,0:01:48.70,0:01:51.71,KM_Up,,0,0,0,karaoke,{\k37}No{\k20}bo{\k23}dy {\k38}knows {\k41}you're {\k20}out{\k18}ta {\k41}con{\k63}trol
+Comment: 0,0:01:51.71,0:01:54.90,KM_Up,,0,0,0,karaoke,{\k14}But {\k41}I {\k22}see {\k20}a {\k40}side {\k42}be{\k21}hind {\k16}the {\k41}closed {\k62}doors
+Comment: 0,0:01:55.09,0:01:57.90,KM_Up,,0,0,0,karaoke,{\k40}They {\k20}get {\k19}a {\k42}glimpse {\k38}here {\k20}on {\k20}the {\k39}dance {\k43}floor
+Comment: 0,0:01:58.09,0:02:00.17,KM_Up,,0,0,0,karaoke,{\k18}You {\k42}move {\k19}like {\k17}an {\k43}a{\k20}ni{\k49}mal
+Comment: 0,0:02:00.08,0:02:01.40,KM_Choir,,0,0,0,karaoke,{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Comment: 0,0:02:03.25,0:02:05.06,KM_Up,,0,0,0,karaoke,{\k22}I'm {\k20}get{\k20}tin' {\k22}o{\k19}ver{\k78}whelmed
+Comment: 0,0:02:06.45,0:02:08.07,KM_Up,,0,0,0,karaoke,{\k21}R-{\k21}r-{\k16}r-{\k44}right {\k60}now
+Comment: 0,0:02:09.58,0:02:11.05,KM_Up,,0,0,0,karaoke,{\k25}Want {\k20}you {\k16}to {\k23}give {\k19}it {\k17}to {\k27}me
+Comment: 0,0:02:11.05,0:02:14.64,KM_Up,,0,0,0,karaoke,{\k63}All {\k57}night {\kf158}long, {\k81}woo
+Comment: 0,0:02:12.84,0:02:14.16,KM_Choir,,0,0,0,karaoke,{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Comment: 0,0:02:14.25,0:02:17.26,KM_Up,,0,0,0,karaoke,{\k38}No{\k20}bo{\k20}dy {\k41}knows {\k38}you're {\k22}out{\k18}ta {\k37}con{\k67}trol
+Comment: 0,0:02:16.60,0:02:18.24,KM_Choir,,0,0,0,karaoke,{\k20}No {\k61}no {\k83}no
+Comment: 0,0:02:17.26,0:02:20.45,KM_Up,,0,0,0,karaoke,{\k17}But {\k39}I {\k21}see {\k19}a {\k42}side {\k37}be{\k25}hind {\k16}the {\k40}closed {\k63}doors
+Comment: 0,0:02:20.64,0:02:23.45,KM_Up,,0,0,0,karaoke,{\k40}They {\k19}get {\k18}a {\k43}glimpse {\k40}here {\k19}on {\k19}the {\k38}dance {\k45}floor
+Comment: 0,0:02:23.64,0:02:25.72,KM_Up,,0,0,0,karaoke,{\k18}You {\k42}move {\k19}like {\k17}an {\k43}a{\k19}ni{\k50}mal
+Comment: 0,0:02:25.64,0:02:26.96,KM_Choir,,0,0,0,karaoke,{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Comment: 0,0:02:27.05,0:02:30.06,KM_Up,,0,0,0,karaoke,{\k37}No{\k20}bo{\k23}dy {\k38}knows {\k41}you're {\k20}out{\k18}ta {\k41}con{\k63}trol
+Comment: 0,0:02:30.06,0:02:33.25,KM_Up,,0,0,0,karaoke,{\k14}But {\k41}I {\k22}see {\k20}a {\k40}side {\k42}be{\k21}hind {\k16}the {\k41}closed {\k62}doors
+Comment: 0,0:02:32.72,0:02:34.45,KM_Choir,,0,0,0,karaoke,{\k18}Ooh-{\k15}ooh-{\k19}ooh-{\k18}ooh-{\k34}ooh-{\k69}ooh
+Comment: 0,0:02:33.44,0:02:36.25,KM_Up,,0,0,0,karaoke,{\k40}They {\k20}get {\k19}a {\k42}glimpse {\k38}here {\k20}on {\k20}the {\k39}dance {\k43}floor
+Comment: 0,0:02:36.44,0:02:38.52,KM_Up,,0,0,0,karaoke,{\k17}You {\k43}move {\k19}like {\k17}an {\k43}a{\k20}ni{\k49}mal
+Comment: 0,0:02:38.51,0:02:39.84,KM_Choir,,0,0,0,karaoke,{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Dialogue: 0,0:00:04.00,0:00:06.46,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Mm-{\k18}mm-{\k24}mm {\k20}mm-{\k19}mm-{\k35}mm
+Dialogue: 0,0:00:06.16,0:00:09.68,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k23}You're {\k18}the {\k64}boss, {\k16}you {\k20}run {\k18}the {\k22}cir{\k21}cus, {\k21}ba{\k19}by
+Dialogue: 0,0:00:08.97,0:00:12.87,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Take {\k22}it {\k20}up {\k16}a {\k62}notch, {\k15}you're {\k24}so {\k20}so{\k21}phis{\k19}ti{\k23}ca{\k18}ted
+Dialogue: 0,0:00:12.00,0:00:14.67,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Don't {\k19}wan{\k21}na {\k20}be {\k19}on {\k19}a {\k22}sche{\k19}dule
+Dialogue: 0,0:00:13.57,0:00:16.45,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k21}You're {\k19}on {\k21}your {\k35}own {\k82}time
+Dialogue: 0,0:00:16.78,0:00:19.20,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Dialogue: 0,0:00:18.98,0:00:22.73,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Off {\k19}the {\k62}scale {\k19}that {\k18}goes {\k22}from {\k16}hot {\k22}to {\k20}cra{\k47}zy
+Dialogue: 0,0:00:22.19,0:00:25.66,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Fin{\k20}ger{\k60}nails, {\k19}one, {\k22}two, {\k17}three {\k25}co{\k18}lors {\k21}pain{\k18}ted
+Dialogue: 0,0:00:24.56,0:00:27.51,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Crop {\k20}top {\k21}and {\k24}bag{\k35}gy {\k44}jeans
+Dialogue: 0,0:00:26.41,0:00:29.23,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Hol{\k19}ding {\k18}your {\k43}waist{\k75}line
+Dialogue: 0,0:00:29.57,0:00:31.99,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Dialogue: 0,0:00:30.93,0:00:34.84,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k36}You {\k28}make {\k17}the {\k34}light {\k29}and {\k18}the {\k35}sha{\k27}dows {\k21}col{\k36}lide
+Dialogue: 0,0:00:33.96,0:00:38.27,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Your {\k32}bo{\k25}dy {\k22}gets {\k33}twis{\k27}ted {\k20}and {\k30}tan{\k31}gled {\k18}in {\k62}mine
+Dialogue: 0,0:00:37.37,0:00:41.46,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Love {\k44}so {\k39}good, {\k20}how {\k21}could {\k25}this {\k31}be {\k82}free?
+Dialogue: 0,0:00:40.36,0:00:43.46,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k23}keep {\k19}your {\k21}sec{\k17}ret {\k42}safe {\k21}with {\k40}me
+Dialogue: 0,0:00:42.37,0:00:44.79,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Dialogue: 0,0:00:43.77,0:00:47.89,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k39}No{\k20}bo{\k22}dy {\k39}knows {\k38}you're {\k22}out{\k18}ta {\k37}con{\k67}trol
+Dialogue: 0,0:00:46.79,0:00:51.08,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}But {\k44}I {\k20}see {\k21}a {\k39}side {\k41}be{\k21}hind {\k16}the {\k41}closed {\k62}doors
+Dialogue: 0,0:00:50.17,0:00:54.08,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k40}They {\k20}get {\k21}a {\k40}glimpse {\k39}here {\k22}on {\k17}the {\k39}dance {\k43}floor
+Dialogue: 0,0:00:53.17,0:00:56.35,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k21}You {\k39}move {\k19}like {\k17}an {\k43}a{\k20}ni{\k49}mal
+Dialogue: 0,0:00:54.98,0:00:57.69,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k36}One {\k43}two {\k41}three {\k41}four
+Dialogue: 0,0:00:55.18,0:00:57.60,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Dialogue: 0,0:00:56.59,0:01:00.70,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}No{\k20}bo{\k22}dy {\k39}knows {\k38}you're {\k22}out{\k18}ta {\k37}con{\k67}trol
+Dialogue: 0,0:00:59.60,0:01:03.89,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}But {\k43}I {\k19}see {\k19}a {\k42}side {\k37}be{\k25}hind {\k16}the {\k41}closed {\k62}doors
+Dialogue: 0,0:01:02.98,0:01:06.89,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k40}They {\k19}get {\k18}a {\k43}glimpse {\k40}here {\k19}on {\k19}the {\k40}dance {\k43}floor
+Dialogue: 0,0:01:05.98,0:01:09.16,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k42}move {\k19}like {\k17}an {\k43}a{\k20}ni{\k49}mal
+Dialogue: 0,0:01:07.98,0:01:10.40,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Dialogue: 0,0:01:09.41,0:01:14.27,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k55}I'll {\k60}be {\k65}gone {\k53}by {\k41}mor{\kf102}ning
+Dialogue: 0,0:01:13.20,0:01:17.66,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}So {\k20}get{\k21}cha, {\k19}get{\k17}cha {\k44}heels {\k18}on {\k21}the {\k40}floor {\kf120}then
+Dialogue: 0,0:01:16.82,0:01:19.25,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}So {\k22}are {\k18}you {\k20}with {\k58}me?
+Dialogue: 0,0:01:17.77,0:01:19.83,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Are {\k20}you {\k18}with {\k39}me?
+Dialogue: 0,0:01:18.76,0:01:21.43,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Be {\k18}care{\k25}ful {\k18}what {\k23}you're {\k17}wi{\k21}shing {\k18}for
+Dialogue: 0,0:01:20.33,0:01:23.21,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k24}'Cause {\k39}I {\k42}get {\k19}frea{\k54}ky
+Dialogue: 0,0:01:22.12,0:01:26.03,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k33}You {\k31}make {\k17}the {\k34}light {\k29}and {\k16}the {\k37}sha{\k27}dows {\k21}col{\k36}lide
+Dialogue: 0,0:01:25.15,0:01:28.46,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf221}Ooh
+Dialogue: 0,0:01:25.15,0:01:29.46,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Your {\k33}bo{\k25}dy {\k22}gets {\k33}twis{\k27}ted {\k16}and {\k34}tan{\k31}gled {\k18}in {\k62}mine
+Dialogue: 0,0:01:28.16,0:01:31.50,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Ooh-{\kf184}ooh
+Dialogue: 0,0:01:28.55,0:01:32.64,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Love {\k41}so {\k39}good, {\k20}how {\k21}could {\k20}this {\k36}be {\k82}free?
+Dialogue: 0,0:01:31.54,0:01:36.54,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k23}keep {\k19}your {\k21}sec{\k17}ret {\k38}safe {\k25}with {\kf230}me
+Dialogue: 0,0:01:33.59,0:01:36.01,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Dialogue: 0,0:01:34.98,0:01:39.09,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}No{\k20}bo{\k21}dy {\k40}knows {\k38}you're {\k22}out{\k18}ta {\k37}con{\k67}trol
+Dialogue: 0,0:01:37.99,0:01:42.28,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}But {\k41}I {\k21}see {\k19}a {\k42}side {\k37}be{\k25}hind {\k16}the {\k41}closed {\k62}doors
+Dialogue: 0,0:01:41.38,0:01:45.29,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k40}They {\k19}get {\k18}a {\k43}glimpse {\k40}here {\k19}on {\k19}the {\k38}dance {\k45}floor
+Dialogue: 0,0:01:44.38,0:01:47.56,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k42}move {\k19}like {\k17}an {\k43}a{\k19}ni{\k50}mal
+Dialogue: 0,0:01:46.17,0:01:48.88,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k36}One {\k43}two {\k41}three {\k41}four
+Dialogue: 0,0:01:46.38,0:01:48.80,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Dialogue: 0,0:01:47.80,0:01:51.91,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k37}No{\k20}bo{\k23}dy {\k38}knows {\k41}you're {\k20}out{\k18}ta {\k41}con{\k63}trol
+Dialogue: 0,0:01:50.81,0:01:55.10,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}But {\k41}I {\k22}see {\k20}a {\k40}side {\k42}be{\k21}hind {\k16}the {\k41}closed {\k62}doors
+Dialogue: 0,0:01:54.19,0:01:58.10,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k40}They {\k20}get {\k19}a {\k42}glimpse {\k38}here {\k20}on {\k20}the {\k39}dance {\k43}floor
+Dialogue: 0,0:01:57.19,0:02:00.37,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k42}move {\k19}like {\k17}an {\k43}a{\k20}ni{\k49}mal
+Dialogue: 0,0:01:59.18,0:02:01.60,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Dialogue: 0,0:02:02.35,0:02:05.26,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I'm {\k20}get{\k20}tin' {\k22}o{\k19}ver{\k78}whelmed
+Dialogue: 0,0:02:05.55,0:02:08.27,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k21}R-{\k21}r-{\k16}r-{\k44}right {\k60}now
+Dialogue: 0,0:02:08.68,0:02:11.25,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Want {\k20}you {\k16}to {\k23}give {\k19}it {\k17}to {\k27}me
+Dialogue: 0,0:02:10.15,0:02:14.84,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k63}All {\k57}night {\kf158}long, {\k81}woo
+Dialogue: 0,0:02:11.94,0:02:14.36,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Dialogue: 0,0:02:13.35,0:02:17.46,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}No{\k20}bo{\k20}dy {\k41}knows {\k38}you're {\k22}out{\k18}ta {\k37}con{\k67}trol
+Dialogue: 0,0:02:15.70,0:02:18.44,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}No {\k61}no {\k83}no
+Dialogue: 0,0:02:16.36,0:02:20.65,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}But {\k39}I {\k21}see {\k19}a {\k42}side {\k37}be{\k25}hind {\k16}the {\k40}closed {\k63}doors
+Dialogue: 0,0:02:19.74,0:02:23.65,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k40}They {\k19}get {\k18}a {\k43}glimpse {\k40}here {\k19}on {\k19}the {\k38}dance {\k45}floor
+Dialogue: 0,0:02:22.74,0:02:25.92,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k42}move {\k19}like {\k17}an {\k43}a{\k19}ni{\k50}mal
+Dialogue: 0,0:02:24.74,0:02:27.16,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm
+Dialogue: 0,0:02:26.15,0:02:30.26,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k37}No{\k20}bo{\k23}dy {\k38}knows {\k41}you're {\k20}out{\k18}ta {\k41}con{\k63}trol
+Dialogue: 0,0:02:29.16,0:02:33.45,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}But {\k41}I {\k22}see {\k20}a {\k40}side {\k42}be{\k21}hind {\k16}the {\k41}closed {\k62}doors
+Dialogue: 0,0:02:31.82,0:02:34.65,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ooh-{\k15}ooh-{\k19}ooh-{\k18}ooh-{\k34}ooh-{\k69}ooh
+Dialogue: 0,0:02:32.54,0:02:36.45,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k40}They {\k20}get {\k19}a {\k42}glimpse {\k38}here {\k20}on {\k20}the {\k39}dance {\k43}floor
+Dialogue: 0,0:02:35.54,0:02:38.72,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}You {\k43}move {\k19}like {\k17}an {\k43}a{\k20}ni{\k49}mal
+Dialogue: 0,0:02:37.61,0:02:40.04,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mm-{\k20}mm-{\k22}mm {\k21}mm-{\k18}mm-{\k33}mm

@@ -1,0 +1,82 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 277,
+      "filename": "ef2bc91e-3eef-478f-a8a3-77bffb02d5b4.mp4",
+      "filesize": 83960066,
+      "loudnorm": "-11.25,0.20,4.20,-21.33,-0.39",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "ef2bc91e-3eef-478f-a8a3-77bffb02d5b4.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-18T17:06:20.589Z",
+    "ignoreHooks": false,
+    "kid": "ef2bc91e-3eef-478f-a8a3-77bffb02d5b4",
+    "modified_at": "2026-09-18T17:31:46.700Z",
+    "parents": [
+      "da86805a-65b1-4395-bc60-b4aec559c010"
+    ],
+    "repository": "kara.moe",
+    "songname": "JPN - Haruka Shiraishi, Taku Yashiro - MV - Heavy Rotation ~ Full Vers",
+    "tags": {
+      "authors": [
+        "53828bb5-7c84-4eea-ab99-5152b4c70cb4",
+        "583e5531-426e-4d73-9aab-9cac10efb432"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "creators": [
+        "81619330-a55e-49ac-8588-2ba932f10afb"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "groups": [
+        "8c22c899-b3ed-42da-a548-ce00f950798b",
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "misc": [
+        "1d6ceadf-a885-47e5-b23b-c07bf668a424"
+      ],
+      "singers": [
+        "11ce2cdc-aa30-426d-b356-e6d4f5dfb380",
+        "353d6e2a-1c87-4ef1-9062-c69f9eba2d33",
+        "89f91e06-0831-44e4-92f6-64b612cd19d0",
+        "b43af946-5787-4527-9c8f-5a3a3e5137f1",
+        "bdd55a5f-d91f-4ac2-93c8-c96fe93e1fb4"
+      ],
+      "songtypes": [
+        "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
+      ],
+      "songwriters": [
+        "19045a57-4bc4-4c83-ad1c-3fa9a3b701b1",
+        "28e3694e-2c0e-4f5c-8889-623a774d5c50"
+      ],
+      "versions": [
+        "c2143a7f-6970-450e-8a79-0302db9220a9"
+      ]
+    },
+    "titles": {
+      "eng": "Heavy Rotation",
+      "jpn": "ヘビーローテーション"
+    },
+    "titles_default_language": "eng",
+    "year": 2026
+  }
+}

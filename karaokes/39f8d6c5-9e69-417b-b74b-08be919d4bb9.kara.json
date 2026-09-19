@@ -6,14 +6,14 @@
   "medias": [
     {
       "default": true,
-      "duration": 234,
-      "filename": "a3e5dd17-2df2-4a05-b3b6-ffa0260af322.webm",
-      "filesize": 63229764,
-      "loudnorm": "-6.29,1.89,3.20,-16.37,-0.69",
+      "duration": 224,
+      "filename": "39f8d6c5-9e69-417b-b74b-08be919d4bb9.webm",
+      "filesize": 66344556,
+      "loudnorm": "-5.64,1.70,1.70,-15.67,-0.41",
       "lyrics": [
         {
           "default": true,
-          "filename": "a3e5dd17-2df2-4a05-b3b6-ffa0260af322.ass",
+          "filename": "39f8d6c5-9e69-417b-b74b-08be919d4bb9.ass",
           "version": "Default"
         }
       ],
@@ -21,12 +21,12 @@
     }
   ],
   "data": {
-    "created_at": "2026-09-02T17:08:16.131Z",
+    "created_at": "2026-09-14T23:47:45.432Z",
     "ignoreHooks": false,
-    "kid": "a3e5dd17-2df2-4a05-b3b6-ffa0260af322",
-    "modified_at": "2026-09-16T00:43:01.623Z",
+    "kid": "39f8d6c5-9e69-417b-b74b-08be919d4bb9",
+    "modified_at": "2026-09-16T00:50:42.550Z",
     "repository": "kara.moe",
-    "songname": "ENG, JPN - NEK! - MV - Get Over",
+    "songname": "JPN - NEK! - MV - Dreams!!!!",
     "tags": {
       "authors": [
         "6d171c11-48ea-4f30-8d43-0b71d6002593"
@@ -41,11 +41,13 @@
         "8e209ae4-4381-438f-89dc-1b21752027d2"
       ],
       "langs": [
-        "4dcf9614-7914-42aa-99f4-dbce2e059133",
-        "de5eda1c-5fb3-46a6-9606-d4554fc5a1d6"
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
       ],
       "singers": [
-        "3eb43240-5f6d-44c8-a8ed-1f4140c1db85"
+        "2bd98c6a-5433-4eb3-a426-01a0c28775e0",
+        "3eb43240-5f6d-44c8-a8ed-1f4140c1db85",
+        "7caf0496-42ca-485c-8706-cc71e822b66e",
+        "8d302ac1-cb9d-4aea-a2bc-a279c31ea977"
       ],
       "singergroups": [
         "21ca915a-b2ef-4ad1-b421-8d37d682a3ee"
@@ -55,13 +57,14 @@
       ],
       "songwriters": [
         "21ca915a-b2ef-4ad1-b421-8d37d682a3ee",
-        "6a7b56c5-2524-4b06-a06a-84d387d1b546"
+        "466661aa-bdfe-44d1-9514-9a553681a191",
+        "82c43b2b-0033-4501-b4cb-689df74c390a"
       ]
     },
     "titles": {
-      "eng": "Get Over"
+      "eng": "Dreams!!!!"
     },
     "titles_default_language": "eng",
-    "year": 2024
+    "year": 2025
   }
 }

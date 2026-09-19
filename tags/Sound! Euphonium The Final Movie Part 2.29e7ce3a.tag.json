@@ -1,0 +1,30 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "saishuu",
+      "kouhen",
+      "Saishuu",
+      "Kouhen"
+    ],
+    "external_database_ids": {
+      "anilist": 194116,
+      "kitsu": 49971,
+      "myanimelist": 64019
+    },
+    "i18n": {
+      "eng": "Sound! Euphonium: The Final Movie Part 2",
+      "jpn": "最終楽章 響け！ユーフォニアム 後編",
+      "qro": "Saishû Gakushou Hibike! Euphonium: Kôhen"
+    },
+    "name": "Sound! Euphonium: The Final Movie Part 2",
+    "repository": "kara.moe",
+    "tid": "29e7ce3a-778d-4592-a0ee-5df882d41edc",
+    "types": [
+      1
+    ]
+  }
+}

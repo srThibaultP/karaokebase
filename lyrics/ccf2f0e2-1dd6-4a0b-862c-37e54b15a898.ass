@@ -8,6 +8,7 @@ ScaledBorderAndShadow: yes
 LayoutResX: 0
 LayoutResY: 0
 Original Timing: IvannAkiyama
+YCbCr Matrix: TV.709
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -28,13 +29,13 @@ Comment: 0,0:00:42.65,0:00:44.07,Sample KM [Up],,0,0,0,karaoke,{\k8}ai{\k9}ro{\k
 Comment: 0,0:00:44.16,0:00:45.44,Sample KM [Up],,0,0,0,karaoke,{\k18}i{\k20}ta{\k16}i {\k34}kan{\k40}shou
 Comment: 0,0:00:45.36,0:00:46.77,Sample KM [Up],,0,0,0,karaoke,{\k16}tai {\k7}a{\k14}ri {\k15}jin{\k20}sei {\k5}e{\k11}a{\k9}pu {\k10}no {\k8}shi{\k12}ko{\k14}u
 Comment: 0,0:00:46.89,0:00:48.18,Sample KM [Up],,0,0,0,karaoke,{\k21}o{\k17}tsu{\k17}gi {\k34}dou{\k40}zo
-Comment: 0,0:00:48.12,0:00:51.42,Sample KM [Up],,0,0,0,karaoke,{\k52}GOOD{\k52}BYE {\k51}MY {\k52}DEAR {\k34}HA{\k34}TER {\k55}GUYS
+Comment: 0,0:00:48.12,0:00:51.42,Sample KM [Up],,0,0,0,karaoke,{\k52}Good{\k52}bye {\k51}my {\k52}dear {\k34}ha{\k34}ter {\k55}guys
 Comment: 0,0:00:51.54,0:00:53.90,Sample KM [Up],,0,0,0,karaoke,{\k68}den{\k37}shi {\k34}no {\k35}u{\k34}mi {\k28}de
 Comment: 0,0:00:54.31,0:00:56.63,Sample KM [Up],,0,0,0,karaoke,{\k64}mou{\k38}sou {\k32}gen{\k37}sou {\k34}hai{\k27}te
 Comment: 0,0:00:57.03,0:00:59.00,Sample KM [Up],,0,0,0,karaoke,{\k53}ka{\k17}mi{\k34}tsu{\k35}ki {\k14}ma{\k20}wa{\k24}ru
 Comment: 0,0:00:59.09,0:01:02.25,Sample KM [Up],,0,0,0,karaoke,{\k19}ki{\k16}ri{\k18}ki{\k17}ri {\k17}ma{\k15}u {\k37}sei{\k34}mei {\k34}tai {\k34}me{\k34}ga{\k41}ke
 Comment: 0,0:01:02.87,0:01:07.40,Sample KM [Up],,0,0,0,karaoke,{\k34}UM {\k68}BA{\k16}D {\k19}ka{\k35}mash'{\k25}te {\k14}Y{\k47}EAH {\k17}na{\k33}rash'{\k19}te {\k17}Y{\k68}E{\k41}AH
-Comment: 0,0:01:11.42,0:01:12.39,Sample KM [Choir],,0,0,0,karaoke,{\k37}THREE {\k33}TWO {\k27}ONE
+Comment: 0,0:01:11.42,0:01:12.39,Sample KM [Choir],,0,0,0,karaoke,{\k37}Three {\k33}two {\k27}one
 Comment: 0,0:01:12.99,0:01:15.86,Sample KM [Up],,0,0,0,karaoke,{\k17}i{\k23}te{\k12}tsu{\k14}ku {\k19}yo{\k18}ru {\k18}wo {\k33}ROL{\k35}LIN' {\k34}ROL{\k34}LIN' {\k30}DOWN
 Comment: 0,0:01:15.90,0:01:18.31,Sample KM [Up],,0,0,0,karaoke,{\k34}kan{\k35}sei {\k18}ga {\k17}to{\k17}gi{\k17}re{\k34}nu {\k34}you {\k35}ni
 Comment: 0,0:01:18.47,0:01:21.02,Sample KM [Up],,0,0,0,karaoke,{\k18}ko{\k17}to{\k17}ba {\k16}wo {\k18}u{\k15}ba{\k20}u {\k17}se{\k16}i{\k19}ja {\k16}no {\k34}kou{\k32}shin
@@ -42,11 +43,11 @@ Comment: 0,0:01:21.00,0:01:23.86,Sample KM [Up],,0,0,0,karaoke,{\k39}CRA{\k34}ZY
 Comment: 0,0:01:24.13,0:01:26.76,Sample KM [Up],,0,0,0,karaoke,{\k51}aa {\k19}B{\k34}LUE {\k34}LIGH{\k18}T {\k16}no {\k17}a{\k24}ka{\k50}ri
 Comment: 0,0:01:27.22,0:01:29.64,Sample KM [Up],,0,0,0,karaoke,{\k51}to{\k18}ri{\k17}ka{\k17}go {\k17}no {\k17}na{\k17}ka {\k17}no {\k35}you {\k31}de{\k5}su
 Comment: 0,0:01:29.96,0:01:33.29,Sample KM [Up],,0,0,0,karaoke,{\k52}yu{\k16}bi{\k19}sa{\k16}ki {\k17}no {\k17}se{\k35}kai {\k16}wa {\k18}su{\k34}ba{\k34}ra{\k35}shi{\k24}i
-Comment: 0,0:01:33.40,0:01:35.12,Sample KM [Up],,0,0,0,karaoke,{\k16}ZE{\k17}RO-{\k34}SUM {\k52}FAIR {\k53}GAME
-Comment: 0,0:01:36.76,0:01:37.89,Sample KM [Up],,0,0,0,karaoke,{\k23}WANT {\k32}YOU {\k58}GONE?
+Comment: 0,0:01:33.40,0:01:35.12,Sample KM [Up],,0,0,0,karaoke,{\k16}Ze{\k17}ro-{\k34}sum {\k52}fair {\k53}game
+Comment: 0,0:01:36.76,0:01:37.89,Sample KM [Up],,0,0,0,karaoke,{\k23}Want {\k32}you {\k58}gone?
 Comment: 0,0:01:48.78,0:01:51.25,Sample KM [Up],,0,0,0,karaoke,{\k24}ki{\k15}mi{\k17}ra {\k17}no {\k18}ha{\k20}ra {\k13}no {\k16}na{\k20}ka {\k17}no {\k32}na{\k38}ka
 Comment: 0,0:01:51.55,0:01:53.97,Sample KM [Up],,0,0,0,karaoke,{\k17}do{\k19}su{\k18}gu{\k16}ro{\k17}i {\k17}ho{\k18}n{\k16}ne {\k17}wo {\k17}ka{\k35}kush'{\k35}te
-Comment: 0,0:01:53.97,0:01:56.62,Sample KM [Up],,0,0,0,karaoke,{\k32}en'{\k35}en {\k32}mei{\k36}sou {\k14}da{\k19}bu{\k19}su{\k17}ta {\k35}TAL{\k26}K
+Comment: 0,0:01:53.97,0:01:56.62,Sample KM [Up],,0,0,0,karaoke,{\k32}en'{\k35}en {\k32}mei{\k36}sou {\k14}da{\k19}bu{\k19}su{\k17}ta {\k15}TA{\k20}L{\k26}K
 Comment: 0,0:01:56.67,0:01:57.68,Sample KM [Up],,0,0,0,karaoke,{\k55}shou {\k17}mo {\k29}nai
 Comment: 0,0:01:58.07,0:01:59.05,Sample KM [Up],,0,0,0,karaoke,{\k53}shou {\k17}mo {\k28}nai
 Comment: 0,0:01:59.43,0:02:00.89,Sample KM [Up],,0,0,0,karaoke,{\k11}ka{\k8}ko{\k8}u {\k9}de {\k7}mi{\k10}ta{\k18}su {\k16}shou{\k18}nin {\k15}yok{\k26}kyuu
@@ -55,7 +56,7 @@ Comment: 0,0:02:02.17,0:02:03.65,Sample KM [Up],,0,0,0,karaoke,{\k10}shu{\k8}go 
 Comment: 0,0:02:03.70,0:02:04.96,Sample KM [Up],,0,0,0,karaoke,{\k20}wa{\k15}ta{\k20}su {\k34}in{\k37}dou
 Comment: 0,0:02:04.91,0:02:06.33,Sample KM [Up],,0,0,0,karaoke,{\k17}hin{\k17}sei {\k10}u{\k10}ta{\k7}ga{\k10}u {\k8}su{\k9}te{\k9}mi {\k8}no {\k9}ka{\k5}ku{\k23}san
 Comment: 0,0:02:06.45,0:02:07.73,Sample KM [Up],,0,0,0,karaoke,{\k20}ke{\k16}shi{\k18}te {\k34}dou{\k40}zo
-Comment: 0,0:02:07.66,0:02:10.95,Sample KM [Up],,0,0,0,karaoke,{\k52}GOOD{\k53}BYE {\k50}MY {\k53}DEAR {\k34}HA{\k34}TER {\k53}GUYS
+Comment: 0,0:02:07.66,0:02:10.95,Sample KM [Up],,0,0,0,karaoke,{\k52}Good{\k53}bye {\k50}my {\k53}dear {\k34}ha{\k34}ter {\k53}guys
 Comment: 0,0:02:11.79,0:02:16.05,Sample KM [Up],,0,0,0,karaoke,{\k67}rei{\k66}shou {\k25}sh'te {\k14}Y{\k51}EAH {\k17}ko{\k33}wash'{\k19}te {\k17}Y{\k68}E{\k49}AH
 Comment: 0,0:02:18.81,0:02:21.70,Sample KM [Up],,0,0,0,karaoke,{\k18}ko{\k23}ge{\k11}tsu{\k15}ku {\k20}yo{\k17}ru {\k18}wo {\k33}ROL{\k35}LIN' {\k34}ROL{\k35}LIN' {\k30}DOWN
 Comment: 0,0:02:21.73,0:02:24.16,Sample KM [Up],,0,0,0,karaoke,{\k34}ken{\k35}sou {\k18}ga {\k16}to{\k17}da{\k17}e{\k35}nu {\k34}you {\k37}ni
@@ -64,11 +65,11 @@ Comment: 0,0:02:26.79,0:02:29.63,Sample KM [Up],,0,0,0,karaoke,{\k43}CRA{\k35}ZY
 Comment: 0,0:02:29.96,0:02:32.56,Sample KM [Up],,0,0,0,karaoke,{\k52}aa {\k34}RE{\k18}D {\k33}LIGH{\k19}T {\k15}ga {\k18}to{\k17}mo{\k54}ri
 Comment: 0,0:02:33.05,0:02:35.49,Sample KM [Up],,0,0,0,karaoke,{\k51}fu{\k20}ku{\k15}ro {\k17}no {\k17}ne{\k17}zu{\k17}mi {\k17}no {\k35}you {\k33}de{\k5}su
 Comment: 0,0:02:35.78,0:02:39.13,Sample KM [Up],,0,0,0,karaoke,{\k53}yu{\k16}bi{\k18}sa{\k17}ki {\k16}no {\k18}se{\k35}kai {\k17}wa {\k17}su{\k34}ba{\k34}ra{\k34}shi{\k26}i
-Comment: 0,0:02:39.22,0:02:40.93,Sample KM [Up],,0,0,0,karaoke,{\k17}ZE{\k17}RO-{\k35}SUM {\k53}FAIR {\k49}GAME
-Comment: 0,0:02:40.58,0:02:41.22,Sample KM [Choir],,0,0,0,karaoke,{\k19}BRING {\k16}IT {\k29}DOWN
-Comment: 0,0:02:43.32,0:02:43.96,Sample KM [Choir],,0,0,0,karaoke,{\k19}BRING {\k17}IT {\k28}DOWN
-Comment: 0,0:02:46.06,0:02:46.71,Sample KM [Choir],,0,0,0,karaoke,{\k19}BRING {\k17}IT {\k29}DOWN
-Comment: 0,0:02:48.80,0:02:49.43,Sample KM [Choir],,0,0,0,karaoke,{\k20}BRING {\k16}IT {\k27}DOWN
+Comment: 0,0:02:39.22,0:02:40.93,Sample KM [Up],,0,0,0,karaoke,{\k17}Ze{\k17}ro-{\k35}sum {\k53}fair {\k49}game
+Comment: 0,0:02:40.58,0:02:41.22,Sample KM [Choir],,0,0,0,karaoke,{\k19}Bring {\k16}it {\k29}down
+Comment: 0,0:02:43.32,0:02:43.96,Sample KM [Choir],,0,0,0,karaoke,{\k19}Bring {\k17}it {\k28}down
+Comment: 0,0:02:46.06,0:02:46.71,Sample KM [Choir],,0,0,0,karaoke,{\k19}Bring {\k17}it {\k29}down
+Comment: 0,0:02:48.80,0:02:49.43,Sample KM [Choir],,0,0,0,karaoke,{\k20}Bring {\k16}it {\k27}down
 Comment: 0,0:03:03.56,0:03:06.05,Sample KM [Up],,0,0,0,karaoke,{\k34}UM {\k69}BA{\k18}D {\k17}ka{\k34}mash'{\k19}te {\k15}Y{\k43}EAH
 Comment: 0,0:03:06.10,0:03:09.55,Sample KM [Up],,0,0,0,karaoke,{\k20}sa{\k16}ke{\k17}be {\k24}SAY {\k12}Y{\k32}EAH {\k22}SAY {\k15}Y{\k32}EAH {\k17}SAY {\k19}Y{\k69}E{\k50}AH
 Comment: 0,0:03:09.57,0:03:12.41,Sample KM [Up],,0,0,0,karaoke,{\k15}i{\k23}te{\k11}tsu{\k18}ku {\k18}yo{\k14}ru {\k20}wo {\k35}ROL{\k34}LIN' {\k35}ROL{\k32}LIN' {\k29}DOWN
@@ -82,8 +83,8 @@ Comment: 0,0:03:28.42,0:03:31.38,Sample KM [Up],,0,0,0,karaoke,{\k20}wa{\k31}rat
 Comment: 0,0:03:31.68,0:03:34.31,Sample KM [Up],,0,0,0,karaoke,{\k51}aa {\k36}RE{\k18}D {\k32}LIGH{\k18}T {\k16}ga {\k18}to{\k17}mo{\k57}ri
 Comment: 0,0:03:34.75,0:03:37.21,Sample KM [Up],,0,0,0,karaoke,{\k52}CHEC{\k21}K{\k31}MA{\k15}TE {\k20}o{\k17}shi{\k17}ma{\k34}i {\k33}de{\k6}su
 Comment: 0,0:03:37.48,0:03:40.87,Sample KM [Up],,0,0,0,karaoke,{\k54}yu{\k16}bi{\k18}sa{\k18}ki {\k15}no {\k19}se{\k34}kai {\k17}wa {\k18}su{\k34}ba{\k34}ra{\k32}shi{\k30}i
-Comment: 0,0:03:40.94,0:03:42.79,Sample KM [Up],,0,0,0,karaoke,{\k17}ZE{\k17}RO-{\k34}SUM {\k52}FAIR {\k65}GAME
-Comment: 0,0:03:44.31,0:03:45.53,Sample KM [Up],,0,0,0,karaoke,{\k26}WANT {\k30}YOU {\k66}GONE?
+Comment: 0,0:03:40.94,0:03:42.79,Sample KM [Up],,0,0,0,karaoke,{\k17}Ze{\k17}ro-{\k34}sum {\k52}fair {\k65}game
+Comment: 0,0:03:44.31,0:03:45.53,Sample KM [Up],,0,0,0,karaoke,{\k26}Want {\k30}you {\k66}gone?
 Dialogue: 0,0:00:28.36,0:00:31.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ki{\k17}mi{\k16}ra {\k17}no {\k16}ko{\k17}to{\k25}ba {\k11}u{\k17}ra {\k17}no {\k35}u{\k37}ra
 Dialogue: 0,0:00:31.11,0:00:34.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}shi{\k16}ro {\k17}to {\k18}ku{\k18}ro {\k15}no {\k35}ban{\k35}men{\k35}jou {\k29}de
 Dialogue: 0,0:00:33.54,0:00:37.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}mei{\k33}mei {\k19}to{\k19}ri{\k31}au {\k18}PO{\k15}SI{\k35}TION {\k35}TAL{\k29}K
@@ -95,13 +96,13 @@ Dialogue: 0,0:00:41.75,0:00:44.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\
 Dialogue: 0,0:00:43.26,0:00:45.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}i{\k20}ta{\k16}i {\k34}kan{\k40}shou
 Dialogue: 0,0:00:44.46,0:00:46.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}tai {\k7}a{\k14}ri {\k15}jin{\k20}sei {\k5}e{\k11}a{\k9}pu {\k10}no {\k8}shi{\k12}ko{\k14}u
 Dialogue: 0,0:00:45.99,0:00:48.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}o{\k17}tsu{\k17}gi {\k34}dou{\k40}zo
-Dialogue: 0,0:00:47.22,0:00:51.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}GOOD{\k52}BYE {\k51}MY {\k52}DEAR {\k34}HA{\k34}TER {\k55}GUYS
+Dialogue: 0,0:00:47.22,0:00:51.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Good{\k52}bye {\k51}my {\k52}dear {\k34}ha{\k34}ter {\k55}guys
 Dialogue: 0,0:00:50.64,0:00:54.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k68}den{\k37}shi {\k34}no {\k35}u{\k34}mi {\k28}de
 Dialogue: 0,0:00:53.41,0:00:56.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k64}mou{\k38}sou {\k32}gen{\k37}sou {\k34}hai{\k27}te
 Dialogue: 0,0:00:56.13,0:00:59.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}ka{\k17}mi{\k34}tsu{\k35}ki {\k14}ma{\k20}wa{\k24}ru
 Dialogue: 0,0:00:58.19,0:01:02.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}ki{\k16}ri{\k18}ki{\k17}ri {\k17}ma{\k15}u {\k37}sei{\k34}mei {\k34}tai {\k34}me{\k34}ga{\k41}ke
 Dialogue: 0,0:01:01.97,0:01:07.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}UM {\k68}BA{\k16}D {\k19}ka{\k35}mash'{\k25}te {\k14}Y{\k47}EAH {\k17}na{\k33}rash'{\k19}te {\k17}Y{\k68}E{\k41}AH
-Dialogue: 0,0:01:10.52,0:01:12.59,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k37}THREE {\k33}TWO {\k27}ONE
+Dialogue: 0,0:01:10.52,0:01:12.59,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Three {\k33}two {\k27}one
 Dialogue: 0,0:01:12.09,0:01:16.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}i{\k23}te{\k12}tsu{\k14}ku {\k19}yo{\k18}ru {\k18}wo {\k33}ROL{\k35}LIN' {\k34}ROL{\k34}LIN' {\k30}DOWN
 Dialogue: 0,0:01:15.00,0:01:18.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}kan{\k35}sei {\k18}ga {\k17}to{\k17}gi{\k17}re{\k34}nu {\k34}you {\k35}ni
 Dialogue: 0,0:01:17.57,0:01:21.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}ko{\k17}to{\k17}ba {\k16}wo {\k18}u{\k15}ba{\k20}u {\k17}se{\k16}i{\k19}ja {\k16}no {\k34}kou{\k32}shin
@@ -109,11 +110,11 @@ Dialogue: 0,0:01:20.10,0:01:24.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\
 Dialogue: 0,0:01:23.23,0:01:26.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}aa {\k19}B{\k34}LUE {\k34}LIGH{\k18}T {\k16}no {\k17}a{\k24}ka{\k50}ri
 Dialogue: 0,0:01:26.32,0:01:29.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}to{\k18}ri{\k17}ka{\k17}go {\k17}no {\k17}na{\k17}ka {\k17}no {\k35}you {\k31}de{\k5}su
 Dialogue: 0,0:01:29.06,0:01:33.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}yu{\k16}bi{\k19}sa{\k16}ki {\k17}no {\k17}se{\k35}kai {\k16}wa {\k18}su{\k34}ba{\k34}ra{\k35}shi{\k24}i
-Dialogue: 0,0:01:32.50,0:01:35.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}ZE{\k17}RO-{\k34}SUM {\k52}FAIR {\k53}GAME
-Dialogue: 0,0:01:35.86,0:01:38.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}WANT {\k32}YOU {\k58}GONE?
+Dialogue: 0,0:01:32.50,0:01:35.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ze{\k17}ro-{\k34}sum {\k52}fair {\k53}game
+Dialogue: 0,0:01:35.86,0:01:38.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Want {\k32}you {\k58}gone?
 Dialogue: 0,0:01:47.88,0:01:51.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}ki{\k15}mi{\k17}ra {\k17}no {\k18}ha{\k20}ra {\k13}no {\k16}na{\k20}ka {\k17}no {\k32}na{\k38}ka
 Dialogue: 0,0:01:50.65,0:01:54.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}do{\k19}su{\k18}gu{\k16}ro{\k17}i {\k17}ho{\k18}n{\k16}ne {\k17}wo {\k17}ka{\k35}kush'{\k35}te
-Dialogue: 0,0:01:53.07,0:01:56.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}en'{\k35}en {\k32}mei{\k36}sou {\k14}da{\k19}bu{\k19}su{\k17}ta {\k35}TAL{\k26}K
+Dialogue: 0,0:01:53.07,0:01:56.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}en'{\k35}en {\k32}mei{\k36}sou {\k14}da{\k19}bu{\k19}su{\k17}ta {\k15}TA{\k20}L{\k26}K
 Dialogue: 0,0:01:55.77,0:01:57.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}shou {\k17}mo {\k29}nai
 Dialogue: 0,0:01:57.17,0:01:59.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}shou {\k17}mo {\k28}nai
 Dialogue: 0,0:01:58.53,0:02:01.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}ka{\k8}ko{\k8}u {\k9}de {\k7}mi{\k10}ta{\k18}su {\k16}shou{\k18}nin {\k15}yok{\k26}kyuu
@@ -122,7 +123,7 @@ Dialogue: 0,0:02:01.27,0:02:03.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\
 Dialogue: 0,0:02:02.80,0:02:05.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}wa{\k15}ta{\k20}su {\k34}in{\k37}dou
 Dialogue: 0,0:02:04.01,0:02:06.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}hin{\k17}sei {\k10}u{\k10}ta{\k7}ga{\k10}u {\k8}su{\k9}te{\k9}mi {\k8}no {\k9}ka{\k5}ku{\k23}san
 Dialogue: 0,0:02:05.55,0:02:07.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ke{\k16}shi{\k18}te {\k34}dou{\k40}zo
-Dialogue: 0,0:02:06.76,0:02:11.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}GOOD{\k53}BYE {\k50}MY {\k53}DEAR {\k34}HA{\k34}TER {\k53}GUYS
+Dialogue: 0,0:02:06.76,0:02:11.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Good{\k53}bye {\k50}my {\k53}dear {\k34}ha{\k34}ter {\k53}guys
 Dialogue: 0,0:02:10.89,0:02:16.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k67}rei{\k66}shou {\k25}sh'te {\k14}Y{\k51}EAH {\k17}ko{\k33}wash'{\k19}te {\k17}Y{\k68}E{\k49}AH
 Dialogue: 0,0:02:17.91,0:02:21.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}ko{\k23}ge{\k11}tsu{\k15}ku {\k20}yo{\k17}ru {\k18}wo {\k33}ROL{\k35}LIN' {\k34}ROL{\k35}LIN' {\k30}DOWN
 Dialogue: 0,0:02:20.83,0:02:24.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}ken{\k35}sou {\k18}ga {\k16}to{\k17}da{\k17}e{\k35}nu {\k34}you {\k37}ni
@@ -131,11 +132,11 @@ Dialogue: 0,0:02:25.89,0:02:29.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\
 Dialogue: 0,0:02:29.06,0:02:32.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}aa {\k34}RE{\k18}D {\k33}LIGH{\k19}T {\k15}ga {\k18}to{\k17}mo{\k54}ri
 Dialogue: 0,0:02:32.15,0:02:35.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}fu{\k20}ku{\k15}ro {\k17}no {\k17}ne{\k17}zu{\k17}mi {\k17}no {\k35}you {\k33}de{\k5}su
 Dialogue: 0,0:02:34.88,0:02:39.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}yu{\k16}bi{\k18}sa{\k17}ki {\k16}no {\k18}se{\k35}kai {\k17}wa {\k17}su{\k34}ba{\k34}ra{\k34}shi{\k26}i
-Dialogue: 0,0:02:38.32,0:02:41.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ZE{\k17}RO-{\k35}SUM {\k53}FAIR {\k49}GAME
-Dialogue: 0,0:02:39.68,0:02:41.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}BRING {\k16}IT {\k29}DOWN
-Dialogue: 0,0:02:42.42,0:02:44.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}BRING {\k17}IT {\k28}DOWN
-Dialogue: 0,0:02:45.16,0:02:46.91,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}BRING {\k17}IT {\k29}DOWN
-Dialogue: 0,0:02:47.90,0:02:49.63,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}BRING {\k16}IT {\k27}DOWN
+Dialogue: 0,0:02:38.32,0:02:41.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ze{\k17}ro-{\k35}sum {\k53}fair {\k49}game
+Dialogue: 0,0:02:39.68,0:02:41.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Bring {\k16}it {\k29}down
+Dialogue: 0,0:02:42.42,0:02:44.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Bring {\k17}it {\k28}down
+Dialogue: 0,0:02:45.16,0:02:46.91,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Bring {\k17}it {\k29}down
+Dialogue: 0,0:02:47.90,0:02:49.63,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Bring {\k16}it {\k27}down
 Dialogue: 0,0:03:02.66,0:03:06.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}UM {\k69}BA{\k18}D {\k17}ka{\k34}mash'{\k19}te {\k15}Y{\k43}EAH
 Dialogue: 0,0:03:05.20,0:03:09.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}sa{\k16}ke{\k17}be {\k24}SAY {\k12}Y{\k32}EAH {\k22}SAY {\k15}Y{\k32}EAH {\k17}SAY {\k19}Y{\k69}E{\k50}AH
 Dialogue: 0,0:03:08.67,0:03:12.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}i{\k23}te{\k11}tsu{\k18}ku {\k18}yo{\k14}ru {\k20}wo {\k35}ROL{\k34}LIN' {\k35}ROL{\k32}LIN' {\k29}DOWN
@@ -149,5 +150,5 @@ Dialogue: 0,0:03:27.52,0:03:31.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\
 Dialogue: 0,0:03:30.78,0:03:34.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}aa {\k36}RE{\k18}D {\k32}LIGH{\k18}T {\k16}ga {\k18}to{\k17}mo{\k57}ri
 Dialogue: 0,0:03:33.85,0:03:37.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}CHEC{\k21}K{\k31}MA{\k15}TE {\k20}o{\k17}shi{\k17}ma{\k34}i {\k33}de{\k6}su
 Dialogue: 0,0:03:36.58,0:03:41.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}yu{\k16}bi{\k18}sa{\k18}ki {\k15}no {\k19}se{\k34}kai {\k17}wa {\k18}su{\k34}ba{\k34}ra{\k32}shi{\k30}i
-Dialogue: 0,0:03:40.04,0:03:42.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ZE{\k17}RO-{\k34}SUM {\k52}FAIR {\k65}GAME
-Dialogue: 0,0:03:43.41,0:03:45.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}WANT {\k30}YOU {\k66}GONE?
+Dialogue: 0,0:03:40.04,0:03:42.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ze{\k17}ro-{\k34}sum {\k52}fair {\k65}game
+Dialogue: 0,0:03:43.41,0:03:45.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Want {\k30}you {\k66}gone?

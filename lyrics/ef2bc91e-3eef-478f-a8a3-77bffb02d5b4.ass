@@ -1,0 +1,236 @@
+﻿[Script Info]
+Title: Heavy Rotation
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Video Aspect Ratio: 0
+Video Zoom: 4
+YCbCr Matrix: TV.601
+Original Timing: Thaksin
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: [Tenshi-sama]Kadowaki,Arial,24,&H00FFFFFF,&H004D41B7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Tenshi-sama]Itsuki,Arial,24,&H00FFFFFF,&H00B7CF81,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Tenshi-sama]Amane,Arial,24,&H00FFFFFF,&H00EBBC6F,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Tenshi-sama]Mahiru,Arial,24,&H00FFFFFF,&H0082DAF0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Tenshi-sama]Chitose,Arial,24,&H00FFFFFF,&H00D4BCE9,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Tenshi-sama]All,Arial,24,&H00FFFFFF,&H004EA4DB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Tenshi-sama]Femmes,Arial,24,&H00FFFFFF,&H00605DEF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Tenshi-sama]Hommes,Arial,24,&H00FFFFFF,&H00FF894C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Tenshi-sama][Choir]Hommes,Arial,24,&H00FFFFFF,&H00FF894C,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: [Tenshi-sama][Choir]Femmes,Arial,24,&H00FFFFFF,&H00605DEF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: [Tenshi-sama][Choir]All,Arial,24,&H00FFFFFF,&H004EA4DB,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+Style: [Tenshi-sama]Kadowaki Symbol,Arial,24,&H004D41B7,&H004D41B7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Tenshi-sama]Itsuki Symbol,Arial,24,&H00B7CF81,&H00B7CF81,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Tenshi-sama]Amane Symbol,Arial,24,&H00EBBC6F,&H00EBBC6F,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Tenshi-sama]Mahiru Symbol,Arial,24,&H0082DAF0,&H0082DAF0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Tenshi-sama]Chitose Symbol,Arial,24,&H00D4BCE9,&H00D4BCE9,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,[Tenshi-sama]Kadowaki,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\r[Tenshi-sama]Kadowaki Symbol\\fs30}●{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,[Tenshi-sama]Itsuki,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\r[Tenshi-sama]Itsuki Symbol\\fs30}♣{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,[Tenshi-sama]Amane,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\r[Tenshi-sama]Amane Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,[Tenshi-sama]Mahiru,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\r[Tenshi-sama]Mahiru Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,[Tenshi-sama]Chitose,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\r[Tenshi-sama]Chitose Symbol\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,[Tenshi-sama]All,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,[Tenshi-sama]Femmes,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,[Tenshi-sama]Hommes,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,[Tenshi-sama][Choir]Hommes,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,[Tenshi-sama][Choir]Femmes,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,[Tenshi-sama][Choir]All,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H4EA4DB&}All{\c} | {\c&H605DEF&}Women{\c} | {\c&HFF894C&}Men{\c} | {\c&H4D41B7&}● Kadowaki{\c} | {\c&HB7CF81&}♣ Itsuki{\c} | {\c&HEBBC6F&}♠ Amane{\c} | {\c&H82DAF0&}♥ Mahiru{\c} | {\c&HD4BCE9&}♦ Chitose{\c}
+Comment: 0,0:00:00.82,0:00:01.72,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k63}One! {\k27}two!
+Comment: 0,0:00:02.13,0:00:03.48,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k32}One! {\k30}two! {\k35}three! {\k38}four!
+Comment: 0,0:00:08.12,0:00:10.15,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k33}I {\k33}want {\kf137}you!
+Comment: 0,0:00:09.46,0:00:11.03,[Tenshi-sama]Hommes,,0,0,0,karaoke,{\k35}I {\k31}want {\kf91}you!
+Comment: 0,0:00:10.79,0:00:12.78,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k34}I {\k30}need {\kf135}you!
+Comment: 0,0:00:12.12,0:00:14.03,[Tenshi-sama]Hommes,,0,0,0,karaoke,{\k36}I {\k31}need {\k60}you!
+Comment: 0,0:00:13.46,0:00:15.43,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k32}I {\k35}love {\k59}you!
+Comment: 0,0:00:14.82,0:00:15.96,[Tenshi-sama]Hommes,,0,0,0,karaoke,{\k33}I {\k33}love {\k48}you!
+Comment: 0,0:00:16.12,0:00:19.09,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k33}a{\k34}ta{\k68}ma {\k67}no {\k66}na{\k29}ka
+Comment: 0,0:00:19.47,0:00:23.80,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k35}ga{\k31}n{\k36}ga{\k33}n {\k28}na{\k35}t{\k34}te{\k34}ru {\k63}MU{\k36}S{\k33}I{\k35}C
+Comment: 0,0:00:24.44,0:00:28.13,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k36}Hea{\k66}vy{\k66}~ {\k35}ro{\k33}~{\k33}ta{\k31}~{\k69}tion
+Comment: 0,0:00:38.45,0:00:43.32,[Tenshi-sama]Mahiru,,0,0,0,karaoke,{\k67}PO{\k35}P{\k34}COR{\k17}N {\k113}ga {\k31}ha{\k38}ji{\k34}ke{\k30}ru {\k20}you {\k68}ni
+Comment: 0,0:00:43.70,0:00:48.15,[Tenshi-sama]Mahiru,,0,0,0,karaoke,{\k42}"su{\k34}ki" {\k27}to{\k40} yu{\k33}u {\k29}mo{\k37}ji {\k69}ga {\k18}o{\k45}do{\k71}ru
+Comment: 0,0:00:49.15,0:00:53.93,[Tenshi-sama]Chitose,,0,0,0,karaoke,{\k33}ka{\k33}o {\k31}ya {\k31}ko{\k20}e {\k117}wo {\k34}o{\k34}mo{\k32}u {\k35}da{\k16}ke {\k62}de
+Comment: 0,0:00:54.45,0:00:59.33,[Tenshi-sama]Chitose,,0,0,0,karaoke,{\k34}i{\k35}te {\k33}mo {\k32}ta{\k33}t{\k36}te {\k33}mo {\k64}i{\k68}ra{\k50}re{\k18}~{\k52}nai
+Comment: 0,0:00:59.80,0:01:03.79,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k31}ko{\k37}n{\k31}na {\k36}ki{\k28}mo{\k37}chi {\k33}ni {\k28}na{\k37}re{\k35}ru{\k33}t{\k33}te
+Comment: 0,0:01:04.13,0:01:08.75,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k34}bo{\k33}ku {\k95}wa {\k38}tsu{\k34}i{\k33}te {\k32}i{\k34}ru {\k129}ne
+Comment: 0,0:01:07.46,0:01:08.16,[Tenshi-sama]Hommes,,0,0,0,karaoke,{\k70}Ah
+Comment: 0,0:01:08.16,0:01:08.83,[Tenshi-sama]Mahiru,,0,0,0,karaoke,{\k67}Ah
+Comment: 0,0:01:08.83,0:01:09.46,[Tenshi-sama]Chitose,,0,0,0,karaoke,{\k63}Ah
+Comment: 0,0:01:09.46,0:01:11.40,[Tenshi-sama]Mahiru,,0,0,0,karaoke,{\k34}I {\k30}want {\kf130}you!
+Comment: 0,0:01:10.82,0:01:12.44,[Tenshi-sama]Amane,,0,0,0,karaoke,{\k31}I {\k32}want {\kf99}you!
+Comment: 0,0:01:12.13,0:01:14.07,[Tenshi-sama]Chitose,,0,0,0,karaoke,{\k33}I {\k30}need {\kf131}you!
+Comment: 0,0:01:13.45,0:01:15.11,[Tenshi-sama]Itsuki,,0,0,0,karaoke,{\k32}I {\k31}need {\kf103}you!
+Comment: 0,0:01:14.80,0:01:16.80,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k34}I {\k32}love {\kf134}you!
+Comment: 0,0:01:16.13,0:01:17.38,[Tenshi-sama]Hommes,,0,0,0,karaoke,{\k29}I {\k31}love {\k65}you!
+Comment: 0,0:01:17.44,0:01:20.47,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k37}ki{\k34}mi {\k65}ni {\k66}a{\k69}e{\k32}te
+Comment: 0,0:01:20.81,0:01:25.11,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k35}do{\k31}n{\k35}do{\k27}n {\k37}chi{\k30}ka{\k38}zu{\k29}ku {\k37}so{\k31}no {\k33}kyo{\k34}ri {\k33}ni
+Comment: 0,0:01:25.48,0:01:30.36,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k32}Ma{\k32}~{\k93}x{\k35}~ {\k39}hi{\k31}gh {\k38}te{\k29}n{\k1f59}sion
+Comment: 0,0:01:30.80,0:01:33.03,[Tenshi-sama]Chitose,,0,0,0,karaoke,{\k35}I {\k31}want {\kf157}you!
+Comment: 0,0:01:32.16,0:01:33.61,[Tenshi-sama]Itsuki,,0,0,0,karaoke,{\k31}I {\k33}want {\kf81}you!
+Comment: 0,0:01:33.48,0:01:35.49,[Tenshi-sama]Mahiru,,0,0,0,karaoke,{\k31}I {\k31}need {\kf139}you!
+Comment: 0,0:01:34.81,0:01:36.45,[Tenshi-sama]Amane,,0,0,0,karaoke,{\k33}I {\k32}need {\kf99}you!
+Comment: 0,0:01:36.14,0:01:38.13,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k31}I {\k36}love {\kf132}you!
+Comment: 0,0:01:37.47,0:01:38.77,[Tenshi-sama]Hommes,,0,0,0,karaoke,{\k34}I {\k32}love {\k64}you!
+Comment: 0,0:01:38.77,0:01:41.80,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k38}HE{\k32}AR{\k66}T {\k66}no {\k68}o{\k33}ku
+Comment: 0,0:01:42.12,0:01:46.55,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k36}ja{\k31}n{\k36}ja{\k32}n {\k35}a{\k30}fu{\k34}re{\k33}ru {\k32}i{\k31}to{\k30}shi{\k41}sa {\k42}wa
+Comment: 0,0:01:47.10,0:01:50.73,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k34}Hea{\k68}vy{\k65}~ {\k35}ro{\k32}~{\k33}ta{\k31}~{\k65}tion
+Comment: 0,0:01:55.75,0:02:00.48,[Tenshi-sama]Mahiru,,0,0,0,karaoke,{\k40}hi{\k34}to {\k32}wa {\k34}da{\k16}re {\k116}mo {\k27}is{\k38}sho{\k34}u {\k36}no {\k14}u{\k52}chi
+Comment: 0,0:01:57.44,0:01:58.42,[Tenshi-sama][Choir]All,,0,0,0,karaoke,{\k67}Yeah! {\k31}yeah!
+Comment: 0,0:02:00.10,0:02:01.06,[Tenshi-sama][Choir]All,,0,0,0,karaoke,{\k67}Yeah! {\k29}yeah!
+Comment: 0,0:02:01.13,0:02:05.52,[Tenshi-sama]Mahiru,,0,0,0,karaoke,{\k31}na{\k33}n{\k33}ka{\k35}i {\k28}ai{\k38}se{\k35}ru {\k67}no {\k17}da{\k48}ro{\k74}u
+Comment: 0,0:02:06.49,0:02:11.33,[Tenshi-sama]Chitose,,0,0,0,karaoke,{\k31}ta{\k34}t{\k32}ta {\k32}i{\k19}chi{\k115}do {\k29}wa{\k39}su{\k33}re {\k33}ra{\k17}re{\k70}nai
+Comment: 0,0:02:08.12,0:02:09.07,[Tenshi-sama][Choir]All,,0,0,0,karaoke,{\k65}Yeah! {\k30}yeah!
+Comment: 0,0:02:10.78,0:02:11.74,[Tenshi-sama][Choir]All,,0,0,0,karaoke,{\k66}Yeah! {\k30}yeah!
+Comment: 0,0:02:11.80,0:02:16.65,[Tenshi-sama]Chitose,,0,0,0,karaoke,{\k33}ko{\k35}i {\k32}ga {\k34}de{\k32}ki{\k35}ta{\k32}ra {\k64}man{\k68}zo{\k66}ku {\k54}sa
+Comment: 0,0:02:17.08,0:02:21.11,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k40}so{\k32}n{\k32}na {\k33}to{\k37}ki{\k29}me{\k35}ki {\k34}wo {\k27}ka{\k38}n{\k34}ji{\k32}te
+Comment: 0,0:02:21.46,0:02:26.11,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k35}ha{\k34}na {\k99}wa {\k17}ho{\k16}ko{\k34}ro{\k33}bu {\k32}no {\k36}ka{\kf129}na ?
+Comment: 0,0:02:24.79,0:02:25.49,[Tenshi-sama][Choir]Hommes,,0,0,0,karaoke,{\k70}Ah
+Comment: 0,0:02:25.49,0:02:26.15,[Tenshi-sama][Choir]All,,0,0,0,karaoke,{\k66}Ah
+Comment: 0,0:02:26.15,0:02:26.87,[Tenshi-sama][Choir]All,,0,0,0,karaoke,{\k72}Ah
+Comment: 0,0:02:27.46,0:02:29.80,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k34}I {\k29}feel {\kf171}you!
+Comment: 0,0:02:28.82,0:02:30.38,[Tenshi-sama]Amane,,0,0,0,karaoke,{\k33}I {\k32}feel {\kf91}you!
+Comment: 0,0:02:30.13,0:02:32.36,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k33}I {\k31}touch {\kf159}you!
+Comment: 0,0:02:31.48,0:02:32.69,[Tenshi-sama]Itsuki,,0,0,0,karaoke,{\k30}I {\k30}touch {\k61}you!
+Comment: 0,0:02:32.80,0:02:35.10,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k30}I {\k31}hold {\kf169}you!
+Comment: 0,0:02:34.11,0:02:35.41,[Tenshi-sama]Kadowaki,,0,0,0,karaoke,{\k32}I {\k33}hold {\k65}you!
+Comment: 0,0:02:35.45,0:02:38.47,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k33}yu{\k34}me {\k66}no {\k65}na{\k71}ka {\k33}de
+Comment: 0,0:02:38.79,0:02:43.10,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k36}da{\k31}n{\k36}da{\k31}n {\k36}o{\k28}o{\k35}ki{\k36}ku {\k35}na{\k30}t{\k34}te {\k31}yu{\k32}ku
+Comment: 0,0:02:43.46,0:02:48.21,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k33}bo{\k35}ku {\k98}no {\k36}I{\k30}MA{\k36}GI{\k35}NA{\k29}~{\kf143}TION
+Comment: 0,0:02:48.77,0:02:51.10,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k32}I {\k30}feel {\kf171}you!
+Comment: 0,0:02:50.15,0:02:51.70,[Tenshi-sama]Amane,,0,0,0,karaoke,{\k34}I {\k33}feel {\kf88}you!
+Comment: 0,0:02:51.48,0:02:53.75,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k33}I {\k27}touch {\kf167}you!
+Comment: 0,0:02:52.82,0:02:54.13,[Tenshi-sama]Itsuki,,0,0,0,karaoke,{\k33}I {\k27}touch {\k71}you!
+Comment: 0,0:02:54.13,0:02:56.36,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k29}I {\k34}hold {\kf160}you!
+Comment: 0,0:02:55.47,0:02:56.78,[Tenshi-sama]Kadowaki,,0,0,0,karaoke,{\k34}I {\k31}hold {\k66}you!
+Comment: 0,0:02:56.78,0:02:59.81,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k37}ko{\k30}no {\k68}o{\k66}mo{\k65}i {\k37}wo
+Comment: 0,0:03:00.14,0:03:04.58,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k32}bi{\k34}n{\k35}bi{\k27}n {\k37}tsu{\k31}ta{\k35}e{\k33}te {\k30}ho{\k37}shi{\k32}i {\k36}ka{\k45}ra
+Comment: 0,0:03:05.11,0:03:08.79,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k35}Hea{\k67}vy{\k64}~ {\k37}ro{\k31}~{\k33}ta{\k30}~{\k71}tion
+Comment: 0,0:03:18.80,0:03:21.12,[Tenshi-sama]Mahiru,,0,0,0,karaoke,{\k29}i{\k38}tsu{\k31}mo {\k38}ki{\k31}i{\k18}te{\k47}ta
+Comment: 0,0:03:21.49,0:03:23.15,[Tenshi-sama]Mahiru,,0,0,0,karaoke,{\k32}Fa{\k34}vo{\k32}ri{\k32}te {\k36}song
+Comment: 0,0:03:23.48,0:03:28.57,[Tenshi-sama]Chitose,,0,0,0,karaoke,{\k33}a{\k33}no {\k97}kyo{\k37}ku {\k31}no {\k33}yo{\k30}u {\kf215}ni
+Comment: 0,0:03:27.43,0:03:29.11,[Tenshi-sama][Choir]Hommes,,0,0,0,karaoke,{\k66}Yeah! {\k67}yeah! {\k35}yeah!
+Comment: 0,0:03:29.11,0:03:34.20,[Tenshi-sama]Chitose,,0,0,0,karaoke,{\k34}zu{\k38}t{\k30}to {\k36}ku{\k30}ri{\k26}ka{\k19}e{\k37}shi{\k35}te {\k15}ni-{\k38}ju{\k25}u-{\k22}yon {\k19}ji{\k17}ka{\kf88}n
+Comment: 0,0:03:34.43,0:03:40.83,[Tenshi-sama]Mahiru,,0,0,0,karaoke,{\k31}ki{\k38}mi {\k18}da{\k150}ke {\k32}RE{\k36}QU{\k48}ES{\k47}T {\k38}chu{\kf202}u
+Comment: 0,0:03:42.80,0:03:44.87,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k33}I {\k30}want {\kf144}you!
+Comment: 0,0:03:44.13,0:03:46.18,[Tenshi-sama]Hommes,,0,0,0,karaoke,{\k34}I {\k33}want {\kf138}you!
+Comment: 0,0:03:45.48,0:03:47.77,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k32}I {\k31}need {\kf166}you!
+Comment: 0,0:03:46.80,0:03:48.71,[Tenshi-sama]Hommes,,0,0,0,karaoke,{\k35}I {\k28}need {\kf128}you!
+Comment: 0,0:03:48.14,0:03:50.47,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k28}I {\k38}love {\kf167}you!
+Comment: 0,0:03:49.45,0:03:50.72,[Tenshi-sama]Hommes,,0,0,0,karaoke,{\k31}I {\k35}love {\k61}you!
+Comment: 0,0:03:50.79,0:03:53.77,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k36}ki{\k31}mi {\k64}ni {\k69}a{\k68}e{\k30}te
+Comment: 0,0:03:54.12,0:03:58.41,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k36}do{\k31}n{\k36}do{\k26}n {\k36}chi{\k30}ka{\k37}zu{\k30}ku {\k39}so{\k31}no {\k33}kyo{\k34}ri {\k30}ni
+Comment: 0,0:03:58.79,0:04:03.73,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k34}Ma{\k31}~{\k94}x{\k35}~ {\k40}hi{\k29}gh {\k39}te{\k28}n{\kf164}sion
+Comment: 0,0:04:04.13,0:04:06.39,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k33}I {\k29}want {\kf164}you!
+Comment: 0,0:04:05.47,0:04:07.23,[Tenshi-sama]Hommes,,0,0,0,karaoke,{\k35}I {\k30}want {\kf111}you!
+Comment: 0,0:04:06.79,0:04:09.23,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k33}I {\k31}need {\kf180}you!
+Comment: 0,0:04:08.15,0:04:10.03,[Tenshi-sama]Hommes,,0,0,0,karaoke,{\k32}I {\k32}need {\kf124}you!
+Comment: 0,0:04:09.45,0:04:11.78,[Tenshi-sama]Femmes,,0,0,0,karaoke,{\k31}I {\k32}love {\kf170}you!
+Comment: 0,0:04:10.80,0:04:11.81,[Tenshi-sama]Hommes,,0,0,0,karaoke,{\k35}I {\k29}love {\k37}you!
+Comment: 0,0:04:12.11,0:04:15.09,[Tenshi-sama]All,,0,0,0,karaoke,{\k37}HE{\k31}AR{\k68}T {\k64}no {\k67}o{\k31}ku
+Comment: 0,0:04:15.44,0:04:19.99,[Tenshi-sama]All,,0,0,0,karaoke,{\k38}ja{\k26}n{\k40}ja{\k31}n {\k33}a{\k33}fu{\k33}re{\k31}ru {\k34}i{\k30}to{\k35}shi{\k36}sa {\k55}wa
+Comment: 0,0:04:20.41,0:04:24.11,[Tenshi-sama]All,,0,0,0,karaoke,{\k38}Hea{\k66}vy{\k65}~ {\k35}ro{\k29}~{\k39}ta{\k28}~{\k70}tion
+Comment: 0,0:04:28.47,0:04:33.16,[Tenshi-sama]Mahiru,,0,0,0,karaoke,{\k40}Hea{\k64}vy{\k73}~ {\k30}ro{\k43}~{\k36}ta{\k34}~{\kf149}tion
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H4EA4DB&}All{\c} | {\c&H605DEF&}Women{\c} | {\c&HFF894C&}Men{\c} | {\c&H4D41B7&}● Kadowaki{\c} | {\c&HB7CF81&}♣ Itsuki{\c} | {\c&HEBBC6F&}♠ Amane{\c} | {\c&H82DAF0&}♥ Mahiru{\c} | {\c&HD4BCE9&}♦ Chitose{\c}
+Dialogue: 0,0:00:00.00,0:00:01.92,[Tenshi-sama]Femmes,,0,0,0,fx,{\k82\fad(820,200)}{\k63}One! {\k27}two!
+Dialogue: 0,0:00:01.23,0:00:03.68,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k32}One! {\k30}two! {\k35}three! {\k38}four!
+Dialogue: 0,0:00:07.22,0:00:10.35,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k33}I {\k33}want {\kf137}you!
+Dialogue: 0,0:00:08.56,0:00:11.23,[Tenshi-sama]Hommes,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I {\k31}want {\kf91}you!
+Dialogue: 0,0:00:09.89,0:00:12.98,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I {\k30}need {\kf135}you!
+Dialogue: 0,0:00:11.22,0:00:14.23,[Tenshi-sama]Hommes,,0,0,0,fx,{\k90\fad(300,200)}{\k36}I {\k31}need {\k60}you!
+Dialogue: 0,0:00:12.56,0:00:15.63,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k35}love {\k59}you!
+Dialogue: 0,0:00:13.92,0:00:16.16,[Tenshi-sama]Hommes,,0,0,0,fx,{\k90\fad(300,200)}{\k33}I {\k33}love {\k48}you!
+Dialogue: 0,0:00:15.22,0:00:19.29,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k33}a{\k34}ta{\k68}ma {\k67}no {\k66}na{\k29}ka
+Dialogue: 0,0:00:18.57,0:00:24.00,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ga{\k31}n{\k36}ga{\k33}n {\k28}na{\k35}t{\k34}te{\k34}ru {\k63}MU{\k36}S{\k33}I{\k35}C
+Dialogue: 0,0:00:23.54,0:00:28.33,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Hea{\k66}vy{\k66}~ {\k35}ro{\k33}~{\k33}ta{\k31}~{\k69}tion
+Dialogue: 0,0:00:37.55,0:00:43.52,[Tenshi-sama]Mahiru,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Mahiru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k67}PO{\k35}P{\k34}COR{\k17}N {\k113}ga {\k31}ha{\k38}ji{\k34}ke{\k30}ru {\k20}you {\k68}ni
+Dialogue: 0,0:00:42.80,0:00:48.35,[Tenshi-sama]Mahiru,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Mahiru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k42}"su{\k34}ki" {\k27}to{\k40} yu{\k33}u {\k29}mo{\k37}ji {\k69}ga {\k18}o{\k45}do{\k71}ru
+Dialogue: 0,0:00:48.25,0:00:54.13,[Tenshi-sama]Chitose,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Chitose Symbol\fs30}♦{\r\fs\4a&HFF&} {\k33}ka{\k33}o {\k31}ya {\k31}ko{\k20}e {\k117}wo {\k34}o{\k34}mo{\k32}u {\k35}da{\k16}ke {\k62}de
+Dialogue: 0,0:00:53.55,0:00:59.53,[Tenshi-sama]Chitose,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Chitose Symbol\fs30}♦{\r\fs\4a&HFF&} {\k34}i{\k35}te {\k33}mo {\k32}ta{\k33}t{\k36}te {\k33}mo {\k64}i{\k68}ra{\k50}re{\k18}~{\k52}nai
+Dialogue: 0,0:00:58.90,0:01:03.99,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ko{\k37}n{\k31}na {\k36}ki{\k28}mo{\k37}chi {\k33}ni {\k28}na{\k37}re{\k35}ru{\k33}t{\k33}te
+Dialogue: 0,0:01:03.23,0:01:08.95,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k34}bo{\k33}ku {\k95}wa {\k38}tsu{\k34}i{\k33}te {\k32}i{\k34}ru {\k129}ne
+Dialogue: 0,0:01:06.56,0:01:08.36,[Tenshi-sama]Hommes,,0,0,0,fx,{\k90\fad(300,200)}{\k70}Ah
+Dialogue: 0,0:01:07.26,0:01:09.03,[Tenshi-sama]Mahiru,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Mahiru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k67}Ah
+Dialogue: 0,0:01:07.93,0:01:09.66,[Tenshi-sama]Chitose,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Chitose Symbol\fs30}♦{\r\fs\4a&HFF&} {\k63}Ah
+Dialogue: 0,0:01:08.56,0:01:11.60,[Tenshi-sama]Mahiru,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Mahiru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k34}I {\k30}want {\kf130}you!
+Dialogue: 0,0:01:09.92,0:01:12.64,[Tenshi-sama]Amane,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Amane Symbol\fs30}♠{\r\fs\4a&HFF&} {\k31}I {\k32}want {\kf99}you!
+Dialogue: 0,0:01:11.23,0:01:14.27,[Tenshi-sama]Chitose,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Chitose Symbol\fs30}♦{\r\fs\4a&HFF&} {\k33}I {\k30}need {\kf131}you!
+Dialogue: 0,0:01:12.55,0:01:15.31,[Tenshi-sama]Itsuki,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Itsuki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k32}I {\k31}need {\kf103}you!
+Dialogue: 0,0:01:13.90,0:01:17.00,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I {\k32}love {\kf134}you!
+Dialogue: 0,0:01:15.23,0:01:17.58,[Tenshi-sama]Hommes,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k31}love {\k65}you!
+Dialogue: 0,0:01:16.54,0:01:20.67,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ki{\k34}mi {\k65}ni {\k66}a{\k69}e{\k32}te
+Dialogue: 0,0:01:19.91,0:01:25.31,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k35}do{\k31}n{\k35}do{\k27}n {\k37}chi{\k30}ka{\k38}zu{\k29}ku {\k37}so{\k31}no {\k33}kyo{\k34}ri {\k33}ni
+Dialogue: 0,0:01:24.58,0:01:30.56,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Ma{\k32}~{\k93}x{\k35}~ {\k39}hi{\k31}gh {\k38}te{\k29}n{\k1f59}sion
+Dialogue: 0,0:01:29.90,0:01:33.23,[Tenshi-sama]Chitose,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Chitose Symbol\fs30}♦{\r\fs\4a&HFF&} {\k35}I {\k31}want {\kf157}you!
+Dialogue: 0,0:01:31.26,0:01:33.81,[Tenshi-sama]Itsuki,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Itsuki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k31}I {\k33}want {\kf81}you!
+Dialogue: 0,0:01:32.58,0:01:35.69,[Tenshi-sama]Mahiru,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Mahiru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k31}I {\k31}need {\kf139}you!
+Dialogue: 0,0:01:33.91,0:01:36.65,[Tenshi-sama]Amane,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Amane Symbol\fs30}♠{\r\fs\4a&HFF&} {\k33}I {\k32}need {\kf99}you!
+Dialogue: 0,0:01:35.24,0:01:38.33,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k31}I {\k36}love {\kf132}you!
+Dialogue: 0,0:01:36.57,0:01:38.97,[Tenshi-sama]Hommes,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I {\k32}love {\k64}you!
+Dialogue: 0,0:01:37.87,0:01:42.00,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k38}HE{\k32}AR{\k66}T {\k66}no {\k68}o{\k33}ku
+Dialogue: 0,0:01:41.22,0:01:46.75,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ja{\k31}n{\k36}ja{\k32}n {\k35}a{\k30}fu{\k34}re{\k33}ru {\k32}i{\k31}to{\k30}shi{\k41}sa {\k42}wa
+Dialogue: 0,0:01:46.20,0:01:50.93,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Hea{\k68}vy{\k65}~ {\k35}ro{\k32}~{\k33}ta{\k31}~{\k65}tion
+Dialogue: 0,0:01:54.85,0:02:00.68,[Tenshi-sama]Mahiru,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Mahiru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k40}hi{\k34}to {\k32}wa {\k34}da{\k16}re {\k116}mo {\k27}is{\k38}sho{\k34}u {\k36}no {\k14}u{\k52}chi
+Dialogue: 0,0:01:56.54,0:01:58.62,[Tenshi-sama][Choir]All,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Yeah! {\k31}yeah!
+Dialogue: 0,0:01:59.20,0:02:01.26,[Tenshi-sama][Choir]All,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Yeah! {\k29}yeah!
+Dialogue: 0,0:02:00.23,0:02:05.72,[Tenshi-sama]Mahiru,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Mahiru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k31}na{\k33}n{\k33}ka{\k35}i {\k28}ai{\k38}se{\k35}ru {\k67}no {\k17}da{\k48}ro{\k74}u
+Dialogue: 0,0:02:05.59,0:02:11.53,[Tenshi-sama]Chitose,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Chitose Symbol\fs30}♦{\r\fs\4a&HFF&} {\k31}ta{\k34}t{\k32}ta {\k32}i{\k19}chi{\k115}do {\k29}wa{\k39}su{\k33}re {\k33}ra{\k17}re{\k70}nai
+Dialogue: 0,0:02:07.22,0:02:09.27,[Tenshi-sama][Choir]All,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Yeah! {\k30}yeah!
+Dialogue: 0,0:02:09.88,0:02:11.94,[Tenshi-sama][Choir]All,,0,0,0,fx,{\k90\fad(300,200)}{\k66}Yeah! {\k30}yeah!
+Dialogue: 0,0:02:10.90,0:02:16.85,[Tenshi-sama]Chitose,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Chitose Symbol\fs30}♦{\r\fs\4a&HFF&} {\k33}ko{\k35}i {\k32}ga {\k34}de{\k32}ki{\k35}ta{\k32}ra {\k64}man{\k68}zo{\k66}ku {\k54}sa
+Dialogue: 0,0:02:16.18,0:02:21.31,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k40}so{\k32}n{\k32}na {\k33}to{\k37}ki{\k29}me{\k35}ki {\k34}wo {\k27}ka{\k38}n{\k34}ji{\k32}te
+Dialogue: 0,0:02:20.56,0:02:26.31,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ha{\k34}na {\k99}wa {\k17}ho{\k16}ko{\k34}ro{\k33}bu {\k32}no {\k36}ka{\kf129}na ?
+Dialogue: 0,0:02:23.89,0:02:25.69,[Tenshi-sama][Choir]Hommes,,0,0,0,fx,{\k90\fad(300,200)}{\k70}Ah
+Dialogue: 0,0:02:24.59,0:02:26.35,[Tenshi-sama][Choir]All,,0,0,0,fx,{\k90\fad(300,200)}{\k66}Ah
+Dialogue: 0,0:02:25.25,0:02:27.07,[Tenshi-sama][Choir]All,,0,0,0,fx,{\k90\fad(300,200)}{\k72}Ah
+Dialogue: 0,0:02:26.56,0:02:30.00,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I {\k29}feel {\kf171}you!
+Dialogue: 0,0:02:27.92,0:02:30.58,[Tenshi-sama]Amane,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Amane Symbol\fs30}♠{\r\fs\4a&HFF&} {\k33}I {\k32}feel {\kf91}you!
+Dialogue: 0,0:02:29.23,0:02:32.56,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k33}I {\k31}touch {\kf159}you!
+Dialogue: 0,0:02:30.58,0:02:32.89,[Tenshi-sama]Itsuki,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Itsuki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k30}I {\k30}touch {\k61}you!
+Dialogue: 0,0:02:31.90,0:02:35.30,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k30}I {\k31}hold {\kf169}you!
+Dialogue: 0,0:02:33.21,0:02:35.61,[Tenshi-sama]Kadowaki,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Kadowaki Symbol\fs30}●{\r\fs\4a&HFF&} {\k32}I {\k33}hold {\k65}you!
+Dialogue: 0,0:02:34.55,0:02:38.67,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k33}yu{\k34}me {\k66}no {\k65}na{\k71}ka {\k33}de
+Dialogue: 0,0:02:37.89,0:02:43.30,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k36}da{\k31}n{\k36}da{\k31}n {\k36}o{\k28}o{\k35}ki{\k36}ku {\k35}na{\k30}t{\k34}te {\k31}yu{\k32}ku
+Dialogue: 0,0:02:42.56,0:02:48.41,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k33}bo{\k35}ku {\k98}no {\k36}I{\k30}MA{\k36}GI{\k35}NA{\k29}~{\kf143}TION
+Dialogue: 0,0:02:47.87,0:02:51.30,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k30}feel {\kf171}you!
+Dialogue: 0,0:02:49.25,0:02:51.90,[Tenshi-sama]Amane,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Amane Symbol\fs30}♠{\r\fs\4a&HFF&} {\k34}I {\k33}feel {\kf88}you!
+Dialogue: 0,0:02:50.58,0:02:53.95,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k33}I {\k27}touch {\kf167}you!
+Dialogue: 0,0:02:51.92,0:02:54.33,[Tenshi-sama]Itsuki,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Itsuki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k33}I {\k27}touch {\k71}you!
+Dialogue: 0,0:02:53.23,0:02:56.56,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k34}hold {\kf160}you!
+Dialogue: 0,0:02:54.57,0:02:56.98,[Tenshi-sama]Kadowaki,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Kadowaki Symbol\fs30}●{\r\fs\4a&HFF&} {\k34}I {\k31}hold {\k66}you!
+Dialogue: 0,0:02:55.88,0:03:00.01,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ko{\k30}no {\k68}o{\k66}mo{\k65}i {\k37}wo
+Dialogue: 0,0:02:59.24,0:03:04.78,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k32}bi{\k34}n{\k35}bi{\k27}n {\k37}tsu{\k31}ta{\k35}e{\k33}te {\k30}ho{\k37}shi{\k32}i {\k36}ka{\k45}ra
+Dialogue: 0,0:03:04.21,0:03:08.99,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Hea{\k67}vy{\k64}~ {\k37}ro{\k31}~{\k33}ta{\k30}~{\k71}tion
+Dialogue: 0,0:03:17.90,0:03:21.32,[Tenshi-sama]Mahiru,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Mahiru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k29}i{\k38}tsu{\k31}mo {\k38}ki{\k31}i{\k18}te{\k47}ta
+Dialogue: 0,0:03:20.59,0:03:23.35,[Tenshi-sama]Mahiru,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Mahiru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k32}Fa{\k34}vo{\k32}ri{\k32}te {\k36}song
+Dialogue: 0,0:03:22.58,0:03:28.77,[Tenshi-sama]Chitose,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Chitose Symbol\fs30}♦{\r\fs\4a&HFF&} {\k33}a{\k33}no {\k97}kyo{\k37}ku {\k31}no {\k33}yo{\k30}u {\kf215}ni
+Dialogue: 0,0:03:26.53,0:03:29.31,[Tenshi-sama][Choir]Hommes,,0,0,0,fx,{\k90\fad(300,200)}{\k66}Yeah! {\k67}yeah! {\k35}yeah!
+Dialogue: 0,0:03:28.21,0:03:34.40,[Tenshi-sama]Chitose,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Chitose Symbol\fs30}♦{\r\fs\4a&HFF&} {\k34}zu{\k38}t{\k30}to {\k36}ku{\k30}ri{\k26}ka{\k19}e{\k37}shi{\k35}te {\k15}ni-{\k38}ju{\k25}u-{\k22}yon {\k19}ji{\k17}ka{\kf88}n
+Dialogue: 0,0:03:33.53,0:03:41.03,[Tenshi-sama]Mahiru,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Mahiru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k31}ki{\k38}mi {\k18}da{\k150}ke {\k32}RE{\k36}QU{\k48}ES{\k47}T {\k38}chu{\kf202}u
+Dialogue: 0,0:03:41.90,0:03:45.07,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k33}I {\k30}want {\kf144}you!
+Dialogue: 0,0:03:43.23,0:03:46.38,[Tenshi-sama]Hommes,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I {\k33}want {\kf138}you!
+Dialogue: 0,0:03:44.58,0:03:47.97,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k31}need {\kf166}you!
+Dialogue: 0,0:03:45.90,0:03:48.91,[Tenshi-sama]Hommes,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I {\k28}need {\kf128}you!
+Dialogue: 0,0:03:47.24,0:03:50.67,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k28}I {\k38}love {\kf167}you!
+Dialogue: 0,0:03:48.55,0:03:50.92,[Tenshi-sama]Hommes,,0,0,0,fx,{\k90\fad(300,200)}{\k31}I {\k35}love {\k61}you!
+Dialogue: 0,0:03:49.89,0:03:53.97,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ki{\k31}mi {\k64}ni {\k69}a{\k68}e{\k30}te
+Dialogue: 0,0:03:53.22,0:03:58.61,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k36}do{\k31}n{\k36}do{\k26}n {\k36}chi{\k30}ka{\k37}zu{\k30}ku {\k39}so{\k31}no {\k33}kyo{\k34}ri {\k30}ni
+Dialogue: 0,0:03:57.89,0:04:03.93,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ma{\k31}~{\k94}x{\k35}~ {\k40}hi{\k29}gh {\k39}te{\k28}n{\kf164}sion
+Dialogue: 0,0:04:03.23,0:04:06.59,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k33}I {\k29}want {\kf164}you!
+Dialogue: 0,0:04:04.57,0:04:07.43,[Tenshi-sama]Hommes,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I {\k30}want {\kf111}you!
+Dialogue: 0,0:04:05.89,0:04:09.43,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k33}I {\k31}need {\kf180}you!
+Dialogue: 0,0:04:07.25,0:04:10.23,[Tenshi-sama]Hommes,,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k32}need {\kf124}you!
+Dialogue: 0,0:04:08.55,0:04:11.98,[Tenshi-sama]Femmes,,0,0,0,fx,{\k90\fad(300,200)}{\k31}I {\k32}love {\kf170}you!
+Dialogue: 0,0:04:09.90,0:04:12.01,[Tenshi-sama]Hommes,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I {\k29}love {\k37}you!
+Dialogue: 0,0:04:11.21,0:04:15.29,[Tenshi-sama]All,,0,0,0,fx,{\k90\fad(300,200)}{\k37}HE{\k31}AR{\k68}T {\k64}no {\k67}o{\k31}ku
+Dialogue: 0,0:04:14.54,0:04:20.19,[Tenshi-sama]All,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ja{\k26}n{\k40}ja{\k31}n {\k33}a{\k33}fu{\k33}re{\k31}ru {\k34}i{\k30}to{\k35}shi{\k36}sa {\k55}wa
+Dialogue: 0,0:04:19.51,0:04:24.31,[Tenshi-sama]All,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Hea{\k66}vy{\k65}~ {\k35}ro{\k29}~{\k39}ta{\k28}~{\k70}tion
+Dialogue: 0,0:04:27.57,0:04:33.36,[Tenshi-sama]Mahiru,,0,0,0,fx,{\k90\fad(300,200)}{\r[Tenshi-sama]Mahiru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k40}Hea{\k64}vy{\k73}~ {\k30}ro{\k43}~{\k36}ta{\k34}~{\kf149}tion
