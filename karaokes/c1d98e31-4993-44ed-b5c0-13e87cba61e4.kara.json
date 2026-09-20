@@ -6,14 +6,14 @@
   "medias": [
     {
       "default": true,
-      "duration": 108,
-      "filename": "af800210-ae11-4947-a6fc-9190c3473121.mp4",
-      "filesize": 25630195,
-      "loudnorm": "-9.74,0.23,5.10,-19.87,-1.33",
+      "duration": 226,
+      "filename": "c1d98e31-4993-44ed-b5c0-13e87cba61e4.webm",
+      "filesize": 55837503,
+      "loudnorm": "-5.93,1.78,2.40,-15.97,-0.35",
       "lyrics": [
         {
           "default": true,
-          "filename": "af800210-ae11-4947-a6fc-9190c3473121.ass",
+          "filename": "c1d98e31-4993-44ed-b5c0-13e87cba61e4.ass",
           "version": "Default"
         }
       ],
@@ -21,12 +21,12 @@
     }
   ],
   "data": {
-    "created_at": "2026-08-28T19:06:32.984Z",
+    "created_at": "2026-09-19T15:49:28.995Z",
     "ignoreHooks": false,
-    "kid": "af800210-ae11-4947-a6fc-9190c3473121",
-    "modified_at": "2026-09-19T13:49:18.896Z",
+    "kid": "c1d98e31-4993-44ed-b5c0-13e87cba61e4",
+    "modified_at": "2026-09-19T15:49:29.014Z",
     "repository": "kara.moe",
-    "songname": "JPN - BanG Dream! Girls Band Party! - GAME MV - ONE OF US",
+    "songname": "JPN - BanG Dream! Girls Band Party! - GAME MV - Kono Aoki Yami to Hikari",
     "tags": {
       "authors": [
         "6d171c11-48ea-4f30-8d43-0b71d6002593"
@@ -35,7 +35,7 @@
         "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
       ],
       "creators": [
-        "4e1122b4-c09f-445f-bdfa-cbad9581f2dc"
+        "d9c81380-828c-4000-a237-d97e0e2fb9ad"
       ],
       "families": [
         "0377db02-3af6-43b8-9b08-c759df3d25c3"
@@ -49,37 +49,32 @@
       "origins": [
         "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ],
-      "platforms": [
-        "213a1a15-e73a-4a08-b3f6-b6e2745a82e5"
-      ],
       "series": [
         "c33cb766-6922-4340-8524-29bf7eca0fc1"
       ],
       "singers": [
-        "16c170fe-1ada-4916-a0be-42b19eca6ae3",
-        "97f84f38-619d-4a50-9de3-dcee49de9ae2",
-        "b0adee55-f63f-4b1a-b15e-edc78d184469",
-        "bfa33c23-5ec9-4586-8563-816130a9a1c7",
-        "f2e9d52b-1b80-4fb5-8754-628462e094e5"
+        "371f95d8-5385-4728-8dbb-0cd3e5892ce4"
       ],
       "singergroups": [
-        "ff360bdb-90aa-48fc-9d79-05d499d29a22"
+        "0ac6c8a1-05d4-4e2b-af50-ed40a9a59e7a"
       ],
       "songtypes": [
         "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
       ],
       "songwriters": [
-        "30e4f047-50d7-4ed7-8ed3-57cef0f20489",
-        "60c782e0-d553-46c4-a470-bf13b3c88689"
+        "7a226f8d-65e2-4a0e-bb80-64d5f5ff062c",
+        "ffb2194e-3dd1-478f-ac22-71b3bcbd426a"
       ],
       "franchises": [
         "a4465aa7-0b49-44f7-898a-a1373d8e4720"
       ]
     },
     "titles": {
-      "eng": "ONE OF US"
+      "jpn": "この蒼き闇と光",
+      "qro": "Kono Aoki Yami to Hikari",
+      "eng": "This Blue Darkness and Light"
     },
-    "titles_default_language": "eng",
-    "year": 2020
+    "titles_default_language": "qro",
+    "year": 2026
   }
 }

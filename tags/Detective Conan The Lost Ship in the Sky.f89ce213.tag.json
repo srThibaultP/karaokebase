@@ -1,0 +1,30 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Detective Conan Movie 14"
+    ],
+    "external_database_ids": {
+      "anilist": 6467,
+      "kitsu": 4572,
+      "myanimelist": 6467
+    },
+    "i18n": {
+      "eng": "Detective Conan: The Lost Ship in the Sky",
+      "fre": "Détective Conan : L'Arche du Ciel",
+      "ger": "Detektiv Conan: Das verlorene Schiff im Himmel",
+      "jpn": "名探偵コナン 天空の難破船",
+      "qro": "Meitantei Conan: Tenkuu no Lost Ship",
+      "spa": "Detective Conan: El barco perdido en el cielo"
+    },
+    "name": "Detective Conan: The Lost Ship in the Sky",
+    "repository": "kara.moe",
+    "tid": "f89ce213-4915-4b0f-9e9c-ac49bfd75a58",
+    "types": [
+      1
+    ]
+  }
+}

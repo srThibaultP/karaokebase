@@ -42,7 +42,7 @@ Comment: 0,0:00:20.91,0:00:25.07,Ran,,0,0,0,karaoke,{\k44}u{\k19}ta{\k38}i {\k15
 Comment: 0,0:00:25.50,0:00:29.55,Ran,,0,0,0,karaoke,{\k42}ya{\k16}sa{\k40}shi{\k17}sa {\k43}tsu{\k41}re{\k27}te {\k31}ki{\k28}te {\k29}ku{\k29}re{\k62}ta
 Comment: 0,0:00:30.07,0:00:34.02,Ran,,0,0,0,karaoke,{\k43}na{\k42}ni {\k28}ga {\k44}at{\k43}te {\k27}mo {\k28}a{\k15}ta{\k28}shi{\k16}ta{\k15}chi {\k66}wo
 Comment: 0,0:00:34.62,0:00:38.89,Ran,,0,0,0,karaoke,{\k43}shin{\k44}ji {\k28}tsu{\k29}zu{\k14}ke{\k45}te {\k27}ku{\k28}re{\k30}ru {\k14}hi{\k29}to {\k42}ga {\k15}i{\k39}ru
-Comment: 0,0:00:39.36,0:00:41.60,Ran,,0,0,0,karaoke,{\k14}i{\k15}tsu {\k12}de {\k25}mo {\k20}O{\k12}K {\k24}k{\k22}iai {\k15}wa {\k26}juu{\k39}bun
+Comment: 0,0:00:39.36,0:00:41.60,Ran,,0,0,0,karaoke,{\k14}i{\k15}tsu {\k12}de {\k25}mo {\k20}O{\k12}K {\k24}ki{\k22}ai {\k15}wa {\k26}juu{\k39}bun
 Comment: 0,0:00:41.78,0:00:43.81,Afterglow Choir,,0,0,0,karaoke,{\k15}ko{\k28}ko{\k14}ro {\k15}ka{\k13}ra {\k16}ta{\k28}git{\k15}ta {\k28}kan{\k31}jou
 Comment: 0,0:00:43.93,0:00:46.18,Ran,,0,0,0,karaoke,{\k13}u{\k16}wa{\k13}sa {\k21}nan{\k23}te {\k16}ke{\k18}chi{\k15}ra{\k8}shi{\k15}te {\k27}SING {\k40}IT
 Comment: 0,0:00:46.34,0:00:48.39,Afterglow Choir,,0,0,0,karaoke,{\k16}ko{\k28}ko{\k13}ro {\k14}ka{\k15}ra {\k15}ta{\k29}git{\k13}ta {\k29}kan{\k33}jou
@@ -76,7 +76,7 @@ Dialogue: 0,0:00:20.01,0:00:25.27,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol
 Dialogue: 0,0:00:24.60,0:00:29.75,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k42}ya{\k16}sa{\k40}shi{\k17}sa {\k43}tsu{\k41}re{\k27}te {\k31}ki{\k28}te {\k29}ku{\k29}re{\k62}ta
 Dialogue: 0,0:00:29.17,0:00:34.22,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k43}na{\k42}ni {\k28}ga {\k44}at{\k43}te {\k27}mo {\k28}a{\k15}ta{\k28}shi{\k16}ta{\k15}chi {\k66}wo
 Dialogue: 0,0:00:33.72,0:00:39.09,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k43}shin{\k44}ji {\k28}tsu{\k29}zu{\k14}ke{\k45}te {\k27}ku{\k28}re{\k30}ru {\k14}hi{\k29}to {\k42}ga {\k15}i{\k39}ru
-Dialogue: 0,0:00:38.46,0:00:41.80,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k14}i{\k15}tsu {\k12}de {\k25}mo {\k20}O{\k12}K {\k24}k{\k22}iai {\k15}wa {\k26}juu{\k39}bun
+Dialogue: 0,0:00:38.46,0:00:41.80,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k14}i{\k15}tsu {\k12}de {\k25}mo {\k20}O{\k12}K {\k24}ki{\k22}ai {\k15}wa {\k26}juu{\k39}bun
 Dialogue: 0,0:00:40.88,0:00:44.01,Afterglow Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ko{\k28}ko{\k14}ro {\k15}ka{\k13}ra {\k16}ta{\k28}git{\k15}ta {\k28}kan{\k31}jou
 Dialogue: 0,0:00:43.03,0:00:46.38,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k13}u{\k16}wa{\k13}sa {\k21}nan{\k23}te {\k16}ke{\k18}chi{\k15}ra{\k8}shi{\k15}te {\k27}SING {\k40}IT
 Dialogue: 0,0:00:45.44,0:00:48.59,Afterglow Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k28}ko{\k13}ro {\k14}ka{\k15}ra {\k15}ta{\k29}git{\k13}ta {\k29}kan{\k33}jou
@@ -95,12 +95,12 @@ Dialogue: 0,0:01:00.88,0:01:06.34,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol
 Dialogue: 0,0:01:05.45,0:01:10.83,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k27}PIN{\k45}CH {\k40}ko{\k29}so {\k43}CHAN{\k44}CE {\k27}da {\k17}ko{\k27}wa{\k30}ku{\k29}na{\k70}i
 Dialogue: 0,0:01:10.03,0:01:15.35,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k28}o{\k43}na{\k43}ji {\k28}yuu{\k43}ya{\k43}ke {\k28}wo {\k44}mi{\k43}tsu{\k28}me{\k51}ter'
 Dialogue: 0,0:01:14.59,0:01:20.45,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k29}ki{\k41}mi {\k44}ga {\k28}so{\k44}ba {\k42}ni {\k17}i{\k87}ru {\k12}ka{\k14}ra {\kf118}sa
-Dialogue: 0,0:01:19.73,0:01:22.91,Moca,,0,0,0,fx,{\k90\fad(300,200)}{\rMoca Symbol\fs30}♠{\r\fs\4a&HFF&} {\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k15}to{\k12}mo {\k30}ni {\rRan}{\k15}tsu{\k13}na{\k30}gou{\r} {\k15}a{\k12}ta{\k16}shi{\k13}ta{\k17}chi {\k20}to
+Dialogue: 0,0:01:19.73,0:01:22.91,Moca,[Multi|Moca|Moca|Ran],0,0,0,fx,{\k90\fad(300,200)}{\rMoca Symbol\fs30}♠{\r\fs\4a&HFF&} {\k15}to{\k12}mo {\k30}ni {\rRan}{\k15}tsu{\k13}na{\k30}gou{\r} {\k15}a{\k12}ta{\k16}shi{\k13}ta{\k17}chi {\k20}to
 Dialogue: 0,0:01:22.02,0:01:25.22,Afterglow,,0,0,0,fx,{\k90\fad(300,200)}{\k16}me{\k27}ra{\k15}me{\k13}ra {\k15}ta{\k14}ma{\k28}shii {\k14}ka{\k30}za{\k38}sh'te
-Dialogue: 0,0:01:24.30,0:01:27.48,Himari,,0,0,0,fx,{\k90\fad(300,200)}{\rHimari Symbol\fs30}♦{\r\fs\4a&HFF&} {\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k15}to{\k13}mo {\k30}ni {\rRan}{\k12}me{\k15}za{\k30}sou{\r} {\k15}a{\k16}ta{\k12}shi{\k18}ta{\k10}chi {\k22}to
+Dialogue: 0,0:01:24.30,0:01:27.48,Himari,[Multi|Himari|Himari|Ran],0,0,0,fx,{\k90\fad(300,200)}{\rHimari Symbol\fs30}♦{\r\fs\4a&HFF&} {\k15}to{\k13}mo {\k30}ni {\rRan}{\k12}me{\k15}za{\k30}sou{\r} {\k15}a{\k16}ta{\k12}shi{\k18}ta{\k10}chi {\k22}to
 Dialogue: 0,0:01:26.60,0:01:29.77,Afterglow,,0,0,0,fx,{\k90\fad(300,200)}{\k16}me{\k27}ra{\k14}me{\k14}ra {\k15}ta{\k15}ma{\k27}shii {\k14}ka{\k29}za{\k36}sh'te
-Dialogue: 0,0:01:28.87,0:01:32.08,Tsugumi,,0,0,0,fx,{\k90\fad(300,200)}{\rTsugumi Symbol\fs30}♪{\r\fs\4a&HFF&} {\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k16}to{\k13}mo {\k29}ni {\rRan}{\k15}tsu{\k15}ku{\k28}rou{\r} {\k11}a{\k15}ta{\k16}shi{\k22}ta{\k9}chi {\k22}to
+Dialogue: 0,0:01:28.87,0:01:32.08,Tsugumi,[Multi|Tsugumi|Tsugumi|Ran],0,0,0,fx,{\k90\fad(300,200)}{\rTsugumi Symbol\fs30}♪{\r\fs\4a&HFF&} {\k16}to{\k13}mo {\k29}ni {\rRan}{\k15}tsu{\k15}ku{\k28}rou{\r} {\k11}a{\k15}ta{\k16}shi{\k22}ta{\k9}chi {\k22}to
 Dialogue: 0,0:01:31.16,0:01:34.39,Afterglow,,0,0,0,fx,{\k90\fad(300,200)}{\k16}me{\k26}ra{\k15}me{\k13}ra {\k16}ta{\k15}ma{\k28}shii {\k14}ka{\k29}za{\k41}sh'te
-Dialogue: 0,0:01:33.44,0:01:36.58,Tomoe,,0,0,0,fx,{\k90\fad(300,200)}{\rTomoe Symbol\fs30}♣{\r\fs\4a&HFF&} {\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k16}to{\k16}mo {\k27}ni {\rRan}{\k12}wa{\k16}ra{\k29}ou{\r} {\k14}a{\k14}ta{\k15}shi{\k14}ta{\k15}chi {\k16}to
+Dialogue: 0,0:01:33.44,0:01:36.58,Tomoe,[Multi|Tomoe|Tomoe|Ran],0,0,0,fx,{\k90\fad(300,200)}{\rTomoe Symbol\fs30}♣{\r\fs\4a&HFF&} {\k16}to{\k16}mo {\k27}ni {\rRan}{\k12}wa{\k16}ra{\k29}ou{\r} {\k14}a{\k14}ta{\k15}shi{\k14}ta{\k15}chi {\k16}to
 Dialogue: 0,0:01:35.74,0:01:38.97,Afterglow,,0,0,0,fx,{\k90\fad(300,200)}{\k15}me{\k28}ra{\k14}me{\k14}ra {\k15}ta{\k14}ma{\k29}shii {\k14}ka{\k28}za{\k42}sh'te
 Dialogue: 0,0:01:41.17,0:01:43.38,Afterglow,,0,0,0,fx,{\k90\fad(300,200)}{\k27}THREE {\k28}TWO {\k29}ONE {\k27}GO!!!

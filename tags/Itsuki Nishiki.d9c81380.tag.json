@@ -1,0 +1,22 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Ituki Nisiki"
+    ],
+    "i18n": {
+      "eng": "Itsuki Nishiki",
+      "jpn": "錦 糸月",
+      "qro": "Nishiki Itsuki"
+    },
+    "name": "Itsuki Nishiki",
+    "repository": "kara.moe",
+    "tid": "d9c81380-828c-4000-a237-d97e0e2fb9ad",
+    "types": [
+      4
+    ]
+  }
+}
