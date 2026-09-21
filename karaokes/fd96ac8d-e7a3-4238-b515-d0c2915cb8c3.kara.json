@@ -24,7 +24,7 @@
     "created_at": "2017-10-11T17:02:26.000Z",
     "ignoreHooks": false,
     "kid": "fd96ac8d-e7a3-4238-b515-d0c2915cb8c3",
-    "modified_at": "2024-11-09T10:13:46.614Z",
+    "modified_at": "2026-09-20T19:25:50.373Z",
     "repository": "kara.moe",
     "songname": "JPN - Pandora Hearts - OP - Parallel Hearts",
     "tags": {
@@ -57,10 +57,10 @@
         "98c3bceb-489e-4172-86a2-549dcc32ba63"
       ],
       "singers": [
-        "62aa860f-3014-4005-b2b6-cdad2608895b",
         "69a3856d-a7f9-43dc-9891-56f0196444c8",
         "9cd2f440-02a4-47e0-8000-7e9b0e9c1b48",
-        "b090971f-db68-4e59-b657-ebac8eb9f61c"
+        "b090971f-db68-4e59-b657-ebac8eb9f61c",
+        "1bad8332-c90e-4338-89b1-b8bfd8b67b41"
       ],
       "songtypes": [
         "f02ad9b3-0bd9-4aad-85b3-9976739ba0e4"

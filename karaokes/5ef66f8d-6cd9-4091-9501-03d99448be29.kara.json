@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:03:08.000Z",
+    "ignoreHooks": false,
     "kid": "5ef66f8d-6cd9-4091-9501-03d99448be29",
-    "modified_at": "2021-02-25T10:34:13.314Z",
+    "modified_at": "2026-09-20T23:53:54.844Z",
     "repository": "kara.moe",
-    "songname": "JPN - .hack Link - PSP GAME OP - Toki no Kaidan",
+    "songname": "JPN - .hack//Link - GAME PSP OP - Toki no Kaidan",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -36,14 +37,14 @@
       "creators": [
         "ff1f1734-715d-4564-a970-24a6630b7d22"
       ],
-      "genres": [
-        "4b80eca6-f44f-4262-a8d0-b6879d6b70cb"
-      ],
       "groups": [
         "ae613721-1fbe-480d-ba6b-d6d0702b184d"
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ],
       "platforms": [
         "6b101aff-4b7b-4b0d-b35e-0f1b67e38c9b"
@@ -62,14 +63,11 @@
       ],
       "franchises": [
         "62bc5729-026d-408d-b6f5-534df49f73da"
-      ],
-      "origins": [
-        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ]
     },
     "titles": {
-      "qro": "Toki no Kaidan",
-      "jpn": "時の階段"
+      "jpn": "時の階段",
+      "qro": "Toki no Kaidan"
     },
     "titles_default_language": "qro",
     "year": 2010

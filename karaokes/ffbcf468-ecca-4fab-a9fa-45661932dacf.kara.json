@@ -6,14 +6,14 @@
   "medias": [
     {
       "default": true,
-      "duration": 301,
-      "filename": "dbc60306-3459-4633-b8e8-ef88deb54755.mp4",
-      "filesize": 60243632,
-      "loudnorm": "-13.00,-0.41,4.90,-23.09,-1.14",
+      "duration": 118,
+      "filename": "ffbcf468-ecca-4fab-a9fa-45661932dacf.mp4",
+      "filesize": 63678629,
+      "loudnorm": "-17.07,-10.03,6.60,-27.18,-1.14",
       "lyrics": [
         {
           "default": true,
-          "filename": "dbc60306-3459-4633-b8e8-ef88deb54755.ass",
+          "filename": "ffbcf468-ecca-4fab-a9fa-45661932dacf.ass",
           "version": "Default"
         }
       ],
@@ -21,58 +21,57 @@
     }
   ],
   "data": {
-    "created_at": "2020-10-25T19:41:42.689Z",
+    "created_at": "2026-09-20T21:53:02.102Z",
     "ignoreHooks": false,
-    "kid": "dbc60306-3459-4633-b8e8-ef88deb54755",
-    "modified_at": "2026-09-20T21:56:38.029Z",
+    "kid": "ffbcf468-ecca-4fab-a9fa-45661932dacf",
+    "modified_at": "2026-09-20T21:53:44.474Z",
     "parents": [
-      "7cf281d4-6fc4-4f82-91bd-19ee0c8678c0"
+      "81cb17f5-7d12-42fc-be86-0ef51bc498ae"
     ],
     "repository": "kara.moe",
-    "songname": "JPN - Nonono Nonomiya - MV - Kanade ~ Cover Vers",
+    "songname": "JPN - Fubuki Shirakami - MV - SUPERNOVA ~ Short Vers",
     "tags": {
       "authors": [
-        "f7ce702e-09aa-4b22-8742-0c99cd7a5409"
+        "317e17fd-2baf-4b28-9dc5-eb268db766d8"
       ],
       "collections": [
         "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "creators": [
+        "b0331e96-fdbb-4dc0-b186-8eb284a2a596"
       ],
       "families": [
         "0377db02-3af6-43b8-9b08-c759df3d25c3"
       ],
       "groups": [
-        "2b4e9972-5e17-481b-99f5-d0787c0ada56",
         "8e209ae4-4381-438f-89dc-1b21752027d2"
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
       ],
-      "misc": [
-        "86705d4b-24e4-4756-9687-2b9c98bcf366"
-      ],
       "origins": [
         "5106d71b-a78e-4d19-a16d-f8fb6719538a"
       ],
       "singers": [
-        "4c9d266d-72cc-4de0-84f8-2ac408289b49"
+        "53b39b45-1ee9-4625-83d6-642c02ca8fba"
       ],
       "songtypes": [
         "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
       ],
       "songwriters": [
-        "355b89ea-0c1e-4091-9fe2-7e97a51fbcc5",
-        "725dd2e4-13c1-463d-9eeb-6a7d91040824",
-        "c47b085b-a7f2-4962-a2bc-af59d4e59ee7"
+        "8534ee77-9034-4bdf-b383-4df29370b32d"
       ],
       "versions": [
-        "03e1e1d2-8641-47b7-bbcb-39a3df9ff21c"
+        "d125c80a-86c1-4321-88e9-07b7800679b6"
+      ],
+      "franchises": [
+        "0263d413-17bb-4cee-a311-6dd896eda1c9"
       ]
     },
     "titles": {
-      "jpn": "奏",
-      "qro": "Kanade"
+      "eng": "SUPERNOVA"
     },
-    "titles_default_language": "qro",
-    "year": 2020
+    "titles_default_language": "eng",
+    "year": 2024
   }
 }

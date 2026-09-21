@@ -1,0 +1,72 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 336,
+      "filename": "ca09d22d-2b0a-432a-b10c-5a959e102220.m4a",
+      "filesize": 5716961,
+      "loudnorm": "-8.38,-2.12,5.30,-18.73,-1.32",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "ca09d22d-2b0a-432a-b10c-5a959e102220.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "comment": "Made changes",
+    "created_at": "2026-08-22T18:59:20.111Z",
+    "ignoreHooks": false,
+    "kid": "ca09d22d-2b0a-432a-b10c-5a959e102220",
+    "modified_at": "2026-09-20T13:03:40.689Z",
+    "repository": "kara.moe",
+    "songname": "JPN - Dragon Ball Kai - AUDIO - Tada Kogoeru Elegy",
+    "tags": {
+      "authors": [
+        "b86d3507-98f0-4429-a093-ad605f01bdb0"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "groups": [
+        "3c14c864-533c-49e6-a3cc-6969f1233775"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "series": [
+        "2b47f725-5e30-44bf-a3b5-033f77edd3ce"
+      ],
+      "singers": [
+        "a676cb62-9e66-425c-8032-b6c72968b5c8"
+      ],
+      "songtypes": [
+        "42a262ae-acba-4ab5-a446-c5789c96c821"
+      ],
+      "songwriters": [
+        "a676cb62-9e66-425c-8032-b6c72968b5c8",
+        "d597082c-6d97-4d64-aef9-043c8f4d5d2b"
+      ],
+      "franchises": [
+        "3bbdef26-6e44-44de-9443-82767474816c"
+      ],
+      "misc": [
+        "86705d4b-24e4-4756-9687-2b9c98bcf366"
+      ]
+    },
+    "titles": {
+      "eng": "Only a Chilling Elegy",
+      "jpn": "ただ凍える挽歌",
+      "qro": "Tada Kogoeru Elegy"
+    },
+    "titles_default_language": "qro",
+    "year": 2009
+  }
+}

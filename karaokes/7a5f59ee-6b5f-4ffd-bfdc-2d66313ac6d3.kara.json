@@ -25,9 +25,9 @@
     "created_at": "2017-10-11T17:02:57.000Z",
     "ignoreHooks": false,
     "kid": "7a5f59ee-6b5f-4ffd-bfdc-2d66313ac6d3",
-    "modified_at": "2023-11-28T23:00:19.241Z",
+    "modified_at": "2026-09-20T19:25:50.204Z",
     "repository": "kara.moe",
-    "songname": "JPN - Ookamikakushi - OP - Toki no Mukou Maboroshi no Sora",
+    "songname": "JPN - Ookamikakushi - OP - Toki no Mukô Maboroshi no Sora",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -57,10 +57,10 @@
         "4d5d0e95-389f-4343-abb3-03b7d666930e"
       ],
       "singers": [
-        "62aa860f-3014-4005-b2b6-cdad2608895b",
         "69a3856d-a7f9-43dc-9891-56f0196444c8",
         "9cd2f440-02a4-47e0-8000-7e9b0e9c1b48",
-        "b090971f-db68-4e59-b657-ebac8eb9f61c"
+        "b090971f-db68-4e59-b657-ebac8eb9f61c",
+        "1bad8332-c90e-4338-89b1-b8bfd8b67b41"
       ],
       "songtypes": [
         "f02ad9b3-0bd9-4aad-85b3-9976739ba0e4"

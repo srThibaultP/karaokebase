@@ -4,10 +4,16 @@
     "version": 1
   },
   "tag": {
+    "aliases": [
+      "FictionJunction WAKANA",
+      "大滝 若奈",
+      "Ootaki Wakana",
+      "Ôtaki Wakana"
+    ],
     "i18n": {
-      "eng": "FictionJunction WAKANA"
+      "qro": "Wakana"
     },
-    "name": "FictionJunction WAKANA",
+    "name": "Wakana",
     "repository": "kara.moe",
     "tid": "9cd2f440-02a4-47e0-8000-7e9b0e9c1b48",
     "types": [

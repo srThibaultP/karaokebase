@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2020-01-12T19:21:09.993Z",
+    "ignoreHooks": false,
     "kid": "5c87580a-0ea6-4f24-998e-3dc1732260d2",
-    "modified_at": "2021-02-25T11:15:38.305Z",
+    "modified_at": "2026-09-20T19:14:13.891Z",
     "repository": "kara.moe",
-    "songname": "JPN - Erementar Gerad - ED2 - Everlasting Song",
+    "songname": "JPN - Erementar Gerad - ED2 - everlasting song",
     "songorder": 2,
     "tags": {
       "authors": [
@@ -53,7 +54,7 @@
         "6bf6f53c-440e-4fed-a947-5c040c929d22"
       ],
       "singers": [
-        "ab8c2537-c27e-41ef-8b7c-285846aa6f59"
+        "b5a9ff97-087c-4f78-809c-133ee3966df2"
       ],
       "songtypes": [
         "38c77c56-2b95-4040-b676-0994a8cb0597"

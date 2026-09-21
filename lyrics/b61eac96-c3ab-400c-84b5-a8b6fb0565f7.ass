@@ -9,34 +9,72 @@ Original Timing: Karaoke Mugen
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,24,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Choir_Up],Arial,24,&H0000A2FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.30,0:00:05.34,Default,,0,0,0,karaoke,{\fad(20,100)\k90}{\k45}how {\k20}{\k28}come {\k16}{\k28}I {\k16}{\k24}must {\k20}{\k99}know
-Dialogue: 0,0:00:04.55,0:00:09.14,Default,,0,0,0,karaoke,{\fad(345,100)\k90}{\k24}where {\k20}ob{\k32}se{\k16}{\k28}ssion {\k16}{\k32}needs {\k49}to {\k132}go ?
-Dialogue: 0,0:00:08.56,0:00:12.60,Default,,0,0,0,karaoke,{\fad(746,100)\k90}{\k41}how {\k16}{\k28}come {\k16}{\k24}I {\k20}{\k28}must {\k16}{\k107}know
-Dialogue: 0,0:00:11.81,0:00:17.15,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k24}the {\k24}di{\k24}re{\k16}{\k28}ction {\k16}{\k24}of {\k16}{\k45}re{\k45}lie{\k162}ving ?
-Dialogue: 0,0:00:16.73,0:00:20.94,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k37}deep {\k28}in {\k32}the {\k220}night
-Dialogue: 0,0:00:20.36,0:00:24.44,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k32}mis{\k37}sing {\k24}my {\k49}head{\k162}ache
-Dialogue: 0,0:00:23.94,0:00:28.07,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k32}vis{\k24}ions {\k16}{\k37}of {\k199}light
-Dialogue: 0,0:00:27.57,0:00:32.20,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k32}kis{\k37}sing {\k28}my {\k41}love{\k220}ache
-Dialogue: 0,0:00:38.41,0:00:42.25,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k41}how {\k28}come {\k20}{\k20}I {\k20}{\k24}must {\k20}{\k103}know
-Dialogue: 0,0:00:41.58,0:00:46.71,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k24}the {\k20}di{\k24}re{\k20}{\k24}ction {\k16}{\k24}of {\k20}{\k24}re{\k20}{\k78}lie{\k107}ving ?
-Dialogue: 0,0:00:45.71,0:00:49.96,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k28}deep {\k32}in {\k28}the {\k233}night
-Dialogue: 0,0:00:49.21,0:00:53.47,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k32}loo{\k32}sing {\k28}my {\k41}heart{\k187}ache
-Dialogue: 0,0:00:52.84,0:00:57.14,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k32}vis{\k37}ions {\k28}of {\k228}light
-Dialogue: 0,0:00:56.47,0:01:00.51,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k28}kis{\k37}sing {\k24}my {\k37}love{\k174}ache
-Dialogue: 0,0:00:59.97,0:01:03.89,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k49}how {\k28}come {\k16}{\k28}I {\k16}{\k49}must {\k99}know
-Dialogue: 0,0:01:03.18,0:01:07.94,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k20}where {\k12}ob{\k16}{\k16}ses{\k32}{\k28}sion {\k16}{\k28}needs {\k49}to {\k149}go ?
-Dialogue: 0,0:01:07.27,0:01:11.07,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k24}how {\k20}{\k28}come {\k16}{\k20}I {\k24}{\k24}must {\k16}{\k99}know
-Dialogue: 0,0:01:10.40,0:01:15.19,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k20}when {\k3}{\k28}the {\k7}{\k20}pas{\k16}{\k28}sion {\k16}{\k20}hides {\k20}{\k28}its {\k16}{\k70}feel{\k16}{\k57}ings ?
-Dialogue: 0,0:01:14.53,0:01:18.49,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k20}how {\k20}{\k24}come {\k20}{\k24}I {\k20}{\k24}must {\k20}{\k116}know
-Dialogue: 0,0:01:17.70,0:01:22.37,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k20}where {\k24}ob{\k16}ses{\k24}{\k28}sion {\k16}{\k12}needs {\k20}{\k37}to {\k16}{\k145}go ?
-Dialogue: 0,0:01:21.70,0:01:25.62,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k28}how {\k20}{\k28}come {\k20}{\k24}I {\k20}{\k20}must {\k20}{\k103}know
-Dialogue: 0,0:01:24.87,0:01:30.67,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k24}the {\k20}di{\k20}re{\k28}{\k24}ction {\k20}{\k20}of {\k20}{\k24}re{\k20}{\k45}lie{\k203}ving ?
-Dialogue: 0,0:00:18.56,0:00:22.48,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k37}far {\k16}off {\k16}{\k20}the {\k199}light
-Dialogue: 0,0:00:25.74,0:00:29.86,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k41}swee{\k37}ter {\k20}de{\k212}light
-Dialogue: 0,0:00:40.17,0:00:44.54,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k28}how {\k20}{\k28}come {\k20}{\k24}I {\k20}{\k24}must {\k20}{\k145}know
-Dialogue: 0,0:00:47.42,0:00:50.92,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k37}far {\k32}off {\k7}the {\k16}{\k153}light
-Dialogue: 0,0:00:54.55,0:00:57.85,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k45}swee{\k32}ter {\k24}de{\k124}light
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.07,0:00:04.82,Sample KM [Up],,0,0,0,karaoke,{\k45}How {\k48}come {\k43}I {\k25}mu{\k27}st {\k87}know
+Comment: 0,0:00:05.23,0:00:08.88,Sample KM [Up],,0,0,0,karaoke,{\k24}Where {\k21}ob{\k45}ses{\k45}sion {\k34}needs {\k57}to {\kf139}go?
+Comment: 0,0:00:09.29,0:00:12.15,Sample KM [Up],,0,0,0,karaoke,{\k45}How {\k48}come {\k43}I {\k22}mu{\k26}st {\k102}know
+Comment: 0,0:00:12.45,0:00:15.86,Sample KM [Up],,0,0,0,karaoke,{\k22}The {\k24}di{\k41}rec{\k48}tion {\k45}of {\k45}re{\k44}liev{\k72}ing?
+Comment: 0,0:00:17.41,0:00:20.57,Sample KM [Up],,0,0,0,karaoke,{\k44}Deep {\k28}in {\k30}the {\kf214}night
+Comment: 0,0:00:19.31,0:00:21.89,Sample KM [Choir],,0,0,0,karaoke,{\k34}Far {\k35}off {\k22}the {\kf167}light
+Comment: 0,0:00:21.01,0:00:24.20,Sample KM [Up],,0,0,0,karaoke,{\k36}Miss{\k32}ing {\k27}my {\k51}head{\kf173}ache
+Comment: 0,0:00:22.81,0:00:26.02,Sample KM [Choir],,0,0,0,karaoke,{\k34}Miss{\k35}ing {\k21}my {\k46}head{\kf185}ache
+Comment: 0,0:00:24.61,0:00:27.63,Sample KM [Up],,0,0,0,karaoke,{\k40}Vi{\k38}sions {\k27}of {\kf197}light
+Comment: 0,0:00:26.39,0:00:29.06,Sample KM [Choir],,0,0,0,karaoke,{\k38}Sweet{\k33}er {\k33}de{\kf163}light
+Comment: 0,0:00:28.23,0:00:33.69,Sample KM [Up],,0,0,0,karaoke,{\k35}Kiss{\k33}in' {\k22}my {\k46}love{\kf410}ache
+Comment: 0,0:00:30.03,0:00:35.31,Sample KM [Choir],,0,0,0,karaoke,{\k36}Kiss{\k32}in' {\k20}my {\k48}love{\kf392}ache
+Comment: 0,0:00:39.06,0:00:41.84,Sample KM [Choir_Up],,0,0,0,karaoke,{\k44}How {\k46}come {\k45}I {\k22}mu{\k25}st {\k96}know
+Comment: 0,0:00:40.86,0:00:43.62,Sample KM [Choir],,0,0,0,karaoke,{\k45}How {\k45}come {\k46}I {\k22}mu{\k24}st {\k94}know
+Comment: 0,0:00:42.22,0:00:46.62,Sample KM [Choir_Up],,0,0,0,karaoke,{\k22}The {\k26}di{\k39}rec{\k48}tion {\k40}of {\k50}re{\k60}li{\k31}ev{\k124}ing?
+Comment: 0,0:00:46.28,0:00:49.01,Sample KM [Choir_Up],,0,0,0,karaoke,{\k33}Deep {\k34}in {\k23}the {\kf183}night
+Comment: 0,0:00:48.08,0:00:50.83,Sample KM [Choir],,0,0,0,karaoke,{\k35}Far {\k26}off {\k29}the {\kf185}light
+Comment: 0,0:00:49.88,0:00:53.81,Sample KM [Choir_Up],,0,0,0,karaoke,{\k32}Miss{\k32}ing {\k28}my {\k41}heart{\kf260}ache
+Comment: 0,0:00:51.68,0:00:53.93,Sample KM [Choir],,0,0,0,karaoke,{\k45}Heart{\k46}ache, {\k46}heart{\k88}ache
+Comment: 0,0:00:53.49,0:00:56.17,Sample KM [Choir_Up],,0,0,0,karaoke,{\k42}Vi{\k37}sions {\k15}of {\kf174}light
+Comment: 0,0:00:55.29,0:00:58.21,Sample KM [Choir],,0,0,0,karaoke,{\k36}Sweet{\k33}er {\k22}de{\kf201}light
+Comment: 0,0:00:57.10,0:00:59.84,Sample KM [Choir_Up],,0,0,0,karaoke,{\k35}Kiss{\k33}in' {\k22}my {\k45}love{\kf139}ache
+Comment: 0,0:00:58.90,0:00:59.78,Sample KM [Choir],,0,0,0,karaoke,{\k43}Love{\k45}ache
+Comment: 0,0:01:00.72,0:01:03.47,Sample KM [Up],,0,0,0,karaoke,{\k44}How {\k48}come {\k42}I {\k22}mu{\k29}st {\k90}know
+Comment: 0,0:01:03.87,0:01:07.55,Sample KM [Up],,0,0,0,karaoke,{\k22}Where {\k24}ob{\k44}ses{\k45}sion {\k36}needs {\k54}to {\kf143}go?
+Comment: 0,0:01:07.95,0:01:10.67,Sample KM [Up],,0,0,0,karaoke,{\k43}How {\k49}come {\k42}I {\k22}mu{\k29}st {\k87}know
+Comment: 0,0:01:11.09,0:01:14.86,Sample KM [Up],,0,0,0,karaoke,{\k22}When {\k23}the {\k44}pas{\k46}sion {\k45}hides {\k45}its {\k68}fe{\k26}el{\k58}ings?
+Comment: 0,0:01:15.16,0:01:17.92,Sample KM [Up],,0,0,0,karaoke,{\k44}How {\k47}come {\k43}I {\k23}mu{\k30}st {\k89}know
+Comment: 0,0:01:18.30,0:01:22.01,Sample KM [Up],,0,0,0,karaoke,{\k23}Where {\k24}ob{\k44}ses{\k44}sion {\k35}needs {\k57}to {\kf144}go?
+Comment: 0,0:01:22.37,0:01:25.17,Sample KM [Up],,0,0,0,karaoke,{\k45}How {\k45}come {\k45}I {\k23}mu{\k28}st {\k94}know
+Comment: 0,0:01:25.53,0:01:30.99,Sample KM [Up],,0,0,0,karaoke,{\k22}The {\k24}di{\k43}rec{\k45}tion {\k46}of {\k47}re{\k62}li{\k29}ev{\kf228}ing?
+Dialogue: 0,0:00:01.17,0:00:05.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}How {\k48}come {\k43}I {\k25}mu{\k27}st {\k87}know
+Dialogue: 0,0:00:04.33,0:00:09.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Where {\k21}ob{\k45}ses{\k45}sion {\k34}needs {\k57}to {\kf139}go?
+Dialogue: 0,0:00:08.39,0:00:12.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}How {\k48}come {\k43}I {\k22}mu{\k26}st {\k102}know
+Dialogue: 0,0:00:11.55,0:00:16.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}The {\k24}di{\k41}rec{\k48}tion {\k45}of {\k45}re{\k44}liev{\k72}ing?
+Dialogue: 0,0:00:16.51,0:00:20.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Deep {\k28}in {\k30}the {\kf214}night
+Dialogue: 0,0:00:18.41,0:00:22.09,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Far {\k35}off {\k22}the {\kf167}light
+Dialogue: 0,0:00:20.11,0:00:24.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Miss{\k32}ing {\k27}my {\k51}head{\kf173}ache
+Dialogue: 0,0:00:21.91,0:00:26.22,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Miss{\k35}ing {\k21}my {\k46}head{\kf185}ache
+Dialogue: 0,0:00:23.71,0:00:27.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Vi{\k38}sions {\k27}of {\kf197}light
+Dialogue: 0,0:00:25.49,0:00:29.26,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Sweet{\k33}er {\k33}de{\kf163}light
+Dialogue: 0,0:00:27.33,0:00:33.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Kiss{\k33}in' {\k22}my {\k46}love{\kf410}ache
+Dialogue: 0,0:00:29.13,0:00:35.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Kiss{\k32}in' {\k20}my {\k48}love{\kf392}ache
+Dialogue: 0,0:00:38.16,0:00:42.04,Sample KM [Choir_Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}How {\k46}come {\k45}I {\k22}mu{\k25}st {\k96}know
+Dialogue: 0,0:00:39.96,0:00:43.82,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}How {\k45}come {\k46}I {\k22}mu{\k24}st {\k94}know
+Dialogue: 0,0:00:41.32,0:00:46.82,Sample KM [Choir_Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}The {\k26}di{\k39}rec{\k48}tion {\k40}of {\k50}re{\k60}li{\k31}ev{\k124}ing?
+Dialogue: 0,0:00:45.38,0:00:49.21,Sample KM [Choir_Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Deep {\k34}in {\k23}the {\kf183}night
+Dialogue: 0,0:00:47.18,0:00:51.03,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Far {\k26}off {\k29}the {\kf185}light
+Dialogue: 0,0:00:48.98,0:00:54.01,Sample KM [Choir_Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Miss{\k32}ing {\k28}my {\k41}heart{\kf260}ache
+Dialogue: 0,0:00:50.78,0:00:54.13,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Heart{\k46}ache, {\k46}heart{\k88}ache
+Dialogue: 0,0:00:52.59,0:00:56.37,Sample KM [Choir_Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Vi{\k37}sions {\k15}of {\kf174}light
+Dialogue: 0,0:00:54.39,0:00:58.41,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Sweet{\k33}er {\k22}de{\kf201}light
+Dialogue: 0,0:00:56.20,0:01:00.04,Sample KM [Choir_Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Kiss{\k33}in' {\k22}my {\k45}love{\kf139}ache
+Dialogue: 0,0:00:58.00,0:00:59.98,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Love{\k45}ache
+Dialogue: 0,0:00:59.82,0:01:03.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}How {\k48}come {\k42}I {\k22}mu{\k29}st {\k90}know
+Dialogue: 0,0:01:02.97,0:01:07.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Where {\k24}ob{\k44}ses{\k45}sion {\k36}needs {\k54}to {\kf143}go?
+Dialogue: 0,0:01:07.05,0:01:10.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}How {\k49}come {\k42}I {\k22}mu{\k29}st {\k87}know
+Dialogue: 0,0:01:10.19,0:01:15.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}When {\k23}the {\k44}pas{\k46}sion {\k45}hides {\k45}its {\k68}fe{\k26}el{\k58}ings?
+Dialogue: 0,0:01:14.26,0:01:18.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}How {\k47}come {\k43}I {\k23}mu{\k30}st {\k89}know
+Dialogue: 0,0:01:17.40,0:01:22.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Where {\k24}ob{\k44}ses{\k44}sion {\k35}needs {\k57}to {\kf144}go?
+Dialogue: 0,0:01:21.47,0:01:25.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}How {\k45}come {\k45}I {\k23}mu{\k28}st {\k94}know
+Dialogue: 0,0:01:24.63,0:01:31.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}The {\k24}di{\k43}rec{\k45}tion {\k46}of {\k47}re{\k62}li{\k29}ev{\kf228}ing?

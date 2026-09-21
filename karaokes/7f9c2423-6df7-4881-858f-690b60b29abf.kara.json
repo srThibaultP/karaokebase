@@ -24,7 +24,7 @@
     "created_at": "2020-04-26T14:42:16.755Z",
     "ignoreHooks": false,
     "kid": "7f9c2423-6df7-4881-858f-690b60b29abf",
-    "modified_at": "2024-04-28T20:51:05.539Z",
+    "modified_at": "2026-09-20T19:25:50.291Z",
     "parents": [
       "fd96ac8d-e7a3-4238-b515-d0c2915cb8c3"
     ],
@@ -54,10 +54,10 @@
         "98c3bceb-489e-4172-86a2-549dcc32ba63"
       ],
       "singers": [
-        "62aa860f-3014-4005-b2b6-cdad2608895b",
         "69a3856d-a7f9-43dc-9891-56f0196444c8",
         "9cd2f440-02a4-47e0-8000-7e9b0e9c1b48",
-        "b090971f-db68-4e59-b657-ebac8eb9f61c"
+        "b090971f-db68-4e59-b657-ebac8eb9f61c",
+        "1bad8332-c90e-4338-89b1-b8bfd8b67b41"
       ],
       "songtypes": [
         "7be1b15c-cff8-4b37-a649-5c90f3d569a9"

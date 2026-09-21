@@ -4,8 +4,14 @@
     "version": 1
   },
   "tag": {
+    "aliases": [
+      "FictionJunction YUUKA",
+      "Yuuka"
+    ],
     "i18n": {
-      "eng": "Yûka Nanri"
+      "eng": "Yûka Nanri",
+      "jpn": "南里 侑香",
+      "qro": "Nanri Yûka"
     },
     "name": "Yûka Nanri",
     "repository": "kara.moe",

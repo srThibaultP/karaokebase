@@ -24,7 +24,7 @@
     "created_at": "2017-10-11T17:01:33.000Z",
     "ignoreHooks": false,
     "kid": "9bd98d00-f630-41f8-b896-3a69e27a4139",
-    "modified_at": "2026-08-19T18:31:08.001Z",
+    "modified_at": "2026-09-20T23:53:54.663Z",
     "repository": "kara.moe",
     "songname": "JPN - .hack//LIMINALITY - OVA OP3 - Kimi ga Ita Monogatari",
     "songorder": 3,
@@ -40,9 +40,6 @@
       ],
       "families": [
         "0377db02-3af6-43b8-9b08-c759df3d25c3"
-      ],
-      "genres": [
-        "4b80eca6-f44f-4262-a8d0-b6879d6b70cb"
       ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"

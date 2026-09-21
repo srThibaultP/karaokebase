@@ -24,7 +24,7 @@
     "created_at": "2019-04-15T15:34:54.000Z",
     "ignoreHooks": false,
     "kid": "df296796-af24-47ee-8cc6-256fcc991ea8",
-    "modified_at": "2024-07-13T16:40:00.750Z",
+    "modified_at": "2026-09-20T18:39:04.156Z",
     "repository": "kara.moe",
     "songname": "JPN - Kimetsu no Yaiba - ED - from the edge",
     "tags": {
@@ -60,8 +60,10 @@
         "fedb7dc4-978d-425b-85ab-4cec99cee4f8"
       ],
       "singers": [
-        "05c1d835-770f-471c-a565-e48c558909c1",
         "41f045f2-1576-496d-91b1-c0f28bab57a4"
+      ],
+      "singergroups": [
+        "05c1d835-770f-471c-a565-e48c558909c1"
       ],
       "songtypes": [
         "38c77c56-2b95-4040-b676-0994a8cb0597"

@@ -24,7 +24,7 @@
     "created_at": "2023-12-17T20:57:37.830Z",
     "ignoreHooks": false,
     "kid": "1de3ec83-94fa-426c-a104-9bbc6c59845d",
-    "modified_at": "2025-10-04T11:29:59.011Z",
+    "modified_at": "2026-09-20T19:31:33.749Z",
     "parents": [
       "e0fd16b2-eb3b-43d2-9efe-be3012ec93f1"
     ],
@@ -51,7 +51,7 @@
       ],
       "singers": [
         "622e9074-75e5-497b-a714-d98d85f5a79a",
-        "f628390a-1a0f-4e4f-9207-28f6aef85616"
+        "11717b5d-db4e-4b3f-9de0-1a9c03dc0871"
       ],
       "songtypes": [
         "42a262ae-acba-4ab5-a446-c5789c96c821"

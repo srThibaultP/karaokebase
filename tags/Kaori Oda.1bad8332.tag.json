@@ -4,8 +4,13 @@
     "version": 1
   },
   "tag": {
+    "aliases": [
+      "FictionJunction KAORI"
+    ],
     "i18n": {
-      "eng": "Kaori Oda"
+      "eng": "Kaori Oda",
+      "jpn": "織田かおり",
+      "qro": "Oda Kaori"
     },
     "name": "Kaori Oda",
     "repository": "kara.moe",

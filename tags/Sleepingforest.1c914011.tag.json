@@ -5,13 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "FictionJunction KEIKO"
+      "eng": "Sleepingforest"
     },
-    "name": "FictionJunction KEIKO",
+    "name": "Sleepingforest",
     "repository": "kara.moe",
-    "tid": "69a3856d-a7f9-43dc-9891-56f0196444c8",
+    "tid": "1c914011-ddc9-4c45-8841-863efab19fcf",
     "types": [
-      2
+      8
     ]
   }
 }

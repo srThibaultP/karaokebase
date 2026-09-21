@@ -5,18 +5,18 @@
   },
   "tag": {
     "aliases": [
-      "デーモンかっか"
+      "FictionJunction KEIKO",
+      "窪田啓子",
+      "Kubota Keiko"
     ],
     "i18n": {
-      "jpn": "デーモン閣下",
-      "qro": "Demon Kakka"
+      "qro": "KEIKO"
     },
-    "name": "Demon Kakka",
+    "name": "KEIKO",
     "repository": "kara.moe",
-    "tid": "a676cb62-9e66-425c-8032-b6c72968b5c8",
+    "tid": "69a3856d-a7f9-43dc-9891-56f0196444c8",
     "types": [
-      2,
-      8
+      2
     ]
   }
 }
