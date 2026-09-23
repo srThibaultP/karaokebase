@@ -24,12 +24,12 @@
     "created_at": "2026-09-18T17:06:20.589Z",
     "ignoreHooks": false,
     "kid": "ef2bc91e-3eef-478f-a8a3-77bffb02d5b4",
-    "modified_at": "2026-09-18T17:31:46.700Z",
+    "modified_at": "2026-09-22T22:58:19.868Z",
     "parents": [
       "da86805a-65b1-4395-bc60-b4aec559c010"
     ],
     "repository": "kara.moe",
-    "songname": "JPN - Haruka Shiraishi, Taku Yashiro - MV - Heavy Rotation ~ Full Vers",
+    "songname": "JPN - Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2 - MV - Heavy Rotation ~ Cover Full Vers",
     "tags": {
       "authors": [
         "53828bb5-7c84-4eea-ab99-5152b4c70cb4",
@@ -54,6 +54,9 @@
       "misc": [
         "1d6ceadf-a885-47e5-b23b-c07bf668a424"
       ],
+      "series": [
+        "5480d964-6af1-4014-bfc2-4338711d8ea3"
+      ],
       "singers": [
         "11ce2cdc-aa30-426d-b356-e6d4f5dfb380",
         "353d6e2a-1c87-4ef1-9062-c69f9eba2d33",
@@ -66,10 +69,15 @@
       ],
       "songwriters": [
         "19045a57-4bc4-4c83-ad1c-3fa9a3b701b1",
-        "28e3694e-2c0e-4f5c-8889-623a774d5c50"
+        "28e3694e-2c0e-4f5c-8889-623a774d5c50",
+        "c7948708-4d16-4e9a-8db9-a80f3dec3d53"
       ],
       "versions": [
+        "03e1e1d2-8641-47b7-bbcb-39a3df9ff21c",
         "c2143a7f-6970-450e-8a79-0302db9220a9"
+      ],
+      "franchises": [
+        "5ee42f23-a3d7-4905-a560-fb9dbf324990"
       ]
     },
     "titles": {

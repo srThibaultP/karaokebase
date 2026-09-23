@@ -21,7 +21,8 @@
       "ger": "Schwierigkeitsstufe: Hoch, Karaoke mit nicht-lateinischem Alphabet",
       "spa": "Modo difícil, karaokes sin el alfabeto latín en ellos",
       "pol": "Tryb trudny, karaoke z alfabetem innym niż łaciński",
-      "ita": "Modalità difficile, karaokes con un alfabeto non latino"
+      "ita": "Modalità difficile, karaokes con un alfabeto non latino",
+      "tam": "கடின முறை, லத்தீன் அல்லாத எழுத்துக்களைக் கொண்ட கரோக்கிகள்"
     },
     "i18n": {
       "eng": "Non-latin",

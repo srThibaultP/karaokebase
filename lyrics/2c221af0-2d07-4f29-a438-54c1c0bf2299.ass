@@ -1,0 +1,182 @@
+﻿[Script Info]
+Title: Swingin’ Magic
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Moka,Arial,24,&H00FFFFFF,&H00FF69BB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Yunah,Arial,24,&H00FFFFFF,&H006162FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Minju,Arial,24,&H00FFFFFF,&H0000F0FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Wonhee,Arial,24,&H00FFFFFF,&H00D580E3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Iroha,Arial,24,&H00FFFFFF,&H00FCDD6C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: All,Arial,24,&H00FFFFFF,&H0056B2FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Legend,Arial,24,&H00FFFFFF,&H0056B2FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,0,0,20,1
+Style: Choir,Arial,24,&H007D7DDC,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,All,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Legend,,0,0,40,,{\k1000} {\rYunah}Yunah {\2cFFFFFF}| {\rMoka}Moka {\2cFFFFFF}| {\rWonhee}Wonhee {\2cFFFFFF}| {\rIroha}Iroha {\2cFFFFFF}| {\rMinju}Minju {\2cFFFFFF}| {\rChoir}Choir
+Comment: 0,0:00:00.25,0:00:02.83,Choir,,0,0,0,karaoke,{\k53}Da, {\k9}La {\k19}la {\k10}la {\k48}la, {\k40}Dam {\k79}dam
+Comment: 0,0:00:02.67,0:00:04.75,Choir,,0,0,0,karaoke,{\k29}Di{\k32}di {\k28}ta{\k32}ta {\k21}Di{\k27}di {\k39}ta
+Comment: 0,0:00:05.07,0:00:07.51,Choir,,0,0,0,karaoke,{\k50}Da, {\k10}La {\k19}la {\k10}la {\k47}la, {\k41}Dam {\k67}dam
+Comment: 0,0:00:08.95,0:00:10.61,Minju,,0,0,0,karaoke,{\k32}yuk{\k21}ku{\k11}ri {\k18}to{\k18}na{\k19}e{\k47}te
+Comment: 0,0:00:11.97,0:00:13.62,Minju,,0,0,0,karaoke,{\k19}hi{\k10}mi{\k31}tsu {\k26}ma{\k54}tou {\k25}no
+Comment: 0,0:00:13.97,0:00:15.45,Minju,,0,0,0,karaoke,{\k10}a{\k21}fu{\k12}re{\k17}ru {\k33}ron{\k55}ri
+Comment: 0,0:00:16.74,0:00:18.62,Minju,,0,0,0,karaoke,{\k22}ke{\k10}chi{\k30}ra{\k30}shi{\k30}te {\k24}yu{\k42}kou
+Comment: 0,0:00:19.75,0:00:21.52,Yunah,,0,0,0,karaoke,{\k22}tai{\k9}ku{\k45}tsu {\k16}na {\k19}ni{\k9}chi{\k57}jou
+Comment: 0,0:00:22.15,0:00:25.39,Yunah,,0,0,0,karaoke,{\k21}ki{\k10}mi {\k50}to {\k11}de{\k29}at{\k29}ta {\k17}shu{\k14}n{\k27}kan {\k46}SWING{\k70}IN'
+Comment: 0,0:00:26.36,0:00:29.05,Moka,,0,0,0,karaoke,{\k20}to{\k10}ki {\k27}ga {\k31}ha{\k33}shi{\k18}ri{\k39}da{\k32}su {\k59}yo
+Comment: 0,0:00:29.64,0:00:32.82,Iroha,,0,0,0,karaoke,{\k50}ha{\k14}ne{\k43}ru {\k15}shin{\k44}zou {\k15}no {\k32}yo{\k27}a{\k34}so{\k44}bi
+Comment: 0,0:00:33.24,0:00:37.29,Iroha,,0,0,0,karaoke,{\k19}ko{\k28}no {\k46}yu{\k29}me {\k31}wa {\k28}to{\k31}ma{\k31}re{\k17}na{\k30}i {\kf115}yo
+Comment: 0,0:00:37.75,0:00:39.58,Wonhee,,0,0,0,karaoke,{\k31}nee, {\k32}koc{\k17}chi {\k11}ni {\k29}o{\k20}i{\k43}de
+Comment: 0,0:00:39.51,0:00:40.32,Choir,,0,0,0,karaoke,{\k35}Swing{\k46}in'
+Comment: 0,0:00:40.43,0:00:42.16,Wonhee,,0,0,0,karaoke,{\k22}Swing{\k30}in' {\k41}Ma{\k80}gic
+Comment: 0,0:00:41.66,0:00:43.14,Choir,,0,0,0,karaoke,{\k60}Ah {\k60}ah {\k28}ah
+Comment: 0,0:00:42.86,0:00:44.41,Wonhee,,0,0,0,karaoke,{\k19}ha{\k14}na{\k27}sa{\k31}na{\k19}i{\k45}de
+Comment: 0,0:00:44.37,0:00:44.79,Choir,,0,0,0,karaoke,{\k42}Uh
+Comment: 0,0:00:45.22,0:00:47.05,Wonhee,,0,0,0,karaoke,{\k21}Swing{\k31}in' {\k41}Ma{\k90}gic
+Comment: 0,0:00:46.46,0:00:48.09,Choir,,0,0,0,karaoke,{\k59}Ah {\k61}ah {\k43}ah
+Comment: 0,0:00:48.24,0:00:50.28,Minju,,0,0,0,karaoke,{\k36}kan{\k17}ji{\k9}ru {\k20}ma{\k15}ma {\k13}ni {\k12}o{\k24}do{\k26}re{\k32}ba
+Comment: 0,0:00:50.66,0:00:52.71,Minju,,0,0,0,karaoke,{\k21}to{\k13}ki{\k16}me{\k11}ki {\k29}mot{\k17}to {\k13}fu{\k24}e{\k23}ru {\k38}yo
+Comment: 0,0:00:52.76,0:00:55.48,Minju,,0,0,0,karaoke,{\k29}Uh {\k31}wow {\k60}oh, {\k30}uh {\k29}wow {\k31}oh {\k30}wow {\k32}oh
+Comment: 0,0:00:55.74,0:00:57.81,Minju,,0,0,0,karaoke,{\k51}Swing{\k41}in' {\k58}Ma{\k57}gic
+Comment: 0,0:00:57.86,0:00:59.97,Iroha,,0,0,0,karaoke,{\k30}Di{\k30}di {\k30}ta{\k30}ta {\k24}Di{\k27}di {\k40}ta
+Comment: 0,0:01:00.26,0:01:02.41,Iroha,,0,0,0,karaoke,{\k30}Di{\k30}di {\k31}ta{\k29}ta {\k24}Di{\k27}di {\k44}ta
+Comment: 0,0:01:02.66,0:01:04.70,Yunah,,0,0,0,karaoke,{\k31}Di{\k29}di {\k30}ta{\k30}ta {\k24}Di{\k27}di {\k33}ta
+Comment: 0,0:01:05.34,0:01:07.46,Yunah,,0,0,0,karaoke,{\k52}Swing{\k42}in' {\k56}Ma{\k62}gic
+Comment: 0,0:01:07.46,0:01:09.34,Moka,,0,0,0,karaoke,{\k89}Umm {\k21}count {\k13}the {\k27}ma{\k38}gic
+Comment: 0,0:01:09.24,0:01:10.14,Choir,,0,0,0,karaoke,{\k31}Three {\k31}two {\k28}one
+Comment: 0,0:01:10.17,0:01:11.64,Moka,,0,0,0,karaoke,{\k16}i{\k13}tsu{\k18}wa{\k13}re{\k27}nai {\k19}ki{\k12}mo{\k29}chi
+Comment: 0,0:01:12.25,0:01:14.25,Moka,,0,0,0,karaoke,{\k90}Umm {\k17}to{\k13}tsu{\k32}zen {\k48}ni
+Comment: 0,0:01:14.92,0:01:16.98,Moka,,0,0,0,karaoke,{\k17}ha{\k19}ji{\k29}mat{\k15}te{\k12}ku {\k21}ki{\k11}se{\k59}ki {\k23}yeah
+Comment: 0,0:01:17.06,0:01:19.45,Yunah,,0,0,0,karaoke,{\k23}PEN{\k7}DU{\k30}LUM, {\k24}PEN{\k7}DU{\k30}LUM {\k20}mi{\k9}to{\k20}re{\k10}te{\k30}nai{\k29}de
+Comment: 0,0:01:19.76,0:01:21.50,Yunah,,0,0,0,karaoke,{\k20}to{\k11}do{\k31}ke{\k19}te {\k9}ko {\k30}QUIN{\k54}TET
+Comment: 0,0:01:21.51,0:01:23.88,Choir,,0,0,0,karaoke,{\k122}Hey, {\k115}ho
+Comment: 0,0:01:23.36,0:01:26.25,Moka,,0,0,0,karaoke,{\k19}ka{\k11}sa{\k30}nat{\k60}te {\k20}ka{\k10}ga{\k30}ya{\k20}ku {\k10}no {\k30}nan{\k49}de?
+Comment: 0,0:01:27.23,0:01:30.47,Wonhee,,0,0,0,karaoke,{\k49}ha{\k16}ne{\k40}ru {\k17}shin{\k47}zou {\k14}no {\k30}yo{\k28}a{\k33}so{\k50}bi
+Comment: 0,0:01:30.85,0:01:35.01,Wonhee,,0,0,0,karaoke,{\k21}ko{\k29}no {\k41}yu{\k30}me {\k30}wa {\k30}to{\k30}ma{\k30}re{\k19}na{\k28}i {\kf128}yo
+Comment: 0,0:01:35.35,0:01:37.21,Iroha,,0,0,0,karaoke,{\k31}nee, {\k31}koc{\k19}chi {\k10}ni {\k29}o{\k20}i{\k46}de
+Comment: 0,0:01:37.11,0:01:37.91,Choir,,0,0,0,karaoke,{\k35}Swing{\k45}in'
+Comment: 0,0:01:38.02,0:01:39.69,Iroha,,0,0,0,karaoke,{\k23}Swing{\k31}in' {\k39}Ma{\k74}gic
+Comment: 0,0:01:39.26,0:01:40.97,Choir,,0,0,0,karaoke,{\k59}Ah {\k61}ah {\k51}ah
+Comment: 0,0:01:40.46,0:01:42.10,Iroha,,0,0,0,karaoke,{\k19}ha{\k14}na{\k27}sa{\k31}na{\k19}i{\k54}de
+Comment: 0,0:01:41.99,0:01:42.33,Choir,,0,0,0,karaoke,{\k34}Uh
+Comment: 0,0:01:42.81,0:01:44.67,Iroha,,0,0,0,karaoke,{\k24}Swing{\k29}in' {\k41}Ma{\k92}gic
+Comment: 0,0:01:44.06,0:01:45.70,Choir,,0,0,0,karaoke,{\k59}Ah {\k61}ah {\k43}ah
+Comment: 0,0:01:45.85,0:01:47.94,Yunah,,0,0,0,karaoke,{\k34}kan{\k19}ji{\k9}ru {\k20}ma{\k13}ma {\k12}ni {\k15}o{\k24}do{\k24}re{\k39}ba
+Comment: 0,0:01:48.24,0:01:50.31,Yunah,,0,0,0,karaoke,{\k24}to{\k13}ki{\k16}me{\k9}ki {\k32}mot{\k16}to {\k12}fu{\k24}e{\k24}ru {\k37}yo
+Comment: 0,0:01:50.35,0:01:53.04,Yunah,,0,0,0,karaoke,{\k29}Uh {\k31}wow {\k62}oh, {\k28}uh {\k29}wow {\k31}oh {\k30}wow {\k29}oh
+Comment: 0,0:01:53.32,0:01:55.43,Yunah,,0,0,0,karaoke,{\k54}Swing{\k40}in' {\k57}Ma{\k60}gic
+Comment: 0,0:01:56.01,0:01:59.13,Minju,,0,0,0,karaoke,{\k26}a{\k31}fu{\k38}re{\k32}da{\k27}shi{\k31}ta {\k30}HAR{\k19}MO{\k78}NY
+Comment: 0,0:02:00.86,0:02:03.70,Minju,,0,0,0,karaoke,{\k20}o{\k29}sa{\k41}e{\k32}yo{\k29}u {\k27}mo {\k33}na{\k15}i {\k58}yo
+Comment: 0,0:02:04.76,0:02:07.05,Wonhee,,0,0,0,karaoke,{\k17}ma{\k13}ta{\k13}ta{\k17}i{\k60}te {\k19}ha{\k12}ba{\k15}ta{\k14}i{\k49}te
+Comment: 0,0:02:07.75,0:02:09.52,Wonhee,,0,0,0,karaoke,{\k17}ji{\k34}yuu {\k10}ni {\k20}na{\k11}ru {\k29}CO{\k56}LORS
+Comment: 0,0:02:10.36,0:02:12.01,Moka,,0,0,0,karaoke,{\k9}wa{\k24}ta{\k10}shi{\k18}ta{\k10}chi {\k18}da{\k11}ke {\k65}no
+Comment: 0,0:02:12.56,0:02:14.65,Moka,,0,0,0,karaoke,{\k30}It's {\k22}ma{\k67}gic, {\k30}It's {\k26}ma{\k34}gic
+Comment: 0,0:02:13.74,0:02:15.60,Yunah,,0,0,0,karaoke,{\k31}nee, {\k31}koc{\k13}chi {\k17}ni {\k30}o{\k18}i{\k46}de
+Comment: 0,0:02:15.51,0:02:16.42,Choir,,0,0,0,karaoke,{\k35}Swing{\k56}in'
+Comment: 0,0:02:16.43,0:02:18.20,Yunah,,0,0,0,karaoke,{\k23}Swing{\k31}in' {\k39}Ma{\k84}gic
+Comment: 0,0:02:17.66,0:02:19.14,Choir,,0,0,0,karaoke,{\k59}Ah {\k61}ah {\k51}ah
+Comment: 0,0:02:18.86,0:02:20.41,Yunah,,0,0,0,karaoke,{\k19}ha{\k12}na{\k29}sa{\k31}na{\k19}i{\k45}de
+Comment: 0,0:02:20.34,0:02:20.73,Choir,,0,0,0,karaoke,{\k39}Uh
+Comment: 0,0:02:21.21,0:02:23.11,Yunah,,0,0,0,karaoke,{\k24}Swing{\k29}in' {\k41}Ma{\k96}gic
+Comment: 0,0:02:22.45,0:02:24.14,Choir,,0,0,0,karaoke,{\k59}Ah {\k61}ah {\k49}ah
+Comment: 0,0:02:24.24,0:02:26.25,Minju,,0,0,0,karaoke,{\k34}kan{\k19}ji{\k9}ru {\k20}ma{\k16}ma {\k12}ni {\k12}o{\k24}do{\k24}re{\k31}ba
+Comment: 0,0:02:26.65,0:02:28.70,Minju,,0,0,0,karaoke,{\k22}to{\k14}ki{\k15}me{\k9}ki {\k32}mot{\k16}to {\k12}fu{\k24}e{\k24}ru {\k37}yo
+Comment: 0,0:02:28.76,0:02:31.46,Minju,,0,0,0,karaoke,{\k29}Uh {\k31}wow {\k62}oh, {\k28}uh {\k29}wow {\k31}oh {\k30}wow {\k30}oh
+Comment: 0,0:02:31.75,0:02:33.81,Minju,,0,0,0,karaoke,{\k53}Swing{\k40}in' {\k57}Ma{\k56}gic
+Comment: 0,0:02:33.86,0:02:35.96,Iroha,,0,0,0,karaoke,{\k30}Di{\k30}di {\k30}ta{\k30}ta {\k24}Di{\k27}di {\k39}ta
+Comment: 0,0:02:36.26,0:02:38.29,Iroha,,0,0,0,karaoke,{\k30}Di{\k30}di {\k31}ta{\k29}ta {\k24}Di{\k27}di {\k32}ta
+Comment: 0,0:02:37.93,0:02:38.67,Choir,,0,0,0,karaoke,{\k32}Swing {\k12}Ma{\k30}gic
+Comment: 0,0:02:38.66,0:02:40.76,Yunah,,0,0,0,karaoke,{\k31}Di{\k29}di {\k30}ta{\k30}ta {\k24}Di{\k27}di {\k39}ta
+Comment: 0,0:02:41.34,0:02:43.41,Yunah,,0,0,0,karaoke,{\k52}Swing{\k41}in' {\k57}Ma{\k57}gic
+Comment: 0,0:02:43.45,0:02:45.50,Moka,,0,0,0,karaoke,{\k31}Di{\k29}di {\k30}ta{\k30}ta {\k24}Di{\k27}di {\k34}ta
+Comment: 0,0:02:45.86,0:02:48.00,Moka,,0,0,0,karaoke,{\k30}Di{\k30}di {\k31}ta{\k29}ta {\k24}Di{\k27}di {\k43}ta
+Comment: 0,0:02:47.30,0:02:48.31,Choir,,0,0,0,karaoke,{\k27}It's {\k34}ma{\k40}gic
+Comment: 0,0:02:48.26,0:02:50.41,Wonhee,,0,0,0,karaoke,{\k31}Di{\k29}di {\k30}ta{\k30}ta {\k24}Di{\k27}di {\k44}ta
+Comment: 0,0:02:50.94,0:02:53.02,Wonhee,,0,0,0,karaoke,{\k52}Swing{\k40}in' {\k58}Ma{\k58}gic
+Dialogue: 0,0:00:00.00,0:00:03.03,Choir,,0,0,0,fx,{\k25\fad(250,200)}{\k53}Da, {\k9}La {\k19}la {\k10}la {\k48}la, {\k40}Dam {\k79}dam
+Dialogue: 0,0:00:01.77,0:00:04.95,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Di{\k32}di {\k28}ta{\k32}ta {\k21}Di{\k27}di {\k39}ta
+Dialogue: 0,0:00:04.17,0:00:07.71,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Da, {\k10}La {\k19}la {\k10}la {\k47}la, {\k41}Dam {\k67}dam
+Dialogue: 0,0:00:08.05,0:00:10.81,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k32}yuk{\k21}ku{\k11}ri {\k18}to{\k18}na{\k19}e{\k47}te
+Dialogue: 0,0:00:11.07,0:00:13.82,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k19}hi{\k10}mi{\k31}tsu {\k26}ma{\k54}tou {\k25}no
+Dialogue: 0,0:00:13.07,0:00:15.65,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k10}a{\k21}fu{\k12}re{\k17}ru {\k33}ron{\k55}ri
+Dialogue: 0,0:00:15.84,0:00:18.82,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ke{\k10}chi{\k30}ra{\k30}shi{\k30}te {\k24}yu{\k42}kou
+Dialogue: 0,0:00:18.85,0:00:21.72,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k22}tai{\k9}ku{\k45}tsu {\k16}na {\k19}ni{\k9}chi{\k57}jou
+Dialogue: 0,0:00:21.25,0:00:25.59,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k10}mi {\k50}to {\k11}de{\k29}at{\k29}ta {\k17}shu{\k14}n{\k27}kan {\k46}SWING{\k70}IN'
+Dialogue: 0,0:00:25.46,0:00:29.25,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k20}to{\k10}ki {\k27}ga {\k31}ha{\k33}shi{\k18}ri{\k39}da{\k32}su {\k59}yo
+Dialogue: 0,0:00:28.74,0:00:33.02,Iroha,,0,0,0,fx,{\k90\fad(300,200)}{\k50}ha{\k14}ne{\k43}ru {\k15}shin{\k44}zou {\k15}no {\k32}yo{\k27}a{\k34}so{\k44}bi
+Dialogue: 0,0:00:32.34,0:00:37.49,Iroha,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k28}no {\k46}yu{\k29}me {\k31}wa {\k28}to{\k31}ma{\k31}re{\k17}na{\k30}i {\kf115}yo
+Dialogue: 0,0:00:36.85,0:00:39.78,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k31}nee, {\k32}koc{\k17}chi {\k11}ni {\k29}o{\k20}i{\k43}de
+Dialogue: 0,0:00:38.61,0:00:40.52,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Swing{\k46}in'
+Dialogue: 0,0:00:39.53,0:00:42.36,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Swing{\k30}in' {\k41}Ma{\k80}gic
+Dialogue: 0,0:00:40.76,0:00:43.34,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k60}Ah {\k60}ah {\k28}ah
+Dialogue: 0,0:00:41.96,0:00:44.61,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ha{\k14}na{\k27}sa{\k31}na{\k19}i{\k45}de
+Dialogue: 0,0:00:43.47,0:00:44.99,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Uh
+Dialogue: 0,0:00:44.32,0:00:47.25,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Swing{\k31}in' {\k41}Ma{\k90}gic
+Dialogue: 0,0:00:45.56,0:00:48.29,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Ah {\k61}ah {\k43}ah
+Dialogue: 0,0:00:47.34,0:00:50.48,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k36}kan{\k17}ji{\k9}ru {\k20}ma{\k15}ma {\k13}ni {\k12}o{\k24}do{\k26}re{\k32}ba
+Dialogue: 0,0:00:49.76,0:00:52.91,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k21}to{\k13}ki{\k16}me{\k11}ki {\k29}mot{\k17}to {\k13}fu{\k24}e{\k23}ru {\k38}yo
+Dialogue: 0,0:00:51.86,0:00:55.68,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Uh {\k31}wow {\k60}oh, {\k30}uh {\k29}wow {\k31}oh {\k30}wow {\k32}oh
+Dialogue: 0,0:00:54.84,0:00:58.01,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Swing{\k41}in' {\k58}Ma{\k57}gic
+Dialogue: 0,0:00:56.96,0:01:00.17,Iroha,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Di{\k30}di {\k30}ta{\k30}ta {\k24}Di{\k27}di {\k40}ta
+Dialogue: 0,0:00:59.36,0:01:02.61,Iroha,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Di{\k30}di {\k31}ta{\k29}ta {\k24}Di{\k27}di {\k44}ta
+Dialogue: 0,0:01:01.76,0:01:04.90,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Di{\k29}di {\k30}ta{\k30}ta {\k24}Di{\k27}di {\k33}ta
+Dialogue: 0,0:01:04.44,0:01:07.66,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Swing{\k42}in' {\k56}Ma{\k62}gic
+Dialogue: 0,0:01:06.56,0:01:09.54,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k89}Umm {\k21}count {\k13}the {\k27}ma{\k38}gic
+Dialogue: 0,0:01:08.34,0:01:10.34,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Three {\k31}two {\k28}one
+Dialogue: 0,0:01:09.27,0:01:11.84,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k16}i{\k13}tsu{\k18}wa{\k13}re{\k27}nai {\k19}ki{\k12}mo{\k29}chi
+Dialogue: 0,0:01:11.35,0:01:14.45,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k90}Umm {\k17}to{\k13}tsu{\k32}zen {\k48}ni
+Dialogue: 0,0:01:14.02,0:01:17.18,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ha{\k19}ji{\k29}mat{\k15}te{\k12}ku {\k21}ki{\k11}se{\k59}ki {\k23}yeah
+Dialogue: 0,0:01:16.16,0:01:19.65,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k23}PEN{\k7}DU{\k30}LUM, {\k24}PEN{\k7}DU{\k30}LUM {\k20}mi{\k9}to{\k20}re{\k10}te{\k30}nai{\k29}de
+Dialogue: 0,0:01:18.86,0:01:21.70,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k20}to{\k11}do{\k31}ke{\k19}te {\k9}ko {\k30}QUIN{\k54}TET
+Dialogue: 0,0:01:20.61,0:01:24.08,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k122}Hey, {\k115}ho
+Dialogue: 0,0:01:22.46,0:01:26.45,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ka{\k11}sa{\k30}nat{\k60}te {\k20}ka{\k10}ga{\k30}ya{\k20}ku {\k10}no {\k30}nan{\k49}de?
+Dialogue: 0,0:01:26.33,0:01:30.67,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k49}ha{\k16}ne{\k40}ru {\k17}shin{\k47}zou {\k14}no {\k30}yo{\k28}a{\k33}so{\k50}bi
+Dialogue: 0,0:01:29.95,0:01:35.21,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ko{\k29}no {\k41}yu{\k30}me {\k30}wa {\k30}to{\k30}ma{\k30}re{\k19}na{\k28}i {\kf128}yo
+Dialogue: 0,0:01:34.45,0:01:37.41,Iroha,,0,0,0,fx,{\k90\fad(300,200)}{\k31}nee, {\k31}koc{\k19}chi {\k10}ni {\k29}o{\k20}i{\k46}de
+Dialogue: 0,0:01:36.21,0:01:38.11,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Swing{\k45}in'
+Dialogue: 0,0:01:37.12,0:01:39.89,Iroha,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Swing{\k31}in' {\k39}Ma{\k74}gic
+Dialogue: 0,0:01:38.36,0:01:41.17,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Ah {\k61}ah {\k51}ah
+Dialogue: 0,0:01:39.56,0:01:42.30,Iroha,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ha{\k14}na{\k27}sa{\k31}na{\k19}i{\k54}de
+Dialogue: 0,0:01:41.09,0:01:42.53,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Uh
+Dialogue: 0,0:01:41.91,0:01:44.87,Iroha,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Swing{\k29}in' {\k41}Ma{\k92}gic
+Dialogue: 0,0:01:43.16,0:01:45.90,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Ah {\k61}ah {\k43}ah
+Dialogue: 0,0:01:44.95,0:01:48.14,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k34}kan{\k19}ji{\k9}ru {\k20}ma{\k13}ma {\k12}ni {\k15}o{\k24}do{\k24}re{\k39}ba
+Dialogue: 0,0:01:47.34,0:01:50.51,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k24}to{\k13}ki{\k16}me{\k9}ki {\k32}mot{\k16}to {\k12}fu{\k24}e{\k24}ru {\k37}yo
+Dialogue: 0,0:01:49.45,0:01:53.24,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Uh {\k31}wow {\k62}oh, {\k28}uh {\k29}wow {\k31}oh {\k30}wow {\k29}oh
+Dialogue: 0,0:01:52.42,0:01:55.63,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k54}Swing{\k40}in' {\k57}Ma{\k60}gic
+Dialogue: 0,0:01:55.11,0:01:59.33,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k26}a{\k31}fu{\k38}re{\k32}da{\k27}shi{\k31}ta {\k30}HAR{\k19}MO{\k78}NY
+Dialogue: 0,0:01:59.96,0:02:03.90,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k20}o{\k29}sa{\k41}e{\k32}yo{\k29}u {\k27}mo {\k33}na{\k15}i {\k58}yo
+Dialogue: 0,0:02:03.86,0:02:07.25,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ma{\k13}ta{\k13}ta{\k17}i{\k60}te {\k19}ha{\k12}ba{\k15}ta{\k14}i{\k49}te
+Dialogue: 0,0:02:06.85,0:02:09.72,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ji{\k34}yuu {\k10}ni {\k20}na{\k11}ru {\k29}CO{\k56}LORS
+Dialogue: 0,0:02:09.46,0:02:12.21,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k9}wa{\k24}ta{\k10}shi{\k18}ta{\k10}chi {\k18}da{\k11}ke {\k65}no
+Dialogue: 0,0:02:11.66,0:02:14.85,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k30}It's {\k22}ma{\k67}gic, {\k30}It's {\k26}ma{\k34}gic
+Dialogue: 0,0:02:12.84,0:02:15.80,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k31}nee, {\k31}koc{\k13}chi {\k17}ni {\k30}o{\k18}i{\k46}de
+Dialogue: 0,0:02:14.61,0:02:16.62,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Swing{\k56}in'
+Dialogue: 0,0:02:15.53,0:02:18.40,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Swing{\k31}in' {\k39}Ma{\k84}gic
+Dialogue: 0,0:02:16.76,0:02:19.34,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Ah {\k61}ah {\k51}ah
+Dialogue: 0,0:02:17.96,0:02:20.61,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ha{\k12}na{\k29}sa{\k31}na{\k19}i{\k45}de
+Dialogue: 0,0:02:19.44,0:02:20.93,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Uh
+Dialogue: 0,0:02:20.31,0:02:23.31,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Swing{\k29}in' {\k41}Ma{\k96}gic
+Dialogue: 0,0:02:21.55,0:02:24.34,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Ah {\k61}ah {\k49}ah
+Dialogue: 0,0:02:23.34,0:02:26.45,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k34}kan{\k19}ji{\k9}ru {\k20}ma{\k16}ma {\k12}ni {\k12}o{\k24}do{\k24}re{\k31}ba
+Dialogue: 0,0:02:25.75,0:02:28.90,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k22}to{\k14}ki{\k15}me{\k9}ki {\k32}mot{\k16}to {\k12}fu{\k24}e{\k24}ru {\k37}yo
+Dialogue: 0,0:02:27.86,0:02:31.66,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Uh {\k31}wow {\k62}oh, {\k28}uh {\k29}wow {\k31}oh {\k30}wow {\k30}oh
+Dialogue: 0,0:02:30.85,0:02:34.01,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k53}Swing{\k40}in' {\k57}Ma{\k56}gic
+Dialogue: 0,0:02:32.96,0:02:36.16,Iroha,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Di{\k30}di {\k30}ta{\k30}ta {\k24}Di{\k27}di {\k39}ta
+Dialogue: 0,0:02:35.36,0:02:38.49,Iroha,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Di{\k30}di {\k31}ta{\k29}ta {\k24}Di{\k27}di {\k32}ta
+Dialogue: 0,0:02:37.03,0:02:38.87,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Swing {\k12}Ma{\k30}gic
+Dialogue: 0,0:02:37.76,0:02:40.96,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Di{\k29}di {\k30}ta{\k30}ta {\k24}Di{\k27}di {\k39}ta
+Dialogue: 0,0:02:40.44,0:02:43.61,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Swing{\k41}in' {\k57}Ma{\k57}gic
+Dialogue: 0,0:02:42.55,0:02:45.70,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Di{\k29}di {\k30}ta{\k30}ta {\k24}Di{\k27}di {\k34}ta
+Dialogue: 0,0:02:44.96,0:02:48.20,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Di{\k30}di {\k31}ta{\k29}ta {\k24}Di{\k27}di {\k43}ta
+Dialogue: 0,0:02:46.40,0:02:48.51,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k27}It's {\k34}ma{\k40}gic
+Dialogue: 0,0:02:47.36,0:02:50.61,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Di{\k29}di {\k30}ta{\k30}ta {\k24}Di{\k27}di {\k44}ta
+Dialogue: 0,0:02:50.04,0:02:53.22,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Swing{\k40}in' {\k58}Ma{\k58}gic

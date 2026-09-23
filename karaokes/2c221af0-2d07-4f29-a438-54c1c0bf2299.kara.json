@@ -1,0 +1,76 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 177,
+      "filename": "2c221af0-2d07-4f29-a438-54c1c0bf2299.opus",
+      "filesize": 5917727,
+      "loudnorm": "-6.29,1.00,3.70,-16.36,-0.70",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "2c221af0-2d07-4f29-a438-54c1c0bf2299.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-22T22:42:21.576Z",
+    "from_display_type": "singergroups",
+    "ignoreHooks": false,
+    "kid": "2c221af0-2d07-4f29-a438-54c1c0bf2299",
+    "modified_at": "2026-09-22T23:04:52.157Z",
+    "repository": "kara.moe",
+    "songname": "ENG, JPN - ILLIT - AUDIO - Swingin’ Magic",
+    "tags": {
+      "authors": [
+        "2941868f-535f-4ea6-99f9-a0192e0e4dc7"
+      ],
+      "collections": [
+        "dbcf2c22-524d-4708-99bb-601703633927"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133",
+        "de5eda1c-5fb3-46a6-9606-d4554fc5a1d6"
+      ],
+      "misc": [
+        "1d6ceadf-a885-47e5-b23b-c07bf668a424"
+      ],
+      "series": [
+        "2091eea2-3c2d-4e8b-b809-8a214d1a8b91"
+      ],
+      "singers": [
+        "1b6550e5-9a51-4958-bde8-7fbfe3052d16",
+        "2cbcc65c-1309-4287-9343-05be7a9052d9",
+        "74e3d3b3-6cca-46db-b1ed-d7d54aef4d90",
+        "beded9ea-34a4-4c09-8bc7-773f136505df",
+        "cb314465-c89a-4d5e-93bd-d5b0c01004be"
+      ],
+      "singergroups": [
+        "f082d33f-3d4a-4e2c-9a61-2fc2a5173880"
+      ],
+      "songtypes": [
+        "42a262ae-acba-4ab5-a446-c5789c96c821"
+      ],
+      "songwriters": [
+        "25f8d251-2d96-431e-97f5-306eac224260",
+        "46ddd84c-23df-4282-8aff-002ca7ba036f",
+        "70fe407b-f62f-4f2d-afdc-201cd297c05f"
+      ]
+    },
+    "titles": {
+      "eng": "Swingin’ Magic"
+    },
+    "titles_default_language": "eng",
+    "year": 2026
+  }
+}
