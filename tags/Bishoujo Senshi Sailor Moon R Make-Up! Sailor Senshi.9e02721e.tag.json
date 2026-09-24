@@ -1,0 +1,27 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Bishoujo"
+    ],
+    "external_database_ids": {
+      "anilist": 2937,
+      "kitsu": 2660,
+      "myanimelist": 2937
+    },
+    "i18n": {
+      "eng": "Sailor Moon R: Make Up! Sailor Guardians",
+      "qro": "Bishôjo Senshi Sailor Moon R: Make-Up! Sailor Senshi",
+      "jpn": "メイクアップ！ セーラー戦士"
+    },
+    "name": "Bishôjo Senshi Sailor Moon R: Make-Up! Sailor Senshi",
+    "repository": "kara.moe",
+    "tid": "9e02721e-8221-41f4-a0b1-55eebd841880",
+    "types": [
+      1
+    ]
+  }
+}

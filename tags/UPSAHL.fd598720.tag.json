@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "UPSAHL"
+    },
+    "name": "UPSAHL",
+    "repository": "kara.moe",
+    "tid": "fd598720-9a96-47d5-bdc7-f19ff8b12f6e",
+    "types": [
+      8
+    ]
+  }
+}

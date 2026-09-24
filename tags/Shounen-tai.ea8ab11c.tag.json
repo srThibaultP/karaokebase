@@ -1,0 +1,22 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Shounen",
+      "Shounen-tai"
+    ],
+    "i18n": {
+      "jpn": "少年隊",
+      "qro": "Shônen-tai"
+    },
+    "name": "Shônen-tai",
+    "repository": "kara.moe",
+    "tid": "ea8ab11c-d8a2-4e5c-ac07-d511b00be2af",
+    "types": [
+      17
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "The Ramparts of Ice"
+    },
+    "name": "The Ramparts of Ice",
+    "repository": "kara.moe",
+    "tid": "b6a02efb-5a64-44e6-bd01-26bbbbd58169",
+    "types": [
+      18
+    ]
+  }
+}

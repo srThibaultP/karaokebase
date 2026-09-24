@@ -1,0 +1,23 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "external_database_ids": {
+      "anilist": 17624,
+      "kitsu": 9511,
+      "myanimelist": 17624
+    },
+    "i18n": {
+      "qro": "Omakase Scrappers",
+      "jpn": "おまかせ スクラッパーズ"
+    },
+    "name": "Omakase Scrappers",
+    "repository": "kara.moe",
+    "tid": "8a00b8fe-5d7d-4044-9625-b85e8122143b",
+    "types": [
+      1
+    ]
+  }
+}

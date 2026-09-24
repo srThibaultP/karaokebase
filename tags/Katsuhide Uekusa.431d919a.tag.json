@@ -1,0 +1,19 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Katsuhide Uekusa",
+      "qro": "Uekusa Katsuhide",
+      "jpn": "植草克秀"
+    },
+    "name": "Katsuhide Uekusa",
+    "repository": "kara.moe",
+    "tid": "431d919a-ac9d-4818-b763-d305a2044c2e",
+    "types": [
+      2
+    ]
+  }
+}

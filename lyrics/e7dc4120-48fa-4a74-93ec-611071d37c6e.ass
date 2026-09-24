@@ -1,0 +1,41 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Midnight Jungle
+Original Timing: HayatoKurokami
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:17.96,0:00:23.12,Sample KM [Up],,0,0,0,karaoke,{\k34}shi{\k22}a{\k39}wa{\k42}se {\k196}ni {\k24}na{\k24}ri{\k25}ta{\k30}i {\k80}to
+Comment: 0,0:00:24.28,0:00:29.20,Sample KM [Up],,0,0,0,karaoke,{\k41}a{\k20}se{\k20}ru {\k21}ho{\k38}do {\k40}BAD {\k144}DREAM {\k28}u{\k28}na{\k28}sa{\k26}re{\k58}ru
+Comment: 0,0:00:30.77,0:00:37.41,Sample KM [Up],,0,0,0,karaoke,{\k30}ya{\k22}tsu{\k25}ra {\k60}no {\k74}ko{\k62}e {\k177}ga {\k40}se{\k36}ka{\k27}su {\k36}no {\k75}sa
+Comment: 0,0:00:37.47,0:00:38.12,Sample KM [Choir],,0,0,0,karaoke,{\k29}YO{\k36}O!!!
+Comment: 0,0:00:38.43,0:00:40.88,Sample KM [Up],,0,0,0,karaoke,{\k25}COME {\k37}ON, {\k21}COME {\k38}ON {\k21}i{\k21}so{\k25}ga{\k19}na{\k38}kya
+Comment: 0,0:00:41.62,0:00:44.43,Sample KM [Up],,0,0,0,karaoke,{\k41}no{\k38}ri {\k39}o{\k22}ku{\k34}re{\k26}chi{\k20}ma{\k18}u {\k43}ze
+Comment: 0,0:00:44.86,0:00:47.21,Sample KM [Up],,0,0,0,karaoke,{\k20}COME {\k38}ON, {\k20}COME {\k41}ON {\k20}ku{\k17}ru{\k42}shii {\k37}ze
+Comment: 0,0:00:48.00,0:00:50.92,Sample KM [Up],,0,0,0,karaoke,{\k43}IT'S {\k40}BIG {\k24}CI{\k16}TY {\k80}LIFE, {\k40}OH {\k49}YEAH
+Comment: 0,0:00:51.19,0:00:53.67,Sample KM [Up],,0,0,0,karaoke,{\k23}COME {\k42}ON, {\k17}COME {\k40}ON {\k18}ha{\k24}shi{\k19}ra{\k20}na{\k45}kya
+Comment: 0,0:00:54.40,0:00:57.30,Sample KM [Up],,0,0,0,karaoke,{\k40}i{\k41}ki {\k38}no{\k25}ko{\k38}re{\k42}nai {\k66}ze
+Comment: 0,0:00:57.60,0:01:00.01,Sample KM [Up],,0,0,0,karaoke,{\k24}COME {\k39}ON, {\k23}COME {\k36}ON {\k23}i{\k16}ma {\k24}wa {\k16}ma{\k40}da
+Comment: 0,0:01:00.81,0:01:04.34,Sample KM [Up],,0,0,0,karaoke,{\k20}IN {\k21}A {\k20}BI{\k19}G {\k23}CI{\k18}TY {\k79}LIFE, {\k44}OH {\kf109}YEAH
+Dialogue: 0,0:00:17.06,0:00:23.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}shi{\k22}a{\k39}wa{\k42}se {\k196}ni {\k24}na{\k24}ri{\k25}ta{\k30}i {\k80}to
+Dialogue: 0,0:00:23.38,0:00:29.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k20}se{\k20}ru {\k21}ho{\k38}do {\k40}BAD {\k144}DREAM {\k28}u{\k28}na{\k28}sa{\k26}re{\k58}ru
+Dialogue: 0,0:00:29.87,0:00:37.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}ya{\k22}tsu{\k25}ra {\k60}no {\k74}ko{\k62}e {\k177}ga {\k40}se{\k36}ka{\k27}su {\k36}no {\k75}sa
+Dialogue: 0,0:00:36.57,0:00:38.32,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}YO{\k36}O!!!
+Dialogue: 0,0:00:37.53,0:00:41.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}COME {\k37}ON, {\k21}COME {\k38}ON {\k21}i{\k21}so{\k25}ga{\k19}na{\k38}kya
+Dialogue: 0,0:00:40.72,0:00:44.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}no{\k38}ri {\k39}o{\k22}ku{\k34}re{\k26}chi{\k20}ma{\k18}u {\k43}ze
+Dialogue: 0,0:00:43.96,0:00:47.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}COME {\k38}ON, {\k20}COME {\k41}ON {\k20}ku{\k17}ru{\k42}shii {\k37}ze
+Dialogue: 0,0:00:47.10,0:00:51.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}IT'S {\k40}BIG {\k24}CI{\k16}TY {\k80}LIFE, {\k40}OH {\k49}YEAH
+Dialogue: 0,0:00:50.29,0:00:53.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}COME {\k42}ON, {\k17}COME {\k40}ON {\k18}ha{\k24}shi{\k19}ra{\k20}na{\k45}kya
+Dialogue: 0,0:00:53.50,0:00:57.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}i{\k41}ki {\k38}no{\k25}ko{\k38}re{\k42}nai {\k66}ze
+Dialogue: 0,0:00:56.70,0:01:00.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}COME {\k39}ON, {\k23}COME {\k36}ON {\k23}i{\k16}ma {\k24}wa {\k16}ma{\k40}da
+Dialogue: 0,0:00:59.91,0:01:04.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}IN {\k21}A {\k20}BI{\k19}G {\k23}CI{\k18}TY {\k79}LIFE, {\k44}OH {\kf109}YEAH

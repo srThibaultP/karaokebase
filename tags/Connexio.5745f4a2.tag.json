@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Connexio"
+    },
+    "name": "Connexio",
+    "repository": "kara.moe",
+    "tid": "5745f4a2-5af1-469c-8af8-b3231a6b0c52",
+    "types": [
+      8
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "nakotanmaru"
+    },
+    "name": "nakotanmaru",
+    "repository": "kara.moe",
+    "tid": "020862a7-badb-4260-b98d-02611b3596b3",
+    "types": [
+      8
+    ]
+  }
+}

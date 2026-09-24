@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "PIKASONIC"
+    },
+    "name": "PIKASONIC",
+    "repository": "kara.moe",
+    "tid": "6c11d8d5-d930-4531-a7a6-20f76ea56e76",
+    "types": [
+      8
+    ]
+  }
+}

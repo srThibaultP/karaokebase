@@ -1,0 +1,19 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Sayuri Tanaka",
+      "qro": "Tanaka Sayuri",
+      "jpn": "田中 小百合"
+    },
+    "name": "Sayuri Tanaka",
+    "repository": "kara.moe",
+    "tid": "bf58e0a5-ab14-4cce-82d6-0b732b6fe6bb",
+    "types": [
+      2
+    ]
+  }
+}

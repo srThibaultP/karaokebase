@@ -1,0 +1,81 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 66,
+      "filename": "19a81f33-aa4c-4f8d-bb7c-c1b4c9532455.mp4",
+      "filesize": 8571420,
+      "loudnorm": "-16.04,-3.95,8.90,-26.09,-0.82",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "19a81f33-aa4c-4f8d-bb7c-c1b4c9532455.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-23T22:24:24.897Z",
+    "ignoreHooks": false,
+    "kid": "19a81f33-aa4c-4f8d-bb7c-c1b4c9532455",
+    "modified_at": "2026-09-23T22:24:40.207Z",
+    "repository": "kara.moe",
+    "songname": "JPN - Lady Lady!! - ED - Futari dake no Moonlight",
+    "tags": {
+      "authors": [
+        "6ead5776-8797-407f-84a6-809f413c97b5"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "creators": [
+        "f694bf43-b427-4244-9744-9d3f84fd8a31"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "genres": [
+        "8b6ace6f-a59e-4740-b3ff-e1618720383c"
+      ],
+      "groups": [
+        "7792cc27-9ff9-4d47-9287-2338b7db1575"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "series": [
+        "217ca3a8-136c-48e3-963a-64c09954083e"
+      ],
+      "singers": [
+        "b5f59a1e-f556-488f-bfae-12c31e68b4fb",
+        "431d919a-ac9d-4818-b763-d305a2044c2e",
+        "0077c29f-c5b5-4f3f-b53c-4ef804feeaa7"
+      ],
+      "singergroups": [
+        "ea8ab11c-d8a2-4e5c-ac07-d511b00be2af"
+      ],
+      "songtypes": [
+        "38c77c56-2b95-4040-b676-0994a8cb0597"
+      ],
+      "songwriters": [
+        "e70d7172-9d3a-4e8d-b336-54a2205dbb72",
+        "deb4e577-f911-481a-a9bf-8eb838a00c90"
+      ],
+      "franchises": [
+        "401d4d5c-916c-451a-806f-2155444ccfb7"
+      ]
+    },
+    "titles": {
+      "jpn": "ふたりだけのムーンライト",
+      "qro": "Futari dake no Moonlight"
+    },
+    "titles_default_language": "qro",
+    "year": 1987
+  }
+}

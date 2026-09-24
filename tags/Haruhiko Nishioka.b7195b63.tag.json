@@ -1,0 +1,19 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Haruhiko Nishioka",
+      "qro": "Nishioka Haruhiko",
+      "jpn": "西岡 治彦"
+    },
+    "name": "Haruhiko Nishioka",
+    "repository": "kara.moe",
+    "tid": "b7195b63-d964-4cc6-9146-0c6b3fd2b0ae",
+    "types": [
+      8
+    ]
+  }
+}

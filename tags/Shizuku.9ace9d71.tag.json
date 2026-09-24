@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Shizuku"
+    },
+    "name": "Shizuku",
+    "repository": "kara.moe",
+    "tid": "9ace9d71-9f3a-4b52-b30c-3c5f51d30e13",
+    "types": [
+      2
+    ]
+  }
+}

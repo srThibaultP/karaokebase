@@ -1,0 +1,76 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 128,
+      "filename": "331f1405-5029-47ff-8b69-a62011db31d4.mp4",
+      "filesize": 16600755,
+      "loudnorm": "-14.29,0.21,15.90,-25.12,-1.17",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "331f1405-5029-47ff-8b69-a62011db31d4.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-23T22:01:21.467Z",
+    "ignoreHooks": false,
+    "kid": "331f1405-5029-47ff-8b69-a62011db31d4",
+    "modified_at": "2026-09-23T22:01:25.978Z",
+    "repository": "kara.moe",
+    "songname": "JPN - Maison Ikkoku - IN - Aoi Hitomi no Eris",
+    "tags": {
+      "authors": [
+        "6ead5776-8797-407f-84a6-809f413c97b5"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "creators": [
+        "2bf7a71d-d3fc-42ba-8aa0-a94d7ca3888c"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "groups": [
+        "7792cc27-9ff9-4d47-9287-2338b7db1575"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "938de218-5343-4865-94d3-fb33f2eaa152"
+      ],
+      "series": [
+        "9aba7b58-443e-422a-a782-bd8fff7d9dec"
+      ],
+      "singers": [
+        "b0c62f68-66c3-4cac-a1d0-d33aa3e0cbea"
+      ],
+      "songtypes": [
+        "5e5250d9-351a-4a82-98eb-55db50ad8962"
+      ],
+      "songwriters": [
+        "d5945653-fb1c-4775-b31b-977fc6e06ae4",
+        "a9bd582a-6053-45c0-816b-70c3a0c1d882"
+      ],
+      "franchises": [
+        "ce59d2b4-5e15-4a16-81b3-3e12c2ca3448"
+      ]
+    },
+    "titles": {
+      "jpn": "碧い瞳のエリス",
+      "qro": "Aoi Hitomi no Eris"
+    },
+    "titles_default_language": "qro",
+    "year": 1986
+  }
+}
