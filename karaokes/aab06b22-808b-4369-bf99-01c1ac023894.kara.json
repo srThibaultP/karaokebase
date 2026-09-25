@@ -1,0 +1,79 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 261,
+      "filename": "aab06b22-808b-4369-bf99-01c1ac023894.mp3",
+      "filesize": 8990712,
+      "loudnorm": "-6.32,1.59,1.80,-16.37,-0.24",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "aab06b22-808b-4369-bf99-01c1ac023894.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-24T18:26:53.444Z",
+    "ignoreHooks": false,
+    "kid": "aab06b22-808b-4369-bf99-01c1ac023894",
+    "modified_at": "2026-09-24T19:12:07.432Z",
+    "repository": "kara.moe",
+    "songname": "JPN - Love Live! Sunshine!! - AUDIO - Aru Hi...Eien Mitai ni!",
+    "tags": {
+      "authors": [
+        "002873d6-a84e-4e5a-85aa-fbe3969143c6"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "genres": [
+        "caa86df2-0d59-474b-885c-f240a9e891b0"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "misc": [
+        "1d6ceadf-a885-47e5-b23b-c07bf668a424"
+      ],
+      "series": [
+        "63466536-1102-4f91-b167-4380d274e2a3"
+      ],
+      "singers": [
+        "18b9be9d-c627-47d1-ab88-56201f59a609",
+        "5db2e941-73cc-4374-af8e-a078458645ca",
+        "b4084895-9bbd-426a-8384-feef794ca53c"
+      ],
+      "singergroups": [
+        "8506e0eb-a445-4bef-8ad7-5b39e5fc0f1e"
+      ],
+      "songtypes": [
+        "42a262ae-acba-4ab5-a446-c5789c96c821"
+      ],
+      "songwriters": [
+        "9440a48e-d17c-45af-9340-f3f77042ea4e",
+        "f41e7218-6c19-4e19-9b5f-4612dcd58243",
+        "f7cfb2bd-5043-4244-bcf2-d225e4bbf614"
+      ],
+      "franchises": [
+        "fd5d066e-e85a-4eea-8688-2979a887450a"
+      ]
+    },
+    "titles": {
+      "jpn": "ある日…永遠みたいに！",
+      "qro": "Aru Hi...Eien Mitai ni!"
+    },
+    "titles_default_language": "qro",
+    "year": 2021
+  }
+}

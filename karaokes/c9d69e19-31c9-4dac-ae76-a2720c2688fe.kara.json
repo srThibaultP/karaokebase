@@ -1,0 +1,87 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 226,
+      "filename": "c9d69e19-31c9-4dac-ae76-a2720c2688fe.mp4",
+      "filesize": 93281215,
+      "loudnorm": "-21.60,-7.71,9.70,-32.00,-0.53",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "c9d69e19-31c9-4dac-ae76-a2720c2688fe.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-24T18:41:58.336Z",
+    "ignoreHooks": false,
+    "kid": "c9d69e19-31c9-4dac-ae76-a2720c2688fe",
+    "modified_at": "2026-09-24T18:54:05.003Z",
+    "repository": "kara.moe",
+    "songname": "JPN - BanG Dream! Yume∞Mita - IN - Ai wa Shoudou",
+    "tags": {
+      "authors": [
+        "c09cec89-ee7d-4471-91bf-27a4c742ad05"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "creators": [
+        "c826e7ff-b9c9-4595-bbb4-b54e3b974612"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2",
+        "966d1e74-d1f2-41e2-ab04-24279c22f562"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "misc": [
+        "a98efc68-91c1-4291-b4af-e3990b939167"
+      ],
+      "origins": [
+        "938de218-5343-4865-94d3-fb33f2eaa152"
+      ],
+      "series": [
+        "7d6f475f-5024-424d-bd61-2e66fb7dec27"
+      ],
+      "singers": [
+        "29a9ba5c-272e-4a04-9902-ef3c6760bb79",
+        "76ffab10-e674-42eb-8be0-3e8617fb1eed",
+        "870a229c-e59e-407b-931f-9e4548064008",
+        "d415d984-39b6-4391-9684-e6b088c161f0",
+        "f38bd0e9-cdd0-4960-b7eb-cdb443313e24"
+      ],
+      "singergroups": [
+        "f5ab0016-6f12-47d4-8d28-a22c0bb88a59"
+      ],
+      "songtypes": [
+        "5e5250d9-351a-4a82-98eb-55db50ad8962"
+      ],
+      "songwriters": [
+        "f62fde8b-5692-44cf-9bfa-43704b029c2c"
+      ],
+      "franchises": [
+        "a4465aa7-0b49-44f7-898a-a1373d8e4720"
+      ]
+    },
+    "titles": {
+      "eng": "Love is Energy",
+      "jpn": "愛は衝動",
+      "qro": "Ai wa Shoudou"
+    },
+    "titles_default_language": "qro",
+    "year": 2026
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "TAKUYA"
+    },
+    "name": "TAKUYA",
+    "repository": "kara.moe",
+    "tid": "f7cfb2bd-5043-4244-bcf2-d225e4bbf614",
+    "types": [
+      8
+    ]
+  }
+}
