@@ -1,0 +1,29 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Kyoushitsu",
+      "Gekijouban",
+      "Kyoushitsu:"
+    ],
+    "external_database_ids": {
+      "anilist": 198373,
+      "kitsu": 50568,
+      "myanimelist": 62421
+    },
+    "i18n": {
+      "eng": "Assassination Classroom the Movie: Our Time",
+      "qro": "Gekijôban Ansatsu Kyôshitsu: Minna no Jikan",
+      "jpn": "暗殺教室 みんなの時間"
+    },
+    "name": "Gekijôban Ansatsu Kyôshitsu: Minna no Jikan",
+    "repository": "kara.moe",
+    "tid": "4d4b541a-c0ba-43f7-8f0a-eb515507db15",
+    "types": [
+      1
+    ]
+  }
+}

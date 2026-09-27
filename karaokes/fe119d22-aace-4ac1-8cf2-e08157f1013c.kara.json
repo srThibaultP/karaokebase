@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:19.000Z",
+    "ignoreHooks": false,
     "kid": "fe119d22-aace-4ac1-8cf2-e08157f1013c",
-    "modified_at": "2021-02-25T13:06:56.993Z",
+    "modified_at": "2026-09-27T00:15:17.469Z",
     "repository": "kara.moe",
-    "songname": "JPN - Shounen Hollywood Holly Stage for 49 - ED5 - Air Boys",
+    "songname": "JPN - Shônen Hollywood: Holly Stage for 49 - ED5 - Air Boys",
     "songorder": 5,
     "tags": {
       "authors": [

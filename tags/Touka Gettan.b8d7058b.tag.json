@@ -5,20 +5,21 @@
   },
   "tag": {
     "aliases": [
-      "The Moonlight Lady returns"
+      "The Moonlight Lady returns",
+      "Touka"
     ],
     "external_database_ids": {
       "anilist": 2105,
-      "myanimelist": 2105,
-      "kitsu": 1904
+      "kitsu": 1904,
+      "myanimelist": 2105
     },
     "i18n": {
       "eng": "Toka Gettan",
       "fre": "Tôka Gettan",
       "jpn": "桃華月憚",
-      "qro": "Touka Gettan"
+      "qro": "Tôka Gettan"
     },
-    "name": "Touka Gettan",
+    "name": "Tôka Gettan",
     "repository": "kara.moe",
     "tid": "b8d7058b-95b2-46e2-a74f-ae2e1b7c773f",
     "types": [

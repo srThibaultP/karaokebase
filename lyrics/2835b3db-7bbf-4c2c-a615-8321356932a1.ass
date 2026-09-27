@@ -1,0 +1,71 @@
+﻿[Script Info]
+Title: Synchro Blue
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ClariS,Arial,24,&H00FFFFFF,&H00E966AB,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Clara,Arial,24,&H00FFFFFF,&H00F597F2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Ellie,Arial,24,&H00FFFFFF,&H00DEDD47,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Anna,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sub,Arial,24,&H00FFFFFF,&H0068C24D,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Legend,Arial,24,&H00FFFFFF,&H00E966AB,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function prefx(st) local k = (st < 900) and ("\\k" .. (st/10)) or "\\k90" local fs = (st < 900) and st or 300 retime("line", (st < 900) and -st or -900, 200) return "{" .. k .. "\\fad(" .. fs .. ",200)}" end
+Comment: 0,0:00:06.38,0:00:09.04,Clara,,0,0,0,template pre-line keeptags,!prefx($start)!!"♦ "!
+Comment: 0,0:00:06.38,0:00:09.04,Ellie,,0,0,0,template pre-line keeptags,!prefx($start)!!"♠ "!
+Comment: 0,0:00:06.38,0:00:09.04,Anna,,0,0,0,template pre-line keeptags,!prefx($start)!!"♥ "!
+Comment: 0,0:00:00.00,0:00:00.00,ClariS,,0,0,0,template pre-line keeptags,!prefx($start)!
+Comment: 0,0:00:00.00,0:00:00.00,Sub,,0,0,0,template pre-line keeptags,!prefx($start)!
+Dialogue: 0,0:00:00.00,0:00:10.00,Legend,,0,0,0,karaoke,{\k1000} ClariS {\2cFFFFFF}| ♦ {\rClara}Clara {\2cFFFFFF}| ♠ {\rEllie}Ellie {\2cFFFFFF}| ♥ {\rAnna}Anna {\2cFFFFFF}| {\rSub}Duo
+Comment: 0,0:00:00.83,0:00:04.56,Clara,,0,0,0,karaoke,{\k36}ki{\k34}mi {\k30}to {\k38}o{\k28}i{\k69}ka{\kf138}ke
+Comment: 0,0:00:03.46,0:00:07.14,Ellie,,0,0,0,karaoke,{\k37}tsu{\k35}kan{\k32}da {\k36}ko{\k30}no {\k59}BLUE {\kf139}SKY
+Comment: 0,0:00:06.16,0:00:09.54,Anna,,0,0,0,karaoke,{\k32}mo{\k36}u {\k35}ha{\k31}na{\k34}sa{\k67}nai {\kf103}yo
+Comment: 0,0:00:10.46,0:00:12.18,ClariS,,0,0,0,karaoke,{\k24}LIE {\k31}WITH {\kf117}YOU
+Comment: 0,0:00:22.16,0:00:27.04,Anna,,0,0,0,karaoke,{\k36}ko{\k33}wa{\k32}ga{\k18}ru {\k32}no {\k34}wa {\k32}yo{\k19}wa{\k66}i{\k67}n {\k66}ja {\k53}nai
+Comment: 0,0:00:27.48,0:00:32.23,Anna,,0,0,0,karaoke,{\k36}ki{\k34}mi {\k30}ga {\k23}ho{\k29}n{\k34}ki {\k35}da{\k15}t{\k67}te {\k66}a{\k67}ka{\k39}shi
+Comment: 0,0:00:32.50,0:00:37.68,Clara,,0,0,0,karaoke,{\k48}ki{\k18}zu{\k35}tsu{\k17}i{\k16}te {\k68}mo {\k16}i{\k16}ta{\k16}mi {\k18}to{\k66}mo {\k67}nat{\k50}te{\k17}~ {\k50}mo
+Comment: 0,0:00:38.13,0:00:41.54,Ellie,,0,0,0,karaoke,{\k38}zet{\k51}tai {\k16}ni{\k17}ge{\k34}na{\k31}i {\k20}ka{\kf134}ra
+Comment: 0,0:00:42.50,0:00:45.01,Anna,,0,0,0,karaoke,{\k18}ko{\k17}do{\k17}u {\k33}ga {\k17}ha{\k16}ya{\k34}ku {\k33}na{\k66}ru
+Comment: 0,0:00:45.16,0:00:47.55,Clara,,0,0,0,karaoke,{\k19}fu{\k16}ru{\k17}e{\k34}ru {\k15}yu{\k17}bi{\k34}sa{\k33}ki {\k54}ni
+Comment: 0,0:00:47.81,0:00:50.71,Ellie,,0,0,0,karaoke,{\k21}so{\k15}no {\k18}ko{\k33}e {\k33}ga {\k35}hi{\k32}bi{\k33}ku {\k16}ho{\k18}u {\k36}he
+Comment: 0,0:00:51.01,0:00:55.05,Sub,,0,0,0,karaoke,♠♥  {\k34}mi{\k32}a{\k18}ge{\k16}ta{\k33}ra {\rClariS}{\k33}is{\k32}shun {\k17}de {\k18}so{\k19}ma{\k15}ru {\kf137}no
+Comment: 0,0:00:55.80,0:00:57.25,ClariS,,0,0,0,karaoke,{\k24}SY{\k12}N{\k18}CH{\k34}RO {\k57}BLUE
+Comment: 0,0:00:57.50,0:01:00.88,ClariS,,0,0,0,karaoke,{\k16}ka{\k36}sa{\k33}na{\k31}ru {\k35}shun{\k65}kan {\k17}a{\k17}za{\k18}ya{\k16}ka {\k54}ni
+Comment: 0,0:01:01.16,0:01:06.22,ClariS,,0,0,0,karaoke,{\k19}ka{\k16}ga{\k17}ya{\k32}i{\k84}te {\k18}ma{\k32}da {\k32}to{\k35}be{\k32}ru {\k83}sa, {\k18}NO {\k35}LI{\k53}MITS
+Comment: 0,0:01:06.51,0:01:07.92,ClariS,,0,0,0,karaoke,{\k17}E{\k17}TE{\k17}R{\k32}NAL {\k58}BLUE
+Comment: 0,0:01:08.17,0:01:11.73,ClariS,,0,0,0,karaoke,{\k17}do{\k34}ko {\k33}ma{\k35}de {\k31}dat{\k81}te {\k18}ki{\k18}mi {\k18}ga {\k33}i{\k17}re{\k21}ba
+Comment: 0,0:01:11.85,0:01:15.52,ClariS,,0,0,0,karaoke,{\k17}ko{\k15}wa{\k17}ku{\k34}nai {\k83}yo {\k14}i{\k34}s{\k36}sho {\k31}ni {\k36}yu{\k50}kou
+Comment: 0,0:01:15.74,0:01:18.65,ClariS,,0,0,0,karaoke,{\k27}STAR{\k33}RY {\k80}NIGHT {\k21}FLY {\k33}WITH {\kf97}YOU
+Comment: 0,0:01:17.84,0:01:22.47,Ellie,,0,0,0,karaoke,{\k33}o{\k17}wa{\k33}ri {\k17}wa {\k51}nai {\k50}ko{\k33}no {\k32}ta{\k35}bi{\k17}ji {\k30}no {\k20}ha{\kf95}te
+Comment: 0,0:01:23.17,0:01:27.29,ClariS,,0,0,0,karaoke,{\k35}ki{\k17}mi {\k32}ga {\k17}i{\k50}re{\k46}ba {\k38}so{\k33}re {\k49}da{\k18}ke {\k77}de
+Comment: 0,0:01:27.74,0:01:29.42,ClariS,,0,0,0,karaoke,{\k29}STAY {\k31}WITH {\kf108}YOU
+Dialogue: 0,0:00:00.00,0:00:04.76,Clara,,0,0,0,fx,{\k83\fad(830,200)}♦ {\k36}ki{\k34}mi {\k30}to {\k38}o{\k28}i{\k69}ka{\kf138}ke
+Dialogue: 0,0:00:02.56,0:00:07.34,Ellie,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k37}tsu{\k35}kan{\k32}da {\k36}ko{\k30}no {\k59}BLUE {\kf139}SKY
+Dialogue: 0,0:00:05.26,0:00:09.74,Anna,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k32}mo{\k36}u {\k35}ha{\k31}na{\k34}sa{\k67}nai {\kf103}yo
+Dialogue: 0,0:00:09.56,0:00:12.38,ClariS,,0,0,0,fx,{\k90\fad(300,200)}{\k24}LIE {\k31}WITH {\kf117}YOU
+Dialogue: 0,0:00:21.26,0:00:27.24,Anna,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k36}ko{\k33}wa{\k32}ga{\k18}ru {\k32}no {\k34}wa {\k32}yo{\k19}wa{\k66}i{\k67}n {\k66}ja {\k53}nai
+Dialogue: 0,0:00:26.58,0:00:32.43,Anna,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k36}ki{\k34}mi {\k30}ga {\k23}ho{\k29}n{\k34}ki {\k35}da{\k15}t{\k67}te {\k66}a{\k67}ka{\k39}shi
+Dialogue: 0,0:00:31.60,0:00:37.88,Clara,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k48}ki{\k18}zu{\k35}tsu{\k17}i{\k16}te {\k68}mo {\k16}i{\k16}ta{\k16}mi {\k18}to{\k66}mo {\k67}nat{\k50}te{\k17}~ {\k50}mo
+Dialogue: 0,0:00:37.23,0:00:41.74,Ellie,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k38}zet{\k51}tai {\k16}ni{\k17}ge{\k34}na{\k31}i {\k20}ka{\kf134}ra
+Dialogue: 0,0:00:41.60,0:00:45.21,Anna,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k18}ko{\k17}do{\k17}u {\k33}ga {\k17}ha{\k16}ya{\k34}ku {\k33}na{\k66}ru
+Dialogue: 0,0:00:44.26,0:00:47.75,Clara,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k19}fu{\k16}ru{\k17}e{\k34}ru {\k15}yu{\k17}bi{\k34}sa{\k33}ki {\k54}ni
+Dialogue: 0,0:00:46.91,0:00:50.91,Ellie,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k21}so{\k15}no {\k18}ko{\k33}e {\k33}ga {\k35}hi{\k32}bi{\k33}ku {\k16}ho{\k18}u {\k36}he
+Dialogue: 0,0:00:50.11,0:00:55.25,Sub,,0,0,0,fx,{\k90\fad(300,200)}♠♥  {\k34}mi{\k32}a{\k18}ge{\k16}ta{\k33}ra {\rClariS}{\k33}is{\k32}shun {\k17}de {\k18}so{\k19}ma{\k15}ru {\kf137}no
+Dialogue: 0,0:00:54.90,0:00:57.45,ClariS,,0,0,0,fx,{\k90\fad(300,200)}{\k24}SY{\k12}N{\k18}CH{\k34}RO {\k57}BLUE
+Dialogue: 0,0:00:56.60,0:01:01.08,ClariS,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ka{\k36}sa{\k33}na{\k31}ru {\k35}shun{\k65}kan {\k17}a{\k17}za{\k18}ya{\k16}ka {\k54}ni
+Dialogue: 0,0:01:00.26,0:01:06.42,ClariS,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ka{\k16}ga{\k17}ya{\k32}i{\k84}te {\k18}ma{\k32}da {\k32}to{\k35}be{\k32}ru {\k83}sa, {\k18}NO {\k35}LI{\k53}MITS
+Dialogue: 0,0:01:05.61,0:01:08.12,ClariS,,0,0,0,fx,{\k90\fad(300,200)}{\k17}E{\k17}TE{\k17}R{\k32}NAL {\k58}BLUE
+Dialogue: 0,0:01:07.27,0:01:11.93,ClariS,,0,0,0,fx,{\k90\fad(300,200)}{\k17}do{\k34}ko {\k33}ma{\k35}de {\k31}dat{\k81}te {\k18}ki{\k18}mi {\k18}ga {\k33}i{\k17}re{\k21}ba
+Dialogue: 0,0:01:10.95,0:01:15.72,ClariS,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ko{\k15}wa{\k17}ku{\k34}nai {\k83}yo {\k14}i{\k34}s{\k36}sho {\k31}ni {\k36}yu{\k50}kou
+Dialogue: 0,0:01:14.84,0:01:18.85,ClariS,,0,0,0,fx,{\k90\fad(300,200)}{\k27}STAR{\k33}RY {\k80}NIGHT {\k21}FLY {\k33}WITH {\kf97}YOU
+Dialogue: 0,0:01:16.94,0:01:22.67,Ellie,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k33}o{\k17}wa{\k33}ri {\k17}wa {\k51}nai {\k50}ko{\k33}no {\k32}ta{\k35}bi{\k17}ji {\k30}no {\k20}ha{\kf95}te
+Dialogue: 0,0:01:22.27,0:01:27.49,ClariS,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ki{\k17}mi {\k32}ga {\k17}i{\k50}re{\k46}ba {\k38}so{\k33}re {\k49}da{\k18}ke {\k77}de
+Dialogue: 0,0:01:26.84,0:01:29.62,ClariS,,0,0,0,fx,{\k90\fad(300,200)}{\k29}STAY {\k31}WITH {\kf108}YOU

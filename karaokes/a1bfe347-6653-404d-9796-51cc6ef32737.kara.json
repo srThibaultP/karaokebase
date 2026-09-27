@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:05.000Z",
+    "ignoreHooks": false,
     "kid": "a1bfe347-6653-404d-9796-51cc6ef32737",
-    "modified_at": "2021-02-25T13:07:03.474Z",
+    "modified_at": "2026-09-27T00:17:31.772Z",
     "repository": "kara.moe",
-    "songname": "JPN - Shounen Ninja Kaze no Fujimaru - OP - Shounen Ninja Kaze No Fujimaru",
+    "songname": "JPN - Shônen Ninja Kaze no Fujimaru - OP - Shounen Ninja Kaze No Fujimaru",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -63,8 +64,8 @@
       ]
     },
     "titles": {
-      "qro": "Shounen Ninja Kaze No Fujimaru",
-      "jpn": "少年忍者風のフジ丸"
+      "jpn": "少年忍者風のフジ丸",
+      "qro": "Shounen Ninja Kaze No Fujimaru"
     },
     "titles_default_language": "qro",
     "year": 1964

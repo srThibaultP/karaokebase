@@ -6,7 +6,7 @@
   "medias": [
     {
       "default": true,
-      "duration": 89,
+      "duration": 90,
       "filename": "fd3fef6d-589c-4198-9e73-a9daa83ac102.mp4",
       "filesize": 29779728,
       "loudnorm": "-22.15,-11.26,2.00,-32.24,-0.26",
@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:32.000Z",
+    "ignoreHooks": false,
     "kid": "fd3fef6d-589c-4198-9e73-a9daa83ac102",
-    "modified_at": "2021-02-25T13:06:58.309Z",
+    "modified_at": "2026-09-27T00:15:45.817Z",
     "repository": "kara.moe",
-    "songname": "JPN - Shounen Hollywood Holly Stage for 49 - ED7 - Hello Sekai ~ Popcorn Vers",
+    "songname": "JPN - Shônen Hollywood: Holly Stage for 49 - ED7 - Hello Sekai ~ Popcorn Vers. ~ Alternative Vers",
     "songorder": 7,
     "tags": {
       "authors": [
@@ -75,8 +76,8 @@
       ]
     },
     "titles": {
-      "qro": "Hello Sekai ~ Popcorn Vers.",
-      "jpn": "ハロー世界 ~ Popcorn Vers."
+      "jpn": "ハロー世界 ~ Popcorn Vers.",
+      "qro": "Hello Sekai ~ Popcorn Vers."
     },
     "titles_default_language": "qro",
     "year": 2014

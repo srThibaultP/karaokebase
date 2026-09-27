@@ -7,9 +7,9 @@
     {
       "default": true,
       "duration": 90,
-      "filename": "1986855a-6b12-4127-a13b-eaa06d9bf93a.mp4",
-      "filesize": 104861990,
-      "loudnorm": "-16.06,-3.12,3.30,-26.10,-1.07",
+      "filename": "1986855a-6b12-4127-a13b-eaa06d9bf93a.webm",
+      "filesize": 47088012,
+      "loudnorm": "-16.00,-3.03,3.20,-26.03,-1.07",
       "lyrics": [
         {
           "default": true,
@@ -24,9 +24,9 @@
     "created_at": "2023-08-27T19:58:43.089Z",
     "ignoreHooks": false,
     "kid": "1986855a-6b12-4127-a13b-eaa06d9bf93a",
-    "modified_at": "2025-12-10T16:05:25.957Z",
+    "modified_at": "2026-09-26T13:32:04.874Z",
     "repository": "kara.moe",
-    "songname": "JPN - Kenja no Mago - ED - Attouteki Vivid Days",
+    "songname": "JPN - Kenja no Mago - ED - Attôteki Vivid Days",
     "tags": {
       "authors": [
         "df9cb48f-334e-4ceb-b26e-e254ad323492"
@@ -72,8 +72,11 @@
     },
     "titles": {
       "jpn": "圧倒的 Vivid Days",
-      "qro": "Attouteki Vivid Days"
+      "qro": "Attôteki Vivid Days"
     },
+    "titles_aliases": [
+      "Attouteki"
+    ],
     "titles_default_language": "qro",
     "year": 2019
   }

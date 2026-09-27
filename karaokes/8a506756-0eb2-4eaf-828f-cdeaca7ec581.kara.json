@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:41.000Z",
+    "ignoreHooks": false,
     "kid": "8a506756-0eb2-4eaf-828f-cdeaca7ec581",
-    "modified_at": "2021-02-25T12:57:24.962Z",
+    "modified_at": "2026-09-26T23:22:06.671Z",
     "repository": "kara.moe",
     "songname": "JPN - Sasameki Koto - ED - Niji-iro Pocket",
     "tags": {
@@ -65,8 +66,8 @@
       ]
     },
     "titles": {
-      "qro": "Niji-iro Pocket",
-      "jpn": "虹色ポケット"
+      "jpn": "虹色ポケット",
+      "qro": "Niji-iro Pocket"
     },
     "titles_default_language": "qro",
     "year": 2009

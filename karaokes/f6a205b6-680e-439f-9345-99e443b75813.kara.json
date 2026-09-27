@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:03:12.000Z",
+    "ignoreHooks": false,
     "kid": "f6a205b6-680e-439f-9345-99e443b75813",
-    "modified_at": "2021-02-25T13:06:29.908Z",
+    "modified_at": "2026-09-27T00:14:07.361Z",
     "repository": "kara.moe",
-    "songname": "JPN - Shoujo Kakumei Utena - ED2 - Virtual Star hasseigaku",
+    "songname": "JPN - Shôjo Kakumei Utena - ED2 - Virtual Star Hasseigaku",
     "songorder": 2,
     "tags": {
       "authors": [
@@ -66,8 +67,8 @@
       ]
     },
     "titles": {
-      "qro": "Virtual Star Hasseigaku",
-      "jpn": "バーチャルスター発生学"
+      "jpn": "バーチャルスター発生学",
+      "qro": "Virtual Star Hasseigaku"
     },
     "titles_default_language": "qro",
     "year": 1997

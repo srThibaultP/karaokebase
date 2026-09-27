@@ -7,8 +7,8 @@
     {
       "default": true,
       "duration": 90,
-      "filename": "281af52f-0ca3-4ab5-b7a1-29b0946a7c5a.mp4",
-      "filesize": 19931800,
+      "filename": "281af52f-0ca3-4ab5-b7a1-29b0946a7c5a.mkv",
+      "filesize": 26307342,
       "loudnorm": "-20.57,-9.29,6.00,-30.59,-0.73",
       "lyrics": [
         {
@@ -22,13 +22,14 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:15.000Z",
+    "ignoreHooks": false,
     "kid": "281af52f-0ca3-4ab5-b7a1-29b0946a7c5a",
-    "modified_at": "2021-02-25T13:28:55.164Z",
+    "modified_at": "2026-09-27T00:57:25.951Z",
     "repository": "kara.moe",
-    "songname": "JPN - Touka Gettan - OP - Yume Oboro",
+    "songname": "JPN - Tôka Gettan - OP - Yume Oboro",
     "tags": {
       "authors": [
-        "5bdaba57-27f8-4568-8806-76a807728766"
+        "2941868f-535f-4ea6-99f9-a0192e0e4dc7"
       ],
       "collections": [
         "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
@@ -68,8 +69,8 @@
       ]
     },
     "titles": {
-      "qro": "Yume Oboro",
-      "jpn": "ゆめおぼろ"
+      "jpn": "ゆめおぼろ",
+      "qro": "Yume Oboro"
     },
     "titles_default_language": "qro",
     "year": 2007

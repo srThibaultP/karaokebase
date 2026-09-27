@@ -1,0 +1,71 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 197,
+      "filename": "3824c337-4e5e-4f0d-8ba1-9b7c3a49b721.mp4",
+      "filesize": 126151522,
+      "loudnorm": "-5.86,1.59,1.50,-15.98,-0.57",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "3824c337-4e5e-4f0d-8ba1-9b7c3a49b721.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-26T12:16:00.934Z",
+    "ignoreHooks": false,
+    "kid": "3824c337-4e5e-4f0d-8ba1-9b7c3a49b721",
+    "modified_at": "2026-09-26T12:16:00.985Z",
+    "repository": "kara.moe",
+    "songname": "JPN - NEK! - MV - MUTE",
+    "tags": {
+      "authors": [
+        "6d171c11-48ea-4f30-8d43-0b71d6002593"
+      ],
+      "collections": [
+        "dbcf2c22-524d-4708-99bb-601703633927"
+      ],
+      "families": [
+        "5391f9fe-638c-415f-8dc9-958e3a2c5787"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "singers": [
+        "3eb43240-5f6d-44c8-a8ed-1f4140c1db85"
+      ],
+      "singergroups": [
+        "21ca915a-b2ef-4ad1-b421-8d37d682a3ee"
+      ],
+      "songtypes": [
+        "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
+      ],
+      "songwriters": [
+        "21ca915a-b2ef-4ad1-b421-8d37d682a3ee",
+        "6a7b56c5-2524-4b06-a06a-84d387d1b546",
+        "82c43b2b-0033-4501-b4cb-689df74c390a",
+        "6d3b926f-c07b-409b-8b26-2188dc5aaf4b"
+      ],
+      "warnings": [
+        "51288600-29e0-4e41-a42b-77f0498e5691"
+      ]
+    },
+    "titles": {
+      "eng": "MUTE"
+    },
+    "titles_default_language": "eng",
+    "year": 2026
+  }
+}

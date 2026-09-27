@@ -1,0 +1,26 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Gekijouban"
+    ],
+    "external_database_ids": {
+      "anilist": 198654,
+      "kitsu": 51000,
+      "myanimelist": 63903
+    },
+    "i18n": {
+      "jpn": "名探偵プリキュア！不思議な庭と2人の秘密",
+      "qro": "Gekijôban Meitantei Precure! Fushigi na Niwa to Futari no Himitsu"
+    },
+    "name": "Gekijôban Meitantei Precure! Fushigi na Niwa to Futari no Himitsu",
+    "repository": "kara.moe",
+    "tid": "25418305-bb34-459c-a42a-5f70faecb39b",
+    "types": [
+      1
+    ]
+  }
+}

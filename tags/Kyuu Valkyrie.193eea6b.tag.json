@@ -5,14 +5,15 @@
   },
   "tag": {
     "aliases": [
-      "Council"
+      "Kyuu"
     ],
     "i18n": {
-      "eng": "Hololive English -Promise-"
+      "qro": "Kyû Valkyrie",
+      "jpn": "旧Valkyrie"
     },
-    "name": "Hololive English -Promise-",
+    "name": "Kyû Valkyrie",
     "repository": "kara.moe",
-    "tid": "751a9b51-336d-47c4-acab-5a7eab6a8a8f",
+    "tid": "193eea6b-a671-46d9-81b6-0109640d2448",
     "types": [
       17
     ]

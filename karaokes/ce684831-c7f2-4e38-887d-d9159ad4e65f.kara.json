@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:06.000Z",
+    "ignoreHooks": false,
     "kid": "ce684831-c7f2-4e38-887d-d9159ad4e65f",
-    "modified_at": "2021-08-15T18:29:16.747Z",
+    "modified_at": "2026-09-27T00:00:35.629Z",
     "repository": "kara.moe",
-    "songname": "JPN - Shining Force NEO - PS2 GAME OP - Zetsubou To Kibou",
+    "songname": "JPN - Shining Force NEO - GAME PS2 OP - Zetsubou To Kibou",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -36,11 +37,17 @@
       "creators": [
         "765c35a9-94d9-4610-9a76-4acbf005a67d"
       ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ],
       "platforms": [
         "2173004e-21da-45c9-9dfb-26014423c566"
@@ -59,14 +66,11 @@
       ],
       "franchises": [
         "dcf75dd7-acdf-4de3-a10b-334493f8f6de"
-      ],
-      "origins": [
-        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ]
     },
     "titles": {
-      "qro": "Zetsubou To Kibou",
-      "jpn": "絶望と希望"
+      "jpn": "絶望と希望",
+      "qro": "Zetsubou To Kibou"
     },
     "titles_default_language": "qro",
     "year": 2005

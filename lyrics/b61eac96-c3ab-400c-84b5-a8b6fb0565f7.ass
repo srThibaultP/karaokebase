@@ -5,7 +5,10 @@ WrapStyle: 0
 PlayResX: 0
 PlayResY: 0
 ScaledBorderAndShadow: yes
-Original Timing: Karaoke Mugen
+Original Timing: IvannAkiyama
+YCbCr Matrix: TV.601
+LayoutResX: 0
+LayoutResY: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -21,7 +24,7 @@ Comment: 0,0:00:05.23,0:00:08.88,Sample KM [Up],,0,0,0,karaoke,{\k24}Where {\k21
 Comment: 0,0:00:09.29,0:00:12.15,Sample KM [Up],,0,0,0,karaoke,{\k45}How {\k48}come {\k43}I {\k22}mu{\k26}st {\k102}know
 Comment: 0,0:00:12.45,0:00:15.86,Sample KM [Up],,0,0,0,karaoke,{\k22}The {\k24}di{\k41}rec{\k48}tion {\k45}of {\k45}re{\k44}liev{\k72}ing?
 Comment: 0,0:00:17.41,0:00:20.57,Sample KM [Up],,0,0,0,karaoke,{\k44}Deep {\k28}in {\k30}the {\kf214}night
-Comment: 0,0:00:19.31,0:00:21.89,Sample KM [Choir],,0,0,0,karaoke,{\k34}Far {\k35}off {\k22}the {\kf167}light
+Comment: 0,0:00:19.21,0:00:21.89,Sample KM [Choir],,0,0,0,karaoke,{\k44}Far {\k35}off {\k22}the {\kf167}light
 Comment: 0,0:00:21.01,0:00:24.20,Sample KM [Up],,0,0,0,karaoke,{\k36}Miss{\k32}ing {\k27}my {\k51}head{\kf173}ache
 Comment: 0,0:00:22.81,0:00:26.02,Sample KM [Choir],,0,0,0,karaoke,{\k34}Miss{\k35}ing {\k21}my {\k46}head{\kf185}ache
 Comment: 0,0:00:24.61,0:00:27.63,Sample KM [Up],,0,0,0,karaoke,{\k40}Vi{\k38}sions {\k27}of {\kf197}light
@@ -52,7 +55,7 @@ Dialogue: 0,0:00:04.33,0:00:09.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\
 Dialogue: 0,0:00:08.39,0:00:12.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}How {\k48}come {\k43}I {\k22}mu{\k26}st {\k102}know
 Dialogue: 0,0:00:11.55,0:00:16.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}The {\k24}di{\k41}rec{\k48}tion {\k45}of {\k45}re{\k44}liev{\k72}ing?
 Dialogue: 0,0:00:16.51,0:00:20.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Deep {\k28}in {\k30}the {\kf214}night
-Dialogue: 0,0:00:18.41,0:00:22.09,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Far {\k35}off {\k22}the {\kf167}light
+Dialogue: 0,0:00:18.31,0:00:22.09,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Far {\k35}off {\k22}the {\kf167}light
 Dialogue: 0,0:00:20.11,0:00:24.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Miss{\k32}ing {\k27}my {\k51}head{\kf173}ache
 Dialogue: 0,0:00:21.91,0:00:26.22,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Miss{\k35}ing {\k21}my {\k46}head{\kf185}ache
 Dialogue: 0,0:00:23.71,0:00:27.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Vi{\k38}sions {\k27}of {\kf197}light

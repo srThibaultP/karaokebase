@@ -1,0 +1,23 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "external_database_ids": {
+      "anilist": 209562,
+      "kitsu": 50711,
+      "myanimelist": 63764
+    },
+    "i18n": {
+      "qro": "Vertex Force",
+      "jpn": "バーテックスフォース"
+    },
+    "name": "Vertex Force",
+    "repository": "kara.moe",
+    "tid": "f9c92dd8-0044-4ae3-8f31-24d69835ccc0",
+    "types": [
+      1
+    ]
+  }
+}

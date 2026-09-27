@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:03:09.000Z",
+    "ignoreHooks": false,
     "kid": "a92b962b-1e92-4a7c-a6cc-99bb68562ee4",
-    "modified_at": "2021-02-25T13:05:21.384Z",
+    "modified_at": "2026-09-27T00:04:11.656Z",
     "repository": "kara.moe",
     "songname": "JPN - Shinryaku! Ika Musume - ED - Metamerism",
     "tags": {

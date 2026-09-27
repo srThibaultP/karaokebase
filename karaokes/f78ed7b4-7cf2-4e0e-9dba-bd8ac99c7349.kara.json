@@ -8,8 +8,8 @@
       "default": true,
       "duration": 95,
       "filename": "f78ed7b4-7cf2-4e0e-9dba-bd8ac99c7349.mp4",
-      "filesize": 43285546,
-      "loudnorm": "-19.57,-7.31,1.80,-29.82,-0.15",
+      "filesize": 40661275,
+      "loudnorm": "-19.57,-7.20,1.70,-29.80,-0.14",
       "lyrics": [
         {
           "default": true,
@@ -24,15 +24,15 @@
     "created_at": "2017-10-11T17:03:00.000Z",
     "ignoreHooks": false,
     "kid": "f78ed7b4-7cf2-4e0e-9dba-bd8ac99c7349",
-    "modified_at": "2026-09-20T23:53:54.436Z",
+    "modified_at": "2026-09-21T09:07:13.634Z",
     "parents": [
       "b61eac96-c3ab-400c-84b5-a8b6fb0565f7"
     ],
     "repository": "kara.moe",
-    "songname": "ENG - .hack//GIFT - OVA OP - Obsession",
+    "songname": "ENG - .hack//Gift - OVA OP - Obsession",
     "tags": {
       "authors": [
-        "5bdaba57-27f8-4568-8806-76a807728766"
+        "6d171c11-48ea-4f30-8d43-0b71d6002593"
       ],
       "collections": [
         "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
@@ -66,9 +66,6 @@
       ],
       "songwriters": [
         "1f324dc7-f858-415b-bbc1-41fcce3d6ac7"
-      ],
-      "warnings": [
-        "e82ce681-6d7b-4fb6-abe4-daa8aaa9bbf9"
       ],
       "franchises": [
         "62bc5729-026d-408d-b6f5-534df49f73da"

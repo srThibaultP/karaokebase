@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:20.000Z",
+    "ignoreHooks": false,
     "kid": "33ffb9b1-71c0-46b8-ad49-59c153b284df",
-    "modified_at": "2021-02-25T13:04:44.837Z",
+    "modified_at": "2026-09-27T00:00:06.962Z",
     "repository": "kara.moe",
     "songname": "JPN - Shining Force Cross - GAME OP - Juujika no Spread",
     "tags": {
@@ -36,11 +37,17 @@
       "creators": [
         "b8a3778d-0864-4135-9053-1def02d3262e"
       ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ],
       "series": [
         "eff6fa5e-53d6-46bb-840a-0991aab91353"
@@ -56,14 +63,11 @@
       ],
       "franchises": [
         "dcf75dd7-acdf-4de3-a10b-334493f8f6de"
-      ],
-      "origins": [
-        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ]
     },
     "titles": {
-      "qro": "Juujika no Spread",
-      "jpn": "十字架のスプレッド"
+      "jpn": "十字架のスプレッド",
+      "qro": "Juujika no Spread"
     },
     "titles_default_language": "qro",
     "year": 2009

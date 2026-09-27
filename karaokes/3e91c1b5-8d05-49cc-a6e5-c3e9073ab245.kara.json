@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:00:58.000Z",
+    "ignoreHooks": false,
     "kid": "3e91c1b5-8d05-49cc-a6e5-c3e9073ab245",
-    "modified_at": "2021-02-25T12:54:17.493Z",
+    "modified_at": "2026-09-26T23:07:15.389Z",
     "repository": "kara.moe",
     "songname": "JPN - Sacred Seven - ED1 - Kiseki",
     "songorder": 1,
@@ -64,8 +65,8 @@
       ]
     },
     "titles": {
-      "qro": "Kiseki",
-      "jpn": "輝跡-kiseki-"
+      "jpn": "輝跡-kiseki-",
+      "qro": "Kiseki"
     },
     "titles_default_language": "qro",
     "year": 2011

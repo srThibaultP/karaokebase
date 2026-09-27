@@ -1,0 +1,164 @@
+﻿[Script Info]
+Title: FIRST PRISM
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Duo,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Chihaya,Arial,24,&H00FFFFFF,&H00B469FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Yuuka,Arial,24,&H00FFFFFF,&H00E87CB5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Choir,Arial,24,&H007D7DDC,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Legend,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,Legend,,0,0,40,karaoke,{\k1000} Duo {\2cFFFFFF}| {\rChoir}Choir\N {\rChihaya}Chihaya Yoshitake {\2cFFFFFF}| {\rYuuka}Yuuka Masui
+Comment: 0,0:00:04.28,0:00:11.07,Duo,,0,0,0,karaoke,{\kf94}Sha{\k63}{\k35}la{\kf103}la{\k51} {\rChihaya}{\k37}ta{\k130}i{\k35}se{\k37}tsu {\kf94}na
+Comment: 0,0:00:11.50,0:00:20.04,Duo,,0,0,0,karaoke,{\kf97}Sha{\k54}{\k40}la{\kf96}la{\k48} {\rYuuka}{\k39}ko{\kf94}no{\k59} {\k28}i{\k36}p{\kf263}po...
+Comment: 0,0:00:20.64,0:00:25.93,Chihaya,,0,0,0,karaoke,{\k25}a{\k29}shi {\k30}mo{\k29}to {\k24}ni {\k32}sa{\k57}i{\k55}ta {\k28}ha{\k29}na {\kf191}ni
+Comment: 0,0:00:26.89,0:00:28.36,Chihaya,,0,0,0,karaoke,{\k29}ki{\k28}zu{\k31}ku {\k28}no {\k31}ga
+Comment: 0,0:00:28.59,0:00:33.73,Chihaya,,0,0,0,karaoke,{\k27}sa{\k32}sa{\k31}ya{\k26}ka {\k59}na {\k29}ki{\k30}bo{\kf101}u{\k12} {\k27}na{\k31}ra{\kf109}ba
+Comment: 0,0:00:34.03,0:00:36.88,Yuuka,,0,0,0,karaoke,{\k31}fu{\k31}a{\k27}n {\k28}de {\k29}i{\k27}p{\k29}pa{\k59}i {\k24}no
+Comment: 0,0:00:37.20,0:00:40.03,Yuuka,,0,0,0,karaoke,{\k26}fu{\k31}ru{\k29}e{\k27}te{\k59}ru {\k25}a{\k32}shi {\k54}de
+Comment: 0,0:00:40.35,0:00:47.48,Yuuka,,0,0,0,karaoke,{\k28}a{\k26}ru{\k31}ki{\k28}da{\k29}su {\k30}no {\kf120}wa{\k48} {\k30}yu{\kf82}u{\kf261}ki
+Comment: 0,0:00:48.01,0:00:49.75,Chihaya,,0,0,0,karaoke,{\k35}shi{\k26}n{\k28}pa{\k85}i
+Comment: 0,0:00:49.72,0:00:51.25,Yuuka,,0,0,0,karaoke,{\k29}shi{\k30}na{\k24}i{\k70}de
+Comment: 0,0:00:51.38,0:00:53.03,Chihaya,,0,0,0,karaoke,{\k28}da{\k28}i{\k29}jou{\k80}bu
+Comment: 0,0:00:53.05,0:00:54.54,Yuuka,,0,0,0,karaoke,{\k29}da{\k26}me {\k30}ja{\k64}nai
+Comment: 0,0:00:54.72,0:01:02.64,Chihaya,,0,0,0,karaoke,{\k31}ku{\k23}ji{\k28}ke{\k31}so{\k26}u {\k28}na {\k28}to{\k27}ki {\k24}wa {\k30}so{\k28}ba {\k25}ni {\k28}wa{\k23}ta{\k29}shi {\k32}ga {\k23}i{\k23}ru {\kf305}yo
+Comment: 0,0:01:04.62,0:01:05.91,Chihaya,,0,0,0,karaoke,{\k24}a{\k26}su {\k26}te{\k21}ra{\k32}su
+Comment: 0,0:01:06.12,0:01:10.94,Chihaya,,0,0,0,karaoke,{\k25}hi{\k25}ka{\k25}ri {\k25}wa {\k51}ko{\k25}ko{\k51}ro {\k23}ni {\k49}to{\k75}mot{\k28}te{\k80}ru
+Comment: 0,0:01:11.38,0:01:16.58,Chihaya,,0,0,0,karaoke,{\k26}hi{\k47}ru {\k26}no {\k23}ho{\k25}shi {\k27}no {\k26}yo{\k24}u {\k74}ni {\k24}mi{\k52}e{\k24}na{\k53}ku{\k22}te {\k47}mo
+Comment: 0,0:01:16.62,0:01:22.88,Yuuka,,0,0,0,karaoke,{\k23}na{\k27}mi{\k25}da{\k25}t{\k50}te {\k25}tsu{\k24}yo{\k27}sa {\k23}mi{\k51}ga{\k25}i{\k52}ta {\k25}C{\k42}RY{\k77}S{\k31}TA{\k74}L
+Comment: 0,0:01:23.35,0:01:28.38,Yuuka,,0,0,0,karaoke,{\k27}hi{\k51}to{\k23}mi {\k28}ka{\k24}ga{\k24}ya{\k22}ka{\k29}se{\k75}ru {\k24}ni{\k52}ji {\k50}no {\k23}ka{\k26}ke{\k25}ra
+Comment: 0,0:01:28.62,0:01:34.66,Duo,,0,0,0,karaoke,{\k26}A{\k20}N{\k28}S{\k26}WER {\k51}wa {\k25}i{\k26}ta{\k23}mi {\k24}wo {\k50}ko{\k27}e{\k48}te{\k23}ku {\k53}sa{\k26}ki {\k50}ni {\k26}a{\k52}ru
+Comment: 0,0:01:35.11,0:01:37.96,Chihaya,,0,0,0,karaoke,{\k13}wa{\k15}ra{\k12}i{\k12}a{\k98}u {\k17}ha{\k11}zu{\k11}mu {\k12}ko{\k84}dou
+Comment: 0,0:01:35.88,0:01:38.36,Yuuka,,0,0,0,karaoke,{\k13}mi{\k14}ra{\k9}i {\k13}ma{\k101}de {\k12}o{\k11}do{\k12}ra{\k15}se {\k48}te
+Comment: 0,0:01:38.35,0:01:45.38,Duo,,0,0,0,karaoke,{\k28}fu{\k24}mi{\k24}da{\k26}shi{\k26}ta {\k21}i{\k29}p{\k49}po {\k25}P{\kf122}RI{\k27}S{\kf302}M
+Comment: 0,0:01:42.62,0:01:43.87,Choir,,0,0,0,karaoke,{\k24}Ding {\k50}Dong {\k24}Tap {\k27}Tap
+Comment: 0,0:01:44.11,0:01:48.34,Choir,,0,0,0,karaoke,{\k25}ki{\k51}ra{\k25}ki{\k50}ra {\k24}me{\k52}za{\k25}me{\k49}te {\k24}i{\k52}ku {\k24}ta{\k22}bi
+Comment: 0,0:01:48.61,0:01:49.85,Choir,,0,0,0,karaoke,{\k26}Ding {\k50}Dong {\k24}Tap {\k24}Tap
+Comment: 0,0:01:50.11,0:01:54.34,Choir,,0,0,0,karaoke,{\k26}ki{\k49}ra{\k27}ki{\k48}ra {\k26}a{\k51}ta{\k20}ra{\k53}shii {\k26}se{\k51}ka{\k23}i {\k23}he
+Comment: 0,0:01:54.38,0:01:58.90,Chihaya,,0,0,0,karaoke,{\k18}i{\k30}tsu{\k25}de{\k26}mo {\k28}ga{\k21}n{\k51}ba{\k42}ru {\k33}se{\k25}na{\kf153}ka
+Comment: 0,0:01:59.87,0:02:02.65,Chihaya,,0,0,0,karaoke,{\k25}mi{\k26}te{\k25}ta {\k24}ka{\k47}ra {\k28}so{\k24}no {\k28}tsu{\k21}ra{\k30}sa
+Comment: 0,0:02:02.89,0:02:05.63,Chihaya,,0,0,0,karaoke,{\k23}wa{\k25}ka{\kf90}run{\k11} {\k24}da {\k26}yo {\k75}ne
+Comment: 0,0:02:06.38,0:02:08.63,Chihaya,,0,0,0,karaoke,{\k24}mu{\k29}ri {\k21}ni {\k26}wa{\k24}ra{\k25}wa{\k23}na{\k26}i{\k27}de
+Comment: 0,0:02:08.89,0:02:11.21,Chihaya,,0,0,0,karaoke,{\k22}na{\k26}i{\k22}ta{\k28}t{\k51}te {\k25}i{\k26}i {\k32}yo
+Comment: 0,0:02:11.62,0:02:17.85,Chihaya,,0,0,0,karaoke,{\k23}u{\k28}ke{\k24}to{\k25}me{\k25}ru {\k25}ka{\kf103}ra{\k45} {\k28}ze{\kf74}n{\kf223}bu
+Comment: 0,0:02:18.37,0:02:19.86,Yuuka,,0,0,0,karaoke,{\k30}mi{\k20}n{\k25}na {\k74}ga
+Comment: 0,0:02:19.87,0:02:21.37,Chihaya,,0,0,0,karaoke,{\k25}ma{\k24}bu{\k26}shi{\k75}ku
+Comment: 0,0:02:21.42,0:02:22.80,Yuuka,,0,0,0,karaoke,{\k21}mi{\k23}e{\k26}ru {\k68}hi
+Comment: 0,0:02:22.86,0:02:24.17,Chihaya,,0,0,0,karaoke,{\k28}a{\k24}ru {\k24}yo {\k55}ne
+Comment: 0,0:02:24.35,0:02:31.94,Yuuka,,0,0,0,karaoke,{\k23}shi{\k28}p{\k25}pa{\k24}i {\k27}sa{\k26}e {\k25}yu{\k24}me {\k25}no {\k25}to{\k25}bi{\k22}ra {\k28}hi{\k24}ra{\k25}ku {\k29}LE{\k21}S{\k26}SO{\kf307}N
+Comment: 0,0:02:35.62,0:02:37.77,Chihaya,,0,0,0,karaoke,{\k74}ta{\k25}bun {\k28}se{\k19}i{\k28}ka{\k21}i {\k20}wa
+Comment: 0,0:02:37.85,0:02:42.53,Chihaya,,0,0,0,karaoke,{\k73}so{\k27}re{\k16}zo{\k23}re {\k11}ni {\k27}chi{\k26}ga{\k24}t{\k50}te{\k25}ru {\k24}na{\k27}na{\k25}ka{\k90}i
+Comment: 0,0:02:42.86,0:02:46.45,Chihaya,,0,0,0,karaoke,{\k26}ko{\k26}ro{\k24}n{\k26}de{\k97}mo {\k27}tsu{\k25}gi {\kf108}ni
+Comment: 0,0:02:46.63,0:02:49.44,Yuuka,,0,0,0,karaoke,{\k23}mi{\k25}tsu{\k26}ke{\k25}ta {\k24}te{\k26}ga{\k25}ka{\k24}ri {\k15}de {\k36}PIN {\k32}to
+Comment: 0,0:02:49.62,0:02:52.55,Yuuka,,0,0,0,karaoke,{\k26}ko{\k24}ta{\k24}e {\k24}ga {\k27}wa{\k25}ka{\k25}ru {\k23}to{\k14}ki {\k24}mo {\k13}a{\k44}ru
+Comment: 0,0:02:52.38,0:02:55.19,Chihaya,,0,0,0,karaoke,{\k11}i{\k12}to{\k9}shi{\k17}sa {\kf75}ga{\k23} {\k14}a{\k11}ki{\k14}ra{\k13}me{\kf82}nai
+Comment: 0,0:02:53.09,0:02:55.58,Yuuka,,0,0,0,karaoke,{\k14}ka{\k15}gi {\k12}ni {\k14}na{\k98}ru {\k11}a{\k14}shi{\k10}a{\k15}to {\k46}de
+Comment: 0,0:02:55.59,0:03:01.90,Duo,,0,0,0,karaoke,{\k29}so{\k45}no {\k30}i{\k48}p{\k26}po {\k67}ga{\k33} {\k23}e{\k27}ga{\kf87}ku{\k13} {\k23}ki{\k24}se{\kf156}ki
+Comment: 0,0:03:03.86,0:03:05.24,Duo,,0,0,0,karaoke,{\k27}a{\k20}me{\k28}a{\k24}ga{\k39}ri
+Comment: 0,0:03:05.31,0:03:10.20,Duo,,0,0,0,karaoke,{\k28}mi{\k28}zu{\k25}ta{\k25}ma{\k50}ri {\k24}u{\k51}tsu{\k24}ru {\k51}a{\k25}o{\k47}i {\k27}so{\kf84}ra
+Comment: 0,0:03:10.60,0:03:15.69,Duo,,0,0,0,karaoke,{\k26}ki{\k51}gi {\k24}mo {\k24}shi{\k27}zu{\k26}ku {\k24}ma{\k23}to{\k74}i {\k28}ki{\k49}ra{\k53}me{\k22}i{\k26}te{\k32}ru
+Comment: 0,0:03:15.89,0:03:22.12,Duo,,0,0,0,karaoke,{\k21}i{\k24}s{\k28}sho {\k24}na{\k52}ra {\k24}to{\k24}o{\k24}ma{\k27}wa{\k49}ri {\k25}shi{\k50}te {\k26}mo {\k51}ta{\k23}no{\k50}shii {\k26}ka{\k75}ra
+Comment: 0,0:03:22.35,0:03:25.23,Chihaya,,0,0,0,karaoke,{\k14}wa{\k14}ra{\k11}i{\k15}a{\k94}u {\k14}ha{\k15}zu{\k14}mu {\k12}ko{\kf85}dou
+Comment: 0,0:03:23.13,0:03:25.66,Yuuka,,0,0,0,karaoke,{\k12}mi{\k13}ra{\k11}i {\k14}ma{\k97}de {\k11}o{\k11}do{\k14}ra{\k17}se{\k53}te
+Comment: 0,0:03:25.68,0:03:27.64,Duo,,0,0,0,karaoke,{\k20}fu{\k24}mi{\k24}da{\k26}shi{\k26}ta {\k21}i{\k28}p{\k27}po
+Comment: 0,0:03:27.87,0:03:32.64,Duo,,0,0,0,karaoke,{\k25}P{\kf123}RI{\k27}S{\kf302}M
+Comment: 0,0:03:29.88,0:03:31.08,Choir,,0,0,0,karaoke,{\k24}Ding {\k50}Dong {\k24}Tap {\k27}Tap
+Comment: 0,0:03:31.35,0:03:35.57,Choir,,0,0,0,karaoke,{\k25}ki{\k51}ra{\k25}ki{\k50}ra {\k24}me{\k52}za{\k25}me{\k49}te {\k24}i{\k52}ku {\k24}ta{\k22}bi
+Comment: 0,0:03:35.88,0:03:37.10,Choir,,0,0,0,karaoke,{\k26}Ding {\k50}Dong {\k24}Tap {\k24}Tap
+Comment: 0,0:03:37.37,0:03:41.53,Choir,,0,0,0,karaoke,{\k26}ki{\k49}ra{\k27}ki{\k48}ra {\k26}a{\k51}ta{\k20}ra{\k53}shii {\k26}se{\k51}ka{\k23}i {\k16}he
+Comment: 0,0:03:41.87,0:03:43.10,Choir,,0,0,0,karaoke,{\k24}Ding {\k50}Dong {\k25}Tap {\k24}Tap
+Comment: 0,0:03:43.36,0:03:47.58,Choir,,0,0,0,karaoke,{\k26}ki{\k50}ra{\k24}ki{\k51}ra {\k25}a{\k46}no {\k29}hi {\k52}to {\k24}o{\k47}n{\k25}na{\k23}ji
+Comment: 0,0:03:47.88,0:03:49.08,Choir,,0,0,0,karaoke,{\k24}Ding {\k50}Dong {\k24}Tap {\k22}Tap
+Comment: 0,0:03:49.38,0:03:53.62,Choir,,0,0,0,karaoke,{\k24}ki{\k50}ra{\k26}ki{\k50}ra {\k19}a{\k55}fu{\k24}re{\k51}ru {\k25}ho{\k50}ho{\k25}e{\k25}mi
+Comment: 0,0:03:53.87,0:03:55.10,Choir,,0,0,0,karaoke,{\k24}Ding {\k50}Dong {\k24}Tap {\k27}Tap
+Comment: 0,0:03:55.36,0:03:59.56,Choir,,0,0,0,karaoke,{\k29}ki{\k45}ra{\k27}ki{\k52}ra {\k24}i{\k49}p{\k25}po {\k50}no {\k25}yu{\k49}u{\k26}ki {\k19}ga
+Comment: 0,0:03:59.88,0:04:01.07,Choir,,0,0,0,karaoke,{\k25}Ding {\k47}Dong {\k27}Tap {\k20}Tap
+Comment: 0,0:04:01.36,0:04:05.55,Choir,,0,0,0,karaoke,{\k24}ki{\k54}ra{\k23}ki{\k49}ra {\k25}ko{\k51}ta{\k22}e {\k50}ni {\k29}tsu{\k50}na{\k23}ga{\k19}ru
+Comment: 0,0:03:41.59,0:03:47.22,Duo,,0,0,0,karaoke,{\kf124}kyou{\k4} {\k24}ma{\kf114}de{\k12} {\k24}no {\kf126}hi{\k26}bi {\kf109}ga
+Comment: 0,0:03:47.62,0:03:53.56,Duo,,0,0,0,karaoke,{\k124}mu{\k27}ne {\kf73}no{\k25} {\k23}chi{\k28}zu {\kf121}ni{\k3} {\k28}na{\kf142}ru
+Comment: 0,0:03:53.62,0:03:59.20,Duo,,0,0,0,karaoke,{\kf124}do{\k27}n{\kf114}na{\k10} {\k22}to{\kf123}ki{\k5} {\k26}de{\kf107}mo
+Comment: 0,0:03:59.63,0:04:04.97,Duo,,0,0,0,karaoke,{\kf124}da{\k26}re {\kf92}mo{\k9} {\k23}hi{\k25}to{\kf116}ri{\k4} {\k30}ja{\kf85}nai
+Comment: 0,0:04:05.36,0:04:09.65,Duo,,0,0,0,karaoke,{\k26}ka{\k27}ga{\k25}ya{\k22}ki {\k26}wo {\k25}me{\k25}ji{\k56}ru{\k27}shi {\kf170}ni
+Comment: 0,0:04:10.90,0:04:19.95,Duo,,0,0,0,karaoke,{\k30}a{\kf170}ru{\kf171}ko{\kf534}u!
+Dialogue: 0,0:00:00.00,0:00:10.20,Legend,,0,0,40,fx,{\k0\fad(0,200)}{\k1000} Duo {\2cFFFFFF}| {\rChoir}Choir\N {\rChihaya}Chihaya Yoshitake {\2cFFFFFF}| {\rYuuka}Yuuka Masui
+Dialogue: 0,0:00:03.38,0:00:11.27,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\kf94}Sha{\k63}{\k35}la{\kf103}la{\k51} {\rChihaya}{\k37}ta{\k130}i{\k35}se{\k37}tsu {\kf94}na
+Dialogue: 0,0:00:10.60,0:00:20.24,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\kf97}Sha{\k54}{\k40}la{\kf96}la{\k48} {\rYuuka}{\k39}ko{\kf94}no{\k59} {\k28}i{\k36}p{\kf263}po...
+Dialogue: 0,0:00:19.74,0:00:26.13,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k25}a{\k29}shi {\k30}mo{\k29}to {\k24}ni {\k32}sa{\k57}i{\k55}ta {\k28}ha{\k29}na {\kf191}ni
+Dialogue: 0,0:00:25.99,0:00:28.56,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ki{\k28}zu{\k31}ku {\k28}no {\k31}ga
+Dialogue: 0,0:00:27.69,0:00:33.93,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k27}sa{\k32}sa{\k31}ya{\k26}ka {\k59}na {\k29}ki{\k30}bo{\kf101}u{\k12} {\k27}na{\k31}ra{\kf109}ba
+Dialogue: 0,0:00:33.13,0:00:37.08,Yuuka,,0,0,0,fx,{\k90\fad(300,200)}{\k31}fu{\k31}a{\k27}n {\k28}de {\k29}i{\k27}p{\k29}pa{\k59}i {\k24}no
+Dialogue: 0,0:00:36.30,0:00:40.23,Yuuka,,0,0,0,fx,{\k90\fad(300,200)}{\k26}fu{\k31}ru{\k29}e{\k27}te{\k59}ru {\k25}a{\k32}shi {\k54}de
+Dialogue: 0,0:00:39.45,0:00:47.68,Yuuka,,0,0,0,fx,{\k90\fad(300,200)}{\k28}a{\k26}ru{\k31}ki{\k28}da{\k29}su {\k30}no {\kf120}wa{\k48} {\k30}yu{\kf82}u{\kf261}ki
+Dialogue: 0,0:00:47.11,0:00:49.95,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k35}shi{\k26}n{\k28}pa{\k85}i
+Dialogue: 0,0:00:48.82,0:00:51.45,Yuuka,,0,0,0,fx,{\k90\fad(300,200)}{\k29}shi{\k30}na{\k24}i{\k70}de
+Dialogue: 0,0:00:50.48,0:00:53.23,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k28}da{\k28}i{\k29}jou{\k80}bu
+Dialogue: 0,0:00:52.15,0:00:54.74,Yuuka,,0,0,0,fx,{\k90\fad(300,200)}{\k29}da{\k26}me {\k30}ja{\k64}nai
+Dialogue: 0,0:00:53.82,0:01:02.84,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ku{\k23}ji{\k28}ke{\k31}so{\k26}u {\k28}na {\k28}to{\k27}ki {\k24}wa {\k30}so{\k28}ba {\k25}ni {\k28}wa{\k23}ta{\k29}shi {\k32}ga {\k23}i{\k23}ru {\kf305}yo
+Dialogue: 0,0:01:03.72,0:01:06.11,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k24}a{\k26}su {\k26}te{\k21}ra{\k32}su
+Dialogue: 0,0:01:05.22,0:01:11.14,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k25}hi{\k25}ka{\k25}ri {\k25}wa {\k51}ko{\k25}ko{\k51}ro {\k23}ni {\k49}to{\k75}mot{\k28}te{\k80}ru
+Dialogue: 0,0:01:10.48,0:01:16.78,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k26}hi{\k47}ru {\k26}no {\k23}ho{\k25}shi {\k27}no {\k26}yo{\k24}u {\k74}ni {\k24}mi{\k52}e{\k24}na{\k53}ku{\k22}te {\k47}mo
+Dialogue: 0,0:01:15.72,0:01:23.08,Yuuka,,0,0,0,fx,{\k90\fad(300,200)}{\k23}na{\k27}mi{\k25}da{\k25}t{\k50}te {\k25}tsu{\k24}yo{\k27}sa {\k23}mi{\k51}ga{\k25}i{\k52}ta {\k25}C{\k42}RY{\k77}S{\k31}TA{\k74}L
+Dialogue: 0,0:01:22.45,0:01:28.58,Yuuka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}hi{\k51}to{\k23}mi {\k28}ka{\k24}ga{\k24}ya{\k22}ka{\k29}se{\k75}ru {\k24}ni{\k52}ji {\k50}no {\k23}ka{\k26}ke{\k25}ra
+Dialogue: 0,0:01:27.72,0:01:34.86,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k26}A{\k20}N{\k28}S{\k26}WER {\k51}wa {\k25}i{\k26}ta{\k23}mi {\k24}wo {\k50}ko{\k27}e{\k48}te{\k23}ku {\k53}sa{\k26}ki {\k50}ni {\k26}a{\k52}ru
+Dialogue: 0,0:01:34.21,0:01:38.16,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k13}wa{\k15}ra{\k12}i{\k12}a{\k98}u {\k17}ha{\k11}zu{\k11}mu {\k12}ko{\k84}dou
+Dialogue: 0,0:01:34.98,0:01:38.56,Yuuka,,0,0,0,fx,{\k90\fad(300,200)}{\k13}mi{\k14}ra{\k9}i {\k13}ma{\k101}de {\k12}o{\k11}do{\k12}ra{\k15}se {\k48}te
+Dialogue: 0,0:01:37.45,0:01:45.58,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k28}fu{\k24}mi{\k24}da{\k26}shi{\k26}ta {\k21}i{\k29}p{\k49}po {\k25}P{\kf122}RI{\k27}S{\kf302}M
+Dialogue: 0,0:01:41.72,0:01:44.07,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ding {\k50}Dong {\k24}Tap {\k27}Tap
+Dialogue: 0,0:01:43.21,0:01:48.54,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ki{\k51}ra{\k25}ki{\k50}ra {\k24}me{\k52}za{\k25}me{\k49}te {\k24}i{\k52}ku {\k24}ta{\k22}bi
+Dialogue: 0,0:01:47.71,0:01:50.05,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ding {\k50}Dong {\k24}Tap {\k24}Tap
+Dialogue: 0,0:01:49.21,0:01:54.54,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ki{\k49}ra{\k27}ki{\k48}ra {\k26}a{\k51}ta{\k20}ra{\k53}shii {\k26}se{\k51}ka{\k23}i {\k23}he
+Dialogue: 0,0:01:53.48,0:01:59.10,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k18}i{\k30}tsu{\k25}de{\k26}mo {\k28}ga{\k21}n{\k51}ba{\k42}ru {\k33}se{\k25}na{\kf153}ka
+Dialogue: 0,0:01:58.97,0:02:02.85,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k25}mi{\k26}te{\k25}ta {\k24}ka{\k47}ra {\k28}so{\k24}no {\k28}tsu{\k21}ra{\k30}sa
+Dialogue: 0,0:02:01.99,0:02:05.83,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k23}wa{\k25}ka{\kf90}run{\k11} {\k24}da {\k26}yo {\k75}ne
+Dialogue: 0,0:02:05.48,0:02:08.83,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k24}mu{\k29}ri {\k21}ni {\k26}wa{\k24}ra{\k25}wa{\k23}na{\k26}i{\k27}de
+Dialogue: 0,0:02:07.99,0:02:11.41,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k22}na{\k26}i{\k22}ta{\k28}t{\k51}te {\k25}i{\k26}i {\k32}yo
+Dialogue: 0,0:02:10.72,0:02:18.05,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k23}u{\k28}ke{\k24}to{\k25}me{\k25}ru {\k25}ka{\kf103}ra{\k45} {\k28}ze{\kf74}n{\kf223}bu
+Dialogue: 0,0:02:17.47,0:02:20.06,Yuuka,,0,0,0,fx,{\k90\fad(300,200)}{\k30}mi{\k20}n{\k25}na {\k74}ga
+Dialogue: 0,0:02:18.97,0:02:21.57,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ma{\k24}bu{\k26}shi{\k75}ku
+Dialogue: 0,0:02:20.52,0:02:23.00,Yuuka,,0,0,0,fx,{\k90\fad(300,200)}{\k21}mi{\k23}e{\k26}ru {\k68}hi
+Dialogue: 0,0:02:21.96,0:02:24.37,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k28}a{\k24}ru {\k24}yo {\k55}ne
+Dialogue: 0,0:02:23.45,0:02:32.14,Yuuka,,0,0,0,fx,{\k90\fad(300,200)}{\k23}shi{\k28}p{\k25}pa{\k24}i {\k27}sa{\k26}e {\k25}yu{\k24}me {\k25}no {\k25}to{\k25}bi{\k22}ra {\k28}hi{\k24}ra{\k25}ku {\k29}LE{\k21}S{\k26}SO{\kf307}N
+Dialogue: 0,0:02:34.72,0:02:37.97,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k74}ta{\k25}bun {\k28}se{\k19}i{\k28}ka{\k21}i {\k20}wa
+Dialogue: 0,0:02:36.95,0:02:42.73,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k73}so{\k27}re{\k16}zo{\k23}re {\k11}ni {\k27}chi{\k26}ga{\k24}t{\k50}te{\k25}ru {\k24}na{\k27}na{\k25}ka{\k90}i
+Dialogue: 0,0:02:41.96,0:02:46.65,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ko{\k26}ro{\k24}n{\k26}de{\k97}mo {\k27}tsu{\k25}gi {\kf108}ni
+Dialogue: 0,0:02:45.73,0:02:49.64,Yuuka,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mi{\k25}tsu{\k26}ke{\k25}ta {\k24}te{\k26}ga{\k25}ka{\k24}ri {\k15}de {\k36}PIN {\k32}to
+Dialogue: 0,0:02:48.72,0:02:52.75,Yuuka,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ko{\k24}ta{\k24}e {\k24}ga {\k27}wa{\k25}ka{\k25}ru {\k23}to{\k14}ki {\k24}mo {\k13}a{\k44}ru
+Dialogue: 0,0:02:51.48,0:02:55.39,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k11}i{\k12}to{\k9}shi{\k17}sa {\kf75}ga{\k23} {\k14}a{\k11}ki{\k14}ra{\k13}me{\kf82}nai
+Dialogue: 0,0:02:52.19,0:02:55.78,Yuuka,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ka{\k15}gi {\k12}ni {\k14}na{\k98}ru {\k11}a{\k14}shi{\k10}a{\k15}to {\k46}de
+Dialogue: 0,0:02:54.69,0:03:02.10,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k29}so{\k45}no {\k30}i{\k48}p{\k26}po {\k67}ga{\k33} {\k23}e{\k27}ga{\kf87}ku{\k13} {\k23}ki{\k24}se{\kf156}ki
+Dialogue: 0,0:03:02.96,0:03:05.44,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k27}a{\k20}me{\k28}a{\k24}ga{\k39}ri
+Dialogue: 0,0:03:04.41,0:03:10.40,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k28}mi{\k28}zu{\k25}ta{\k25}ma{\k50}ri {\k24}u{\k51}tsu{\k24}ru {\k51}a{\k25}o{\k47}i {\k27}so{\kf84}ra
+Dialogue: 0,0:03:09.70,0:03:15.89,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ki{\k51}gi {\k24}mo {\k24}shi{\k27}zu{\k26}ku {\k24}ma{\k23}to{\k74}i {\k28}ki{\k49}ra{\k53}me{\k22}i{\k26}te{\k32}ru
+Dialogue: 0,0:03:14.99,0:03:22.32,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k21}i{\k24}s{\k28}sho {\k24}na{\k52}ra {\k24}to{\k24}o{\k24}ma{\k27}wa{\k49}ri {\k25}shi{\k50}te {\k26}mo {\k51}ta{\k23}no{\k50}shii {\k26}ka{\k75}ra
+Dialogue: 0,0:03:21.45,0:03:25.43,Chihaya,,0,0,0,fx,{\k90\fad(300,200)}{\k14}wa{\k14}ra{\k11}i{\k15}a{\k94}u {\k14}ha{\k15}zu{\k14}mu {\k12}ko{\kf85}dou
+Dialogue: 0,0:03:22.23,0:03:25.86,Yuuka,,0,0,0,fx,{\k90\fad(300,200)}{\k12}mi{\k13}ra{\k11}i {\k14}ma{\k97}de {\k11}o{\k11}do{\k14}ra{\k17}se{\k53}te
+Dialogue: 0,0:03:24.78,0:03:27.84,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k20}fu{\k24}mi{\k24}da{\k26}shi{\k26}ta {\k21}i{\k28}p{\k27}po
+Dialogue: 0,0:03:26.97,0:03:32.84,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k25}P{\kf123}RI{\k27}S{\kf302}M
+Dialogue: 0,0:03:28.98,0:03:31.28,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ding {\k50}Dong {\k24}Tap {\k27}Tap
+Dialogue: 0,0:03:30.45,0:03:35.77,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ki{\k51}ra{\k25}ki{\k50}ra {\k24}me{\k52}za{\k25}me{\k49}te {\k24}i{\k52}ku {\k24}ta{\k22}bi
+Dialogue: 0,0:03:34.98,0:03:37.30,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ding {\k50}Dong {\k24}Tap {\k24}Tap
+Dialogue: 0,0:03:36.47,0:03:41.73,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ki{\k49}ra{\k27}ki{\k48}ra {\k26}a{\k51}ta{\k20}ra{\k53}shii {\k26}se{\k51}ka{\k23}i {\k16}he
+Dialogue: 0,0:03:40.97,0:03:43.30,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ding {\k50}Dong {\k25}Tap {\k24}Tap
+Dialogue: 0,0:03:42.46,0:03:47.78,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ki{\k50}ra{\k24}ki{\k51}ra {\k25}a{\k46}no {\k29}hi {\k52}to {\k24}o{\k47}n{\k25}na{\k23}ji
+Dialogue: 0,0:03:46.98,0:03:49.28,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ding {\k50}Dong {\k24}Tap {\k22}Tap
+Dialogue: 0,0:03:48.48,0:03:53.82,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ki{\k50}ra{\k26}ki{\k50}ra {\k19}a{\k55}fu{\k24}re{\k51}ru {\k25}ho{\k50}ho{\k25}e{\k25}mi
+Dialogue: 0,0:03:52.97,0:03:55.30,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ding {\k50}Dong {\k24}Tap {\k27}Tap
+Dialogue: 0,0:03:54.46,0:03:59.76,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ki{\k45}ra{\k27}ki{\k52}ra {\k24}i{\k49}p{\k25}po {\k50}no {\k25}yu{\k49}u{\k26}ki {\k19}ga
+Dialogue: 0,0:03:58.98,0:04:01.27,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ding {\k47}Dong {\k27}Tap {\k20}Tap
+Dialogue: 0,0:04:00.46,0:04:05.75,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ki{\k54}ra{\k23}ki{\k49}ra {\k25}ko{\k51}ta{\k22}e {\k50}ni {\k29}tsu{\k50}na{\k23}ga{\k19}ru
+Dialogue: 0,0:03:40.69,0:03:47.42,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\kf124}kyou{\k4} {\k24}ma{\kf114}de{\k12} {\k24}no {\kf126}hi{\k26}bi {\kf109}ga
+Dialogue: 0,0:03:46.72,0:03:53.76,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k124}mu{\k27}ne {\kf73}no{\k25} {\k23}chi{\k28}zu {\kf121}ni{\k3} {\k28}na{\kf142}ru
+Dialogue: 0,0:03:52.72,0:03:59.40,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\kf124}do{\k27}n{\kf114}na{\k10} {\k22}to{\kf123}ki{\k5} {\k26}de{\kf107}mo
+Dialogue: 0,0:03:58.73,0:04:05.17,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\kf124}da{\k26}re {\kf92}mo{\k9} {\k23}hi{\k25}to{\kf116}ri{\k4} {\k30}ja{\kf85}nai
+Dialogue: 0,0:04:04.46,0:04:09.85,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ka{\k27}ga{\k25}ya{\k22}ki {\k26}wo {\k25}me{\k25}ji{\k56}ru{\k27}shi {\kf170}ni
+Dialogue: 0,0:04:10.00,0:04:20.15,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k30}a{\kf170}ru{\kf171}ko{\kf534}u!

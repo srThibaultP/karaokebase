@@ -28,7 +28,7 @@ Comment: 1,0:00:34.06,0:00:37.79,Sample KM [Up],,0,0,0,karaoke,{\k20}do{\k16}ro 
 Comment: 1,0:00:39.28,0:00:41.25,Sample KM [Up],,0,0,0,karaoke,{\k32}kan{\k32}zen {\k26}na {\k10}ko{\k29}to{\k37}ba {\k31}de
 Comment: 1,0:00:41.88,0:00:43.98,Sample KM [Up],,0,0,0,karaoke,{\k32}an{\k32}shin {\k31}nan{\k35}te {\k35}sh'ten{\k45}na
 Comment: 1,0:00:45.43,0:00:47.70,Sample KM [Up],,0,0,0,karaoke,{\k50}kyo{\k34}ko{\k48}u {\k51}COME {\k44}ON
-Comment: 1,0:00:49.71,0:00:51.66,Sample KM [Up],,0,0,0,karaoke,{\k24}shin{\k11}ji{\k30}mai {\k31}ga {\k33}shin{\k33}jiyou {\k33}ga
+Comment: 1,0:00:49.71,0:00:51.66,Sample KM [Up],,0,0,0,karaoke,{\k24}shin{\k11}ji{\k30}mai {\k31}ga {\k33}shin{\k33}j'you {\k33}ga
 Comment: 1,0:00:52.32,0:00:54.61,Sample KM [Up],,0,0,0,karaoke,{\k32}kat{\k33}te {\k28}da {\k7}to {\k34}iu {\k33}na{\k62}ra
 Comment: 1,0:00:56.02,0:00:57.27,Sample KM [Up],,0,0,0,karaoke,{\k48}YES {\k22}OR {\k55}NO
 Comment: 1,0:00:59.28,0:01:01.92,Sample KM [Up],,0,0,0,karaoke,{\k22}ki{\k21}ri{\k9}su{\k17}te{\k33}ru {\k19}tsu{\k26}mo{\k21}ri {\k32}OR {\k33}dou {\k20}na {\k11}no?
@@ -53,7 +53,7 @@ Dialogue: 0,0:00:33.16,0:00:37.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\
 Dialogue: 0,0:00:38.38,0:00:41.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}kan{\k32}zen {\k26}na {\k10}ko{\k29}to{\k37}ba {\k31}de
 Dialogue: 0,0:00:40.98,0:00:44.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}an{\k32}shin {\k31}nan{\k35}te {\k35}sh'ten{\k45}na
 Dialogue: 0,0:00:44.53,0:00:47.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}kyo{\k34}ko{\k48}u {\k51}COME {\k44}ON
-Dialogue: 0,0:00:48.81,0:00:51.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}shin{\k11}ji{\k30}mai {\k31}ga {\k33}shin{\k33}jiyou {\k33}ga
+Dialogue: 0,0:00:48.81,0:00:51.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}shin{\k11}ji{\k30}mai {\k31}ga {\k33}shin{\k33}j'you {\k33}ga
 Dialogue: 0,0:00:51.42,0:00:54.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}kat{\k33}te {\k28}da {\k7}to {\k34}iu {\k33}na{\k62}ra
 Dialogue: 0,0:00:55.12,0:00:57.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}YES {\k22}OR {\k55}NO
 Dialogue: 0,0:00:58.38,0:01:02.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}ki{\k21}ri{\k9}su{\k17}te{\k33}ru {\k19}tsu{\k26}mo{\k21}ri {\k32}OR {\k33}dou {\k20}na {\k11}no?

@@ -24,9 +24,9 @@
     "created_at": "2017-10-11T17:02:22.000Z",
     "ignoreHooks": false,
     "kid": "6e7540e3-48de-4244-a8d3-6878cfa0b3d1",
-    "modified_at": "2022-02-14T21:50:21.687Z",
+    "modified_at": "2026-09-26T23:50:09.609Z",
     "repository": "kara.moe",
-    "songname": "JPN - Shin Koihime Musou - GAME OP - HEAting Soul",
+    "songname": "JPN - Shin Koihime†Musô - GAME OP - HE∀ting Sφul",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -36,6 +36,9 @@
       ],
       "creators": [
         "f2355cb5-91ba-44b9-9df3-4da25f1d90e5"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
       ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"

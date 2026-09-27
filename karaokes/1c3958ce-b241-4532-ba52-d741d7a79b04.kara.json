@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:30.000Z",
+    "ignoreHooks": false,
     "kid": "1c3958ce-b241-4532-ba52-d741d7a79b04",
-    "modified_at": "2021-02-25T13:07:49.006Z",
+    "modified_at": "2026-09-27T00:19:50.683Z",
     "repository": "kara.moe",
     "songname": "JPN - Shukufuku no Campanella - OP1 - Shiawase wa Tsuki Yori Takaku",
     "songorder": 1,
@@ -64,8 +65,8 @@
       ]
     },
     "titles": {
-      "qro": "Shiawase wa Tsuki Yori Takaku",
-      "jpn": "シアワセは月より高く"
+      "jpn": "シアワセは月より高く",
+      "qro": "Shiawase wa Tsuki Yori Takaku"
     },
     "titles_default_language": "qro",
     "year": 2010

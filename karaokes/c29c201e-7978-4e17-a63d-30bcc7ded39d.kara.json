@@ -24,7 +24,7 @@
     "created_at": "2017-10-11T17:02:17.000Z",
     "ignoreHooks": false,
     "kid": "c29c201e-7978-4e17-a63d-30bcc7ded39d",
-    "modified_at": "2022-07-24T21:48:27.196Z",
+    "modified_at": "2026-09-26T23:44:08.712Z",
     "repository": "kara.moe",
     "songname": "JPN - Sharin no Kuni Himawari no Shoujo - GAME OP - Akazora Renka",
     "tags": {
@@ -36,6 +36,9 @@
       ],
       "creators": [
         "ffd0e932-5dbc-4d7e-86be-95da7d837700"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
       ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"
@@ -61,8 +64,8 @@
       ]
     },
     "titles": {
-      "qro": "Akazora Renka",
-      "jpn": "赤空恋歌"
+      "jpn": "赤空恋歌",
+      "qro": "Akazora Renka"
     },
     "titles_default_language": "qro",
     "year": 2005

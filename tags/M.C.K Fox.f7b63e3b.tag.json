@@ -5,13 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Hololive English -Advent-"
+      "eng": "M.C.K/Fox"
     },
-    "name": "Hololive English -Advent-",
+    "name": "M.C.K/Fox",
     "repository": "kara.moe",
-    "tid": "e33cce4d-570f-4188-88dc-e5cc208749a7",
+    "tid": "f7b63e3b-e255-4d29-aa27-2b02e7daaf5c",
     "types": [
-      17
+      6
     ]
   }
 }

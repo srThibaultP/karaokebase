@@ -5,13 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "hololive English -Justice-"
+      "eng": "Zekk"
     },
-    "name": "hololive English -Justice-",
+    "name": "Zekk",
     "repository": "kara.moe",
-    "tid": "39a9d842-0df2-4f0b-b9aa-5d37a703dfb4",
+    "tid": "e6fadae8-b707-4c2b-be3b-55c9ecd8877e",
     "types": [
-      17
+      8
     ]
   }
 }

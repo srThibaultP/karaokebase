@@ -1,0 +1,89 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 88,
+      "filename": "809bd688-2a04-49ba-a417-ae2d98c44b34.mp4",
+      "filesize": 11560560,
+      "loudnorm": "-16.87,-7.53,5.50,-26.98,-1.64",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "809bd688-2a04-49ba-a417-ae2d98c44b34.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-27T01:00:01.027Z",
+    "ignoreHooks": false,
+    "kid": "809bd688-2a04-49ba-a417-ae2d98c44b34",
+    "modified_at": "2026-09-27T01:00:06.663Z",
+    "repository": "kara.moe",
+    "songname": "JPN - Ensemble Stars! (anime) - IN - Sajô no Rôkaku",
+    "tags": {
+      "authors": [
+        "6ead5776-8797-407f-84a6-809f413c97b5"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "creators": [
+        "31087ed3-5edd-4d32-8379-ab70bf5db185"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "genres": [
+        "caa86df2-0d59-474b-885c-f240a9e891b0"
+      ],
+      "groups": [
+        "ae613721-1fbe-480d-ba6b-d6d0702b184d"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "938de218-5343-4865-94d3-fb33f2eaa152"
+      ],
+      "series": [
+        "c8ee67a6-af60-4aa9-b827-0f502df73bb8"
+      ],
+      "singers": [
+        "e5a67f06-d08b-4f63-800b-31c7f90995be",
+        "37553623-034c-4cfc-ae55-c936028f8e2d",
+        "6eafaead-7482-4b91-b711-8c4c410e4dbc"
+      ],
+      "singergroups": [
+        "193eea6b-a671-46d9-81b6-0109640d2448"
+      ],
+      "songtypes": [
+        "5e5250d9-351a-4a82-98eb-55db50ad8962"
+      ],
+      "songwriters": [
+        "376eaf29-c973-4b62-8c87-fe029bbcdfec",
+        "03537d59-35c7-493e-a807-54263253a072",
+        "2171ee13-d4af-4a9c-8d59-dc098b4d3669"
+      ],
+      "franchises": [
+        "2f12b261-e600-4bed-8ba1-122f61a73597"
+      ]
+    },
+    "titles": {
+      "jpn": "砂上ノ楼閣",
+      "qro": "Sajô no Rôkaku"
+    },
+    "titles_aliases": [
+      "Sajou",
+      "Roukaku"
+    ],
+    "titles_default_language": "qro",
+    "year": 2019
+  }
+}

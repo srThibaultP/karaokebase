@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:00:54.000Z",
+    "ignoreHooks": false,
     "kid": "9f7591b0-dbb1-410b-bbac-e41bd66b7dd9",
-    "modified_at": "2021-02-25T12:58:39.670Z",
+    "modified_at": "2026-09-26T23:31:39.633Z",
     "repository": "kara.moe",
     "songname": "JPN - Seiken no Blacksmith - ED - Miracle Happy Day",
     "tags": {

@@ -21,10 +21,12 @@ Style: Momona,Arial,24,&H00FFFFFF,&H00E2B0DF,&H00000000,&H00000000,-1,0,0,0,100,
 Style: Himeri,Arial,24,&H00FFFFFF,&H009E6E25,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Hazuki,Arial,24,&H000066B5,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Choir,Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,30,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H0067B7&}Takane{\c} | {\c&H4795FF&}Erisa{\c} | {\c&HFFFF00&}Suzumi{\c} | {\c&H590093&}Momoko{\c} | {\c&H00FFFF&}Nao{\c} | {\c&HE475FB&}Hina{\c} | {\c&H0000FF&}Mikuru{\c} | {\c&HE2B0DF&}Momona{\c} | {\c&H9E6E25&}Himeri{\c} | {\c&HFFFFFF&}Hazuki
 Comment: 0,0:00:04.35,0:00:06.74,Erisa,,0,0,0,karaoke,{\k20}na{\k11}tsu {\k16}ga {\k12}bo{\k18}ku{\k17}ra {\k28}wo {\k15}ko{\k18}do{\k28}mo {\k16}ni {\k16}su{\k24}ru
 Comment: 0,0:00:06.93,0:00:07.55,Erisa,,0,0,0,karaoke,{\k33}Wow {\k29}oh
 Comment: 0,0:00:07.73,0:00:09.20,Erisa,,0,0,0,karaoke,{\k15}a{\k17}o {\k27}ni {\k33}e{\k15}ga{\k17}ko{\k23}u
@@ -73,7 +75,7 @@ Comment: 0,0:01:54.01,0:01:54.68,Choir,,0,0,0,karaoke,{\k32}Wow {\k35}oh
 Comment: 0,0:01:54.81,0:01:56.41,Takane,,0,0,0,karaoke,{\k14}su{\k16}ki {\k30}wo {\k32}ta{\k16}no{\k14}shi{\k38}mou
 Comment: 0,0:01:56.79,0:01:58.84,Takane,,0,0,0,karaoke,{\k31}SHY {\k17}ga {\k29}to{\k33}ke{\k30}te {\k15}tsu{\k17}na{\k33}gu
 Comment: 0,0:01:58.94,0:02:01.71,Erisa,,0,0,0,karaoke,{\k33}mo{\k44}u {\k16}na{\k16}tsu {\k30}no {\k32}sei {\k19}ni {\k15}shi{\k72}you
-Comment: 0,0:02:01.62,0:02:03.75,Momoko,,0,0,0,karaoke,{\k23}su{\k18}ki {\k15}na {\k32}hi{\k29}to {\k32}no {\k12}su{\k18}ki  {\k34}wa
+Comment: 0,0:02:01.62,0:02:03.75,Momoko,,0,0,0,karaoke,{\k23}su{\k18}ki {\k15}na {\k32}hi{\k29}to {\k32}no {\k12}su{\k18}ki {\k34}wa
 Comment: 0,0:02:03.80,0:02:04.19,Choir,,0,0,0,karaoke,{\k39}Hey
 Comment: 0,0:02:04.14,0:02:06.17,Suzumi,,0,0,0,karaoke,{\k20}bo{\k13}ku {\k19}mo {\k30}su{\k31}kit{\k30}te {\k16}ko{\k15}to {\k29}de
 Comment: 0,0:02:06.28,0:02:06.63,Choir,,0,0,0,karaoke,{\k35}Hey
@@ -96,6 +98,7 @@ Comment: 0,0:02:40.34,0:02:41.93,Takane,,0,0,0,karaoke,{\k15}su{\k17}ki {\k31}wo
 Comment: 0,0:02:42.30,0:02:44.41,Takane,,0,0,0,karaoke,{\k34}SHY {\k18}ga {\k29}to{\k30}ke{\k32}te {\k15}tsu{\k15}na{\k38}gu
 Comment: 0,0:02:44.49,0:02:46.94,Takane,,0,0,0,karaoke,{\k30}mo{\k46}u {\k15}na{\k18}tsu {\k29}no {\k35}sei {\k12}ni {\k13}shi{\k47}you
 Comment: 0,0:02:46.94,0:02:49.62,Erisa,,0,0,0,karaoke,{\k33}a{\kf235}a
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H0067B7&}Takane{\c} | {\c&H4795FF&}Erisa{\c} | {\c&HFFFF00&}Suzumi{\c} | {\c&H590093&}Momoko{\c} | {\c&H00FFFF&}Nao{\c} | {\c&HE475FB&}Hina{\c} | {\c&H0000FF&}Mikuru{\c} | {\c&HE2B0DF&}Momona{\c} | {\c&H9E6E25&}Himeri{\c} | {\c&HFFFFFF&}Hazuki
 Dialogue: 0,0:00:03.45,0:00:06.94,Erisa,,0,0,0,fx,{\k90\fad(300,200)}{\k20}na{\k11}tsu {\k16}ga {\k12}bo{\k18}ku{\k17}ra {\k28}wo {\k15}ko{\k18}do{\k28}mo {\k16}ni {\k16}su{\k24}ru
 Dialogue: 0,0:00:06.03,0:00:07.75,Erisa,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Wow {\k29}oh
 Dialogue: 0,0:00:06.83,0:00:09.40,Erisa,,0,0,0,fx,{\k90\fad(300,200)}{\k15}a{\k17}o {\k27}ni {\k33}e{\k15}ga{\k17}ko{\k23}u
@@ -144,7 +147,7 @@ Dialogue: 0,0:01:53.11,0:01:54.88,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Wow {
 Dialogue: 0,0:01:53.91,0:01:56.61,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k14}su{\k16}ki {\k30}wo {\k32}ta{\k16}no{\k14}shi{\k38}mou
 Dialogue: 0,0:01:55.89,0:01:59.04,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k31}SHY {\k17}ga {\k29}to{\k33}ke{\k30}te {\k15}tsu{\k17}na{\k33}gu
 Dialogue: 0,0:01:58.04,0:02:01.91,Erisa,,0,0,0,fx,{\k90\fad(300,200)}{\k33}mo{\k44}u {\k16}na{\k16}tsu {\k30}no {\k32}sei {\k19}ni {\k15}shi{\k72}you
-Dialogue: 0,0:02:00.72,0:02:03.95,Momoko,,0,0,0,fx,{\k90\fad(300,200)}{\k23}su{\k18}ki {\k15}na {\k32}hi{\k29}to {\k32}no {\k12}su{\k18}ki  {\k34}wa
+Dialogue: 0,0:02:00.72,0:02:03.95,Momoko,,0,0,0,fx,{\k90\fad(300,200)}{\k23}su{\k18}ki {\k15}na {\k32}hi{\k29}to {\k32}no {\k12}su{\k18}ki {\k34}wa
 Dialogue: 0,0:02:02.90,0:02:04.39,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Hey
 Dialogue: 0,0:02:03.24,0:02:06.37,Suzumi,,0,0,0,fx,{\k90\fad(300,200)}{\k20}bo{\k13}ku {\k19}mo {\k30}su{\k31}kit{\k30}te {\k16}ko{\k15}to {\k29}de
 Dialogue: 0,0:02:05.38,0:02:06.83,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Hey

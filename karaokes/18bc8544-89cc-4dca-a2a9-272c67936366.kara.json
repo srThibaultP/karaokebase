@@ -24,9 +24,9 @@
     "created_at": "2017-10-11T17:01:44.000Z",
     "ignoreHooks": false,
     "kid": "18bc8544-89cc-4dca-a2a9-272c67936366",
-    "modified_at": "2022-09-24T17:24:35.386Z",
+    "modified_at": "2026-09-27T00:11:33.216Z",
     "repository": "kara.moe",
-    "songname": "JPN - Shirotsume Souwa ~ Episode of the Clovers - GAME OP - Escape",
+    "songname": "JPN - Shirotsume Souwa ~ Episode of the Clovers - GAME OP - escape",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -36,6 +36,9 @@
       ],
       "creators": [
         "cbfeb52d-dc3c-4c25-9aac-1db18e6cf1c0"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
       ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"

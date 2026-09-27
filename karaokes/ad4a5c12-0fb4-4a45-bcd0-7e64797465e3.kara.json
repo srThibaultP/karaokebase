@@ -24,7 +24,7 @@
     "created_at": "2017-10-11T17:03:11.000Z",
     "ignoreHooks": false,
     "kid": "ad4a5c12-0fb4-4a45-bcd0-7e64797465e3",
-    "modified_at": "2024-11-20T18:03:54.668Z",
+    "modified_at": "2026-09-27T00:00:50.560Z",
     "repository": "kara.moe",
     "songname": "JPN - Shining Force EXA - GAME PS2 OP - WORLD'S LOVE",
     "tags": {
@@ -36,6 +36,9 @@
       ],
       "creators": [
         "765c35a9-94d9-4610-9a76-4acbf005a67d"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
       ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"
@@ -59,8 +62,8 @@
         "f02ad9b3-0bd9-4aad-85b3-9976739ba0e4"
       ],
       "songwriters": [
-        "f3d45e14-6a3b-491d-9d39-a9ba7b52cd36",
-        "5136ad23-2857-4f94-a7b1-bb25df7d10ff"
+        "5136ad23-2857-4f94-a7b1-bb25df7d10ff",
+        "f3d45e14-6a3b-491d-9d39-a9ba7b52cd36"
       ],
       "franchises": [
         "dcf75dd7-acdf-4de3-a10b-334493f8f6de"

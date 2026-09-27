@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Roberto Molinaro"
+    },
+    "name": "Roberto Molinaro",
+    "repository": "kara.moe",
+    "tid": "c7d1ea2c-739d-49da-bef5-f886c5775f42",
+    "types": [
+      8
+    ]
+  }
+}

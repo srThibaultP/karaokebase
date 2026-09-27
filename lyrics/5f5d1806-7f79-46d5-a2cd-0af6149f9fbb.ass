@@ -10,10 +10,6 @@ LayoutResX: 0
 LayoutResY: 0
 YCbCr Matrix: TV.709
 
-[Aegisub Project Garbage]
-Audio File: C:\Users\FiercePC\AppData\Roaming\karaokemugen-app\app\repos\kara.moe\medias\5f5d1806-7f79-46d5-a2cd-0af6149f9fbb.opus
-Video File: ?dummy:24.000000:7000:1920:1080:47:163:254:
-
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Arial,24,&H00FFFFFF,&H0018A8EB,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1

@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:35.000Z",
+    "ignoreHooks": false,
     "kid": "55b19a07-09c6-40ca-a413-e026a8199944",
-    "modified_at": "2021-02-25T10:16:46.420Z",
+    "modified_at": "2026-09-26T23:12:52.997Z",
     "repository": "kara.moe",
-    "songname": "ENG - Saint Seiya The Lost Canvas - Meiou Shinwa - OVA OP1 - The Realm of Athena",
+    "songname": "ENG - Saint Seiya: The Lost Canvas - Meiô Shinwa - OVA OP1 - The Realm of Athena",
     "songorder": 1,
     "tags": {
       "authors": [
@@ -69,6 +70,7 @@
     "titles": {
       "eng": "The Realm of Athena"
     },
+    "titles_default_language": "eng",
     "year": 2009
   }
 }

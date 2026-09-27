@@ -13,15 +13,13 @@ LayoutResY: 0
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Arial,24,&H00FFB858,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
-Style: Italic,Arial,24,&H0018A8EB,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:00.65,0:00:05.54,Default,,0,0,0,karaoke,{\k36}ka{\k33}ze {\k34}no {\k66}o{\k36}to {\k68}da{\k68}ke {\kf148}ga
 Comment: 0,0:00:05.99,0:00:10.38,Default,,0,0,0,karaoke,{\k36}ka{\k33}ra{\k36}da{\k68}juu {\k35}wo {\k68}tsu{\k62}tsu{\kf101}mu
-Comment: 0,0:00:10.69,0:00:13.03,Default,,0,0,0,karaoke,{\k25}OH {\k51}SI{\k49}LENT {\k37}K{\k72}ISS
-Comment: 0,0:00:13.36,0:00:16.05,Italic,,0,0,0,karaoke,{\k30}OH {\k68}OH {\k38}YE{\kf113}AH
+Comment: 0,0:00:10.69,0:00:16.05,Default,,0,0,0,karaoke,{\k25}OH {\k51}SI{\k49}LENT {\k37}K{\k105}ISS {\k98}OH {\k38}YE{\kf133}AH
 Comment: 0,0:00:16.68,0:00:21.02,Default,,0,0,0,karaoke,{\k33}yu{\k34}me {\k33}ni {\k95}ni{\k31}ta {\k84}ke{\k25}ha{\k99}i
 Comment: 0,0:00:21.28,0:00:25.03,Default,,0,0,0,karaoke,{\k25}mu{\k25}ne {\k25}ga {\k51}kyut{\k25}to {\k49}na{\k25}ru {\k25}ko{\kf125}to
 Comment: 0,0:00:25.28,0:00:28.62,Default,,0,0,0,karaoke,{\k26}ki{\k22}mi {\k27}to {\k51}i{\k25}ta {\k46}ki{\k54}se{\k83}tsu
@@ -59,8 +57,7 @@ Comment: 0,0:03:20.02,0:03:27.09,Default,,0,0,0,karaoke,{\k26}ta{\k20}i{\k27}se{
 Comment: 0,0:03:28.03,0:03:36.03,Default,,0,0,0,karaoke,{\k49}hon{\k51}tou {\k50}no {\k50}ki{\k50}mi {\k50}ni {\k25}de{\k25}a{\k24}u {\k26}hi {\k67}wo {\k33}{\k74}mat{\k26}te{\kf200}ru
 Dialogue: 0,0:00:00.00,0:00:05.74,Default,,0,0,0,fx,{\k65\fad(650,200)}{\k36}ka{\k33}ze {\k34}no {\k66}o{\k36}to {\k68}da{\k68}ke {\kf148}ga
 Dialogue: 0,0:00:05.09,0:00:10.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ka{\k33}ra{\k36}da{\k68}juu {\k35}wo {\k68}tsu{\k62}tsu{\kf101}mu
-Dialogue: 0,0:00:09.79,0:00:13.23,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}OH {\k51}SI{\k49}LENT {\k37}K{\k72}ISS
-Dialogue: 0,0:00:12.46,0:00:16.25,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k30}OH {\k68}OH {\k38}YE{\kf113}AH
+Dialogue: 0,0:00:09.79,0:00:16.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}OH {\k51}SI{\k49}LENT {\k37}K{\k105}ISS {\k98}OH {\k38}YE{\kf133}AH
 Dialogue: 0,0:00:15.78,0:00:21.22,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}yu{\k34}me {\k33}ni {\k95}ni{\k31}ta {\k84}ke{\k25}ha{\k99}i
 Dialogue: 0,0:00:20.38,0:00:25.23,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}mu{\k25}ne {\k25}ga {\k51}kyut{\k25}to {\k49}na{\k25}ru {\k25}ko{\kf125}to
 Dialogue: 0,0:00:24.38,0:00:28.82,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ki{\k22}mi {\k27}to {\k51}i{\k25}ta {\k46}ki{\k54}se{\k83}tsu
