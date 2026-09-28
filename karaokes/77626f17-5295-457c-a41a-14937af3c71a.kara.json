@@ -24,9 +24,9 @@
     "created_at": "2017-10-11T17:01:41.000Z",
     "ignoreHooks": false,
     "kid": "77626f17-5295-457c-a41a-14937af3c71a",
-    "modified_at": "2022-07-24T21:36:59.599Z",
+    "modified_at": "2026-09-27T11:03:44.039Z",
     "repository": "kara.moe",
-    "songname": "JPN - Tenshi no Nichou Kenjuu Angelos Armas - GAME OP1 - Samenai Netsu",
+    "songname": "JPN - Tenshi no Nichô Kenjû: Angelos Armas - GAME OP1 - Samenai Netsu",
     "songorder": 1,
     "tags": {
       "authors": [
@@ -38,11 +38,17 @@
       "creators": [
         "d8c36618-4baf-4969-a667-188a901a1f00"
       ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ],
       "series": [
         "c87a7f7b-20cf-4d7d-98fb-722910f4eec6"
@@ -56,14 +62,11 @@
       "songwriters": [
         "bd491e13-75f4-4965-88ad-4632fc9ec3ca",
         "cde0e979-7f7a-4450-a2cc-faf3251b09fe"
-      ],
-      "origins": [
-        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ]
     },
     "titles": {
-      "qro": "Samenai Netsu",
-      "jpn": "さめない熱"
+      "jpn": "さめない熱",
+      "qro": "Samenai Netsu"
     },
     "titles_default_language": "qro",
     "year": 2004

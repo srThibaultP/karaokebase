@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Redman
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:3.37,0:0:7.51,Default,,0000,0000,0000,,{\k100}{\kf20}a{\kf20}ka{\kf70}i {\kf57}{\kf20}a{\kf23}ka{\kf23}i {\kf27}{\kf20}a{\kf20}ka{\kf13}i
 Dialogue: 1,0:0:6.87,0:0:10.61,Default,,0000,0000,0000,,{\k100}{\kf23}a{\kf20}i{\kf73}tsu {\kf43}{\kf3}Red{\kf50}{\kf60}man
 Dialogue: 1,0:0:10.38,0:0:14.68,Default,,0000,0000,0000,,{\k100}{\kf23}mo{\kf23}e{\kf33}ru {\kf97}{\kf23}mo{\kf27}e{\kf17}ru {\kf23}{\kf23}mo{\kf23}e{\kf17}ru

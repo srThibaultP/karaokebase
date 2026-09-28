@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: B-Fighter Kabuto
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:19.93,0:0:25.19,Default,,0000,0000,0000,,{\k100}{\kf17}so{\kf21}n{\kf21}na {\kf21}to{\kf21}ki {\kf46}wa {\kf38}ko{\kf17}bu{\kf21}shi {\kf21}wo {\kf29}fu{\kf58}ri{\kf21}a{\kf17}ge{\kf58}te
 Dialogue: 1,0:0:26.48,0:0:32.15,Default,,0000,0000,0000,,{\k100}{\kf17}o{\kf21}so{\kf21}re{\kf25}zu {\kf25}ta{\kf46}ta{\kf38}ka{\kf21}i {\kf17}wo {\kf25}i{\kf21}do{\kf17}me{\kf42}{\kf21}ba {\kf21}{\kf21}i{\kf71}i
 Dialogue: 1,0:0:33.07,0:0:40.20,Default,,0000,0000,0000,,{\k100}{\kf17}ki{\kf21}bo{\kf17}u {\kf21}to {\kf33}i{\kf42}u {\kf21}{\kf42}bu{\kf17}ki {\kf42}ga {\kf21}{\kf21}a{\kf21}{\kf58}ru {\kf29}{\kf38}ka{\kf13}gi{\kf21}{\kf121}ri

@@ -24,12 +24,12 @@
     "created_at": "2018-12-01T13:20:44.000Z",
     "ignoreHooks": false,
     "kid": "19f1a165-4e19-49bf-b265-b373ee422607",
-    "modified_at": "2022-09-30T20:48:59.285Z",
+    "modified_at": "2026-09-27T11:06:37.744Z",
     "parents": [
       "ab8567cb-c638-4cde-8182-9e16d5e9712d"
     ],
     "repository": "kara.moe",
-    "songname": "JPN - Tetsujin 28-gou (2004) - OP - Tetsujin 28-gou",
+    "songname": "JPN - Tetsujin 28-gô (2004) - OP - Tetsujin 28-gô",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -51,6 +51,9 @@
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "misc": [
+        "a98efc68-91c1-4291-b4af-e3990b939167"
       ],
       "origins": [
         "938de218-5343-4865-94d3-fb33f2eaa152"

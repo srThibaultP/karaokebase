@@ -17,19 +17,19 @@
           "version": "Default"
         }
       ],
-      "version": "Default"
+      "version": "Movie."
     }
   ],
   "data": {
     "created_at": "2023-03-15T16:23:07.897Z",
     "ignoreHooks": false,
     "kid": "bdeb7c1a-52b7-4022-b3bc-1760d62a7218",
-    "modified_at": "2024-03-03T23:00:10.506Z",
+    "modified_at": "2026-09-27T09:56:00.833Z",
     "parents": [
       "91e3631c-49df-4be8-879a-d50ecc94cb40"
     ],
     "repository": "kara.moe",
-    "songname": "JPN - Shoujo Kageki Revue Starlight Rondo Rondo Rondo - MOVIE IN - Sekai wo Hai ni Suru made (movie ver.) ~ Off Vocal Vers",
+    "songname": "JPN - Shôjo☆Kageki Revue Starlight: Rondo Rondo Rondo - MOVIE IN - Sekai wo Hai ni Suru made ~ Movie Vers. ~ Off Vocal Vers",
     "tags": {
       "authors": [
         "7848b5dc-a5df-4577-b640-147be5288cec"
@@ -78,8 +78,8 @@
       ]
     },
     "titles": {
-      "jpn": "世界を灰にするまで (movie ver.)",
-      "qro": "Sekai wo Hai ni Suru made (movie ver.)"
+      "jpn": "世界を灰にするまで ~ Movie Vers.",
+      "qro": "Sekai wo Hai ni Suru made ~ Movie Vers."
     },
     "titles_default_language": "qro",
     "year": 2020

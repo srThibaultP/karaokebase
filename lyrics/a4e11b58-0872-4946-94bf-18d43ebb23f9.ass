@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Kinosei ka na
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:2.46,0:0:7.88,Default,,0000,0000,0000,,{\k100}{\kf17}ka{\kf17}na{\kf25}shi{\kf42}i {\kf25}{\kf17}to{\kf42}ki {\kf21}de{\kf42}mo {\kf21}na{\kf21}ki{\kf21}ta{\kf25}i {\kf21}to{\kf21}ki {\kf17}de{\kf50}mo
 Dialogue: 1,0:0:6.88,0:0:10.80,Default,,0000,0000,0000,,{\k100}{\kf25}DI{\kf25}GI{\kf25}TI{\kf38}ZER {\kf38}wa {\kf21}hi{\kf25}bi{\kf96}ku
 Dialogue: 1,0:0:10.93,0:0:16.26,Default,,0000,0000,0000,,{\k100}{\kf17}ge{\kf25}n{\kf21}ki {\kf71}na {\kf21}fu{\kf21}ri {\kf21}{\kf21}shi{\kf25}te {\kf21}{\kf17}ko{\kf25}ta{\kf21}e{\kf25}te {\kf17}mi{\kf21}ta{\kf21}t{\kf25}te

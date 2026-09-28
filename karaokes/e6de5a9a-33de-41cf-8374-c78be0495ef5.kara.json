@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:15.000Z",
+    "ignoreHooks": false,
     "kid": "e6de5a9a-33de-41cf-8374-c78be0495ef5",
-    "modified_at": "2021-02-25T13:10:33.124Z",
+    "modified_at": "2026-09-27T10:04:08.361Z",
     "repository": "kara.moe",
     "songname": "JPN - Soul Eater Repeat Show - ED1 - Ao no Kaori",
     "songorder": 1,
@@ -70,8 +71,8 @@
       ]
     },
     "titles": {
-      "qro": "Ao no Kaori",
-      "jpn": "碧の香り"
+      "jpn": "碧の香り",
+      "qro": "Ao no Kaori"
     },
     "titles_default_language": "qro",
     "year": 2010

@@ -24,9 +24,9 @@
     "created_at": "2017-10-11T17:02:21.000Z",
     "ignoreHooks": false,
     "kid": "00b63838-e82c-4261-834e-e3ada0a3b627",
-    "modified_at": "2024-09-21T11:58:06.946Z",
+    "modified_at": "2026-09-27T10:37:25.822Z",
     "repository": "kara.moe",
-    "songname": "JPN - Super Robot Taisen Z - GAME PS2 AMV - Crest of Z's",
+    "songname": "JPN - Super Robot Taisen Z - GAME PS2 AMV - Crest of \"Z's\"",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -36,6 +36,9 @@
       ],
       "creators": [
         "c3e622d4-2686-4331-8691-d528c8647088"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
       ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"

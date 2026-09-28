@@ -24,9 +24,9 @@
     "created_at": "2017-10-11T17:01:46.000Z",
     "ignoreHooks": false,
     "kid": "f2717663-e01d-4140-b045-fbf96f87cf04",
-    "modified_at": "2022-09-25T13:35:40.386Z",
+    "modified_at": "2026-09-27T15:58:35.127Z",
     "repository": "kara.moe",
-    "songname": "JPN - Wild Arms The Vth Vanguard - GAME OP1 - Justice to Believe",
+    "songname": "JPN - Wild Arms: The Vth Vanguard - GAME OP1 - Justice to Believe",
     "songorder": 1,
     "tags": {
       "authors": [
@@ -38,11 +38,17 @@
       "creators": [
         "f9a97b6b-1ea0-4c63-ac09-070f70c799e4"
       ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ],
       "series": [
         "52d469ed-17fb-41c8-a802-41ad8e1ea666"
@@ -59,9 +65,6 @@
       ],
       "franchises": [
         "c3260823-5c50-41b3-8eb2-2602bd4ba12f"
-      ],
-      "origins": [
-        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ]
     },
     "titles": {

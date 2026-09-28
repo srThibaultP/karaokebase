@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Yuke! Yuke! Megaloman
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:3.90,0:0:6.57,Default,,0000,0000,0000,,{\k100}{\k20}ME{\k20}GA{\k23}LO{\k103}MAN
 Dialogue: 1,0:0:15.80,0:0:19.77,Default,,0000,0000,0000,,{\k100}{\k23}yu{\k30}ke {\k33}{\k20}yu{\k10}ke {\k17}{\k17}yu{\k13}ke {\k17}{\k17}ME{\k20}GA{\k23}LO{\k57}MAN
 Dialogue: 1,0:0:19.20,0:0:23.10,Default,,0000,0000,0000,,{\k100}{\k20}do{\k23}ko{\k17}ma{\k30}de{\k27}mo {\k17}{\k17}su{\k13}su{\k17}{\k110}me

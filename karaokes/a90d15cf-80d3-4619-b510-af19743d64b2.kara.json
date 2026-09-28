@@ -24,9 +24,9 @@
     "created_at": "2019-06-20T20:08:45.000Z",
     "ignoreHooks": false,
     "kid": "a90d15cf-80d3-4619-b510-af19743d64b2",
-    "modified_at": "2024-05-18T19:51:32.587Z",
+    "modified_at": "2026-09-27T09:07:23.203Z",
     "repository": "kara.moe",
-    "songname": "JPN - Shoujo Kageki Revue Starlight - IN - Koi no Makyuu",
+    "songname": "JPN - Shôjo☆Kageki Revue Starlight - IN - Koi no Makyû",
     "tags": {
       "authors": [
         "f7ce702e-09aa-4b22-8742-0c99cd7a5409"
@@ -48,6 +48,7 @@
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
       ],
       "misc": [
+        "1d6ceadf-a885-47e5-b23b-c07bf668a424",
         "86705d4b-24e4-4756-9687-2b9c98bcf366"
       ],
       "origins": [
@@ -64,11 +65,11 @@
         "5e5250d9-351a-4a82-98eb-55db50ad8962"
       ],
       "songwriters": [
+        "23037ff7-bd9a-492a-a2cd-569767ddb5be",
         "638043e4-fee4-42c2-9843-3bcf0974c490",
         "7f9405aa-4a87-4224-82fd-0dd0289fd6ac",
         "ead196cc-e1e3-43a4-8804-dd4199e89c4e",
-        "f8f2cfc6-0d0f-448e-936f-2f6228d4233b",
-        "23037ff7-bd9a-492a-a2cd-569767ddb5be"
+        "f8f2cfc6-0d0f-448e-936f-2f6228d4233b"
       ],
       "franchises": [
         "25fe5507-5373-408e-8b62-cdcaa10c537e"

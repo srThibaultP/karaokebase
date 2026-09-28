@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Tokusô Robo Janperson
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:0.67,0:0:4.30,Default,,0000,0000,0000,,{\k100}{\k13}JAN{\k21}PER{\k29}SON {\k21}{\k29}Fights {\k25}{\k21}For {\k21}Jus{\k83}tice
 Dialogue: 1,0:0:18.93,0:0:21.89,Default,,0000,0000,0000,,{\k100}{\k17}ki{\k25}mi {\k46}ga {\k21}ku{\k88}ru
 Dialogue: 1,0:0:21.31,0:0:25.98,Default,,0000,0000,0000,,{\k100}{\k17}i{\k21}{\k17}na{\k25}{\k17}zu{\k21}{\k21}ma {\k42}no {\k25}{\k25}na{\k38}ka {\k100}wo

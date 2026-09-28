@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:49.000Z",
+    "ignoreHooks": false,
     "kid": "8135dc7a-55d1-4da5-ae78-4e8d1cfd25af",
-    "modified_at": "2021-02-25T13:43:35.729Z",
+    "modified_at": "2026-09-27T16:17:32.031Z",
     "repository": "kara.moe",
     "songname": "JPN - Yuru Yuri - OP - Yuriyurararara Yuru Yuri Daijiken",
     "tags": {
@@ -71,8 +72,8 @@
       ]
     },
     "titles": {
-      "qro": "Yuriyurararara Yuru Yuri Daijiken",
-      "jpn": "ゆりゆららららゆるゆり大事件"
+      "jpn": "ゆりゆららららゆるゆり大事件",
+      "qro": "Yuriyurararara Yuru Yuri Daijiken"
     },
     "titles_default_language": "qro",
     "year": 2011

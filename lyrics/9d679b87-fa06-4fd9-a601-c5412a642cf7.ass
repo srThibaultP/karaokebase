@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: TIME LIMIT
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:1.94,0:0:7.07,Default,,0000,0000,0000,,{\k100}{\k33}ma{\k20}wa{\k27}se {\k30}ma{\k20}wa{\k23}se {\k23}chi{\k33}kyuu {\k27}wo {\k30}ma{\k20}wa{\k127}se
 Dialogue: 1,0:0:7.91,0:0:12.55,Default,,0000,0000,0000,,{\k100}{\k33}COM{\k23}PU{\k27}TE{\k40}R {\k33}ni {\k27}ten{\k27}shi {\k23}wa {\k37}ya{\k17}do{\k77}ru
 Dialogue: 1,0:0:12.51,0:0:14.05,Default,,0000,0000,0000,,{\k100}{\k17}LET'S {\k37}CHARGE!

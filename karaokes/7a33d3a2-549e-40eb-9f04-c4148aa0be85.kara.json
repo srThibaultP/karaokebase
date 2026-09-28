@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:12.000Z",
+    "ignoreHooks": false,
     "kid": "7a33d3a2-549e-40eb-9f04-c4148aa0be85",
-    "modified_at": "2021-05-18T16:13:00.848Z",
+    "modified_at": "2026-09-27T15:19:33.106Z",
     "repository": "kara.moe",
     "songname": "JPN - Tsukuyomi Moon Phase - ED2 - Kanashii Yokan",
     "songorder": 2,
@@ -66,8 +67,8 @@
       ]
     },
     "titles": {
-      "qro": "Kanashii Yokan",
-      "jpn": "悲しい予感"
+      "jpn": "悲しい予感",
+      "qro": "Kanashii Yokan"
     },
     "titles_default_language": "qro",
     "year": 2004

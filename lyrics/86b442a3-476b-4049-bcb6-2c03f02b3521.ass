@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Robot Keiji
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:31.07,0:0:38.10,Default,,0000,0000,0000,,{\k100}{\kf17}sa{\kf20}ke{\kf30}bu {\kf43}S{\kf30}I{\kf130}REN {\kf27}{\kf23}L{\kf20}IGH{\kf30}T {\kf40}wa {\kf20}ma{\kf40}wa{\kf133}ru
 Dialogue: 1,0:0:37.41,0:0:44.71,Default,,0000,0000,0000,,{\k100}{\kf17}ji{\kf40}ken {\kf80}da {\kf20}{\kf63}JO{\kf70}KER {\kf30}{\kf17}so{\kf20}ra {\kf17}to{\kf13}bu {\kf17}{\kf37}PA{\kf37}TROL {\kf153}CAR
 Dialogue: 1,0:0:43.91,0:0:51.05,Default,,0000,0000,0000,,{\k100}{\kf37}te{\kf17}tsu {\kf83}no {\kf30}{\kf17}do {\kf17}ku{\kf23}ro {\kf73}wa {\kf23}{\kf70}BA{\kf27}D {\kf57}no {\kf20}{\kf17}shi{\kf17}{\kf20}ru{\kf17}{\kf50}shi

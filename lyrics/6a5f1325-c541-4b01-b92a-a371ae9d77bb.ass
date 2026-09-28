@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Bouken Shite Rappapi-ya!
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:4.92,0:0:8.51,Default,,0000,0000,0000,,{\k100}{\kf17}mi{\kf17}zu {\kf17}wo {\kf13}hi{\kf25}ku {\kf8}n' {\kf25}da {\kf38}un{\kf38}ga {\kf21}un{\kf42}ga!
 Dialogue: 1,0:0:7.51,0:0:11.26,Default,,0000,0000,0000,,{\k100}{\kf17}o-{\kf17}ko{\kf17}me {\kf17}tsu{\kf17}ku{\kf17}ro{\kf29}u {\kf21}tan{\kf25}{\kf38}bo {\kf25}tan{\kf38}bo!
 Dialogue: 1,0:0:10.26,0:0:14.05,Default,,0000,0000,0000,,{\k100}{\kf21}i{\kf17}shi {\kf17}wo {\kf21}bu{\kf17}t{\kf29}tsu{\kf33}ke {\kf21}FI{\kf42}RE {\kf25}FI{\kf38}RE!

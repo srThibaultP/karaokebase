@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2020-05-09T23:06:39.486Z",
+    "ignoreHooks": false,
     "kid": "4f72fb1e-f6ba-44fe-83b8-5cc67d7bb0af",
-    "modified_at": "2021-02-25T13:37:33.132Z",
+    "modified_at": "2026-09-27T16:03:51.106Z",
     "repository": "kara.moe",
-    "songname": "JPN - World End Economica Episode 2 - PC GAME ED - escapes from predicament",
+    "songname": "JPN - World End Economica Episode 2 - GAME PC ED - escape from predicament",
     "tags": {
       "authors": [
         "5cb3d0c5-479e-4224-b6ec-b27209e933a0"
@@ -35,6 +36,9 @@
       ],
       "creators": [
         "fda14a2c-77a7-4cfc-b53d-b61c8283e4d1"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
       ],
       "groups": [
         "60defa7b-774e-4680-8321-51b742c2e009",

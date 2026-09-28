@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:33.000Z",
+    "ignoreHooks": false,
     "kid": "22f1c215-ee9b-455b-b1ae-fedfdd058717",
-    "modified_at": "2021-02-25T13:18:26.041Z",
+    "modified_at": "2026-09-27T10:52:55.908Z",
     "repository": "kara.moe",
     "songname": "JPN - Tears to Tiara - OP - Free and Dream",
     "tags": {

@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:24.000Z",
+    "ignoreHooks": false,
     "kid": "2f1df0b9-76cc-4e46-8c70-08217c7f5599",
-    "modified_at": "2021-02-25T13:15:37.476Z",
+    "modified_at": "2026-09-27T10:39:01.710Z",
     "repository": "kara.moe",
-    "songname": "JPN - Taiho Shichau zo Full Throttle - OP - Mighty Body",
+    "songname": "JPN - Taihô Shichau zo: Full Throttle - OP - Mighty Body",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"

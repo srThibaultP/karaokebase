@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:26.000Z",
+    "ignoreHooks": false,
     "kid": "c7a900cc-76cb-46e5-acf2-5658969f02e4",
-    "modified_at": "2021-02-25T13:04:01.979Z",
+    "modified_at": "2026-09-27T17:36:48.754Z",
     "repository": "kara.moe",
     "songname": "JPN - Shin Shirayuki Hime Densetsu Pretear - OP - White Destiny",
     "tags": {

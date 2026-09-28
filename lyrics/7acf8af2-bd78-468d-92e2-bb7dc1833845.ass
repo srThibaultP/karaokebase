@@ -1,9 +1,10 @@
 ﻿[Script Info]
-Title: karaoke
+Title: Chôjû Sentai Liveman
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:14.93,0:0:17.73,Default,,0000,0000,0000,,{\k100}{\k8}cho{\k8}{\k8}u{\k4}{\k13}juu {\k4}{\k8}sen{\k8}{\k33}tai {\k21}{\k8}LIVE{\k17}{\k38}MAN
 Dialogue: 1,0:0:29.82,0:0:33.28,Default,,0000,0000,0000,,{\k100}{\k8}ki{\k8}{\k8}mi {\k8}{\k8}ni {\k8}{\k29}wa {\k8}{\k13}ki{\k8}{\k8}ko{\k8}{\k8}e{\k8}{\k8}na{\k8}{\k13}i {\k8}{\k13}no {\k8}{\k46}ka
 Dialogue: 1,0:0:32.62,0:0:36.29,Default,,0000,0000,0000,,{\k100}{\k8}ha{\k8}{\k8}ge{\k13}{\k8}shi{\k8}{\k29}i {\k13}{\k8}ka{\k8}{\k13}ze {\k4}{\k17}no {\k8}{\k8}sa{\k8}{\k8}sa{\k8}{\k8}ya{\k8}{\k13}ki {\k8}{\k42}ga

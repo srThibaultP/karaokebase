@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Chikyû Sentai Fiveman
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:4.80,0:0:7.80,Default,,0000,0000,0000,,{\k100}{\kf13}chi{\kf17}kyu{\kf17}u {\kf13}sen{\kf38}tai {\kf29}{\kf21}FIVE{\kf54}MAN
 Dialogue: 1,0:0:12.26,0:0:15.01,Default,,0000,0000,0000,,{\k100}{\kf29}ONE {\kf33}TWO {\kf25}THREE {\kf29}FOUR {\kf58}FIVE
 Dialogue: 1,0:0:14.39,0:0:17.56,Default,,0000,0000,0000,,{\k100}{\kf29}FI{\kf21}VE{\kf167}MAN

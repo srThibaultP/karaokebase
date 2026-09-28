@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Kinkyu Hasshin!! Ohranger
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:3.92,0:0:7.76,Default,,0000,0000,0000,,{\k100}{\kf17}S{\kf21}C{\kf38}RAM{\kf17}B{\kf38}LE! {\kf33}S{\kf21}C{\kf13}RAM{\kf21}{\kf25}B{\kf42}LE!
 Dialogue: 1,0:0:6.76,0:0:9.72,Default,,0000,0000,0000,,{\k100}{\kf29}hi{\kf21}bi{\kf25}ku {\kf25}S{\kf25}I{\kf25}RE{\kf46}N
 Dialogue: 1,0:0:8.72,0:0:10.59,Default,,0000,0000,0000,,{\k100}{\kf21}OH{\kf21}{\kf17}RAN{\kf29}GER!

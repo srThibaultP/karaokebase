@@ -6,7 +6,7 @@
   "medias": [
     {
       "default": true,
-      "duration": 97,
+      "duration": 96,
       "filename": "5200e345-d877-4197-8a32-f9ce81724225.mp4",
       "filesize": 12635072,
       "loudnorm": "-12.30,-0.58,6.60,-22.62,-1.23",
@@ -24,9 +24,9 @@
     "created_at": "2017-10-11T17:01:10.000Z",
     "ignoreHooks": false,
     "kid": "5200e345-d877-4197-8a32-f9ce81724225",
-    "modified_at": "2024-08-30T09:51:03.384Z",
+    "modified_at": "2026-09-27T15:15:37.019Z",
     "repository": "kara.moe",
-    "songname": "JPN - Triangle Heart ~Sweet Songs Forever~ - OVA OP - Trust You're Truth Ashita wo Mamoru Yakusoku",
+    "songname": "JPN - Triangle Heart ~Sweet Songs Forever~ - OVA OP - Trust You're Truth: Ashita wo Mamoru Yakusoku",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"

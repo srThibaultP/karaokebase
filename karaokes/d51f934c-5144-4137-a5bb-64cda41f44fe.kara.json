@@ -24,12 +24,12 @@
     "created_at": "2024-01-10T03:43:41.749Z",
     "ignoreHooks": false,
     "kid": "d51f934c-5144-4137-a5bb-64cda41f44fe",
-    "modified_at": "2024-08-09T15:22:18.901Z",
+    "modified_at": "2026-09-27T10:08:03.678Z",
     "parents": [
       "8ffe8e7a-8b8a-4713-90be-3de6788c9e7c"
     ],
     "repository": "kara.moe",
-    "songname": "JPN - Shoujo Kageki Revue Starlight Movie - MOVIE IN - Pen Chikara Katana ~ Off Vocal Vers",
+    "songname": "JPN - Shôjo☆Kageki Revue Starlight Movie - MOVIE IN - Pen:Chikara:Katana ~ Off Vocal Vers",
     "tags": {
       "authors": [
         "7848b5dc-a5df-4577-b640-147be5288cec"
@@ -53,7 +53,8 @@
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
       ],
       "misc": [
-        "86705d4b-24e4-4756-9687-2b9c98bcf366"
+        "86705d4b-24e4-4756-9687-2b9c98bcf366",
+        "1d6ceadf-a885-47e5-b23b-c07bf668a424"
       ],
       "origins": [
         "c8ca9dea-d8b4-48fe-8427-d911653232e9"
@@ -70,9 +71,9 @@
       ],
       "songwriters": [
         "089c08f0-b10d-4664-a21a-016aa04d2710",
+        "1a18089a-ec50-4a5d-97eb-f82b6c80c518",
         "638043e4-fee4-42c2-9843-3bcf0974c490",
-        "ead196cc-e1e3-43a4-8804-dd4199e89c4e",
-        "1a18089a-ec50-4a5d-97eb-f82b6c80c518"
+        "ead196cc-e1e3-43a4-8804-dd4199e89c4e"
       ],
       "versions": [
         "c0cc87b9-55b9-40f0-878a-fbb9e34c151e"

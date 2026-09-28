@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Chikyû Kôkô
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:10.13,0:0:15.89,Default,,0000,0000,0000,,{\k100}{\kf33}ko{\kf17}no {\kf21}{\kf25}da{\kf33}i{\kf38}chi {\kf54}to {\kf38}{\kf17}ko{\kf21}{\kf29}no {\kf33}mi{\kf33}do{\kf29}ri {\kf54}to
 Dialogue: 1,0:0:15.26,0:0:18.60,Default,,0000,0000,0000,,{\k100}{\kf33}ko{\kf33}no {\kf29}a{\kf33}sa{\kf33}hi {\kf71}to
 Dialogue: 1,0:0:17.89,0:0:24.73,Default,,0000,0000,0000,,{\k100}{\kf29}ko{\kf38}no {\kf33}shi{\kf25}ze{\kf38}n {\kf67}wo {\kf29}{\kf38}ko{\kf38}ko{\kf63}ro {\kf25}{\kf13}ka{\kf21}{\kf129}ra

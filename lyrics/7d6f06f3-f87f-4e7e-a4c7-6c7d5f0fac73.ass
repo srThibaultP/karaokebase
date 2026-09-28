@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Ogoe de Utaeba
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:7.59,0:0:15.47,Default,,0000,0000,0000,,{\k100}{\kf17}o{\kf17}o{\kf25}go{\kf29}e {\kf46}de {\kf25}u{\kf21}ta{\kf25}e{\kf88}ba {\kf75}{\kf21}o{\kf25}o{\kf29}zo{\kf29}ra {\kf46}ga {\kf21}wa{\kf21}ra{\kf29}u {\kf100}yo
 Dialogue: 1,0:0:15.10,0:0:20.18,Default,,0000,0000,0000,,{\k100}{\kf38}i{\kf21}tsu{\kf17}de{\kf21}{\kf50}mo {\kf29}a{\kf42}o{\kf29}i {\kf29}chi{\kf25}kyu{\kf21}u {\kf21}{\kf67}wa
 Dialogue: 1,0:0:19.43,0:0:23.77,Default,,0000,0000,0000,,{\k100}{\kf38}ko{\kf33}ta{\kf29}e{\kf121}te {\kf25}ku{\kf21}re{\kf67}ru

@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:29.000Z",
+    "ignoreHooks": false,
     "kid": "ed2d52cc-8614-49d1-879b-b7e8a4812d6c",
-    "modified_at": "2021-02-25T13:19:56.330Z",
+    "modified_at": "2026-09-27T11:01:17.996Z",
     "repository": "kara.moe",
-    "songname": "JPN - Tennis no Oujisama - OP8 - Dream Believer",
+    "songname": "JPN - Tennis no Ôjisama - OP8 - Dream Believer",
     "songorder": 8,
     "tags": {
       "authors": [

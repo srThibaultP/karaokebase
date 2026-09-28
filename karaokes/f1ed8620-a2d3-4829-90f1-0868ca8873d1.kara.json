@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:38.000Z",
+    "ignoreHooks": false,
     "kid": "f1ed8620-a2d3-4829-90f1-0868ca8873d1",
-    "modified_at": "2021-02-25T13:34:09.749Z",
+    "modified_at": "2026-09-27T15:41:42.055Z",
     "repository": "kara.moe",
     "songname": "JPN - Uta no Prince-sama ~ Maji Love 1000% - OP - Orpheus",
     "tags": {

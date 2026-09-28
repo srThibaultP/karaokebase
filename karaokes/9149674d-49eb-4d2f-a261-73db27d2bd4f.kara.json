@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:03:09.000Z",
+    "ignoreHooks": false,
     "kid": "9149674d-49eb-4d2f-a261-73db27d2bd4f",
-    "modified_at": "2021-02-25T10:51:09.567Z",
+    "modified_at": "2026-09-27T13:07:41.417Z",
     "repository": "kara.moe",
     "songname": "JPN - Battle Fever J - ED - Yuusha ga iku",
     "tags": {
@@ -31,13 +32,16 @@
         "dcbca6be-d3ce-4e78-9f54-1ef02e3a1a0e"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "creators": [
         "e32b14df-502b-45fa-9ca5-37554a63a4d7"
       ],
       "families": [
         "5391f9fe-638c-415f-8dc9-958e3a2c5787"
+      ],
+      "genres": [
+        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ],
       "groups": [
         "57e5e0c0-e02e-4871-a6cb-d48ea604ebab"
@@ -60,14 +64,11 @@
       "songwriters": [
         "c8cc27d8-1322-4346-9fce-8f69001f0445",
         "fe8d4d2d-1479-46c7-9730-191d2d3de07c"
-      ],
-      "genres": [
-        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ]
     },
     "titles": {
-      "qro": "Yuusha ga iku",
-      "jpn": "(勇者が行く"
+      "jpn": "(勇者が行く",
+      "qro": "Yuusha ga iku"
     },
     "titles_default_language": "qro",
     "year": 1979

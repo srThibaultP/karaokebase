@@ -4,38 +4,64 @@ ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
-PlayResX: 848
-PlayResY: 480
+PlayResX: 0
+PlayResY: 0
 Original Timing: Karaoke Mugen
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,38,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,4.4,0,8,11,11,15,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:00.00,0:00:02.30,Default,,0,0,0,,{\k36.70337003670336}{\kf20}On {\kf20}sait {\kf17}{\kf30}pas {\kf27}pour{\kf80}quoi
-Dialogue: 1,0:00:01.30,0:00:04.70,Default,,0,0,0,,{\k100}{\kf27}les {\kf13}é{\kf20}{\kf13}checs {\kf20}{\kf7}sont {\kf27}{\kf7}ses {\kf20}{\kf7}a{\kf27}{\kf53}mis,
-Dialogue: 1,0:00:03.90,0:00:08.94,Default,,0,0,0,,{\k100}{\kf10}est-ce {\kf17}{\kf7}qu'il {\kf27}{\kf30}est {\kf40}{\kf37}ma{\kf23}{\kf50}so {\kf20}{\kf7}ou{\kf27} {\kf20}{\kf83}quoi
-Dialogue: 1,0:00:08.64,0:00:12.87,Default,,0,0,0,,{\k100}{\kf7}DARK{\kf27}{\kf63}SOUL {\kf33}T'E{\kf17}{\kf77}COEURE
-Dialogue: 1,0:00:23.69,0:00:26.66,Default,,0,0,0,,{\k100}{\kf17}On {\kf17}di{\kf17}rait {\kf10}que {\kf10}c'est {\kf23}{\kf13}d'la {\kf17}ma{\kf20}{\kf53}gie,
-Dialogue: 1,0:00:26.29,0:00:29.66,Default,,0,0,0,,{\k100}{\kf13}aus{\kf3}si{\kf17}{\kf17}tôt {\kf17}que {\kf13}les {\kf20}{\kf13}dés {\kf13}rou{\kf23}{\kf10}lent {\kf27}{\kf50}sous
-Dialogue: 1,0:00:28.93,0:00:34.03,Default,,0,0,0,,{\k100}{\kf3}ses {\kf30}{\kf17}dix {\kf77}doigts, {\kf33}{\kf10}il {\kf27}{\kf33}est {\kf17}{\kf47}dans {\kf30}le {\kf87}trou
-Dialogue: 1,0:00:34.27,0:00:37.27,Default,,0,0,0,,{\k100}{\kf13}Un {\kf13}nou{\kf17}veau {\kf10}jet {\kf17}de {\kf23}{\kf13}dés {\kf20}pour {\kf17}{\kf57}toi,
-Dialogue: 1,0:00:36.87,0:00:40.44,Default,,0,0,0,,{\k100}{\kf10}que {\kf23}{\kf7}tu {\kf20}{\kf13}vas {\kf20}{\kf17}en{\kf13}core {\kf23}{\kf10}ra{\kf23}{\kf77}ter
-Dialogue: 1,0:00:40.47,0:00:46.08,Default,,0,0,0,,{\k100}{\kf7}C'est {\kf23}{\kf7}par{\kf27}{\kf13}ti {\kf20}{\kf50}tu {\kf27}lan{\kf17}{\kf17}ces {\kf17}{\kf53}main{\kf57}tenant {\kf10}les {\kf17}{\kf100}dés
-Dialogue: 1,0:00:45.41,0:00:48.48,Default,,0,0,0,,{\k100}{\kf33}Et {\kf17}lors {\kf33}d'un {\kf10}com{\kf17}{\kf97}bat,
-Dialogue: 1,0:00:47.68,0:00:51.25,Default,,0,0,0,,{\k100}{\kf13}sur {\kf17}un {\kf23}jet {\kf17}{\kf10}d'a{\kf23}gi{\kf17}{\kf10}le{\kf20}{\kf107}té,
-Dialogue: 1,0:00:50.69,0:00:53.59,Default,,0,0,0,,{\k100}{\kf17}un {\kf20}{\kf10}é{\kf13}chec {\kf20}{\kf33}cri{\kf77}tique,
-Dialogue: 1,0:00:52.92,0:00:56.52,Default,,0,0,0,,{\k100}{\kf13}l'enne{\kf23}{\kf13}mi {\kf20}{\kf17}va {\kf10}pour {\kf30}{\kf10}te {\kf20}{\kf33}dé{\kf17}{\kf17}cou{\kf37}per,
-Dialogue: 1,0:00:55.96,0:01:00.89,Default,,0,0,0,,{\k100}{\kf10}et {\kf23}{\kf13}t'as {\kf20}{\kf10}plus {\kf23}{\kf10}de {\kf23}{\kf260}braaaaaaaaaaas
-Dialogue: 1,0:01:00.59,0:01:03.63,Default,,0,0,0,,{\k100}{\kf13}À {\kf3}for{\kf17}{\kf3}ce {\kf20}{\kf13}qu'il {\kf27}se {\kf20}chie {\kf10}des{\kf23}{\kf53}sus,
-Dialogue: 1,0:01:03.20,0:01:06.23,Default,,0,0,0,,{\k100}{\kf17}si {\kf3}tu {\kf17}{\kf17}fais {\kf13}par{\kf10}tie {\kf23}{\kf17}d'sa {\kf7}cô{\kf27}{\kf53}terie,
-Dialogue: 1,0:01:05.50,0:01:07.80,Default,,0,0,0,,{\k100}{\kf7}à {\kf23}{\kf10}tous {\kf27}{\kf7}les {\kf27}{\kf30}coups,
-Dialogue: 1,0:01:07.10,0:01:08.90,Default,,0,0,0,,{\k100}{\kf7}le {\kf30}{\kf7}per{\kf30}{\kf7}so de
-Dialogue: 1,0:01:08.14,0:01:11.37,Default,,0,0,0,,{\k100}{\kf7}DARK{\kf27}{\kf63}SOUL {\kf33}T'E{\kf17}{\kf77}COEURE
-Dialogue: 1,0:01:11.14,0:01:14.01,Default,,0,0,0,,{\k100}{\kf3}Une {\kf17}{\kf13}sé{\kf13}rie {\kf3}d'é{\kf17}{\kf3}checs {\kf23}{\kf17}tout {\kf3}à {\kf43}{\kf30}coup,
-Dialogue: 1,0:01:13.71,0:01:16.61,Default,,0,0,0,,{\k100}{\kf17}em{\kf3}pa{\kf17}{\kf3}thy {\kf17}{\kf13}et {\kf13}puis {\kf20}{\kf17}ar{\kf7}che{\kf27}{\kf37}ry,
-Dialogue: 1,0:01:16.01,0:01:20.01,Default,,0,0,0,,{\k100}{\kf10}il {\kf27}{\kf3}é{\kf30}{\kf7}ba{\kf30}{\kf27}hit {\kf37}{\kf7}toute {\kf23}{\kf37}l'as{\kf63}so
-Dialogue: 1,0:01:19.01,0:01:23.35,Default,,0,0,0,,{\k100}{\kf7}a{\kf63}{\kf37}vec {\kf27}{\kf67}ses {\kf17}dé{\kf17}{\kf17}é{\kf83}és !
-Dialogue: 1,0:01:22.58,0:01:27.52,Default,,0,0,0,,{\k100}{\kf7}DARK{\kf30}{\kf50}SOUL {\kf17}{\kf13}T'E{\kf23}{\kf254}COEURE !
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:00.36,0:00:02.30,Default,,0,0,0,karaoke,{\kf20.70337003670336}On {\kf20}sait {\kf17}{\kf30}pas {\kf27}pour{\kf80}quoi
+Comment: 1,0:00:02.30,0:00:04.70,Default,,0,0,0,karaoke,{\kf27}les {\kf13}é{\kf20}{\kf13}checs {\kf20}{\kf7}sont {\kf27}{\kf7}ses {\kf20}{\kf7}a{\kf27}{\kf53}mis,
+Comment: 1,0:00:04.90,0:00:08.94,Default,,0,0,0,karaoke,{\kf10}est-ce {\kf17}{\kf7}qu'il {\kf27}{\kf30}est {\kf40}{\kf37}ma{\kf23}{\kf50}so {\kf20}{\kf7}ou{\kf27} {\kf20}{\kf83}quoi
+Comment: 1,0:00:09.64,0:00:12.87,Default,,0,0,0,karaoke,{\kf7}DARK{\kf27}{\kf63}SOUL {\kf33}T'E{\kf17}{\kf77}COEURE
+Comment: 1,0:00:24.69,0:00:26.66,Default,,0,0,0,karaoke,{\kf17}On {\kf17}di{\kf17}rait {\kf10}que {\kf10}c'est {\kf23}{\kf13}d'la {\kf17}ma{\kf20}{\kf53}gie,
+Comment: 1,0:00:27.29,0:00:29.66,Default,,0,0,0,karaoke,{\kf13}aus{\kf3}si{\kf17}{\kf17}tôt {\kf17}que {\kf13}les {\kf20}{\kf13}dés {\kf13}rou{\kf23}{\kf10}lent {\kf27}{\kf50}sous
+Comment: 1,0:00:29.93,0:00:34.03,Default,,0,0,0,karaoke,{\kf3}ses {\kf30}{\kf17}dix {\kf77}doigts, {\kf33}{\kf10}il {\kf27}{\kf33}est {\kf17}{\kf47}dans {\kf30}le {\kf87}trou
+Comment: 1,0:00:35.27,0:00:37.27,Default,,0,0,0,karaoke,{\kf13}Un {\kf13}nou{\kf17}veau {\kf10}jet {\kf17}de {\kf23}{\kf13}dés {\kf20}pour {\kf17}{\kf57}toi,
+Comment: 1,0:00:37.87,0:00:40.44,Default,,0,0,0,karaoke,{\kf10}que {\kf23}{\kf7}tu {\kf20}{\kf13}vas {\kf20}{\kf17}en{\kf13}core {\kf23}{\kf10}ra{\kf23}{\kf77}ter
+Comment: 1,0:00:41.47,0:00:46.08,Default,,0,0,0,karaoke,{\kf7}C'est {\kf23}{\kf7}par{\kf27}{\kf13}ti {\kf20}{\kf50}tu {\kf27}lan{\kf17}{\kf17}ces {\kf17}{\kf53}main{\kf57}tenant {\kf10}les {\kf17}{\kf100}dés
+Comment: 1,0:00:46.41,0:00:48.48,Default,,0,0,0,karaoke,{\kf33}Et {\kf17}lors {\kf33}d'un {\kf10}com{\kf17}{\kf97}bat,
+Comment: 1,0:00:48.68,0:00:51.25,Default,,0,0,0,karaoke,{\kf13}sur {\kf17}un {\kf23}jet {\kf17}{\kf10}d'a{\kf23}gi{\kf17}{\kf10}le{\kf20}{\kf107}té,
+Comment: 1,0:00:51.69,0:00:53.59,Default,,0,0,0,karaoke,{\kf17}un {\kf20}{\kf10}é{\kf13}chec {\kf20}{\kf33}cri{\kf77}tique,
+Comment: 1,0:00:53.92,0:00:56.52,Default,,0,0,0,karaoke,{\kf13}l'enne{\kf23}{\kf13}mi {\kf20}{\kf17}va {\kf10}pour {\kf30}{\kf10}te {\kf20}{\kf33}dé{\kf17}{\kf17}cou{\kf37}per,
+Comment: 1,0:00:56.96,0:01:00.89,Default,,0,0,0,karaoke,{\kf10}et {\kf23}{\kf13}t'as {\kf20}{\kf10}plus {\kf23}{\kf10}de {\kf23}{\kf260}braaaaaaaaaaas
+Comment: 1,0:01:01.59,0:01:03.63,Default,,0,0,0,karaoke,{\kf13}À {\kf3}for{\kf17}{\kf3}ce {\kf20}{\kf13}qu'il {\kf27}se {\kf20}chie {\kf10}des{\kf23}{\kf53}sus,
+Comment: 1,0:01:04.20,0:01:06.23,Default,,0,0,0,karaoke,{\kf17}si {\kf3}tu {\kf17}{\kf17}fais {\kf13}par{\kf10}tie {\kf23}{\kf17}d'sa {\kf7}cô{\kf27}{\kf53}terie,
+Comment: 1,0:01:06.50,0:01:07.80,Default,,0,0,0,karaoke,{\kf7}à {\kf23}{\kf10}tous {\kf27}{\kf7}les {\kf27}{\kf30}coups,
+Comment: 1,0:01:08.10,0:01:08.90,Default,,0,0,0,karaoke,{\kf7}le {\kf30}{\kf7}per{\kf30}{\kf7}so de
+Comment: 1,0:01:09.14,0:01:11.37,Default,,0,0,0,karaoke,{\kf7}DARK{\kf27}{\kf63}SOUL {\kf33}T'E{\kf17}{\kf77}COEURE
+Comment: 1,0:01:12.14,0:01:14.01,Default,,0,0,0,karaoke,{\kf3}Une {\kf17}{\kf13}sé{\kf13}rie {\kf3}d'é{\kf17}{\kf3}checs {\kf23}{\kf17}tout {\kf3}à {\kf43}{\kf30}coup,
+Comment: 1,0:01:14.71,0:01:16.61,Default,,0,0,0,karaoke,{\kf17}em{\kf3}pa{\kf17}{\kf3}thy {\kf17}{\kf13}et {\kf13}puis {\kf20}{\kf17}ar{\kf7}che{\kf27}{\kf37}ry,
+Comment: 1,0:01:17.01,0:01:20.01,Default,,0,0,0,karaoke,{\kf10}il {\kf27}{\kf3}é{\kf30}{\kf7}ba{\kf30}{\kf27}hit {\kf37}{\kf7}toute {\kf23}{\kf37}l'as{\kf63}so
+Comment: 1,0:01:20.01,0:01:23.35,Default,,0,0,0,karaoke,{\kf7}a{\kf63}{\kf37}vec {\kf27}{\kf67}ses {\kf17}dé{\kf17}{\kf17}é{\kf83}és !
+Comment: 1,0:01:23.58,0:01:27.52,Default,,0,0,0,karaoke,{\kf7}DARK{\kf30}{\kf50}SOUL {\kf17}{\kf13}T'E{\kf23}{\kf254}COEURE !
+Dialogue: 1,0:00:00.00,0:00:02.50,Default,,0,0,0,fx,{\k36\fad(360,200)}{\kf20.70337003670336}On {\kf20}sait {\kf17}{\kf30}pas {\kf27}pour{\kf80}quoi
+Dialogue: 1,0:00:01.40,0:00:04.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf27}les {\kf13}é{\kf20}{\kf13}checs {\kf20}{\kf7}sont {\kf27}{\kf7}ses {\kf20}{\kf7}a{\kf27}{\kf53}mis,
+Dialogue: 1,0:00:04.00,0:00:09.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf10}est-ce {\kf17}{\kf7}qu'il {\kf27}{\kf30}est {\kf40}{\kf37}ma{\kf23}{\kf50}so {\kf20}{\kf7}ou{\kf27} {\kf20}{\kf83}quoi
+Dialogue: 1,0:00:08.74,0:00:13.07,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf7}DARK{\kf27}{\kf63}SOUL {\kf33}T'E{\kf17}{\kf77}COEURE
+Dialogue: 1,0:00:23.79,0:00:26.86,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf17}On {\kf17}di{\kf17}rait {\kf10}que {\kf10}c'est {\kf23}{\kf13}d'la {\kf17}ma{\kf20}{\kf53}gie,
+Dialogue: 1,0:00:26.39,0:00:29.86,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}aus{\kf3}si{\kf17}{\kf17}tôt {\kf17}que {\kf13}les {\kf20}{\kf13}dés {\kf13}rou{\kf23}{\kf10}lent {\kf27}{\kf50}sous
+Dialogue: 1,0:00:29.03,0:00:34.23,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf3}ses {\kf30}{\kf17}dix {\kf77}doigts, {\kf33}{\kf10}il {\kf27}{\kf33}est {\kf17}{\kf47}dans {\kf30}le {\kf87}trou
+Dialogue: 1,0:00:34.37,0:00:37.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}Un {\kf13}nou{\kf17}veau {\kf10}jet {\kf17}de {\kf23}{\kf13}dés {\kf20}pour {\kf17}{\kf57}toi,
+Dialogue: 1,0:00:36.97,0:00:40.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf10}que {\kf23}{\kf7}tu {\kf20}{\kf13}vas {\kf20}{\kf17}en{\kf13}core {\kf23}{\kf10}ra{\kf23}{\kf77}ter
+Dialogue: 1,0:00:40.57,0:00:46.28,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf7}C'est {\kf23}{\kf7}par{\kf27}{\kf13}ti {\kf20}{\kf50}tu {\kf27}lan{\kf17}{\kf17}ces {\kf17}{\kf53}main{\kf57}tenant {\kf10}les {\kf17}{\kf100}dés
+Dialogue: 1,0:00:45.51,0:00:48.68,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf33}Et {\kf17}lors {\kf33}d'un {\kf10}com{\kf17}{\kf97}bat,
+Dialogue: 1,0:00:47.78,0:00:51.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}sur {\kf17}un {\kf23}jet {\kf17}{\kf10}d'a{\kf23}gi{\kf17}{\kf10}le{\kf20}{\kf107}té,
+Dialogue: 1,0:00:50.79,0:00:53.79,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf17}un {\kf20}{\kf10}é{\kf13}chec {\kf20}{\kf33}cri{\kf77}tique,
+Dialogue: 1,0:00:53.02,0:00:56.72,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}l'enne{\kf23}{\kf13}mi {\kf20}{\kf17}va {\kf10}pour {\kf30}{\kf10}te {\kf20}{\kf33}dé{\kf17}{\kf17}cou{\kf37}per,
+Dialogue: 1,0:00:56.06,0:01:01.09,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf10}et {\kf23}{\kf13}t'as {\kf20}{\kf10}plus {\kf23}{\kf10}de {\kf23}{\kf260}braaaaaaaaaaas
+Dialogue: 1,0:01:00.69,0:01:03.83,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}À {\kf3}for{\kf17}{\kf3}ce {\kf20}{\kf13}qu'il {\kf27}se {\kf20}chie {\kf10}des{\kf23}{\kf53}sus,
+Dialogue: 1,0:01:03.30,0:01:06.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf17}si {\kf3}tu {\kf17}{\kf17}fais {\kf13}par{\kf10}tie {\kf23}{\kf17}d'sa {\kf7}cô{\kf27}{\kf53}terie,
+Dialogue: 1,0:01:05.60,0:01:08.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf7}à {\kf23}{\kf10}tous {\kf27}{\kf7}les {\kf27}{\kf30}coups,
+Dialogue: 1,0:01:07.20,0:01:09.10,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf7}le {\kf30}{\kf7}per{\kf30}{\kf7}so de
+Dialogue: 1,0:01:08.24,0:01:11.57,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf7}DARK{\kf27}{\kf63}SOUL {\kf33}T'E{\kf17}{\kf77}COEURE
+Dialogue: 1,0:01:11.24,0:01:14.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf3}Une {\kf17}{\kf13}sé{\kf13}rie {\kf3}d'é{\kf17}{\kf3}checs {\kf23}{\kf17}tout {\kf3}à {\kf43}{\kf30}coup,
+Dialogue: 1,0:01:13.81,0:01:16.81,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf17}em{\kf3}pa{\kf17}{\kf3}thy {\kf17}{\kf13}et {\kf13}puis {\kf20}{\kf17}ar{\kf7}che{\kf27}{\kf37}ry,
+Dialogue: 1,0:01:16.11,0:01:20.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf10}il {\kf27}{\kf3}é{\kf30}{\kf7}ba{\kf30}{\kf27}hit {\kf37}{\kf7}toute {\kf23}{\kf37}l'as{\kf63}so
+Dialogue: 1,0:01:19.11,0:01:23.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf7}a{\kf63}{\kf37}vec {\kf27}{\kf67}ses {\kf17}dé{\kf17}{\kf17}é{\kf83}és !
+Dialogue: 1,0:01:22.68,0:01:27.72,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf7}DARK{\kf30}{\kf50}SOUL {\kf17}{\kf13}T'E{\kf23}{\kf254}COEURE !

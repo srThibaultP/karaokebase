@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2018-11-18T15:32:36.000Z",
+    "ignoreHooks": false,
     "kid": "3bca87f4-6b16-4083-a1be-c8d8266e979d",
-    "modified_at": "2021-02-25T13:20:31.194Z",
+    "modified_at": "2026-09-27T12:59:22.587Z",
     "repository": "kara.moe",
     "songname": "JPN - Tetsujin Tiger Seven - OP - Tetsujin Tiger Seven",
     "tags": {
@@ -31,13 +32,16 @@
         "4607780c-f1ef-47cf-9c1c-b13e8f731699"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "creators": [
         "d3250c84-51d4-432e-a281-f062f9e731cc"
       ],
       "families": [
         "5391f9fe-638c-415f-8dc9-958e3a2c5787"
+      ],
+      "genres": [
+        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ],
       "groups": [
         "57e5e0c0-e02e-4871-a6cb-d48ea604ebab"
@@ -60,14 +64,11 @@
       "songwriters": [
         "158cd3a3-f773-4405-bca3-c21dbcf4b3e5",
         "243e8e37-f06b-4260-bc77-07b341904562"
-      ],
-      "genres": [
-        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ]
     },
     "titles": {
-      "qro": "Tetsujin Tiger Seven",
-      "jpn": "鉄人タイガーセブン"
+      "jpn": "鉄人タイガーセブン",
+      "qro": "Tetsujin Tiger Seven"
     },
     "titles_default_language": "qro",
     "year": 1973

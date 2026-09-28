@@ -12,11 +12,11 @@ Original Timing: amoethyst
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Mahiru,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
 Style: Karen,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
-Style: KaMa,Arial,24,&H00FFFFFF,&H00FF00BC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: KaMa,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:29.57,0:00:31.57,Mahiru,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Mahiru,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:31.65,0:00:35.17,Mahiru,,0,0,0,karaoke,{\k32}chot{\k219}to {\k32}mat{\k69}te
 Comment: 0,0:00:52.85,0:00:57.50,Mahiru,,0,0,0,karaoke,{\k36}ac{\k61}chi {\k22}mi{\k32}na{\k31}i {\k74}de {\k31}kei{\k63}en {\k18}shi{\k32}na{\k32}i {\k33}de
 Comment: 0,0:00:57.90,0:01:02.16,Mahiru,,0,0,0,karaoke,{\k34}mot{\k61}to {\k20}ma{\k31}s{\k29}su{\k46}gu {\k17}wa{\k16}ta{\k29}shi {\k20}da{\k12}ke {\k31}wo {\k17}mi{\k13}te{\k23}te {\k27}yo

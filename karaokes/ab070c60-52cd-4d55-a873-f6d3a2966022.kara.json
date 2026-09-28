@@ -24,9 +24,9 @@
     "created_at": "2019-06-20T20:25:09.000Z",
     "ignoreHooks": false,
     "kid": "ab070c60-52cd-4d55-a873-f6d3a2966022",
-    "modified_at": "2024-05-06T15:36:38.661Z",
+    "modified_at": "2026-09-27T10:05:03.452Z",
     "repository": "kara.moe",
-    "songname": "JPN - Shoujo Kageki Revue Starlight - IN - The Star Knows",
+    "songname": "JPN - Shôjo☆Kageki Revue Starlight - IN - The Star Knows",
     "tags": {
       "authors": [
         "f7ce702e-09aa-4b22-8742-0c99cd7a5409"
@@ -46,6 +46,9 @@
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "misc": [
+        "1d6ceadf-a885-47e5-b23b-c07bf668a424"
       ],
       "origins": [
         "938de218-5343-4865-94d3-fb33f2eaa152"

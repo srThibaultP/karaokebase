@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:56.000Z",
+    "ignoreHooks": false,
     "kid": "96b12a43-35c2-4f3a-b4fa-bbe98c2182e0",
-    "modified_at": "2021-02-25T13:15:51.853Z",
+    "modified_at": "2026-09-27T10:42:45.546Z",
     "repository": "kara.moe",
-    "songname": "JPN - Taishou Yakyuu Musume - IN - Painopainopai (Tokyo Bushi)",
+    "songname": "JPN - Taishô Yakyû Musume. - IN - Painopainopai (Tokyo Bushi)",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -63,8 +64,8 @@
       ]
     },
     "titles": {
-      "qro": "Painopainopai (Tokyo Bushi)",
-      "jpn": "パイノパイノパイ(東京節)"
+      "jpn": "パイノパイノパイ(東京節)",
+      "qro": "Painopainopai (Tokyo Bushi)"
     },
     "titles_default_language": "qro",
     "year": 2009

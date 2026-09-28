@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T15:01:05.000Z",
+    "ignoreHooks": false,
     "kid": "0d4c2fff-f541-4e1c-a9fb-46b2b446d170",
-    "modified_at": "2021-02-28T12:22:20.255Z",
+    "modified_at": "2026-09-27T10:46:59.131Z",
     "repository": "kara.moe",
     "songname": "JPN - Tales of Phantasia - GAME OP - Yume wa Owaranai",
     "tags": {
@@ -36,11 +37,17 @@
       "creators": [
         "a2b130fa-7274-404a-9e88-500cc3862d0b"
       ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
       "groups": [
         "24db50aa-a126-4d34-a48a-e45db79c4245"
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ],
       "series": [
         "13d84dd7-d3f4-40f1-89c7-13e747f2e247"
@@ -57,14 +64,11 @@
       ],
       "franchises": [
         "457ab7f6-9644-4493-b61b-8778400aaf54"
-      ],
-      "origins": [
-        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ]
     },
     "titles": {
-      "qro": "Yume wa Owaranai",
-      "jpn": "夢は終わらない"
+      "jpn": "夢は終わらない",
+      "qro": "Yume wa Owaranai"
     },
     "titles_default_language": "qro",
     "year": 1995

@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Shouri da! Akumaizer 3
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -28,5 +29,3 @@ Dialogue: 1,0:00:52.39,0:00:56.29,Default,,0000,0000,0000,,{\k100}{\k20}i{\k13}{
 Dialogue: 1,0:00:55.46,0:00:59.39,Default,,0000,0000,0000,,{\k100}{\k10}A{\k10}{\k13}KU{\k7}{\k17}MA{\k7}{\k17}I{\k10}{\kf204}ZER
 Dialogue: 1,0:00:58.69,0:01:02.66,Default,,0000,0000,0000,,{\k100}{\k10}A{\k7}{\k13}KU{\k10}{\k10}MA{\k10}{\k13}I{\k10}{\kf214}ZER
 Dialogue: 1,0:01:01.93,0:01:06.67,Default,,0000,0000,0000,,{\k100}{\k20}A{\k13}{\k23}KU{\k13}{\k20}MA{\k7}{\k33}I{\k10}{\kf143}ZER {\k7}{\kf83}THREE
-
-

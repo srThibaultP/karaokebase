@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:28.000Z",
+    "ignoreHooks": false,
     "kid": "524fde3d-dd4b-4462-97c3-867ceecb97be",
-    "modified_at": "2021-02-25T13:25:45.659Z",
+    "modified_at": "2026-09-27T15:03:43.988Z",
     "repository": "kara.moe",
     "songname": "JPN - Tokyo Underground - ED1 - Kakusei Toshi",
     "songorder": 1,
@@ -63,8 +64,8 @@
       ]
     },
     "titles": {
-      "qro": "Kakusei Toshi",
-      "jpn": "覚醒都市"
+      "jpn": "覚醒都市",
+      "qro": "Kakusei Toshi"
     },
     "titles_default_language": "qro",
     "year": 2002

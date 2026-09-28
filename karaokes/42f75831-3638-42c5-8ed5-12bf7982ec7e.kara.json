@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:24.000Z",
+    "ignoreHooks": false,
     "kid": "42f75831-3638-42c5-8ed5-12bf7982ec7e",
-    "modified_at": "2021-05-22T22:12:51.423Z",
+    "modified_at": "2026-09-27T10:17:42.945Z",
     "repository": "kara.moe",
-    "songname": "JPN - Star Ocean First Departure - PSP GAME OP - HEART",
+    "songname": "JPN - Star Ocean First Departure - GAME PSP OP - Heart",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -36,11 +37,17 @@
       "creators": [
         "60195b73-1504-4121-a0fc-6f26708ae524"
       ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ],
       "platforms": [
         "6b101aff-4b7b-4b0d-b35e-0f1b67e38c9b"
@@ -60,9 +67,6 @@
       ],
       "franchises": [
         "223d6319-1a97-4537-ac35-ae454fe1cdc5"
-      ],
-      "origins": [
-        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ]
     },
     "titles": {

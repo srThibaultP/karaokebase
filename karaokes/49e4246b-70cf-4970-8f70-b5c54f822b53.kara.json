@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T15:01:05.000Z",
+    "ignoreHooks": false,
     "kid": "49e4246b-70cf-4970-8f70-b5c54f822b53",
-    "modified_at": "2021-02-28T12:22:19.284Z",
+    "modified_at": "2026-09-27T09:50:56.141Z",
     "parents": [
       "8cdf1870-9f49-4555-b29d-530ce9668462"
     ],
@@ -69,8 +70,8 @@
       ]
     },
     "titles": {
-      "qro": "Kagirinai Yokubou no Naka ni",
-      "jpn": "限りない欲望の中に"
+      "jpn": "限りない欲望の中に",
+      "qro": "Kagirinai Yokubou no Naka ni"
     },
     "titles_default_language": "qro",
     "year": 1996

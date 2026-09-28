@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Wakasa Wa Plasma
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:0.60,0:0:4.00,Default,,0000,0000,0000,,{\k100}{\kf20}P{\kf17}LA{\kf17}S{\kf30}MA {\kf53}{\kf30}P{\kf17}LA{\kf20}S{\kf37}MA
 Dialogue: 1,0:0:3.57,0:0:7.84,Default,,0000,0000,0000,,{\k100}{\kf20}hi{\kf20}to{\kf17}{\kf23}ri {\kf13}yo{\kf23}{\kf17}ri {\kf23}{\kf23}fu{\kf20}ta{\kf20}ri {\kf20}ga {\kf20}i{\kf27}i {\kf40}sa
 Dialogue: 1,0:0:6.84,0:0:12.11,Default,,0000,0000,0000,,{\k100}{\kf20}fu{\kf27}ta{\kf23}ri {\kf17}yo{\kf23}{\kf13}ri {\kf30}{\kf20}sa{\kf27}n{\kf20}nin {\kf23}{\kf17}ga {\kf23}{\kf17}i{\kf127}i

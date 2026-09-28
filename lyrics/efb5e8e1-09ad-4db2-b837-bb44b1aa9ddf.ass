@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Gekisô Sentai Carranger
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:1.54,0:0:6.51,Default,,0000,0000,0000,,{\k100}{\kf25}ge{\kf17}ki{\kf25}sou {\kf17}sen{\kf50}tai {\kf29}{\kf163}Car{\kf17}ran{\kf54}ger
 Dialogue: 1,0:0:10.72,0:0:13.68,Default,,0000,0000,0000,,{\k100}{\kf17}mu{\kf17}ne {\kf13}ni {\kf25}{\kf17}a{\kf13}i {\kf38}wo {\kf17}da{\kf21}i{\kf21}te
 Dialogue: 1,0:0:12.89,0:0:16.68,Default,,0000,0000,0000,,{\k100}{\kf29}ku{\kf25}ru{\kf25}ma {\kf29}wo {\kf29}to{\kf29}ba{\kf29}shi{\kf25}ta{\kf58}ra

@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:16.000Z",
+    "ignoreHooks": false,
     "kid": "8e2d373c-01fb-45c1-9169-beb785201b81",
-    "modified_at": "2021-02-25T13:39:55.696Z",
+    "modified_at": "2026-09-27T16:12:37.125Z",
     "repository": "kara.moe",
     "songname": "JPN - Yorinuki Gintama-san - OP3 - Kanousei Girl",
     "songorder": 3,
@@ -70,8 +71,8 @@
       ]
     },
     "titles": {
-      "qro": "Kanousei Girl",
-      "jpn": "可能性ガール"
+      "jpn": "可能性ガール",
+      "qro": "Kanousei Girl"
     },
     "titles_default_language": "qro",
     "year": 2010

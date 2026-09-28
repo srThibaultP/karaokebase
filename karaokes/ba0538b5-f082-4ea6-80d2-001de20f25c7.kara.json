@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T15:02:32.000Z",
+    "ignoreHooks": false,
     "kid": "ba0538b5-f082-4ea6-80d2-001de20f25c7",
-    "modified_at": "2021-02-25T13:16:39.345Z",
+    "modified_at": "2026-09-27T10:47:26.008Z",
     "repository": "kara.moe",
-    "songname": "JPN - Tales of Rebirth - PS2 GAME OP - Good night",
+    "songname": "JPN - Tales of Rebirth - GAME PS2 OP - good night",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -36,11 +37,17 @@
       "creators": [
         "7e37aea2-311a-4b93-8059-ba7a8fad65d9"
       ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ],
       "platforms": [
         "2173004e-21da-45c9-9dfb-26014423c566"
@@ -60,9 +67,6 @@
       ],
       "franchises": [
         "457ab7f6-9644-4493-b61b-8778400aaf54"
-      ],
-      "origins": [
-        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ]
     },
     "titles": {

@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:39.000Z",
+    "ignoreHooks": false,
     "kid": "a61f6f9e-9e39-489a-8fd2-49991d44016c",
-    "modified_at": "2021-02-25T13:23:41.114Z",
+    "modified_at": "2026-09-27T11:18:23.094Z",
     "repository": "kara.moe",
     "songname": "JPN - Tiger & Bunny - OP2 - Missing Link",
     "songorder": 2,

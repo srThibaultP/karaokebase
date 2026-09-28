@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Hurricaneger Sanjô!
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:5.01,0:0:7.97,Default,,0000,0000,0000,,{\k100}{\kf17}nin{\kf13}puu {\kf17}sen{\kf33}tai {\kf23}{\kf17}HU{\kf13}RRI{\kf17}CANE{\kf47}GER
 Dialogue: 1,0:0:9.44,0:0:11.88,Default,,0000,0000,0000,,{\k100}{\kf20}shu{\kf20}shu {\kf20}{\kf23}to {\kf20}san{\kf20}{\kf20}jou
 Dialogue: 1,0:0:11.08,0:0:13.11,Default,,0000,0000,0000,,{\k100}{\kf20}san{\kf17}{\kf67}jou

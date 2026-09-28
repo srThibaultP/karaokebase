@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:25.000Z",
+    "ignoreHooks": false,
     "kid": "c7727511-d903-42fe-9d78-8e22029e3bba",
-    "modified_at": "2021-02-25T13:32:04.570Z",
+    "modified_at": "2026-09-27T15:37:55.357Z",
     "repository": "kara.moe",
-    "songname": "JPN - Umi Monogatari ~Anata ga Ite Kureta Koto~i - OP - Violet",
+    "songname": "JPN - Umi Monogatari ~Anata ga Ite Kureta Koto~i - OP - violet",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"

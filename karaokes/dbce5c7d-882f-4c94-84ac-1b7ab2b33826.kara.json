@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T15:01:15.000Z",
+    "ignoreHooks": false,
     "kid": "dbce5c7d-882f-4c94-84ac-1b7ab2b33826",
-    "modified_at": "2021-02-25T13:16:35.775Z",
+    "modified_at": "2026-09-27T10:45:52.179Z",
     "repository": "kara.moe",
-    "songname": "JPN - Tales of Graces f - PS3 GAME OP - Mamoritai ~White Wishes~",
+    "songname": "JPN - Tales of Graces f - GAME PS3 OP - Mamoritai ~White Wishes~",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -36,11 +37,17 @@
       "creators": [
         "c3e622d4-2686-4331-8691-d528c8647088"
       ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ],
       "platforms": [
         "7f63ff91-7961-4488-888d-4bf46eea3a2a"
@@ -60,14 +67,11 @@
       ],
       "franchises": [
         "457ab7f6-9644-4493-b61b-8778400aaf54"
-      ],
-      "origins": [
-        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ]
     },
     "titles": {
-      "qro": "Mamoritai ~White Wishes~",
-      "jpn": "まもりたい ～White Wishes～"
+      "jpn": "まもりたい ～White Wishes～",
+      "qro": "Mamoritai ~White Wishes~"
     },
     "titles_default_language": "qro",
     "year": 2009

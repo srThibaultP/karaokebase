@@ -22,13 +22,14 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:15.000Z",
+    "ignoreHooks": false,
     "kid": "d01f6040-8802-495e-9d33-3e7a932ba539",
-    "modified_at": "2021-05-22T22:20:44.094Z",
+    "modified_at": "2026-09-27T15:10:26.838Z",
     "parents": [
       "f6eb774a-d0fd-4bd8-b823-057468f85cf5"
     ],
     "repository": "kara.moe",
-    "songname": "JPN - Toriko Gourmet Survival 2 - PSP GAME OP - Guts Guts!!",
+    "songname": "JPN - Toriko Gourmet Survival 2 - GAME PSP OP - Guts Guts!!",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -39,11 +40,17 @@
       "creators": [
         "23099f49-8599-478e-9cc4-a77149a96777"
       ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
       "groups": [
         "ae613721-1fbe-480d-ba6b-d6d0702b184d"
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ],
       "platforms": [
         "6b101aff-4b7b-4b0d-b35e-0f1b67e38c9b"
@@ -63,9 +70,6 @@
       ],
       "franchises": [
         "0d02accf-72ce-404e-9443-a6fddb04a446"
-      ],
-      "origins": [
-        "dbedd6b3-d125-4cd8-aa32-c4175e4ca3a3"
       ]
     },
     "titles": {

@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:22.000Z",
+    "ignoreHooks": false,
     "kid": "dec4544b-0e66-453c-a6dc-100fd68cfaa7",
-    "modified_at": "2021-02-25T13:39:53.629Z",
+    "modified_at": "2026-09-27T16:13:01.643Z",
     "repository": "kara.moe",
     "songname": "JPN - Yorinuki Gintama-san - OP2 - Kaze no Gotoku",
     "songorder": 2,
@@ -69,8 +70,8 @@
       ]
     },
     "titles": {
-      "qro": "Kaze no Gotoku",
-      "jpn": "風のごとく"
+      "jpn": "風のごとく",
+      "qro": "Kaze no Gotoku"
     },
     "titles_default_language": "qro",
     "year": 2010

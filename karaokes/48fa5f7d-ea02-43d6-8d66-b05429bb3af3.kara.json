@@ -6,7 +6,7 @@
   "medias": [
     {
       "default": true,
-      "duration": 100,
+      "duration": 99,
       "filename": "48fa5f7d-ea02-43d6-8d66-b05429bb3af3.mp4",
       "filesize": 11317999,
       "loudnorm": "-21.39,-6.93,7.20,-31.64,-1.43",
@@ -24,7 +24,7 @@
     "created_at": "2017-10-11T17:02:23.000Z",
     "ignoreHooks": false,
     "kid": "48fa5f7d-ea02-43d6-8d66-b05429bb3af3",
-    "modified_at": "2023-05-18T17:12:27.078Z",
+    "modified_at": "2026-09-27T17:01:49.398Z",
     "repository": "kara.moe",
     "songname": "JPN - Tokyo Underground - ED2 - Eternal Flower",
     "songorder": 2,

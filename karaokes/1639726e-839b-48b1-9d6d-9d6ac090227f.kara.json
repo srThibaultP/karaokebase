@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2020-03-19T17:49:58.385Z",
+    "ignoreHooks": false,
     "kid": "1639726e-839b-48b1-9d6d-9d6ac090227f",
-    "modified_at": "2021-12-29T22:37:45.887Z",
+    "modified_at": "2026-09-27T12:38:51.831Z",
     "repository": "kara.moe",
     "songname": "JPN - Mashin Sentai Kiramager - OP - Mashin Sentai Kiramager",
     "tags": {
@@ -31,13 +32,16 @@
         "e746046a-82f1-41af-aa58-e59c92f5c273"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "creators": [
         "e32b14df-502b-45fa-9ca5-37554a63a4d7"
       ],
       "families": [
         "5391f9fe-638c-415f-8dc9-958e3a2c5787"
+      ],
+      "genres": [
+        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ],
       "groups": [
         "8e209ae4-4381-438f-89dc-1b21752027d2"
@@ -59,14 +63,11 @@
       ],
       "songwriters": [
         "ad9de3e0-673e-459b-ac88-178ae5e04341"
-      ],
-      "genres": [
-        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ]
     },
     "titles": {
-      "qro": "Mashin Sentai Kiramager",
-      "jpn": "魔進戦隊キラメイジャー"
+      "jpn": "魔進戦隊キラメイジャー",
+      "qro": "Mashin Sentai Kiramager"
     },
     "titles_default_language": "qro",
     "year": 2020

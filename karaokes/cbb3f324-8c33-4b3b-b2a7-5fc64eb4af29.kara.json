@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:03:00.000Z",
+    "ignoreHooks": false,
     "kid": "cbb3f324-8c33-4b3b-b2a7-5fc64eb4af29",
-    "modified_at": "2021-02-25T13:26:45.943Z",
+    "modified_at": "2026-09-27T15:11:27.117Z",
     "repository": "kara.moe",
     "songname": "JPN - Tottemo! Luckyman - OP - Luckyman no Uta",
     "tags": {
@@ -63,8 +64,8 @@
       ]
     },
     "titles": {
-      "qro": "Luckyman no Uta",
-      "jpn": "ラッキーマンの歌"
+      "jpn": "ラッキーマンの歌",
+      "qro": "Luckyman no Uta"
     },
     "titles_default_language": "qro",
     "year": 1994

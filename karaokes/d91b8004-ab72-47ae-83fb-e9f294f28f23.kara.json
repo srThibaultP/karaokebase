@@ -22,22 +22,26 @@
   ],
   "data": {
     "created_at": "2018-11-29T20:59:28.000Z",
+    "ignoreHooks": false,
     "kid": "d91b8004-ab72-47ae-83fb-e9f294f28f23",
-    "modified_at": "2021-02-25T12:37:07.231Z",
+    "modified_at": "2026-09-27T13:00:00.708Z",
     "repository": "kara.moe",
-    "songname": "JPN - Ninpuu Sentai Hurricaneger - ED - Ima, Kaze no Naka de",
+    "songname": "JPN - Ninpû Sentai Hurricaneger - ED - Ima, Kaze no Naka de",
     "tags": {
       "authors": [
         "4607780c-f1ef-47cf-9c1c-b13e8f731699"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "creators": [
         "e32b14df-502b-45fa-9ca5-37554a63a4d7"
       ],
       "families": [
         "5391f9fe-638c-415f-8dc9-958e3a2c5787"
+      ],
+      "genres": [
+        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"
@@ -59,14 +63,11 @@
       ],
       "songwriters": [
         "8d57f381-7300-4980-94d5-6cf8b4f6912b"
-      ],
-      "genres": [
-        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ]
     },
     "titles": {
-      "qro": "Ima, Kaze no Naka de",
-      "jpn": "今風の中で"
+      "jpn": "今風の中で",
+      "qro": "Ima, Kaze no Naka de"
     },
     "titles_aliases": [
       "いま 風のなかで"

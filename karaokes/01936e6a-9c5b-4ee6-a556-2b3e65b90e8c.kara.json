@@ -22,22 +22,26 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:50.000Z",
+    "ignoreHooks": false,
     "kid": "01936e6a-9c5b-4ee6-a556-2b3e65b90e8c",
-    "modified_at": "2022-01-04T21:44:28.695Z",
+    "modified_at": "2026-09-27T13:08:17.657Z",
     "repository": "kara.moe",
-    "songname": "JPN - Gojira tai Megaro - MOVIE IN - Godzilla and Jet Jaguar Punch! Punch! Punch! (Jet Jaguar Fight Song)",
+    "songname": "JPN - Gojira tai Megaro - MOVIE IN - Godzilla and Jet Jaguar: Punch! Punch! Punch! (Jet Jaguar Fight Song)",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "creators": [
         "e924236c-76ce-4437-bdd8-2639d543c61a"
       ],
       "families": [
         "5391f9fe-638c-415f-8dc9-958e3a2c5787"
+      ],
+      "genres": [
+        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ],
       "groups": [
         "57e5e0c0-e02e-4871-a6cb-d48ea604ebab"
@@ -62,15 +66,12 @@
       ],
       "franchises": [
         "9f5d3334-8712-40d6-befe-16ad9dc5bfb2"
-      ],
-      "genres": [
-        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ]
     },
     "titles": {
       "eng": "Godzilla and Jet Jaguar: Punch! Punch! Punch! (Jet Jaguar Fight Song)",
-      "qro": "Gojira to Jet Jaguar de Panchi Panchi Panchi",
-      "jpn": "ゴジラとジェットジャガーでパンチ・パンチ・パンチ"
+      "jpn": "ゴジラとジェットジャガーでパンチ・パンチ・パンチ",
+      "qro": "Gojira to Jet Jaguar de Panchi Panchi Panchi"
     },
     "titles_default_language": "eng",
     "year": 1973

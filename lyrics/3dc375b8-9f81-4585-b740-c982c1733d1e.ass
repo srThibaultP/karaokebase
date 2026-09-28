@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Itsuka, Hana wa Saku Darô
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:4.38,0:0:12.09,Default,,0000,0000,0000,,{\k100}{\kf25}do{\kf25}ko{\kf29}ka {\kf58}ni {\kf33}{\kf29}he{\kf29}i{\kf25}wa {\kf75}ga {\kf42}{\kf25}a{\kf29}ru {\kf29}na{\kf29}ra {\kf29}{\kf158}ba
 Dialogue: 1,0:0:11.47,0:0:18.72,Default,,0000,0000,0000,,{\k100}{\kf17}i{\kf21}tsu{\kf33}ka {\kf50}wa {\kf42}{\kf25}ha{\kf17}na {\kf21}{\kf58}mo {\kf63}{\kf21}sa{\kf25}ku {\kf25}da{\kf17}ro{\kf38}{\kf154}u
 Dialogue: 1,0:0:18.02,0:0:22.52,Default,,0000,0000,0000,,{\k100}{\kf25}yo{\kf29}t{\kf21}tsu {\kf25}no {\kf25}PO{\kf21}WE{\kf38}R {\kf17}C{\kf21}Y{\kf25}BO{\kf29}R{\kf75}G

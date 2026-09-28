@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:03:14.000Z",
+    "ignoreHooks": false,
     "kid": "2806ef46-c917-451c-92b3-25e6b79ff818",
-    "modified_at": "2021-02-25T13:12:38.754Z",
+    "modified_at": "2026-09-27T10:26:33.278Z",
     "repository": "kara.moe",
     "songname": "JPN - Street Fighter II V - OP2 - Ima, Ashita no Tame ni",
     "songorder": 2,
@@ -66,8 +67,8 @@
       ]
     },
     "titles": {
-      "qro": "Ima, Ashita no Tame ni",
-      "jpn": "今, 明日のために"
+      "jpn": "今, 明日のために",
+      "qro": "Ima, Ashita no Tame ni"
     },
     "titles_default_language": "qro",
     "year": 1995

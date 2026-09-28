@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Seijû Sentai Gingaman
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:11.93,0:0:15.47,Default,,0000,0000,0000,,{\k100}{\kf21}sei{\kf17}juu {\kf17}sen{\kf46}tai {\kf54}{\kf17}GIN{\kf21}GA{\kf63}MAN
 Dialogue: 1,0:0:16.51,0:0:18.60,Default,,0000,0000,0000,,{\k100}{\kf17}ha{\kf21}shi{\kf71}re!
 Dialogue: 1,0:0:18.35,0:0:22.02,Default,,0000,0000,0000,,{\k100}{\kf17}chi{\kf25}kyuu {\kf21}se{\kf21}ma{\kf25}shi {\kf21}to {\kf21}ka{\kf17}ke{\kf21}me{\kf21}gu{\kf58}re

@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:39.000Z",
+    "ignoreHooks": false,
     "kid": "33d1177a-f408-4fb1-bf6d-7132ad705429",
-    "modified_at": "2021-02-25T11:40:55.405Z",
+    "modified_at": "2026-09-27T16:28:10.656Z",
     "repository": "kara.moe",
     "songname": "JPN - High School Fleet - ED - Ripple Effect",
     "tags": {

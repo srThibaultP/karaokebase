@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:38.000Z",
+    "ignoreHooks": false,
     "kid": "081f204f-7599-42b4-9975-439bd2d8f857",
-    "modified_at": "2021-02-25T13:17:56.325Z",
+    "modified_at": "2026-09-27T10:51:35.097Z",
     "repository": "kara.moe",
     "songname": "JPN - Tantei Opera Milky Holmes Dai-Ni-Maku - ED - Lovely Girls Anthem",
     "tags": {

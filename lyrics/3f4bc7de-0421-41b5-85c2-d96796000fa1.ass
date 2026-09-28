@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Ryûsei Ningen Zone
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:22.59,0:0:25.99,Default,,0000,0000,0000,,{\k100}{\kf53}gi{\kf30}n{\kf63}ga {\kf17}wo {\kf20}JUM{\kf57}P
 Dialogue: 1,0:0:25.73,0:0:29.10,Default,,0000,0000,0000,,{\k100}{\kf17}u{\kf20}chu{\kf23}u {\kf33}wo {\kf43}ha{\kf37}shi{\kf63}ri
 Dialogue: 1,0:0:29.16,0:0:33.07,Default,,0000,0000,0000,,{\k100}{\kf17}ji{\kf27}gen {\kf20}{\kf23}wo {\kf20}sa{\kf20}i{\kf20}te {\kf20}{\kf20}to{\kf27}n{\kf17}de {\kf17}ku{\kf43}ru

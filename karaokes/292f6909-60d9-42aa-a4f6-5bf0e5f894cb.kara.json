@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2019-03-22T12:57:41.000Z",
+    "ignoreHooks": false,
     "kid": "292f6909-60d9-42aa-a4f6-5bf0e5f894cb",
-    "modified_at": "2021-02-25T10:19:32.407Z",
+    "modified_at": "2026-09-27T13:27:01.756Z",
     "repository": "kara.moe",
     "songname": "ENG - UltraSeven X - ED1 - Another Day Comes",
     "songorder": 1,
@@ -32,13 +33,16 @@
         "ef611801-6a99-482e-9b99-13ad3d3a0648"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "creators": [
         "308ee11d-80d2-4870-9ff4-e042b72070ee"
       ],
       "families": [
         "5391f9fe-638c-415f-8dc9-958e3a2c5787"
+      ],
+      "genres": [
+        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"
@@ -63,14 +67,12 @@
       ],
       "franchises": [
         "e0d0d8b0-bf67-40a0-b0c1-082cd4ccc58b"
-      ],
-      "genres": [
-        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ]
     },
     "titles": {
       "eng": "Another Day Comes"
     },
+    "titles_default_language": "eng",
     "year": 2007
   }
 }

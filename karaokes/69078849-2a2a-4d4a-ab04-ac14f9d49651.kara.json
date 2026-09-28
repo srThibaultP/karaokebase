@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:17.000Z",
+    "ignoreHooks": false,
     "kid": "69078849-2a2a-4d4a-ab04-ac14f9d49651",
-    "modified_at": "2021-02-25T13:08:51.360Z",
+    "modified_at": "2026-09-27T09:51:56.655Z",
     "repository": "kara.moe",
     "songname": "JPN - Slayers Try - OP - Breeze",
     "tags": {

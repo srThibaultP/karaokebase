@@ -24,12 +24,12 @@
     "created_at": "2024-07-23T00:24:32.847Z",
     "ignoreHooks": false,
     "kid": "a5410164-c187-4147-b369-d9804703412b",
-    "modified_at": "2024-07-23T00:24:33.017Z",
+    "modified_at": "2026-09-27T09:43:09.176Z",
     "parents": [
       "91e3631c-49df-4be8-879a-d50ecc94cb40"
     ],
     "repository": "kara.moe",
-    "songname": "JPN - Shoujo Kageki Revue Starlight - IN - Sekai wo Hai ni Suru made ~ Off Vocal Vers",
+    "songname": "JPN - Shôjo☆Kageki Revue Starlight - IN - Sekai wo Hai ni Suru made ~ Off Vocal Vers",
     "tags": {
       "authors": [
         "f7ce702e-09aa-4b22-8742-0c99cd7a5409"
@@ -49,6 +49,9 @@
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "misc": [
+        "1d6ceadf-a885-47e5-b23b-c07bf668a424"
       ],
       "origins": [
         "938de218-5343-4865-94d3-fb33f2eaa152"

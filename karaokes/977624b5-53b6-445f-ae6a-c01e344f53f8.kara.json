@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T15:03:05.000Z",
+    "ignoreHooks": false,
     "kid": "977624b5-53b6-445f-ae6a-c01e344f53f8",
-    "modified_at": "2021-02-25T13:12:24.253Z",
+    "modified_at": "2026-09-27T10:19:12.400Z",
     "repository": "kara.moe",
     "songname": "JPN - Strange Plus - OP - Beauty Boy",
     "tags": {

@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:49.000Z",
+    "ignoreHooks": false,
     "kid": "7c6905cf-5076-47df-8e07-dd33da4d5647",
-    "modified_at": "2021-02-25T13:08:32.535Z",
+    "modified_at": "2026-09-27T09:44:46.230Z",
     "repository": "kara.moe",
     "songname": "JPN - Slayers - ED - Kujikenaikara!",
     "tags": {
@@ -67,8 +68,8 @@
       ]
     },
     "titles": {
-      "qro": "Kujikenaikara!",
-      "jpn": "くじけないから"
+      "jpn": "くじけないから",
+      "qro": "Kujikenaikara!"
     },
     "titles_default_language": "qro",
     "year": 1995

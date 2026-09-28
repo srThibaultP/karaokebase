@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Tengoku Samba
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:3.17,0:0:7.26,Default,,0000,0000,0000,,{\k100}{\kf17}so{\kf25}u{\kf21}cho{\kf29}u {\kf29}wa {\kf21}ko{\kf25}wa{\kf25}i {\kf25}ka{\kf21}o {\kf29}shi{\kf42}te
 Dialogue: 1,0:0:6.59,0:0:11.09,Default,,0000,0000,0000,,{\k100}{\kf13}gan{\kf50}{\kf13}ba{\kf21}{\kf33}re {\kf25}na{\kf29}n{\kf25}te {\kf25}sa{\kf25}ke{\kf25}bu {\kf21}ke{\kf46}do
 Dialogue: 1,0:0:10.34,0:0:14.43,Default,,0000,0000,0000,,{\k100}{\kf29}o{\kf13}re-{\kf25}{\kf29}ta{\kf33}chi {\kf25}da{\kf21}t{\kf25}te {\kf21}i{\kf33}ki{\kf29}mo{\kf25}no

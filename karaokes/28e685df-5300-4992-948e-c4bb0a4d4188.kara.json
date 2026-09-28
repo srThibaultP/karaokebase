@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:42.000Z",
+    "ignoreHooks": false,
     "kid": "28e685df-5300-4992-948e-c4bb0a4d4188",
-    "modified_at": "2021-02-25T13:09:33.764Z",
+    "modified_at": "2026-09-27T09:58:52.056Z",
     "repository": "kara.moe",
     "songname": "JPN - Sora no Otoshimono - ED6 - Natsuiro no Nancy",
     "songorder": 6,
@@ -67,8 +68,8 @@
       ]
     },
     "titles": {
-      "qro": "Natsuiro no Nancy",
-      "jpn": "夏色のナンシー"
+      "jpn": "夏色のナンシー",
+      "qro": "Natsuiro no Nancy"
     },
     "titles_default_language": "qro",
     "year": 2009

@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:27.000Z",
+    "ignoreHooks": false,
     "kid": "72e7c047-7016-49a5-967f-dd77233fa391",
-    "modified_at": "2021-02-25T13:31:45.461Z",
+    "modified_at": "2026-09-27T15:36:39.116Z",
     "repository": "kara.moe",
-    "songname": "JPN - Ultra Maniac - OP - Kagami no Naka",
+    "songname": "JPN - Ultra Maniac - OP - Inside the Mirror",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -70,8 +71,8 @@
     },
     "titles": {
       "eng": "Inside the Mirror",
-      "qro": "Kagami no Naka",
-      "jpn": "鏡の中"
+      "jpn": "鏡の中",
+      "qro": "Kagami no Naka"
     },
     "titles_default_language": "eng",
     "year": 2003

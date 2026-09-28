@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:18.000Z",
+    "ignoreHooks": false,
     "kid": "43f46391-474b-4743-8c43-d5fb4df7398d",
-    "modified_at": "2021-02-25T13:37:03.028Z",
+    "modified_at": "2026-09-27T15:59:13.675Z",
     "repository": "kara.moe",
-    "songname": "JPN - Wind ~a breath of heart~ - PC GAME OP1 - Wind ~a breath of heart~",
+    "songname": "JPN - Wind ~a breath of heart~ - GAME PC OP1 - Wind",
     "songorder": 1,
     "tags": {
       "authors": [
@@ -36,6 +37,9 @@
       ],
       "creators": [
         "33211602-5611-47b9-a0d9-29c4cb8f0970"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
       ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"

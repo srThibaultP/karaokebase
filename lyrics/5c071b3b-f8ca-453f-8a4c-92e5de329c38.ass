@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Hikari Sentai Maskman
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:13.80,0:0:16.56,Default,,0000,0000,0000,,{\k100}{\kf13}hi{\kf17}ka{\kf13}ri {\kf17}sen{\kf33}tai {\kf21}{\kf17}MASK{\kf46}MAN
 Dialogue: 1,0:0:27.07,0:0:33.19,Default,,0000,0000,0000,,{\k100}{\kf17}ki{\kf33}n {\kf54}no {\kf21}{\kf17}o{\kf21}o{\kf17}ra {\kf63}ni {\kf71}{\kf33}i{\kf17}no{\kf21}chi {\kf25}ga {\kf21}mo{\kf29}e{\kf54}ru
 Dialogue: 1,0:0:32.53,0:0:38.16,Default,,0000,0000,0000,,{\k100}{\kf21}hi{\kf29}to {\kf33}wa {\kf38}fu{\kf25}shi{\kf33}gi {\kf58}na {\kf29}{\kf21}chi{\kf21}ka{\kf29}ra {\kf33}hi{\kf33}me{\kf21}te{\kf38}ru

@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:07.000Z",
+    "ignoreHooks": false,
     "kid": "a89b324d-5fad-46a6-9517-2a22830c3ea2",
-    "modified_at": "2021-02-25T13:31:37.678Z",
+    "modified_at": "2026-09-27T15:34:28.787Z",
     "repository": "kara.moe",
-    "songname": "JPN - Ueki no Housoku - OP1 - Falco",
+    "songname": "JPN - Ueki no Hôsoku - OP1 - Falco",
     "songorder": 1,
     "tags": {
       "authors": [

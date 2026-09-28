@@ -24,7 +24,7 @@
     "created_at": "2017-10-11T17:01:38.000Z",
     "ignoreHooks": false,
     "kid": "cfbec5f0-9b41-4dfb-b2bd-680b4b66f576",
-    "modified_at": "2026-08-13T22:39:45.000Z",
+    "modified_at": "2026-09-27T13:28:18.705Z",
     "repository": "kara.moe",
     "songname": "JPN - Kaizoku Sentai Gokaiger - OP1 - Kaizoku Sentai Gokaiger",
     "songorder": 1,
@@ -33,7 +33,7 @@
         "5bdaba57-27f8-4568-8806-76a807728766"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "creators": [
         "e32b14df-502b-45fa-9ca5-37554a63a4d7"
@@ -57,8 +57,8 @@
         "c778ff3b-7a56-4170-a285-e34b12a1c41b"
       ],
       "singergroups": [
-        "6317193f-c0bb-423a-9d9d-4f64ae22ab2e",
-        "0c56c4fb-3399-4c1d-8734-7f2f92f22fb4"
+        "0c56c4fb-3399-4c1d-8734-7f2f92f22fb4",
+        "6317193f-c0bb-423a-9d9d-4f64ae22ab2e"
       ],
       "songtypes": [
         "f02ad9b3-0bd9-4aad-85b3-9976739ba0e4"

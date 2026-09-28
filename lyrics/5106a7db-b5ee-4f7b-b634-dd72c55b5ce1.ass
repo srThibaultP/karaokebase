@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Ginga no Tarzan
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:14.05,0:0:17.78,Default,,0000,0000,0000,,{\k100}{\k23}chi{\k13}chi {\k17}{\k43}wo {\k23}{\k23}shi{\k17}{\k23}ra{\k20}{\k20}na{\k50}i
 Dialogue: 1,0:0:17.55,0:0:21.12,Default,,0000,0000,0000,,{\k100}{\k20}ha{\k13}ha {\k17}{\k40}wo {\k23}{\k27}shi{\k17}{\k23}ra{\k17}{\k27}na{\k33}i
 Dialogue: 1,0:0:20.99,0:0:28.33,Default,,0000,0000,0000,,{\k100}{\k23}nu{\k27}ku{\k50}mo{\k37}ri {\k23}sa{\k40}e {\k63}mo {\k83}{\k10}o{\k17}{\k23}bo{\k50}e{\k20}te {\k17}{\k13}i{\k17}{\k37}na{\k83}i

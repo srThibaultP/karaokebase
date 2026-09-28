@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T15:01:39.000Z",
+    "ignoreHooks": false,
     "kid": "ef849abe-e398-454b-b84f-3d0276a6bba7",
-    "modified_at": "2021-02-25T10:31:44.440Z",
+    "modified_at": "2026-09-27T16:16:32.714Z",
     "repository": "kara.moe",
     "songname": "FRE - Yume Senshi Wingman - OP - Wingman",
     "tags": {
@@ -66,6 +67,7 @@
     "titles": {
       "eng": "Wingman"
     },
+    "titles_default_language": "eng",
     "year": 1984
   }
 }

@@ -1,0 +1,81 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 0
+PlayResY: 0
+YCbCr Matrix: None
+Title: NOT CUTE ANYMORE ~  Eimi Isami Vers.
+Original Timing: Ichinyaaan, puyo
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: All,Arial,24,&H001081F5,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:01.51,0:00:01.51,All,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:10.24,0:00:12.35,All,,0,0,0,karaoke,{\k33}My {\k34}bag {\k27}is {\k33}brave {\k30}and {\k54}bold
+Comment: 0,0:00:12.73,0:00:14.84,All,,0,0,0,karaoke,{\k24}No {\k36}key{\k29}ring, {\k31}no {\k31}hand {\k31}mir{\k29}ror
+Comment: 0,0:00:15.11,0:00:17.17,All,,0,0,0,karaoke,{\k34}Oh, {\k29}Rock {\k31}will {\k31}ne{\k29}ver {\k52}die
+Comment: 0,0:00:17.58,0:00:19.68,All,,0,0,0,karaoke,{\k28}Lin{\k32}da {\k30}lin{\k30}da {\k30}lul{\k37}la{\k23}by
+Comment: 0,0:00:20.01,0:00:22.04,All,,0,0,0,karaoke,{\k28}Li{\k30}mi{\k29}ted {\k31}KONG{\k32}GUK{\k53}SU
+Comment: 0,0:00:22.42,0:00:24.51,All,,0,0,0,karaoke,{\k30}Mat{\k31}cha's {\k30}got {\k29}no{\k31}thing {\k31}on {\k27}it
+Comment: 0,0:00:24.81,0:00:26.89,All,,0,0,0,karaoke,{\k33}I'm {\k31}too {\k30}shy {\k30}for {\k30}all {\k54}these
+Comment: 0,0:00:27.27,0:00:29.37,All,,0,0,0,karaoke,{\k30}Our {\k28}whole {\k32}date {\k31}wear {\k30}jel{\k31}ly {\k28}shoes
+Comment: 0,0:00:29.39,0:00:32.91,All,,0,0,0,karaoke,{\k59}I {\k62}got {\k31}Suede {\k29}on {\k31}my {\k90}vi{\k50}nyl
+Comment: 0,0:00:33.02,0:00:35.33,All,,0,0,0,karaoke,{\k31}My {\k30}fai{\k31}ry{\kf90}tale{\k49} book
+Comment: 0,0:00:36.65,0:00:41.07,All,,0,0,0,karaoke,{\k59}I'm {\k54}not {\k39}cute {\k31}a{\k30}ny{\kf91}more{\k28} {\k32}oh-{\k78}oh
+Comment: 0,0:00:41.51,0:00:45.93,All,,0,0,0,karaoke,{\k59}I'm {\k54}not {\k39}cute {\k31}a{\k30}ny{\kf91}more{\k28} {\k32}oh-{\k78}oh
+Comment: 0,0:00:46.36,0:00:48.39,All,,0,0,0,karaoke,{\k60}No {\k61}way, {\k60}no {\k22}more,
+Comment: 0,0:00:48.76,0:00:50.60,All,,0,0,0,karaoke,{\k33}Pup{\k30}pies {\k30}tend {\k30}to {\k61}bite
+Comment: 0,0:00:50.60,0:00:55.44,All,,0,0,0,karaoke,{\k31}But {\k29}a {\k31}jel{\k30}ly{\k31}fish {\k29}is {\k32}way {\k29}more {\k31}my {\k120}type {\k31}oh-{\k60}oh
+Comment: 0,0:00:55.74,0:00:59.08,All,,0,0,0,karaoke,{\k31}Cuz {\k61}I'm {\k55}not {\k36}cute {\k30}a{\k31}ny{\k90}more
+Comment: 0,0:01:01.10,0:01:03.03,All,,0,0,0,karaoke,{\k34}Five {\k29}min{\k32}ute {\k30}per{\k28}fec{\k40}tion
+Comment: 0,0:01:03.53,0:01:05.67,All,,0,0,0,karaoke,{\k33}My {\k27}make{\k34}up {\k31}tu{\k30}to{\k30}ri{\k29}al
+Comment: 0,0:01:05.95,0:01:08.17,All,,0,0,0,karaoke,{\k34}When {\k30}I {\k30}get {\k29}su{\k32}per {\k67}stressed
+Comment: 0,0:01:08.38,0:01:10.51,All,,0,0,0,karaoke,{\k33}How {\k9}a{\k22}bout {\k28}a {\k32}sca{\k30}ry {\k30}mo{\k29}vie?
+Comment: 0,0:01:10.79,0:01:12.85,All,,0,0,0,karaoke,{\k35}But {\k30}you're {\k30}so {\k30}wrong{\k30} of{\k51} me
+Comment: 0,0:01:13.17,0:01:15.30,All,,0,0,0,karaoke,{\k39}Oh {\k30}I {\k31}don't {\k31}like {\k25}cher{\k34}ry {\k23}Coke
+Comment: 0,0:01:15.68,0:01:17.71,All,,0,0,0,karaoke,{\k30}I'm {\k30}not {\k30}an {\k32}a{\k33}li{\k21}en
+Comment: 0,0:01:17.79,0:01:20.21,All,,0,0,0,karaoke,{\k16}Yes {\k14}I'm {\k37}just {\k34}kin{\k26}da {\k28}ea{\k28}sy{\k31}go{\k28}ing
+Comment: 0,0:01:20.23,0:01:23.75,All,,0,0,0,karaoke,{\k59}I {\k62}got {\k31}Suede {\k29}on {\k31}my {\k90}vi{\k50}nyl
+Comment: 0,0:01:23.86,0:01:26.17,All,,0,0,0,karaoke,{\k31}My {\k30}fai{\k31}ry{\kf90}tale{\k49} book
+Comment: 0,0:01:27.49,0:01:31.91,All,,0,0,0,karaoke,{\k59}I'm {\k54}not {\k39}cute {\k31}a{\k30}ny{\kf91}more{\k28} {\k32}oh-{\k78}oh
+Comment: 0,0:01:32.35,0:01:36.77,All,,0,0,0,karaoke,{\k59}I'm {\k54}not {\k39}cute {\k31}a{\k30}ny{\kf91}more{\k28} {\k32}oh-{\k78}oh
+Comment: 0,0:01:37.20,0:01:39.23,All,,0,0,0,karaoke,{\k60}No {\k61}way, {\k60}no {\k22}more,
+Comment: 0,0:01:39.60,0:01:41.44,All,,0,0,0,karaoke,{\k33}Pup{\k30}pies {\k30}tend {\k30}to {\k61}bite
+Comment: 0,0:01:41.44,0:01:46.28,All,,0,0,0,karaoke,{\k31}But {\k29}a {\k31}jel{\k30}ly{\k31}fish {\k29}is {\k32}way {\k29}more {\k31}my {\k120}type {\k31}oh-{\k60}oh
+Comment: 0,0:01:46.58,0:01:49.92,All,,0,0,0,karaoke,{\k31}Cuz {\k61}I'm {\k55}not {\k36}cute {\k30}a{\k31}ny{\k90}more
+Dialogue: 0,0:00:09.34,0:00:12.55,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}My {\k34}bag {\k27}is {\k33}brave {\k30}and {\k54}bold
+Dialogue: 0,0:00:11.83,0:00:15.04,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}No {\k36}key{\k29}ring, {\k31}no {\k31}hand {\k31}mir{\k29}ror
+Dialogue: 0,0:00:14.21,0:00:17.37,All,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Oh, {\k29}Rock {\k31}will {\k31}ne{\k29}ver {\k52}die
+Dialogue: 0,0:00:16.68,0:00:19.88,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Lin{\k32}da {\k30}lin{\k30}da {\k30}lul{\k37}la{\k23}by
+Dialogue: 0,0:00:19.11,0:00:22.24,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Li{\k30}mi{\k29}ted {\k31}KONG{\k32}GUK{\k53}SU
+Dialogue: 0,0:00:21.52,0:00:24.71,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Mat{\k31}cha's {\k30}got {\k29}no{\k31}thing {\k31}on {\k27}it
+Dialogue: 0,0:00:23.91,0:00:27.09,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}I'm {\k31}too {\k30}shy {\k30}for {\k30}all {\k54}these
+Dialogue: 0,0:00:26.37,0:00:29.57,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Our {\k28}whole {\k32}date {\k31}wear {\k30}jel{\k31}ly {\k28}shoes
+Dialogue: 0,0:00:28.49,0:00:33.11,All,,0,0,0,fx,{\k90\fad(300,200)}{\k59}I {\k62}got {\k31}Suede {\k29}on {\k31}my {\k90}vi{\k50}nyl
+Dialogue: 0,0:00:32.12,0:00:35.53,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}My {\k30}fai{\k31}ry{\kf90}tale{\k49} book
+Dialogue: 0,0:00:35.75,0:00:41.27,All,,0,0,0,fx,{\k90\fad(300,200)}{\k59}I'm {\k54}not {\k39}cute {\k31}a{\k30}ny{\kf91}more{\k28} {\k32}oh-{\k78}oh
+Dialogue: 0,0:00:40.61,0:00:46.13,All,,0,0,0,fx,{\k90\fad(300,200)}{\k59}I'm {\k54}not {\k39}cute {\k31}a{\k30}ny{\kf91}more{\k28} {\k32}oh-{\k78}oh
+Dialogue: 0,0:00:45.46,0:00:48.59,All,,0,0,0,fx,{\k90\fad(300,200)}{\k60}No {\k61}way, {\k60}no {\k22}more,
+Dialogue: 0,0:00:47.86,0:00:50.80,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Pup{\k30}pies {\k30}tend {\k30}to {\k61}bite
+Dialogue: 0,0:00:49.70,0:00:55.64,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}But {\k29}a {\k31}jel{\k30}ly{\k31}fish {\k29}is {\k32}way {\k29}more {\k31}my {\k120}type {\k31}oh-{\k60}oh
+Dialogue: 0,0:00:54.84,0:00:59.28,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Cuz {\k61}I'm {\k55}not {\k36}cute {\k30}a{\k31}ny{\k90}more
+Dialogue: 0,0:01:00.20,0:01:03.23,All,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Five {\k29}min{\k32}ute {\k30}per{\k28}fec{\k40}tion
+Dialogue: 0,0:01:02.63,0:01:05.87,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}My {\k27}make{\k34}up {\k31}tu{\k30}to{\k30}ri{\k29}al
+Dialogue: 0,0:01:05.05,0:01:08.37,All,,0,0,0,fx,{\k90\fad(300,200)}{\k34}When {\k30}I {\k30}get {\k29}su{\k32}per {\k67}stressed
+Dialogue: 0,0:01:07.48,0:01:10.71,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}How {\k9}a{\k22}bout {\k28}a {\k32}sca{\k30}ry {\k30}mo{\k29}vie?
+Dialogue: 0,0:01:09.89,0:01:13.05,All,,0,0,0,fx,{\k90\fad(300,200)}{\k35}But {\k30}you're {\k30}so {\k30}wrong{\k30} of{\k51} me
+Dialogue: 0,0:01:12.27,0:01:15.50,All,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Oh {\k30}I {\k31}don't {\k31}like {\k25}cher{\k34}ry {\k23}Coke
+Dialogue: 0,0:01:14.78,0:01:17.91,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}I'm {\k30}not {\k30}an {\k32}a{\k33}li{\k21}en
+Dialogue: 0,0:01:16.89,0:01:20.41,All,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Yes {\k14}I'm {\k37}just {\k34}kin{\k26}da {\k28}ea{\k28}sy{\k31}go{\k28}ing
+Dialogue: 0,0:01:19.33,0:01:23.95,All,,0,0,0,fx,{\k90\fad(300,200)}{\k59}I {\k62}got {\k31}Suede {\k29}on {\k31}my {\k90}vi{\k50}nyl
+Dialogue: 0,0:01:22.96,0:01:26.37,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}My {\k30}fai{\k31}ry{\kf90}tale{\k49} book
+Dialogue: 0,0:01:26.59,0:01:32.11,All,,0,0,0,fx,{\k90\fad(300,200)}{\k59}I'm {\k54}not {\k39}cute {\k31}a{\k30}ny{\kf91}more{\k28} {\k32}oh-{\k78}oh
+Dialogue: 0,0:01:31.45,0:01:36.97,All,,0,0,0,fx,{\k90\fad(300,200)}{\k59}I'm {\k54}not {\k39}cute {\k31}a{\k30}ny{\kf91}more{\k28} {\k32}oh-{\k78}oh
+Dialogue: 0,0:01:36.30,0:01:39.43,All,,0,0,0,fx,{\k90\fad(300,200)}{\k60}No {\k61}way, {\k60}no {\k22}more,
+Dialogue: 0,0:01:38.70,0:01:41.64,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Pup{\k30}pies {\k30}tend {\k30}to {\k61}bite
+Dialogue: 0,0:01:40.54,0:01:46.48,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}But {\k29}a {\k31}jel{\k30}ly{\k31}fish {\k29}is {\k32}way {\k29}more {\k31}my {\k120}type {\k31}oh-{\k60}oh
+Dialogue: 0,0:01:45.68,0:01:50.12,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Cuz {\k61}I'm {\k55}not {\k36}cute {\k30}a{\k31}ny{\k90}more

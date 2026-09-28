@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:22.000Z",
+    "ignoreHooks": false,
     "kid": "4622eb82-f1fc-4937-95b6-9462de8aee94",
-    "modified_at": "2021-02-25T13:34:09.859Z",
+    "modified_at": "2026-09-27T15:41:15.194Z",
     "repository": "kara.moe",
     "songname": "JPN - Uta no Prince-sama ~ Maji Love 1000% - ED - Maji love 1000%",
     "tags": {
@@ -73,8 +74,8 @@
       ]
     },
     "titles": {
-      "qro": "Maji love 1000%",
-      "jpn": "マジLOVE1000%"
+      "jpn": "マジLOVE1000%",
+      "qro": "Maji love 1000%"
     },
     "titles_default_language": "qro",
     "year": 2011

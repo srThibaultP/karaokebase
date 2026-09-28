@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2019-03-17T23:04:34.000Z",
+    "ignoreHooks": false,
     "kid": "ef389aec-9af3-4412-8dfb-412fa77e9a6c",
-    "modified_at": "2021-02-25T11:45:46.089Z",
+    "modified_at": "2026-09-27T12:44:00.980Z",
     "repository": "kara.moe",
     "songname": "JPN - Idol x Warrior Miracle Tunes! - OP1 - Catch Me",
     "songorder": 1,
@@ -32,7 +33,7 @@
         "ef611801-6a99-482e-9b99-13ad3d3a0648"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "creators": [
         "03fe574b-c7f5-4520-96dc-47320c39e2cc",

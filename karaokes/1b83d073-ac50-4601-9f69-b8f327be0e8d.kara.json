@@ -24,7 +24,7 @@
     "created_at": "2017-10-11T17:02:33.000Z",
     "ignoreHooks": false,
     "kid": "1b83d073-ac50-4601-9f69-b8f327be0e8d",
-    "modified_at": "2024-01-12T22:32:02.000Z",
+    "modified_at": "2026-09-27T10:18:09.351Z",
     "repository": "kara.moe",
     "songname": "JPN - Star Ocean Second Evolution - GAME PSP OP - START",
     "tags": {
@@ -36,6 +36,9 @@
       ],
       "creators": [
         "60195b73-1504-4121-a0fc-6f26708ae524"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
       ],
       "groups": [
         "3c14c864-533c-49e6-a3cc-6969f1233775"

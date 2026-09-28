@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:36.000Z",
+    "ignoreHooks": false,
     "kid": "d139ede4-d78c-48c8-94f8-00cf39305246",
-    "modified_at": "2021-02-25T13:24:22.834Z",
+    "modified_at": "2026-09-27T11:22:14.417Z",
     "repository": "kara.moe",
     "songname": "JPN - To Love-Ru Darkness - ED - Foul Play ni Kurari",
     "tags": {
@@ -65,8 +66,8 @@
       ]
     },
     "titles": {
-      "qro": "Foul Play ni Kurari",
-      "jpn": "ファールプレーにくらり"
+      "jpn": "ファールプレーにくらり",
+      "qro": "Foul Play ni Kurari"
     },
     "titles_default_language": "qro",
     "year": 2012

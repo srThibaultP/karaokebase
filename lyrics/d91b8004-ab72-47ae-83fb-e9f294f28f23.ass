@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Ima, Kaze no Naka de
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:0.75,0:0:9.09,Default,,0000,0000,0000,,{\k100}{\kf21}ki{\kf21}mi {\kf29}ni {\kf75}mo {\kf58}{\kf17}ki{\kf21}ko{\kf25}e{\kf29}ru {\kf75}ka {\kf33}{\kf29}o{\kf33}o{\kf25}zo{\kf29}ra {\kf33}{\kf42}no {\kf21}{\kf25}u{\kf92}ta
 Dialogue: 1,0:0:9.05,0:0:17.81,Default,,0000,0000,0000,,{\k100}{\kf29}u{\kf13}mi {\kf33}{\kf33}no {\kf17}u{\kf25}{\kf17}ne{\kf25}{\kf150}ri {\kf75}{\kf21}da{\kf13}i{\kf33}{\kf33}chi {\kf29}no {\kf25}{\kf21}ko{\kf29}{\kf154}e
 Dialogue: 1,0:0:17.02,0:0:25.35,Default,,0000,0000,0000,,{\k100}{\kf25}ka{\kf21}ke{\kf25}ga{\kf13}e {\kf146}{\kf21}no {\kf13}na{\kf21}{\kf17}i {\kf108}{\kf25}ko{\kf29}no {\kf38}a{\kf17}o{\kf21}{\kf29}ki {\kf25}ho{\kf21}{\kf25}shi {\kf96}no

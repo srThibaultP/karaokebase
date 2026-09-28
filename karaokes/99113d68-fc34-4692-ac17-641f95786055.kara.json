@@ -24,9 +24,9 @@
     "created_at": "2017-10-11T17:02:48.000Z",
     "ignoreHooks": false,
     "kid": "99113d68-fc34-4692-ac17-641f95786055",
-    "modified_at": "2022-09-24T20:35:10.628Z",
+    "modified_at": "2026-09-27T10:57:53.775Z",
     "repository": "kara.moe",
-    "songname": "JPN - Tenkuu no Escaflowne - AMV - Tomodachi",
+    "songname": "JPN - Tenkû no Escaflowne - AMV - Tomodachi",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -71,8 +71,8 @@
       ]
     },
     "titles": {
-      "qro": "Tomodachi",
-      "jpn": "ともだち"
+      "jpn": "ともだち",
+      "qro": "Tomodachi"
     },
     "titles_default_language": "qro",
     "year": 1996

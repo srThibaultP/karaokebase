@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:39.000Z",
+    "ignoreHooks": false,
     "kid": "6114f27c-210f-4dd2-99ed-fbee5292d577",
-    "modified_at": "2021-02-25T13:43:45.182Z",
+    "modified_at": "2026-09-27T16:18:31.769Z",
     "repository": "kara.moe",
     "songname": "JPN - Yuru Yuri San Hai! - OP - Chochocho! Yuru Yuri Capriccio!!!",
     "tags": {
@@ -72,8 +73,8 @@
       ]
     },
     "titles": {
-      "qro": "Chochocho! Yuru Yuri Capriccio!!!",
-      "jpn": "ちょちょちょ!ゆるゆり☆かぷりっちょ!!!"
+      "jpn": "ちょちょちょ!ゆるゆり☆かぷりっちょ!!!",
+      "qro": "Chochocho! Yuru Yuri Capriccio!!!"
     },
     "titles_default_language": "qro",
     "year": 2015

@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:00:57.000Z",
+    "ignoreHooks": false,
     "kid": "7f89ea28-2fa2-4210-8109-0ac4f85b9056",
-    "modified_at": "2021-02-28T12:22:19.405Z",
+    "modified_at": "2026-09-27T16:47:17.331Z",
     "repository": "kara.moe",
     "songname": "JPN - Sora no Otoshimono Forte - OP2 - Heart No Kakuritsu",
     "songorder": 2,
@@ -69,8 +70,8 @@
       ]
     },
     "titles": {
-      "qro": "Heart No Kakuritsu",
-      "jpn": "ハートの確率"
+      "jpn": "ハートの確率",
+      "qro": "Heart No Kakuritsu"
     },
     "titles_default_language": "qro",
     "year": 2010

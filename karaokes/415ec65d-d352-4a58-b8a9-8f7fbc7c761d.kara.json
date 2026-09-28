@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2018-11-16T21:27:28.000Z",
+    "ignoreHooks": false,
     "kid": "415ec65d-d352-4a58-b8a9-8f7fbc7c761d",
-    "modified_at": "2021-02-25T13:38:53.146Z",
+    "modified_at": "2026-09-27T16:07:25.446Z",
     "repository": "kara.moe",
     "songname": "JPN - Yama Nezumi Rocky Chuck - OP - Midori no Hidamari",
     "tags": {
@@ -64,8 +65,8 @@
       ]
     },
     "titles": {
-      "qro": "Midori no Hidamari",
-      "jpn": "緑の陽だまり"
+      "jpn": "緑の陽だまり",
+      "qro": "Midori no Hidamari"
     },
     "titles_default_language": "qro",
     "year": 1973

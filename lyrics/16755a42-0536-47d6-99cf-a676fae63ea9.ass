@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Kokoro Wa Tamago
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:4.71,0:0:9.80,Default,,0000,0000,0000,,{\k100}{\kf17}mo{\kf17}shi{\kf33}ka {\kf17}a{\kf29}no {\kf17}ko {\kf42}ga {\kf50}{\kf29}su{\kf25}ki {\kf33}{\kf25}na{\kf21}ra{\kf54}ba
 Dialogue: 1,0:0:9.22,0:0:13.84,Default,,0000,0000,0000,,{\k100}{\kf21}ka{\kf25}ze {\kf17}ni {\kf21}{\kf33}o{\kf29}ne{\kf25}ga{\kf29}i {\kf29}tsu{\kf25}bu{\kf25}ya{\kf25}i{\kf58}te
 Dialogue: 1,0:0:13.72,0:0:18.14,Default,,0000,0000,0000,,{\k100}{\kf17}mo{\kf17}shi{\kf21}ka {\kf25}{\kf38}a{\kf29}i{\kf29}ta{\kf29}ku {\kf29}nat{\kf4}ta {\kf25}{\kf25}na{\kf54}ra

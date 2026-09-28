@@ -24,11 +24,12 @@
     "created_at": "2024-05-21T15:53:57.914Z",
     "ignoreHooks": false,
     "kid": "14b558ac-b1b7-41a5-913e-8a1bfc2ef6f1",
-    "modified_at": "2026-03-21T19:56:39.513Z",
+    "modified_at": "2026-09-27T09:19:25.471Z",
     "parents": [
       "a90d15cf-80d3-4619-b510-af19743d64b2"
     ],
-    "songname": "JPN - Shoujo Kageki Revue Starlight Rondo Rondo Rondo - IN - Koi no Makyuu (Nanakai Ura) ~ Off Vocal Vers",
+    "repository": "kara.moe",
+    "songname": "JPN - Shôjo☆Kageki Revue Starlight: Rondo Rondo Rondo - IN - Koi no Makyû (Nanakai Ura) ~ Off Vocal Vers",
     "tags": {
       "authors": [
         "7848b5dc-a5df-4577-b640-147be5288cec",
@@ -51,7 +52,7 @@
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
       ],
       "misc": [
-        "86705d4b-24e4-4756-9687-2b9c98bcf366"
+        "1d6ceadf-a885-47e5-b23b-c07bf668a424"
       ],
       "origins": [
         "938de218-5343-4865-94d3-fb33f2eaa152"

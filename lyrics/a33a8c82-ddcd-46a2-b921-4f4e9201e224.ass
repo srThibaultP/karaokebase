@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Hoshizora no Message
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:3.00,0:0:9.38,Default,,0000,0000,0000,,{\k100}{\kf21}ho{\kf17}shi{\kf21}zo{\kf17}ra {\kf63}no {\kf79}{\kf21}do{\kf21}ko {\kf38}ka {\kf38}ni {\kf21}fu{\kf17}ru{\kf21}sa{\kf33}to {\kf29}ga {\kf21}a{\kf63}ru
 Dialogue: 1,0:0:8.92,0:0:15.35,Default,,0000,0000,0000,,{\k100}{\kf21}a{\kf29}i {\kf46}su{\kf33}ru {\kf29}hi{\kf33}to {\kf21}ga {\kf21}{\kf13}o{\kf21}{\kf17}re {\kf21}{\kf17}wo {\kf21}{\kf33}yo{\kf21}n{\kf21}de {\kf29}{\kf21}i{\kf75}ru
 Dialogue: 1,0:0:14.93,0:0:21.52,Default,,0000,0000,0000,,{\k100}{\kf17}ka{\kf21}na{\kf25}shi{\kf21}mi {\kf75}no {\kf58}{\kf17}o{\kf25}mo{\kf13}sa {\kf29}{\kf17}ni {\kf25}{\kf17}u{\kf17}tsu{\kf21}mu{\kf33}ku {\kf21}yo{\kf33}ru {\kf75}wa

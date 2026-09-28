@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:37.000Z",
+    "ignoreHooks": false,
     "kid": "723b9219-a660-4b46-b5e1-4d8fd84476cc",
-    "modified_at": "2021-02-25T13:25:48.980Z",
+    "modified_at": "2026-09-27T15:07:18.475Z",
     "repository": "kara.moe",
     "songname": "JPN - Tokyo Underground - OP2 - HEY YOU!! Ushinatte wa naranaimono",
     "songorder": 2,
@@ -64,8 +65,8 @@
       ]
     },
     "titles": {
-      "qro": "HEY YOU!! Ushinatte wa naranaimono",
-      "jpn": "HEY YOU!!~失ってはならないもの~"
+      "jpn": "HEY YOU!!~失ってはならないもの~",
+      "qro": "HEY YOU!! Ushinatte wa naranaimono"
     },
     "titles_default_language": "qro",
     "year": 2002

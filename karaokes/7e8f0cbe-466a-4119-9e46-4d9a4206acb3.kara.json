@@ -17,13 +17,14 @@
           "version": "Default"
         }
       ],
-      "version": "Full."
+      "version": "Default"
     }
   ],
   "data": {
     "created_at": "2019-03-31T14:23:22.000Z",
+    "ignoreHooks": false,
     "kid": "7e8f0cbe-466a-4119-9e46-4d9a4206acb3",
-    "modified_at": "2021-05-23T22:38:24.916Z",
+    "modified_at": "2026-09-27T12:42:57.826Z",
     "parents": [
       "07172c91-1876-48e6-8666-a8202c2c7208"
     ],
@@ -34,13 +35,16 @@
         "ef611801-6a99-482e-9b99-13ad3d3a0648"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "creators": [
         "e924236c-76ce-4437-bdd8-2639d543c61a"
       ],
       "families": [
         "5391f9fe-638c-415f-8dc9-958e3a2c5787"
+      ],
+      "genres": [
+        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ],
       "groups": [
         "24db50aa-a126-4d34-a48a-e45db79c4245"
@@ -69,9 +73,6 @@
       ],
       "franchises": [
         "9f5d3334-8712-40d6-befe-16ad9dc5bfb2"
-      ],
-      "genres": [
-        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ]
     },
     "titles": {

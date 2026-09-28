@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:03:10.000Z",
+    "ignoreHooks": false,
     "kid": "44c5039d-d4cf-44dc-8fb2-747879c8bc2a",
-    "modified_at": "2021-02-25T13:10:56.718Z",
+    "modified_at": "2026-09-27T10:06:45.053Z",
     "repository": "kara.moe",
     "songname": "JPN - Special A - ED1 - Hidamari no Gate",
     "songorder": 1,
@@ -71,8 +72,8 @@
       ]
     },
     "titles": {
-      "qro": "Hidamari no Gate",
-      "jpn": "陽だまりのゲート"
+      "jpn": "陽だまりのゲート",
+      "qro": "Hidamari no Gate"
     },
     "titles_default_language": "qro",
     "year": 2008

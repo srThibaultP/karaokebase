@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Ashita Yohô wa Itsumo Hare
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:0.92,0:0:7.40,Default,,0000,0000,0000,,{\k100}{\kf20}HEA{\kf36}VY {\kf20}ME{\kf40}TA{\kf40}L {\kf64}no {\kf104}{\kf20}BO{\kf24}DY {\kf20}{\kf24}no {\kf40}na{\kf40}ka {\kf56}ni
 Dialogue: 1,0:0:7.48,0:0:13.56,Default,,0000,0000,0000,,{\k100}{\kf20}tsu{\kf20}yo{\kf24}ku {\kf24}na{\kf44}ru {\kf72}{\kf12}ko{\kf20}{\kf28}no {\kf24}ta{\kf36}ma{\kf184}shii
 Dialogue: 1,0:0:12.80,0:0:16.76,Default,,0000,0000,0000,,{\k100}{\kf76}OH {\kf24}{\kf24}Ji{\kf172}ban

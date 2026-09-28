@@ -24,21 +24,24 @@
     "created_at": "2018-11-18T15:32:36.000Z",
     "ignoreHooks": false,
     "kid": "3f4bc7de-0421-41b5-85c2-d96796000fa1",
-    "modified_at": "2022-09-30T20:46:07.307Z",
+    "modified_at": "2026-09-27T12:59:07.168Z",
     "repository": "kara.moe",
-    "songname": "JPN - Ryuusei Ningen Zone - OP - Ryuusei Ningen Zone",
+    "songname": "JPN - Ryûsei Ningen Zone - OP - Ryûsei Ningen Zone",
     "tags": {
       "authors": [
         "4607780c-f1ef-47cf-9c1c-b13e8f731699"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "creators": [
         "e924236c-76ce-4437-bdd8-2639d543c61a"
       ],
       "families": [
         "5391f9fe-638c-415f-8dc9-958e3a2c5787"
+      ],
+      "genres": [
+        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ],
       "groups": [
         "57e5e0c0-e02e-4871-a6cb-d48ea604ebab"
@@ -62,9 +65,6 @@
       "songwriters": [
         "9d554b2e-bdf4-49d4-915e-293769843d52",
         "aaaf8667-3ef6-4434-930f-f40fdea9e4b0"
-      ],
-      "genres": [
-        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ]
     },
     "titles": {

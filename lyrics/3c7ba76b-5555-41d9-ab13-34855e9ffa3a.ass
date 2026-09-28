@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Never Stop Changeman
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:3.92,0:0:7.30,Default,,0000,0000,0000,,{\k100}{\kf17}ta{\kf25}chi{\kf25}do{\kf17}ma{\kf17}ra{\kf17}na{\kf29}i {\kf92}ze
 Dialogue: 1,0:0:7.17,0:0:10.47,Default,,0000,0000,0000,,{\k100}{\kf17}fu{\kf21}ri{\kf21}mu{\kf21}ka{\kf17}na{\kf29}{\kf21}i {\kf83}ze
 Dialogue: 1,0:0:10.05,0:0:13.34,Default,,0000,0000,0000,,{\k100}{\kf21}o{\kf21}re{\kf21}ta{\kf67}chi {\kf21}ki{\kf21}bo{\kf25}u {\kf33}wo

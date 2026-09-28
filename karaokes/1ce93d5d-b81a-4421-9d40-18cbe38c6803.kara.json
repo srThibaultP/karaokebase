@@ -24,21 +24,24 @@
     "created_at": "2017-10-11T17:02:55.000Z",
     "ignoreHooks": false,
     "kid": "1ce93d5d-b81a-4421-9d40-18cbe38c6803",
-    "modified_at": "2022-09-30T21:31:45.250Z",
+    "modified_at": "2026-09-27T12:50:53.203Z",
     "repository": "kara.moe",
-    "songname": "JPN - Kyouryuu Sentai Zyuranger - OP - Kyouryuu Sentai Zyuranger",
+    "songname": "JPN - Kyôryû Sentai Zyuranger - OP - Kyôryû Sentai Zyuranger",
     "tags": {
       "authors": [
         "4607780c-f1ef-47cf-9c1c-b13e8f731699"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "creators": [
         "e32b14df-502b-45fa-9ca5-37554a63a4d7"
       ],
       "families": [
         "5391f9fe-638c-415f-8dc9-958e3a2c5787"
+      ],
+      "genres": [
+        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ],
       "groups": [
         "24db50aa-a126-4d34-a48a-e45db79c4245"
@@ -61,9 +64,6 @@
       "songwriters": [
         "0203aaac-a13a-48b9-ae97-97d6cc09414a",
         "73bd7db9-dafe-49c3-85b3-8c6da74c99a8"
-      ],
-      "genres": [
-        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ]
     },
     "titles": {

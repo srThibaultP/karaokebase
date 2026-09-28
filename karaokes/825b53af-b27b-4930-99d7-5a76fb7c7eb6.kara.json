@@ -24,7 +24,7 @@
     "created_at": "2024-12-04T22:37:48.492Z",
     "ignoreHooks": false,
     "kid": "825b53af-b27b-4930-99d7-5a76fb7c7eb6",
-    "modified_at": "2024-12-04T22:37:52.960Z",
+    "modified_at": "2026-09-27T12:29:51.977Z",
     "repository": "kara.moe",
     "songname": "JPN - Bakuage Sentai Boonboomger - OP - Bakuage Sentai Boonboomger",
     "tags": {
@@ -32,7 +32,7 @@
         "05c1e4ad-32ba-490e-8f3c-5cd491c96d85"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "creators": [
         "e32b14df-502b-45fa-9ca5-37554a63a4d7"
@@ -69,9 +69,9 @@
       ]
     },
     "titles": {
+      "eng": "Cranked-Up Sentai Boonboomger",
       "jpn": "爆上戦隊ブンブンジャー",
-      "qro": "Bakuage Sentai Boonboomger",
-      "eng": "Cranked-Up Sentai Boonboomger"
+      "qro": "Bakuage Sentai Boonboomger"
     },
     "titles_default_language": "qro",
     "year": 2024

@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Toki no Kanata he
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:12.39,0:0:16.43,Default,,0000,0000,0000,,{\k100}{\kf79}WHY ? {\kf17}ko{\kf17}ko{\kf21}ro {\kf46}wo {\kf21}ma{\kf38}do{\kf17}wa{\kf50}su
 Dialogue: 1,0:0:15.68,0:0:19.56,Default,,0000,0000,0000,,{\k100}{\kf42}so {\kf21}{\kf21}to{\kf17}ki {\kf29}no {\kf38}MYS{\kf25}TE{\kf38}RY {\kf58}wa
 Dialogue: 1,0:0:18.85,0:0:22.81,Default,,0000,0000,0000,,{\k100}{\kf46}WHY ? {\kf21}{\kf21}da{\kf21}re {\kf21}ni {\kf46}mo {\kf21}to{\kf33}ke{\kf17}na{\kf50}i

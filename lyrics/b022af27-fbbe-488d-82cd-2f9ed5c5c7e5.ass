@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Kono Hoshi Wo Kono Machi Wo
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:1.96,0:0:7.05,Default,,0000,0000,0000,,{\k100}{\kf17}hi{\kf21}to{\kf25}ri-{\kf21}{\kf38}ki{\kf17}ri {\kf17}na{\kf17}ra {\kf17}i{\kf17}ma{\kf17}i{\kf29}chi {\kf33}da {\kf21}ke{\kf104}do
 Dialogue: 1,0:0:7.55,0:0:12.51,Default,,0000,0000,0000,,{\k100}{\kf13}min{\kf21}{\kf29}na {\kf25}{\kf29}ga {\kf17}i{\kf17}re{\kf21}ba {\kf17}to{\kf21}bi{\kf17}ki{\kf25}ri {\kf33}da {\kf21}yo {\kf92}ne
 Dialogue: 1,0:0:13.10,0:0:18.22,Default,,0000,0000,0000,,{\k100}{\kf33}don{\kf54}na {\kf38}chi{\kf17}i{\kf21}sa {\kf17}na {\kf21}yo{\kf17}ro{\kf17}ko{\kf25}bi {\kf21}da{\kf25}t{\kf108}te

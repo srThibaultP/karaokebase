@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Healin' You
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:3.40,0:0:9.58,Default,,0000,0000,0000,,{\k100}{\kf20}ki{\kf13}zu{\kf17}{\kf23}tsu{\kf17}{\kf30}i{\kf77}ta {\kf117}{\kf20}i{\kf23}{\kf17}no{\kf23}{\kf30}ri {\kf90}ga
 Dialogue: 1,0:0:9.81,0:0:16.02,Default,,0000,0000,0000,,{\k100}{\kf17}se{\kf20}me{\kf13}gi{\kf30}{\kf27}a{\kf83}u {\kf123}{\kf17}se{\kf20}{\kf43}ka{\kf30}i {\kf97}wo
 Dialogue: 1,0:0:16.28,0:0:22.72,Default,,0000,0000,0000,,{\k100}{\kf13}ma{\kf20}{\kf13}ssu{\kf33}{\kf20}gu {\kf120}ni {\kf20}{\kf13}i{\kf27}{\kf13}ki{\kf17}{\kf23}ru {\kf37}{\kf10}mo{\kf27}{\kf13}no {\kf17}{\kf107}yo

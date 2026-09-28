@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:03:13.000Z",
+    "ignoreHooks": false,
     "kid": "2ad622ea-a3bd-4ad4-aad1-dba10e734837",
-    "modified_at": "2021-02-25T13:35:54.286Z",
+    "modified_at": "2026-09-27T15:50:03.913Z",
     "repository": "kara.moe",
-    "songname": "JPN - Virus - OP - Rainy Day And Day",
+    "songname": "JPN - Virus - OP - Rainy day and day",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"

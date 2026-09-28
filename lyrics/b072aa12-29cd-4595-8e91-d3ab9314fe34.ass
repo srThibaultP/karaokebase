@@ -1,14 +1,11 @@
-[Script Info]
+﻿[Script Info]
 ;Converted using ultrastar2ass : https://lab.shelter.moe/axelterizaki/ultrastar2ass
-Title: 
+Title: Le shérif de l'espace
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
-
-[Aegisub Project Garbage]
-Audio File: Z:\karaokemugen\medias\FRE - Uchuu Keiji Gavan - AUDIO OP - Le sherif de l'espace ~ Full Vers.mp3
-
+Original Timing: c3dric49
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding

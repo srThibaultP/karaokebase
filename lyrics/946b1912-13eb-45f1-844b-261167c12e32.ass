@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Mi yo!! Gorenger
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:4.05,0:0:12.05,Default,,0000,0000,0000,,{\k100}{\kf21}Oh {\kf21}{\kf29}Oh {\kf21}{\kf38}Go{\kf33}ran{\kf183}ger {\kf29}{\kf21}Oh {\kf21}{\kf21}Oh {\kf21}{\kf46}Go{\kf33}ran{\kf163}ger
 Dialogue: 1,0:0:11.51,0:0:19.77,Default,,0000,0000,0000,,{\k100}{\kf17}Oh {\kf21}{\kf25}Oh {\kf21}{\kf25}Go{\kf21}{\kf33}ran{\kf192}ger {\kf25}{\kf21}Oh {\kf21}{\kf21}Oh {\kf25}{\kf42}Go{\kf46}ran{\kf171}ger
 Dialogue: 1,0:0:19.06,0:0:21.18,Default,,0000,0000,0000,,{\k100}{\kf13}A{\kf17}ka{\kf29}ran{\kf54}ger

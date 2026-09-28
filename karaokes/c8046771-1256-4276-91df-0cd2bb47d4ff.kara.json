@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:47.000Z",
+    "ignoreHooks": false,
     "kid": "c8046771-1256-4276-91df-0cd2bb47d4ff",
-    "modified_at": "2021-02-25T13:09:54.973Z",
+    "modified_at": "2026-09-27T10:01:30.707Z",
     "repository": "kara.moe",
-    "songname": "JPN - Soredemo Sekai wa Utsukushii - OP - Beautiful World",
+    "songname": "JPN - Soredemo Sekai wa Utsukushii - OP - BEAUTIFUL WORLD",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"

@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Hello! Shaider
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:4.21,0:0:8.30,Default,,0000,0000,0000,,{\k100}{\kf17}yo{\kf29}se {\kf33}yo {\kf38}yo{\kf25}se {\kf33}yo {\kf17}na{\kf21}mi{\kf21}da {\kf17}na{\kf17}n{\kf42}te
 Dialogue: 1,0:0:8.26,0:0:12.30,Default,,0000,0000,0000,,{\k100}{\kf29}yo{\kf25}se {\kf29}yo {\kf25}yo{\kf29}se {\kf33}yo {\kf17}su{\kf17}ne{\kf17}ru {\kf21}na{\kf21}n{\kf42}te
 Dialogue: 1,0:0:11.68,0:0:16.93,Default,,0000,0000,0000,,{\k100}{\kf21}gen{\kf25}ki {\kf25}{\kf75}ni {\kf21}{\kf21}kyo{\kf29}u {\kf38}wo {\kf29}u{\kf42}ta{\kf25}t{\kf25}ta{\kf50}ra

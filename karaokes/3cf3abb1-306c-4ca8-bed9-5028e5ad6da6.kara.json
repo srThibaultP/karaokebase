@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:56.000Z",
+    "ignoreHooks": false,
     "kid": "3cf3abb1-306c-4ca8-bed9-5028e5ad6da6",
-    "modified_at": "2021-02-25T13:18:03.022Z",
+    "modified_at": "2026-09-27T10:52:04.053Z",
     "repository": "kara.moe",
     "songname": "JPN - Tari Tari - ED2 - Kokoro no Senritsu",
     "songorder": 2,
@@ -65,8 +66,8 @@
       ]
     },
     "titles": {
-      "qro": "Kokoro no Senritsu",
-      "jpn": "心の旋律"
+      "jpn": "心の旋律",
+      "qro": "Kokoro no Senritsu"
     },
     "titles_default_language": "qro",
     "year": 2012

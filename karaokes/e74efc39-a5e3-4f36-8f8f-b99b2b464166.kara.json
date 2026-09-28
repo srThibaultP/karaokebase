@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:10.000Z",
+    "ignoreHooks": false,
     "kid": "e74efc39-a5e3-4f36-8f8f-b99b2b464166",
-    "modified_at": "2021-02-25T13:08:22.100Z",
+    "modified_at": "2026-09-27T09:43:56.898Z",
     "repository": "kara.moe",
     "songname": "JPN - Sky Girls - OP - Virgin's high!",
     "tags": {

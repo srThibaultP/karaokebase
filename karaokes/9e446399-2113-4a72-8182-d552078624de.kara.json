@@ -22,10 +22,11 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:01:48.000Z",
+    "ignoreHooks": false,
     "kid": "9e446399-2113-4a72-8182-d552078624de",
-    "modified_at": "2021-02-25T13:35:04.613Z",
+    "modified_at": "2026-09-27T15:47:28.082Z",
     "repository": "kara.moe",
-    "songname": "JPN - Vampire Knight Guilty - OP - Rinne Rondo",
+    "songname": "JPN - Vampire Knight Guilty - OP - Rinne -Rondo-",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
@@ -66,8 +67,8 @@
       ]
     },
     "titles": {
-      "qro": "Rinne -Rondo-",
-      "jpn": "輪廻-ロンド-"
+      "jpn": "輪廻-ロンド-",
+      "qro": "Rinne -Rondo-"
     },
     "titles_default_language": "qro",
     "year": 2008

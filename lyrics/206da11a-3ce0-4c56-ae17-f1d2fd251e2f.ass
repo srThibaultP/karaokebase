@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Jûkô B-Fighter
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:22.06,0:0:26.19,Default,,0000,0000,0000,,{\k100}{\kf13}ka{\kf21}n{\kf21}ji{\kf38}ga{\kf17}ra{\kf17}me {\kf21}no {\kf21}wa{\kf21}na {\kf50}wo {\kf13}shi{\kf21}ka{\kf42}ke
 Dialogue: 1,0:0:28.23,0:0:32.57,Default,,0000,0000,0000,,{\k100}{\kf17}ha{\kf21}me{\kf17}tsu {\kf46}wo {\kf21}ta{\kf17}ku{\kf21}ra{\kf21}mu {\kf25}no {\kf42}wa {\kf17}da{\kf17}re {\kf54}da
 Dialogue: 1,0:0:34.57,0:0:38.03,Default,,0000,0000,0000,,{\k100}{\kf17}me {\kf17}ni {\kf25}wa {\kf46}me {\kf17}wo {\kf17}ha {\kf21}ni {\kf17}wa {\kf25}ha {\kf46}wo

@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Fighting Pose Flashman!
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:7.84,0:0:11.56,Default,,0000,0000,0000,,{\k100}{\kf36}to{\kf36}ssa {\kf20}no {\kf16}to{\kf16}ki {\kf36}ni {\kf16}F{\kf16}IGH{\kf24}TING {\kf16}PO{\kf40}SE
 Dialogue: 1,0:0:13.08,0:0:16.88,Default,,0000,0000,0000,,{\k100}{\kf16}i{\kf28}p{\kf24}pa{\kf20}tsu {\kf16}de {\kf12}ki{\kf16}me{\kf16}ru {\kf16}o{\kf16}re-{\kf16}ta{\kf20}chi {\kf64}sa
 Dialogue: 1,0:0:18.24,0:0:24.24,Default,,0000,0000,0000,,{\k100}{\kf16}a{\kf20}a {\kf24}{\kf16}ko{\kf20}{\kf28}no {\kf24}da{\kf32}i{\kf28}chi {\kf16}wa {\kf20}{\kf28}o{\kf12}re-{\kf20}{\kf16}ta{\kf20}{\kf16}chi {\kf36}{\kf32}no {\kf20}mo{\kf56}no

@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:00:54.000Z",
+    "ignoreHooks": false,
     "kid": "b7c4e615-c45c-405c-a9f1-bb1f68eed0c3",
-    "modified_at": "2021-02-25T13:39:44.555Z",
+    "modified_at": "2026-09-27T16:11:40.149Z",
     "repository": "kara.moe",
     "songname": "JPN - Yokoyama Mitsuteru Sangokushi - OP1 - Toki no Kawa",
     "songorder": 1,
@@ -64,8 +65,8 @@
       ]
     },
     "titles": {
-      "qro": "Toki no Kawa",
-      "jpn": "時の河"
+      "jpn": "時の河",
+      "qro": "Toki no Kawa"
     },
     "titles_default_language": "qro",
     "year": 1991

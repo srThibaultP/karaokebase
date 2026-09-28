@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:03:09.000Z",
+    "ignoreHooks": false,
     "kid": "59ac0495-a6a0-45bb-bb5f-d9a4f138270e",
-    "modified_at": "2021-02-25T13:20:38.017Z",
+    "modified_at": "2026-09-27T11:07:49.651Z",
     "repository": "kara.moe",
     "songname": "JPN - Tetsuwan Birdy Decode-02 - ED - Tane",
     "tags": {
@@ -66,8 +67,8 @@
       ]
     },
     "titles": {
-      "jpn": "タネ",
-      "ice": "Tane"
+      "ice": "Tane",
+      "jpn": "タネ"
     },
     "titles_default_language": "ice",
     "year": 2009

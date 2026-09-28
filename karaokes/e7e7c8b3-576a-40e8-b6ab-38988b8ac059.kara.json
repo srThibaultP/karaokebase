@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:00:58.000Z",
+    "ignoreHooks": false,
     "kid": "e7e7c8b3-576a-40e8-b6ab-38988b8ac059",
-    "modified_at": "2021-02-25T13:17:53.601Z",
+    "modified_at": "2026-09-27T10:50:33.273Z",
     "repository": "kara.moe",
     "songname": "JPN - Tantei Kageki Milky Holmes TD - OP - MILKY A GO GO",
     "tags": {

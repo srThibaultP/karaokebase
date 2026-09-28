@@ -22,16 +22,17 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:13.000Z",
+    "ignoreHooks": false,
     "kid": "ed9b20e9-cd48-4540-b693-48ec74e17301",
-    "modified_at": "2021-02-25T13:34:59.140Z",
+    "modified_at": "2026-09-27T15:45:27.270Z",
     "repository": "kara.moe",
-    "songname": "JPN - Vampire - OP - Vampire no Uta",
+    "songname": "JPN - Vampire - OP - Vampire no Theme",
     "tags": {
       "authors": [
         "5bdaba57-27f8-4568-8806-76a807728766"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "creators": [
         "1f5fd53e-1906-4c7b-8003-c5822e8e7718"
@@ -63,8 +64,8 @@
       ]
     },
     "titles": {
-      "qro": "Vampire no Theme",
-      "jpn": "バンパイヤのテーマ"
+      "jpn": "バンパイヤのテーマ",
+      "qro": "Vampire no Theme"
     },
     "titles_default_language": "qro",
     "year": 1968

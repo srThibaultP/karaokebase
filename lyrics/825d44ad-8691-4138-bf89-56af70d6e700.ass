@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Oretachi Muteki Sa!! Dairanger
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:1.40,0:0:4.04,Default,,0000,0000,0000,,{\k100}{\kf23}HA! {\kf27}{\kf30}HA! {\kf33}{\kf27}HA {\kf23}HA!
 Dialogue: 1,0:0:4.01,0:0:7.77,Default,,0000,0000,0000,,{\k100}{\kf20}ton{\kf20}de {\kf13}ku{\kf17}ru-{\kf23}ku{\kf23}ru {\kf17}{\kf23}su{\kf23}go{\kf30}i {\kf17}ya{\kf50}tsu
 Dialogue: 1,0:0:7.84,0:0:12.95,Default,,0000,0000,0000,,{\k100}{\kf17}chi{\kf17}kyu{\kf23}{\kf33}u {\kf23}de {\kf23}i{\kf20}chi{\kf70}ban {\kf27}{\kf17}tsu{\kf23}yo{\kf13}i {\kf17}{\kf20}ya{\kf67}tsu

@@ -6,7 +6,7 @@
   "medias": [
     {
       "default": true,
-      "duration": 110,
+      "duration": 109,
       "filename": "d62c81f9-a290-4743-8897-d27621e8f7ff.mp4",
       "filesize": 15750547,
       "loudnorm": "-17.32,-6.42,3.50,-27.39,-0.57",
@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:03:05.000Z",
+    "ignoreHooks": false,
     "kid": "d62c81f9-a290-4743-8897-d27621e8f7ff",
-    "modified_at": "2021-02-25T13:12:38.452Z",
+    "modified_at": "2026-09-27T10:27:31.270Z",
     "repository": "kara.moe",
     "songname": "JPN - Street Fighter II V - OP1 - Kaze, Fuiteru",
     "songorder": 1,
@@ -66,8 +67,8 @@
       ]
     },
     "titles": {
-      "qro": "Kaze, Fuiteru",
-      "jpn": "風 吹いてる"
+      "jpn": "風 吹いてる",
+      "qro": "Kaze, Fuiteru"
     },
     "titles_default_language": "qro",
     "year": 1995

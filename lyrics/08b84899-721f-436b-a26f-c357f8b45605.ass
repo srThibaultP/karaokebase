@@ -1,9 +1,10 @@
 ﻿[Script Info]
-Title: karaoke
+Title: Flash! Inazuman
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:4.34,0:0:7.41,Default,,0000,0000,0000,,{\k100}{\k13}I{\k7}{\k7}NA{\k7}{\k7}ZU{\k10}{\k53}MAN {\k20}{\kf83}FLASH!
 Dialogue: 1,0:0:22.32,0:0:25.09,Default,,0000,0000,0000,,{\k100}{\k33}FLASH {\k37}{\k30}FLASH {\k40}{\k37}FLASH
 Dialogue: 1,0:0:25.29,0:0:28.60,Default,,0000,0000,0000,,{\k100}{\k10}I{\k7}{\k23}NA{\k17}{\k10}ZU{\k10}{\k33}MAN {\k20}{\kf100}FLASH

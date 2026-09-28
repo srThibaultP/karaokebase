@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Hoero! Voicelugger
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:3.07,0:0:5.47,Default,,0000,0000,0000,,{\k100}{\kf13}VO{\kf17}ICE{\kf33}LUG{\kf77}GER!
 Dialogue: 1,0:0:12.51,0:0:16.45,Default,,0000,0000,0000,,{\k100}{\kf17}ha{\kf43}ru{\kf20}ka {\kf20}ji{\kf20}ge{\kf23}n {\kf30}ni {\kf17}ka{\kf17}ku{\kf20}sa{\kf20}re {\kf47}ta
 Dialogue: 1,0:0:15.78,0:0:19.75,Default,,0000,0000,0000,,{\k100}{\kf17}ki{\kf23}mi {\kf17}no {\kf20}JE{\kf13}WEL{\kf47}RY {\kf23}{\kf20}ne{\kf23}ra{\kf23}i {\kf20}ku{\kf50}ru

@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Ai ni Dakarete
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:0.08,0:0:8.97,Default,,0000,0000,0000,,{\k100}{\kf54}ku{\kf21}mo {\kf58}no {\kf88}{\kf17}su{\kf25}ki{\kf38}ma {\kf92}ni {\kf167}{\kf21}yu{\kf17}u{\kf42}hi {\kf21}{\kf21}a{\kf21}{\kf21}ka{\kf67}ku
 Dialogue: 1,0:0:9.18,0:0:12.59,Default,,0000,0000,0000,,{\k100}{\kf21}i{\kf17}ro{\kf25}me{\kf25}i{\kf42}te {\kf17}i{\kf21}ru {\kf75}yo
 Dialogue: 1,0:0:13.43,0:0:22.77,Default,,0000,0000,0000,,{\k100}{\kf67}chi{\kf25}he{\kf79}i{\kf67}{\kf21}se{\kf29}n {\kf33}ka{\kf92}ra {\kf158}{\kf21}ka{\kf25}ze {\kf38}no {\kf25}{\kf17}ko{\kf21}{\kf25}do{\kf92}u

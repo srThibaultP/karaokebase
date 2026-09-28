@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Goal Wa Mirai
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:2.79,0:0:10.01,Default,,0000,0000,0000,,{\k100}{\kf21}ko{\kf25}ko{\kf25}ro {\kf29}ni {\kf25}shi{\kf42}mi{\kf138}ru {\kf63}{\kf17}CO{\kf25}BA{\kf21}L{\kf29}T {\kf25}no {\kf38}so{\kf100}ra
 Dialogue: 1,0:0:9.88,0:0:13.34,Default,,0000,0000,0000,,{\k100}{\kf21}so{\kf21}i{\kf25}tsu {\kf25}wa {\kf21}o{\kf25}re-{\kf25}ta{\kf29}chi {\kf54}no
 Dialogue: 1,0:0:12.84,0:0:16.39,Default,,0000,0000,0000,,{\k100}{\kf21}wa{\kf21}ka{\kf25}sa {\kf29}no {\kf21}i{\kf25}ro {\kf21}da {\kf92}yo

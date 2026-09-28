@@ -24,19 +24,19 @@
     "created_at": "2024-05-06T15:35:16.835Z",
     "ignoreHooks": false,
     "kid": "87cf351e-d73b-4c5d-821d-9ba745de2f7e",
-    "modified_at": "2024-05-06T15:35:16.973Z",
+    "modified_at": "2026-09-27T10:05:10.367Z",
     "parents": [
       "ab070c60-52cd-4d55-a873-f6d3a2966022"
     ],
     "repository": "kara.moe",
-    "songname": "JPN - Shoujo Kageki Revue Starlight - LIVE - The Star Knows ~ Starry Konzert Ver",
+    "songname": "JPN - Shôjo☆Kageki Revue Starlight - LIVE - The Star Knows ~ Starry Konzert Ver.",
     "tags": {
       "authors": [
-        "f7ce702e-09aa-4b22-8742-0c99cd7a5409",
-        "7848b5dc-a5df-4577-b640-147be5288cec"
+        "7848b5dc-a5df-4577-b640-147be5288cec",
+        "f7ce702e-09aa-4b22-8742-0c99cd7a5409"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "creators": [
         "08df259d-c4ec-458e-a066-af38a9f7ccc5"
@@ -50,6 +50,10 @@
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "misc": [
+        "86705d4b-24e4-4756-9687-2b9c98bcf366",
+        "1d6ceadf-a885-47e5-b23b-c07bf668a424"
       ],
       "origins": [
         "938de218-5343-4865-94d3-fb33f2eaa152"
@@ -70,9 +74,6 @@
       ],
       "franchises": [
         "25fe5507-5373-408e-8b62-cdcaa10c537e"
-      ],
-      "misc": [
-        "86705d4b-24e4-4756-9687-2b9c98bcf366"
       ]
     },
     "titles": {

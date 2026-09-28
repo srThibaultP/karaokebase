@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:31.000Z",
+    "ignoreHooks": false,
     "kid": "d8532241-7acb-4bcc-9033-74d3669389bf",
-    "modified_at": "2021-02-25T13:40:38.613Z",
+    "modified_at": "2026-09-27T16:14:36.365Z",
     "repository": "kara.moe",
     "songname": "JPN - Yowamushi Pedal - OP2 - Yowamushi na Honoo",
     "songorder": 2,
@@ -66,8 +67,8 @@
       ]
     },
     "titles": {
-      "qro": "Yowamushi na Honoo",
-      "jpn": "弱虫な炎"
+      "jpn": "弱虫な炎",
+      "qro": "Yowamushi na Honoo"
     },
     "titles_default_language": "qro",
     "year": 2013

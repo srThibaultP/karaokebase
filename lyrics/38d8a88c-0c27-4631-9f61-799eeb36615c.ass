@@ -1,9 +1,10 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Dengeki Sentai Changeman
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -11,7 +12,6 @@ Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 1,0:0:4.63,0:0:7.33,Default,,0000,0000,0000,,{\k100}{\k17}den{\k17}ge{\k17}ki {\k17}sen{\k37}tai {\k20}CHANGE{\k47}MAN
 Dialogue: 1,0:0:16.90,0:0:22.13,Default,,0000,0000,0000,,{\k100}{\k23}HEA{\k43}R{\k20}T {\k27}ni {\k30}hi {\k27}ga {\k20}tsu{\k23}ku {\k40}ze {\k27}mo{\k20}e{\k33}a{\k20}ga{\k23}ru {\k47}ze
 Dialogue: 1,0:0:21.77,0:0:26.73,Default,,0000,0000,0000,,{\k100}{\k23}ja{\k33}a{\k20}ku {\k17}{\k30}no {\k20}go{\k23}zu{\k13}ma {\k17}{\k43}wo {\k30}CATCH {\k27}{\k23}shi{\k27}ta {\k50}ze

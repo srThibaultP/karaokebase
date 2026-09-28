@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:04.000Z",
+    "ignoreHooks": false,
     "kid": "f241e4ce-e84c-4984-a5d2-55477315dbf3",
-    "modified_at": "2021-02-25T13:15:45.504Z",
+    "modified_at": "2026-09-27T10:41:32.595Z",
     "repository": "kara.moe",
     "songname": "JPN - Taimadou Gakuen 35 Shiken Shoutai - ED - Calling my Twilight",
     "tags": {

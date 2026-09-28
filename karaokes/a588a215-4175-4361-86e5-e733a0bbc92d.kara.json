@@ -24,21 +24,24 @@
     "created_at": "2017-10-11T17:01:17.000Z",
     "ignoreHooks": false,
     "kid": "a588a215-4175-4361-86e5-e733a0bbc92d",
-    "modified_at": "2022-10-01T11:20:57.062Z",
+    "modified_at": "2026-09-27T13:00:56.711Z",
     "repository": "kara.moe",
-    "songname": "JPN - Choujin Sentai Jetman - OP - Choujin Sentai Jetman",
+    "songname": "JPN - Chôjin Sentai Jetman - OP - Chôjin Sentai Jetman",
     "tags": {
       "authors": [
         "4607780c-f1ef-47cf-9c1c-b13e8f731699"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "dbcf2c22-524d-4708-99bb-601703633927"
       ],
       "creators": [
         "e32b14df-502b-45fa-9ca5-37554a63a4d7"
       ],
       "families": [
         "5391f9fe-638c-415f-8dc9-958e3a2c5787"
+      ],
+      "genres": [
+        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ],
       "groups": [
         "24db50aa-a126-4d34-a48a-e45db79c4245"
@@ -61,9 +64,6 @@
       "songwriters": [
         "73bd7db9-dafe-49c3-85b3-8c6da74c99a8",
         "ac8546b7-9aad-46f3-8975-498d891c2aa3"
-      ],
-      "genres": [
-        "d3fac9ab-630d-402d-a392-3d2450c3e62e"
       ]
     },
     "titles": {
