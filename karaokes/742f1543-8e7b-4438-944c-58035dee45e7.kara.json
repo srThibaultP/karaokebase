@@ -24,7 +24,7 @@
     "created_at": "2025-11-22T18:13:41.633Z",
     "ignoreHooks": false,
     "kid": "742f1543-8e7b-4438-944c-58035dee45e7",
-    "modified_at": "2025-11-22T18:13:41.635Z",
+    "modified_at": "2026-09-28T22:57:17.814Z",
     "repository": "kara.moe",
     "songname": "ENG - Hazbin Hotel Season 2 - IN - Love In A Bottle",
     "tags": {
@@ -32,7 +32,7 @@
         "f70c7314-b8d3-4bf4-96a0-dc8b2c5a6c94"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "efe171c0-e8a1-4d03-98c0-60ecf741ad52"
       ],
       "creators": [
         "8bd95a35-f58e-4a92-9415-600b22dedea9"
@@ -57,10 +57,10 @@
         "a36462e7-b7da-451f-ae50-66919fd2ee1d"
       ],
       "singers": [
-        "b4fc4b28-6b92-4a06-ae63-75deb18013f1",
         "08c4921f-333b-4e42-9c95-8312f8be9d37",
+        "218b0d03-d487-4e52-925c-4d7e981ff913",
         "7155112a-c588-4ced-b2da-d61e92b17277",
-        "218b0d03-d487-4e52-925c-4d7e981ff913"
+        "b4fc4b28-6b92-4a06-ae63-75deb18013f1"
       ],
       "songtypes": [
         "5e5250d9-351a-4a82-98eb-55db50ad8962"

@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "GeyeG Pictures"
+    },
+    "name": "GeyeG Pictures",
+    "repository": "kara.moe",
+    "tid": "ae5a4f38-4877-4af1-b5dc-fcd7318abca6",
+    "types": [
+      4
+    ]
+  }
+}

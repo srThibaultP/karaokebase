@@ -24,7 +24,7 @@
     "created_at": "2017-11-12T18:58:26.000Z",
     "ignoreHooks": false,
     "kid": "2f3d2ddd-ba50-4ff5-bbe6-6b4094be8736",
-    "modified_at": "2022-01-28T22:32:20.008Z",
+    "modified_at": "2026-09-28T22:57:03.333Z",
     "parents": [
       "c7b71129-0793-4551-b5eb-32235851b856"
     ],
@@ -35,7 +35,7 @@
         "8c22c899-b3ed-42da-a548-ce00f950798b"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "efe171c0-e8a1-4d03-98c0-60ecf741ad52"
       ],
       "creators": [
         "647386fe-6901-46bd-8ed0-bd68274c5b1c"
@@ -71,6 +71,7 @@
     "titles": {
       "eng": "A world without danger"
     },
+    "titles_default_language": "eng",
     "year": 2003
   }
 }

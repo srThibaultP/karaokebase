@@ -17,98 +17,99 @@ Style: Legend,Arial,24,&H00FFFFFF,&H00FA7BA6,&H00000000,&H00000000,-1,0,0,0,100,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,JP,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Dialogue: 0,0:00:00.00,0:00:10.00,Legend,,0,0,0,,{\k1000} JP {\2cFFFFFF}| {\rENG}ENG
-Comment: 0,0:00:13.54,0:00:22.73,JP,,0,0,0,karaoke,{\k46}ki{\k63}ri {\kf100}no{\k28} {\k45}yu{\k64}me {\kf103}ni{\k4} {\k9}ne{\k11}mu{\kf107}ru{\k63} {\k67}wa{\k40}ta{\k65}zu{\kf104}mi
-Comment: 0,0:00:22.98,0:00:31.12,JP,,0,0,0,karaoke,{\k38}u{\k70}tsu{\kf89}wa{\k38} {\k40}ka{\k69}sa{\kf102}ne{\k5} {\k10}ki{\k12}shi{\kf116}mu{\k54} {\k66}o{\kf105}ri
-Comment: 0,0:00:32.41,0:00:41.63,JP,,0,0,0,karaoke,{\k42}wa{\k64}re{\kf87}te{\k39} {\k47}shi{\k62}ro{\kf104}ku{\k4} {\k9}yu{\k14}me {\kf90}wa{\k79} {\k65}ku{\k42}re{\k67}na{\kf107}i
-Comment: 0,0:00:41.83,0:00:51.70,JP,,0,0,0,karaoke,{\k43}so{\k64}me{\kf85}te{\k42} {\k46}wa{\k65}ra{\kf100}be{\k1} {\k15}u{\k11}ta {\kf78}wa{\k8} {\k10}to{\k12}da{\kf83}e{\k44} {\k44}ki{\k64}e{\kf172}ta
-Comment: 0,0:01:04.55,0:01:08.00,ENG,,0,0,0,karaoke,{\k40}Ma{\k44}gic {\k44}pa{\k44}ges {\k33}o{\k33}pen {\k107}wide
-Comment: 0,0:01:08.33,0:01:11.37,ENG,,0,0,0,karaoke,{\k26}spil{\k22}ling {\k44}se{\k41}crets {\k36}from {\k30}in{\k105}side
-Comment: 0,0:01:11.84,0:01:17.63,ENG,,0,0,0,karaoke,{\k22}Now {\k16}the {\k40}sto{\k40}ry {\k42}stirs {\k35}a{\kf90}gain,{\k78} {\k19}a {\k47}tale {\k42}that {\k22}ne{\k21}ver {\k65}ends
-Comment: 0,0:01:18.27,0:01:21.68,ENG,,0,0,0,karaoke,{\k43}Dis{\k42}tant {\k44}waves, {\k42}they {\k29}call {\k45}to {\kf96}me
-Comment: 0,0:01:22.10,0:01:25.10,ENG,,0,0,0,karaoke,{\k22}E{\k23}cho{\k43}ing {\k43}a {\k32}me{\k32}mo{\kf105}ry
-Comment: 0,0:01:25.53,0:01:28.54,ENG,,0,0,0,karaoke,{\k23}Me{\k19}lan{\k47}cho{\k41}lic {\k31}and {\k35}for{\kf105}lorn
-Comment: 0,0:01:29.19,0:01:31.03,ENG,,0,0,0,karaoke,{\k22}Nos{\k40}tal{\k41}gi{\k25}a {\k23}re{\k33}born
-Comment: 0,0:01:31.11,0:01:35.00,JP,,0,0,0,karaoke,{\k45}TIC{\k21}K{\k42}TAC{\k22}K {\k86}to {\k42}ko{\k18}wa{\k48}sa{\k20}re{\k45}te
-Comment: 0,0:01:35.41,0:01:41.06,JP,,0,0,0,karaoke,{\k43}da{\k22}re {\k41}mo {\k23}yo{\k43}me{\k22}na{\k20}i {\kf86}te{\kf86}ga{\kf179}mi
-Comment: 0,0:01:42.03,0:01:45.22,ENG,,0,0,0,karaoke,{\k25}Now {\k19}it {\k23}is {\kf83}time{\k20} {\k22}to {\k25}find {\k20}my{\kf82}self
-Comment: 0,0:01:45.49,0:01:48.62,ENG,,0,0,0,karaoke,{\k18}That {\k24}frigh{\k21}tened {\k42}in{\k23}fant {\k43}of {\k43}the {\kf85}pa{\k14}st
-Comment: 0,0:01:48.90,0:01:52.62,ENG,,0,0,0,karaoke,{\k23}Trapped {\k21}in {\k21}a {\k65}death{\k21}ly {\k86}hold, {\k63}lost {\k23}and {\k49}cold
-Comment: 0,0:01:52.76,0:01:55.45,ENG,,0,0,0,karaoke,{\kf103}You’re{\kf2} {\k24}wai{\k19}ting {\k24}for {\kf97}me
-Comment: 0,0:01:55.77,0:01:59.02,ENG,,0,0,0,karaoke,{\k22}A {\k20}ray {\k22}of {\k105}hope {\k24}can {\k22}lead {\k21}the {\k89}way
-Comment: 0,0:01:59.41,0:02:02.31,ENG,,0,0,0,karaoke,{\k22}Let {\k20}me {\k44}sing {\k21}for {\k45}you {\k20}eve{\k21}ry {\kf97}day
-Comment: 0,0:02:02.62,0:02:06.42,ENG,,0,0,0,karaoke,{\k22}A {\k21}me{\k21}lo{\k65}dy {\k22}un{\k86}veiled, {\k64}light {\k21}pre{\k58}vails
-Comment: 0,0:02:06.48,0:02:09.18,ENG,,0,0,0,karaoke,{\kf106}Brea{\k23}king {\k21}through {\k22}the {\kf98}void
-Comment: 0,0:02:09.47,0:02:12.49,ENG,,0,0,0,karaoke,{\k22}A{\k20}bys{\k23}sal {\kf237}Hymn
-Comment: 0,0:02:20.84,0:02:30.06,JP,,0,0,0,karaoke,{\k43}to{\k64}ki {\kf90}no{\k39} {\k40}u{\k67}tsu{\kf106}ro{\k1} {\k13}ne{\k8}mu{\kf90}ru{\k82} {\k64}wa{\k41}ga {\k66}tsu{\kf108}mi
-Comment: 0,0:02:30.28,0:02:36.89,JP,,0,0,0,karaoke,{\k42}hi{\k65}to{\kf85}ri{\k43} {\k42}wa{\k65}ra{\kf101}be{\k2} {\k12}u{\k14}ta {\kf79}no{\k5} {\k10}shi{\k14}ra{\kf82}be
-Comment: 0,0:02:37.34,0:02:40.22,JP,,0,0,0,karaoke,{\k43}da{\k65}i{\kf180}te
-Comment: 0,0:02:42.68,0:02:46.59,JP,,0,0,0,karaoke,{\k44}TIC{\k23}K{\k42}TAC{\k22}K {\k85}to {\k43}ri{\k22}n{\k40}ne {\k24}shi{\k46}te
-Comment: 0,0:02:43.98,0:02:47.89,Choir,,0,0,0,karaoke,{\k43}Des{\k22}ti{\k40}ny {\k23}and {\k87}fate, {\k43}laws {\k21}of {\k44}give {\k20}and {\k48}take
-Comment: 0,0:02:46.99,0:02:50.85,JP,,0,0,0,karaoke,{\k43}gu{\k20}u{\k44}ze{\k21}n {\k86}to {\k42}hi{\k22}tsu{\k42}ze{\k22}n {\k44}no
-Comment: 0,0:02:48.27,0:02:52.06,Choir,,0,0,0,karaoke,{\k43}I’ll {\k17}re{\k47}turn {\k20}a{\k87}gain, {\k39}I’ll {\k26}see {\k43}you {\k20}a{\k37}gain
-Comment: 0,0:02:51.27,0:02:56.79,JP,,0,0,0,karaoke,{\k42}ha{\k23}za{\k42}ma {\k21}wo {\k43}yu{\k22}re{\k21}ru {\kf86}fu{\kf85}ri{\kf167}ko
-Comment: 0,0:02:52.55,0:02:56.80,Choir,,0,0,0,karaoke,{\k23}Round {\k20}and {\k22}round, {\k21}mer{\kf86}ry-{\kf84}go-{\kf169}round
-Comment: 0,0:02:57.92,0:03:01.17,ENG,,0,0,0,karaoke,{\k22}Now {\k20}it {\k22}is {\k81}time{\k28} {\k18}to {\k23}tell {\k20}my{\kf91}self
-Comment: 0,0:03:01.54,0:03:04.45,ENG,,0,0,0,karaoke,{\k22}You {\k23}will {\k43}ne{\k20}ver {\k43}be {\k45}a{\kf95}lone
-Comment: 0,0:03:04.77,0:03:08.54,ENG,,0,0,0,karaoke,{\k18}All {\k24}sor{\k23}row {\k62}di{\k24}sap{\k85}pears, {\k65}no {\k21}more {\k55}fear
-Comment: 0,0:03:08.62,0:03:11.26,ENG,,0,0,0,karaoke,{\kf96}You’re{\k11} {\k20}safe {\k22}from {\k17}the {\kf98}storm
-Comment: 0,0:03:11.62,0:03:14.94,ENG,,0,0,0,karaoke,{\k22}A {\k21}ray {\k22}of {\k106}light {\k21}pier{\k22}ces {\k23}the {\k95}night
-Comment: 0,0:03:15.27,0:03:18.12,ENG,,0,0,0,karaoke,{\k24}I {\k19}will {\k43}al{\k21}ways {\k41}be {\k23}by {\k22}your {\kf92}side
-Comment: 0,0:03:18.46,0:03:22.25,ENG,,0,0,0,karaoke,{\k23}All {\k19}voi{\k25}ces {\k64}raised {\k21}in {\k43}pra{\k44}yer, {\k63}eve{\k23}ry{\k54}where
-Comment: 0,0:03:22.34,0:03:25.03,ENG,,0,0,0,karaoke,{\kf105}Brea{\k21}king {\k24}through {\k21}the {\kf98}dawn
-Comment: 0,0:03:25.33,0:03:28.31,ENG,,0,0,0,karaoke,{\k22}A{\k18}bys{\k25}sal {\kf233}Hymn
-Comment: 0,0:03:27.28,0:03:36.41,JP,,0,0,0,karaoke,{\k42}ki{\k64}ri {\kf85}no{\k42} {\k44}yu{\k70}me {\kf99}ni{\k3} {\k10}ne{\k11}mu{\kf86}ru{\k86} {\k63}wa{\k43}ta{\k65}zu{\kf100}mi
-Comment: 0,0:03:27.28,0:03:32.85,Choir,,0,0,0,karaoke,{\k41}where {\k65}past {\kf91}and{\k37} {\k38}fu{\k76}ture {\kf101}in{\k22}tert{\kf86}wine
-Comment: 0,0:03:33.70,0:03:36.58,Choir,,0,0,0,karaoke,{\k64}the {\k41}an{\k63}cient {\kf103}slee{\k17}ps
-Comment: 0,0:03:36.69,0:03:43.35,JP,,0,0,0,karaoke,{\k43}ha{\k64}ru{\kf86}ka{\k43} {\k44}i{\k61}ni{\kf109}shi{\k10}e {\k13}no {\kf85}mi{\k11}ra{\k11}i {\kf86}de
-Comment: 0,0:03:36.69,0:03:43.35,Choir,,0,0,0,karaoke,{\k41}mis{\k65}ty {\kf97}dreams{\k34} {\k42}hold {\k64}a {\kf107}pro{\k22}phe{\kf84}cy{\kf2} {\k21}of {\kf87}truth
-Comment: 0,0:03:43.76,0:03:46.73,JP,,0,0,0,karaoke,{\k44}de{\k62}a{\kf191}u
-Comment: 0,0:03:43.74,0:03:46.73,Choir,,0,0,0,karaoke,{\k45}Some{\k63}day {\kf191}soon
-Dialogue: 0,0:00:12.64,0:00:22.93,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k46}ki{\k63}ri {\kf100}no{\k28} {\k45}yu{\k64}me {\kf103}ni{\k4} {\k9}ne{\k11}mu{\kf107}ru{\k63} {\k67}wa{\k40}ta{\k65}zu{\kf104}mi
-Dialogue: 0,0:00:22.08,0:00:31.32,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k38}u{\k70}tsu{\kf89}wa{\k38} {\k40}ka{\k69}sa{\kf102}ne{\k5} {\k10}ki{\k12}shi{\kf116}mu{\k54} {\k66}o{\kf105}ri
-Dialogue: 0,0:00:31.51,0:00:41.83,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k42}wa{\k64}re{\kf87}te{\k39} {\k47}shi{\k62}ro{\kf104}ku{\k4} {\k9}yu{\k14}me {\kf90}wa{\k79} {\k65}ku{\k42}re{\k67}na{\kf107}i
-Dialogue: 0,0:00:40.93,0:00:51.90,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k43}so{\k64}me{\kf85}te{\k42} {\k46}wa{\k65}ra{\kf100}be{\k1} {\k15}u{\k11}ta {\kf78}wa{\k8} {\k10}to{\k12}da{\kf83}e{\k44} {\k44}ki{\k64}e{\kf172}ta
-Dialogue: 0,0:01:03.65,0:01:08.20,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Ma{\k44}gic {\k44}pa{\k44}ges {\k33}o{\k33}pen {\k107}wide
-Dialogue: 0,0:01:07.43,0:01:11.57,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k26}spil{\k22}ling {\k44}se{\k41}crets {\k36}from {\k30}in{\k105}side
-Dialogue: 0,0:01:10.94,0:01:17.83,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Now {\k16}the {\k40}sto{\k40}ry {\k42}stirs {\k35}a{\kf90}gain,{\k78} {\k19}a {\k47}tale {\k42}that {\k22}ne{\k21}ver {\k65}ends
-Dialogue: 0,0:01:17.37,0:01:21.88,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Dis{\k42}tant {\k44}waves, {\k42}they {\k29}call {\k45}to {\kf96}me
-Dialogue: 0,0:01:21.20,0:01:25.30,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}E{\k23}cho{\k43}ing {\k43}a {\k32}me{\k32}mo{\kf105}ry
-Dialogue: 0,0:01:24.63,0:01:28.74,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Me{\k19}lan{\k47}cho{\k41}lic {\k31}and {\k35}for{\kf105}lorn
-Dialogue: 0,0:01:28.29,0:01:31.23,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Nos{\k40}tal{\k41}gi{\k25}a {\k23}re{\k33}born
-Dialogue: 0,0:01:30.21,0:01:35.20,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k45}TIC{\k21}K{\k42}TAC{\k22}K {\k86}to {\k42}ko{\k18}wa{\k48}sa{\k20}re{\k45}te
-Dialogue: 0,0:01:34.51,0:01:41.26,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k43}da{\k22}re {\k41}mo {\k23}yo{\k43}me{\k22}na{\k20}i {\kf86}te{\kf86}ga{\kf179}mi
-Dialogue: 0,0:01:41.13,0:01:45.42,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Now {\k19}it {\k23}is {\kf83}time{\k20} {\k22}to {\k25}find {\k20}my{\kf82}self
-Dialogue: 0,0:01:44.59,0:01:48.82,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}That {\k24}frigh{\k21}tened {\k42}in{\k23}fant {\k43}of {\k43}the {\kf85}pa{\k14}st
-Dialogue: 0,0:01:48.00,0:01:52.82,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Trapped {\k21}in {\k21}a {\k65}death{\k21}ly {\k86}hold, {\k63}lost {\k23}and {\k49}cold
-Dialogue: 0,0:01:51.86,0:01:55.65,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\kf103}You’re{\kf2} {\k24}wai{\k19}ting {\k24}for {\kf97}me
-Dialogue: 0,0:01:54.87,0:01:59.22,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}A {\k20}ray {\k22}of {\k105}hope {\k24}can {\k22}lead {\k21}the {\k89}way
-Dialogue: 0,0:01:58.51,0:02:02.51,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Let {\k20}me {\k44}sing {\k21}for {\k45}you {\k20}eve{\k21}ry {\kf97}day
-Dialogue: 0,0:02:01.72,0:02:06.62,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}A {\k21}me{\k21}lo{\k65}dy {\k22}un{\k86}veiled, {\k64}light {\k21}pre{\k58}vails
-Dialogue: 0,0:02:05.58,0:02:09.38,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\kf106}Brea{\k23}king {\k21}through {\k22}the {\kf98}void
-Dialogue: 0,0:02:08.57,0:02:12.69,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}A{\k20}bys{\k23}sal {\kf237}Hymn
-Dialogue: 0,0:02:19.94,0:02:30.26,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k43}to{\k64}ki {\kf90}no{\k39} {\k40}u{\k67}tsu{\kf106}ro{\k1} {\k13}ne{\k8}mu{\kf90}ru{\k82} {\k64}wa{\k41}ga {\k66}tsu{\kf108}mi
-Dialogue: 0,0:02:29.38,0:02:37.09,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k42}hi{\k65}to{\kf85}ri{\k43} {\k42}wa{\k65}ra{\kf101}be{\k2} {\k12}u{\k14}ta {\kf79}no{\k5} {\k10}shi{\k14}ra{\kf82}be
-Dialogue: 0,0:02:36.44,0:02:40.42,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k43}da{\k65}i{\kf180}te
-Dialogue: 0,0:02:41.78,0:02:46.79,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k44}TIC{\k23}K{\k42}TAC{\k22}K {\k85}to {\k43}ri{\k22}n{\k40}ne {\k24}shi{\k46}te
-Dialogue: 0,0:02:43.08,0:02:48.09,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Des{\k22}ti{\k40}ny {\k23}and {\k87}fate, {\k43}laws {\k21}of {\k44}give {\k20}and {\k48}take
-Dialogue: 0,0:02:46.09,0:02:51.05,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k43}gu{\k20}u{\k44}ze{\k21}n {\k86}to {\k42}hi{\k22}tsu{\k42}ze{\k22}n {\k44}no
-Dialogue: 0,0:02:47.37,0:02:52.26,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k43}I’ll {\k17}re{\k47}turn {\k20}a{\k87}gain, {\k39}I’ll {\k26}see {\k43}you {\k20}a{\k37}gain
-Dialogue: 0,0:02:50.37,0:02:56.99,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k42}ha{\k23}za{\k42}ma {\k21}wo {\k43}yu{\k22}re{\k21}ru {\kf86}fu{\kf85}ri{\kf167}ko
-Dialogue: 0,0:02:51.65,0:02:57.00,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Round {\k20}and {\k22}round, {\k21}mer{\kf86}ry-{\kf84}go-{\kf169}round
-Dialogue: 0,0:02:57.02,0:03:01.37,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Now {\k20}it {\k22}is {\k81}time{\k28} {\k18}to {\k23}tell {\k20}my{\kf91}self
-Dialogue: 0,0:03:00.64,0:03:04.65,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}You {\k23}will {\k43}ne{\k20}ver {\k43}be {\k45}a{\kf95}lone
-Dialogue: 0,0:03:03.87,0:03:08.74,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}All {\k24}sor{\k23}row {\k62}di{\k24}sap{\k85}pears, {\k65}no {\k21}more {\k55}fear
-Dialogue: 0,0:03:07.72,0:03:11.46,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\kf96}You’re{\k11} {\k20}safe {\k22}from {\k17}the {\kf98}storm
-Dialogue: 0,0:03:10.72,0:03:15.14,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}A {\k21}ray {\k22}of {\k106}light {\k21}pier{\k22}ces {\k23}the {\k95}night
-Dialogue: 0,0:03:14.37,0:03:18.32,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k19}will {\k43}al{\k21}ways {\k41}be {\k23}by {\k22}your {\kf92}side
-Dialogue: 0,0:03:17.56,0:03:22.45,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}All {\k19}voi{\k25}ces {\k64}raised {\k21}in {\k43}pra{\k44}yer, {\k63}eve{\k23}ry{\k54}where
-Dialogue: 0,0:03:21.44,0:03:25.23,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\kf105}Brea{\k21}king {\k24}through {\k21}the {\kf98}dawn
-Dialogue: 0,0:03:24.43,0:03:28.51,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}A{\k18}bys{\k25}sal {\kf233}Hymn
-Dialogue: 0,0:03:26.38,0:03:36.61,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k42}ki{\k64}ri {\kf85}no{\k42} {\k44}yu{\k70}me {\kf99}ni{\k3} {\k10}ne{\k11}mu{\kf86}ru{\k86} {\k63}wa{\k43}ta{\k65}zu{\kf100}mi
-Dialogue: 0,0:03:26.38,0:03:33.05,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k41}where {\k65}past {\kf91}and{\k37} {\k38}fu{\k76}ture {\kf101}in{\k22}tert{\kf86}wine
-Dialogue: 0,0:03:32.80,0:03:36.78,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k64}the {\k41}an{\k63}cient {\kf103}slee{\k17}ps
-Dialogue: 0,0:03:35.79,0:03:43.55,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k43}ha{\k64}ru{\kf86}ka{\k43} {\k44}i{\k61}ni{\kf109}shi{\k10}e {\k13}no {\kf85}mi{\k11}ra{\k11}i {\kf86}de
-Dialogue: 0,0:03:35.79,0:03:43.55,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k41}mis{\k65}ty {\kf97}dreams{\k34} {\k42}hold {\k64}a {\kf107}pro{\k22}phe{\kf84}cy{\kf2} {\k21}of {\kf87}truth
-Dialogue: 0,0:03:42.86,0:03:46.93,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k44}de{\k62}a{\kf191}u
-Dialogue: 0,0:03:42.84,0:03:46.93,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Some{\k63}day {\kf191}soon
+Comment: 0,0:00:00.00,0:00:10.00,Legend,,0,0,0,karaoke,{\k1000} JP {\2cFFFFFF}| {\rENG}ENG
+Comment: 0,0:00:13.76,0:00:22.95,JP,,0,0,0,karaoke,{\k46}ki{\k63}ri {\kf100}no{\k28} {\k45}yu{\k64}me {\kf103}ni{\k4} {\k9}ne{\k11}mu{\kf107}ru{\k63} {\k67}wa{\k40}ta{\k65}zu{\kf104}mi
+Comment: 0,0:00:23.20,0:00:31.34,JP,,0,0,0,karaoke,{\k38}u{\k70}tsu{\kf89}wa{\k38} {\k40}ka{\k69}sa{\kf102}ne{\k5} {\k10}ki{\k12}shi{\kf116}mu{\k54} {\k66}o{\kf105}ri
+Comment: 0,0:00:32.63,0:00:41.85,JP,,0,0,0,karaoke,{\k42}wa{\k64}re{\kf87}te{\k39} {\k47}shi{\k62}ro{\kf104}ku{\k4} {\k9}yu{\k14}me {\kf90}wa{\k79} {\k65}ku{\k42}re{\k67}na{\kf107}i
+Comment: 0,0:00:42.05,0:00:51.92,JP,,0,0,0,karaoke,{\k43}so{\k64}me{\kf85}te{\k42} {\k46}wa{\k65}ra{\kf100}be{\k1} {\k15}u{\k11}ta {\kf78}wa{\k8} {\k10}to{\k12}da{\kf83}e{\k44} {\k44}ki{\k64}e{\kf172}ta
+Comment: 0,0:01:04.77,0:01:08.22,ENG,,0,0,0,karaoke,{\k40}Ma{\k44}gic {\k44}pa{\k44}ges {\k33}o{\k33}pen {\kf107}wide
+Comment: 0,0:01:08.55,0:01:11.59,ENG,,0,0,0,karaoke,{\k26}spil{\k22}ling {\k44}se{\k41}crets {\k36}from {\k30}in{\kf105}side
+Comment: 0,0:01:12.06,0:01:17.85,ENG,,0,0,0,karaoke,{\k22}Now {\k16}the {\k40}sto{\k40}ry {\k42}stirs {\k35}a{\kf90}gain,{\k78} {\k19}a {\k47}tale {\k42}that {\k22}ne{\k21}ver {\k65}ends
+Comment: 0,0:01:18.49,0:01:21.90,ENG,,0,0,0,karaoke,{\k43}Dis{\k42}tant {\k44}waves, {\k42}they {\k29}call {\k45}to {\kf96}me
+Comment: 0,0:01:22.32,0:01:25.32,ENG,,0,0,0,karaoke,{\k22}E{\k23}cho{\k43}ing {\k43}a {\k32}me{\k32}mo{\kf105}ry
+Comment: 0,0:01:25.75,0:01:28.76,ENG,,0,0,0,karaoke,{\k23}Me{\k19}lan{\k47}cho{\k41}lic {\k31}and {\k35}for{\kf105}lorn
+Comment: 0,0:01:29.41,0:01:31.25,ENG,,0,0,0,karaoke,{\k22}Nos{\k40}tal{\k41}gi{\k25}a {\k23}re{\k33}born
+Comment: 0,0:01:31.33,0:01:35.22,JP,,0,0,0,karaoke,{\k45}TIC{\k21}K{\k42}TAC{\k22}K {\k86}to {\k42}ko{\k18}wa{\k48}sa{\k20}re{\k45}te
+Comment: 0,0:01:35.63,0:01:41.28,JP,,0,0,0,karaoke,{\k43}da{\k22}re {\k41}mo {\k23}yo{\k43}me{\k22}na{\k20}i {\kf86}te{\kf86}ga{\kf179}mi
+Comment: 0,0:01:42.25,0:01:45.44,ENG,,0,0,0,karaoke,{\k25}Now {\k19}it {\k23}is {\kf83}time{\k20} {\k22}to {\k25}find {\k20}my{\kf82}self
+Comment: 0,0:01:45.71,0:01:48.84,ENG,,0,0,0,karaoke,{\k18}That {\k24}frigh{\k21}tened {\k42}in{\k23}fant {\k43}of {\k43}the {\kf85}pa{\k14}st
+Comment: 0,0:01:49.12,0:01:52.84,ENG,,0,0,0,karaoke,{\k23}Trapped {\k21}in {\k21}a {\k65}death{\k21}ly {\k86}hold, {\k63}lost {\k23}and {\k49}cold
+Comment: 0,0:01:52.98,0:01:55.67,ENG,,0,0,0,karaoke,{\kf103}You’re{\kf2} {\k24}wai{\k19}ting {\k24}for {\kf97}me
+Comment: 0,0:01:55.99,0:01:59.24,ENG,,0,0,0,karaoke,{\k22}A {\k20}ray {\k22}of {\kf88}ho{\k17}pe {\k24}can {\k22}lead {\k21}the {\kf89}way
+Comment: 0,0:01:59.63,0:02:02.53,ENG,,0,0,0,karaoke,{\k22}Let {\k20}me {\k44}sing {\k21}for {\k45}you {\k20}eve{\k21}ry {\kf97}day
+Comment: 0,0:02:02.84,0:02:06.64,ENG,,0,0,0,karaoke,{\k22}A {\k21}me{\k21}lo{\k65}dy {\k22}un{\k86}veiled, {\k64}light {\k21}pre{\k58}vails
+Comment: 0,0:02:06.70,0:02:09.40,ENG,,0,0,0,karaoke,{\kf106}Brea{\k23}king {\k21}through {\k22}the {\kf98}void
+Comment: 0,0:02:09.69,0:02:12.71,ENG,,0,0,0,karaoke,{\k22}A{\k20}bys{\k23}sal {\kf237}Hymn
+Comment: 0,0:02:21.06,0:02:30.28,JP,,0,0,0,karaoke,{\k43}to{\k64}ki {\kf90}no{\k39} {\k40}u{\k67}tsu{\kf106}ro{\k1} {\k13}ne{\k8}mu{\kf90}ru{\k82} {\k64}wa{\k41}ga {\k66}tsu{\kf108}mi
+Comment: 0,0:02:30.50,0:02:37.11,JP,,0,0,0,karaoke,{\k42}hi{\k65}to{\kf85}ri{\k43} {\k42}wa{\k65}ra{\kf101}be{\k2} {\k12}u{\k14}ta {\kf79}no{\k5} {\k10}shi{\k14}ra{\kf82}be
+Comment: 0,0:02:37.56,0:02:40.44,JP,,0,0,0,karaoke,{\k43}da{\k65}i{\kf180}te
+Comment: 0,0:02:42.90,0:02:46.81,JP,,0,0,0,karaoke,{\k44}TIC{\k23}K{\k42}TAC{\k22}K {\k85}to {\k43}ri{\k22}n{\k40}ne {\k24}shi{\k46}te
+Comment: 0,0:02:44.20,0:02:48.11,Choir,,0,0,0,karaoke,{\k43}Des{\k22}ti{\k40}ny {\k23}and {\k87}fate, {\k43}laws {\k21}of {\k44}give {\k20}and {\k48}take
+Comment: 0,0:02:47.21,0:02:51.07,JP,,0,0,0,karaoke,{\k43}gu{\k20}u{\k44}ze{\k21}n {\k86}to {\k42}hi{\k22}tsu{\k42}ze{\k22}n {\k44}no
+Comment: 0,0:02:48.49,0:02:52.28,Choir,,0,0,0,karaoke,{\k43}I’ll {\k17}re{\k47}turn {\k20}a{\k87}gain, {\k39}I’ll {\k26}see {\k43}you {\k20}a{\k37}gain
+Comment: 0,0:02:51.49,0:02:57.01,JP,,0,0,0,karaoke,{\k42}ha{\k23}za{\k42}ma {\k21}wo {\k43}yu{\k22}re{\k21}ru {\kf86}fu{\kf85}ri{\kf167}ko
+Comment: 0,0:02:52.77,0:02:57.02,Choir,,0,0,0,karaoke,{\k23}Round {\k20}and {\k22}round, {\k21}mer{\kf86}ry-{\kf84}go-{\kf169}round
+Comment: 0,0:03:05.60,0:03:08.85,ENG,,0,0,0,karaoke,{\k22}Now {\k20}it {\k22}is {\k81}time{\k28} {\k18}to {\k23}tell {\k20}my{\kf91}self
+Comment: 0,0:03:09.22,0:03:12.13,ENG,,0,0,0,karaoke,{\k22}You {\k23}will {\k43}ne{\k20}ver {\k43}be {\k45}a{\kf95}lone
+Comment: 0,0:03:12.45,0:03:16.22,ENG,,0,0,0,karaoke,{\k18}All {\k24}sor{\k23}row {\k62}di{\k24}sap{\k85}pears, {\k65}no {\k21}more {\k55}fear
+Comment: 0,0:03:16.30,0:03:18.94,ENG,,0,0,0,karaoke,{\kf96}You’re{\k11} {\k20}safe {\k22}from {\k17}the {\kf98}storm
+Comment: 0,0:03:19.30,0:03:22.62,ENG,,0,0,0,karaoke,{\k22}A {\k21}ray {\k22}of {\kf106}light {\k21}pier{\k22}ces {\k23}the {\kf95}night
+Comment: 0,0:03:22.95,0:03:25.80,ENG,,0,0,0,karaoke,{\k24}I {\k19}will {\k43}al{\k21}ways {\k41}be {\k23}by {\k22}your {\kf92}side
+Comment: 0,0:03:26.14,0:03:29.93,ENG,,0,0,0,karaoke,{\k23}All {\k19}voi{\k25}ces {\k64}raised {\k21}in {\k43}pra{\k44}yer, {\k63}eve{\k23}ry{\k54}where
+Comment: 0,0:03:30.02,0:03:32.71,ENG,,0,0,0,karaoke,{\kf105}Brea{\k21}king {\k24}through {\k21}the {\kf98}dawn
+Comment: 0,0:03:33.01,0:03:35.99,ENG,,0,0,0,karaoke,{\k22}A{\k18}bys{\k25}sal {\kf233}Hymn
+Comment: 0,0:03:34.96,0:03:44.09,JP,,0,0,0,karaoke,{\k42}ki{\k64}ri {\kf85}no{\k42} {\k44}yu{\k70}me {\kf99}ni{\k3} {\k10}ne{\k11}mu{\kf86}ru{\k86} {\k63}wa{\k43}ta{\k65}zu{\kf100}mi
+Comment: 0,0:03:34.96,0:03:40.53,Choir,,0,0,0,karaoke,{\k41}where {\k65}past {\kf91}and{\k37} {\k38}fu{\k76}ture {\kf101}in{\k22}tert{\kf86}wine
+Comment: 0,0:03:41.38,0:03:44.26,Choir,,0,0,0,karaoke,{\k64}the {\k41}an{\k63}cient {\kf103}slee{\k17}ps
+Comment: 0,0:03:44.37,0:03:51.03,JP,,0,0,0,karaoke,{\k43}ha{\k64}ru{\kf86}ka{\k43} {\k44}i{\k61}ni{\kf109}shi{\k10}e {\k13}no {\kf85}mi{\k11}ra{\k11}i {\kf86}de
+Comment: 0,0:03:44.37,0:03:51.03,Choir,,0,0,0,karaoke,{\k41}mis{\k65}ty {\kf97}dreams{\k34} {\k42}hold {\k64}a {\kf107}pro{\k22}phe{\kf84}cy{\kf2} {\k21}of {\kf87}truth
+Comment: 0,0:03:51.44,0:03:54.41,JP,,0,0,0,karaoke,{\k44}de{\k62}a{\kf191}u
+Comment: 0,0:03:51.42,0:03:54.41,Choir,,0,0,0,karaoke,{\k45}Some{\k63}day {\kf191}soon
+Dialogue: 0,0:00:00.00,0:00:10.20,Legend,,0,0,0,fx,{\k0\fad(0,200)}{\k1000} JP {\2cFFFFFF}| {\rENG}ENG
+Dialogue: 0,0:00:12.86,0:00:23.15,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k46}ki{\k63}ri {\kf100}no{\k28} {\k45}yu{\k64}me {\kf103}ni{\k4} {\k9}ne{\k11}mu{\kf107}ru{\k63} {\k67}wa{\k40}ta{\k65}zu{\kf104}mi
+Dialogue: 0,0:00:22.30,0:00:31.54,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k38}u{\k70}tsu{\kf89}wa{\k38} {\k40}ka{\k69}sa{\kf102}ne{\k5} {\k10}ki{\k12}shi{\kf116}mu{\k54} {\k66}o{\kf105}ri
+Dialogue: 0,0:00:31.73,0:00:42.05,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k42}wa{\k64}re{\kf87}te{\k39} {\k47}shi{\k62}ro{\kf104}ku{\k4} {\k9}yu{\k14}me {\kf90}wa{\k79} {\k65}ku{\k42}re{\k67}na{\kf107}i
+Dialogue: 0,0:00:41.15,0:00:52.12,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k43}so{\k64}me{\kf85}te{\k42} {\k46}wa{\k65}ra{\kf100}be{\k1} {\k15}u{\k11}ta {\kf78}wa{\k8} {\k10}to{\k12}da{\kf83}e{\k44} {\k44}ki{\k64}e{\kf172}ta
+Dialogue: 0,0:01:03.87,0:01:08.42,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Ma{\k44}gic {\k44}pa{\k44}ges {\k33}o{\k33}pen {\kf107}wide
+Dialogue: 0,0:01:07.65,0:01:11.79,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k26}spil{\k22}ling {\k44}se{\k41}crets {\k36}from {\k30}in{\kf105}side
+Dialogue: 0,0:01:11.16,0:01:18.05,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Now {\k16}the {\k40}sto{\k40}ry {\k42}stirs {\k35}a{\kf90}gain,{\k78} {\k19}a {\k47}tale {\k42}that {\k22}ne{\k21}ver {\k65}ends
+Dialogue: 0,0:01:17.59,0:01:22.10,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Dis{\k42}tant {\k44}waves, {\k42}they {\k29}call {\k45}to {\kf96}me
+Dialogue: 0,0:01:21.42,0:01:25.52,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}E{\k23}cho{\k43}ing {\k43}a {\k32}me{\k32}mo{\kf105}ry
+Dialogue: 0,0:01:24.85,0:01:28.96,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Me{\k19}lan{\k47}cho{\k41}lic {\k31}and {\k35}for{\kf105}lorn
+Dialogue: 0,0:01:28.51,0:01:31.45,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Nos{\k40}tal{\k41}gi{\k25}a {\k23}re{\k33}born
+Dialogue: 0,0:01:30.43,0:01:35.42,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k45}TIC{\k21}K{\k42}TAC{\k22}K {\k86}to {\k42}ko{\k18}wa{\k48}sa{\k20}re{\k45}te
+Dialogue: 0,0:01:34.73,0:01:41.48,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k43}da{\k22}re {\k41}mo {\k23}yo{\k43}me{\k22}na{\k20}i {\kf86}te{\kf86}ga{\kf179}mi
+Dialogue: 0,0:01:41.35,0:01:45.64,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Now {\k19}it {\k23}is {\kf83}time{\k20} {\k22}to {\k25}find {\k20}my{\kf82}self
+Dialogue: 0,0:01:44.81,0:01:49.04,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}That {\k24}frigh{\k21}tened {\k42}in{\k23}fant {\k43}of {\k43}the {\kf85}pa{\k14}st
+Dialogue: 0,0:01:48.22,0:01:53.04,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Trapped {\k21}in {\k21}a {\k65}death{\k21}ly {\k86}hold, {\k63}lost {\k23}and {\k49}cold
+Dialogue: 0,0:01:52.08,0:01:55.87,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\kf103}You’re{\kf2} {\k24}wai{\k19}ting {\k24}for {\kf97}me
+Dialogue: 0,0:01:55.09,0:01:59.44,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}A {\k20}ray {\k22}of {\kf88}ho{\k17}pe {\k24}can {\k22}lead {\k21}the {\kf89}way
+Dialogue: 0,0:01:58.73,0:02:02.73,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Let {\k20}me {\k44}sing {\k21}for {\k45}you {\k20}eve{\k21}ry {\kf97}day
+Dialogue: 0,0:02:01.94,0:02:06.84,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}A {\k21}me{\k21}lo{\k65}dy {\k22}un{\k86}veiled, {\k64}light {\k21}pre{\k58}vails
+Dialogue: 0,0:02:05.80,0:02:09.60,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\kf106}Brea{\k23}king {\k21}through {\k22}the {\kf98}void
+Dialogue: 0,0:02:08.79,0:02:12.91,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}A{\k20}bys{\k23}sal {\kf237}Hymn
+Dialogue: 0,0:02:20.16,0:02:30.48,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k43}to{\k64}ki {\kf90}no{\k39} {\k40}u{\k67}tsu{\kf106}ro{\k1} {\k13}ne{\k8}mu{\kf90}ru{\k82} {\k64}wa{\k41}ga {\k66}tsu{\kf108}mi
+Dialogue: 0,0:02:29.60,0:02:37.31,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k42}hi{\k65}to{\kf85}ri{\k43} {\k42}wa{\k65}ra{\kf101}be{\k2} {\k12}u{\k14}ta {\kf79}no{\k5} {\k10}shi{\k14}ra{\kf82}be
+Dialogue: 0,0:02:36.66,0:02:40.64,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k43}da{\k65}i{\kf180}te
+Dialogue: 0,0:02:42.00,0:02:47.01,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k44}TIC{\k23}K{\k42}TAC{\k22}K {\k85}to {\k43}ri{\k22}n{\k40}ne {\k24}shi{\k46}te
+Dialogue: 0,0:02:43.30,0:02:48.31,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Des{\k22}ti{\k40}ny {\k23}and {\k87}fate, {\k43}laws {\k21}of {\k44}give {\k20}and {\k48}take
+Dialogue: 0,0:02:46.31,0:02:51.27,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k43}gu{\k20}u{\k44}ze{\k21}n {\k86}to {\k42}hi{\k22}tsu{\k42}ze{\k22}n {\k44}no
+Dialogue: 0,0:02:47.59,0:02:52.48,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k43}I’ll {\k17}re{\k47}turn {\k20}a{\k87}gain, {\k39}I’ll {\k26}see {\k43}you {\k20}a{\k37}gain
+Dialogue: 0,0:02:50.59,0:02:57.21,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k42}ha{\k23}za{\k42}ma {\k21}wo {\k43}yu{\k22}re{\k21}ru {\kf86}fu{\kf85}ri{\kf167}ko
+Dialogue: 0,0:02:51.87,0:02:57.22,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Round {\k20}and {\k22}round, {\k21}mer{\kf86}ry-{\kf84}go-{\kf169}round
+Dialogue: 0,0:03:04.70,0:03:09.05,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Now {\k20}it {\k22}is {\k81}time{\k28} {\k18}to {\k23}tell {\k20}my{\kf91}self
+Dialogue: 0,0:03:08.32,0:03:12.33,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}You {\k23}will {\k43}ne{\k20}ver {\k43}be {\k45}a{\kf95}lone
+Dialogue: 0,0:03:11.55,0:03:16.42,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}All {\k24}sor{\k23}row {\k62}di{\k24}sap{\k85}pears, {\k65}no {\k21}more {\k55}fear
+Dialogue: 0,0:03:15.40,0:03:19.14,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\kf96}You’re{\k11} {\k20}safe {\k22}from {\k17}the {\kf98}storm
+Dialogue: 0,0:03:18.40,0:03:22.82,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}A {\k21}ray {\k22}of {\kf106}light {\k21}pier{\k22}ces {\k23}the {\kf95}night
+Dialogue: 0,0:03:22.05,0:03:26.00,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k19}will {\k43}al{\k21}ways {\k41}be {\k23}by {\k22}your {\kf92}side
+Dialogue: 0,0:03:25.24,0:03:30.13,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}All {\k19}voi{\k25}ces {\k64}raised {\k21}in {\k43}pra{\k44}yer, {\k63}eve{\k23}ry{\k54}where
+Dialogue: 0,0:03:29.12,0:03:32.91,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\kf105}Brea{\k21}king {\k24}through {\k21}the {\kf98}dawn
+Dialogue: 0,0:03:32.11,0:03:36.19,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}A{\k18}bys{\k25}sal {\kf233}Hymn
+Dialogue: 0,0:03:34.06,0:03:44.29,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k42}ki{\k64}ri {\kf85}no{\k42} {\k44}yu{\k70}me {\kf99}ni{\k3} {\k10}ne{\k11}mu{\kf86}ru{\k86} {\k63}wa{\k43}ta{\k65}zu{\kf100}mi
+Dialogue: 0,0:03:34.06,0:03:40.73,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k41}where {\k65}past {\kf91}and{\k37} {\k38}fu{\k76}ture {\kf101}in{\k22}tert{\kf86}wine
+Dialogue: 0,0:03:40.48,0:03:44.46,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k64}the {\k41}an{\k63}cient {\kf103}slee{\k17}ps
+Dialogue: 0,0:03:43.47,0:03:51.23,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k43}ha{\k64}ru{\kf86}ka{\k43} {\k44}i{\k61}ni{\kf109}shi{\k10}e {\k13}no {\kf85}mi{\k11}ra{\k11}i {\kf86}de
+Dialogue: 0,0:03:43.47,0:03:51.23,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k41}mis{\k65}ty {\kf97}dreams{\k34} {\k42}hold {\k64}a {\kf107}pro{\k22}phe{\kf84}cy{\kf2} {\k21}of {\kf87}truth
+Dialogue: 0,0:03:50.54,0:03:54.61,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k44}de{\k62}a{\kf191}u
+Dialogue: 0,0:03:50.52,0:03:54.61,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Some{\k63}day {\kf191}soon

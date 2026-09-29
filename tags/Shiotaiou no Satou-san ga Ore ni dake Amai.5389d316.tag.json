@@ -1,0 +1,29 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Satou",
+      "Shiotaiou",
+      "Satou-san"
+    ],
+    "external_database_ids": {
+      "anilist": 209502,
+      "kitsu": 51012,
+      "myanimelist": 63754
+    },
+    "i18n": {
+      "eng": "The Cold Sato-san is Only Sweet to Me",
+      "qro": "Shiotaiô no Satô-san ga Ore ni dake Amai",
+      "jpn": "塩対応の佐藤さんが俺にだけ甘い"
+    },
+    "name": "Shiotaiô no Satô-san ga Ore ni dake Amai",
+    "repository": "kara.moe",
+    "tid": "5389d316-ff01-44ff-9e9e-e9897cc43311",
+    "types": [
+      1
+    ]
+  }
+}

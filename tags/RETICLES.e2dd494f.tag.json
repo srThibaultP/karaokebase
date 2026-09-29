@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "RETICLES"
+    },
+    "name": "RETICLES",
+    "repository": "kara.moe",
+    "tid": "e2dd494f-cbc8-46cb-bdbe-9afcf7f87936",
+    "types": [
+      4
+    ]
+  }
+}

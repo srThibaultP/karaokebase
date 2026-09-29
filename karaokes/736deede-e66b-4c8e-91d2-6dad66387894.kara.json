@@ -24,15 +24,15 @@
     "created_at": "2025-10-22T18:53:21.439Z",
     "ignoreHooks": false,
     "kid": "736deede-e66b-4c8e-91d2-6dad66387894",
-    "modified_at": "2025-10-22T18:53:22.614Z",
+    "modified_at": "2026-09-28T22:57:16.006Z",
     "repository": "kara.moe",
-    "songname": "ENG - Hazbin Hotel Season Two - IN - Gravity",
+    "songname": "ENG - Hazbin Hotel Season 2 - IN - Gravity",
     "tags": {
       "authors": [
         "f70c7314-b8d3-4bf4-96a0-dc8b2c5a6c94"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "efe171c0-e8a1-4d03-98c0-60ecf741ad52"
       ],
       "creators": [
         "8bd95a35-f58e-4a92-9415-600b22dedea9"
@@ -58,8 +58,8 @@
         "a36462e7-b7da-451f-ae50-66919fd2ee1d"
       ],
       "singers": [
-        "38f5f874-5f88-4050-af64-13cb142e99dc",
-        "206f6024-bb83-4377-806f-68b251e34d92"
+        "206f6024-bb83-4377-806f-68b251e34d92",
+        "38f5f874-5f88-4050-af64-13cb142e99dc"
       ],
       "songtypes": [
         "5e5250d9-351a-4a82-98eb-55db50ad8962"

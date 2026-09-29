@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2020-04-20T16:53:31.472Z",
+    "ignoreHooks": false,
     "kid": "469be9cb-d704-4c88-b151-de51305c01c7",
-    "modified_at": "2021-02-25T10:31:25.176Z",
+    "modified_at": "2026-09-28T22:57:01.906Z",
     "repository": "kara.moe",
     "songname": "FRE - Wakfu - OP - Sur tes pas",
     "tags": {
@@ -31,7 +32,7 @@
         "7bf2f621-bd86-4c66-a1ce-999cb4860e10"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "efe171c0-e8a1-4d03-98c0-60ecf741ad52"
       ],
       "creators": [
         "d15e099f-d3f5-4143-9417-20daa2185a54"
@@ -66,6 +67,7 @@
     "titles": {
       "eng": "Sur tes pas"
     },
+    "titles_default_language": "eng",
     "year": 2008
   }
 }

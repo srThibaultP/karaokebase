@@ -1,0 +1,238 @@
+﻿[Script Info]
+;Converted using ultrastar2ass : https://lab.shelter.moe/axelterizaki/ultrastar2ass
+Title: Sur ma Route
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Collisions: Normal
+Original Timing: bibialice
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,00:00:00.00,00:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:15.63,0:00:16.49,Default,,0,0,0,karaoke,{\k19}Sur {\k31}ma {\k23}route
+Comment: 1,0:00:16.47,0:00:18.45,Default,,0,0,0,karaoke,{\k7}Oui{\k35}~ {\k15}il{\k15}~ {\k23}y a {\k7}eu{\k19}~ {\k23}du {\k35}move
+Comment: 1,0:00:18.43,0:00:21.12,Default,,0,0,0,karaoke,{\k31}Oui{\k15}~, {\k7}de {\k19}l'a{\k27}ven{\k19}ture {\k19}dans {\k23}l' mo{\k27}~{\k15}vie{\k47}~
+Comment: 1,0:00:21.10,0:00:22.52,Default,,0,0,0,karaoke,{\k27}Une {\k23}vie {\k27}de {\k51}roots
+Comment: 1,0:00:23.26,0:00:24.76,Default,,0,0,0,karaoke,{\k23}Sur {\k27}ma {\k39}route {\k11}oui{\k35}~
+Comment: 1,0:00:24.74,0:00:27.68,Default,,0,0,0,karaoke,{\k19}Je {\k27}n'compte {\k19}plus {\k27}les {\k23}sou{\k27}~{\k31}cis, {\k11}de {\k15}quoi {\k31}de{\k19}ve{\k23}nir
+Comment: 1,0:00:27.66,0:00:28.79,Default,,0,0,0,karaoke,{\k15}Fou{\k19}~{\k7}~ {\k23}oui{\k35}~
+Comment: 1,0:00:28.77,0:00:30.19,Default,,0,0,0,karaoke,{\k23}Une {\k27}vie {\k23}de {\k55}roots
+Comment: 1,0:00:30.97,0:00:31.83,Default,,0,0,0,karaoke,{\k19}Sur {\k23}ma {\k7}route{\k23}~
+Comment: 1,0:00:31.81,0:00:33.83,Default,,0,0,0,karaoke,{\k27}Oui {\k51}il {\k7}y {\k15}a {\k23}eu {\k23}du {\k11}move{\k15}~{\k11}~
+Comment: 1,0:00:33.81,0:00:36.47,Default,,0,0,0,karaoke,{\k39}Oui, {\k7}de {\k23}l'a{\k27}ven{\k15}ture {\k27}dans {\k7}l'mo{\k15}~{\k23}~{\k63}vie
+Comment: 1,0:00:36.49,0:00:37.90,Default,,0,0,0,karaoke,{\k19}Une {\k23}vie {\k23}de {\k63}roots
+Comment: 1,0:00:38.64,0:00:39.50,Default,,0,0,0,karaoke,{\k19}Sur {\k27}ma {\k7}route{\k19}~
+Comment: 1,0:00:39.48,0:00:41.06,Default,,0,0,0,karaoke,{\k55}Oui, {\k19}je {\k31}n'compte {\k15}plus {\k23}les
+Comment: 1,0:00:41.04,0:00:42.98,Default,,0,0,0,karaoke,{\k23}Sou{\k23}~{\k31}cis, {\k11}de {\k23}quoi {\k23}de{\k19}ve{\k23}nir
+Comment: 1,0:00:42.96,0:00:44.14,Default,,0,0,0,karaoke,{\k7}Fou{\k15}~{\k27}~ {\k55}oui
+Comment: 1,0:00:44.16,0:00:45.62,Default,,0,0,0,karaoke,{\k23}Une {\k19}vie {\k19}de {\k71}roots
+Comment: 1,0:00:45.84,0:00:48.05,Default,,0,0,0,karaoke,{\k15}Sur{\k27}~ {\k23}ma{\k35}~ {\k107}route
+Comment: 1,0:00:49.67,0:00:52.13,Default,,0,0,0,karaoke,{\k15}Sur{\k27}~ {\k23}ma{\k23}~ {\k19}route{\k123}~
+Comment: 1,0:00:53.51,0:00:55.69,Default,,0,0,0,karaoke,{\k15}Sur{\k31}~ {\k19}ma{\k23}~ {\k115}route
+Comment: 1,0:00:57.34,0:00:59.56,Default,,0,0,0,karaoke,{\k47}Sur {\k47}ma {\k115}route
+Comment: 1,0:01:01.66,0:01:02.64,Default,,0,0,0,karaoke,{\k19}Sur {\k27}ma {\k39}route
+Comment: 1,0:01:02.66,0:01:04.56,Default,,0,0,0,karaoke,{\k15}J'ai {\k27}eu {\k23}des {\k19}mo{\k23}ments {\k27}de {\k39}doute
+Comment: 1,0:01:04.54,0:01:06.48,Default,,0,0,0,karaoke,{\k23}J'mar{\k19}chais {\k23}sans {\k23}sa{\k27}voir {\k23}vers {\k39}où
+Comment: 1,0:01:06.50,0:01:08.95,Default,,0,0,0,karaoke,{\k19}J'é{\k23}tais {\k23}tê{\k19}tu {\k23}rien {\k55}à {\k67}foutre
+Comment: 1,0:01:09.37,0:01:10.31,Default,,0,0,0,karaoke,{\k7}Sur{\k7}~ {\k23}ma {\k43}route
+Comment: 1,0:01:10.33,0:01:12.23,Default,,0,0,0,karaoke,{\k15}J'a{\k27}vais {\k23}pas {\k23}d'ba{\k23}gages {\k27}en {\k35}soute
+Comment: 1,0:01:12.25,0:01:14.15,Default,,0,0,0,karaoke,{\k15}Et {\k27}dans {\k23}ma {\k23}poche {\k19}pas {\k27}un {\k15}sous{\k23}~
+Comment: 1,0:01:14.13,0:01:16.66,Default,,0,0,0,karaoke,{\k19}Juste {\k23}la {\k23}fa{\k23}mille {\k27}en{\k51}tre {\k71}nous
+Comment: 1,0:01:17.68,0:01:19.50,Default,,0,0,0,karaoke,{\k11}Sur {\k11}ma {\k19}route {\k7}y'a {\k7}eu {\k19}un {\k23}tas {\k23}d'bou{\k43}chons
+Comment: 1,0:01:19.52,0:01:21.38,Default,,0,0,0,karaoke,{\k11}La {\k7}vé{\k11}ri{\k15}té{\k11}j'ai {\k7}sou{\k27}vent {\k19}tré{\k23}bu{\k35}ché
+Comment: 1,0:01:21.40,0:01:22.34,Default,,0,0,0,karaoke,{\k15}Est-ce {\k11}que {\k11}tu {\k7}sais {\k11}que {\k15}quand {\k7}tu
+Comment: 1,0:01:22.32,0:01:23.02,Default,,0,0,0,karaoke,{\k15}Touches {\k27}le {\k15}fond
+Comment: 1,0:01:23.00,0:01:25.26,Default,,0,0,0,karaoke,{\k7}Il {\k15}y'a {\k7}peu {\k15}de {\k11}gens {\k11}chez {\k11}qui {\k7}tu {\k15}peux {\k15}te {\k19}ré{\k23}fu{\k47}gier
+Comment: 1,0:01:25.28,0:01:26.73,Default,,0,0,0,karaoke,{\k7}Tu {\k11}peux {\k11}comp{\k11}ter {\k11}que {\k11}sur {\k15}tes {\k23}chers {\k19}pa{\k7}rents
+Comment: 1,0:01:26.71,0:01:27.53,Default,,0,0,0,karaoke,{\k15}Parce {\k7}que {\k7}les {\k11}a{\k27}mis
+Comment: 1,0:01:27.51,0:01:29.09,Default,,0,0,0,karaoke,{\k11}Eux, {\k15}dis{\k11}pa{\k19}raissent {\k19}un {\k19}par {\k47}un
+Comment: 1,0:01:29.11,0:01:30.69,Default,,0,0,0,karaoke,{\k15}Oui {\k7}il {\k7}m'ar{\k15}rive {\k7}d'a{\k11}voir {\k19}le {\k19}front {\k23}au {\k15}sol
+Comment: 1,0:01:30.67,0:01:31.53,Default,,0,0,0,karaoke,{\k11}Parce {\k15}que {\k7}Dieu {\k11}est {\k27}grand
+Comment: 1,0:01:31.51,0:01:32.41,Default,,0,0,0,karaoke,{\k7}Et {\k11}on {\k11}nait {\k7}seul {\k15}on {\k11}meurt {\k11}seul
+Comment: 1,0:01:32.39,0:01:33.21,Default,,0,0,0,karaoke,{\k15}Sur {\k27}ma {\k7}route{\k19}~
+Comment: 1,0:01:33.19,0:01:35.60,Default,,0,0,0,karaoke,{\k55}Oui {\k19}il {\k7}y {\k15}a {\k31}eu {\k19}du {\k7}move{\k15}~{\k23}~ {\k31}oui
+Comment: 1,0:01:35.58,0:01:37.80,Default,,0,0,0,karaoke,{\k11}De {\k19}l'a{\k27}ven{\k19}ture {\k23}dans {\k7}l'mo{\k11}~{\k31}~{\k55}vie
+Comment: 1,0:01:37.82,0:01:39.32,Default,,0,0,0,karaoke,{\k27}Une {\k23}vie {\k19}de {\k67}roots
+Comment: 1,0:01:40.02,0:01:41.44,Default,,0,0,0,karaoke,{\k19}Sur {\k23}ma {\k7}route{\k31}~ {\k15}oui{\k31}~
+Comment: 1,0:01:41.42,0:01:43.28,Default,,0,0,0,karaoke,{\k23}Je {\k27}n'compte {\k15}plus {\k31}les {\k19}sou{\k31}~{\k23}cis
+Comment: 1,0:01:43.26,0:01:45.47,Default,,0,0,0,karaoke,{\k11}De {\k23}quoi {\k23}de{\k19}ve{\k31}nir {\k15}fou{\k27}~ {\k55}oui
+Comment: 1,0:01:45.49,0:01:46.99,Default,,0,0,0,karaoke,{\k31}Une {\k15}vie {\k19}de {\k71}roots
+Comment: 1,0:01:47.21,0:01:49.31,Default,,0,0,0,karaoke,{\k15}Sur{\k31}~ {\k23}ma{\k19}~ {\k107}route
+Comment: 1,0:01:51.01,0:01:53.47,Default,,0,0,0,karaoke,{\k23}Sur{\k27}~ {\k15}ma{\k31}~ {\k19}route{\k115}~
+Comment: 1,0:01:54.92,0:01:57.06,Default,,0,0,0,karaoke,{\k15}Sur{\k27}~ {\k23}ma{\k23}~ {\k111}route
+Comment: 1,0:01:58.72,0:02:00.94,Default,,0,0,0,karaoke,{\k47}Sur {\k47}ma {\k115}route
+Comment: 1,0:02:03.08,0:02:04.02,Default,,0,0,0,karaoke,{\k7}Sur{\k11}~ {\k19}ma {\k43}route
+Comment: 1,0:02:04.00,0:02:05.89,Default,,0,0,0,karaoke,{\k19}On {\k23}m'a {\k23}fait {\k27}des {\k23}coups {\k23}en {\k7}douce{\k27}~
+Comment: 1,0:02:05.87,0:02:07.85,Default,,0,0,0,karaoke,{\k23}L'im{\k23}pres{\k19}sion {\k27}qu'mon {\k23}cœur {\k27}en {\k39}souffre
+Comment: 1,0:02:07.83,0:02:10.49,Default,,0,0,0,karaoke,{\k23}Mais {\k19}j'suis {\k23}sous {\k23}a{\k27}nes{\k19}thé{\k31}~{\k83}sie
+Comment: 1,0:02:10.71,0:02:11.73,Default,,0,0,0,karaoke,{\k19}Sur {\k31}mon {\k39}ch'min
+Comment: 1,0:02:11.71,0:02:13.57,Default,,0,0,0,karaoke,{\k19}J'ai {\k23}croi{\k23}sé {\k23}pas {\k19}mal {\k27}d'an{\k35}ciens
+Comment: 1,0:02:13.55,0:02:15.48,Default,,0,0,0,karaoke,{\k23}Ils {\k23}m'par{\k23}laient {\k23}du {\k27}len{\k19}de{\k39}main
+Comment: 1,0:02:15.46,0:02:18.04,Default,,0,0,0,karaoke,{\k27}Et {\k23}que {\k23}tout {\k19}al{\k31}lait {\k43}si {\k75}vite
+Comment: 1,0:02:19.10,0:02:20.84,Default,,0,0,0,karaoke,{\k7}Ne {\k11}me {\k11}par{\k11}le {\k11}pas {\k15}de {\k23}nos{\k23}tal{\k43}gie
+Comment: 1,0:02:20.86,0:02:22.00,Default,,0,0,0,karaoke,{\k11}Parce {\k11}que {\k7}j't'a{\k11}voue {\k19}qu'mon {\k7}cœur {\k11}est {\k19}trop
+Comment: 1,0:02:21.98,0:02:22.76,Default,,0,0,0,karaoke,{\k23}Fra{\k43}gile
+Comment: 1,0:02:22.78,0:02:24.59,Default,,0,0,0,karaoke,{\k15}J'suis {\k7}comme {\k11}un {\k7}pi{\k43}rate {\k23}nau{\k23}fra{\k35}gé
+Comment: 1,0:02:24.57,0:02:26.39,Default,,0,0,0,karaoke,{\k15}Oui {\k7}mon {\k15}é{\k7}qui{\k19}page {\k7}est {\k15}plus {\k15}qu'en{\k11}dom{\k31}ma{\k19}gé
+Comment: 1,0:02:26.37,0:02:27.51,Default,,0,0,0,karaoke,{\k15}Je {\k27}sèche {\k19}mes {\k39}larmes
+Comment: 1,0:02:27.49,0:02:28.43,Default,,0,0,0,karaoke,{\k23}J'baisse {\k23}les {\k35}armes
+Comment: 1,0:02:28.45,0:02:29.07,Default,,0,0,0,karaoke,{\k11}J'veux {\k11}même {\k11}plus {\k7}sa{\k7}voir
+Comment: 1,0:02:29.05,0:02:30.31,Default,,0,0,0,karaoke,{\k11}Pour{\k7}quoi {\k15}ils {\k23}m'testent {\k19}les {\k35}autres
+Comment: 1,0:02:30.33,0:02:31.55,Default,,0,0,0,karaoke,{\k7}Si {\k7}y'a {\k11}plus {\k7}rien {\k15}à {\k7}prendre {\k11}je {\k11}sais {\k11}qu'il {\k15}m'reste
+Comment: 1,0:02:31.53,0:02:32.07,Default,,0,0,0,karaoke,{\k27}Une {\k15}chose
+Comment: 1,0:02:32.05,0:02:32.67,Default,,0,0,0,karaoke,{\k11}Et {\k11}ma {\k11}route {\k7}elle {\k7}est
+Comment: 1,0:02:32.65,0:02:33.26,Default,,0,0,0,karaoke,{\k7}Trop {\k11}longue, {\k11}pas {\k7}l'temps {\k11}de
+Comment: 1,0:02:33.24,0:02:33.78,Default,,0,0,0,karaoke,{\k15}Faire {\k15}une {\k11}pause
+Comment: 1,0:02:33.76,0:02:34.58,Default,,0,0,0,karaoke,{\k15}Sur {\k23}ma {\k11}route{\k19}~
+Comment: 1,0:02:34.56,0:02:36.98,Default,,0,0,0,karaoke,{\k43}Oui {\k31}il {\k7}y {\k19}a {\k23}eu {\k19}du {\k15}move{\k15}~{\k19}~ {\k31}oui
+Comment: 1,0:02:36.96,0:02:39.18,Default,,0,0,0,karaoke,{\k7}De {\k19}l'a{\k31}ven{\k19}ture {\k23}dans {\k7}l'mo{\k15}~{\k27}~{\k55}vie
+Comment: 1,0:02:39.20,0:02:40.66,Default,,0,0,0,karaoke,{\k23}Une {\k23}vie {\k19}de {\k67}roots
+Comment: 1,0:02:41.40,0:02:42.26,Default,,0,0,0,karaoke,{\k19}Sur {\k19}ma {\k11}route{\k23}~
+Comment: 1,0:02:42.24,0:02:43.81,Default,,0,0,0,karaoke,{\k51}Oui, {\k23}je {\k27}n'compte {\k19}plus {\k23}les
+Comment: 1,0:02:43.79,0:02:45.73,Default,,0,0,0,karaoke,{\k19}Sou{\k31}~{\k27}cis, {\k11}de {\k23}quoi {\k23}de{\k23}ve{\k19}nir
+Comment: 1,0:02:45.71,0:02:46.85,Default,,0,0,0,karaoke,{\k7}Fou{\k15}~{\k27}~ {\k51}oui
+Comment: 1,0:02:46.87,0:02:48.33,Default,,0,0,0,karaoke,{\k27}Une {\k19}vie {\k23}de {\k63}roots
+Comment: 1,0:02:48.59,0:02:50.73,Default,,0,0,0,karaoke,{\k19}Sur{\k23}~ {\k27}ma{\k23}~ {\k107}route
+Comment: 1,0:02:52.42,0:02:54.88,Default,,0,0,0,karaoke,{\k19}Sur{\k23}~ {\k23}ma{\k35}~ {\k15}route{\k115}~
+Comment: 1,0:02:56.26,0:02:58.48,Default,,0,0,0,karaoke,{\k15}Sur{\k31}~ {\k27}ma{\k15}~ {\k119}route
+Comment: 1,0:03:00.10,0:03:02.31,Default,,0,0,0,karaoke,{\k47}Sur {\k43}ma {\k119}route
+Comment: 1,0:03:03.97,0:03:07.19,Default,,0,0,0,karaoke,{\k11}Sur{\k31}~ {\k23}ma{\k19}~ {\k223}route
+Comment: 1,0:03:11.57,0:03:14.86,Default,,0,0,0,karaoke,{\k23}Sur{\k23}~ {\k19}ma{\k31}~ {\k219}route
+Comment: 1,0:03:19.72,0:03:20.62,Default,,0,0,0,karaoke,{\k23}Sur {\k23}ma {\k11}route{\k19}~
+Comment: 1,0:03:20.60,0:03:22.61,Default,,0,0,0,karaoke,{\k47}Oui {\k27}il {\k7}y {\k19}a {\k27}eu {\k23}du {\k7}move{\k11}~{\k15}~
+Comment: 1,0:03:22.59,0:03:25.21,Default,,0,0,0,karaoke,{\k39}Oui, {\k11}de {\k15}l'a{\k31}ven{\k19}ture {\k23}dans {\k7}l'mo{\k15}~{\k27}~{\k55}vie
+Comment: 1,0:03:25.23,0:03:26.69,Default,,0,0,0,karaoke,{\k27}Une {\k19}vie {\k19}de {\k67}roots
+Comment: 1,0:03:27.43,0:03:28.29,Default,,0,0,0,karaoke,{\k19}Sur {\k23}ma {\k11}route{\k19}~
+Comment: 1,0:03:28.27,0:03:29.85,Default,,0,0,0,karaoke,{\k59}Oui, {\k19}je {\k27}n'compte {\k19}plus {\k19}les
+Comment: 1,0:03:29.83,0:03:31.76,Default,,0,0,0,karaoke,{\k19}Sou{\k31}~{\k31}cis, {\k11}de {\k19}quoi {\k27}de{\k19}ve{\k19}nir
+Comment: 1,0:03:31.74,0:03:32.92,Default,,0,0,0,karaoke,{\k19}Fou{\k31}~ {\k55}oui
+Comment: 1,0:03:32.94,0:03:34.36,Default,,0,0,0,karaoke,{\k23}Une {\k19}vie {\k19}de {\k67}roots
+Comment: 1,0:03:35.06,0:03:35.96,Default,,0,0,0,karaoke,{\k23}Sur {\k19}ma {\k15}route{\k19}~
+Comment: 1,0:03:35.94,0:03:38.40,Default,,0,0,0,karaoke,{\k35}Oui {\k39}il {\k7}y {\k23}a {\k19}eu {\k31}du {\k15}move{\k27}~ {\k31}oui
+Comment: 1,0:03:38.38,0:03:40.59,Default,,0,0,0,karaoke,{\k7}De {\k19}l'a{\k27}ven{\k15}ture {\k27}dans {\k11}l'mo{\k15}~{\k23}~{\k59}vie
+Comment: 1,0:03:40.61,0:03:42.07,Default,,0,0,0,karaoke,{\k23}Une {\k23}vie {\k19}de {\k67}roots
+Comment: 1,0:03:42.77,0:03:43.75,Default,,0,0,0,karaoke,{\k19}Sur {\k23}ma {\k11}route{\k31}~
+Comment: 1,0:03:43.73,0:03:45.19,Default,,0,0,0,karaoke,{\k43}Oui, {\k23}je {\k27}n'compte {\k15}plus {\k23}les
+Comment: 1,0:03:45.17,0:03:47.15,Default,,0,0,0,karaoke,{\k15}Sou{\k35}~{\k27}cis, {\k15}de {\k15}quoi {\k31}de{\k19}ve{\k23}nir
+Comment: 1,0:03:47.13,0:03:48.27,Default,,0,0,0,karaoke,{\k19}Fou{\k27}~ {\k55}oui
+Comment: 1,0:03:48.29,0:03:49.75,Default,,0,0,0,karaoke,{\k23}Une {\k15}vie {\k23}de {\k71}roots
+Comment: 1,0:03:49.97,0:03:52.26,Default,,0,0,0,karaoke,{\k15}Sur{\k31}~ {\k23}ma{\k27}~ {\k119}route
+Comment: 1,0:03:53.80,0:03:56.26,Default,,0,0,0,karaoke,{\k19}Sur{\k23}~ {\k19}ma{\k27}~ {\k23}route{\k119}~
+Comment: 1,0:03:57.64,0:03:59.85,Default,,0,0,0,karaoke,{\k19}Sur{\k27}~ {\k23}ma{\k23}~ {\k115}route
+Comment: 1,0:04:01.43,0:04:02.73,Default,,0,0,0,karaoke,{\k47}Sur {\k51}ma {\k19}route
+Dialogue: 1,0:00:14.73,0:00:16.49,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Sur {\k31}ma {\k23}route
+Dialogue: 1,0:00:15.57,0:00:18.45,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k7}Oui{\k35}~ {\k15}il{\k15}~ {\k23}y a {\k7}eu{\k19}~ {\k23}du {\k35}move
+Dialogue: 1,0:00:17.53,0:00:21.12,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k31}Oui{\k15}~, {\k7}de {\k19}l'a{\k27}ven{\k19}ture {\k19}dans {\k23}l' mo{\k27}~{\k15}vie{\k47}~
+Dialogue: 1,0:00:20.20,0:00:22.52,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k27}Une {\k23}vie {\k27}de {\k51}roots
+Dialogue: 1,0:00:22.36,0:00:24.76,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Sur {\k27}ma {\k39}route {\k11}oui{\k35}~
+Dialogue: 1,0:00:23.84,0:00:27.68,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Je {\k27}n'compte {\k19}plus {\k27}les {\k23}sou{\k27}~{\k31}cis, {\k11}de {\k15}quoi {\k31}de{\k19}ve{\k23}nir
+Dialogue: 1,0:00:26.76,0:00:28.79,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Fou{\k19}~{\k7}~ {\k23}oui{\k35}~
+Dialogue: 1,0:00:27.87,0:00:30.19,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Une {\k27}vie {\k23}de {\k55}roots
+Dialogue: 1,0:00:30.07,0:00:31.83,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Sur {\k23}ma {\k7}route{\k23}~
+Dialogue: 1,0:00:30.91,0:00:33.83,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k27}Oui {\k51}il {\k7}y {\k15}a {\k23}eu {\k23}du {\k11}move{\k15}~{\k11}~
+Dialogue: 1,0:00:32.91,0:00:36.47,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k39}Oui, {\k7}de {\k23}l'a{\k27}ven{\k15}ture {\k27}dans {\k7}l'mo{\k15}~{\k23}~{\k63}vie
+Dialogue: 1,0:00:35.59,0:00:37.90,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Une {\k23}vie {\k23}de {\k63}roots
+Dialogue: 1,0:00:37.74,0:00:39.50,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Sur {\k27}ma {\k7}route{\k19}~
+Dialogue: 1,0:00:38.58,0:00:41.06,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k55}Oui, {\k19}je {\k31}n'compte {\k15}plus {\k23}les
+Dialogue: 1,0:00:40.14,0:00:42.98,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Sou{\k23}~{\k31}cis, {\k11}de {\k23}quoi {\k23}de{\k19}ve{\k23}nir
+Dialogue: 1,0:00:42.06,0:00:44.14,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k7}Fou{\k15}~{\k27}~ {\k55}oui
+Dialogue: 1,0:00:43.26,0:00:45.62,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Une {\k19}vie {\k19}de {\k71}roots
+Dialogue: 1,0:00:44.94,0:00:48.05,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Sur{\k27}~ {\k23}ma{\k35}~ {\k107}route
+Dialogue: 1,0:00:48.77,0:00:52.13,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Sur{\k27}~ {\k23}ma{\k23}~ {\k19}route{\k123}~
+Dialogue: 1,0:00:52.61,0:00:55.69,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Sur{\k31}~ {\k19}ma{\k23}~ {\k115}route
+Dialogue: 1,0:00:56.44,0:00:59.56,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k47}Sur {\k47}ma {\k115}route
+Dialogue: 1,0:01:00.76,0:01:02.64,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Sur {\k27}ma {\k39}route
+Dialogue: 1,0:01:01.76,0:01:04.56,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}J'ai {\k27}eu {\k23}des {\k19}mo{\k23}ments {\k27}de {\k39}doute
+Dialogue: 1,0:01:03.64,0:01:06.48,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}J'mar{\k19}chais {\k23}sans {\k23}sa{\k27}voir {\k23}vers {\k39}où
+Dialogue: 1,0:01:05.60,0:01:08.95,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}J'é{\k23}tais {\k23}tê{\k19}tu {\k23}rien {\k55}à {\k67}foutre
+Dialogue: 1,0:01:08.47,0:01:10.31,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k7}Sur{\k7}~ {\k23}ma {\k43}route
+Dialogue: 1,0:01:09.43,0:01:12.23,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}J'a{\k27}vais {\k23}pas {\k23}d'ba{\k23}gages {\k27}en {\k35}soute
+Dialogue: 1,0:01:11.35,0:01:14.15,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Et {\k27}dans {\k23}ma {\k23}poche {\k19}pas {\k27}un {\k15}sous{\k23}~
+Dialogue: 1,0:01:13.23,0:01:16.66,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Juste {\k23}la {\k23}fa{\k23}mille {\k27}en{\k51}tre {\k71}nous
+Dialogue: 1,0:01:16.78,0:01:19.50,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k11}Sur {\k11}ma {\k19}route {\k7}y'a {\k7}eu {\k19}un {\k23}tas {\k23}d'bou{\k43}chons
+Dialogue: 1,0:01:18.62,0:01:21.38,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k11}La {\k7}vé{\k11}ri{\k15}té{\k11}j'ai {\k7}sou{\k27}vent {\k19}tré{\k23}bu{\k35}ché
+Dialogue: 1,0:01:20.50,0:01:22.34,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Est-ce {\k11}que {\k11}tu {\k7}sais {\k11}que {\k15}quand {\k7}tu
+Dialogue: 1,0:01:21.42,0:01:23.02,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Touches {\k27}le {\k15}fond
+Dialogue: 1,0:01:22.10,0:01:25.26,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k7}Il {\k15}y'a {\k7}peu {\k15}de {\k11}gens {\k11}chez {\k11}qui {\k7}tu {\k15}peux {\k15}te {\k19}ré{\k23}fu{\k47}gier
+Dialogue: 1,0:01:24.38,0:01:26.73,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k7}Tu {\k11}peux {\k11}comp{\k11}ter {\k11}que {\k11}sur {\k15}tes {\k23}chers {\k19}pa{\k7}rents
+Dialogue: 1,0:01:25.81,0:01:27.53,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Parce {\k7}que {\k7}les {\k11}a{\k27}mis
+Dialogue: 1,0:01:26.61,0:01:29.09,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k11}Eux, {\k15}dis{\k11}pa{\k19}raissent {\k19}un {\k19}par {\k47}un
+Dialogue: 1,0:01:28.21,0:01:30.69,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Oui {\k7}il {\k7}m'ar{\k15}rive {\k7}d'a{\k11}voir {\k19}le {\k19}front {\k23}au {\k15}sol
+Dialogue: 1,0:01:29.77,0:01:31.53,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k11}Parce {\k15}que {\k7}Dieu {\k11}est {\k27}grand
+Dialogue: 1,0:01:30.61,0:01:32.41,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k7}Et {\k11}on {\k11}nait {\k7}seul {\k15}on {\k11}meurt {\k11}seul
+Dialogue: 1,0:01:31.49,0:01:33.21,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Sur {\k27}ma {\k7}route{\k19}~
+Dialogue: 1,0:01:32.29,0:01:35.60,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k55}Oui {\k19}il {\k7}y {\k15}a {\k31}eu {\k19}du {\k7}move{\k15}~{\k23}~ {\k31}oui
+Dialogue: 1,0:01:34.68,0:01:37.80,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k11}De {\k19}l'a{\k27}ven{\k19}ture {\k23}dans {\k7}l'mo{\k11}~{\k31}~{\k55}vie
+Dialogue: 1,0:01:36.92,0:01:39.32,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k27}Une {\k23}vie {\k19}de {\k67}roots
+Dialogue: 1,0:01:39.12,0:01:41.44,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Sur {\k23}ma {\k7}route{\k31}~ {\k15}oui{\k31}~
+Dialogue: 1,0:01:40.52,0:01:43.28,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Je {\k27}n'compte {\k15}plus {\k31}les {\k19}sou{\k31}~{\k23}cis
+Dialogue: 1,0:01:42.36,0:01:45.47,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k11}De {\k23}quoi {\k23}de{\k19}ve{\k31}nir {\k15}fou{\k27}~ {\k55}oui
+Dialogue: 1,0:01:44.59,0:01:46.99,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k31}Une {\k15}vie {\k19}de {\k71}roots
+Dialogue: 1,0:01:46.31,0:01:49.31,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Sur{\k31}~ {\k23}ma{\k19}~ {\k107}route
+Dialogue: 1,0:01:50.11,0:01:53.47,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Sur{\k27}~ {\k15}ma{\k31}~ {\k19}route{\k115}~
+Dialogue: 1,0:01:54.02,0:01:57.06,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Sur{\k27}~ {\k23}ma{\k23}~ {\k111}route
+Dialogue: 1,0:01:57.82,0:02:00.94,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k47}Sur {\k47}ma {\k115}route
+Dialogue: 1,0:02:02.18,0:02:04.02,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k7}Sur{\k11}~ {\k19}ma {\k43}route
+Dialogue: 1,0:02:03.10,0:02:05.89,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}On {\k23}m'a {\k23}fait {\k27}des {\k23}coups {\k23}en {\k7}douce{\k27}~
+Dialogue: 1,0:02:04.97,0:02:07.85,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}L'im{\k23}pres{\k19}sion {\k27}qu'mon {\k23}cœur {\k27}en {\k39}souffre
+Dialogue: 1,0:02:06.93,0:02:10.49,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Mais {\k19}j'suis {\k23}sous {\k23}a{\k27}nes{\k19}thé{\k31}~{\k83}sie
+Dialogue: 1,0:02:09.81,0:02:11.73,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Sur {\k31}mon {\k39}ch'min
+Dialogue: 1,0:02:10.81,0:02:13.57,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}J'ai {\k23}croi{\k23}sé {\k23}pas {\k19}mal {\k27}d'an{\k35}ciens
+Dialogue: 1,0:02:12.65,0:02:15.48,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Ils {\k23}m'par{\k23}laient {\k23}du {\k27}len{\k19}de{\k39}main
+Dialogue: 1,0:02:14.56,0:02:18.04,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k27}Et {\k23}que {\k23}tout {\k19}al{\k31}lait {\k43}si {\k75}vite
+Dialogue: 1,0:02:18.20,0:02:20.84,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k7}Ne {\k11}me {\k11}par{\k11}le {\k11}pas {\k15}de {\k23}nos{\k23}tal{\k43}gie
+Dialogue: 1,0:02:19.96,0:02:22.00,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k11}Parce {\k11}que {\k7}j't'a{\k11}voue {\k19}qu'mon {\k7}cœur {\k11}est {\k19}trop
+Dialogue: 1,0:02:21.08,0:02:22.76,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Fra{\k43}gile
+Dialogue: 1,0:02:21.88,0:02:24.59,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}J'suis {\k7}comme {\k11}un {\k7}pi{\k43}rate {\k23}nau{\k23}fra{\k35}gé
+Dialogue: 1,0:02:23.67,0:02:26.39,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Oui {\k7}mon {\k15}é{\k7}qui{\k19}page {\k7}est {\k15}plus {\k15}qu'en{\k11}dom{\k31}ma{\k19}gé
+Dialogue: 1,0:02:25.47,0:02:27.51,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Je {\k27}sèche {\k19}mes {\k39}larmes
+Dialogue: 1,0:02:26.59,0:02:28.43,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}J'baisse {\k23}les {\k35}armes
+Dialogue: 1,0:02:27.55,0:02:29.07,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k11}J'veux {\k11}même {\k11}plus {\k7}sa{\k7}voir
+Dialogue: 1,0:02:28.15,0:02:30.31,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k11}Pour{\k7}quoi {\k15}ils {\k23}m'testent {\k19}les {\k35}autres
+Dialogue: 1,0:02:29.43,0:02:31.55,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k7}Si {\k7}y'a {\k11}plus {\k7}rien {\k15}à {\k7}prendre {\k11}je {\k11}sais {\k11}qu'il {\k15}m'reste
+Dialogue: 1,0:02:30.63,0:02:32.07,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k27}Une {\k15}chose
+Dialogue: 1,0:02:31.15,0:02:32.67,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k11}Et {\k11}ma {\k11}route {\k7}elle {\k7}est
+Dialogue: 1,0:02:31.75,0:02:33.26,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k7}Trop {\k11}longue, {\k11}pas {\k7}l'temps {\k11}de
+Dialogue: 1,0:02:32.34,0:02:33.78,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Faire {\k15}une {\k11}pause
+Dialogue: 1,0:02:32.86,0:02:34.58,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Sur {\k23}ma {\k11}route{\k19}~
+Dialogue: 1,0:02:33.66,0:02:36.98,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k43}Oui {\k31}il {\k7}y {\k19}a {\k23}eu {\k19}du {\k15}move{\k15}~{\k19}~ {\k31}oui
+Dialogue: 1,0:02:36.06,0:02:39.18,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k7}De {\k19}l'a{\k31}ven{\k19}ture {\k23}dans {\k7}l'mo{\k15}~{\k27}~{\k55}vie
+Dialogue: 1,0:02:38.30,0:02:40.66,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Une {\k23}vie {\k19}de {\k67}roots
+Dialogue: 1,0:02:40.50,0:02:42.26,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Sur {\k19}ma {\k11}route{\k23}~
+Dialogue: 1,0:02:41.34,0:02:43.81,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k51}Oui, {\k23}je {\k27}n'compte {\k19}plus {\k23}les
+Dialogue: 1,0:02:42.89,0:02:45.73,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Sou{\k31}~{\k27}cis, {\k11}de {\k23}quoi {\k23}de{\k23}ve{\k19}nir
+Dialogue: 1,0:02:44.81,0:02:46.85,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k7}Fou{\k15}~{\k27}~ {\k51}oui
+Dialogue: 1,0:02:45.97,0:02:48.33,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k27}Une {\k19}vie {\k23}de {\k63}roots
+Dialogue: 1,0:02:47.69,0:02:50.73,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Sur{\k23}~ {\k27}ma{\k23}~ {\k107}route
+Dialogue: 1,0:02:51.52,0:02:54.88,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Sur{\k23}~ {\k23}ma{\k35}~ {\k15}route{\k115}~
+Dialogue: 1,0:02:55.36,0:02:58.48,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Sur{\k31}~ {\k27}ma{\k15}~ {\k119}route
+Dialogue: 1,0:02:59.20,0:03:02.31,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k47}Sur {\k43}ma {\k119}route
+Dialogue: 1,0:03:03.07,0:03:07.19,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k11}Sur{\k31}~ {\k23}ma{\k19}~ {\k223}route
+Dialogue: 1,0:03:10.67,0:03:14.86,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Sur{\k23}~ {\k19}ma{\k31}~ {\k219}route
+Dialogue: 1,0:03:18.82,0:03:20.62,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Sur {\k23}ma {\k11}route{\k19}~
+Dialogue: 1,0:03:19.70,0:03:22.61,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k47}Oui {\k27}il {\k7}y {\k19}a {\k27}eu {\k23}du {\k7}move{\k11}~{\k15}~
+Dialogue: 1,0:03:21.69,0:03:25.21,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k39}Oui, {\k11}de {\k15}l'a{\k31}ven{\k19}ture {\k23}dans {\k7}l'mo{\k15}~{\k27}~{\k55}vie
+Dialogue: 1,0:03:24.33,0:03:26.69,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k27}Une {\k19}vie {\k19}de {\k67}roots
+Dialogue: 1,0:03:26.53,0:03:28.29,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Sur {\k23}ma {\k11}route{\k19}~
+Dialogue: 1,0:03:27.37,0:03:29.85,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k59}Oui, {\k19}je {\k27}n'compte {\k19}plus {\k19}les
+Dialogue: 1,0:03:28.93,0:03:31.76,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Sou{\k31}~{\k31}cis, {\k11}de {\k19}quoi {\k27}de{\k19}ve{\k19}nir
+Dialogue: 1,0:03:30.84,0:03:32.92,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Fou{\k31}~ {\k55}oui
+Dialogue: 1,0:03:32.04,0:03:34.36,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Une {\k19}vie {\k19}de {\k67}roots
+Dialogue: 1,0:03:34.16,0:03:35.96,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Sur {\k19}ma {\k15}route{\k19}~
+Dialogue: 1,0:03:35.04,0:03:38.40,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k35}Oui {\k39}il {\k7}y {\k23}a {\k19}eu {\k31}du {\k15}move{\k27}~ {\k31}oui
+Dialogue: 1,0:03:37.48,0:03:40.59,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k7}De {\k19}l'a{\k27}ven{\k15}ture {\k27}dans {\k11}l'mo{\k15}~{\k23}~{\k59}vie
+Dialogue: 1,0:03:39.71,0:03:42.07,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Une {\k23}vie {\k19}de {\k67}roots
+Dialogue: 1,0:03:41.87,0:03:43.75,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Sur {\k23}ma {\k11}route{\k31}~
+Dialogue: 1,0:03:42.83,0:03:45.19,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k43}Oui, {\k23}je {\k27}n'compte {\k15}plus {\k23}les
+Dialogue: 1,0:03:44.27,0:03:47.15,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Sou{\k35}~{\k27}cis, {\k15}de {\k15}quoi {\k31}de{\k19}ve{\k23}nir
+Dialogue: 1,0:03:46.23,0:03:48.27,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Fou{\k27}~ {\k55}oui
+Dialogue: 1,0:03:47.39,0:03:49.75,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k23}Une {\k15}vie {\k23}de {\k71}roots
+Dialogue: 1,0:03:49.07,0:03:52.26,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k15}Sur{\k31}~ {\k23}ma{\k27}~ {\k119}route
+Dialogue: 1,0:03:52.90,0:03:56.26,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Sur{\k23}~ {\k19}ma{\k27}~ {\k23}route{\k119}~
+Dialogue: 1,0:03:56.74,0:03:59.85,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k19}Sur{\k27}~ {\k23}ma{\k23}~ {\k115}route
+Dialogue: 1,0:04:00.53,0:04:02.73,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k47}Sur {\k51}ma {\k19}route

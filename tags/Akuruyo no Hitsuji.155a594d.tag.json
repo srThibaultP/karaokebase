@@ -1,0 +1,18 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "qro": "Akuruyo no Hitsuji",
+      "jpn": "明くる夜の羊"
+    },
+    "name": "Akuruyo no Hitsuji",
+    "repository": "kara.moe",
+    "tid": "155a594d-c715-4832-9ad7-a4b039df789c",
+    "types": [
+      17
+    ]
+  }
+}

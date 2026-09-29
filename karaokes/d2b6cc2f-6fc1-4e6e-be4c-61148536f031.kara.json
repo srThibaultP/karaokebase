@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2021-02-08T13:12:30.274Z",
+    "ignoreHooks": false,
     "kid": "d2b6cc2f-6fc1-4e6e-be4c-61148536f031",
-    "modified_at": "2021-02-25T11:04:21.080Z",
+    "modified_at": "2026-09-28T22:57:03.751Z",
     "parents": [
       "c7b71129-0793-4551-b5eb-32235851b856"
     ],
@@ -34,7 +35,7 @@
         "1df04771-a378-4f14-a5e1-1455187d681a"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "efe171c0-e8a1-4d03-98c0-60ecf741ad52"
       ],
       "creators": [
         "647386fe-6901-46bd-8ed0-bd68274c5b1c"
@@ -63,8 +64,8 @@
       ]
     },
     "titles": {
-      "qro": "Kiken no nai Sekai",
-      "jpn": "危険のない世界"
+      "jpn": "危険のない世界",
+      "qro": "Kiken no nai Sekai"
     },
     "titles_default_language": "qro",
     "year": 2007

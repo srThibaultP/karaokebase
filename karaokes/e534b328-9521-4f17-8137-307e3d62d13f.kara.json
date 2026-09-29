@@ -22,8 +22,9 @@
   ],
   "data": {
     "created_at": "2017-10-11T17:02:10.000Z",
+    "ignoreHooks": false,
     "kid": "e534b328-9521-4f17-8137-307e3d62d13f",
-    "modified_at": "2021-02-25T10:19:46.729Z",
+    "modified_at": "2026-09-28T22:57:01.700Z",
     "repository": "kara.moe",
     "songname": "ENG - Wakfu - OP - In your footsteps",
     "tags": {
@@ -31,7 +32,7 @@
         "8c22c899-b3ed-42da-a548-ce00f950798b"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "efe171c0-e8a1-4d03-98c0-60ecf741ad52"
       ],
       "creators": [
         "d15e099f-d3f5-4143-9417-20daa2185a54"
@@ -65,6 +66,7 @@
     "titles": {
       "eng": "In your footsteps"
     },
+    "titles_default_language": "eng",
     "year": 2014
   }
 }

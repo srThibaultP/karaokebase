@@ -24,7 +24,7 @@
     "created_at": "2026-06-28T16:48:45.659Z",
     "ignoreHooks": false,
     "kid": "afbc5302-e7a3-4d03-8896-c4520ecdd197",
-    "modified_at": "2026-06-28T16:54:48.598Z",
+    "modified_at": "2026-09-28T22:57:20.807Z",
     "parents": [
       "cd6f10be-98a8-412b-9fb4-7416f03f54f6"
     ],
@@ -35,7 +35,7 @@
         "f70c7314-b8d3-4bf4-96a0-dc8b2c5a6c94"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "efe171c0-e8a1-4d03-98c0-60ecf741ad52"
       ],
       "creators": [
         "8bd95a35-f58e-4a92-9415-600b22dedea9"

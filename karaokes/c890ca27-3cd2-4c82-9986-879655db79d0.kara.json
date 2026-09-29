@@ -8,7 +8,7 @@
       "default": true,
       "duration": 263,
       "filename": "c890ca27-3cd2-4c82-9986-879655db79d0.opus",
-      "filesize": 8874827,
+      "filesize": 8947578,
       "loudnorm": "-9.07,0.22,10.30,-19.41,-2.10",
       "lyrics": [
         {
@@ -24,7 +24,7 @@
     "created_at": "2026-09-26T23:39:24.269Z",
     "ignoreHooks": false,
     "kid": "c890ca27-3cd2-4c82-9986-879655db79d0",
-    "modified_at": "2026-09-27T01:16:13.723Z",
+    "modified_at": "2026-09-28T21:38:50.488Z",
     "parents": [
       "f8475665-118c-46a0-8e60-92b19ec999ab"
     ],

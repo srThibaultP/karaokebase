@@ -24,7 +24,7 @@
     "created_at": "2026-03-18T12:42:11.452Z",
     "ignoreHooks": false,
     "kid": "23958502-67b6-450a-8413-62828ec582a3",
-    "modified_at": "2026-03-18T12:42:12.082Z",
+    "modified_at": "2026-09-28T22:57:23.674Z",
     "repository": "kara.moe",
     "songname": "ENG - Helluva Boss - ONA IN - Mastermind",
     "tags": {
@@ -32,7 +32,7 @@
         "f70c7314-b8d3-4bf4-96a0-dc8b2c5a6c94"
       ],
       "collections": [
-        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+        "efe171c0-e8a1-4d03-98c0-60ecf741ad52"
       ],
       "creators": [
         "8bd95a35-f58e-4a92-9415-600b22dedea9"
@@ -57,9 +57,9 @@
         "dde0f48d-ef4d-46a8-94c1-6015f656edeb"
       ],
       "singers": [
-        "6e1500f6-bd3d-4bdc-a87f-1ef3bc47bd1a",
+        "195378c6-698c-4a55-86d3-27604ffe22d7",
         "2f6ce237-d4ef-4833-ace6-04fb87d23e37",
-        "195378c6-698c-4a55-86d3-27604ffe22d7"
+        "6e1500f6-bd3d-4bdc-a87f-1ef3bc47bd1a"
       ],
       "songtypes": [
         "5e5250d9-351a-4a82-98eb-55db50ad8962"

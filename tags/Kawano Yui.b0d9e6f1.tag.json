@@ -1,0 +1,20 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Yui Kawano",
+      "qro": "Kawano Yui",
+      "jpn": "カワノユイ"
+    },
+    "name": "Kawano Yui",
+    "repository": "kara.moe",
+    "tid": "b0d9e6f1-9b6a-43dc-ab72-a9f421c1249a",
+    "types": [
+      2,
+      8
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 216,
+      "filename": "92a1c515-d3da-493d-a2e1-c22b2ccb8643.mkv",
+      "filesize": 48601983,
+      "loudnorm": "-8.23,1.28,5.80,-18.31,-1.42",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "92a1c515-d3da-493d-a2e1-c22b2ccb8643.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-28T22:03:38.426Z",
+    "from_display_type": "singergroups",
+    "ignoreHooks": false,
+    "kid": "92a1c515-d3da-493d-a2e1-c22b2ccb8643",
+    "modified_at": "2026-09-28T22:03:38.593Z",
+    "parents": [
+      "54eed5b4-d280-4f2c-98b9-e26e3c0e30aa"
+    ],
+    "repository": "kara.moe",
+    "songname": "JPN - Akuruyo no Hitsuji - MV - Hibi wo Koete ~ Full Vers",
+    "tags": {
+      "authors": [
+        "2941868f-535f-4ea6-99f9-a0192e0e4dc7"
+      ],
+      "collections": [
+        "dbcf2c22-524d-4708-99bb-601703633927"
+      ],
+      "families": [
+        "5391f9fe-638c-415f-8dc9-958e3a2c5787"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "series": [
+        "53f0b4b2-127b-4f32-b236-5c563f4c7497"
+      ],
+      "singers": [
+        "b0d9e6f1-9b6a-43dc-ab72-a9f421c1249a"
+      ],
+      "singergroups": [
+        "155a594d-c715-4832-9ad7-a4b039df789c"
+      ],
+      "songtypes": [
+        "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
+      ],
+      "songwriters": [
+        "93803c5e-5e97-4006-8ebe-151365405d41",
+        "b0d9e6f1-9b6a-43dc-ab72-a9f421c1249a"
+      ],
+      "versions": [
+        "c2143a7f-6970-450e-8a79-0302db9220a9"
+      ],
+      "franchises": [
+        "4fdeeef9-94a3-415f-9d1d-cb6c21110219"
+      ]
+    },
+    "titles": {
+      "jpn": "日々を越えて",
+      "qro": "Hibi wo Koete"
+    },
+    "titles_default_language": "qro",
+    "year": 2026
+  }
+}

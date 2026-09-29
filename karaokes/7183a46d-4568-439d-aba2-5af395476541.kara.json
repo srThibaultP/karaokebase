@@ -6,10 +6,10 @@
   "medias": [
     {
       "default": true,
-      "duration": 175,
-      "filename": "7183a46d-4568-439d-aba2-5af395476541.opus",
-      "filesize": 7510742,
-      "loudnorm": "-3.72,1.51,4.40,-13.88,-0.20",
+      "duration": 174,
+      "filename": "7183a46d-4568-439d-aba2-5af395476541.webm",
+      "filesize": 56379583,
+      "loudnorm": "-4.10,3.55,4.40,-14.27,-0.19",
       "lyrics": [
         {
           "default": true,
@@ -25,12 +25,12 @@
     "from_display_type": "singers",
     "ignoreHooks": false,
     "kid": "7183a46d-4568-439d-aba2-5af395476541",
-    "modified_at": "2026-07-05T00:34:35.538Z",
+    "modified_at": "2026-09-28T21:41:06.436Z",
     "parents": [
       "4eaeeef1-7ac6-4fd9-9456-98a14491938e"
     ],
     "repository": "kara.moe",
-    "songname": "JPN - Kabushikigaisha Magi-Lumière 2nd Season - AUDIO - BooooM!!! ~ Full Vers",
+    "songname": "JPN - Marine Hôshô - MV - BooooM!!! ~ Full Vers",
     "tags": {
       "authors": [
         "2941868f-535f-4ea6-99f9-a0192e0e4dc7"
@@ -54,7 +54,7 @@
         "77848990-54ab-4ef6-bba7-e1258fda78a5"
       ],
       "songtypes": [
-        "42a262ae-acba-4ab5-a446-c5789c96c821"
+        "7be1b15c-cff8-4b37-a649-5c90f3d569a9"
       ],
       "songwriters": [
         "298c0a40-668d-4380-93d9-31e4946cc7de",

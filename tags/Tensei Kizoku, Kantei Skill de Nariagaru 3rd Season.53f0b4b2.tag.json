@@ -1,0 +1,24 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "external_database_ids": {
+      "anilist": 185756,
+      "kitsu": 49437,
+      "myanimelist": 60601
+    },
+    "i18n": {
+      "eng": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 3",
+      "qro": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
+      "jpn": "転生貴族、鑑定スキルで成り上がる 第3期"
+    },
+    "name": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
+    "repository": "kara.moe",
+    "tid": "53f0b4b2-127b-4f32-b236-5c563f4c7497",
+    "types": [
+      1
+    ]
+  }
+}
