@@ -1,0 +1,73 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 90,
+      "filename": "a43fc3ce-0e73-49d5-825b-fee053fd1154.webm",
+      "filesize": 23606069,
+      "loudnorm": "-20.97,-8.36,8.50,-31.15,-1.05",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "a43fc3ce-0e73-49d5-825b-fee053fd1154.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-29T22:14:19.609Z",
+    "ignoreHooks": false,
+    "kid": "a43fc3ce-0e73-49d5-825b-fee053fd1154",
+    "modified_at": "2026-09-29T22:14:33.449Z",
+    "repository": "kara.moe",
+    "songname": "JPN - Tôka Gettan - ED - Kono Sekai ga Itsuka wa",
+    "tags": {
+      "authors": [
+        "2941868f-535f-4ea6-99f9-a0192e0e4dc7"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "creators": [
+        "2bf7a71d-d3fc-42ba-8aa0-a94d7ca3888c"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "groups": [
+        "3c14c864-533c-49e6-a3cc-6969f1233775"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "938de218-5343-4865-94d3-fb33f2eaa152"
+      ],
+      "series": [
+        "b8d7058b-95b2-46e2-a74f-ae2e1b7c773f"
+      ],
+      "singers": [
+        "1e2a522f-776f-491a-882a-6892d061b4a2"
+      ],
+      "songtypes": [
+        "38c77c56-2b95-4040-b676-0994a8cb0597"
+      ],
+      "songwriters": [
+        "beafe695-0304-420d-b7ee-de429ec18f12",
+        "a7ca3b47-2352-4fbd-8415-5cfe4a96545c"
+      ]
+    },
+    "titles": {
+      "qro": "Kono Sekai ga Itsuka wa",
+      "jpn": "この世界がいつかは"
+    },
+    "titles_default_language": "qro",
+    "year": 2007
+  }
+}

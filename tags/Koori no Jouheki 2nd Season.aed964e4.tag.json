@@ -1,0 +1,27 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Jouheki"
+    ],
+    "external_database_ids": {
+      "anilist": 213805,
+      "kitsu": 50827,
+      "myanimelist": 64534
+    },
+    "i18n": {
+      "eng": "The Ramparts of Ice Season 2",
+      "qro": "Koori no Jôheki 2nd Season",
+      "jpn": "氷の城壁 第2期"
+    },
+    "name": "Koori no Jôheki 2nd Season",
+    "repository": "kara.moe",
+    "tid": "aed964e4-6cc5-43d0-8489-655aefc1782a",
+    "types": [
+      1
+    ]
+  }
+}

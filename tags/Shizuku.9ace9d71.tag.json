@@ -5,7 +5,8 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Shizuku"
+      "qro": "Shizuku",
+      "jpn": "雫"
     },
     "name": "Shizuku",
     "repository": "kara.moe",

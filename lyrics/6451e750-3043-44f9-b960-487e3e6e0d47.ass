@@ -1,0 +1,52 @@
+﻿[Script Info]
+Title: Cookie & Cream
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sheena,Arial,24,&H00FFFFFF,&H0055A7EC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Mimi,Arial,24,&H00FFFFFF,&H00FF7FEC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Legend,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Legend,,0,0,0,karaoke,{\k1000} Duo {\2cFFFFFF}| {\rSheena}Sheena {\2cFFFFFF}| {\rMimi}Mimi
+Comment: 0,0:00:16.87,0:00:20.72,Sheena,,0,0,0,karaoke,{\k14}bu{\k14}ki{\k16}yo{\k15}u {\k82}ni {\k15}sa{\k18}shi{\k25}da{\k18}sa{\k28}re{\k29}ta {\kf111}te
+Comment: 0,0:00:21.42,0:00:25.35,Sheena,,0,0,0,karaoke,{\k15}a{\k16}i{\k14}ma{\k15}i {\k85}ni {\k12}u{\k17}ke{\k27}to{\k16}ru {\k30}wa{\k43}ta{\kf103}shi
+Comment: 0,0:00:25.99,0:00:29.67,Mimi,,0,0,0,karaoke,{\k32}ki{\k18}t{\k95}to {\k14}wa{\k15}su{\k27}re{\k18}te {\k42}shi{\k29}ma{\k28}un {\k14}da{\k36}rou
+Comment: 0,0:00:29.75,0:00:34.58,Mimi,,0,0,0,karaoke,{\k18}ko{\k10}n{\k40}na {\k44}chip{\k29}po{\k87}ke{\k28}na {\k57}de{\k58}ki{\k57}go{\k55}to
+Comment: 0,0:00:35.15,0:00:38.50,Mimi,,0,0,0,karaoke,{\k29}ha{\k17}na {\k100}no {\k12}a{\k15}ta{\k45}ma {\k39}ni {\k18}tsu{\k14}i{\k46}ta
+Comment: 0,0:00:38.87,0:00:43.16,Mimi,,0,0,0,karaoke,{\k13}C{\k17}R{\k42}EA{\k44}M {\k27}to {\k46}COO{\k42}KI{\k28}E {\k28}no {\k27}ka{\k30}ke{\k29}ra {\k56}wo
+Comment: 0,0:00:43.74,0:00:47.68,Mimi,,0,0,0,karaoke,{\k43}nu{\k44}gu{\k26}e{\k46}ba {\k36}ku{\k34}su{\k44}gut{\k42}ta{\k28}i {\k51}to
+Comment: 0,0:00:48.04,0:00:52.94,Sheena,,0,0,0,karaoke,{\k13}da{\k14}ki{\k14}tsu{\k13}i{\k15}ta {\k14}mu{\k29}ja{\k16}ki {\k28}na {\k15}hi{\k14}to{\k14}mi {\k57}ga {\k14}e{\k14}i{\k18}e{\k9}n {\k27}wo {\k17}u{\k29}tsu{\k15}su {\kf91}yo
+Comment: 0,0:00:53.43,0:00:56.83,Duo,,0,0,0,karaoke,{\k61}kyo{\k57}u {\k55}wa {\k45}na{\k40}ni{\k30}mo {\k52}nai
+Comment: 0,0:00:57.18,0:00:59.17,Duo,,0,0,0,karaoke,{\k28}na{\k43}ni{\k41}mo {\k30}shi{\k57}nai
+Comment: 0,0:00:59.45,0:01:03.73,Duo,,0,0,0,karaoke,{\k16}ki{\k13}mi {\k81}to {\k17}su{\k16}go{\k86}su {\k14}to{\k15}ku{\k40}be{\k46}tsu {\k26}na {\k58}hi
+Comment: 0,0:01:04.02,0:01:06.02,Duo,,0,0,0,karaoke,{\k29}ko{\k43}to{\k25}ba {\k17}ni {\k29}shi{\k57}nai
+Comment: 0,0:01:06.27,0:01:08.28,Duo,,0,0,0,karaoke,{\k18}ya{\k13}ku{\k45}so{\k42}ku {\k30}mo {\k53}nai
+Comment: 0,0:01:08.60,0:01:13.15,Duo,,0,0,0,karaoke,{\k14}fu{\k13}ta{\k87}ri {\k14}da{\k16}ke {\k83}ga {\k29}ta{\k28}da {\k30}so{\k28}ko {\k29}ni {\k57}i{\k27}ru
+Comment: 0,0:01:13.44,0:01:17.38,Duo,,0,0,0,karaoke,{\k47}zu{\k41}t{\k25}to {\k31}so{\k27}ba {\k31}de {\k28}wa{\k32}ra{\k26}i{\k57}a {\k49}tte
+Comment: 0,0:01:17.72,0:01:24.90,Duo,,0,0,0,karaoke,{\k13}ya{\k18}wa{\k28}ra{\k29}ka{\k27}na {\k30}hi{\k81}za{\k35}shi {\k82}ga {\k28}tsu{\k60}tsu{\k55}mu {\kf232}yo
+Dialogue: 0,0:00:15.97,0:00:20.92,Sheena,,0,0,0,fx,{\k90\fad(300,200)}{\k14}bu{\k14}ki{\k16}yo{\k15}u {\k82}ni {\k15}sa{\k18}shi{\k25}da{\k18}sa{\k28}re{\k29}ta {\kf111}te
+Dialogue: 0,0:00:20.52,0:00:25.55,Sheena,,0,0,0,fx,{\k90\fad(300,200)}{\k15}a{\k16}i{\k14}ma{\k15}i {\k85}ni {\k12}u{\k17}ke{\k27}to{\k16}ru {\k30}wa{\k43}ta{\kf103}shi
+Dialogue: 0,0:00:25.09,0:00:29.87,Mimi,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ki{\k18}t{\k95}to {\k14}wa{\k15}su{\k27}re{\k18}te {\k42}shi{\k29}ma{\k28}un {\k14}da{\k36}rou
+Dialogue: 0,0:00:28.85,0:00:34.78,Mimi,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ko{\k10}n{\k40}na {\k44}chip{\k29}po{\k87}ke{\k28}na {\k57}de{\k58}ki{\k57}go{\k55}to
+Dialogue: 0,0:00:34.25,0:00:38.70,Mimi,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ha{\k17}na {\k100}no {\k12}a{\k15}ta{\k45}ma {\k39}ni {\k18}tsu{\k14}i{\k46}ta
+Dialogue: 0,0:00:37.97,0:00:43.36,Mimi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}C{\k17}R{\k42}EA{\k44}M {\k27}to {\k46}COO{\k42}KI{\k28}E {\k28}no {\k27}ka{\k30}ke{\k29}ra {\k56}wo
+Dialogue: 0,0:00:42.84,0:00:47.88,Mimi,,0,0,0,fx,{\k90\fad(300,200)}{\k43}nu{\k44}gu{\k26}e{\k46}ba {\k36}ku{\k34}su{\k44}gut{\k42}ta{\k28}i {\k51}to
+Dialogue: 0,0:00:47.14,0:00:53.14,Sheena,,0,0,0,fx,{\k90\fad(300,200)}{\k13}da{\k14}ki{\k14}tsu{\k13}i{\k15}ta {\k14}mu{\k29}ja{\k16}ki {\k28}na {\k15}hi{\k14}to{\k14}mi {\k57}ga {\k14}e{\k14}i{\k18}e{\k9}n {\k27}wo {\k17}u{\k29}tsu{\k15}su {\kf91}yo
+Dialogue: 0,0:00:52.53,0:00:57.03,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k61}kyo{\k57}u {\k55}wa {\k45}na{\k40}ni{\k30}mo {\k52}nai
+Dialogue: 0,0:00:56.28,0:00:59.37,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k28}na{\k43}ni{\k41}mo {\k30}shi{\k57}nai
+Dialogue: 0,0:00:58.55,0:01:03.93,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ki{\k13}mi {\k81}to {\k17}su{\k16}go{\k86}su {\k14}to{\k15}ku{\k40}be{\k46}tsu {\k26}na {\k58}hi
+Dialogue: 0,0:01:03.12,0:01:06.22,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ko{\k43}to{\k25}ba {\k17}ni {\k29}shi{\k57}nai
+Dialogue: 0,0:01:05.37,0:01:08.48,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ya{\k13}ku{\k45}so{\k42}ku {\k30}mo {\k53}nai
+Dialogue: 0,0:01:07.70,0:01:13.35,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k14}fu{\k13}ta{\k87}ri {\k14}da{\k16}ke {\k83}ga {\k29}ta{\k28}da {\k30}so{\k28}ko {\k29}ni {\k57}i{\k27}ru
+Dialogue: 0,0:01:12.54,0:01:17.58,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k47}zu{\k41}t{\k25}to {\k31}so{\k27}ba {\k31}de {\k28}wa{\k32}ra{\k26}i{\k57}a {\k49}tte
+Dialogue: 0,0:01:16.82,0:01:25.10,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ya{\k18}wa{\k28}ra{\k29}ka{\k27}na {\k30}hi{\k81}za{\k35}shi {\k82}ga {\k28}tsu{\k60}tsu{\k55}mu {\kf232}yo

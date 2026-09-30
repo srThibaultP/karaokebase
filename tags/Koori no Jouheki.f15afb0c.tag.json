@@ -1,0 +1,22 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Jouheki"
+    ],
+    "i18n": {
+      "eng": "The Ramparts of Ice",
+      "jpn": "氷の城壁",
+      "qro": "Koori no Jôheki"
+    },
+    "name": "Koori no Jôheki",
+    "repository": "kara.moe",
+    "tid": "f15afb0c-b84b-435d-9b30-bc60015f0827",
+    "types": [
+      18
+    ]
+  }
+}

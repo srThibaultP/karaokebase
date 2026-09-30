@@ -1,0 +1,24 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "external_database_ids": {
+      "anilist": 197097,
+      "kitsu": 50082,
+      "myanimelist": 62193
+    },
+    "i18n": {
+      "qro": "Paris ni Saku Étoile",
+      "jpn": "パリに咲くエトワール",
+      "fre": "L'étoile de Paris en fleur"
+    },
+    "name": "Paris ni Saku Étoile",
+    "repository": "kara.moe",
+    "tid": "b3b3985a-9f91-4046-a1f7-8c6b04e5f125",
+    "types": [
+      1
+    ]
+  }
+}

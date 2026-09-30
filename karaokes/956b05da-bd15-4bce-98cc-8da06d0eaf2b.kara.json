@@ -1,0 +1,77 @@
+{
+  "header": {
+    "version": 4,
+    "description": "Karaoke Mugen Karaoke Data File"
+  },
+  "medias": [
+    {
+      "default": true,
+      "duration": 212,
+      "filename": "956b05da-bd15-4bce-98cc-8da06d0eaf2b.mp4",
+      "filesize": 213223964,
+      "loudnorm": "-5.58,0.55,4.70,-15.79,-0.72",
+      "lyrics": [
+        {
+          "default": true,
+          "filename": "956b05da-bd15-4bce-98cc-8da06d0eaf2b.ass",
+          "version": "Default"
+        }
+      ],
+      "version": "Default"
+    }
+  ],
+  "data": {
+    "created_at": "2026-09-29T22:07:30.181Z",
+    "ignoreHooks": false,
+    "kid": "956b05da-bd15-4bce-98cc-8da06d0eaf2b",
+    "modified_at": "2026-09-29T22:15:22.624Z",
+    "repository": "kara.moe",
+    "songname": "JPN - Paris ni Saku Étoile - MOVIE ED - Kaze ni Noru",
+    "tags": {
+      "authors": [
+        "2941868f-535f-4ea6-99f9-a0192e0e4dc7"
+      ],
+      "collections": [
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "creators": [
+        "e5fb5b0a-4927-4fa0-94e6-6061329fdeaa"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
+      ],
+      "groups": [
+        "8e209ae4-4381-438f-89dc-1b21752027d2"
+      ],
+      "langs": [
+        "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "c8ca9dea-d8b4-48fe-8427-d911653232e9"
+      ],
+      "series": [
+        "b3b3985a-9f91-4046-a1f7-8c6b04e5f125"
+      ],
+      "singers": [
+        "a26942eb-c6ff-47b0-ae1e-6e510e7d3863"
+      ],
+      "singergroups": [
+        "a039e1cc-7707-4765-b133-d62ac59feb54"
+      ],
+      "songtypes": [
+        "38c77c56-2b95-4040-b676-0994a8cb0597"
+      ],
+      "songwriters": [
+        "a26942eb-c6ff-47b0-ae1e-6e510e7d3863",
+        "d41cb740-df5f-4ca4-89f8-5e9e97ebcbec",
+        "fa1312dd-1cde-4553-90f6-582bd86c8406"
+      ]
+    },
+    "titles": {
+      "jpn": "風に乗る",
+      "qro": "Kaze ni Noru"
+    },
+    "titles_default_language": "qro",
+    "year": 2026
+  }
+}
