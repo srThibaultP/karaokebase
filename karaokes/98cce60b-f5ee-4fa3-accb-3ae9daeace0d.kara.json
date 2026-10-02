@@ -6,14 +6,14 @@
   "medias": [
     {
       "default": true,
-      "duration": 228,
-      "filename": "e006ee86-9043-413b-86a6-a01372effba8.opus",
-      "filesize": 9470854,
-      "loudnorm": "-8.29,0.55,12.80,-19.05,-1.80",
+      "duration": 89,
+      "filename": "98cce60b-f5ee-4fa3-accb-3ae9daeace0d.mp4",
+      "filesize": 29729251,
+      "loudnorm": "-21.75,-6.92,7.40,-32.35,-1.41",
       "lyrics": [
         {
           "default": true,
-          "filename": "e006ee86-9043-413b-86a6-a01372effba8.ass",
+          "filename": "98cce60b-f5ee-4fa3-accb-3ae9daeace0d.ass",
           "version": "Default"
         }
       ],
@@ -21,28 +21,35 @@
     }
   ],
   "data": {
-    "created_at": "2026-09-29T22:19:57.925Z",
-    "from_display_type": "singers",
+    "comment": "franchise oublié mais tkt ",
+    "created_at": "2026-10-01T15:56:54.197Z",
     "ignoreHooks": false,
-    "kid": "e006ee86-9043-413b-86a6-a01372effba8",
-    "modified_at": "2026-10-01T22:44:27.246Z",
-    "parents": [
-      "98cce60b-f5ee-4fa3-accb-3ae9daeace0d"
-    ],
+    "kid": "98cce60b-f5ee-4fa3-accb-3ae9daeace0d",
+    "modified_at": "2026-10-01T22:00:36.743Z",
     "repository": "kara.moe",
-    "songname": "JPN - Superfly - AUDIO - Hanakage ~ Full Vers",
+    "songname": "JPN - Koori no Jôheki 2nd Season - ED - Hanakage",
     "tags": {
       "authors": [
-        "2941868f-535f-4ea6-99f9-a0192e0e4dc7"
+        "2941868f-535f-4ea6-99f9-a0192e0e4dc7",
+        "6ead5776-8797-407f-84a6-809f413c97b5"
       ],
       "collections": [
-        "dbcf2c22-524d-4708-99bb-601703633927"
+        "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"
+      ],
+      "creators": [
+        "e7a5481a-0159-4801-abcb-238fad1ff17a"
+      ],
+      "families": [
+        "0377db02-3af6-43b8-9b08-c759df3d25c3"
       ],
       "groups": [
         "8e209ae4-4381-438f-89dc-1b21752027d2"
       ],
       "langs": [
         "4dcf9614-7914-42aa-99f4-dbce2e059133"
+      ],
+      "origins": [
+        "938de218-5343-4865-94d3-fb33f2eaa152"
       ],
       "series": [
         "aed964e4-6cc5-43d0-8489-655aefc1782a"
@@ -51,14 +58,11 @@
         "e18ed180-8ab1-42a4-88a9-67da61c1bc4c"
       ],
       "songtypes": [
-        "42a262ae-acba-4ab5-a446-c5789c96c821"
+        "38c77c56-2b95-4040-b676-0994a8cb0597"
       ],
       "songwriters": [
         "3da90f41-38d9-4e30-aa4b-4e938a9550d4",
         "e312a7b2-0e0b-4b5d-8781-027aef37e31d"
-      ],
-      "versions": [
-        "c2143a7f-6970-450e-8a79-0302db9220a9"
       ],
       "franchises": [
         "f15afb0c-b84b-435d-9b30-bc60015f0827"
