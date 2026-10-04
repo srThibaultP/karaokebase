@@ -1,0 +1,17 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Pyrospower"
+    },
+    "name": "Pyrospower",
+    "repository": "kara.moe",
+    "tid": "1b551920-b7a6-4ea5-b6db-f358849cacc6",
+    "types": [
+      6
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "Uruka Fujikura",
+      "jpn": "藤倉ウルカ",
+      "qro": "Fujikura Uruka"
+    },
+    "name": "Uruka Fujikura",
+    "repository": "kara.moe",
+    "tid": "932466a2-24ee-481f-8490-f2ac9e4c3511",
+    "types": [
+      2
+    ]
+  }
+}
