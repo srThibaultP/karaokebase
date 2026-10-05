@@ -5,13 +5,14 @@
   },
   "tag": {
     "i18n": {
-      "eng": "UiNA"
+      "qro": "Clio Aite",
+      "jpn": "クリオ•アイティー"
     },
-    "name": "UiNA",
+    "name": "Clio Aite",
     "repository": "kara.moe",
-    "tid": "07fb24d8-4e2a-42be-beb1-a3dff2d71f8c",
+    "tid": "a4125338-f72e-49f7-920e-b8dca6babcd0",
     "types": [
-      8
+      2
     ]
   }
 }
