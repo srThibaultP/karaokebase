@@ -5,14 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "qro": "MEminori",
-      "jpn": "ミーマイナー"
+      "eng": "Ryosuke Kawashima"
     },
-    "name": "MEminori",
+    "name": "Ryosuke Kawashima",
     "repository": "kara.moe",
-    "tid": "99e7c40f-437f-47cb-b47b-8706892e444a",
+    "tid": "6dcedf61-d440-49cd-acc2-93cfe757d6da",
     "types": [
-      2
+      8
     ]
   }
 }
