@@ -5,13 +5,11 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Hyung-seok Lee",
-      "kor": "이형석",
-      "qro": "Lee Hyungseok"
+      "eng": "CS4W"
     },
-    "name": "Hyung-seok Lee",
+    "name": "CS4W",
     "repository": "kara.moe",
-    "tid": "ea02296d-6051-4489-b12d-91d16531fbaa",
+    "tid": "f15fd144-8672-4a81-92ee-88bbf17c4e1d",
     "types": [
       8
     ]

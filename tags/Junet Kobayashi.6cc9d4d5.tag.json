@@ -4,10 +4,15 @@
     "version": 1
   },
   "tag": {
+    "aliases": [
+      "JitteryJackal"
+    ],
     "i18n": {
-      "eng": "Kobayashi Junet"
+      "eng": "Junet Kobayashi",
+      "jpn": "小林樹音",
+      "qro": "Kobayashi Junet"
     },
-    "name": "Kobayashi Junet",
+    "name": "Junet Kobayashi",
     "repository": "kara.moe",
     "tid": "6cc9d4d5-61f2-4896-bb74-d5ea02549210",
     "types": [

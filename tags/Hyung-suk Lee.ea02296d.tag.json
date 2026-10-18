@@ -1,0 +1,22 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "aliases": [
+      "Hyung-seok"
+    ],
+    "i18n": {
+      "eng": "Hyung-suk Lee",
+      "kor": "이형석",
+      "qro": "Lee Hyungseok"
+    },
+    "name": "Hyung-suk Lee",
+    "repository": "kara.moe",
+    "tid": "ea02296d-6051-4489-b12d-91d16531fbaa",
+    "types": [
+      8
+    ]
+  }
+}
