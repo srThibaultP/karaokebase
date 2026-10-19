@@ -5,13 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "COVER Corp."
+      "eng": "John McGeoch"
     },
-    "name": "COVER Corp.",
+    "name": "John McGeoch",
     "repository": "kara.moe",
-    "tid": "1aebc053-740f-485f-ad49-fed7a331eb6f",
+    "tid": "7cf61c3b-52c2-4bdb-88c2-f69015d4ca4c",
     "types": [
-      4
+      8
     ]
   }
 }
