@@ -7,13 +7,13 @@
     {
       "default": true,
       "duration": 90,
-      "filename": "8e06f53c-7efb-4563-8a7d-20fa88d9fb85.mp4",
+      "filename": "a387d54d-dcee-4f9c-8f11-fe2d5a68d904.mp4",
       "filesize": 33952586,
       "loudnorm": "-7.01,1.49,5.80,-17.44,-1.16",
       "lyrics": [
         {
           "default": true,
-          "filename": "8e06f53c-7efb-4563-8a7d-20fa88d9fb85.ass",
+          "filename": "a387d54d-dcee-4f9c-8f11-fe2d5a68d904.ass",
           "version": "Default"
         }
       ],
@@ -21,15 +21,17 @@
     }
   ],
   "data": {
+    "comment": "Changements de timing, réorganisation complète des lignes 24-26 (sur le nouveau fichier) et correction des paroles : EGO to yoku to \"mirai\" \"miren\", \"honto 'kan de\" \"houtto kante\", ore ga uso tsuku mae ni \"tok' ni matagatteru\" \"tokk' ni matagattera\", \"la li la li la la\" \"la di la di la la\", \"erabenakatta shi na hinata ka ina kurayami ka docchi ka\" \"erabenakya daiji na hinata kanbi na kurayami ka docchi ka\", \"woah\" \"woh\"",
     "created_at": "2025-07-05T11:50:29.781Z",
     "ignoreHooks": false,
-    "kid": "8e06f53c-7efb-4563-8a7d-20fa88d9fb85",
-    "modified_at": "2025-07-05T12:47:15.827Z",
+    "kid": "a387d54d-dcee-4f9c-8f11-fe2d5a68d904",
+    "modified_at": "2026-11-05T15:43:01.727Z",
     "repository": "kara.moe",
     "songname": "JPN - Yofukashi no Uta Season 2 - OP - Mirage",
     "tags": {
       "authors": [
-        "c09cec89-ee7d-4471-91bf-27a4c742ad05"
+        "c09cec89-ee7d-4471-91bf-27a4c742ad05",
+        "46c42d52-7d95-4439-a429-233d167908df"
       ],
       "collections": [
         "c7db86a0-ff64-4044-9be4-66dd1ef1d1c1"

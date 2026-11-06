@@ -5,14 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "jpn": "美雨",
-      "qro": "Miu"
+      "eng": "Misatsun"
     },
-    "name": "Miu",
+    "name": "Misatsun",
     "repository": "kara.moe",
-    "tid": "1ee7c27d-bb9f-4a59-9ed3-d6a6b46ea88f",
+    "tid": "91ee8a73-897d-496f-b709-b85276787d4e",
     "types": [
-      2
+      8
     ]
   }
 }

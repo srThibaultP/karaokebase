@@ -5,14 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "chi": "我的幸福婚约",
       "eng": "My Happy Marriage",
       "jpn": "わたしの幸せな結婚",
       "qro": "Watashi no Shiawase na Kekkon"
     },
-    "name": "My Happy Marriage",
+    "name": "Watashi no Shiawase na Kekkon (Movie)",
     "repository": "kara.moe",
-    "tid": "9a7f7e28-434c-47dc-9fd9-a6e6ae117376",
+    "tid": "d8a05364-fc42-499e-82e3-3c087c30e0cf",
     "types": [
       1
     ]
