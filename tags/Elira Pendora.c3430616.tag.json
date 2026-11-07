@@ -5,11 +5,12 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Alex Lacamoire"
+      "eng": "Elira Pendora",
+      "jpn": "エリーラ ペンドラ"
     },
-    "name": "Alex Lacamoire",
+    "name": "Elira Pendora",
     "repository": "kara.moe",
-    "tid": "26d2ad3a-7d3e-4198-b034-388fb5a35b2d",
+    "tid": "c3430616-201f-4d5d-aeec-336a4ec6596d",
     "types": [
       2
     ]

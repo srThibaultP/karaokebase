@@ -1,0 +1,19 @@
+{
+  "header": {
+    "description": "Karaoke Mugen Tag File",
+    "version": 1
+  },
+  "tag": {
+    "i18n": {
+      "eng": "TIZ",
+      "kor": "티즈",
+      "jpn": "ティズ"
+    },
+    "name": "TIZ",
+    "repository": "kara.moe",
+    "tid": "2b18a522-ef93-4145-a0a9-65bef8761d69",
+    "types": [
+      2
+    ]
+  }
+}

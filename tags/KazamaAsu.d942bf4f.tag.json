@@ -5,13 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Ars-Magna"
+      "eng": "KazamaAsu"
     },
-    "name": "Ars-Magna",
+    "name": "KazamaAsu",
     "repository": "kara.moe",
-    "tid": "6fe50b73-58f5-421c-87c7-26fa6888ef97",
+    "tid": "d942bf4f-7fbe-42b9-b7a2-6220b39d5801",
     "types": [
-      2
+      6
     ]
   }
 }

@@ -5,14 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Elira Pandora",
-      "jpn": "エリーラ ペンドラ"
+      "eng": "Yoogyeong"
     },
-    "name": "Elira Pandora",
+    "name": "Yoogyeong",
     "repository": "kara.moe",
-    "tid": "c3430616-201f-4d5d-aeec-336a4ec6596d",
+    "tid": "ddc2a6db-b111-4e6a-99d4-0f4fe50f3619",
     "types": [
-      2
+      8
     ]
   }
 }
