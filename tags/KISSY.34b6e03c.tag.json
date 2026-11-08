@@ -5,13 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "KazamaAsu"
+      "eng": "KISSY"
     },
-    "name": "KazamaAsu",
+    "name": "KISSY",
     "repository": "kara.moe",
-    "tid": "d942bf4f-7fbe-42b9-b7a2-6220b39d5801",
+    "tid": "34b6e03c-f856-4eff-99d9-b375b1795459",
     "types": [
-      6
+      8
     ]
   }
 }
