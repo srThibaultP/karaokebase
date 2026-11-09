@@ -5,13 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Shiro SAGISU's Special Choir"
+      "eng": "Romain Barreau"
     },
-    "name": "Shiro SAGISU's Special Choir",
+    "name": "Romain Barreau",
     "repository": "kara.moe",
-    "tid": "a20dfe9a-7dec-46a2-9566-d9a708413b8d",
+    "tid": "bbd15f8a-60cc-427e-980a-64958ac1a5b9",
     "types": [
-      17
+      8
     ]
   }
 }
