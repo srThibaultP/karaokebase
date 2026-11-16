@@ -5,13 +5,14 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Sangatsu no Phantasia"
+      "jpn": "三月のパンタシア",
+      "qro": "Sangatsu no Phantasia"
     },
     "name": "Sangatsu no Phantasia",
     "repository": "kara.moe",
     "tid": "30ab0f77-7ff4-4cba-8e41-43108392d02b",
     "types": [
-      2
+      17
     ]
   }
 }
