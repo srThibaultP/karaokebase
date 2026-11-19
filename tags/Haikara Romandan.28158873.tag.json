@@ -5,13 +5,14 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Takahiro Koike"
+      "qro": "Haikara Romandan",
+      "jpn": "ハイカラ浪漫団"
     },
-    "name": "Takahiro Koike",
+    "name": "Haikara Romandan",
     "repository": "kara.moe",
-    "tid": "c8bcea44-f70d-402e-9185-30014e8afa45",
+    "tid": "28158873-56e4-48c4-b01d-425a70cc119b",
     "types": [
-      8
+      17
     ]
   }
 }

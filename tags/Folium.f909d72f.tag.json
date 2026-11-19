@@ -5,13 +5,13 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Spitz"
+      "eng": "Folium"
     },
-    "name": "Spitz",
+    "name": "Folium",
     "repository": "kara.moe",
-    "tid": "d65e42f2-6b03-490f-907c-706dde906a99",
+    "tid": "f909d72f-413f-442f-93ff-f7e7e654e86d",
     "types": [
-      8
+      4
     ]
   }
 }

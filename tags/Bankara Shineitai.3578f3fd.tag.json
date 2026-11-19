@@ -5,13 +5,14 @@
   },
   "tag": {
     "i18n": {
-      "eng": "Masamune Kusano"
+      "qro": "Bankara Shineitai",
+      "jpn": "蛮華羅新鋭隊"
     },
-    "name": "Masamune Kusano",
+    "name": "Bankara Shineitai",
     "repository": "kara.moe",
-    "tid": "545a0a72-1cd7-4a09-82ee-94203f23dcbe",
+    "tid": "3578f3fd-ece9-4a17-b138-e8373362387b",
     "types": [
-      8
+      17
     ]
   }
 }
